@@ -35,6 +35,7 @@
           },
           "configurations": {
             "production": {
+              "deployUrl": "/flashcards/",
               "budgets": [
                 {
                   "type": "initial",
