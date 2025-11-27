@@ -35,7 +35,7 @@ export class App {
   llm = inject(AiWordGenerationService);
   staticVocab = inject(StaticVocabularyService);
 
-  useStatic = signal(false);
+  useStatic = signal(true);
   selectedDifficulty = signal<number | null>(null);
   isLoading = false;
   inputControl = new FormControl('');

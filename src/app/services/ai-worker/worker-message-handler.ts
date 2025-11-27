@@ -38,7 +38,7 @@ export class WorkerMessageHandler {
             // STRATEGY UPDATE 1: Tweak prompt to ensure 'Sentence' is descriptive enough to provide context
             const prompt = `Generate exactly ${count} vocabulary learning examples for the theme "${theme}".
 ${difficultyInstruction}
-Crucial: The 'Sentence' must clearly demonstrate the meaning of the 'Vocabulary' word. The 'Vocabulary' word should be exactly a single word or phrase, no multiple words after commas.
+Crucial: The 'Sentence' must clearly demonstrate the meaning of the 'Vocabulary' word. The 'Vocabulary' word should be exactly a single word or phrase, not multiple words after commas.
 
 Format (repeat exactly for each example):
 Difficulty: [beginner/intermediate/advanced]
@@ -68,7 +68,7 @@ Now generate exactly ${count} examples for theme "${theme}"${difficulty ? ` at $
             console.log('AI Prompt:', prompt);
 
             const output = await generator(messages, {
-                max_new_tokens: 500, // Increased slightly to ensure full JSON/format completion
+                max_new_tokens: 750, // Increased slightly to ensure full JSON/format completion
                 temperature: 0.7,
                 do_sample: true
             });
