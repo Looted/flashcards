@@ -16,6 +16,16 @@ Design patterns in use:
 - Signal-based reactivity: Using signals, computed, and effects for state management.
 - Component composition: Building complex UIs from reusable standalone components.
 - Service injection: Using inject() function for dependency injection in components and services.
+- Modular worker architecture: AI worker split into focused modules (models, parsing, message handling) for better testability and maintainability.
+- Singleton pattern: AI model pipelines use lazy-loaded singletons to avoid redundant initialization.
+
+Testing patterns:
+- Mock external dependencies: Use vi.mock() to isolate units from external libraries (transformers.js, browser APIs).
+- Pipeline mocking strategy: Mock Hugging Face transformers pipeline with task-specific return values for AI testing.
+- Singleton reset: Clear singleton instances between tests to ensure test isolation.
+- Progress callback testing: Mock progress_callback parameters in pipeline options for async operation testing.
+- Device compatibility: Use CPU fallback for AI models in test environments when WebGPU is unavailable.
+- Error scenario coverage: Test various error conditions including device support, network failures, and invalid inputs.
 
 Component relationships:
 - App (root standalone component) -> Header, MainContent

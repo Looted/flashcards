@@ -20,6 +20,7 @@ Technical constraints:
 - Data limits: LocalStorage ~5-10MB per origin; plan for IndexedDB if needed
 - Offline functionality: Service workers for caching (future enhancement)
 - Performance: Aim for <100ms response times for UI interactions using OnPush change detection
+- AI device compatibility: WebGPU acceleration preferred for production, CPU fallback required for testing environments
 
 Dependencies:
 - Core: @angular/core, @angular/common, @angular/router, @angular/forms
