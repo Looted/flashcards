@@ -1,0 +1,106 @@
+<!-- Fiszki - Polish English Learning App -->
+
+<div class="min-h-screen bg-gradient-to-br from-blue-50 to-indigo-100 flex items-center justify-center p-4">
+  <div class="max-w-md w-full bg-white rounded-2xl shadow-xl p-8">
+    <!-- App Header -->
+    <div class="text-center mb-8">
+      <h1 class="text-4xl font-bold text-gray-800 mb-2">📚 Fiszki</h1>
+      <p class="text-gray-600">Polish-English Vocabulary Learning</p>
+    </div>
+
+    <!-- Theme Selection -->
+    <div class="mb-6">
+      <label class="block text-sm font-medium text-gray-700 mb-3">
+        Choose a theme for your words:
+      </label>
+      <div class="grid grid-cols-2 gap-3">
+        <button
+          class="p-4 border-2 border-gray-200 rounded-lg hover:border-blue-400 hover:bg-blue-50 transition-colors duration-200 flex flex-col items-center"
+          (click)="selectTheme('IT')">
+          <span class="text-2xl mb-2">💻</span>
+          <span class="text-sm font-medium">IT</span>
+        </button>
+        <button
+          class="p-4 border-2 border-gray-200 rounded-lg hover:border-blue-400 hover:bg-blue-50 transition-colors duration-200 flex flex-col items-center"
+          (click)="selectTheme('HR')">
+          <span class="text-2xl mb-2">👥</span>
+          <span class="text-sm font-medium">HR</span>
+        </button>
+        <button
+          class="p-4 border-2 border-gray-200 rounded-lg hover:border-blue-400 hover:bg-blue-50 transition-colors duration-200 flex flex-col items-center"
+          (click)="selectTheme('Business')">
+          <span class="text-2xl mb-2">💼</span>
+          <span class="text-sm font-medium">Business</span>
+        </button>
+        <button
+          class="p-4 border-2 border-gray-200 rounded-lg hover:border-blue-400 hover:bg-blue-50 transition-colors duration-200 flex flex-col items-center"
+          (click)="selectTheme('Medical')">
+          <span class="text-2xl mb-2">🏥</span>
+          <span class="text-sm font-medium">Medical</span>
+        </button>
+      </div>
+    </div>
+
+    <!-- Selected Theme Display -->
+    @if (selectedTheme()) {
+      <div class="mb-6 p-4 bg-blue-50 border border-blue-200 rounded-lg">
+        <p class="text-sm text-blue-800">
+          <span class="font-medium">Selected theme:</span> {{ selectedTheme() }}
+        </p>
+      </div>
+    }
+
+    <!-- Mode Selection -->
+    <div class="mb-8">
+      <label class="block text-sm font-medium text-gray-700 mb-3">
+        Choose learning mode:
+      </label>
+      <div class="space-y-3">
+        <button
+          class="w-full p-4 border-2 border-gray-200 rounded-lg hover:border-green-400 hover:bg-green-50 transition-colors duration-200 text-left"
+          (click)="selectMode('new')">
+          <div class="flex items-center">
+            <span class="text-2xl mr-3">🆕</span>
+            <div>
+              <div class="font-medium text-gray-900">New Words</div>
+              <div class="text-sm text-gray-600">Generate fresh vocabulary</div>
+            </div>
+          </div>
+        </button>
+        <button
+          class="w-full p-4 border-2 border-gray-200 rounded-lg hover:border-orange-400 hover:bg-orange-50 transition-colors duration-200 text-left"
+          (click)="selectMode('practice')">
+          <div class="flex items-center">
+            <span class="text-2xl mr-3">🔄</span>
+            <div>
+              <div class="font-medium text-gray-900">Practice Mistakes</div>
+              <div class="text-sm text-gray-600">Review words you got wrong</div>
+            </div>
+          </div>
+        </button>
+      </div>
+    </div>
+
+    <!-- Start Learning Button -->
+    @if (selectedTheme() && selectedMode()) {
+      <button
+        class="w-full bg-gradient-to-r from-blue-500 to-indigo-600 text-white font-medium py-3 px-6 rounded-lg hover:from-blue-600 hover:to-indigo-700 transition-all duration-200 transform hover:scale-105 shadow-lg"
+        (click)="startLearning()">
+        🚀 Start Learning
+      </button>
+    }
+
+    <!-- Info Section -->
+    <div class="mt-8 p-4 bg-gray-50 rounded-lg">
+      <h3 class="text-sm font-medium text-gray-800 mb-2">How it works:</h3>
+      <ul class="text-xs text-gray-600 space-y-1">
+        <li>• Round 1: English → Polish recognition</li>
+        <li>• Round 2: Polish → English recognition</li>
+        <li>• Round 3: Polish → English typing</li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+<!-- Router outlet for displaying routed components -->
+<router-outlet></router-outlet>
