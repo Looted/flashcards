@@ -7,7 +7,8 @@ Technologies used:
 - Styling: Custom CSS with utility classes for responsive design
 - State management: Angular signals for reactive state management
 - Forms: Reactive forms for complex form handling
-- PWA: Angular PWA package with service workers for offline functionality, web app manifest for installability
+- PWA: Angular PWA package with service workers for offline functionality, web app manifest for installability, custom install button with beforeinstallprompt event handling, SSR-compatible browser detection
+- Data persistence: VocabularyStatsService with localStorage for tracking word performance, mastery levels, and learning statistics across sessions
 
 Development setup:
 - Node.js 18+ and npm for package management

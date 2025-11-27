@@ -1,4 +1,5 @@
-import { Injectable, signal, computed } from '@angular/core';
+import { Injectable, signal, computed, inject } from '@angular/core';
+import { VocabularyStatsService } from './services/vocabulary-stats.service';
 
 // --- MODELS ---
 export interface Flashcard {
@@ -15,6 +16,8 @@ export type RoundType = 'RECOGNIZE_EN' | 'RECOGNIZE_PL' | 'WRITE_EN';
 // --- GAME STORE SERVICE (Signals) ---
 @Injectable({ providedIn: 'root' })
 export class GameStore {
+  private statsService = inject(VocabularyStatsService);
+
   // State Signals
   phase = signal<GamePhase>('MENU');
   currentRound = signal<RoundType>('RECOGNIZE_EN');
@@ -48,6 +51,9 @@ export class GameStore {
   handleAnswer(correct: boolean) {
     const card = this.currentCard();
     if (!card) return;
+
+    // Record the encounter in stats
+    this.statsService.recordEncounter(card.english, card.polish, card.category, correct);
 
     if (!correct) {
       this.wrongAnswers.update(ids => [...ids, card.id]);

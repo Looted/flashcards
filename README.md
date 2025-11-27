@@ -11,6 +11,7 @@ An efficient flashcard application designed to help Polish users learn and memor
   - Polish → English typing practice
 - **Themed Decks**: Create custom decks for different themes (IT, HR, etc.) with difficulty levels
 - **Progress Tracking**: Saves learned words and tracks mistakes for focused review
+- **Vocabulary Statistics**: Persistent tracking of word performance across sessions with mastery levels and learning analytics
 - **Progressive Web App**: Installable, offline-capable with service workers
 - **Modern Angular**: Built with Angular v20+ signals, standalone components, and OnPush change detection
 - **Responsive Design**: Works seamlessly across desktop and mobile devices
@@ -144,9 +145,27 @@ npm run test -- --no-watch --no-progress --include=src/app/app.spec.*
 
 This app is built as a PWA and can be installed on devices:
 
-1. The app works offline thanks to service workers
-2. Installable as a native app on supported devices
-3. Fast loading with optimized caching strategies
+### Installation Features
+- **Install Button**: Custom "Install" button appears in the app header when the PWA is installable
+- **Native App Experience**: Once installed, appears alongside platform-specific apps with custom icon
+- **Standalone Mode**: Launches as a standalone app without browser UI elements
+- **Cross-Platform**: Works on desktop (Chrome, Edge, Safari) and mobile (Android, iOS)
+
+### Offline Capabilities
+- **Service Workers**: Automatic caching of app resources and static vocabulary data
+- **Offline-First**: Core functionality works without internet connection
+- **Fast Loading**: Optimized caching strategies for improved performance
+
+### Browser Support
+- **Desktop**: Chrome, Microsoft Edge, Safari (macOS Sonoma 14+)
+- **Android**: Chrome, Firefox, Samsung Internet, Opera
+- **iOS**: Safari, Chrome, Edge, Firefox (iOS 16.4+)
+
+### Technical Implementation
+- **Web App Manifest**: Complete manifest with icons, display mode, and installation criteria
+- **Service Worker**: Angular PWA package with custom caching configuration
+- **Install Prompt**: Custom handling of `beforeinstallprompt` event for seamless installation
+- **SSR Compatible**: Proper browser detection to avoid server-side rendering issues
 
 ## 🤝 Contributing
 
