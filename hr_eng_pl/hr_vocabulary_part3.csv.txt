@@ -1,0 +1,136 @@
+English,Polish,Difficulty
+To be swamped,Być zawalonym (pracą),2
+To burn the midnight oil,Pracować do późna w nocy,2
+To call the shots,Podejmować decyzje / Rządzić,2
+To climb the corporate ladder,Piąć się po szczeblach kariery,2
+To get a foot in the door,Zaczepić się / Zdobyć pierwszą szansę,2
+To go the extra mile,Dawać z siebie więcej,2
+To hit the ground running,Od razu zacząć z impetem,2
+To learn the ropes,Uczyć się fachu,2
+To pull your weight,Przykładać się do pracy,2
+To rock the boat,Robić zamieszanie,2
+A steep learning curve,Szybka i trudna nauka,2
+To touch base,Skontaktować się,1
+To wear many hats,Pełnić wiele funkcji,2
+Across the board,Dla wszystkich,2
+By the book,Zgodnie z przepisami,2
+To get the sack,Zostać wylanym z pracy,2
+To give someone a heads-up,Dać komuś znać z wyprzedzeniem,1
+To stay ahead of the curve,Wyprzedzać konkurencję,3
+To think outside the box,Myśleć nieszablonowo,2
+To throw in the towel,Poddawać się,2
+Back to the drawing board,Zacząć od nowa,2
+Ballpark figure,Liczba orientacyjna,3
+Cutting edge,Nowoczesny / Innowacyjny,2
+Gray area,Szara strefa,2
+Red tape,Biurokracja,2
+Win-win situation,Sytuacja korzystna dla obu stron,1
+Burnout,Wypalenie zawodowe,2
+Mental health,Zdrowie psychiczne,1
+Morale,Morale / Morale pracowników,2
+Stress management,Zarządzanie stresem,2
+Well-being,Dobre samopoczucie / Dobrostan,2
+Work ethic,Etyka pracy,2
+Job satisfaction,Satysfakcja z pracy,2
+Employee assistance program,Program pomocy dla pracowników,3
+Occupational health,Medycyna pracy,3
+Safety regulations,Przepisy bezpieczeństwa,2
+Wellbeing program,Program wellbeingowy,2
+Workplace safety,Bezpieczeństwo w miejscu pracy,2
+Toxic workplace,Toksyczne środowisko pracy,2
+Psychological contract,Kontrakt psychologiczny,3
+Autonomy,Autonomia,2
+Recognition,Uznanie / Docenianie,2
+Empowerment,Upodmiotowienie / Wzmocnienie,3
+Job enrichment,Wzbogacanie pracy,3
+Job rotation,Rotacja stanowisk,2
+Job shadowing,Obserwowanie pracy,3
+Lateral move,Ruch boczny (zmiana bez awansu),3
+Promotion track,Ścieżka awansu,2
+Glass ceiling,Szklany sufit (bariery awansu),3
+Golden handshake,Złoty uścisk dłoni (wysoka odprawa),3
+Golden parachute,Złoty spadochron (pakiet dla odchodzącego menedżera),3
+Exit interview,Rozmowa pożegnalna,2
+Outplacement,Doradztwo dla zwalnianych pracowników,3
+Talent pool,Pula talentów,2
+Talent retention,Utrzymanie talentów,3
+High potential,Wysoki potencjał,2
+Succession candidate,Kandydat do sukcesji,3
+Fast track,Przyspieszona ścieżka rozwoju,2
+Career counseling,Doradztwo zawodowe,2
+Competency framework,Rama kompetencyjna,3
+360-degree feedback,Ocena 360 stopni,3
+Performance improvement plan,Plan poprawy wydajności,3
+Underperformance,Niska wydajność,2
+Disciplinary hearing,Przesłuchanie dyscyplinarne,3
+Formal warning,Formalne upomnienie,2
+Written warning,Pisemne upomnienie,2
+Final warning,Ostateczne ostrzeżenie,2
+Gross misconduct,Rażące naruszenie obowiązków,3
+Suspension,Zawieszenie,2
+Insubordination,Niesubordynacja,3
+Falsification,Fałszowanie (dokumentów),3
+Embezzlement,Defraudacja / Sprzeniewierzenie,3
+Fraud,Oszustwo,2
+Theft,Kradzież,1
+Absenteeism rate,Wskaźnik absencji,3
+Presenteeism,Prezenteizm (obecność mimo choroby),3
+Sickness absence,Nieobecność chorobowa,2
+Long-term absence,Długotrwała nieobecność,2
+Return to work,Powrót do pracy,2
+Fit note,Zaświadczenie lekarskie o zdolności do pracy,3
+Medical certificate,Zaświadczenie lekarskie,2
+Occupational physician,Lekarz medycyny pracy,3
+Work-related injury,Uraz związany z pracą,2
+Accident report,Raport wypadku,2
+Near miss,Sytuacja potencjalnie niebezpieczna,3
+Risk assessment,Ocena ryzyka,2
+Hazard,Zagrożenie,2
+PPE (Personal Protective Equipment),Środki ochrony osobistej,3
+Emergency procedure,Procedura awaryjna,2
+Evacuation drill,Ćwiczenia ewakuacyjne,2
+First aid,Pierwsza pomoc,1
+Health and safety officer,Inspektor BHP,2
+Incident,Incydent,1
+Company car,Samochód służbowy,1
+Gym membership,Karta na siłownię,1
+Meal vouchers,Bony żywieniowe,2
+Childcare support,Wsparcie w opiece nad dziećmi,2
+Education allowance,Dodatek edukacyjny,2
+Relocation package,Pakiet relokacyjny,2
+Housing allowance,Dodatek mieszkaniowy,2
+Travel allowance,Dodatek na dojazdy,2
+Mobile phone,Telefon służbowy,1
+Laptop,Laptop,1
+Uniform,Mundur / Uniform,1
+Tool allowance,Dodatek na narzędzia,2
+Professional membership,Członkostwo w organizacji zawodowej,3
+Flexible working hours,Elastyczne godziny pracy,2
+Compressed workweek,Skompresowany tydzień pracy,3
+Flextime,Ruchomy czas pracy,2
+Telecommuting,Telepraca,2
+Sabbatical,Urlop naukowy / Sabbatical,3
+Unpaid leave,Urlop bezpłatny,2
+Compassionate leave,Urlop okolicznościowy,2
+Bereavement leave,Urlop żałobny,2
+Study leave,Urlop szkoleniowy,2
+Career break,Przerwa w karierze,2
+Job seeker,Poszukujący pracy,1
+Employment gap,Przerwa w zatrudnieniu,2
+Career change,Zmiana kariery,2
+Transferable skills,Umiejętności transferowalne,3
+Overqualified,Przekwalifikowany,2
+Underqualified,Niedokwalifikowany,2
+Entry-level,Poziom podstawowy / Dla początkujących,1
+Mid-level,Poziom średni,1
+Senior-level,Poziom senioralny,1
+Executive,Dyrektor / Manager wyższego szczebla,2
+C-suite,Najwyższe kierownictwo (CEO itd.),3
+Shareholder,Akcjonariusz,2
+Board member,Członek zarządu,2
+Statutory,Ustawowy,3
+Mandatory,Obowiązkowy,2
+Optional,Opcjonalny,1
+Voluntary,Dobrowolny,1
+Confidential,Poufny,2
+Classified,Tajny / Niejawny,3
