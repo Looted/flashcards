@@ -19,48 +19,49 @@ export class WorkerMessageHandler {
 
         try {
             // Step 1: Generate English words only
-            const generator = await TextGenerationSingleton.getInstance((x: any) => {
+            const generator = await TextGenerationSingleton.getInstance(x => {
                 self.postMessage({ ...x, step: 'generating' });
             });
 
             // STRATEGY UPDATE 1: Tweak prompt to ensure 'Sentence' is descriptive enough to provide context
-            const prompt = `Generate ${count} vocabulary learning examples for the theme "${theme}".
-Each example must be a distinct scene.
-Crucial: The 'Sentence' must clearly demonstrate the meaning of the 'Vocabulary' word.
+            const prompt = `Generate exactly ${count} vocabulary learning examples for the theme "${theme}".
+Crucial: The 'Sentence' must clearly demonstrate the meaning of the 'Vocabulary' word. The vocabulary word should always be a single word or phrase.
 
-Format:
-Scene: [brief description]
+Format (repeat exactly for each example):
 Sentence: [complete sentence]
 Vocabulary: [word from the sentence]
 
 Examples:
-Scene: Employment termination
 Sentence: The bad employee was fired from his job.
 Vocabulary: fired
 
-Scene: Weapon usage
 Sentence: The soldier fired his rifle at the target.
 Vocabulary: fired
 
-Theme: ${theme}
-Generate exactly ${count} examples:`;
+Sentence: Company really cares about employee work-life balance.
+Vocabulary: work-life balance
+
+Now generate exactly ${count} examples for theme "${theme}":`;
 
             const messages = [
                 { role: "system", content: "You are an expert English teacher. Generate clear, context-rich vocabulary examples." },
                 { role: "user", content: prompt }
             ];
 
+            console.log('AI Prompt:', prompt);
+
             const output = await generator(messages, {
-                max_new_tokens: 500, // Increased slightly to ensure full JSON/format completion
+                max_new_tokens: 750, // Increased slightly to ensure full JSON/format completion
                 temperature: 0.7,
                 do_sample: true
             });
 
             const generatedText = (output as any)[0].generated_text.at(-1).content;
+            console.log('AI Raw Response:', generatedText);
             const examples: Example[] = TextParser.parseExamples(generatedText);
 
             // Step 2: Translate with Context Injection
-            const translator = await TranslationSingleton.getInstance((x: any) => {
+            const translator = await TranslationSingleton.getInstance(x => {
                 self.postMessage({ ...x, step: 'translating' });
             });
 

@@ -2,6 +2,12 @@ import { Injectable, Inject, PLATFORM_ID } from '@angular/core';
 import { isPlatformBrowser } from '@angular/common';
 import { createAiWorker } from './ai-worker';
 
+export interface AIProgress {
+  step: 'loading_model';
+  progress?: number; // 0-100
+  message?: string;
+}
+
 @Injectable({
   providedIn: 'root'
 })
@@ -9,46 +15,57 @@ export class AiWordGenerationService {
 
   constructor(@Inject(PLATFORM_ID) private platformId: Object) {}
 
-  async generateWords(theme: string, count: number = 10, progressCallback?: (x: any) => void): Promise<{english: string, polish: string}[]> {
-    // Check if we're running in the browser (not SSR)
+  // Add progressCallback parameter
+  async generateWords(
+    theme: string,
+    count: number = 10,
+    progressCallback?: (info: AIProgress) => void
+  ): Promise<{english: string, polish: string}[]> {
+
     if (!isPlatformBrowser(this.platformId)) {
       console.log('Skipping AI word generation during SSR, using fallback words');
       return this.getFallbackWords(theme, count);
     }
+
     return new Promise((resolve, reject) => {
       try {
         console.log('Creating AI worker for word generation...');
         const worker = createAiWorker();
 
-        // Handle progress updates
-        if (progressCallback) {
-          worker.addEventListener('message', (event) => {
-            const data = event.data;
-            if (data.status === 'complete') {
-              worker.terminate();
-              resolve(data.pairs);
-            } else {
-              // Forward progress updates
-              progressCallback(data);
-            }
-          });
-        } else {
-          worker.addEventListener('message', (event) => {
-            const data = event.data;
-            if (data.status === 'complete') {
-              worker.terminate();
-              resolve(data.pairs);
-            }
-          });
-        }
+        worker.addEventListener('message', (event) => {
+          const data = event.data;
 
-        // Handle errors
+          // Handle completion
+          if (data.status === 'complete') {
+            worker.terminate();
+            resolve(data.pairs);
+            return;
+          }
+
+          // Handle error
+          if (data.status === 'error') {
+             worker.terminate();
+             reject(new Error(data.error));
+             return;
+          }
+
+          // Handle progress updates (custom step messages from worker)
+          if (progressCallback && (data.status === 'progress')) {
+             // Map worker internal structure to our UI interface
+             // Worker sends: { status: 'progress', progress: 45, ... }
+             progressCallback({
+                step: 'loading_model',
+                progress: data.progress, // Ensure your worker sends this numeric value if available
+                message: 'Loading model...'
+             });
+          }
+        });
+
         worker.addEventListener('error', (error) => {
           worker.terminate();
           reject(error);
         });
 
-        // Send request to worker
         worker.postMessage({ theme, count });
 
       } catch (error) {

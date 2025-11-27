@@ -142,8 +142,8 @@ describe('WorkerMessageHandler', () => {
       }]);
 
       const mockTranslator = vi.fn()
-        .mockResolvedValueOnce([{ translation_text: 'test1-polish' }])
-        .mockResolvedValueOnce([{ translation_text: 'test2-polish' }]);
+        .mockResolvedValueOnce([{ translation_text: 'Test sentence 1 === test1-polish' }])
+        .mockResolvedValueOnce([{ translation_text: 'Test sentence 2 === test2-polish' }]);
 
       (pipeline as any).mockImplementation((task: string) => {
         if (task === 'text-generation') return mockGenerator;

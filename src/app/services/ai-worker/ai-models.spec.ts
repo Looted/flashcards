@@ -17,7 +17,7 @@ describe('TextGenerationSingleton', () => {
 
   it('should have correct static properties', () => {
     expect(TextGenerationSingleton.task).toBe('text-generation');
-    expect(TextGenerationSingleton.model).toBe('onnx-community/granite-4.0-micro-ONNX-web');
+    expect(TextGenerationSingleton.model).toBe('HuggingFaceTB/SmolLM2-360M-Instruct');
   });
 
   it('should return the same instance on multiple calls', async () => {
@@ -43,10 +43,9 @@ describe('TextGenerationSingleton', () => {
 
     await TextGenerationSingleton.getInstance(mockProgressCallback);
 
-    expect(mockPipeline).toHaveBeenCalledWith('text-generation', 'onnx-community/granite-4.0-micro-ONNX-web', {
+    expect(mockPipeline).toHaveBeenCalledWith('text-generation', 'HuggingFaceTB/SmolLM2-360M-Instruct', {
       device: 'webgpu',
-      progress_callback: mockProgressCallback,
-      dtype: "q4f16"
+      progress_callback: mockProgressCallback
     });
   });
 });

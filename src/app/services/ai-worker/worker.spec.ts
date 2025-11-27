@@ -1,4 +1,4 @@
-import { describe, it, expect, vi, beforeEach } from 'vitest';
+import { describe, it, expect, vi } from 'vitest';
 
 // Mock the worker-message-handler module
 vi.mock('./worker-message-handler', () => ({
@@ -8,24 +8,21 @@ vi.mock('./worker-message-handler', () => ({
 }));
 
 describe('Worker', () => {
-  beforeEach(() => {
-    vi.clearAllMocks();
-  });
+  it('should set up message event listener', async () => {
+    // Mock self.addEventListener
+    const mockAddEventListener = vi.fn();
+    global.self = {
+      addEventListener: mockAddEventListener
+    } as any;
 
-  it('should set up message event listener on import', async () => {
     // Import the worker module to trigger the event listener setup
     await import('./worker');
 
-    // The worker module should have set up an event listener
-    // We verify this by checking that the module imported successfully
-    expect(true).toBe(true);
-  });
+    // Verify that addEventListener was called with 'message' event
+    expect(mockAddEventListener).toHaveBeenCalledWith('message', expect.any(Function));
 
-  it('should import worker-message-handler', async () => {
-    const { WorkerMessageHandler } = await import('./worker-message-handler');
-
-    // Verify that the WorkerMessageHandler is available and has the expected method
-    expect(WorkerMessageHandler).toBeDefined();
-    expect(typeof WorkerMessageHandler.handleMessage).toBe('function');
+    // Verify that the event listener is a function
+    const eventListener = mockAddEventListener.mock.calls[0][1];
+    expect(typeof eventListener).toBe('function');
   });
 });

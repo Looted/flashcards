@@ -4,8 +4,7 @@ import { TextParser, Example } from './text-parser';
 describe('TextParser', () => {
   describe('parseExamples', () => {
     it('should parse a single example correctly', () => {
-      const input = `Scene: Office worker explaining daily routine
-Sentence: I use a computer every day to complete my tasks.
+      const input = `Sentence: I use a computer every day to complete my tasks.
 Vocabulary: computer`;
 
       const result = TextParser.parseExamples(input);
@@ -19,15 +18,12 @@ Vocabulary: computer`;
     });
 
     it('should parse multiple examples correctly', () => {
-      const input = `Scene: Office worker explaining daily routine
-Sentence: I use a computer every day to complete my tasks.
+      const input = `Sentence: I use a computer every day to complete my tasks.
 Vocabulary: computer
 
-Scene: Developer discussing productivity tools
 Sentence: The software helps me work efficiently and saves time.
 Vocabulary: software
 
-Scene: Student researching online
 Sentence: I browse the internet for information and news.
 Vocabulary: internet`;
 
@@ -52,11 +48,9 @@ Vocabulary: internet`;
     it('should filter out theme and generate lines', () => {
       const input = `Theme: IT
 Generate exactly 2 examples in this format:
-Scene: Office worker explaining daily routine
 Sentence: I use a computer every day to complete my tasks.
 Vocabulary: computer
 
-Scene: Developer discussing productivity tools
 Sentence: The software helps me work efficiently and saves time.
 Vocabulary: software`;
 
@@ -88,24 +82,21 @@ Generate exactly 2 examples in this format:`;
     });
 
     it('should handle incomplete examples (missing vocabulary)', () => {
-      const input = `Scene: Office worker explaining daily routine
-Sentence: I use a computer every day to complete my tasks.`;
+      const input = `Sentence: I use a computer every day to complete my tasks.`;
 
       const result = TextParser.parseExamples(input);
       expect(result).toEqual([]);
     });
 
     it('should handle incomplete examples (missing sentence)', () => {
-      const input = `Scene: Office worker explaining daily routine
-Vocabulary: computer`;
+      const input = `Vocabulary: computer`;
 
       const result = TextParser.parseExamples(input);
       expect(result).toEqual([]);
     });
 
     it('should trim whitespace from lines', () => {
-      const input = `  Scene:   Office worker explaining daily routine
-  Sentence:   I use a computer every day to complete my tasks.
+      const input = `  Sentence:   I use a computer every day to complete my tasks.
   Vocabulary:   computer  `;
 
       const result = TextParser.parseExamples(input);
@@ -120,14 +111,13 @@ Vocabulary: computer`;
 
     it('should handle examples with extra whitespace and newlines', () => {
       const input = `
-Scene: Office worker explaining daily routine
 
 Sentence: I use a computer every day to complete my tasks.
 
 Vocabulary: computer
 
 
-Scene: Developer discussing productivity tools
+
 Sentence: The software helps me work efficiently and saves time.
 Vocabulary: software
 `;

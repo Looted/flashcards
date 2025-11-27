@@ -1,4 +1,4 @@
-import { ChangeDetectionStrategy, Component, OnInit, AfterViewInit, signal } from '@angular/core';
+import { ChangeDetectionStrategy, Component, OnInit, AfterViewInit, signal, computed } from '@angular/core';
 import { AiWordGenerationService } from './services/ai-word-generation';
 import { CommonModule } from '@angular/common';
 import { ActivatedRoute } from '@angular/router';
@@ -23,6 +23,14 @@ export class LearningComponent implements OnInit, AfterViewInit {
   protected readonly isGenerating = signal(false);
   protected readonly selectedTheme = signal<string>('IT');
   protected readonly selectedMode = signal<'new' | 'practice'>('new');
+
+  protected readonly progress = computed(() => {
+    const total = this.words().length;
+    if (total === 0) return 0;
+    const progressValue = (this.currentIndex() / total) * 100;
+    console.log('Progress:', progressValue + '%');
+    return progressValue;
+  });
 
   constructor(
     private aiService: AiWordGenerationService,
@@ -65,10 +73,7 @@ export class LearningComponent implements OnInit, AfterViewInit {
     return this.currentIndex() >= this.words().length - 1;
   }
 
-  get progress(): number {
-    if (this.words().length === 0) return 0;
-    return ((this.currentIndex() + 1) / this.words().length) * 100;
-  }
+
 
   revealTranslation() {
     this.showTranslation.set(true);
@@ -91,6 +96,29 @@ export class LearningComponent implements OnInit, AfterViewInit {
     } else {
       // TODO: Handle completion
       alert('Learning session complete!');
+    }
+  }
+
+  async selectTopic(topic: string) {
+    this.isGenerating.set(true);
+
+    try {
+      const cards = await this.aiService.generateWords(topic, 20, (info) => {
+        // 1. Sanitize the incoming progress value
+        // If info.progress is undefined/null/NaN, default to 0
+        const rawProgress = Number.isFinite(info.progress) ? info.progress! : 0;
+
+        // Log sanitized progress for debugging
+        console.log(`Sanitized progress for ${info.step}: ${rawProgress}%`);
+      });
+
+      this.words.set(cards);
+
+    } catch (err) {
+      console.error('Failed to select topic:', err);
+      // No fallback words - let it fail to test the worker
+    } finally {
+      this.isGenerating.set(false);
     }
   }
 }
