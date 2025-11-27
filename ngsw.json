@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1764247541858,
+  "timestamp": 1764247556045,
   "index": "/index.csr.html",
   "assetGroups": [
     {
@@ -10,7 +10,15 @@
       "cacheQueryOptions": {
         "ignoreVary": true
       },
-      "urls": [],
+      "urls": [
+        "/favicon.ico",
+        "/index.csr.html",
+        "/index.html",
+        "/main-6DJ3BDI5.js",
+        "/manifest.webmanifest",
+        "/styles-VZ3KKS4B.css",
+        "/worker-CIDOVL3H.js"
+      ],
       "patterns": []
     },
     {
@@ -39,12 +47,22 @@
       "cacheQueryOptions": {
         "ignoreVary": true
       },
-      "urls": [],
+      "urls": [
+        "/hr_eng_pl/hr_vocabulary_list_sample.csv",
+        "/hr_eng_pl/hr_vocabulary_part2_fixed.csv",
+        "/hr_eng_pl/hr_vocabulary_part3.csv.txt",
+        "/hr_eng_pl/vocabulary.json"
+      ],
       "patterns": []
     }
   ],
   "dataGroups": [],
   "hashTable": {
+    "/favicon.ico": "9c39f434fe1261f68c5e3eefdf734630d99c5670",
+    "/hr_eng_pl/hr_vocabulary_list_sample.csv": "0fa6260526fcea2ad3a1162e04af630205999bc2",
+    "/hr_eng_pl/hr_vocabulary_part2_fixed.csv": "e0cdf39c4ba2e2a63bfee249656f8ef6702c339c",
+    "/hr_eng_pl/hr_vocabulary_part3.csv.txt": "3571e499c56cb43110f33a3123910b1dc766f94d",
+    "/hr_eng_pl/vocabulary.json": "2e963c4075c97beb958f01f1a291624dfa706273",
     "/icons/icon-128x128.png": "f912963bdc6d5a38d8f1dd0afbaab2ce8d657acb",
     "/icons/icon-144x144.png": "b155fd5f2fd5d2ea7760721063003c4cd95fd783",
     "/icons/icon-152x152.png": "eae6e0f0c8afb8aaae339e2a569b43e9238e5e6c",
@@ -52,7 +70,13 @@
     "/icons/icon-384x384.png": "94a915751ef6c9282df9aea405ad679230631814",
     "/icons/icon-512x512.png": "1de182f76f7329dfa8f9fcdd1fdcdd695bea6a99",
     "/icons/icon-72x72.png": "aa88a6096bd973be7f6d7a5489bfa6bc2463f8c4",
-    "/icons/icon-96x96.png": "7fb8f59c30ce2ff12c700321a0b39e14b3dc8f95"
+    "/icons/icon-96x96.png": "7fb8f59c30ce2ff12c700321a0b39e14b3dc8f95",
+    "/index.csr.html": "18de79662d795612fd7d1008bf12afb31d866227",
+    "/index.html": "646e2037a3bccbfc7756cf5e0e9a9d36ca23cf90",
+    "/main-6DJ3BDI5.js": "61636037d41046b4f33ac4bdef90761a5944ff3b",
+    "/manifest.webmanifest": "95547c95d69e00ded1103930cc96b5f14f206de8",
+    "/styles-VZ3KKS4B.css": "32536bbcd181846ad694f8014ff20e304ee83c19",
+    "/worker-CIDOVL3H.js": "7c4547944d928aa398a3b9da9e5a2997272a45d6"
   },
   "navigationUrls": [
     {
