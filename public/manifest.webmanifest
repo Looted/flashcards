@@ -3,8 +3,8 @@
   "short_name": "Flashcards",
   "description": "Learn languages with AI-powered flashcards",
   "display": "standalone",
-  "scope": "./",
-  "start_url": "./",
+  "scope": "/flashcards/",
+  "start_url": "/flashcards/",
   "theme_color": "#ffffff",
   "background_color": "#ffffff",
   "icons": [

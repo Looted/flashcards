@@ -66,6 +66,51 @@ ng build
 
 The build artifacts will be stored in the `dist/` directory.
 
+## 🚀 Deployment to GitHub Pages
+
+This app is configured for deployment to GitHub Pages under the repository path `/flashcards/`.
+
+### GitHub Pages Setup
+
+The application is deployed to `https://looted.github.io/flashcards/` using the following configuration:
+
+- **Deploy URL**: `/flashcards/` - Prefixes all static assets (CSS, JS, images) with the repository path
+- **Service Worker**: Configured to cache resources from the correct paths
+- **Build Tool**: Uses `gh-pages` npm package for automated deployment
+
+### Deployment Scripts
+
+Deploy to GitHub Pages:
+```bash
+npm run deploy
+```
+
+This command will:
+1. Build the application with production settings
+2. Deploy the `dist/flashcards/browser/` directory to the `gh-pages` branch
+
+### Manual Deployment
+
+If you prefer manual control:
+
+1. Build for GitHub Pages:
+   ```bash
+   npm run build:gh-pages
+   ```
+
+2. Deploy using gh-pages:
+   ```bash
+   npx gh-pages -d dist/flashcards/browser
+   ```
+
+### Configuration Details
+
+- **angular.json**: Uses `"deployUrl": "/flashcards/"` in production configuration
+- **ngsw-config.json**: Service worker configured for proper caching
+- **package.json**: Includes `build:gh-pages` and `deploy` scripts
+
+**Note**: The app automatically handles static resource paths for the GitHub Pages subdirectory deployment.
+
 ## 🧪 Testing
 
 Run unit tests:
@@ -89,8 +134,10 @@ npm run test -- --no-watch --no-progress --include=src/app/app.spec.*
 
 - `npm start` - Start development server
 - `npm run build` - Build for production
+- `npm run build:gh-pages` - Build specifically for GitHub Pages deployment
 - `npm run watch` - Build and watch for changes
 - `npm run test` - Run unit tests
+- `npm run deploy` - Build and deploy to GitHub Pages
 - `npm run serve:ssr:flashcards` - Serve SSR version
 
 ## 🌐 Progressive Web App

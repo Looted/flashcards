@@ -35,6 +35,7 @@
           },
           "configurations": {
             "production": {
+              "baseHref" : "/flashcards/",
               "deployUrl": "/flashcards/",
               "budgets": [
                 {
