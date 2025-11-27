@@ -12,7 +12,7 @@ export class TextGenerationSingleton {
     static async getInstance(progress_callback?: (x: any) => void): Promise<TextGenerationPipeline> {
         if (this.instance === undefined) {
             console.log('Loading AI text generation pipeline in worker...');
-            this.instance = await pipeline<'text-generation'>(this.task, this.model, { device: 'cpu', progress_callback, dtype: "q4f16" });
+            this.instance = await pipeline<'text-generation'>(this.task, this.model, { device: 'webgpu', progress_callback, dtype: "q4f16" });
             console.log('AI text generation pipeline loaded in worker.');
         }
         return this.instance;
