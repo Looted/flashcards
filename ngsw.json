@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1764254162247,
+  "timestamp": 1764254440869,
   "index": "/flashcards/index.csr.html",
   "assetGroups": [
     {
@@ -14,7 +14,7 @@
         "/flashcards/favicon.ico",
         "/flashcards/index.csr.html",
         "/flashcards/index.html",
-        "/flashcards/main-BIHLTVKH.js",
+        "/flashcards/main-7PNBM77Q.js",
         "/flashcards/manifest.webmanifest",
         "/flashcards/styles-7JR3OVNX.css",
         "/flashcards/worker-CIDOVL3H.js"
@@ -183,8 +183,8 @@
     "/flashcards/hr_eng_pl/hr_vocabulary_part2_fixed.csv": "e0cdf39c4ba2e2a63bfee249656f8ef6702c339c",
     "/flashcards/hr_eng_pl/hr_vocabulary_part3.csv.txt": "3571e499c56cb43110f33a3123910b1dc766f94d",
     "/flashcards/hr_eng_pl/vocabulary.json": "2e963c4075c97beb958f01f1a291624dfa706273",
-    "/flashcards/index.csr.html": "8b8e88edb7f5b80e6d3c7c5e9d910edb8c67e4d7",
-    "/flashcards/index.html": "fb33afd5813fa00ea89d6a47b9090c25e4e6dea0",
+    "/flashcards/index.csr.html": "e1e087fdadde337f0ea6644f85211c55cbd024b0",
+    "/flashcards/index.html": "b8224da52699ddb8d7ae72ca9b9e13da4b96799a",
     "/flashcards/ios/100.png": "9599e0d45072e931c665ad0cd3c82ec148be8449",
     "/flashcards/ios/1024.png": "ad2d7ea73245ca372db66dcef0af5c38bd00ae62",
     "/flashcards/ios/114.png": "9ae9265b04b9ded93977d4cb340d2dfe756351ec",
@@ -211,7 +211,7 @@
     "/flashcards/ios/76.png": "f6cbd5a9da531b981d25155c6a36d55a1547a68e",
     "/flashcards/ios/80.png": "b5ba263d93ca88039f564d88d1d768442df13c5f",
     "/flashcards/ios/87.png": "0a312470be84d6f566bebd32b1b8bd3ed465ed1b",
-    "/flashcards/main-BIHLTVKH.js": "2172e48f4a0c02fb162385918df7f0a9d448856c",
+    "/flashcards/main-7PNBM77Q.js": "893ecceddd6ba756c0de0d93ff669e965e2f9a2f",
     "/flashcards/manifest.webmanifest": "b16a264f6ed2f72776cd3af9a553911bcfa054fc",
     "/flashcards/styles-7JR3OVNX.css": "8caff6970bb55173d6846b16fc99b0ba1d320979",
     "/flashcards/windows11/LargeTile.scale-100.png": "dab179986ce37aeeca1bd8eba16df1476629aed5",
