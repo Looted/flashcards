@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1764321299342,
+  "timestamp": 1764321752778,
   "index": "https://looted.github.io/bizzwords/index.csr.html",
   "assetGroups": [
     {
@@ -19,7 +19,7 @@
         "https://looted.github.io/bizzwords/favicon.ico",
         "https://looted.github.io/bizzwords/index.csr.html",
         "https://looted.github.io/bizzwords/index.html",
-        "https://looted.github.io/bizzwords/main-MDGLCNYS.js",
+        "https://looted.github.io/bizzwords/main-BPGW77ZI.js",
         "https://looted.github.io/bizzwords/manifest.webmanifest",
         "https://looted.github.io/bizzwords/styles-BIIUBW6Z.css",
         "https://looted.github.io/bizzwords/worker-FORKZ3OH.js"
@@ -193,8 +193,8 @@
     "https://looted.github.io/bizzwords/hr_eng_pl/hr_vocabulary_part2_fixed.csv": "e0cdf39c4ba2e2a63bfee249656f8ef6702c339c",
     "https://looted.github.io/bizzwords/hr_eng_pl/hr_vocabulary_part3.csv.txt": "3571e499c56cb43110f33a3123910b1dc766f94d",
     "https://looted.github.io/bizzwords/hr_eng_pl/vocabulary.json": "2e963c4075c97beb958f01f1a291624dfa706273",
-    "https://looted.github.io/bizzwords/index.csr.html": "b523aa6ea6c5ad246e1cc3c3aed93bec23f30658",
-    "https://looted.github.io/bizzwords/index.html": "0d2921c3fd87644c63da208b59d3df78dc0e32bc",
+    "https://looted.github.io/bizzwords/index.csr.html": "0a45d1bd6c1d262a39a7fe702e55bffc9ee23bfd",
+    "https://looted.github.io/bizzwords/index.html": "9c4384e43f95dab5070fbe34abe8f21e56cac989",
     "https://looted.github.io/bizzwords/ios/100.png": "c5e3882adf978501d070c28c537b9c9779f2193d",
     "https://looted.github.io/bizzwords/ios/1024.png": "9ab4f821a5cdc83fb7d89c8b295a9cdd579b9b7b",
     "https://looted.github.io/bizzwords/ios/114.png": "79ff85d85af41952bdda2b1c77a934ab1417d8d6",
@@ -221,8 +221,8 @@
     "https://looted.github.io/bizzwords/ios/76.png": "f695db1227e9315ccabcfc0a4f059efdee3d36be",
     "https://looted.github.io/bizzwords/ios/80.png": "edcaa31f90ac6db11a5805a27ac2f6012452acb7",
     "https://looted.github.io/bizzwords/ios/87.png": "05552082838274e1b519f6de6cc902ac409d1486",
-    "https://looted.github.io/bizzwords/main-MDGLCNYS.js": "8de56e85e3002f76185f8374b9a5a714501fad3e",
-    "https://looted.github.io/bizzwords/manifest.webmanifest": "5a74f69c5e2f00a821a33bf43f0ac0914aa437f4",
+    "https://looted.github.io/bizzwords/main-BPGW77ZI.js": "85df2787b08c252dc77c400d2cbb25743c3456f9",
+    "https://looted.github.io/bizzwords/manifest.webmanifest": "6b76ba0ecdf9948c8a3551caf6aa292acbbde526",
     "https://looted.github.io/bizzwords/styles-BIIUBW6Z.css": "c48c1f17950ffa4f8b85c9ab06bab8d3bb1199a4",
     "https://looted.github.io/bizzwords/windows11/LargeTile.scale-100.png": "dab179986ce37aeeca1bd8eba16df1476629aed5",
     "https://looted.github.io/bizzwords/windows11/LargeTile.scale-125.png": "02b4794a71cb7f69f5e0c294cae62ea78a9056f1",
