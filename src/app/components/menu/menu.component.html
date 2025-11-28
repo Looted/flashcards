@@ -1,0 +1,103 @@
+<div class="flex flex-col gap-6 animate-fade-in mt-4">
+  <div class="bg-white rounded-2xl p-6 shadow-sm border border-slate-100">
+    <h2 class="text-2xl font-bold mb-2">Ready to learn?</h2>
+    <p class="text-slate-500 mb-4">Select a topic to generate your deck{{ isMobile() ? '' : useStatic() ? ' (Static HR mode)' : ' using AI'}}.</p>
+
+    <!-- Learning Mode Selection -->
+    <div class="mb-6">
+      <h3 class="text-sm font-medium text-slate-700 mb-3">Choose Learning Mode:</h3>
+      <div class="flex flex-col gap-2">
+        <label class="flex items-center gap-3 cursor-pointer p-3 rounded-lg border-2 transition-all"
+               [class]="selectedMode() === GameMode.New ? 'bg-blue-50 border-blue-500' : 'bg-slate-50 border-slate-200 hover:bg-slate-100'">
+          <input type="radio" name="mode" [value]="GameMode.New" [checked]="selectedMode() === GameMode.New" (change)="selectedMode.set(GameMode.New)"
+                 class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 focus:ring-blue-500">
+          <div>
+            <div class="font-medium text-slate-700">Discover New Words</div>
+            <div class="text-xs text-slate-500">Learn vocabulary you've never seen before</div>
+          </div>
+        </label>
+        <label class="flex items-center gap-3 cursor-pointer p-3 rounded-lg border-2 transition-all"
+               [class]="selectedMode() === GameMode.Practice ? 'bg-green-50 border-green-500' : 'bg-slate-50 border-slate-200 hover:bg-slate-100'"
+               [class.opacity-50]="statsService.getAllStats().length === 0">
+          <input type="radio" name="mode" [value]="GameMode.Practice" [checked]="selectedMode() === GameMode.Practice" (change)="selectedMode.set(GameMode.Practice)"
+                 [disabled]="statsService.getAllStats().length === 0"
+                 class="w-4 h-4 text-green-600 bg-gray-100 border-gray-300 focus:ring-green-500 disabled:opacity-50">
+          <div>
+            <div class="font-medium text-slate-700">Practice & Review</div>
+            <div class="text-xs text-slate-500">Reinforce words you've gotten wrong before</div>
+            <div *ngIf="statsService.getAllStats().length === 0" class="text-xs text-red-500">No words to practice yet</div>
+          </div>
+        </label>
+      </div>
+    </div>
+
+    @if (!isMobile()) {
+      <div class="flex items-center gap-3 mb-6 p-3 bg-slate-50 rounded-lg">
+        <label class="flex items-center gap-2 cursor-pointer">
+          <input type="checkbox" [checked]="!useStatic()" (change)="useStatic.set(!$event.target.checked)" class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 rounded focus:ring-blue-500">
+          <span class="text-sm font-medium text-slate-700">Use AI word generation (experimental)</span>
+        </label>
+      </div>
+    }
+
+    <!-- Difficulty Selection -->
+    <div class="mb-6">
+      <h3 class="text-sm font-medium text-slate-700 mb-3">Select Difficulty Level:</h3>
+      <div class="flex flex-wrap gap-1">
+        <button (click)="selectedDifficulty.set(1)"
+          [class]="selectedDifficulty() === 1 ? 'bg-blue-600 text-white' : 'bg-slate-100 text-slate-700 hover:bg-slate-200'"
+          [disabled]="selectedMode() === GameMode.Practice"
+          class="px-2 py-1 rounded font-medium text-xs transition-all disabled:opacity-50 disabled:cursor-not-allowed">
+          Beginner (1)
+        </button>
+        <button (click)="selectedDifficulty.set(2)"
+          [class]="selectedDifficulty() === 2 ? 'bg-blue-600 text-white' : 'bg-slate-100 text-slate-700 hover:bg-slate-200'"
+          [disabled]="selectedMode() === GameMode.Practice"
+          class="px-2 py-1 rounded font-medium text-xs transition-all disabled:opacity-50 disabled:cursor-not-allowed">
+          Intermediate (2)
+        </button>
+        <button (click)="selectedDifficulty.set(3)"
+          [class]="selectedDifficulty() === 3 ? 'bg-blue-600 text-white' : 'bg-slate-100 text-slate-700 hover:bg-slate-200'"
+          [disabled]="selectedMode() === GameMode.Practice"
+          class="px-2 py-1 rounded font-medium text-xs transition-all disabled:opacity-50 disabled:cursor-not-allowed">
+          Advanced (3)
+        </button>
+        <button (click)="selectedDifficulty.set(null)"
+          [class]="selectedDifficulty() === null ? 'bg-blue-600 text-white' : 'bg-slate-100 text-slate-700 hover:bg-slate-200'"
+          [disabled]="selectedMode() === GameMode.Practice"
+          class="px-2 py-1 rounded font-medium text-xs transition-all disabled:opacity-50 disabled:cursor-not-allowed">
+          All Levels
+        </button>
+      </div>
+    </div>
+
+    <div class="grid grid-cols-2 gap-3 mb-6">
+      <button (click)="selectTopic('IT')"
+        class="p-4 rounded-xl bg-blue-50 border-2 border-blue-100 hover:border-blue-500 hover:bg-blue-100 transition-all text-center group">
+        <div class="text-3xl mb-2 group-hover:scale-110 transition-transform">💻</div>
+        <div class="font-bold text-slate-700">IT Words</div>
+      </button>
+      <button (click)="selectTopic('HR')"
+        class="p-4 rounded-xl bg-purple-50 border-2 border-purple-100 hover:border-purple-500 hover:bg-purple-100 transition-all text-center group">
+        <div class="text-3xl mb-2 group-hover:scale-110 transition-transform">👥</div>
+        <div class="font-bold text-slate-700">HR Words</div>
+      </button>
+    </div>
+
+    <div *ngIf="isLoading" class="flex flex-col items-center justify-center py-8">
+       <div class="w-8 h-8 border-4 border-blue-500 border-t-transparent rounded-full animate-spin mb-2"></div>
+       <span class="text-sm text-blue-600 font-medium">Generating Flashcards...</span>
+    </div>
+  </div>
+
+  <!-- History / Stats Placeholder -->
+  <div class="bg-white/60 rounded-2xl p-6 border border-slate-100">
+     <h3 class="font-bold text-slate-700 mb-3">Your Progress</h3>
+     <div class="flex items-center gap-3">
+       <div class="flex-1 h-2 bg-slate-200 rounded-full overflow-hidden">
+         <div class="h-full bg-green-500 w-2/3"></div>
+       </div>
+       <span class="text-xs font-bold text-slate-600">65% Mastered</span>
+     </div>
+  </div>
+</div>

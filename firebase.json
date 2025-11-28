@@ -1,6 +1,6 @@
 {
   "hosting": {
-    "public": "dist/flashcards/browser",
+    "public": "dist/bizzwords/browser",
     "ignore": [
       "firebase.json",
       "**/.*",

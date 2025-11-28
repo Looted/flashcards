@@ -10,6 +10,7 @@ export interface VocabularyStats {
   timesIncorrect: number;
   lastEncountered: Date;
   masteryLevel: number; // 0-5 scale
+  skipped?: boolean;
 }
 
 @Injectable({
@@ -70,17 +71,44 @@ export class VocabularyStatsService {
   }
 
   /**
+   * Mark a word as skipped (will not appear in games)
+   */
+  markAsSkipped(english: string, polish: string, category: string): void {
+    const key = this.createKey(english, polish);
+    const existing = this.stats.get(key);
+
+    if (existing) {
+      existing.skipped = true;
+      existing.lastEncountered = new Date();
+    } else {
+      this.stats.set(key, {
+        english,
+        polish,
+        category,
+        timesEncountered: 0,
+        timesCorrect: 0,
+        timesIncorrect: 0,
+        lastEncountered: new Date(),
+        masteryLevel: 0,
+        skipped: true
+      });
+    }
+
+    this.saveStats();
+  }
+
+  /**
    * Get all stats
    */
   getAllStats(): VocabularyStats[] {
-    return Array.from(this.stats.values());
+    return Array.from(this.stats.values()).filter(s => !s.skipped);
   }
 
   /**
    * Get stats for a specific category
    */
   getStatsByCategory(category: string): VocabularyStats[] {
-    return Array.from(this.stats.values()).filter(stat => stat.category === category);
+    return Array.from(this.stats.values()).filter(stat => stat.category === category && !stat.skipped);
   }
 
   /**
@@ -88,7 +116,7 @@ export class VocabularyStatsService {
    */
   getWordsNeedingPractice(limit: number = 10): VocabularyStats[] {
     return Array.from(this.stats.values())
-      .filter(stat => stat.masteryLevel < 3 || stat.timesIncorrect > stat.timesCorrect)
+      .filter(stat => !stat.skipped && (stat.masteryLevel < 3 || stat.timesIncorrect > stat.timesCorrect))
       .sort((a, b) => {
         // Prioritize words with lower mastery levels
         if (a.masteryLevel !== b.masteryLevel) {
@@ -116,7 +144,7 @@ export class VocabularyStatsService {
    * Get mastery statistics
    */
   getMasteryStats() {
-    const allStats = Array.from(this.stats.values());
+    const allStats = Array.from(this.stats.values()).filter(s => !s.skipped);
     const totalWords = allStats.length;
 
     if (totalWords === 0) {

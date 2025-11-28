@@ -1,0 +1,75 @@
+<div class="flex-grow flex flex-col items-center justify-center w-full gap-2 sm:gap-6 animate-fade-in">
+
+  <!-- Back Button and Round Indicator -->
+  <div class="w-full flex justify-between items-center mb-2">
+    <button (click)="store.reset()"
+      class="flex items-center gap-2 px-3 py-2 rounded-lg bg-slate-100 hover:bg-slate-200 text-slate-700 font-medium text-sm transition-colors">
+      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M19 12H5"/><path d="M12 19l-7-7 7-7"/></svg>
+      Back to Menu
+    </button>
+    <span class="inline-block px-3 py-1 rounded-full bg-indigo-100 text-indigo-700 text-xs font-bold tracking-wide uppercase shadow-sm">
+      @switch (store.currentRound()) {
+        @case ('RECOGNIZE_EN') { Round 1: Recall (Eng to Pol) }
+        @case ('RECOGNIZE_PL') { Round 2: Recall (Pol to Eng) }
+        @case ('WRITE_EN') { Round 3: Typing Challenge }
+      }
+    </span>
+  </div>
+
+  <!-- Progress Bar -->
+  <div class="w-full h-1.5 bg-slate-200 rounded-full overflow-hidden mb-4">
+    <div class="h-full bg-blue-500 transition-all duration-300" [style.width.%]="store.progress()"></div>
+  </div>
+
+  <!-- THE CARD (Or Input for Round 3) -->
+   @if (store.currentRound() !== 'WRITE_EN') {
+      <app-flashcard #cardRef></app-flashcard>
+
+      <!-- Controls for Rounds 1 & 2 -->
+      <!-- Controls for Rounds 1 & 2 -->
+      <div class="w-full grid grid-cols-3 gap-3">
+        <button (click)="handleAnswer(false, cardRef)" [disabled]="!cardRef.isFlipped()"
+          class="py-3 sm:py-4 rounded-xl font-bold transition-all flex items-center justify-center gap-2 disabled:opacity-50 disabled:cursor-not-allowed"
+          [class]="cardRef.isFlipped() ? 'bg-red-100 text-red-600 hover:bg-red-200 active:scale-95' : 'bg-gray-100 text-gray-400'">
+          <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M18 6 6 18"/><path d="m6 6 18 18"/></svg>
+          <span class="hidden sm:inline">Did not know</span>
+          <span class="sm:hidden">No</span>
+        </button>
+
+        <button (click)="skipCard()"
+          class="py-3 sm:py-4 rounded-xl font-bold transition-all flex items-center justify-center gap-2 bg-slate-100 text-slate-500 hover:bg-slate-200 active:scale-95">
+          <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M13 5H19V11"/><path d="M19 5L5 19"/></svg>
+          Skip
+        </button>
+
+        <button (click)="handleAnswer(true, cardRef)" [disabled]="!cardRef.isFlipped()"
+          class="py-3 sm:py-4 rounded-xl font-bold transition-all flex items-center justify-center gap-2 disabled:opacity-50 disabled:cursor-not-allowed shadow-sm border"
+          [class]="cardRef.isFlipped() ? 'bg-green-100 text-green-700 hover:bg-green-200 active:scale-95 border-green-200' : 'bg-gray-100 text-gray-400 border-gray-200'">
+          <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
+          <span class="hidden sm:inline">I knew it</span>
+          <span class="sm:hidden">Yes</span>
+        </button>
+      </div>
+   } @else {
+     <!-- ROUND 3: TYPING INPUT -->
+     <div class="w-full max-w-sm bg-white rounded-2xl shadow-lg border-b-4 border-indigo-200 p-6 flex flex-col items-center text-center">
+        <div class="text-indigo-400 text-sm font-semibold tracking-wider uppercase mb-2">Translate to English</div>
+        <h2 class="text-3xl font-bold text-slate-800 mb-8">{{ store.currentCard()?.polish }}</h2>
+
+        <input type="text" [formControl]="inputControl" (keyup.enter)="checkTyping()"
+          placeholder="Type English word..."
+          class="w-full p-4 rounded-xl bg-slate-50 border-2 border-slate-200 focus:border-indigo-500 focus:bg-white outline-none text-lg text-center font-semibold text-slate-700 transition-all mb-4">
+
+        <button (click)="checkTyping()"
+          class="w-full py-3 bg-indigo-600 hover:bg-indigo-700 text-white font-bold rounded-xl shadow-md active:translate-y-0.5 transition-all">
+          Check Answer
+        </button>
+
+        <div *ngIf="typingFeedback" class="mt-4 p-3 rounded-lg w-full font-medium"
+             [ngClass]="typingFeedback.correct ? 'bg-green-100 text-green-800' : 'bg-red-100 text-red-800'">
+          {{ typingFeedback.msg }}
+        </div>
+     </div>
+   }
+
+</div>

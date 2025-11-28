@@ -6,7 +6,7 @@
   },
   "newProjectRoot": "projects",
   "projects": {
-    "flashcards": {
+    "bizzwords": {
       "projectType": "application",
       "schematics": {},
       "root": "",
@@ -18,6 +18,7 @@
           "options": {
             "browser": "src/main.ts",
             "tsConfig": "tsconfig.app.json",
+            "outputPath": "dist/bizzwords/browser",
             "assets": [
               {
                 "glob": "**/*",
@@ -35,8 +36,7 @@
           },
           "configurations": {
             "production": {
-              "baseHref" : "/flashcards/",
-              "deployUrl": "/flashcards/",
+              "baseHref" : "/",
               "budgets": [
                 {
                   "type": "initial",
@@ -64,16 +64,24 @@
           "builder": "@angular/build:dev-server",
           "configurations": {
             "production": {
-              "buildTarget": "flashcards:build:production"
+              "buildTarget": "bizzwords:build:production"
             },
             "development": {
-              "buildTarget": "flashcards:build:development"
+              "buildTarget": "bizzwords:build:development"
             }
           },
           "defaultConfiguration": "development"
         },
         "test": {
           "builder": "@angular/build:unit-test"
+        },
+        "deploy": {
+          "builder": "angular-cli-ghpages:deploy",
+          "options": {
+            "baseHref": "https://looted.github.io/bizzwords/",
+            "name": "Piotr Franczyk",
+            "email": "pfranczyk87@gmail.com"
+           }
         }
       }
     }

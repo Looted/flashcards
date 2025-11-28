@@ -1,10 +1,17 @@
 # Active Context
 
-Current work focus: Difficulty selection feature implemented and tested.
+Current work focus: Verifying refactoring and documenting changes.
 
-Recent changes: Added difficulty level selection for AI-generated vocabulary. Users can now choose between beginner, intermediate, advanced, or all levels when generating words. The LLM prompt has been updated to request words at the specific difficulty level, ensuring targeted vocabulary generation. All 48 tests pass with 100% coverage. The development server is running successfully at localhost:4200.
+Recent changes:
+- Refactored monolithic `App` component into `HeaderComponent`, `MenuComponent`, `GameComponent`, and `SummaryComponent`.
+- Implemented Angular Router for navigation between views (`/`, `/game`, `/summary`).
+- Removed redundant `LearningComponent`.
+- Updated tests to use `vi.spyOn` and cover new components.
+- All 63 tests pass with 100% coverage.
 
-Next steps: Begin implementing core flashcard application components (deck management, learning rounds, word tracking).
+Next steps:
+- Continue implementing core flashcard application components (deck management, learning rounds, word tracking).
+- Consider implementing `CanDeactivate` guard for GameComponent to prevent accidental exit.
 
 Active decisions and considerations:
 - Framework choice: Angular v20+ for modern web-based UI with signals, standalone components, and OnPush change detection for optimal performance.
@@ -30,3 +37,4 @@ Learnings and project insights:
 - Singleton testing: Reset singleton instances between tests to prevent state leakage and ensure test isolation.
 - Error scenario testing: Cover device compatibility, network failures, and invalid inputs for robust error handling.
 - Progress callback testing: Mock async progress reporting in pipeline options for comprehensive test coverage.
+- Static method mocking: Use vi.spyOn() instead of vi.mocked() for mocking static class methods in vitest. vi.mocked() only works with module-level mocks, not static methods.

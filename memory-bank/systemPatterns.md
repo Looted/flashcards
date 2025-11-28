@@ -28,10 +28,11 @@ Testing patterns:
 - Error scenario coverage: Test various error conditions including device support, network failures, and invalid inputs.
 
 Component relationships:
-- App (root standalone component) -> Header, MainContent
-- MainContent -> DeckList or DeckView or ReviewView (lazy-loaded routes)
-- DeckView -> CardList, AddCardForm
-- ReviewView -> CardReview, ProgressBar
+- App (root standalone component) -> Header, RouterOutlet
+- RouterOutlet -> MenuComponent, GameComponent, SummaryComponent (via routes)
+- GameComponent -> FlashcardComponent, ProgressBar
+- DeckView -> CardList, AddCardForm (future)
+- ReviewView -> CardReview, ProgressBar (future)
 
 Critical implementation paths:
 - Three-round learning algorithm: Round 1 (English→Polish recognition), Round 2 (Polish→English recognition), Round 3 (Polish→English typing with validation)

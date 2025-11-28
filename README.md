@@ -1,6 +1,6 @@
-# Fiszki - Polish-English Flashcard Learning App
+# BizzWords - Business Terminology Flashcard Learning App
 
-An efficient flashcard application designed to help Polish users learn and memorize English vocabulary through spaced repetition and AI-generated words. Built with modern Angular v20+ and featuring offline-first Progressive Web App capabilities.
+An efficient flashcard application designed to help users learn and memorize business terminology across various domains (HR, Medicine, Finance, etc.) through spaced repetition and AI-generated words. Built with modern Angular v20+ and featuring offline-first Progressive Web App capabilities.
 
 ## 🚀 Features
 
@@ -69,13 +69,13 @@ The build artifacts will be stored in the `dist/` directory.
 
 ## 🚀 Deployment to GitHub Pages
 
-This app is configured for deployment to GitHub Pages under the repository path `/flashcards/`.
+This app is configured for deployment to GitHub Pages under the repository path `/bizzwords/`.
 
 ### GitHub Pages Setup
 
-The application is deployed to `https://looted.github.io/flashcards/` using the following configuration:
+The application is deployed to `https://looted.github.io/bizzwords/` using the following configuration:
 
-- **Deploy URL**: `/flashcards/` - Prefixes all static assets (CSS, JS, images) with the repository path
+- **Deploy URL**: `/bizzwords/` - Prefixes all static assets (CSS, JS, images) with the repository path
 - **Service Worker**: Configured to cache resources from the correct paths
 - **Build Tool**: Uses `gh-pages` npm package for automated deployment
 
@@ -88,7 +88,7 @@ npm run deploy
 
 This command will:
 1. Build the application with production settings
-2. Deploy the `dist/flashcards/browser/` directory to the `gh-pages` branch
+2. Deploy the `dist/bizzwords/browser/` directory to the `gh-pages` branch
 
 ### Manual Deployment
 
@@ -101,12 +101,12 @@ If you prefer manual control:
 
 2. Deploy using gh-pages:
    ```bash
-   npx gh-pages -d dist/flashcards/browser
+   npx gh-pages -d dist/bizzwords/browser
    ```
 
 ### Configuration Details
 
-- **angular.json**: Uses `"deployUrl": "/flashcards/"` in production configuration
+- **angular.json**: Uses `"deployUrl": "/bizzwords/"` in production configuration
 - **ngsw-config.json**: Service worker configured for proper caching
 - **package.json**: Includes `build:gh-pages` and `deploy` scripts
 
@@ -139,7 +139,7 @@ npm run test -- --no-watch --no-progress --include=src/app/app.spec.*
 - `npm run watch` - Build and watch for changes
 - `npm run test` - Run unit tests
 - `npm run deploy` - Build and deploy to GitHub Pages
-- `npm run serve:ssr:flashcards` - Serve SSR version
+- `npm run serve:ssr:bizzwords` - Serve SSR version
 
 ## 🌐 Progressive Web App
 

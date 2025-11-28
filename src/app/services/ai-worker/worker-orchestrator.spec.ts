@@ -12,10 +12,7 @@ vi.mock('@huggingface/transformers', () => ({
   }
 }));
 
-// Mock the modules
-vi.mock('./text-parser');
-vi.mock('./prompt-builder');
-vi.mock('./translation-service');
+
 
 // Mock self.postMessage
 const mockPostMessage = vi.fn();
@@ -46,16 +43,16 @@ describe('WorkerOrchestrator', () => {
         return undefined;
       });
 
-      vi.mocked(PromptBuilder.buildPrompt).mockReturnValue([
+      vi.spyOn(PromptBuilder, 'buildPrompt').mockReturnValue([
         { role: "system", content: "You are an expert English teacher." },
         { role: "user", content: "Generate examples..." }
       ]);
 
-      vi.mocked(TextParser.parseExamples).mockReturnValue([
+      vi.spyOn(TextParser, 'parseExamples').mockReturnValue([
         { sentence: 'Test sentence', vocabulary: 'test', difficulty: 'beginner' }
       ]);
 
-      vi.mocked(TranslationService.translateExamples).mockResolvedValue([
+      vi.spyOn(TranslationService, 'translateExamples').mockResolvedValue([
         { english: 'test', polish: 'test-polish', difficulty: 'beginner' }
       ]);
 
@@ -122,16 +119,16 @@ describe('WorkerOrchestrator', () => {
         return undefined;
       });
 
-      vi.mocked(PromptBuilder.buildPrompt).mockReturnValue([
+      vi.spyOn(PromptBuilder, 'buildPrompt').mockReturnValue([
         { role: "system", content: "You are an expert English teacher." },
         { role: "user", content: "Generate examples..." }
       ]);
 
-      vi.mocked(TextParser.parseExamples).mockReturnValue([
+      vi.spyOn(TextParser, 'parseExamples').mockReturnValue([
         { sentence: 'Test sentence', vocabulary: 'test', difficulty: 'beginner' }
       ]);
 
-      vi.mocked(TranslationService.translateExamples).mockImplementation(async (examples: any, count: any, progressCallback: any) => {
+      vi.spyOn(TranslationService, 'translateExamples').mockImplementation(async (examples: any, count: any, progressCallback: any) => {
         progressCallback({ step: 'translating', progress: 75 });
         return [{ english: 'test', polish: 'test-polish', difficulty: 'beginner' }];
       });

@@ -67,6 +67,34 @@ export class GameStore {
     }
   }
 
+  skipCurrentCard() {
+    const card = this.currentCard();
+    if (!card) return;
+
+    // Mark as skipped in stats (persists to local storage)
+    this.statsService.markAsSkipped(card.english, card.polish, card.category);
+
+    // Remove from active deck
+    this.activeDeck.update(deck => deck.filter(c => c.id !== card.id));
+
+    // If we removed the last card, index might be out of bounds, so adjust if needed
+    // But usually we want to stay at the same index (which is now the next card)
+    // unless we were at the end.
+    const currentDeck = this.activeDeck();
+    const currentIdx = this.currentIndex();
+
+    if (currentDeck.length === 0) {
+      // Deck is empty, advance round or end game
+      this.advanceRound();
+    } else if (currentIdx >= currentDeck.length) {
+      // We were at the last card, so we are now out of bounds.
+      // But since we removed the card, we should probably just check if we need to advance.
+      // If we are at the end of the list, we advance.
+      this.advanceRound();
+    }
+    // If we are not at the end, currentIndex now points to the next card, which is correct.
+  }
+
   private advanceRound() {
     const current = this.currentRound();
     if (current === 'RECOGNIZE_EN') {

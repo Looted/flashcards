@@ -51,4 +51,8 @@ export class GameService {
   handleAnswer(correct: boolean) {
     this.store.handleAnswer(correct);
   }
+
+  skipCard() {
+    this.store.skipCurrentCard();
+  }
 }

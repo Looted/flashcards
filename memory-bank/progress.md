@@ -12,7 +12,7 @@ What works:
 - First app screen with theme/mode selection using Angular signals and responsive CSS
 - AI integration with @huggingface/transformers for on-device word generation (service and worker implemented and tested)
 - Worker file modularized into separate concerns (AI models, text parsing, message handling)
-- Comprehensive test suite for all modules with 57 passing tests (100% coverage)
+- Comprehensive test suite for all modules with 54 passing tests (100% coverage)
 - Test environment compatibility: CPU fallback for AI models in testing environments
 - Difficulty level selection implemented for both static and AI-generated vocabulary
 - LLM prompt now respects selected difficulty level for targeted word generation

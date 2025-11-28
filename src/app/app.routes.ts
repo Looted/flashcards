@@ -3,10 +3,14 @@ import { Routes } from '@angular/router';
 export const routes: Routes = [
   {
     path: '',
-    loadComponent: () => import('./app').then(m => m.App)
+    loadComponent: () => import('./components/menu/menu.component').then(m => m.MenuComponent)
   },
   {
-    path: 'learn',
-    loadComponent: () => import('./learning.component').then(m => m.LearningComponent)
+    path: 'game',
+    loadComponent: () => import('./components/game/game.component').then(m => m.GameComponent)
+  },
+  {
+    path: 'summary',
+    loadComponent: () => import('./components/summary/summary.component').then(m => m.SummaryComponent)
   }
 ];

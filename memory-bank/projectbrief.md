@@ -1,8 +1,8 @@
 # Project Brief
 
-Project Name: Fiszki
+Project Name: BizzWords
 
-Description: A flashcard application to help polish users learn and memorize english words through spaced repetition.
+Description: A flashcard application to help users learn and memorize business terminology across various domains (HR, Medicine, Finance, etc.) through spaced repetition.
 
 Core Requirements:
 - User can create decks of flashcards with a chosen theme (e.g. IT or HR words)

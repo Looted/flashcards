@@ -1,4 +1,4 @@
-# Test Summary - Fiszki App
+# Test Summary - BizzWords App
 
 ## Current Test Status
 
