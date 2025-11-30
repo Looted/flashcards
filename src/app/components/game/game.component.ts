@@ -53,7 +53,8 @@ export class GameComponent {
     }, GAME_CONSTANTS.FLIP_DELAY);
   }
 
-  skipCard() {
+  skipCard(cardComp: FlashcardComponent) {
+    cardComp.resetFlip();
     this.gameService.skipCard();
   }
 

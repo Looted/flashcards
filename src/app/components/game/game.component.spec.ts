@@ -92,8 +92,10 @@ describe('GameComponent', () => {
   });
 
   describe('skipCard', () => {
-    it('should delegate to game service', () => {
-      component.skipCard();
+    it('should reset card flip and delegate to game service', () => {
+      const mockCardComp = { resetFlip: vi.fn() };
+      component.skipCard(mockCardComp as any);
+      expect(mockCardComp.resetFlip).toHaveBeenCalled();
       expect(gameServiceMock.skipCard).toHaveBeenCalled();
     });
   });
