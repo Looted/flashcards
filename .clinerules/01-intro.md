@@ -80,6 +80,9 @@ Here is a link to the most recent Angular style guide https://angular.dev/style-
 - Implement lazy loading for feature routes
 - Use `NgOptimizedImage` for all static images.
 - Do NOT use the `@HostBinding` and `@HostListener` decorators. Put host bindings inside the `host` object of the `@Component` or `@Directive` decorator instead
+- Migrate from FormsModule/ngModel to signal-based bindings: Use `[value]` and `(change)` instead of `[(ngModel)]` for optimal performance with signals
+- Service signal access: Use service getters/setters instead of direct signal access for better encapsulation and API consistency
+- Template event handling: Handle complex event type casting in component methods rather than inlining in templates to avoid template parser limitations
 
 ### Components
 

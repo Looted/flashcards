@@ -16,6 +16,9 @@ Design patterns in use:
 - Signal-based reactivity: Using signals, computed, and effects for state management.
 - Component composition: Building complex UIs from reusable standalone components.
 - Service injection: Using inject() function for dependency injection in components and services.
+- Signal migration patterns: Replace FormsModule/ngModel with [value] and (change) bindings, use service setters instead of direct signal.set() for better encapsulation, handle complex event casting in component methods.
+- Service signal access: Use getter methods to access service signals instead of direct property assignment for better encapsulation and API consistency.
+- Template event handling: Handle complex event type casting in component methods rather than inlining in templates for better maintainability and to avoid template parser limitations.
 - Modular worker architecture: AI worker split into focused modules (models, parsing, message handling) for better testability and maintainability.
 - Singleton pattern: AI model pipelines use lazy-loaded singletons to avoid redundant initialization.
 

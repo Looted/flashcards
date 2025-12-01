@@ -1,16 +1,16 @@
-<div class="language-switcher">
-  <label for="language-select" class="language-label">Native Language:</label>
+<div class="flex items-center gap-3 px-4 py-3 bg-white rounded-xl shadow-sm border border-slate-100 hover:shadow-md transition-all duration-200 sm:gap-2 sm:px-3 sm:py-2">
+  <label for="language-select" class="text-sm font-medium text-slate-700 mb-0 leading-none sm:text-xs">Native Language:</label>
   <select
     id="language-select"
-    [ngModel]="currentLanguage()"
-    (ngModelChange)="selectLanguage($event)"
-    class="language-select"
+    [value]="currentLanguage"
+    (change)="onLanguageChange($event)"
+    class="px-3 py-2 bg-white border border-slate-200 rounded-lg text-sm text-slate-700 cursor-pointer min-w-[140px] transition-all duration-200 hover:border-slate-300 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-blue-500 sm:min-w-[120px] sm:text-xs sm:px-2 sm:py-1.5"
+    aria-label="Select your native language"
   >
-    <option
-      *ngFor="let language of supportedLanguages()"
-      [value]="language"
-    >
-      {{ getLanguageDisplayName(language) }}
-    </option>
+    @for (language of supportedLanguages(); track language) {
+      <option [value]="language">
+        {{ getLanguageDisplayName(language) }}
+      </option>
+    }
   </select>
 </div>

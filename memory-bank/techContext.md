@@ -5,7 +5,7 @@ Technologies used:
 - Build tool: Angular CLI for development, building, and optimized production builds
 - Routing: Angular Router with lazy loading for feature modules
 - Styling: Custom CSS with utility classes for responsive design
-- State management: Angular signals for reactive state management
+- State management: Angular signals for reactive state management; migrate from FormsModule/ngModel to signal-based [value] and (change) bindings for optimal performance
 - Forms: Reactive forms for complex form handling
 - PWA: Angular PWA package with service workers for offline functionality, web app manifest for installability, custom install button with beforeinstallprompt event handling, SSR-compatible browser detection
 - Data persistence: VocabularyStatsService with localStorage for tracking word performance, mastery levels, and learning statistics across sessions
