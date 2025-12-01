@@ -6,6 +6,7 @@ import { StaticVocabularyService } from './static-vocabulary.service';
 import { VocabularyStatsService } from './vocabulary-stats.service';
 import { GameStore } from '../game-store';
 import { GameMode, GAME_CONSTANTS } from '../shared/constants';
+import { STANDARD_GAME_MODE } from '../core/config/game-modes';
 import { describe, it, expect, beforeEach, vi } from 'vitest';
 
 describe('GameService', () => {
@@ -31,7 +32,7 @@ describe('GameService', () => {
 
     mockStore = {
       startGame: vi.fn(),
-      handleAnswer: vi.fn(),
+      submitAnswer: vi.fn(),
       skipCurrentCard: vi.fn()
     };
 
@@ -107,7 +108,7 @@ describe('GameService', () => {
 
       await service.startGame('IT', GameMode.New, false, null);
 
-      expect(mockStore.startGame).toHaveBeenCalledWith([
+      expect(mockStore.startGame).toHaveBeenCalledWith(STANDARD_GAME_MODE, [
         {
           id: expect.any(String),
           english: 'unseen',
@@ -129,7 +130,7 @@ describe('GameService', () => {
 
       await service.startGame('IT', GameMode.Practice, false, null);
 
-      expect(mockStore.startGame).toHaveBeenCalledWith([
+      expect(mockStore.startGame).toHaveBeenCalledWith(STANDARD_GAME_MODE, [
         {
           id: expect.any(String),
           english: 'practice1',
@@ -159,14 +160,14 @@ describe('GameService', () => {
 
       await service.startGame('IT', GameMode.Practice, false, null);
 
-      const callArgs = mockStore.startGame.mock.calls[0][0];
+      const callArgs = mockStore.startGame.mock.calls[0][1]; // cards are at index 1
       expect(callArgs).toHaveLength(GAME_CONSTANTS.CARDS_PER_GAME);
     });
 
     it('should create flashcards with proper structure', async () => {
       await service.startGame('IT', GameMode.New, false, null);
 
-      expect(mockStore.startGame).toHaveBeenCalledWith([
+      expect(mockStore.startGame).toHaveBeenCalledWith(STANDARD_GAME_MODE, [
         {
           id: expect.any(String),
           english: 'hello',
@@ -189,7 +190,7 @@ describe('GameService', () => {
 
       await service.startGame('IT', GameMode.New, false, null);
 
-      expect(mockStore.startGame).toHaveBeenCalledWith([]);
+      expect(mockStore.startGame).toHaveBeenCalledWith(STANDARD_GAME_MODE, []);
     });
 
     it('should handle static service returning empty observable', async () => {
@@ -197,17 +198,17 @@ describe('GameService', () => {
 
       await service.startGame('HR', GameMode.New, true, null);
 
-      expect(mockStore.startGame).toHaveBeenCalledWith([]);
+      expect(mockStore.startGame).toHaveBeenCalledWith(STANDARD_GAME_MODE, []);
     });
   });
 
   describe('handleAnswer', () => {
     it('should delegate to store', () => {
       service.handleAnswer(true);
-      expect(mockStore.handleAnswer).toHaveBeenCalledWith(true);
+      expect(mockStore.submitAnswer).toHaveBeenCalledWith(true);
 
       service.handleAnswer(false);
-      expect(mockStore.handleAnswer).toHaveBeenCalledWith(false);
+      expect(mockStore.submitAnswer).toHaveBeenCalledWith(false);
     });
   });
 

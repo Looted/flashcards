@@ -1,4 +1,4 @@
-import { ChangeDetectionStrategy, Component, signal, computed, inject } from '@angular/core';
+import { ChangeDetectionStrategy, Component, signal, computed, inject, input } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { FormsModule } from '@angular/forms';
 import { GameStore } from './game-store';
@@ -14,38 +14,46 @@ export class FlashcardComponent {
   store = inject(GameStore);
   isFlipped = signal(false);
 
-  frontLabel = computed(() => {
-    const r = this.store.currentRound();
-    if (r === 'RECOGNIZE_EN') return 'English';
-    return 'Polish';
+  // Inputs for when used in CardRenderer
+  frontText = input<string>();
+  backText = input<string>();
+  frontLabel = input<string>();
+  backLabel = input<string>();
+
+  displayFrontLabel = computed(() => {
+    if (this.frontLabel()) return this.frontLabel()!;
+    const config = this.store.currentRoundConfig();
+    if (!config) return 'Front';
+    return config.layout.dataMap.primary === 'english' ? 'English' : 'Polish';
   });
 
-  frontText = computed(() => {
+  displayFrontText = computed(() => {
+    if (this.frontText()) return this.frontText()!;
     const card = this.store.currentCard();
-    const r = this.store.currentRound();
-    if (!card) return '';
-    if (r === 'RECOGNIZE_EN') return card.english;
-    return card.polish;
+    const config = this.store.currentRoundConfig();
+    if (!card || !config) return '';
+    const field = config.layout.dataMap.primary;
+    return field === 'english' ? card.english : card.polish;
   });
 
-  backLabel = computed(() => {
-    const r = this.store.currentRound();
-    if (r === 'RECOGNIZE_EN') return 'Polish';
-    return 'English';
+  displayBackLabel = computed(() => {
+    if (this.backLabel()) return this.backLabel()!;
+    const config = this.store.currentRoundConfig();
+    if (!config) return 'Back';
+    return config.layout.dataMap.secondary === 'english' ? 'English' : 'Polish';
   });
 
-  backText = computed(() => {
+  displayBackText = computed(() => {
+    if (this.backText()) return this.backText()!;
     const card = this.store.currentCard();
-    const r = this.store.currentRound();
-    if (!card) return '';
-    if (r === 'RECOGNIZE_EN') return card.polish;
-    return card.english;
+    const config = this.store.currentRoundConfig();
+    if (!card || !config) return '';
+    const field = config.layout.dataMap.secondary;
+    return field === 'english' ? card.english : card.polish;
   });
 
   flip() {
-    if (this.store.currentRound() !== 'WRITE_EN') {
-       this.isFlipped.update(v => !v);
-    }
+    this.isFlipped.update(v => !v);
   }
 
   resetFlip() {

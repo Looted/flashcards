@@ -1,5 +1,6 @@
 import { Injectable, signal, computed, inject } from '@angular/core';
 import { VocabularyStatsService } from './services/vocabulary-stats.service';
+import { GameMode } from './core/models/game-config.model';
 
 // --- MODELS ---
 export interface Flashcard {
@@ -10,8 +11,12 @@ export interface Flashcard {
   masteryLevel: number;
 }
 
+export interface GameCard {
+  flashcard: Flashcard;
+  successCount: number;
+}
+
 export type GamePhase = 'MENU' | 'PLAYING' | 'SUMMARY';
-export type RoundType = 'RECOGNIZE_EN' | 'RECOGNIZE_PL' | 'WRITE_EN';
 
 // --- GAME STORE SERVICE (Signals) ---
 @Injectable({ providedIn: 'root' })
@@ -20,124 +25,122 @@ export class GameStore {
 
   // State Signals
   phase = signal<GamePhase>('MENU');
-  currentRound = signal<RoundType>('RECOGNIZE_EN');
-
+  activeMode = signal<GameMode | null>(null);
+  roundIndex = signal<number>(0);
   activeDeck = signal<Flashcard[]>([]);
-  currentIndex = signal<number>(0);
+  queue = signal<GameCard[]>([]);
+  graduatePile = signal<Flashcard[]>([]);
 
-  // Track wrong answers to repeat them
-  wrongAnswers = signal<string[]>([]);
+  currentCard = computed(() => this.queue()[0]?.flashcard || null);
 
-  currentCard = computed(() => {
-    const deck = this.activeDeck();
-    const idx = this.currentIndex();
-    return deck.length > idx ? deck[idx] : null;
+  currentRoundConfig = computed(() => {
+    const mode = this.activeMode();
+    if (!mode) return null;
+    return mode.rounds[this.roundIndex()] || null;
   });
 
   progress = computed(() => {
     const total = this.activeDeck().length;
-    const current = this.currentIndex() + 1; // +1 because we're showing progress through current card
-    return total === 0 ? 0 : (current / total) * 100;
+    const done = this.graduatePile().length;
+    return total === 0 ? 0 : (done / total) * 100;
   });
 
-  startGame(cards: Flashcard[]) {
+  startGame(mode: GameMode, cards: Flashcard[]) {
+    this.activeMode.set(mode);
+    this.roundIndex.set(0);
     this.activeDeck.set(cards);
-    this.currentIndex.set(0);
-    this.wrongAnswers.set([]);
-    this.currentRound.set('RECOGNIZE_EN'); // Start with Round 1
+    this.queue.set(cards.map(c => ({ flashcard: c, successCount: 0 })));
+    this.graduatePile.set([]);
     this.phase.set('PLAYING');
   }
 
-  handleAnswer(correct: boolean) {
-    const card = this.currentCard();
+  submitAnswer(success: boolean) {
+    const card = this.queue()[0];
     if (!card) return;
 
-    // Record the encounter in stats
-    this.statsService.recordEncounter(card.english, card.polish, card.category, correct);
+    this.queue.update(q => q.slice(1));
 
-    if (!correct) {
-      this.wrongAnswers.update(ids => [...ids, card.id]);
+    // Record the encounter in stats
+    this.statsService.recordEncounter(card.flashcard.english, card.flashcard.polish, card.flashcard.category, success);
+
+    if (success) {
+      card.successCount++;
+      if (card.successCount >= this.currentRoundConfig()!.completionCriteria.requiredSuccesses) {
+        this.graduatePile.update(p => [...p, card.flashcard]);
+      } else {
+        // Re-queue at index + 10 (spaced repetition within session)
+        const insertIndex = Math.min(10, this.queue().length);
+        this.queue.update(q => [...q.slice(0, insertIndex), card, ...q.slice(insertIndex)]);
+      }
+    } else {
+      // Failure: Re-queue with offset
+      const offset = this.currentRoundConfig()!.failureBehavior.params[0];
+      const insertIndex = Math.min(offset, this.queue().length);
+      this.queue.update(q => [...q.slice(0, insertIndex), card, ...q.slice(insertIndex)]);
     }
 
-    const nextIndex = this.currentIndex() + 1;
-    if (nextIndex < this.activeDeck().length) {
-      this.currentIndex.set(nextIndex);
-    } else {
+    if (this.queue().length === 0) {
       this.advanceRound();
     }
   }
 
   skipCurrentCard() {
-    const card = this.currentCard();
+    const card = this.queue()[0];
     if (!card) return;
 
-    // Mark as skipped in stats (persists to local storage)
-    this.statsService.markAsSkipped(card.english, card.polish, card.category);
+    this.queue.update(q => q.slice(1));
 
-    // Remove from active deck
-    this.activeDeck.update(deck => deck.filter(c => c.id !== card.id));
+    // Mark as skipped in stats
+    this.statsService.markAsSkipped(card.flashcard.english, card.flashcard.polish, card.flashcard.category);
 
-    // If we removed the last card, index might be out of bounds, so adjust if needed
-    // But usually we want to stay at the same index (which is now the next card)
-    // unless we were at the end.
-    const currentDeck = this.activeDeck();
-    const currentIdx = this.currentIndex();
-
-    if (currentDeck.length === 0) {
-      // Deck is empty, advance round or end game
-      this.advanceRound();
-    } else if (currentIdx >= currentDeck.length) {
-      // We were at the last card, so we are now out of bounds.
-      // But since we removed the card, we should probably just check if we need to advance.
-      // If we are at the end of the list, we advance.
+    if (this.queue().length === 0) {
       this.advanceRound();
     }
-    // If we are not at the end, currentIndex now points to the next card, which is correct.
   }
 
   private advanceRound() {
-    const current = this.currentRound();
-    if (current === 'RECOGNIZE_EN') {
-      // Ending Round 1: Filter deck to only wrong answers, skip if perfect
-      const wrongIds = this.wrongAnswers();
-      if (wrongIds.length === 0) {
-        // User got everything right, skip rounds and go to summary
+    const mode = this.activeMode()!;
+    let currentRoundIndex = this.roundIndex();
+
+    while (true) {
+      const nextRound = currentRoundIndex + 1;
+      if (nextRound >= mode.rounds.length) {
         this.phase.set('SUMMARY');
         return;
       }
-      // Filter active deck to only cards that were wrong
-      this.activeDeck.update(deck => deck.filter(card => wrongIds.includes(card.id)));
-      // Reset wrong answers for Round 2
-      this.wrongAnswers.set([]);
-      // Proceed to Round 2
-      this.currentRound.set('RECOGNIZE_PL');
-      this.currentIndex.set(0);
-    } else if (current === 'RECOGNIZE_PL') {
-      // Ending Round 2: Apply same filtering for Round 3
-      const wrongIds = this.wrongAnswers();
-      if (wrongIds.length === 0) {
-        // User got everything right in Round 2, go to summary
-        this.phase.set('SUMMARY');
-        return;
+
+      this.roundIndex.set(nextRound);
+      currentRoundIndex = nextRound;
+      const config = mode.rounds[currentRoundIndex];
+
+      let sourceCards: Flashcard[];
+      if (config.inputSource === 'deck_start') {
+        sourceCards = this.activeDeck();
+      } else if (config.inputSource === 'prev_round_failures') {
+        const initialDeck = this.activeDeck();
+        const graduatedIds = new Set(this.graduatePile().map(c => c.id));
+        sourceCards = initialDeck.filter(c => !graduatedIds.has(c.id));
+      } else if (config.inputSource === 'prev_round_successes') {
+        sourceCards = this.graduatePile();
+      } else {
+        sourceCards = [];
       }
-      // Filter active deck to only cards that were wrong in Round 2
-      this.activeDeck.update(deck => deck.filter(card => wrongIds.includes(card.id)));
-      // Reset wrong answers for Round 3
-      this.wrongAnswers.set([]);
-      // Proceed to Round 3
-      this.currentRound.set('WRITE_EN');
-      this.currentIndex.set(0);
-    } else {
-      // Ending Round 3: Go to summary
-      this.phase.set('SUMMARY');
+
+      const newQueue = sourceCards.map(c => ({ flashcard: c, successCount: 0 }));
+      if (newQueue.length > 0) {
+        this.queue.set(newQueue);
+        break;
+      }
+      // If queue would be empty, continue to next round
     }
   }
 
   reset() {
     this.phase.set('MENU');
+    this.activeMode.set(null);
+    this.roundIndex.set(0);
     this.activeDeck.set([]);
-    this.currentIndex.set(0);
-    this.wrongAnswers.set([]);
-    this.currentRound.set('RECOGNIZE_EN');
+    this.queue.set([]);
+    this.graduatePile.set([]);
   }
 }

@@ -3,6 +3,7 @@ import { GameStore, Flashcard } from './game-store';
 import { VocabularyStatsService } from './services/vocabulary-stats.service';
 import { StorageService } from './services/storage.service';
 import { PLATFORM_ID } from '@angular/core';
+import { STANDARD_GAME_MODE } from './core/config/game-modes';
 import { describe, it, expect, beforeEach, vi } from 'vitest';
 
 describe('GameStore', () => {
@@ -51,130 +52,114 @@ describe('GameStore', () => {
       expect(store.phase()).toBe('MENU');
     });
 
-    it('should start with RECOGNIZE_EN round', () => {
-      expect(store.currentRound()).toBe('RECOGNIZE_EN');
-    });
-
-    it('should start with empty deck', () => {
+    it('should start with empty activeDeck', () => {
       expect(store.activeDeck()).toEqual([]);
     });
 
-    it('should start at index 0', () => {
-      expect(store.currentIndex()).toBe(0);
+    it('should start with empty queue', () => {
+      expect(store.queue()).toEqual([]);
     });
 
-    it('should have no wrong answers initially', () => {
-      expect(store.wrongAnswers()).toEqual([]);
+    it('should start with empty graduatePile', () => {
+      expect(store.graduatePile()).toEqual([]);
     });
 
-    it('should return null current card when deck is empty', () => {
+    it('should start with roundIndex 0', () => {
+      expect(store.roundIndex()).toBe(0);
+    });
+
+    it('should return null current card when queue is empty', () => {
       expect(store.currentCard()).toBeNull();
     });
 
-    it('should return 0 progress when deck is empty', () => {
+    it('should return 0 progress when activeDeck is empty', () => {
       expect(store.progress()).toBe(0);
     });
   });
 
   describe('startGame', () => {
-    it('should set active deck and reset state', () => {
-      store.startGame(mockCards);
+    it('should initialize with mode and cards', () => {
+      store.startGame(STANDARD_GAME_MODE, mockCards);
 
       expect(store.activeDeck()).toEqual(mockCards);
       expect(store.phase()).toBe('PLAYING');
-      expect(store.currentRound()).toBe('RECOGNIZE_EN');
-      expect(store.currentIndex()).toBe(0);
-      expect(store.wrongAnswers()).toEqual([]);
+      expect(store.roundIndex()).toBe(0);
+      expect(store.queue()).toHaveLength(3);
+      expect(store.queue()[0].flashcard).toEqual(mockCards[0]);
+      expect(store.queue()[0].successCount).toBe(0);
+      expect(store.graduatePile()).toEqual([]);
     });
 
-    it('should set current card to first card', () => {
-      store.startGame(mockCards);
+    it('should set current card to first card in queue', () => {
+      store.startGame(STANDARD_GAME_MODE, mockCards);
       expect(store.currentCard()).toEqual(mockCards[0]);
     });
   });
 
   describe('progress calculation', () => {
-    it('should calculate progress correctly', () => {
-      store.startGame(mockCards);
+    it('should calculate progress as graduated / total', () => {
+      store.startGame(STANDARD_GAME_MODE, mockCards);
+      expect(store.progress()).toBe(0); // 0/3
+
+      store.submitAnswer(true); // Graduate first card
       expect(store.progress()).toBeCloseTo(33.333333333333336); // 1/3
 
-      store['currentIndex'].set(1);
+      store.submitAnswer(true); // Graduate second
       expect(store.progress()).toBeCloseTo(66.66666666666667); // 2/3
 
-      store['currentIndex'].set(2);
+      store.submitAnswer(true); // Graduate third
       expect(store.progress()).toBe(100); // 3/3
     });
   });
 
-  describe('handleAnswer', () => {
+  describe('submitAnswer', () => {
     beforeEach(() => {
-      store.startGame(mockCards);
+      store.startGame(STANDARD_GAME_MODE, mockCards);
     });
 
-    it('should advance to next card when correct', () => {
-      store.handleAnswer(true);
-      expect(store.currentIndex()).toBe(1);
-      expect(store.currentCard()).toEqual(mockCards[1]);
+    it('should graduate card on first success', () => {
+      store.submitAnswer(true);
+
+      expect(store.queue()).toHaveLength(2);
+      expect(store.graduatePile()).toEqual([mockCards[0]]);
+      expect(store.queue()[0].flashcard).toEqual(mockCards[1]);
     });
 
-    it('should add to wrong answers when incorrect', () => {
-      store.handleAnswer(false);
-      expect(store.wrongAnswers()).toEqual(['1']);
+    it('should requeue card on failure at offset 3', () => {
+      store.submitAnswer(false);
+
+      expect(store.queue()).toHaveLength(3);
+      expect(store.graduatePile()).toEqual([]);
+      expect(store.queue()[2].flashcard).toEqual(mockCards[0]); // Requeued at position 3 (index 2)
     });
 
-    it('should go to SUMMARY when completing round with all correct', () => {
-      // Complete first round with all correct
-      store.handleAnswer(true);
-      store.handleAnswer(true);
-      store.handleAnswer(true);
+    it('should go to summary when all cards graduate', () => {
+      // Graduate all cards in round 1
+      store.submitAnswer(true);
+      store.submitAnswer(true);
+      store.submitAnswer(true);
 
-      expect(store.phase()).toBe('SUMMARY');
-      expect(store.currentRound()).toBe('RECOGNIZE_EN'); // Round stays the same when skipping
+      expect(store.phase()).toBe('SUMMARY'); // Advances through empty rounds to summary
+      expect(store.graduatePile()).toHaveLength(3);
     });
 
-    it('should advance to second round when some answers wrong', () => {
-      // Complete first round with one wrong
-      store.handleAnswer(true);
-      store.handleAnswer(false); // Wrong
-      store.handleAnswer(true);
+    it('should keep failed cards in current round', () => {
+      // Fail first card
+      store.submitAnswer(false);
+      // Graduate second and third
+      store.submitAnswer(true);
+      store.submitAnswer(true);
 
-      expect(store.currentRound()).toBe('RECOGNIZE_PL');
-      expect(store.currentIndex()).toBe(0);
-      expect(store.activeDeck()).toHaveLength(1); // Only the wrong one
-      expect(store.activeDeck()[0]).toEqual(mockCards[1]);
-    });
-
-    it('should advance to third round when wrong answers in both rounds', () => {
-      // Complete first round with wrong answer
-      store.handleAnswer(true);
-      store.handleAnswer(false); // Wrong
-      store.handleAnswer(true); // End round 1, go to round 2 with 1 card
-      store.handleAnswer(false); // Wrong in round 2
-
-      expect(store.currentRound()).toBe('WRITE_EN');
-      expect(store.currentIndex()).toBe(0);
-      expect(store.activeDeck()).toHaveLength(1); // Only the wrong one from round 2
-    });
-
-    it('should go to SUMMARY when completing all rounds', () => {
-      // Complete all three rounds
-      store.handleAnswer(true);
-      store.handleAnswer(true);
-      store.handleAnswer(true); // End round 1
-      store.handleAnswer(true);
-      store.handleAnswer(true);
-      store.handleAnswer(true); // End round 2
-      store.handleAnswer(true);
-      store.handleAnswer(true);
-      store.handleAnswer(true); // End round 3
-
-      expect(store.phase()).toBe('SUMMARY');
+      expect(store.roundIndex()).toBe(0); // Still in round 1
+      expect(store.queue()).toHaveLength(1); // The failed card requeued
+      expect(store.queue()[0].flashcard).toEqual(mockCards[0]);
+      expect(store.graduatePile()).toHaveLength(2); // Second and third graduated
     });
   });
 
   describe('skipCurrentCard', () => {
     beforeEach(() => {
-      store.startGame(mockCards);
+      store.startGame(STANDARD_GAME_MODE, mockCards);
     });
 
     it('should mark current card as skipped in stats service', () => {
@@ -186,65 +171,43 @@ describe('GameStore', () => {
       expect(markAsSkippedSpy).toHaveBeenCalledWith('Hello', 'Cześć', 'Basic');
     });
 
-    it('should remove current card from active deck', () => {
-      expect(store.activeDeck()).toHaveLength(3);
+    it('should remove current card from queue', () => {
+      expect(store.queue()).toHaveLength(3);
 
       store.skipCurrentCard();
 
-      expect(store.activeDeck()).toHaveLength(2);
-      expect(store.activeDeck()).not.toContain(mockCards[0]);
+      expect(store.queue()).toHaveLength(2);
+      expect(store.queue()[0].flashcard).toEqual(mockCards[1]);
     });
 
-    it('should keep same index when skipping middle card', () => {
-      store['currentIndex'].set(1); // Skip second card
-
+    it('should advance round when queue empties after skip', () => {
+      // Skip all cards one by one
+      store.skipCurrentCard();
+      store.skipCurrentCard();
       store.skipCurrentCard();
 
-      expect(store.currentIndex()).toBe(1);
-      expect(store.currentCard()).toEqual(mockCards[2]); // Now points to what was the third card
-    });
-
-    it('should continue round when skipping card not last', () => {
-      store['currentIndex'].set(2); // Last card
-
-      store.skipCurrentCard();
-
-      expect(store.currentRound()).toBe('RECOGNIZE_EN'); // Still in same round
-      expect(store.currentIndex()).toBe(2); // Index stays at 2, but deck now has 2 cards, so no current card
-      expect(store.activeDeck()).toHaveLength(2); // Original 3 - 1 skipped
-      expect(store.currentCard()).toBeNull(); // No card at index 2 in 2-card deck
-    });
-
-    it('should go to SUMMARY when skipping makes deck empty with no mistakes', () => {
-      // Set up single card deck
-      const singleCard = [mockCards[0]];
-      store.startGame(singleCard);
-
-      store.skipCurrentCard();
-
-      expect(store.activeDeck()).toHaveLength(0);
-      expect(store.phase()).toBe('SUMMARY'); // Since no wrong answers, skip rounds
-      expect(store.currentRound()).toBe('RECOGNIZE_EN'); // Round stays the same
+      expect(store.roundIndex()).toBe(1);
+      expect(store.queue()).toHaveLength(3); // All cards again, since no graduates
     });
 
     it('should not crash when no current card', () => {
-      store.startGame([]);
+      store.startGame(STANDARD_GAME_MODE, []);
       expect(() => store.skipCurrentCard()).not.toThrow();
     });
   });
 
   describe('reset', () => {
     it('should reset all state to initial values', () => {
-      store.startGame(mockCards);
-      store.handleAnswer(false);
-      store['currentIndex'].set(2);
+      store.startGame(STANDARD_GAME_MODE, mockCards);
+      store.submitAnswer(true);
 
       store.reset();
 
       expect(store.phase()).toBe('MENU');
       expect(store.activeDeck()).toEqual([]);
-      expect(store.currentIndex()).toBe(0);
-      expect(store.wrongAnswers()).toEqual([]);
+      expect(store.queue()).toEqual([]);
+      expect(store.graduatePile()).toEqual([]);
+      expect(store.roundIndex()).toBe(0);
     });
   });
 });

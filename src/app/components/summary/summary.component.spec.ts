@@ -17,7 +17,7 @@ describe('SummaryComponent', () => {
   beforeEach(async () => {
     gameStoreMock = {
       activeDeck: signal([]),
-      wrongAnswers: signal([]),
+      graduatePile: signal([]),
       reset: vi.fn()
     };
     routerMock = {

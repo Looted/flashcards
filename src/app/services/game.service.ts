@@ -5,6 +5,7 @@ import { StaticVocabularyService } from './static-vocabulary.service';
 import { VocabularyStatsService } from './vocabulary-stats.service';
 import { GameStore, Flashcard } from '../game-store';
 import { GameMode, GAME_CONSTANTS } from '../shared/constants';
+import { STANDARD_GAME_MODE } from '../core/config/game-modes';
 
 @Injectable({
   providedIn: 'root'
@@ -45,11 +46,11 @@ export class GameService {
       category: topic,
       masteryLevel: 0
     }));
-    this.store.startGame(flashcards);
+    this.store.startGame(STANDARD_GAME_MODE, flashcards);
   }
 
   handleAnswer(correct: boolean) {
-    this.store.handleAnswer(correct);
+    this.store.submitAnswer(correct);
   }
 
   skipCard() {

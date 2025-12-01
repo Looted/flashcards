@@ -12,7 +12,7 @@
      </div>
      <div class="flex justify-between items-center text-red-500">
         <span>Needs Practice</span>
-        <span class="font-bold">{{ store.wrongAnswers().length }}</span>
+        <span class="font-bold">{{ store.activeDeck().length - store.graduatePile().length }}</span>
      </div>
   </div>
 
