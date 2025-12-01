@@ -1,7 +1,12 @@
 <div class="flex flex-col gap-6 animate-fade-in mt-4">
   <div class="bg-white rounded-2xl p-6 shadow-sm border border-slate-100">
-    <h2 class="text-2xl font-bold mb-2">Ready to learn?</h2>
-    <p class="text-slate-500 mb-4">Select a topic to generate your deck{{ isMobile ? '' : useStatic() ? ' (Static HR mode)' : ' using AI'}}.</p>
+    <div class="flex justify-between items-center mb-4">
+      <div>
+        <h2 class="text-2xl font-bold mb-2">Ready to learn?</h2>
+        <p class="text-slate-500">Select a topic to generate your deck{{ isMobile ? '' : useStatic() ? ' (Static HR mode)' : ' using AI'}}.</p>
+      </div>
+      <app-language-switcher></app-language-switcher>
+    </div>
 
     <!-- Learning Mode Selection -->
     <div class="mb-6">

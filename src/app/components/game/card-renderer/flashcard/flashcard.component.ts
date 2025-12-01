@@ -2,6 +2,7 @@ import { ChangeDetectionStrategy, Component, signal, computed, inject, input } f
 import { CommonModule } from '@angular/common';
 import { FormsModule } from '@angular/forms';
 import { GameStore } from '../../../../game-store';
+import { LanguageService } from '../../../../services/language.service';
 
 @Component({
   selector: 'app-flashcard',
@@ -12,6 +13,7 @@ import { GameStore } from '../../../../game-store';
 })
 export class FlashcardComponent {
   store = inject(GameStore);
+  languageService = inject(LanguageService);
   isFlipped = signal(false);
 
   // Inputs for when used in CardRenderer
@@ -24,7 +26,13 @@ export class FlashcardComponent {
     if (this.frontLabel()) return this.frontLabel()!;
     const config = this.store.currentRoundConfig();
     if (!config) return 'Front';
-    return config.layout.dataMap.primary === 'english' ? 'English' : 'Polish';
+    const field = config.layout.dataMap.primary;
+    if (field === 'english') {
+      return 'English';
+    } else if (field !== 'contextSentence' && field !== 'translation') {
+      return this.languageService.getLanguageDisplayName(field);
+    }
+    return field;
   });
 
   displayFrontText = computed(() => {
@@ -33,14 +41,26 @@ export class FlashcardComponent {
     const config = this.store.currentRoundConfig();
     if (!card || !config) return '';
     const field = config.layout.dataMap.primary;
-    return field === 'english' ? card.english : card.polish;
+    if (field === 'english') {
+      return card.english;
+    } else if (field !== 'contextSentence' && field !== 'translation') {
+      // For native language fields, get the translation
+      return card.translations[field] || '';
+    }
+    return '';
   });
 
   displayBackLabel = computed(() => {
     if (this.backLabel()) return this.backLabel()!;
     const config = this.store.currentRoundConfig();
     if (!config) return 'Back';
-    return config.layout.dataMap.secondary === 'english' ? 'English' : 'Polish';
+    const field = config.layout.dataMap.secondary;
+    if (field === 'english') {
+      return 'English';
+    } else if (field !== 'contextSentence' && field !== 'translation') {
+      return this.languageService.getLanguageDisplayName(field);
+    }
+    return field;
   });
 
   displayBackText = computed(() => {
@@ -49,7 +69,13 @@ export class FlashcardComponent {
     const config = this.store.currentRoundConfig();
     if (!card || !config) return '';
     const field = config.layout.dataMap.secondary;
-    return field === 'english' ? card.english : card.polish;
+    if (field === 'english') {
+      return card.english;
+    } else if (field !== 'contextSentence' && field !== 'translation') {
+      // For native language fields, get the translation
+      return card.translations[field] || '';
+    }
+    return '';
   });
 
   textSizeClass = computed(() => {

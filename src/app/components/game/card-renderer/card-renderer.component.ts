@@ -51,7 +51,19 @@ export class CardRendererComponent {
     if (!config) return '';
     const card = this.card();
     const dataMap = config.dataMap;
-    return card[dataMap.primary as keyof Flashcard] as string;
+    const field = dataMap.primary;
+
+    // Handle direct properties (like 'english')
+    if (field === 'english') {
+      return card.english;
+    }
+
+    // Handle translation fields (like 'polish', 'german', etc.)
+    if (card.translations && field in card.translations) {
+      return card.translations[field as keyof typeof card.translations] || '';
+    }
+
+    return '';
   });
 
   backText = computed(() => {
@@ -59,7 +71,19 @@ export class CardRendererComponent {
     if (!config) return '';
     const card = this.card();
     const dataMap = config.dataMap;
-    return card[dataMap.secondary as keyof Flashcard] as string;
+    const field = dataMap.secondary;
+
+    // Handle direct properties (like 'english')
+    if (field === 'english') {
+      return card.english;
+    }
+
+    // Handle translation fields (like 'polish', 'german', etc.)
+    if (card.translations && field in card.translations) {
+      return card.translations[field as keyof typeof card.translations] || '';
+    }
+
+    return '';
   });
 
   frontLabel = computed(() => {

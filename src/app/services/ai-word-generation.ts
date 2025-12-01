@@ -21,7 +21,7 @@ export class AiWordGenerationService {
     count: number = 10,
     progressCallback?: (info: AIProgress) => void,
     difficulty?: number | null
-  ): Promise<{ english: string, polish: string, difficulty: 'beginner' | 'intermediate' | 'advanced' }[]> {
+  ): Promise<{ english: string, translations: Record<string, string>, difficulty: 'beginner' | 'intermediate' | 'advanced' }[]> {
 
     if (!isPlatformBrowser(this.platformId)) {
       console.log('Skipping AI word generation during SSR, using fallback words');
@@ -75,7 +75,7 @@ export class AiWordGenerationService {
     });
   }
 
-  private getFallbackWords(theme: string, count: number): { english: string, polish: string, difficulty: 'beginner' | 'intermediate' | 'advanced' }[] {
+  private getFallbackWords(theme: string, count: number): { english: string, translations: Record<string, string>, difficulty: 'beginner' | 'intermediate' | 'advanced' }[] {
     // Fallback words organized by theme with difficulty levels
     const fallbackThemes: Record<string, { english: string, polish: string, difficulty: 'beginner' | 'intermediate' | 'advanced' }[]> = {
       'IT': [
@@ -129,6 +129,10 @@ export class AiWordGenerationService {
     };
 
     const words = fallbackThemes[theme] || fallbackThemes['IT'];
-    return words.slice(0, count);
+    return words.slice(0, count).map(word => ({
+      english: word.english,
+      translations: { polish: word.polish },
+      difficulty: word.difficulty
+    }));
   }
 }

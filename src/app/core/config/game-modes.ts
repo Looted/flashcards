@@ -1,68 +1,72 @@
 import { GameMode } from '../models/game-config.model';
+import { LanguageService } from '../../services/language.service';
 
-export const STANDARD_GAME_MODE: GameMode = {
-  id: 'standard',
-  description: 'Standard Learning Mode',
-  rounds: [
-    {
-      id: 'recognition',
-      name: 'Recognition',
-      layout: {
-        templateId: 'flashcard_standard',
-        dataMap: {
-          primary: 'english',
-          secondary: 'polish'
+// Factory function to create game modes with dynamic language configuration
+export function createStandardGameMode(languageService: LanguageService): GameMode {
+  return {
+    id: 'standard',
+    description: 'Standard Learning Mode',
+    rounds: [
+      {
+        id: 'recognition',
+        name: 'Recognition',
+        layout: {
+          templateId: 'flashcard_standard',
+          dataMap: {
+            primary: 'english',
+            secondary: languageService.nativeLanguage
+          }
+        },
+        inputSource: 'deck_start',
+        completionCriteria: {
+          requiredSuccesses: 1
+        },
+        failureBehavior: {
+          action: 'requeue',
+          strategy: 'static_offset',
+          params: [3]
         }
       },
-      inputSource: 'deck_start',
-      completionCriteria: {
-        requiredSuccesses: 1
-      },
-      failureBehavior: {
-        action: 'requeue',
-        strategy: 'static_offset',
-        params: [3]
-      }
-    },
-    {
-      id: 'recall',
-      name: 'Recall',
-      layout: {
-        templateId: 'flashcard_standard',
-        dataMap: {
-          primary: 'polish',
-          secondary: 'english'
+      {
+        id: 'recall',
+        name: 'Recall',
+        layout: {
+          templateId: 'flashcard_standard',
+          dataMap: {
+            primary: languageService.nativeLanguage,
+            secondary: 'english'
+          }
+        },
+        inputSource: 'deck_start',
+        completionCriteria: {
+          requiredSuccesses: 1
+        },
+        failureBehavior: {
+          action: 'requeue',
+          strategy: 'static_offset',
+          params: [3]
         }
       },
-      inputSource: 'deck_start',
-      completionCriteria: {
-        requiredSuccesses: 1
-      },
-      failureBehavior: {
-        action: 'requeue',
-        strategy: 'static_offset',
-        params: [3]
-      }
-    },
-    {
-      id: 'writing',
-      name: 'Writing',
-      layout: {
-        templateId: 'typing_challenge',
-        dataMap: {
-          primary: 'polish',
-          secondary: 'english'
+      {
+        id: 'writing',
+        name: 'Writing',
+        layout: {
+          templateId: 'typing_challenge',
+          dataMap: {
+            primary: languageService.nativeLanguage,
+            secondary: 'english'
+          }
+        },
+        inputSource: 'deck_start',
+        completionCriteria: {
+          requiredSuccesses: 1
+        },
+        failureBehavior: {
+          action: 'requeue',
+          strategy: 'static_offset',
+          params: [3]
         }
-      },
-      inputSource: 'deck_start',
-      completionCriteria: {
-        requiredSuccesses: 1
-      },
-      failureBehavior: {
-        action: 'requeue',
-        strategy: 'static_offset',
-        params: [3]
       }
-    }
-  ]
-};
+    ]
+  };
+}

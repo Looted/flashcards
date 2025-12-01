@@ -14,7 +14,7 @@ describe('CardRendererComponent', () => {
   const mockCard: Flashcard = {
     id: '1',
     english: 'hello',
-    polish: 'cześć',
+    translations: { polish: 'cześć' },
     category: 'basic',
     masteryLevel: 1
   };

@@ -64,11 +64,11 @@ describe('FlashcardComponent', () => {
       expect(component.displayFrontLabel()).toBe('English');
     });
 
-    it('should return "Polish" when primary is polish', () => {
+    it('should return native language display name when primary is polish', () => {
       mockStore.currentRoundConfig.mockReturnValue({
         layout: { dataMap: { primary: 'polish' } }
       });
-      expect(component.displayFrontLabel()).toBe('Polish');
+      expect(component.displayFrontLabel()).toBe('Polski');
     });
 
     it('should return "Front" when no config available', () => {
@@ -84,7 +84,7 @@ describe('FlashcardComponent', () => {
     });
 
     it('should return english text when primary is english', () => {
-      mockStore.currentCard.mockReturnValue({ english: 'hello', polish: 'cześć' });
+      mockStore.currentCard.mockReturnValue({ english: 'hello', translations: { polish: 'cześć' } });
       mockStore.currentRoundConfig.mockReturnValue({
         layout: { dataMap: { primary: 'english' } }
       });
@@ -92,7 +92,7 @@ describe('FlashcardComponent', () => {
     });
 
     it('should return polish text when primary is polish', () => {
-      mockStore.currentCard.mockReturnValue({ english: 'hello', polish: 'cześć' });
+      mockStore.currentCard.mockReturnValue({ english: 'hello', translations: { polish: 'cześć' } });
       mockStore.currentRoundConfig.mockReturnValue({
         layout: { dataMap: { primary: 'polish' } }
       });
@@ -119,11 +119,11 @@ describe('FlashcardComponent', () => {
       expect(component.displayBackLabel()).toBe('English');
     });
 
-    it('should return "Polish" when secondary is polish', () => {
+    it('should return native language display name when secondary is polish', () => {
       mockStore.currentRoundConfig.mockReturnValue({
         layout: { dataMap: { secondary: 'polish' } }
       });
-      expect(component.displayBackLabel()).toBe('Polish');
+      expect(component.displayBackLabel()).toBe('Polski');
     });
 
     it('should return "Back" when no config available', () => {
@@ -139,7 +139,7 @@ describe('FlashcardComponent', () => {
     });
 
     it('should return english text when secondary is english', () => {
-      mockStore.currentCard.mockReturnValue({ english: 'hello', polish: 'cześć' });
+      mockStore.currentCard.mockReturnValue({ english: 'hello', translations: { polish: 'cześć' } });
       mockStore.currentRoundConfig.mockReturnValue({
         layout: { dataMap: { secondary: 'english' } }
       });
@@ -147,7 +147,7 @@ describe('FlashcardComponent', () => {
     });
 
     it('should return polish text when secondary is polish', () => {
-      mockStore.currentCard.mockReturnValue({ english: 'hello', polish: 'cześć' });
+      mockStore.currentCard.mockReturnValue({ english: 'hello', translations: { polish: 'cześć' } });
       mockStore.currentRoundConfig.mockReturnValue({
         layout: { dataMap: { secondary: 'polish' } }
       });
@@ -186,7 +186,7 @@ describe('FlashcardComponent', () => {
     });
 
     it('should handle text from store when inputs not provided', () => {
-      mockStore.currentCard.mockReturnValue({ english: 'A'.repeat(50), polish: 'cześć' });
+      mockStore.currentCard.mockReturnValue({ english: 'A'.repeat(50), translations: { polish: 'cześć' } });
       mockStore.currentRoundConfig.mockReturnValue({
         layout: { dataMap: { primary: 'english', secondary: 'polish' } }
       });

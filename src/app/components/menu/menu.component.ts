@@ -6,11 +6,12 @@ import { isPlatformBrowser } from '@angular/common';
 import { GameService } from '../../services/game.service';
 import { VocabularyStatsService } from '../../services/vocabulary-stats.service';
 import { GameMode } from '../../shared/constants';
+import { LanguageSwitcherComponent } from '../language-switcher/language-switcher.component';
 
 @Component({
   selector: 'app-menu',
   standalone: true,
-  imports: [CommonModule, FormsModule],
+  imports: [CommonModule, FormsModule, LanguageSwitcherComponent],
   templateUrl: './menu.component.html',
   styleUrl: './menu.component.css'
 })

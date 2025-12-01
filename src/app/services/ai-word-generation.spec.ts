@@ -173,9 +173,9 @@ describe('AiWordGenerationService', () => {
       const result = await service.generateWords('IT', 3);
 
       expect(result).toHaveLength(3);
-      expect(result[0]).toEqual({ english: 'computer', polish: 'komputer', difficulty: 'beginner' });
-      expect(result[1]).toEqual({ english: 'software', polish: 'oprogramowanie', difficulty: 'beginner' });
-      expect(result[2]).toEqual({ english: 'internet', polish: 'internet', difficulty: 'beginner' });
+      expect(result[0]).toEqual({ english: 'computer', translations: { polish: 'komputer' }, difficulty: 'beginner' });
+      expect(result[1]).toEqual({ english: 'software', translations: { polish: 'oprogramowanie' }, difficulty: 'beginner' });
+      expect(result[2]).toEqual({ english: 'internet', translations: { polish: 'internet' }, difficulty: 'beginner' });
     });
 
     it('should handle unknown theme with fallback to IT', async () => {
@@ -228,7 +228,8 @@ describe('AiWordGenerationService', () => {
         const result = await service.generateWords(theme, 1);
         expect(result).toHaveLength(1);
         expect(result[0]).toHaveProperty('english');
-        expect(result[0]).toHaveProperty('polish');
+        expect(result[0]).toHaveProperty('translations');
+        expect(result[0].translations).toHaveProperty('polish');
         expect(result[0]).toHaveProperty('difficulty');
         expect(['beginner', 'intermediate', 'advanced']).toContain(result[0].difficulty);
       }

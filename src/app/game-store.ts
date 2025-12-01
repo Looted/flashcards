@@ -1,12 +1,13 @@
 import { Injectable, signal, computed, inject } from '@angular/core';
 import { VocabularyStatsService } from './services/vocabulary-stats.service';
-import { GameMode } from './core/models/game-config.model';
+import { GameMode, LanguageField } from './core/models/game-config.model';
+import { LanguageService } from './services/language.service';
 
 // --- MODELS ---
 export interface Flashcard {
   id: string;
   english: string;
-  polish: string;
+  translations: Partial<Record<LanguageField, string>>;
   category: string;
   masteryLevel: number;
 }
@@ -22,6 +23,7 @@ export type GamePhase = 'MENU' | 'PLAYING' | 'SUMMARY';
 @Injectable({ providedIn: 'root' })
 export class GameStore {
   private statsService = inject(VocabularyStatsService);
+  private languageService = inject(LanguageService);
 
   // State Signals
   phase = signal<GamePhase>('MENU');
@@ -61,7 +63,8 @@ export class GameStore {
     this.queue.update(q => q.slice(1));
 
     // Record the encounter in stats
-    this.statsService.recordEncounter(card.flashcard.english, card.flashcard.polish, card.flashcard.category, success);
+    const nativeTranslation = card.flashcard.translations[this.languageService.nativeLanguage] || card.flashcard.translations.polish || '';
+    this.statsService.recordEncounter(card.flashcard.english, nativeTranslation, card.flashcard.category, success);
 
     if (success) {
       card.successCount++;
@@ -91,7 +94,8 @@ export class GameStore {
     this.queue.update(q => q.slice(1));
 
     // Mark as skipped in stats
-    this.statsService.markAsSkipped(card.flashcard.english, card.flashcard.polish, card.flashcard.category);
+    const nativeTranslation = card.flashcard.translations[this.languageService.nativeLanguage] || card.flashcard.translations.polish || '';
+    this.statsService.markAsSkipped(card.flashcard.english, nativeTranslation, card.flashcard.category);
 
     if (this.queue().length === 0) {
       this.advanceRound();

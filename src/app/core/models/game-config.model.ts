@@ -1,5 +1,6 @@
 export type TemplateId = 'flashcard_standard' | 'typing_challenge';
-export type CardField = 'english' | 'polish' | 'contextSentence' | 'translation';
+export type LanguageField = 'polish' | 'german' | 'french' | 'spanish' | 'italian' | 'portuguese' | 'dutch' | 'czech' | 'slovak' | 'hungarian' | 'romanian';
+export type CardField = 'english' | LanguageField | 'contextSentence' | 'translation';
 
 export interface LayoutPolicy {
   templateId: TemplateId;

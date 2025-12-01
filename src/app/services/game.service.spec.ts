@@ -6,7 +6,7 @@ import { StaticVocabularyService } from './static-vocabulary.service';
 import { VocabularyStatsService } from './vocabulary-stats.service';
 import { GameStore } from '../game-store';
 import { GameMode, GAME_CONSTANTS } from '../shared/constants';
-import { STANDARD_GAME_MODE } from '../core/config/game-modes';
+import { GameModeService } from './game-mode.service';
 import { describe, it, expect, beforeEach, vi } from 'vitest';
 
 describe('GameService', () => {
@@ -36,9 +36,18 @@ describe('GameService', () => {
       skipCurrentCard: vi.fn()
     };
 
+    const mockGameModeService = {
+      getStandardGameMode: vi.fn().mockReturnValue({
+        id: 'standard',
+        description: 'Standard Learning Mode',
+        rounds: []
+      })
+    };
+
     TestBed.configureTestingModule({
       providers: [
         GameService,
+        { provide: GameModeService, useValue: mockGameModeService },
         { provide: AiWordGenerationService, useValue: mockAiService },
         { provide: StaticVocabularyService, useValue: mockStaticService },
         { provide: VocabularyStatsService, useValue: mockStatsService },
@@ -51,8 +60,8 @@ describe('GameService', () => {
 
   describe('startGame', () => {
     const mockCards = [
-      { english: 'hello', polish: 'cześć' },
-      { english: 'world', polish: 'świat' }
+      { english: 'hello', translations: { polish: 'cześć' } },
+      { english: 'world', translations: { polish: 'świat' } }
     ];
 
     beforeEach(() => {
@@ -97,8 +106,8 @@ describe('GameService', () => {
 
     it('should filter cards for New mode to show only unseen words', async () => {
       const cardsWithStats = [
-        { english: 'seen', polish: 'widziany' },
-        { english: 'unseen', polish: 'niewidziany' }
+        { english: 'seen', translations: { polish: 'widziany' } },
+        { english: 'unseen', translations: { polish: 'niewidziany' } }
       ];
       mockAiService.generateWords.mockResolvedValue(cardsWithStats);
 
@@ -108,11 +117,12 @@ describe('GameService', () => {
 
       await service.startGame('IT', GameMode.New, false, null);
 
-      expect(mockStore.startGame).toHaveBeenCalledWith(STANDARD_GAME_MODE, [
+      const gameModeService = TestBed.inject(GameModeService);
+      expect(mockStore.startGame).toHaveBeenCalledWith(gameModeService.getStandardGameMode(), [
         {
           id: expect.any(String),
           english: 'unseen',
-          polish: 'niewidziany',
+          translations: { polish: 'niewidziany' },
           category: 'IT',
           masteryLevel: 0
         }
@@ -130,18 +140,19 @@ describe('GameService', () => {
 
       await service.startGame('IT', GameMode.Practice, false, null);
 
-      expect(mockStore.startGame).toHaveBeenCalledWith(STANDARD_GAME_MODE, [
+      const gameModeService = TestBed.inject(GameModeService);
+      expect(mockStore.startGame).toHaveBeenCalledWith(gameModeService.getStandardGameMode(), [
         {
           id: expect.any(String),
           english: 'practice1',
-          polish: 'ćwiczenie1',
+          translations: { polish: 'ćwiczenie1' },
           category: 'IT',
           masteryLevel: 0
         },
         {
           id: expect.any(String),
           english: 'practice2',
-          polish: 'ćwiczenie2',
+          translations: { polish: 'ćwiczenie2' },
           category: 'IT',
           masteryLevel: 0
         }
@@ -167,18 +178,19 @@ describe('GameService', () => {
     it('should create flashcards with proper structure', async () => {
       await service.startGame('IT', GameMode.New, false, null);
 
-      expect(mockStore.startGame).toHaveBeenCalledWith(STANDARD_GAME_MODE, [
+      const gameModeService = TestBed.inject(GameModeService);
+      expect(mockStore.startGame).toHaveBeenCalledWith(gameModeService.getStandardGameMode(), [
         {
           id: expect.any(String),
           english: 'hello',
-          polish: 'cześć',
+          translations: { polish: 'cześć' },
           category: 'IT',
           masteryLevel: 0
         },
         {
           id: expect.any(String),
           english: 'world',
-          polish: 'świat',
+          translations: { polish: 'świat' },
           category: 'IT',
           masteryLevel: 0
         }
@@ -190,7 +202,8 @@ describe('GameService', () => {
 
       await service.startGame('IT', GameMode.New, false, null);
 
-      expect(mockStore.startGame).toHaveBeenCalledWith(STANDARD_GAME_MODE, []);
+      const gameModeService = TestBed.inject(GameModeService);
+      expect(mockStore.startGame).toHaveBeenCalledWith(gameModeService.getStandardGameMode(), []);
     });
 
     it('should handle static service returning empty observable', async () => {
@@ -198,7 +211,8 @@ describe('GameService', () => {
 
       await service.startGame('HR', GameMode.New, true, null);
 
-      expect(mockStore.startGame).toHaveBeenCalledWith(STANDARD_GAME_MODE, []);
+      const gameModeService = TestBed.inject(GameModeService);
+      expect(mockStore.startGame).toHaveBeenCalledWith(gameModeService.getStandardGameMode(), []);
     });
   });
 

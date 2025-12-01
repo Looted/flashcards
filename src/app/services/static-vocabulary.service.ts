@@ -18,7 +18,7 @@ export class StaticVocabularyService {
     return this.http.get<VocabularyItem[]>('hr_eng_pl/vocabulary.json');
   }
 
-  generateWords(theme: string, count: number, difficulty?: number): Observable<{english: string, polish: string}[]> {
+  generateWords(theme: string, count: number, difficulty?: number): Observable<{english: string, translations: Record<string, string>}[]> {
     return this.loadVocabulary().pipe(
       map(vocab => {
         // Filter by theme if needed, but since it's HR, just return random
@@ -37,7 +37,7 @@ export class StaticVocabularyService {
         const shuffled = [...filtered].sort(() => Math.random() - 0.5);
         return shuffled.slice(0, count).map(item => ({
           english: item.english,
-          polish: item.polish
+          translations: { polish: item.polish }
         }));
       })
     );

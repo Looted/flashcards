@@ -55,7 +55,7 @@ describe('StaticVocabularyService', () => {
 
       expect(result).toHaveLength(3);
       expect(result[0]).toHaveProperty('english');
-      expect(result[0]).toHaveProperty('polish');
+      expect(result[0]).toHaveProperty('translations');
       expect(result[0]).not.toHaveProperty('difficulty'); // difficulty is filtered out
     });
 
@@ -114,7 +114,7 @@ describe('StaticVocabularyService', () => {
 
       expect(result[0]).toEqual({
         english: expect.any(String),
-        polish: expect.any(String)
+        translations: expect.any(Object)
       });
       expect(result[0]).not.toHaveProperty('difficulty');
     });

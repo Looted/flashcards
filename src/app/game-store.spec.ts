@@ -3,7 +3,7 @@ import { GameStore, Flashcard } from './game-store';
 import { VocabularyStatsService } from './services/vocabulary-stats.service';
 import { StorageService } from './services/storage.service';
 import { PLATFORM_ID } from '@angular/core';
-import { STANDARD_GAME_MODE } from './core/config/game-modes';
+import { GameModeService } from './services/game-mode.service';
 import { describe, it, expect, beforeEach, vi } from 'vitest';
 
 describe('GameStore', () => {
@@ -33,6 +33,12 @@ describe('GameStore', () => {
     TestBed.configureTestingModule({
       providers: [
         GameStore,
+        {
+          provide: GameModeService,
+          useValue: {
+            getStandardGameMode: () => mockGameMode
+          }
+        },
         { provide: VocabularyStatsService, useValue: vocabularyStatsServiceMock },
         { provide: StorageService, useValue: storageServiceMock },
         { provide: PLATFORM_ID, useValue: 'browser' }
@@ -42,10 +48,60 @@ describe('GameStore', () => {
   });
 
   const mockCards: Flashcard[] = [
-    { id: '1', english: 'Hello', polish: 'Cześć', category: 'Basic', masteryLevel: 0 },
-    { id: '2', english: 'Goodbye', polish: 'Do widzenia', category: 'Basic', masteryLevel: 0 },
-    { id: '3', english: 'Thank you', polish: 'Dziękuję', category: 'Basic', masteryLevel: 0 }
+    { id: '1', english: 'Hello', translations: { polish: 'Cześć' }, category: 'Basic', masteryLevel: 0 },
+    { id: '2', english: 'Goodbye', translations: { polish: 'Do widzenia' }, category: 'Basic', masteryLevel: 0 },
+    { id: '3', english: 'Thank you', translations: { polish: 'Dziękuję' }, category: 'Basic', masteryLevel: 0 }
   ];
+
+  // Mock game mode for tests
+  const mockGameMode = {
+    id: 'standard',
+    description: 'Standard Learning Mode',
+    rounds: [
+      {
+        id: 'recognition',
+        name: 'Recognition',
+        layout: {
+          templateId: 'flashcard_standard' as any,
+          dataMap: {
+            primary: 'english' as any,
+            secondary: 'polish' as any
+          }
+        },
+        inputSource: 'deck_start' as any,
+        completionCriteria: { requiredSuccesses: 1 },
+        failureBehavior: { action: 'requeue' as any, strategy: 'static_offset' as any, params: [3] }
+      },
+      {
+        id: 'recall',
+        name: 'Recall',
+        layout: {
+          templateId: 'flashcard_standard' as any,
+          dataMap: {
+            primary: 'polish' as any,
+            secondary: 'english' as any
+          }
+        },
+        inputSource: 'deck_start' as any,
+        completionCriteria: { requiredSuccesses: 1 },
+        failureBehavior: { action: 'requeue' as any, strategy: 'static_offset' as any, params: [3] }
+      },
+      {
+        id: 'writing',
+        name: 'Writing',
+        layout: {
+          templateId: 'typing_challenge' as any,
+          dataMap: {
+            primary: 'polish' as any,
+            secondary: 'english' as any
+          }
+        },
+        inputSource: 'deck_start' as any,
+        completionCriteria: { requiredSuccesses: 1 },
+        failureBehavior: { action: 'requeue' as any, strategy: 'static_offset' as any, params: [3] }
+      }
+    ]
+  } as any;
 
   describe('Initial state', () => {
     it('should start with MENU phase', () => {
@@ -79,7 +135,7 @@ describe('GameStore', () => {
 
   describe('startGame', () => {
     it('should initialize with mode and cards', () => {
-      store.startGame(STANDARD_GAME_MODE, mockCards);
+      store.startGame(mockGameMode, mockCards);
 
       expect(store.activeDeck()).toEqual(mockCards);
       expect(store.phase()).toBe('PLAYING');
@@ -91,14 +147,14 @@ describe('GameStore', () => {
     });
 
     it('should set current card to first card in queue', () => {
-      store.startGame(STANDARD_GAME_MODE, mockCards);
+      store.startGame(mockGameMode, mockCards);
       expect(store.currentCard()).toEqual(mockCards[0]);
     });
   });
 
   describe('progress calculation', () => {
     it('should calculate progress as graduated / total', () => {
-      store.startGame(STANDARD_GAME_MODE, mockCards);
+      store.startGame(mockGameMode, mockCards);
       expect(store.progress()).toBe(0); // 0/3
 
       store.submitAnswer(true); // Graduate first card
@@ -114,7 +170,7 @@ describe('GameStore', () => {
 
   describe('submitAnswer', () => {
     beforeEach(() => {
-      store.startGame(STANDARD_GAME_MODE, mockCards);
+      store.startGame(mockGameMode, mockCards);
     });
 
     it('should graduate card on first success', () => {
@@ -161,7 +217,7 @@ describe('GameStore', () => {
 
   describe('skipCurrentCard', () => {
     beforeEach(() => {
-      store.startGame(STANDARD_GAME_MODE, mockCards);
+      store.startGame(mockGameMode, mockCards);
     });
 
     it('should mark current card as skipped in stats service', () => {
@@ -193,14 +249,14 @@ describe('GameStore', () => {
     });
 
     it('should not crash when no current card', () => {
-      store.startGame(STANDARD_GAME_MODE, []);
+      store.startGame(mockGameMode, []);
       expect(() => store.skipCurrentCard()).not.toThrow();
     });
   });
 
   describe('reset', () => {
     it('should reset all state to initial values', () => {
-      store.startGame(STANDARD_GAME_MODE, mockCards);
+      store.startGame(mockGameMode, mockCards);
       store.submitAnswer(true);
 
       store.reset();

@@ -1,0 +1,16 @@
+<div class="language-switcher">
+  <label for="language-select" class="language-label">Native Language:</label>
+  <select
+    id="language-select"
+    [ngModel]="currentLanguage()"
+    (ngModelChange)="selectLanguage($event)"
+    class="language-select"
+  >
+    <option
+      *ngFor="let language of supportedLanguages()"
+      [value]="language"
+    >
+      {{ getLanguageDisplayName(language) }}
+    </option>
+  </select>
+</div>
