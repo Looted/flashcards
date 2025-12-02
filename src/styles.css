@@ -35,13 +35,13 @@
   }
 }
 
-/* Light Mode Variables - Increased Contrast */
+/* Light Mode Variables */
 :root {
-  --color-surface-ground: #f1f5f9; /* Slate-100 (Was 50) - Darker for better contrast */
+  --color-surface-ground: #f1f5f9; /* Slate-100 */
   --color-surface-card: #ffffff;
   --color-surface-text: #0f172a;
-  --color-surface-border: #cbd5e1; /* Slate-300 (Was 200) - Stronger borders */
-  --color-surface-subtext: #475569; /* Slate-600 (Was 500) - Darker subtext */
+  --color-surface-border: #cbd5e1; /* Slate-300 */
+  --color-surface-subtext: #475569; /* Slate-600 */
 }
 
 /* Dark Mode Variables */

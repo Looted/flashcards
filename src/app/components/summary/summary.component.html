@@ -3,8 +3,10 @@
   <!-- Celebration Icon -->
   <div class="relative mb-8 group">
     <div class="absolute inset-0 bg-green-200 dark:bg-green-900/40 rounded-full blur-xl opacity-50 group-hover:opacity-80 transition-opacity"></div>
-    <div class="relative w-28 h-28 bg-gradient-to-br from-green-400 to-emerald-600 rounded-full flex items-center justify-center text-6xl shadow-xl shadow-green-500/30 animate-float">
-      🏆
+    <div class="relative w-28 h-28 bg-gradient-to-br from-green-400 to-emerald-600 rounded-full flex items-center justify-center shadow-xl shadow-green-500/30 animate-float">
+      <svg class="w-16 h-16 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 3v4M3 5h4M6 17v4m-2-2h4m5-16l2.286 6.857L21 12l-5.714 2.143L13 21l-2.286-6.857L5 12l5.714-2.143L13 3z"></path>
+      </svg>
     </div>
   </div>
 
@@ -24,7 +26,11 @@
                  [ngClass]="(Math.max(0, store.activeDeck().length - store.graduatePile().length)) > 0 ? 'text-amber-500 dark:text-amber-400' : 'text-green-500 dark:text-green-400'">
               {{ Math.max(0, store.activeDeck().length - store.graduatePile().length) }}
            </span>
-           <span *ngIf="(Math.max(0, store.activeDeck().length - store.graduatePile().length)) === 0" class="text-xl">✨</span>
+           <span *ngIf="(Math.max(0, store.activeDeck().length - store.graduatePile().length)) === 0" class="text-xl">
+             <svg class="w-5 h-5 inline" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+               <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 3v4M3 5h4M6 17v4m-2-2h4m5-16l2.286 6.857L21 12l-5.714 2.143L13 21l-2.286-6.857L5 12l5.714-2.143L13 3z"></path>
+             </svg>
+           </span>
         </div>
      </div>
   </div>
