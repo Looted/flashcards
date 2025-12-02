@@ -1,4 +1,4 @@
-import { Component, Input, inject, signal, OnDestroy } from '@angular/core';
+import { Component, Input, inject, signal, computed, OnDestroy } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { Router } from '@angular/router';
 import { PwaService } from '../../services/pwa.service';
@@ -27,8 +27,10 @@ export class HeaderComponent implements OnDestroy {
   showDevControls = signal(false);
   useStatic = signal(true); // Default to static mode
 
-  // Environment
-  isAiModeEnabled = false;
+  // Computed signal for AI toggle visibility
+  showAiToggle = computed(() => this.showDevControls() && this.environmentService.isAiModeEnabled);
+
+
 
   private readonly TRIPLE_CLICK_THRESHOLD = 3;
   private readonly CLICK_TIMEOUT_MS = 500;
