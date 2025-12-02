@@ -1,7 +1,8 @@
 <div class="w-full max-w-2xl mx-auto animate-fade-in">
 
   <!-- Home Screen -->
-  <div *ngIf="currentScreen() === 'home'" class="flex flex-col gap-8">
+  @if (currentScreen() === 'home') {
+  <div class="flex flex-col gap-8">
 
     <!-- Welcome Header -->
     <div class="text-center space-y-2 py-8">
@@ -34,7 +35,8 @@
     }
 
     <!-- Continue Learning Card -->
-    <button *ngIf="lastSession()" (click)="continueLearning()"
+    @if (lastSession()) {
+    <button (click)="continueLearning()"
       class="group relative w-full overflow-hidden rounded-2xl bg-white dark:bg-slate-800 p-1 shadow-md shadow-slate-200/60 dark:shadow-slate-900/50 ring-1 ring-slate-200 dark:ring-white/10 transition-all hover:shadow-xl hover:-translate-y-1 hover:ring-blue-500/40"
       [disabled]="isLoading">
       <div class="relative flex items-center gap-6 rounded-xl bg-gradient-to-r from-slate-900 to-slate-800 dark:from-slate-800 dark:to-slate-900 p-6 sm:p-8">
@@ -50,7 +52,9 @@
           <div class="flex flex-wrap gap-2 text-sm text-slate-300">
              <span class="bg-white/10 px-2 py-0.5 rounded text-xs font-medium">{{ getCategoryName(lastSession()?.category ?? null) }}</span>
              <span class="text-slate-500">•</span>
-             <span>{{ lastSession()?.gameMode === 'classic' ? 'Classic' : 'Blitz' }}</span>
+             <span>Game Mode: {{ lastSession()?.gameMode === 'classic' ? 'Classic' : 'Blitz' }}</span>
+             <span class="text-slate-500">•</span>
+             <span>Difficulty: {{ getDifficultyDisplayName(lastSession()?.difficulty ?? null) }}</span>
           </div>
         </div>
         <div class="text-white/50 group-hover:translate-x-1 transition-transform">
@@ -58,12 +62,15 @@
         </div>
       </div>
     </button>
+    }
 
-    <div *ngIf="lastSession()" class="relative flex items-center py-2">
+    @if (lastSession()) {
+    <div class="relative flex items-center py-2">
       <div class="flex-grow border-t border-slate-300 dark:border-slate-700"></div>
       <span class="flex-shrink-0 mx-4 text-xs font-semibold uppercase tracking-wider text-slate-400 dark:text-slate-500">Or start fresh</span>
       <div class="flex-grow border-t border-slate-300 dark:border-slate-700"></div>
     </div>
+    }
 
     <!-- Category Grid -->
     <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
@@ -73,7 +80,7 @@
           [disabled]="isLoading">
 
           <div class="mb-4 inline-flex h-14 w-14 items-center justify-center rounded-2xl text-3xl shadow-sm transition-transform group-hover:scale-110 group-hover:rotate-3"
-               [ngClass]="category.id === 'hr' ? 'bg-purple-100 dark:bg-purple-900/30 text-purple-600 dark:text-purple-300' : 'bg-blue-100 dark:bg-blue-900/30 text-blue-600 dark:text-blue-300'">
+               [class]="category.id === 'hr' ? 'bg-purple-100 dark:bg-purple-900/30 text-purple-600 dark:text-purple-300' : 'bg-blue-100 dark:bg-blue-900/30 text-blue-600 dark:text-blue-300'">
             {{ category.icon }}
           </div>
 
@@ -83,9 +90,11 @@
           <div class="w-full mt-auto">
              <!-- Status badges -->
              <div class="flex gap-2 justify-center mb-3">
-                <span *ngIf="category.needsPractice > 0" class="inline-flex items-center gap-1 px-2 py-1 rounded-md bg-amber-50 dark:bg-amber-900/30 text-amber-700 dark:text-amber-300 text-xs font-medium ring-1 ring-inset ring-amber-600/20 dark:ring-amber-500/30">
+                @if (category.needsPractice > 0) {
+                <span class="inline-flex items-center gap-1 px-2 py-1 rounded-md bg-amber-50 dark:bg-amber-900/30 text-amber-700 dark:text-amber-300 text-xs font-medium ring-1 ring-inset ring-amber-600/20 dark:ring-amber-500/30">
                   ⚠️ {{ category.needsPractice }} to review
                 </span>
+                }
              </div>
              <!-- Progress bar -->
              <div class="h-1.5 w-full rounded-full bg-slate-100 dark:bg-slate-700 overflow-hidden">
@@ -98,9 +107,11 @@
 
 
   </div>
+  }
 
   <!-- Config Screen -->
-  <div *ngIf="currentScreen() === 'config'" class="flex flex-col h-full animate-slide-up">
+  @if (currentScreen() === 'config') {
+  <div class="flex flex-col h-full animate-slide-up">
 
     <!-- Header -->
     <div class="flex items-center gap-4 mb-8">
@@ -142,15 +153,16 @@
       <section>
         <h3 class="text-xs font-bold uppercase tracking-wider text-slate-400 dark:text-slate-500 mb-4">Difficulty</h3>
         <div class="flex gap-2 bg-slate-100 dark:bg-slate-700 p-1.5 rounded-xl">
-           <button *ngFor="let level of [1, 2, 3]"
-             (click)="selectedDifficulty.set(level)"
+           @for (level of [1, 2, 3]; track level) {
+           <button (click)="selectedDifficulty.set(level)"
              class="flex-1 py-2 rounded-lg text-sm font-semibold transition-all"
-             [ngClass]="selectedDifficulty() === level ? 'bg-white dark:bg-slate-600 text-blue-600 dark:text-blue-300 shadow-sm' : 'text-slate-500 dark:text-slate-300 hover:text-slate-700 dark:hover:text-white'">
+             [class]="selectedDifficulty() === level ? 'bg-white dark:bg-slate-600 text-blue-600 dark:text-blue-300 shadow-sm' : 'text-slate-500 dark:text-slate-300 hover:text-slate-700 dark:hover:text-white'">
              {{ level === 1 ? 'Easy' : level === 2 ? 'Medium' : 'Hard' }}
            </button>
+           }
            <button (click)="selectedDifficulty.set(null)"
              class="flex-1 py-2 rounded-lg text-sm font-semibold transition-all"
-             [ngClass]="selectedDifficulty() === null ? 'bg-white dark:bg-slate-600 text-blue-600 dark:text-blue-300 shadow-sm' : 'text-slate-500 dark:text-slate-300 hover:text-slate-700 dark:hover:text-white'">
+             [class]="selectedDifficulty() === null ? 'bg-white dark:bg-slate-600 text-blue-600 dark:text-blue-300 shadow-sm' : 'text-slate-500 dark:text-slate-300 hover:text-slate-700 dark:hover:text-white'">
              All
            </button>
         </div>
@@ -181,9 +193,12 @@
       <button (click)="startSession()"
         class="w-full py-4 px-6 bg-gradient-to-r from-blue-600 to-indigo-600 hover:from-blue-700 hover:to-indigo-700 text-white font-bold rounded-xl shadow-lg shadow-blue-500/30 transform transition-all active:scale-[0.98] disabled:opacity-70 disabled:cursor-not-allowed flex items-center justify-center gap-2"
         [disabled]="isLoading">
-        <span *ngIf="isLoading" class="animate-spin">⏳</span>
+        @if (isLoading) {
+        <span class="animate-spin">⏳</span>
+        }
         <span>{{ isLoading ? 'Generating Deck...' : 'Start Session' }}</span>
       </button>
     </div>
   </div>
+  }
 </div>

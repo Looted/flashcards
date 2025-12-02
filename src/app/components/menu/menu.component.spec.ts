@@ -480,6 +480,29 @@ describe('MenuComponent', () => {
       });
     });
 
+    describe('getDifficultyDisplayName', () => {
+      it('should return "All levels" for null difficulty', () => {
+        expect(component.getDifficultyDisplayName(null)).toBe('All levels');
+      });
+
+      it('should return "Easy" for difficulty 1', () => {
+        expect(component.getDifficultyDisplayName(1)).toBe('Easy');
+      });
+
+      it('should return "Medium" for difficulty 2', () => {
+        expect(component.getDifficultyDisplayName(2)).toBe('Medium');
+      });
+
+      it('should return "Hard" for difficulty 3', () => {
+        expect(component.getDifficultyDisplayName(3)).toBe('Hard');
+      });
+
+      it('should return "All levels" for invalid difficulty values', () => {
+        expect(component.getDifficultyDisplayName(4)).toBe('All levels');
+        expect(component.getDifficultyDisplayName(0)).toBe('All levels');
+      });
+    });
+
     describe('getCategoryStats', () => {
       it('should return stats for valid category', () => {
         const stats = component.getCategoryStats('hr');
