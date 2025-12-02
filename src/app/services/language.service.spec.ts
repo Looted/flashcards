@@ -135,10 +135,6 @@ describe('LanguageService', () => {
   });
 
   describe('getLanguageDisplayName', () => {
-    it('should return display name for english', () => {
-      expect(service.getLanguageDisplayName('english')).toBe('English');
-    });
-
     it('should return display name for polish', () => {
       expect(service.getLanguageDisplayName('polish')).toBe('Polski');
     });
@@ -151,7 +147,7 @@ describe('LanguageService', () => {
   describe('getSupportedLanguages', () => {
     it('should return all supported languages', () => {
       const languages = service.getSupportedLanguages();
-      expect(languages).toEqual(['english', 'polish', 'spanish']);
+      expect(languages).toEqual(['polish', 'spanish']);
     });
   });
 

@@ -236,6 +236,16 @@ export class MenuComponent implements OnInit {
     return category?.name || '';
   }
 
+  getDifficultyDisplayName(difficulty: number | null): string {
+    if (difficulty === null) return 'All levels';
+    switch (difficulty) {
+      case 1: return 'Easy';
+      case 2: return 'Medium';
+      case 3: return 'Hard';
+      default: return 'All levels';
+    }
+  }
+
   getCategoryStats(categoryId: string) {
     return this.categoryStats().find(c => c.id === categoryId) || { mastered: 0, needsPractice: 0, totalLearned: 0 };
   }
