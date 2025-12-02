@@ -1,0 +1,536 @@
+[
+  {
+    "id": "hr_0001",
+    "term_translation": "Absentismo",
+    "definition_translation": "Ausencia habitual de un empleado en su puesto de trabajo.",
+    "example_translation": "Un alto nivel de absentismo puede afectar negativamente la productividad del equipo."
+  },
+  {
+    "id": "hr_0002",
+    "term_translation": "Rotación natural (attrition)",
+    "definition_translation": "Reducción gradual de la plantilla debido a renuncias o jubilaciones sin reemplazo inmediato.",
+    "example_translation": "El número de empleados disminuyó por la rotación natural."
+  },
+  {
+    "id": "hr_0003",
+    "term_translation": "Benchmarking",
+    "definition_translation": "Comparación de procesos y resultados de la empresa con las mejores prácticas del mercado.",
+    "example_translation": "Usamos benchmarking para comparar nuestros beneficios laborales con los de la competencia."
+  },
+  {
+    "id": "hr_0004",
+    "term_translation": "Competencias conductuales",
+    "definition_translation": "Comportamientos y habilidades específicos que un empleado debe demostrar en un puesto.",
+    "example_translation": "La comunicación es una competencia conductual clave en los equipos de atención al cliente."
+  },
+  {
+    "id": "hr_0005",
+    "term_translation": "Permiso por fallecimiento",
+    "definition_translation": "Período de tiempo libre que se concede a un empleado tras la muerte de un familiar cercano.",
+    "example_translation": "Pidió un permiso por fallecimiento tras la muerte de su abuelo."
+  },
+  {
+    "id": "hr_0006",
+    "term_translation": "Plan de carrera",
+    "definition_translation": "Secuencia de puestos y roles que una persona ocupa a lo largo de su vida profesional.",
+    "example_translation": "La empresa definió un plan de carrera claro para los empleados junior."
+  },
+  {
+    "id": "hr_0007",
+    "term_translation": "Gestión del cambio",
+    "definition_translation": "Enfoque para implementar cambios en la organización y apoyar a los empleados durante el proceso.",
+    "example_translation": "Una buena gestión del cambio facilitó la transición de la empresa al trabajo remoto."
+  },
+  {
+    "id": "hr_0008",
+    "term_translation": "Compensación",
+    "definition_translation": "Pago total y beneficios que recibe un empleado por su trabajo.",
+    "example_translation": "Un paquete de compensación competitivo ayuda a atraer talento."
+  },
+  {
+    "id": "hr_0009",
+    "term_translation": "Resolución de conflictos",
+    "definition_translation": "Métodos y procesos utilizados para poner fin a un conflicto de manera constructiva.",
+    "example_translation": "Recursos Humanos facilitó la resolución de conflictos entre dos miembros del equipo."
+  },
+  {
+    "id": "hr_0010",
+    "term_translation": "Cultura organizacional",
+    "definition_translation": "Conjunto de valores, creencias y comportamientos compartidos que guían la forma de trabajar en la empresa.",
+    "example_translation": "Una cultura organizacional sólida puede aumentar el compromiso de los empleados."
+  },
+  {
+    "id": "hr_0011",
+    "term_translation": "Discriminación",
+    "definition_translation": "Trato desigual hacia empleados por motivos de género, raza, edad u otras características protegidas.",
+    "example_translation": "La empresa aplica políticas estrictas contra la discriminación en el trabajo."
+  },
+  {
+    "id": "hr_0012",
+    "term_translation": "Diversidad e inclusión",
+    "definition_translation": "Esfuerzos para crear un entorno laboral que valore diferentes antecedentes y perspectivas.",
+    "example_translation": "Las iniciativas de diversidad e inclusión ayudan a construir equipos más fuertes."
+  },
+  {
+    "id": "hr_0013",
+    "term_translation": "Compromiso de los empleados",
+    "definition_translation": "Nivel de motivación e implicación emocional de un empleado con su trabajo.",
+    "example_translation": "Un alto compromiso de los empleados suele traducirse en mayor productividad."
+  },
+  {
+    "id": "hr_0014",
+    "term_translation": "Manual del empleado",
+    "definition_translation": "Documento que recoge las políticas, procedimientos y expectativas de la empresa.",
+    "example_translation": "Todos los nuevos ingresan reciben el manual del empleado durante la inducción."
+  },
+  {
+    "id": "hr_0015",
+    "term_translation": "Rotación de personal",
+    "definition_translation": "Tasa a la que los empleados abandonan la empresa y son reemplazados.",
+    "example_translation": "Una alta rotación de personal puede indicar problemas de satisfacción laboral."
+  },
+  {
+    "id": "hr_0016",
+    "term_translation": "Empleador de igualdad de oportunidades",
+    "definition_translation": "Empresa que contrata y trata a sus empleados de forma justa, sin discriminación.",
+    "example_translation": "La organización se presenta como un empleador de igualdad de oportunidades."
+  },
+  {
+    "id": "hr_0017",
+    "term_translation": "Entrevista de salida",
+    "definition_translation": "Entrevista con un empleado que deja la empresa para recoger su opinión y comentarios.",
+    "example_translation": "Recursos Humanos realizó una entrevista de salida para entender las razones de su renuncia."
+  },
+  {
+    "id": "hr_0018",
+    "term_translation": "Modalidades de trabajo flexible",
+    "definition_translation": "Esquemas de trabajo que permiten flexibilidad en el horario o el lugar de trabajo.",
+    "example_translation": "La empresa ofrece modalidades de trabajo flexible para mejorar la conciliación."
+  },
+  {
+    "id": "hr_0019",
+    "term_translation": "Empleado a tiempo completo",
+    "definition_translation": "Persona que trabaja el número estándar de horas definidas por el empleador.",
+    "example_translation": "Los empleados a tiempo completo suelen tener acceso al paquete completo de beneficios."
+  },
+  {
+    "id": "hr_0020",
+    "term_translation": "Reclamación laboral",
+    "definition_translation": "Queja formal presentada por un empleado por un problema en el trabajo.",
+    "example_translation": "El gerente gestionó la reclamación laboral según el procedimiento establecido."
+  },
+  {
+    "id": "hr_0021",
+    "term_translation": "Acoso laboral",
+    "definition_translation": "Conducta no deseada que crea un entorno de trabajo hostil o intimidante.",
+    "example_translation": "El departamento de RR. HH. investiga de inmediato las denuncias de acoso laboral."
+  },
+  {
+    "id": "hr_0022",
+    "term_translation": "Proceso de selección",
+    "definition_translation": "Conjunto de pasos que sigue la organización para atraer y elegir candidatos.",
+    "example_translation": "El proceso de selección incluye la revisión de CV, entrevistas y verificación de referencias."
+  },
+  {
+    "id": "hr_0023",
+    "term_translation": "Sistema de información de RR. HH. (HRIS)",
+    "definition_translation": "Software utilizado para gestionar datos de empleados y procesos de recursos humanos.",
+    "example_translation": "Utilizamos un HRIS para simplificar la nómina y la administración de beneficios."
+  },
+  {
+    "id": "hr_0024",
+    "term_translation": "Descripción de puesto",
+    "definition_translation": "Documento que detalla funciones, responsabilidades y requisitos de un cargo.",
+    "example_translation": "La descripción de puesto ayuda a los candidatos a entender el rol antes de postular."
+  },
+  {
+    "id": "hr_0025",
+    "term_translation": "Valoración de puestos",
+    "definition_translation": "Proceso sistemático para determinar el valor relativo de un puesto dentro de la organización.",
+    "example_translation": "La valoración de puestos ayuda a definir niveles de salario justos."
+  },
+  {
+    "id": "hr_0026",
+    "term_translation": "Rotación de puestos",
+    "definition_translation": "Práctica de cambiar periódicamente a los empleados de puesto para desarrollar habilidades.",
+    "example_translation": "La rotación de puestos permite a los empleados conocer distintos departamentos."
+  },
+  {
+    "id": "hr_0027",
+    "term_translation": "Permiso de ausencia",
+    "definition_translation": "Tiempo fuera del trabajo aprobado por el empleador.",
+    "example_translation": "Solicitó un permiso de ausencia por motivos de salud."
+  },
+  {
+    "id": "hr_0028",
+    "term_translation": "Learning and Development (L&D)",
+    "definition_translation": "Actividades de la organización destinadas a desarrollar conocimientos y habilidades de los empleados.",
+    "example_translation": "Los programas de L&D son fundamentales para el crecimiento profesional."
+  },
+  {
+    "id": "hr_0029",
+    "term_translation": "Onboarding (inducción)",
+    "definition_translation": "Proceso de integración de un nuevo empleado en la empresa y en su puesto.",
+    "example_translation": "Un buen proceso de onboarding ayuda a los nuevos empleados a adaptarse más rápido."
+  },
+  {
+    "id": "hr_0030",
+    "term_translation": "Evaluación de desempeño",
+    "definition_translation": "Revisión periódica del rendimiento y contribución de un empleado.",
+    "example_translation": "Las evaluaciones de desempeño anuales proporcionan retroalimentación y objetivos claros."
+  },
+  {
+    "id": "hr_0031",
+    "term_translation": "Período de prueba",
+    "definition_translation": "Tiempo durante el cual se evalúa la idoneidad de un nuevo empleado.",
+    "example_translation": "Durante el período de prueba se supervisa de cerca el rendimiento del empleado."
+  },
+  {
+    "id": "hr_0032",
+    "term_translation": "Reclutamiento",
+    "definition_translation": "Proceso de atraer, seleccionar y contratar candidatos adecuados.",
+    "example_translation": "Un buen reclutamiento garantiza la incorporación del talento adecuado."
+  },
+  {
+    "id": "hr_0033",
+    "term_translation": "Reducción de plantilla",
+    "definition_translation": "Situación en la que un puesto deja de ser necesario dentro de la organización.",
+    "example_translation": "La empresa anunció una reducción de plantilla como parte de la reestructuración."
+  },
+  {
+    "id": "hr_0034",
+    "term_translation": "Remuneración",
+    "definition_translation": "Pago o compensación que se recibe por el trabajo o los servicios prestados.",
+    "example_translation": "El paquete de remuneración puede incluir bonos y beneficios."
+  },
+  {
+    "id": "hr_0035",
+    "term_translation": "Retención de empleados",
+    "definition_translation": "Estrategias y acciones para mantener a los empleados en la organización.",
+    "example_translation": "La retención de empleados mejora cuando se ofrecen oportunidades de desarrollo profesional."
+  },
+  {
+    "id": "hr_0036",
+    "term_translation": "Salario",
+    "definition_translation": "Pago fijo y regular que recibe un empleado por su trabajo.",
+    "example_translation": "El salario se deposita mensualmente en la cuenta del empleado."
+  },
+  {
+    "id": "hr_0037",
+    "term_translation": "Baja por enfermedad",
+    "definition_translation": "Tiempo libre concedido al empleado debido a una enfermedad.",
+    "example_translation": "Para una baja por enfermedad prolongada es necesario presentar un parte médico."
+  },
+  {
+    "id": "hr_0038",
+    "term_translation": "Dotación de personal (staffing)",
+    "definition_translation": "Proceso de cubrir puestos con empleados adecuados.",
+    "example_translation": "Las necesidades de dotación de personal aumentan en temporadas de alta demanda."
+  },
+  {
+    "id": "hr_0039",
+    "term_translation": "Plan de sucesión",
+    "definition_translation": "Preparación para reemplazar a empleados clave en puestos críticos.",
+    "example_translation": "El plan de sucesión garantiza transiciones de liderazgo más fluidas."
+  },
+  {
+    "id": "hr_0040",
+    "term_translation": "Terminación de contrato",
+    "definition_translation": "Fin de la relación laboral de un empleado con la empresa.",
+    "example_translation": "Los procedimientos de terminación de contrato deben cumplir con la legislación laboral."
+  },
+  {
+    "id": "hr_0041",
+    "term_translation": "Formación",
+    "definition_translation": "Actividades diseñadas para desarrollar conocimientos o habilidades de los empleados.",
+    "example_translation": "La formación continua ayuda a los empleados a mantenerse actualizados."
+  },
+  {
+    "id": "hr_0042",
+    "term_translation": "Equilibrio entre trabajo y vida personal",
+    "definition_translation": "Equilibrio entre las responsabilidades laborales y la vida privada.",
+    "example_translation": "El horario flexible facilita un mejor equilibrio entre trabajo y vida personal."
+  },
+  {
+    "id": "hr_0043",
+    "term_translation": "Acoso en el lugar de trabajo",
+    "definition_translation": "Conductas no deseadas basadas en características protegidas que crean un entorno hostil.",
+    "example_translation": "La empresa tiene una política de tolerancia cero frente al acoso en el lugar de trabajo."
+  },
+  {
+    "id": "hr_0044",
+    "term_translation": "Seguridad laboral",
+    "definition_translation": "Medidas y políticas para proteger la salud y la seguridad de los empleados.",
+    "example_translation": "Las simulaciones periódicas mejoran la conciencia sobre la seguridad laboral."
+  },
+  {
+    "id": "hr_0045",
+    "term_translation": "Feedback de 360 grados",
+    "definition_translation": "Método de evaluación que recoge opiniones de jefes, compañeros y subordinados.",
+    "example_translation": "El feedback de 360 grados ofrece una visión más completa del rendimiento del empleado."
+  },
+  {
+    "id": "hr_0046",
+    "term_translation": "Acción afirmativa",
+    "definition_translation": "Políticas que buscan aumentar las oportunidades para grupos históricamente marginados.",
+    "example_translation": "La empresa apoya la acción afirmativa para promover la diversidad."
+  },
+  {
+    "id": "hr_0047",
+    "term_translation": "Sistema de seguimiento de candidatos (ATS)",
+    "definition_translation": "Software utilizado para gestionar los procesos de reclutamiento y los datos de candidatos.",
+    "example_translation": "Nuestro ATS filtra candidatos y agiliza la contratación."
+  },
+  {
+    "id": "hr_0048",
+    "term_translation": "Beneficios laborales",
+    "definition_translation": "Compensaciones no salariales ofrecidas a los empleados, como seguro médico o plan de retiro.",
+    "example_translation": "El seguro médico es uno de los beneficios laborales más valorados."
+  },
+  {
+    "id": "hr_0049",
+    "term_translation": "Bono",
+    "definition_translation": "Pago adicional otorgado por desempeño o logro de objetivos.",
+    "example_translation": "Los empleados recibieron un bono anual por su buen desempeño."
+  },
+  {
+    "id": "hr_0050",
+    "term_translation": "Negociación colectiva",
+    "definition_translation": "Negociaciones entre la empresa y un grupo de empleados o sindicato.",
+    "example_translation": "El sindicato participó en una negociación colectiva con la dirección."
+  },
+  {
+    "id": "hr_0051",
+    "term_translation": "Paquete de compensación",
+    "definition_translation": "Conjunto de salario, beneficios, bonos y otros incentivos ofrecidos al empleado.",
+    "example_translation": "Un paquete de compensación atractivo atrae a profesionales cualificados."
+  },
+  {
+    "id": "hr_0052",
+    "term_translation": "Empleado por contrato",
+    "definition_translation": "Persona contratada por un período determinado bajo condiciones específicas.",
+    "example_translation": "La empresa contrató a un empleado por contrato para completar el proyecto."
+  },
+  {
+    "id": "hr_0053",
+    "term_translation": "Medidas disciplinarias",
+    "definition_translation": "Acciones tomadas por la empresa frente a conductas inadecuadas o bajo rendimiento.",
+    "example_translation": "El empleado recibió medidas disciplinarias por sus ausencias repetidas."
+  },
+  {
+    "id": "hr_0054",
+    "term_translation": "Contratación diversa",
+    "definition_translation": "Prácticas de reclutamiento orientadas a aumentar la diversidad en la organización.",
+    "example_translation": "Las iniciativas de contratación diversa ayudan a construir equipos más inclusivos."
+  },
+  {
+    "id": "hr_0055",
+    "term_translation": "Programa de asistencia al empleado (EAP)",
+    "definition_translation": "Servicios que ayudan a los empleados con problemas personales o laborales.",
+    "example_translation": "El EAP ofrece asesoría y apoyo a los empleados que lo necesitan."
+  },
+  {
+    "id": "hr_0056",
+    "term_translation": "Beneficios para empleados",
+    "definition_translation": "Distintos beneficios no salariales ofrecidos a los trabajadores, como seguro médico privado.",
+    "example_translation": "Buenos beneficios para empleados aumentan la satisfacción laboral."
+  },
+  {
+    "id": "hr_0057",
+    "term_translation": "Encuesta de compromiso",
+    "definition_translation": "Herramienta que mide la satisfacción y el compromiso de los empleados.",
+    "example_translation": "La empresa realiza una encuesta de compromiso cada año."
+  },
+  {
+    "id": "hr_0058",
+    "term_translation": "Retención de personal",
+    "definition_translation": "Capacidad de la organización para mantener a sus empleados durante largos períodos.",
+    "example_translation": "Un liderazgo sólido puede mejorar la retención de personal."
+  },
+  {
+    "id": "hr_0059",
+    "term_translation": "Entrevista de salida",
+    "definition_translation": "Entrevista realizada a un empleado que deja la empresa para obtener su opinión sobre el entorno laboral.",
+    "example_translation": "Las entrevistas de salida aportan información valiosa para mejorar las condiciones de trabajo."
+  },
+  {
+    "id": "hr_0060",
+    "term_translation": "Horario flexible",
+    "definition_translation": "Jornada que permite variar las horas de inicio y fin del trabajo.",
+    "example_translation": "El horario flexible ayuda a equilibrar la vida personal y profesional."
+  },
+  {
+    "id": "hr_0061",
+    "term_translation": "Equivalente a tiempo completo (FTE)",
+    "definition_translation": "Unidad que representa la carga de trabajo de un empleado a tiempo completo.",
+    "example_translation": "El departamento tiene 10 FTE, combinando empleados de tiempo completo y parcial."
+  },
+  {
+    "id": "hr_0062",
+    "term_translation": "RGPD (GDPR)",
+    "definition_translation": "Reglamento de la Unión Europea sobre protección de datos y privacidad.",
+    "example_translation": "RR. HH. debe cumplir con el RGPD al manejar los datos de los empleados."
+  },
+  {
+    "id": "hr_0063",
+    "term_translation": "Procedimiento de reclamaciones",
+    "definition_translation": "Proceso formal para presentar y resolver quejas de los empleados.",
+    "example_translation": "La empresa sigue un procedimiento de reclamaciones claro para tratar los conflictos internos."
+  },
+  {
+    "id": "hr_0064",
+    "term_translation": "Formación sobre prevención del acoso",
+    "definition_translation": "Programa formativo destinado a prevenir el acoso en el lugar de trabajo.",
+    "example_translation": "Los empleados deben completar anualmente la formación sobre prevención del acoso."
+  },
+  {
+    "id": "hr_0065",
+    "term_translation": "Salud y seguridad laboral",
+    "definition_translation": "Normas y procedimientos para proteger a los empleados de riesgos en el trabajo.",
+    "example_translation": "Las inspecciones regulares de salud y seguridad laboral garantizan un entorno seguro."
+  },
+  {
+    "id": "hr_0066",
+    "term_translation": "Responsable de contratación",
+    "definition_translation": "Persona encargada de llevar el proceso de reclutamiento y seleccionar candidatos.",
+    "example_translation": "El responsable de contratación organiza las entrevistas y evalúa a los postulantes."
+  },
+  {
+    "id": "hr_0067",
+    "term_translation": "Capital humano",
+    "definition_translation": "Valor económico de las habilidades, conocimientos y experiencia de los empleados.",
+    "example_translation": "Invertir en capital humano beneficia el crecimiento de la organización."
+  },
+  {
+    "id": "hr_0068",
+    "term_translation": "Incentivo",
+    "definition_translation": "Recompensa destinada a motivar a los empleados a alcanzar objetivos.",
+    "example_translation": "Los equipos de ventas reciben incentivos por superar sus metas."
+  },
+  {
+    "id": "hr_0069",
+    "term_translation": "Análisis de puestos",
+    "definition_translation": "Estudio detallado de las tareas y requisitos de un puesto de trabajo.",
+    "example_translation": "El análisis de puestos ayuda a elaborar descripciones de puesto precisas."
+  },
+  {
+    "id": "hr_0070",
+    "term_translation": "Enriquecimiento del trabajo",
+    "definition_translation": "Añadir tareas más significativas a un puesto para aumentar la satisfacción.",
+    "example_translation": "El enriquecimiento del trabajo incrementó la motivación y la retención del equipo."
+  },
+  {
+    "id": "hr_0071",
+    "term_translation": "Oferta de empleo",
+    "definition_translation": "Anuncio que se publica para atraer candidatos a un puesto.",
+    "example_translation": "El departamento de RR. HH. publicó la oferta de empleo en línea."
+  },
+  {
+    "id": "hr_0072",
+    "term_translation": "Satisfacción laboral",
+    "definition_translation": "Nivel de satisfacción de un empleado con su trabajo y condiciones laborales.",
+    "example_translation": "Una buena gestión aumenta la satisfacción laboral."
+  },
+  {
+    "id": "hr_0073",
+    "term_translation": "Sindicato",
+    "definition_translation": "Organización que representa los intereses de los trabajadores y negocia con la empresa.",
+    "example_translation": "El sindicato negoció mejores salarios para sus miembros."
+  },
+  {
+    "id": "hr_0074",
+    "term_translation": "Sistema de gestión del aprendizaje (LMS)",
+    "definition_translation": "Software para impartir y gestionar formaciones a los empleados.",
+    "example_translation": "La empresa usa un LMS para hacer seguimiento de los cursos y certificaciones."
+  },
+  {
+    "id": "hr_0075",
+    "term_translation": "Mentoría",
+    "definition_translation": "Relación de desarrollo en la que un empleado experimentado guía a otro.",
+    "example_translation": "Los programas de mentoría apoyan el crecimiento y la retención de empleados."
+  },
+  {
+    "id": "hr_0076",
+    "term_translation": "Offboarding",
+    "definition_translation": "Proceso de gestión de la salida de un empleado de la empresa.",
+    "example_translation": "El offboarding incluye la entrevista de salida y la devolución del material de la empresa."
+  },
+  {
+    "id": "hr_0077",
+    "term_translation": "Formación en el puesto de trabajo",
+    "definition_translation": "Desarrollo de habilidades mientras el empleado realiza sus tareas diarias.",
+    "example_translation": "La formación en el puesto de trabajo permite adquirir experiencia práctica."
+  },
+  {
+    "id": "hr_0078",
+    "term_translation": "Horas extra",
+    "definition_translation": "Trabajo realizado más allá de la jornada laboral estándar.",
+    "example_translation": "Las horas extra se pagan con una remuneración adicional."
+  },
+  {
+    "id": "hr_0079",
+    "term_translation": "Empleado a tiempo parcial",
+    "definition_translation": "Empleado que trabaja menos horas que un empleado a tiempo completo.",
+    "example_translation": "Los empleados a tiempo parcial suelen tener horarios más flexibles."
+  },
+  {
+    "id": "hr_0080",
+    "term_translation": "Nómina",
+    "definition_translation": "Lista de empleados que reciben salario y el proceso de pagarles.",
+    "example_translation": "La nómina debe procesarse a tiempo para que todos cobren puntualmente."
+  },
+  {
+    "id": "hr_0081",
+    "term_translation": "Gestión del desempeño",
+    "definition_translation": "Proceso continuo de mejora del rendimiento y productividad de los empleados.",
+    "example_translation": "La gestión del desempeño incluye retroalimentación y reuniones de seguimiento."
+  },
+  {
+    "id": "hr_0082",
+    "term_translation": "Período de prueba (probationary period)",
+    "definition_translation": "Primer periodo de empleo en el que se evalúa la aptitud del trabajador.",
+    "example_translation": "Durante el período de prueba el contrato puede rescindirse con mayor facilidad."
+  },
+  {
+    "id": "hr_0083",
+    "term_translation": "Embudo de reclutamiento",
+    "definition_translation": "Etapas por las que pasa un candidato desde la solicitud hasta la contratación.",
+    "example_translation": "Optimizar el embudo de reclutamiento acelera el proceso de contratación."
+  },
+  {
+    "id": "hr_0084",
+    "term_translation": "Verificación de referencias",
+    "definition_translation": "Contacto con empleadores anteriores para confirmar la información del candidato.",
+    "example_translation": "La verificación de referencias confirmó la experiencia del candidato."
+  },
+  {
+    "id": "hr_0085",
+    "term_translation": "Ayuda para reubicación",
+    "definition_translation": "Apoyo que se ofrece a los empleados cuando se mudan por motivos laborales.",
+    "example_translation": "La empresa ofrece ayuda para reubicación a los nuevos empleados."
+  },
+  {
+    "id": "hr_0086",
+    "term_translation": "Renuncia",
+    "definition_translation": "Decisión voluntaria de un empleado de dejar la empresa.",
+    "example_translation": "Su renuncia será efectiva a final de mes."
+  },
+  {
+    "id": "hr_0087",
+    "term_translation": "Estrategia de retención",
+    "definition_translation": "Planes y acciones para retener a los empleados clave.",
+    "example_translation": "La estrategia de retención incluye oportunidades de desarrollo profesional."
+  },
+  {
+    "id": "hr_0088",
+    "term_translation": "Rango salarial",
+    "definition_translation": "Valor mínimo y máximo de salario asignado a un puesto.",
+    "example_translation": "Cada puesto tiene un rango salarial definido según la experiencia."
+  },
+  {
+    "id": "hr_0089",
+    "term_translation": "Comisión de servicio (secondment)",
+    "definition_translation": "Traslado temporal de un empleado a otro puesto o departamento.",
+    "example_translation": "Aceptó una comisión de servicio en el departamento de marketing durante seis meses."
+  }
+]

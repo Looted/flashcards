@@ -75,6 +75,18 @@ describe('CardRendererComponent', () => {
 
       expect(component.frontText()).toBe('');
     });
+
+    it('should return empty string when field is not found', () => {
+      const configWithUnknown: LayoutPolicy = {
+        ...mockLayoutConfig,
+        dataMap: { ...mockLayoutConfig.dataMap, primary: 'german' as any }
+      };
+
+      (component as any).card = () => mockCard;
+      (component as any).layoutConfig = () => configWithUnknown;
+
+      expect(component.frontText()).toBe('');
+    });
   });
 
   describe('backText computed', () => {
@@ -100,6 +112,18 @@ describe('CardRendererComponent', () => {
     it('should return empty string when config is null', () => {
       (component as any).card = () => mockCard;
       (component as any).layoutConfig = () => null;
+
+      expect(component.backText()).toBe('');
+    });
+
+    it('should return empty string when field is not found', () => {
+      const configWithUnknown: LayoutPolicy = {
+        ...mockLayoutConfig,
+        dataMap: { ...mockLayoutConfig.dataMap, secondary: 'german' as any }
+      };
+
+      (component as any).card = () => mockCard;
+      (component as any).layoutConfig = () => configWithUnknown;
 
       expect(component.backText()).toBe('');
     });
@@ -223,6 +247,26 @@ describe('CardRendererComponent', () => {
 
       const flashcardElement = fixture.nativeElement.querySelector('app-flashcard');
       expect(flashcardElement).toBeTruthy();
+    });
+
+    it('should not render any card component for unknown templateId', () => {
+      const unknownConfig: LayoutPolicy = {
+        templateId: 'unknown_template' as any,
+        dataMap: {
+          primary: 'english',
+          secondary: 'polish'
+        }
+      };
+
+      (component as any).card = () => mockCard;
+      (component as any).layoutConfig = () => unknownConfig;
+
+      fixture.detectChanges();
+
+      const flashcardElement = fixture.nativeElement.querySelector('app-flashcard');
+      const typingCardElement = fixture.nativeElement.querySelector('app-typing-card');
+      expect(flashcardElement).toBeFalsy();
+      expect(typingCardElement).toBeFalsy();
     });
   });
 });

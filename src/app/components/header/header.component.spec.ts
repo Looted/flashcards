@@ -14,6 +14,14 @@ describe('HeaderComponent', () => {
   let routerMock: any;
   let storageServiceMock: any;
 
+  beforeAll(() => {
+    vi.useFakeTimers();
+  });
+
+  afterAll(() => {
+    vi.restoreAllMocks();
+  });
+
   beforeEach(async () => {
     pwaServiceMock = {
       showInstallButton: signal(false),
@@ -76,5 +84,117 @@ describe('HeaderComponent', () => {
     logo.click();
 
     expect(routerMock.navigate).toHaveBeenCalledWith(['/']);
+  });
+
+  describe('Triple-click easter egg', () => {
+    let logo: HTMLElement;
+
+    beforeEach(() => {
+      logo = fixture.nativeElement.querySelector('.flex.items-center.gap-2.cursor-pointer');
+      // Reset state
+      component.showDevControls.set(false);
+      component['logoClickCount'] = 0;
+      vi.clearAllTimers();
+    });
+
+    it('should navigate to home on single click', () => {
+      logo.click();
+
+      expect(routerMock.navigate).toHaveBeenCalledWith(['/']);
+      expect(component.showDevControls()).toBe(false);
+    });
+
+    it('should navigate to home on double click', () => {
+      logo.click();
+      logo.click();
+
+      expect(routerMock.navigate).toHaveBeenCalledTimes(2);
+      expect(routerMock.navigate).toHaveBeenCalledWith(['/']);
+      expect(component.showDevControls()).toBe(false);
+    });
+
+    it('should toggle dev controls on triple click', () => {
+      // Initial state: dev controls hidden
+      expect(component.showDevControls()).toBe(false);
+
+      // Triple click
+      logo.click();
+      logo.click();
+      logo.click();
+
+      expect(component.showDevControls()).toBe(true);
+      expect(routerMock.navigate).toHaveBeenCalledTimes(2); // Only on first two clicks
+    });
+
+    it('should hide dev controls on second triple click', () => {
+      // First triple click to show
+      logo.click();
+      logo.click();
+      logo.click();
+      expect(component.showDevControls()).toBe(true);
+
+      // Second triple click to hide
+      logo.click();
+      logo.click();
+      logo.click();
+      expect(component.showDevControls()).toBe(false);
+    });
+
+    it('should reset click count after timeout', () => {
+      // Click twice quickly
+      logo.click();
+      logo.click();
+
+      // Advance timer past timeout
+      vi.advanceTimersByTime(500);
+
+      // Third click should not trigger dev controls (count was reset)
+      logo.click();
+
+      expect(component.showDevControls()).toBe(false);
+      expect(routerMock.navigate).toHaveBeenCalledTimes(3);
+    });
+
+    it('should reset click count after successful triple click', () => {
+      // Triple click to show dev controls
+      logo.click();
+      logo.click();
+      logo.click();
+      expect(component.showDevControls()).toBe(true);
+
+      // Next click should navigate to home, not trigger dev controls again
+      logo.click();
+      expect(routerMock.navigate).toHaveBeenCalledTimes(3); // 2 from first two clicks + 1 from fourth click
+    });
+  });
+
+  describe('ngOnDestroy', () => {
+    let clearTimeoutSpy: any;
+
+    beforeEach(() => {
+      clearTimeoutSpy = vi.spyOn(global, 'clearTimeout');
+    });
+
+    afterEach(() => {
+      clearTimeoutSpy.mockRestore();
+    });
+
+    it('should clear timeout on destroy', () => {
+      // Trigger a click to set timeout
+      const logo = fixture.nativeElement.querySelector('.flex.items-center.gap-2.cursor-pointer');
+      logo.click();
+
+      // Destroy component
+      component.ngOnDestroy();
+
+      expect(clearTimeoutSpy).toHaveBeenCalled();
+    });
+
+    it('should not clear timeout if none is set', () => {
+      // Destroy component without setting timeout
+      component.ngOnDestroy();
+
+      expect(clearTimeoutSpy).not.toHaveBeenCalled();
+    });
   });
 });

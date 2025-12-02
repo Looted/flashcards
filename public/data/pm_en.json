@@ -1,0 +1,1502 @@
+[
+  {
+    "id": "pm_0001",
+    "term": "Project charter",
+    "definition": "A document that formally authorizes a project and defines its objectives, scope, and stakeholders.",
+    "example": "The sponsor signed the project charter to officially start the initiative.",
+    "metadata": {
+      "difficulty": 2,
+      "tags": ["initiation", "documentation"]
+    }
+  },
+  {
+    "id": "pm_0002",
+    "term": "Scope",
+    "definition": "The boundaries of a project, describing what is included and excluded in the work.",
+    "example": "Clearly defining the scope helps prevent misunderstandings later.",
+    "metadata": {
+      "difficulty": 1,
+      "tags": ["planning", "requirements"]
+    }
+  },
+  {
+    "id": "pm_0003",
+    "term": "Scope creep",
+    "definition": "Uncontrolled changes or growth in a project’s scope without adjustments to time, cost, or resources.",
+    "example": "Frequent new requests from stakeholders caused scope creep.",
+    "metadata": {
+      "difficulty": 2,
+      "tags": ["risk", "scope"]
+    }
+  },
+  {
+    "id": "pm_0004",
+    "term": "Stakeholder",
+    "definition": "Any person or group that can impact or is impacted by a project.",
+    "example": "Identifying key stakeholders early helped align expectations.",
+    "metadata": {
+      "difficulty": 1,
+      "tags": ["people", "communication"]
+    }
+  },
+  {
+    "id": "pm_0005",
+    "term": "Deliverable",
+    "definition": "A tangible or intangible output produced as a result of project activities.",
+    "example": "The final report is the main deliverable of this project phase.",
+    "metadata": {
+      "difficulty": 1,
+      "tags": ["output", "planning"]
+    }
+  },
+  {
+    "id": "pm_0006",
+    "term": "Milestone",
+    "definition": "A significant point or event in a project’s timeline used to monitor progress.",
+    "example": "Completing user testing is a major milestone before launch.",
+    "metadata": {
+      "difficulty": 1,
+      "tags": ["schedule", "tracking"]
+    }
+  },
+  {
+    "id": "pm_0007",
+    "term": "Work Breakdown Structure (WBS)",
+    "definition": "A hierarchical decomposition of the total project work into smaller, manageable components.",
+    "example": "The team used a WBS to organize tasks into work packages.",
+    "metadata": {
+      "difficulty": 3,
+      "tags": ["planning", "structure"]
+    }
+  },
+  {
+    "id": "pm_0008",
+    "term": "Critical path",
+    "definition": "The longest sequence of tasks that determines the shortest possible project duration.",
+    "example": "Delays on the critical path will delay the entire project.",
+    "metadata": {
+      "difficulty": 3,
+      "tags": ["schedule", "analysis"]
+    }
+  },
+  {
+    "id": "pm_0009",
+    "term": "Dependency",
+    "definition": "A relationship between tasks where one activity relies on the output of another.",
+    "example": "Design approval is a dependency before development can begin.",
+    "metadata": {
+      "difficulty": 2,
+      "tags": ["schedule", "tasks"]
+    }
+  },
+  {
+    "id": "pm_0010",
+    "term": "Baseline",
+    "definition": "The approved version of a plan used as a reference to measure project performance.",
+    "example": "We compare actual costs against the budget baseline each month.",
+    "metadata": {
+      "difficulty": 2,
+      "tags": ["control", "planning"]
+    }
+  },
+  {
+    "id": "pm_0011",
+    "term": "Project lifecycle",
+    "definition": "A series of phases that a project goes through from initiation to closure.",
+    "example": "Our project lifecycle includes discovery, design, build, and launch.",
+    "metadata": {
+      "difficulty": 2,
+      "tags": ["framework", "phases"]
+    }
+  },
+  {
+    "id": "pm_0012",
+    "term": "Agile",
+    "definition": "An iterative project management approach focused on collaboration, flexibility, and continuous delivery.",
+    "example": "The team adopted Agile to respond quickly to changing requirements.",
+    "metadata": {
+      "difficulty": 2,
+      "tags": ["methodology", "agile"]
+    }
+  },
+  {
+    "id": "pm_0013",
+    "term": "Scrum",
+    "definition": "An Agile framework that uses fixed-length iterations called sprints to deliver value incrementally.",
+    "example": "In Scrum, the team plans the work for each sprint during sprint planning.",
+    "metadata": {
+      "difficulty": 3,
+      "tags": ["agile", "framework"]
+    }
+  },
+  {
+    "id": "pm_0014",
+    "term": "Sprint",
+    "definition": "A short, time-boxed period in which a Scrum team completes a set amount of work.",
+    "example": "The team aims to deliver a releasable increment every sprint.",
+    "metadata": {
+      "difficulty": 2,
+      "tags": ["agile", "time-box"]
+    }
+  },
+  {
+    "id": "pm_0015",
+    "term": "Product backlog",
+    "definition": "An ordered list of features, enhancements, and fixes that represent future work on a product.",
+    "example": "The product owner prioritizes items in the product backlog.",
+    "metadata": {
+      "difficulty": 2,
+      "tags": ["agile", "requirements"]
+    }
+  },
+  {
+    "id": "pm_0016",
+    "term": "Sprint backlog",
+    "definition": "The list of product backlog items selected for a sprint, plus a plan for delivering them.",
+    "example": "The sprint backlog defines the team’s work for the next two weeks.",
+    "metadata": {
+      "difficulty": 3,
+      "tags": ["agile", "planning"]
+    }
+  },
+  {
+    "id": "pm_0017",
+    "term": "Kanban",
+    "definition": "A visual workflow method that limits work in progress to improve flow and efficiency.",
+    "example": "The team uses a Kanban board to track tasks through each stage.",
+    "metadata": {
+      "difficulty": 2,
+      "tags": ["agile", "visual"]
+    }
+  },
+  {
+    "id": "pm_0018",
+    "term": "Gantt chart",
+    "definition": "A bar chart that shows project tasks over time and illustrates their start and end dates.",
+    "example": "The project manager updated the Gantt chart to reflect the new deadlines.",
+    "metadata": {
+      "difficulty": 2,
+      "tags": ["schedule", "visual"]
+    }
+  },
+  {
+    "id": "pm_0019",
+    "term": "Risk",
+    "definition": "An uncertain event or condition that, if it occurs, has a positive or negative impact on objectives.",
+    "example": "Identifying risks early helps the team plan responses.",
+    "metadata": {
+      "difficulty": 1,
+      "tags": ["risk", "planning"]
+    }
+  },
+  {
+    "id": "pm_0020",
+    "term": "Issue",
+    "definition": "A problem that is currently affecting the project and requires immediate attention.",
+    "example": "The supplier delay became a critical issue for the timeline.",
+    "metadata": {
+      "difficulty": 1,
+      "tags": ["problem", "control"]
+    }
+  },
+  {
+    "id": "pm_0021",
+    "term": "Risk register",
+    "definition": "A document that lists identified risks, their analysis, and planned responses.",
+    "example": "We review the risk register in every status meeting.",
+    "metadata": {
+      "difficulty": 2,
+      "tags": ["risk", "documentation"]
+    }
+  },
+  {
+    "id": "pm_0022",
+    "term": "Change request",
+    "definition": "A formal proposal to modify a project’s scope, schedule, or budget.",
+    "example": "The client submitted a change request for additional features.",
+    "metadata": {
+      "difficulty": 2,
+      "tags": ["change", "control"]
+    }
+  },
+  {
+    "id": "pm_0023",
+    "term": "Change control",
+    "definition": "A structured process for evaluating and approving changes to a project.",
+    "example": "Change control ensures that only justified changes are implemented.",
+    "metadata": {
+      "difficulty": 3,
+      "tags": ["governance", "process"]
+    }
+  },
+  {
+    "id": "pm_0024",
+    "term": "Project sponsor",
+    "definition": "A senior person who provides resources, support, and overall direction for a project.",
+    "example": "The project sponsor resolved conflicts between departments.",
+    "metadata": {
+      "difficulty": 2,
+      "tags": ["role", "governance"]
+    }
+  },
+  {
+    "id": "pm_0025",
+    "term": "Project manager",
+    "definition": "The person responsible for planning, executing, and closing a project.",
+    "example": "The project manager facilitated communication across the whole team.",
+    "metadata": {
+      "difficulty": 1,
+      "tags": ["role", "leadership"]
+    }
+  },
+  {
+    "id": "pm_0026",
+    "term": "Project plan",
+    "definition": "A document that describes how the project will be executed, monitored, and closed.",
+    "example": "The project plan outlines milestones, resources, and risks.",
+    "metadata": {
+      "difficulty": 1,
+      "tags": ["planning", "documentation"]
+    }
+  },
+  {
+    "id": "pm_0027",
+    "term": "Triple constraint",
+    "definition": "The relationship between scope, time, and cost that shapes project outcomes.",
+    "example": "Changing the scope will affect the triple constraint and likely impact cost.",
+    "metadata": {
+      "difficulty": 3,
+      "tags": ["concept", "constraints"]
+    }
+  },
+  {
+    "id": "pm_0028",
+    "term": "Assumption",
+    "definition": "A factor considered to be true for planning purposes, without full proof.",
+    "example": "An assumption in the plan is that key staff will be available.",
+    "metadata": {
+      "difficulty": 2,
+      "tags": ["planning", "risk"]
+    }
+  },
+  {
+    "id": "pm_0029",
+    "term": "Constraint",
+    "definition": "A limiting factor that affects the execution of a project.",
+    "example": "The fixed launch date is a major constraint for the team.",
+    "metadata": {
+      "difficulty": 2,
+      "tags": ["planning", "limits"]
+    }
+  },
+  {
+    "id": "pm_0030",
+    "term": "Resource allocation",
+    "definition": "The process of assigning people, budget, and tools to project tasks.",
+    "example": "Effective resource allocation avoids overloading team members.",
+    "metadata": {
+      "difficulty": 2,
+      "tags": ["resources", "planning"]
+    }
+  },
+  {
+    "id": "pm_0031",
+    "term": "Stakeholder analysis",
+    "definition": "The process of identifying stakeholders and understanding their interests and influence.",
+    "example": "Stakeholder analysis helped prioritize communication efforts.",
+    "metadata": {
+      "difficulty": 3,
+      "tags": ["stakeholders", "analysis"]
+    }
+  },
+  {
+    "id": "pm_0032",
+    "term": "Communication plan",
+    "definition": "A document that defines how information will be shared with stakeholders.",
+    "example": "The communication plan specifies who receives status reports and when.",
+    "metadata": {
+      "difficulty": 2,
+      "tags": ["communication", "planning"]
+    }
+  },
+  {
+    "id": "pm_0033",
+    "term": "Status report",
+    "definition": "A regular update on project progress, risks, and issues.",
+    "example": "The weekly status report keeps stakeholders informed.",
+    "metadata": {
+      "difficulty": 1,
+      "tags": ["reporting", "monitoring"]
+    }
+  },
+  {
+    "id": "pm_0034",
+    "term": "Kick-off meeting",
+    "definition": "The first meeting where the project team and stakeholders align on objectives and expectations.",
+    "example": "During the kick-off meeting, everyone agreed on the project timeline.",
+    "metadata": {
+      "difficulty": 1,
+      "tags": ["initiation", "meeting"]
+    }
+  },
+  {
+    "id": "pm_0035",
+    "term": "Lessons learned",
+    "definition": "Insights gained from project experiences that can improve future work.",
+    "example": "We documented lessons learned to avoid similar issues in the next project.",
+    "metadata": {
+      "difficulty": 1,
+      "tags": ["closure", "improvement"]
+    }
+  },
+  {
+    "id": "pm_0036",
+    "term": "Project closure",
+    "definition": "The final phase where the project is formally completed and handed over.",
+    "example": "Project closure included a final review and handover to operations.",
+    "metadata": {
+      "difficulty": 2,
+      "tags": ["closure", "process"]
+    }
+  },
+  {
+    "id": "pm_0037",
+    "term": "Acceptance criteria",
+    "definition": "Conditions that must be met for a deliverable to be accepted by the customer.",
+    "example": "The team validated features against the acceptance criteria.",
+    "metadata": {
+      "difficulty": 2,
+      "tags": ["requirements", "quality"]
+    }
+  },
+  {
+    "id": "pm_0038",
+    "term": "Quality assurance (QA)",
+    "definition": "Activities focused on ensuring that project processes will produce quality results.",
+    "example": "Quality assurance reviews verify that standards are followed.",
+    "metadata": {
+      "difficulty": 2,
+      "tags": ["quality", "process"]
+    }
+  },
+  {
+    "id": "pm_0039",
+    "term": "Quality control (QC)",
+    "definition": "Activities that check whether deliverables meet quality requirements.",
+    "example": "The team ran quality control tests before releasing the product.",
+    "metadata": {
+      "difficulty": 2,
+      "tags": ["quality", "testing"]
+    }
+  },
+  {
+    "id": "pm_0040",
+    "term": "Earned value",
+    "definition": "A measure of work performed expressed in terms of the budget authorized.",
+    "example": "Earned value analysis showed that the project was behind schedule.",
+    "metadata": {
+      "difficulty": 3,
+      "tags": ["cost", "control"]
+    }
+  },
+  {
+    "id": "pm_0041",
+    "term": "Budget",
+    "definition": "The estimated cost of completing a project.",
+    "example": "Staying within budget was a key objective for the sponsor.",
+    "metadata": {
+      "difficulty": 1,
+      "tags": ["cost", "planning"]
+    }
+  },
+  {
+    "id": "pm_0042",
+    "term": "Cost overrun",
+    "definition": "The amount by which actual project costs exceed the budget.",
+    "example": "Late changes to requirements caused a cost overrun.",
+    "metadata": {
+      "difficulty": 2,
+      "tags": ["cost", "risk"]
+    }
+  },
+  {
+    "id": "pm_0043",
+    "term": "Timebox",
+    "definition": "A fixed period of time reserved for a specific activity.",
+    "example": "The team used a two-hour timebox for backlog refinement.",
+    "metadata": {
+      "difficulty": 2,
+      "tags": ["agile", "time"]
+    }
+  },
+  {
+    "id": "pm_0044",
+    "term": "Backlog refinement",
+    "definition": "The ongoing process of reviewing and updating items in the product backlog.",
+    "example": "Backlog refinement helps keep upcoming work clear and sized.",
+    "metadata": {
+      "difficulty": 3,
+      "tags": ["agile", "requirements"]
+    }
+  },
+  {
+    "id": "pm_0045",
+    "term": "Daily stand-up",
+    "definition": "A short daily meeting where the team synchronizes work and identifies obstacles.",
+    "example": "During the daily stand-up, each member shared their progress.",
+    "metadata": {
+      "difficulty": 1,
+      "tags": ["agile", "meeting"]
+    }
+  },
+  {
+    "id": "pm_0046",
+    "term": "Retrospective",
+    "definition": "A meeting held at the end of an iteration to reflect on what went well and what can improve.",
+    "example": "In the retrospective, the team agreed to improve estimation practices.",
+    "metadata": {
+      "difficulty": 2,
+      "tags": ["agile", "improvement"]
+    }
+  },
+  {
+    "id": "pm_0047",
+    "term": "User story",
+    "definition": "A short description of a feature from the perspective of an end user.",
+    "example": "The product owner wrote a user story to capture the login requirement.",
+    "metadata": {
+      "difficulty": 2,
+      "tags": ["agile", "requirements"]
+    }
+  },
+  {
+    "id": "pm_0048",
+    "term": "Story points",
+    "definition": "A relative unit used by teams to estimate the effort required for a user story.",
+    "example": "The team assigned five story points to the new feature.",
+    "metadata": {
+      "difficulty": 3,
+      "tags": ["agile", "estimation"]
+    }
+  },
+  {
+    "id": "pm_0049",
+    "term": "Burn-down chart",
+    "definition": "A graph showing the remaining work in a sprint or project over time.",
+    "example": "The burn-down chart indicated that the team was ahead of schedule.",
+    "metadata": {
+      "difficulty": 3,
+      "tags": ["agile", "tracking"]
+    }
+  },
+  {
+    "id": "pm_0050",
+    "term": "Burn-up chart",
+    "definition": "A graph that shows work completed over time and highlights total scope.",
+    "example": "The burn-up chart made it easy to see scope changes.",
+    "metadata": {
+      "difficulty": 3,
+      "tags": ["agile", "tracking"]
+    }
+  },
+  {
+    "id": "pm_0051",
+    "term": "Minimum viable product (MVP)",
+    "definition": "The simplest version of a product that can be released to test assumptions and gather feedback.",
+    "example": "The team focused on building an MVP for early user testing.",
+    "metadata": {
+      "difficulty": 2,
+      "tags": ["product", "strategy"]
+    }
+  },
+  {
+    "id": "pm_0052",
+    "term": "Roadmap",
+    "definition": "A high-level visual summary that maps out the vision and direction of a product over time.",
+    "example": "The product roadmap shows planned releases for the next year.",
+    "metadata": {
+      "difficulty": 2,
+      "tags": ["strategy", "planning"]
+    }
+  },
+  {
+    "id": "pm_0053",
+    "term": "Requirements gathering",
+    "definition": "The process of collecting needs and expectations from stakeholders.",
+    "example": "Workshops were used for requirements gathering with end users.",
+    "metadata": {
+      "difficulty": 1,
+      "tags": ["requirements", "analysis"]
+    }
+  },
+  {
+    "id": "pm_0054",
+    "term": "Use case",
+    "definition": "A description of how a user interacts with a system to achieve a goal.",
+    "example": "The analyst documented use cases for the new booking system.",
+    "metadata": {
+      "difficulty": 2,
+      "tags": ["requirements", "analysis"]
+    }
+  },
+  {
+    "id": "pm_0055",
+    "term": "Risk mitigation",
+    "definition": "Actions taken to reduce the likelihood or impact of a risk.",
+    "example": "Hiring an extra developer was a risk mitigation strategy.",
+    "metadata": {
+      "difficulty": 2,
+      "tags": ["risk", "response"]
+    }
+  },
+  {
+    "id": "pm_0056",
+    "term": "Contingency plan",
+    "definition": "A backup plan that outlines what to do if identified risks occur.",
+    "example": "The contingency plan covered potential system outages.",
+    "metadata": {
+      "difficulty": 2,
+      "tags": ["risk", "planning"]
+    }
+  },
+  {
+    "id": "pm_0057",
+    "term": "Escalation",
+    "definition": "The process of raising an issue to higher authority for resolution.",
+    "example": "The project manager initiated escalation when the vendor missed deadlines.",
+    "metadata": {
+      "difficulty": 2,
+      "tags": ["governance", "issues"]
+    }
+  },
+  {
+    "id": "pm_0058",
+    "term": "RACI matrix",
+    "definition": "A chart that defines who is responsible, accountable, consulted, and informed for each task.",
+    "example": "The RACI matrix clarified decision-making roles across teams.",
+    "metadata": {
+      "difficulty": 3,
+      "tags": ["roles", "responsibility"]
+    }
+  },
+  {
+    "id": "pm_0059",
+    "term": "Project scope statement",
+    "definition": "A detailed description of the project scope, deliverables, and acceptance criteria.",
+    "example": "The project scope statement was shared with all stakeholders.",
+    "metadata": {
+      "difficulty": 2,
+      "tags": ["scope", "documentation"]
+    }
+  },
+  {
+    "id": "pm_0060",
+    "term": "Work package",
+    "definition": "The smallest unit of work in a WBS that can be assigned and managed.",
+    "example": "Each work package was assigned to a specific team lead.",
+    "metadata": {
+      "difficulty": 3,
+      "tags": ["WBS", "tasks"]
+    }
+  },
+  {
+    "id": "pm_0061",
+    "term": "Lag",
+    "definition": "A delay between dependent tasks where the successor starts later than the predecessor finishes.",
+    "example": "There is a two-day lag between testing and deployment.",
+    "metadata": {
+      "difficulty": 3,
+      "tags": ["schedule", "dependencies"]
+    }
+  },
+  {
+    "id": "pm_0062",
+    "term": "Lead time",
+    "definition": "The amount of time between the start of a process and its completion.",
+    "example": "Reducing lead time helped deliver features faster.",
+    "metadata": {
+      "difficulty": 2,
+      "tags": ["time", "efficiency"]
+    }
+  },
+  {
+    "id": "pm_0063",
+    "term": "Resource leveling",
+    "definition": "A technique to smooth resource usage by adjusting task start and end dates.",
+    "example": "Resource leveling reduced overtime by shifting non-critical tasks.",
+    "metadata": {
+      "difficulty": 3,
+      "tags": ["resources", "schedule"]
+    }
+  },
+  {
+    "id": "pm_0064",
+    "term": "Project kickoff",
+    "definition": "The start of project execution when the team begins working on tasks.",
+    "example": "After the planning phase, the project kickoff marked the start of delivery.",
+    "metadata": {
+      "difficulty": 1,
+      "tags": ["initiation", "event"]
+    }
+  },
+  {
+    "id": "pm_0065",
+    "term": "Project governance",
+    "definition": "The framework of rules and processes that guide project decision-making.",
+    "example": "Strong project governance ensured consistent decisions across portfolios.",
+    "metadata": {
+      "difficulty": 3,
+      "tags": ["governance", "framework"]
+    }
+  },
+  {
+    "id": "pm_0066",
+    "term": "Program",
+    "definition": "A group of related projects managed in a coordinated way to achieve benefits.",
+    "example": "Several IT projects were combined into a single program.",
+    "metadata": {
+      "difficulty": 2,
+      "tags": ["portfolio", "strategy"]
+    }
+  },
+  {
+    "id": "pm_0067",
+    "term": "Portfolio",
+    "definition": "A collection of projects and programs managed together to meet strategic goals.",
+    "example": "The leadership team reviewed the entire project portfolio quarterly.",
+    "metadata": {
+      "difficulty": 3,
+      "tags": ["strategy", "portfolio"]
+    }
+  },
+  {
+    "id": "pm_0068",
+    "term": "Benefit realization",
+    "definition": "The process of ensuring that project outcomes deliver the expected business value.",
+    "example": "Benefit realization was tracked six months after go-live.",
+    "metadata": {
+      "difficulty": 3,
+      "tags": ["value", "outcomes"]
+    }
+  },
+  {
+    "id": "pm_0069",
+    "term": "Project risk owner",
+    "definition": "The person responsible for monitoring and responding to a specific risk.",
+    "example": "Each major risk was assigned a risk owner on the team.",
+    "metadata": {
+      "difficulty": 2,
+      "tags": ["risk", "roles"]
+    }
+  },
+  {
+    "id": "pm_0070",
+    "term": "Issue log",
+    "definition": "A document used to track project issues, their status, and actions taken.",
+    "example": "The issue log is reviewed in every weekly meeting.",
+    "metadata": {
+      "difficulty": 1,
+      "tags": ["issues", "documentation"]
+    }
+  },
+  {
+    "id": "pm_0071",
+    "term": "Project constraints",
+    "definition": "Limitations related to time, cost, scope, or quality that affect the project.",
+    "example": "The team had to plan around strict project constraints.",
+    "metadata": {
+      "difficulty": 2,
+      "tags": ["constraints", "planning"]
+    }
+  },
+  {
+    "id": "pm_0072",
+    "term": "Project assumptions log",
+    "definition": "A record of assumptions made during planning and execution.",
+    "example": "We updated the assumptions log when the vendor changed their delivery date.",
+    "metadata": {
+      "difficulty": 3,
+      "tags": ["assumptions", "documentation"]
+    }
+  },
+  {
+    "id": "pm_0073",
+    "term": "Project scope creep",
+    "definition": "Gradual expansion of project scope without formal approval or resource changes.",
+    "example": "Uncontrolled feature requests led to project scope creep.",
+    "metadata": {
+      "difficulty": 2,
+      "tags": ["scope", "risk"]
+    }
+  },
+  {
+    "id": "pm_0074",
+    "term": "Project sponsor approval",
+    "definition": "Formal confirmation by the sponsor that a key decision or deliverable is accepted.",
+    "example": "The team waited for project sponsor approval before moving to the next phase.",
+    "metadata": {
+      "difficulty": 2,
+      "tags": ["governance", "approval"]
+    }
+  },
+  {
+    "id": "pm_0075",
+    "term": "Project status meeting",
+    "definition": "A recurring meeting to review progress, risks, and next steps.",
+    "example": "The weekly project status meeting helps keep everyone aligned.",
+    "metadata": {
+      "difficulty": 1,
+      "tags": ["meeting", "monitoring"]
+    }
+  },
+  {
+    "id": "pm_0076",
+    "term": " RAID log",
+    "definition": "A tool for tracking risks, assumptions, issues, and dependencies in one place.",
+    "example": "The RAID log gave a clear overview of project challenges.",
+    "metadata": {
+      "difficulty": 3,
+      "tags": ["risk", "documentation"]
+    }
+  },
+  {
+    "id": "pm_0077",
+    "term": "Scope baseline",
+    "definition": "The approved version of the project scope statement, WBS, and WBS dictionary.",
+    "example": "Changes to the scope baseline require formal approval.",
+    "metadata": {
+      "difficulty": 3,
+      "tags": ["scope", "baseline"]
+    }
+  },
+  {
+    "id": "pm_0078",
+    "term": "Schedule baseline",
+    "definition": "The approved version of the project schedule used for comparison.",
+    "example": "Delays were measured against the schedule baseline.",
+    "metadata": {
+      "difficulty": 3,
+      "tags": ["schedule", "baseline"]
+    }
+  },
+  {
+    "id": "pm_0079",
+    "term": "Cost baseline",
+    "definition": "The approved budget for the project, excluding management reserves.",
+    "example": "Actual spending was tracked against the cost baseline.",
+    "metadata": {
+      "difficulty": 3,
+      "tags": ["cost", "baseline"]
+    }
+  },
+  {
+    "id": "pm_0080",
+    "term": "Change log",
+    "definition": "A record of all changes requested, approved, or rejected in the project.",
+    "example": "The change log shows how scope evolved over time.",
+    "metadata": {
+      "difficulty": 2,
+      "tags": ["change", "documentation"]
+    }
+  },
+    {
+    "id": "pm_0081",
+    "term": "Stakeholder register",
+    "definition": "A document that lists stakeholders and includes details such as their interests, influence, and contact information.",
+    "example": "The stakeholder register helped the team tailor communication to each audience.",
+    "metadata": {
+      "difficulty": 2,
+      "tags": ["stakeholders", "documentation"]
+    }
+  },
+  {
+    "id": "pm_0082",
+    "term": "Stakeholder engagement plan",
+    "definition": "A plan that describes how to involve stakeholders in project decisions and activities.",
+    "example": "The stakeholder engagement plan outlined touchpoints for key sponsors and users.",
+    "metadata": {
+      "difficulty": 3,
+      "tags": ["stakeholders", "planning"]
+    }
+  },
+  {
+    "id": "pm_0083",
+    "term": "Project charter workshop",
+    "definition": "A collaborative session where key stakeholders define and agree on the project’s purpose and boundaries.",
+    "example": "During the project charter workshop, the team clarified objectives and success criteria.",
+    "metadata": {
+      "difficulty": 2,
+      "tags": ["initiation", "workshop"]
+    }
+  },
+  {
+    "id": "pm_0084",
+    "term": "Project brief",
+    "definition": "A concise summary of a project’s goals, scope, and constraints used to align stakeholders.",
+    "example": "The agency shared a project brief with the client before detailed planning.",
+    "metadata": {
+      "difficulty": 1,
+      "tags": ["initiation", "summary"]
+    }
+  },
+  {
+    "id": "pm_0085",
+    "term": "Scope management plan",
+    "definition": "A document describing how the project scope will be defined, validated, and controlled.",
+    "example": "The scope management plan specified who could approve scope changes.",
+    "metadata": {
+      "difficulty": 3,
+      "tags": ["scope", "planning"]
+    }
+  },
+  {
+    "id": "pm_0086",
+    "term": "Schedule management plan",
+    "definition": "A plan that defines how the project schedule will be developed, monitored, and controlled.",
+    "example": "The schedule management plan set rules for updating milestones and dependencies.",
+    "metadata": {
+      "difficulty": 3,
+      "tags": ["schedule", "planning"]
+    }
+  },
+  {
+    "id": "pm_0087",
+    "term": "Cost management plan",
+    "definition": "A plan that outlines how project costs will be estimated, budgeted, and controlled.",
+    "example": "The cost management plan required monthly forecasts from each workstream.",
+    "metadata": {
+      "difficulty": 3,
+      "tags": ["cost", "planning"]
+    }
+  },
+  {
+    "id": "pm_0088",
+    "term": "Quality management plan",
+    "definition": "A document that specifies quality standards, metrics, and quality assurance and control activities.",
+    "example": "The quality management plan defined defect thresholds for release.",
+    "metadata": {
+      "difficulty": 3,
+      "tags": ["quality", "planning"]
+    }
+  },
+  {
+    "id": "pm_0089",
+    "term": "Resource management plan",
+    "definition": "A plan describing how human and physical resources will be acquired, developed, and managed.",
+    "example": "The resource management plan identified critical skills needed each quarter.",
+    "metadata": {
+      "difficulty": 3,
+      "tags": ["resources", "planning"]
+    }
+  },
+  {
+    "id": "pm_0090",
+    "term": "Communications management plan",
+    "definition": "A document that defines communication goals, channels, frequency, and responsibilities.",
+    "example": "The communications management plan scheduled monthly newsletters for stakeholders.",
+    "metadata": {
+      "difficulty": 2,
+      "tags": ["communication", "planning"]
+    }
+  },
+  {
+    "id": "pm_0091",
+    "term": "Risk management plan",
+    "definition": "A plan that describes how risk identification, analysis, and responses will be conducted.",
+    "example": "The risk management plan required owners and due dates for all major risks.",
+    "metadata": {
+      "difficulty": 3,
+      "tags": ["risk", "planning"]
+    }
+  },
+  {
+    "id": "pm_0092",
+    "term": "Procurement management plan",
+    "definition": "A document that defines how goods and services will be acquired from outside the organization.",
+    "example": "The procurement management plan outlined vendor selection criteria and timelines.",
+    "metadata": {
+      "difficulty": 3,
+      "tags": ["procurement", "planning"]
+    }
+  },
+  {
+    "id": "pm_0093",
+    "term": "Change control board",
+    "definition": "A group of stakeholders responsible for reviewing and approving project change requests.",
+    "example": "The change control board meets weekly to review major scope changes.",
+    "metadata": {
+      "difficulty": 3,
+      "tags": ["governance", "change"]
+    }
+  },
+  {
+    "id": "pm_0094",
+    "term": "Phase gate",
+    "definition": "A review point at the end of a project phase where continuation is approved or rejected.",
+    "example": "The project passed its phase gate after meeting all design criteria.",
+    "metadata": {
+      "difficulty": 2,
+      "tags": ["governance", "phases"]
+    }
+  },
+  {
+    "id": "pm_0095",
+    "term": "Go/no-go decision",
+    "definition": "A formal decision point to proceed with or halt a project or release.",
+    "example": "At the go/no-go meeting, leadership approved the product launch.",
+    "metadata": {
+      "difficulty": 2,
+      "tags": ["decision", "governance"]
+    }
+  },
+  {
+    "id": "pm_0096",
+    "term": "Rolling wave planning",
+    "definition": "A planning technique where near-term work is planned in detail and future work at a higher level.",
+    "example": "The team used rolling wave planning to refine tasks as more information became available.",
+    "metadata": {
+      "difficulty": 3,
+      "tags": ["planning", "technique"]
+    }
+  },
+  {
+    "id": "pm_0097",
+    "term": "Top-down estimating",
+    "definition": "An estimating method where overall project cost or duration is estimated first and then broken down.",
+    "example": "Top-down estimating was used early when little detail was known.",
+    "metadata": {
+      "difficulty": 3,
+      "tags": ["estimating", "cost"]
+    }
+  },
+  {
+    "id": "pm_0098",
+    "term": "Bottom-up estimating",
+    "definition": "An estimating technique where work is broken into detailed tasks and each is estimated individually.",
+    "example": "Bottom-up estimating produced a more accurate schedule for the build phase.",
+    "metadata": {
+      "difficulty": 3,
+      "tags": ["estimating", "schedule"]
+    }
+  },
+  {
+    "id": "pm_0099",
+    "term": "Analogous estimating",
+    "definition": "An estimating method that uses historical data from similar projects to predict cost or duration.",
+    "example": "The team used analogous estimating based on last year’s migration project.",
+    "metadata": {
+      "difficulty": 3,
+      "tags": ["estimating", "historical"]
+    }
+  },
+  {
+    "id": "pm_0100",
+    "term": "Parametric estimating",
+    "definition": "An estimating technique that uses statistical relationships between variables, such as cost per unit.",
+    "example": "Parametric estimating used cost per feature to estimate the total budget.",
+    "metadata": {
+      "difficulty": 3,
+      "tags": ["estimating", "metrics"]
+    }
+  },
+  {
+    "id": "pm_0101",
+    "term": "Three-point estimating",
+    "definition": "An estimating method that considers optimistic, pessimistic, and most likely values.",
+    "example": "Three-point estimating helped capture uncertainty in the duration of testing.",
+    "metadata": {
+      "difficulty": 3,
+      "tags": ["estimating", "risk"]
+    }
+  },
+  {
+    "id": "pm_0102",
+    "term": "Monte Carlo simulation",
+    "definition": "A quantitative risk analysis technique that uses random sampling to model possible outcomes.",
+    "example": "Monte Carlo simulation estimated the probability of meeting the deadline.",
+    "metadata": {
+      "difficulty": 3,
+      "tags": ["risk", "analysis"]
+    }
+  },
+  {
+    "id": "pm_0103",
+    "term": "Risk appetite",
+    "definition": "The level of risk an organization or stakeholder is willing to accept.",
+    "example": "The sponsor’s low risk appetite influenced the choice of mitigation strategies.",
+    "metadata": {
+      "difficulty": 2,
+      "tags": ["risk", "strategy"]
+    }
+  },
+  {
+    "id": "pm_0104",
+    "term": "Risk tolerance",
+    "definition": "The acceptable variation in outcomes related to a specific risk.",
+    "example": "The team defined a clear risk tolerance for schedule delays.",
+    "metadata": {
+      "difficulty": 3,
+      "tags": ["risk", "limits"]
+    }
+  },
+  {
+    "id": "pm_0105",
+    "term": "Risk owner",
+    "definition": "The individual responsible for monitoring and managing a specific risk.",
+    "example": "Each top risk in the register had an assigned risk owner.",
+    "metadata": {
+      "difficulty": 2,
+      "tags": ["risk", "roles"]
+    }
+  },
+  {
+    "id": "pm_0106",
+    "term": "Risk response plan",
+    "definition": "A set of actions designed to address identified risks if they occur.",
+    "example": "The risk response plan included a fallback vendor for critical components.",
+    "metadata": {
+      "difficulty": 3,
+      "tags": ["risk", "planning"]
+    }
+  },
+  {
+    "id": "pm_0107",
+    "term": "Opportunity",
+    "definition": "A positive risk that, if it occurs, has a beneficial impact on project objectives.",
+    "example": "Securing a discount from suppliers was identified as an opportunity.",
+    "metadata": {
+      "difficulty": 2,
+      "tags": ["risk", "positive"]
+    }
+  },
+  {
+    "id": "pm_0108",
+    "term": "Project dependency",
+    "definition": "A relationship where a project relies on deliverables or activities outside its direct control.",
+    "example": "The integration project had a dependency on the ERP upgrade.",
+    "metadata": {
+      "difficulty": 2,
+      "tags": ["dependencies", "planning"]
+    }
+  },
+  {
+    "id": "pm_0109",
+    "term": "External dependency",
+    "definition": "A dependency involving tasks or events outside the project team’s authority.",
+    "example": "Regulatory approval was a major external dependency for the launch.",
+    "metadata": {
+      "difficulty": 2,
+      "tags": ["dependencies", "external"]
+    }
+  },
+  {
+    "id": "pm_0110",
+    "term": "Internal dependency",
+    "definition": "A dependency between tasks or teams within the same organization.",
+    "example": "Reporting changes had an internal dependency on the data warehouse team.",
+    "metadata": {
+      "difficulty": 2,
+      "tags": ["dependencies", "internal"]
+    }
+  },
+  {
+    "id": "pm_0111",
+    "term": "Sprint planning",
+    "definition": "A Scrum event where the team decides what work to deliver in the upcoming sprint.",
+    "example": "During sprint planning, the team selected stories based on capacity and priority.",
+    "metadata": {
+      "difficulty": 2,
+      "tags": ["agile", "ceremony"]
+    }
+  },
+  {
+    "id": "pm_0112",
+    "term": "Sprint review",
+    "definition": "A Scrum event where the team presents the increment and gathers feedback from stakeholders.",
+    "example": "In the sprint review, users tested new features and suggested improvements.",
+    "metadata": {
+      "difficulty": 2,
+      "tags": ["agile", "feedback"]
+    }
+  },
+  {
+    "id": "pm_0113",
+    "term": "Increment",
+    "definition": "The sum of all completed product backlog items at the end of a sprint.",
+    "example": "Each increment should be in a usable state, even if not released.",
+    "metadata": {
+      "difficulty": 3,
+      "tags": ["agile", "product"]
+    }
+  },
+  {
+    "id": "pm_0114",
+    "term": "Definition of Done",
+    "definition": "A shared understanding of what it means for work to be complete.",
+    "example": "The team updated the Definition of Done to include performance testing.",
+    "metadata": {
+      "difficulty": 2,
+      "tags": ["agile", "quality"]
+    }
+  },
+  {
+    "id": "pm_0115",
+    "term": "Definition of Ready",
+    "definition": "Criteria that a backlog item must meet before the team agrees to work on it.",
+    "example": "Stories must meet the Definition of Ready before entering a sprint.",
+    "metadata": {
+      "difficulty": 3,
+      "tags": ["agile", "requirements"]
+    }
+  },
+  {
+    "id": "pm_0116",
+    "term": "Product owner",
+    "definition": "The role responsible for maximizing the value of the product and managing the product backlog.",
+    "example": "The product owner prioritized features based on customer impact.",
+    "metadata": {
+      "difficulty": 2,
+      "tags": ["agile", "roles"]
+    }
+  },
+  {
+    "id": "pm_0117",
+    "term": "Scrum master",
+    "definition": "A servant leader who facilitates Scrum events and removes impediments for the team.",
+    "example": "The Scrum master helped resolve a conflict about priorities.",
+    "metadata": {
+      "difficulty": 2,
+      "tags": ["agile", "roles"]
+    }
+  },
+  {
+    "id": "pm_0118",
+    "term": "Agile coach",
+    "definition": "A person who guides individuals and teams in adopting Agile practices and mindset.",
+    "example": "The Agile coach trained teams on Kanban and Scrum principles.",
+    "metadata": {
+      "difficulty": 3,
+      "tags": ["agile", "coaching"]
+    }
+  },
+  {
+    "id": "pm_0119",
+    "term": "Release planning",
+    "definition": "The process of defining the scope and timing of product releases.",
+    "example": "Release planning aligned multiple teams on the next quarter’s goals.",
+    "metadata": {
+      "difficulty": 2,
+      "tags": ["planning", "release"]
+    }
+  },
+  {
+    "id": "pm_0120",
+    "term": "Release train",
+    "definition": "A recurring, synchronized release cycle used in scaled Agile environments.",
+    "example": "Features from all teams ship together on the quarterly release train.",
+    "metadata": {
+      "difficulty": 3,
+      "tags": ["agile", "scaled"]
+    }
+  },
+  {
+    "id": "pm_0121",
+    "term": "Program increment",
+    "definition": "A timeboxed planning interval, usually 8–12 weeks, in scaled Agile frameworks.",
+    "example": "During the program increment, teams worked toward shared objectives.",
+    "metadata": {
+      "difficulty": 3,
+      "tags": ["agile", "scaled"]
+    }
+  },
+  {
+    "id": "pm_0122",
+    "term": "Velocity",
+    "definition": "The amount of work a team completes in a sprint, usually measured in story points.",
+    "example": "The team’s velocity stabilized at around 40 points per sprint.",
+    "metadata": {
+      "difficulty": 2,
+      "tags": ["agile", "metrics"]
+    }
+  },
+  {
+    "id": "pm_0123",
+    "term": "Throughput",
+    "definition": "The number of work items completed in a given period.",
+    "example": "The Kanban team tracked throughput weekly to gauge performance.",
+    "metadata": {
+      "difficulty": 3,
+      "tags": ["flow", "metrics"]
+    }
+  },
+  {
+    "id": "pm_0124",
+    "term": "Cycle time",
+    "definition": "The time it takes for a work item to move from start to finish.",
+    "example": "Reducing cycle time helped deliver features more quickly.",
+    "metadata": {
+      "difficulty": 2,
+      "tags": ["flow", "metrics"]
+    }
+  },
+  {
+    "id": "pm_0125",
+    "term": "Work in progress limit",
+    "definition": "A cap on the number of tasks that can be in a given stage at one time.",
+    "example": "Setting a work in progress limit prevented the team from starting too many tasks.",
+    "metadata": {
+      "difficulty": 2,
+      "tags": ["kanban", "flow"]
+    }
+  },
+  {
+    "id": "pm_0126",
+    "term": "Swimlane",
+    "definition": "A horizontal or vertical section on a board that groups work items by category or owner.",
+    "example": "The Kanban board used swimlanes for each product area.",
+    "metadata": {
+      "difficulty": 2,
+      "tags": ["visual", "kanban"]
+    }
+  },
+  {
+    "id": "pm_0127",
+    "term": "Roadblock",
+    "definition": "An impediment that prevents progress on a task or project.",
+    "example": "The missing approval became a roadblock for deployment.",
+    "metadata": {
+      "difficulty": 1,
+      "tags": ["issues", "impediments"]
+    }
+  },
+  {
+    "id": "pm_0128",
+    "term": "Impediment",
+    "definition": "Anything that slows down or stops the team from making progress.",
+    "example": "The Scrum master tracks and removes impediments raised in stand-ups.",
+    "metadata": {
+      "difficulty": 2,
+      "tags": ["agile", "issues"]
+    }
+  },
+  {
+    "id": "pm_0129",
+    "term": "Project scope statement",
+    "definition": "A detailed description of project deliverables, boundaries, and acceptance criteria.",
+    "example": "The project scope statement helped avoid work outside the agreed boundaries.",
+    "metadata": {
+      "difficulty": 2,
+      "tags": ["scope", "documentation"]
+    }
+  },
+  {
+    "id": "pm_0130",
+    "term": "Project dashboard",
+    "definition": "A visual display of key project metrics such as schedule, cost, and risks.",
+    "example": "Executives reviewed the project dashboard before the steering committee.",
+    "metadata": {
+      "difficulty": 1,
+      "tags": ["reporting", "visual"]
+    }
+  },
+  {
+    "id": "pm_0131",
+    "term": "Steering committee",
+    "definition": "A group of senior stakeholders who provide oversight and direction to the project.",
+    "example": "The steering committee approved major changes to the project roadmap.",
+    "metadata": {
+      "difficulty": 3,
+      "tags": ["governance", "stakeholders"]
+    }
+  },
+  {
+    "id": "pm_0132",
+    "term": "Benefits register",
+    "definition": "A document that lists expected project benefits and how they will be measured.",
+    "example": "The benefits register linked each benefit to a specific metric and owner.",
+    "metadata": {
+      "difficulty": 3,
+      "tags": ["benefits", "documentation"]
+    }
+  },
+  {
+    "id": "pm_0133",
+    "term": "Business case",
+    "definition": "A justification for a project that outlines expected benefits, costs, and risks.",
+    "example": "The business case showed that automation would pay back within two years.",
+    "metadata": {
+      "difficulty": 2,
+      "tags": ["justification", "initiation"]
+    }
+  },
+  {
+    "id": "pm_0134",
+    "term": "Feasibility study",
+    "definition": "An analysis of whether a proposed project is viable technically, financially, and operationally.",
+    "example": "The feasibility study concluded that the legacy system could not support the upgrade.",
+    "metadata": {
+      "difficulty": 3,
+      "tags": ["analysis", "initiation"]
+    }
+  },
+  {
+    "id": "pm_0135",
+    "term": "Pilot project",
+    "definition": "A small-scale implementation used to test an approach before a full rollout.",
+    "example": "The pilot project ran in one region before expanding globally.",
+    "metadata": {
+      "difficulty": 2,
+      "tags": ["testing", "rollout"]
+    }
+  },
+  {
+    "id": "pm_0136",
+    "term": "Proof of concept",
+    "definition": "A small experiment designed to demonstrate that an idea or approach is workable.",
+    "example": "The proof of concept validated that the integration was technically possible.",
+    "metadata": {
+      "difficulty": 2,
+      "tags": ["validation", "technical"]
+    }
+  },
+  {
+    "id": "pm_0137",
+    "term": "Change impact assessment",
+    "definition": "An analysis of how a proposed change will affect systems, processes, and people.",
+    "example": "The change impact assessment highlighted additional training needs.",
+    "metadata": {
+      "difficulty": 3,
+      "tags": ["change", "analysis"]
+    }
+  },
+  {
+    "id": "pm_0138",
+    "term": "Benefits realization plan",
+    "definition": "A plan describing how and when project benefits will be delivered and measured.",
+    "example": "The benefits realization plan extended beyond the project end date.",
+    "metadata": {
+      "difficulty": 3,
+      "tags": ["benefits", "planning"]
+    }
+  },
+  {
+    "id": "pm_0139",
+    "term": "Operational handover",
+    "definition": "The process of transferring responsibility from the project team to operational teams.",
+    "example": "Operational handover included documentation, training, and support agreements.",
+    "metadata": {
+      "difficulty": 2,
+      "tags": ["closure", "transition"]
+    }
+  },
+  {
+    "id": "pm_0140",
+    "term": "Hypercare",
+    "definition": "A focused support period immediately after go-live to quickly resolve issues.",
+    "example": "During hypercare, extra staff monitored the system around the clock.",
+    "metadata": {
+      "difficulty": 3,
+      "tags": ["post-go-live", "support"]
+    }
+  },
+  {
+    "id": "pm_0141",
+    "term": "Rollout plan",
+    "definition": "A detailed plan for deploying a solution across locations, users, or phases.",
+    "example": "The rollout plan staged deployments by country over three months.",
+    "metadata": {
+      "difficulty": 2,
+      "tags": ["deployment", "planning"]
+    }
+  },
+  {
+    "id": "pm_0142",
+    "term": "Cutover plan",
+    "definition": "A step-by-step plan for switching from an old system or process to a new one.",
+    "example": "The cutover plan listed exact times for each migration activity.",
+    "metadata": {
+      "difficulty": 3,
+      "tags": ["deployment", "transition"]
+    }
+  },
+  {
+    "id": "pm_0143",
+    "term": "Fallback plan",
+    "definition": "A plan describing how to revert to a previous state if the new solution fails.",
+    "example": "The fallback plan allowed the team to roll back to the old system within two hours.",
+    "metadata": {
+      "difficulty": 3,
+      "tags": ["risk", "contingency"]
+    }
+  },
+  {
+    "id": "pm_0144",
+    "term": "Exception report",
+    "definition": "A report that highlights deviations from planned performance.",
+    "example": "An exception report was issued when costs exceeded the threshold.",
+    "metadata": {
+      "difficulty": 2,
+      "tags": ["reporting", "control"]
+    }
+  },
+  {
+    "id": "pm_0145",
+    "term": "Tolerance",
+    "definition": "The allowable deviation from a target without requiring escalation.",
+    "example": "The project had a cost tolerance of plus or minus five percent.",
+    "metadata": {
+      "difficulty": 3,
+      "tags": ["control", "limits"]
+    }
+  },
+  {
+    "id": "pm_0146",
+    "term": "Work authorization",
+    "definition": "Formal permission to begin work on a specific task or work package.",
+    "example": "Work authorization was required before starting vendor integration.",
+    "metadata": {
+      "difficulty": 3,
+      "tags": ["control", "process"]
+    }
+  },
+  {
+    "id": "pm_0147",
+    "term": "Milestone trend analysis",
+    "definition": "A technique to track how forecast milestone dates change over time.",
+    "example": "Milestone trend analysis showed that delays were stabilizing.",
+    "metadata": {
+      "difficulty": 3,
+      "tags": ["schedule", "analysis"]
+    }
+  },
+  {
+    "id": "pm_0148",
+    "term": "Change freeze",
+    "definition": "A period during which no new changes may be introduced.",
+    "example": "A change freeze was enforced two weeks before go-live.",
+    "metadata": {
+      "difficulty": 2,
+      "tags": ["change", "control"]
+    }
+  },
+  {
+    "id": "pm_0149",
+    "term": "Project audit",
+    "definition": "An independent review of how a project is being managed and whether it follows standards.",
+    "example": "The project audit identified gaps in risk documentation.",
+    "metadata": {
+      "difficulty": 3,
+      "tags": ["governance", "review"]
+    }
+  },
+  {
+    "id": "pm_0150",
+    "term": "Health check",
+    "definition": "A quick assessment of a project’s status, focusing on key risk and success factors.",
+    "example": "A mid-project health check confirmed that morale and scope control were strong.",
+    "metadata": {
+      "difficulty": 2,
+      "tags": ["assessment", "monitoring"]
+    }
+  }
+]

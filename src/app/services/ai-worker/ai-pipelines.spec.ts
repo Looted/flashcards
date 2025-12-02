@@ -1,5 +1,6 @@
 import { describe, it, expect, vi, beforeEach } from 'vitest';
 import { TextGenerationPipelineFactory, TranslationPipelineFactory } from './ai-pipelines';
+import { pipeline } from '@huggingface/transformers';
 
 // Mock the @huggingface/transformers module
 vi.mock('@huggingface/transformers', () => ({
@@ -21,6 +22,7 @@ describe('TextGenerationPipelineFactory', () => {
   beforeEach(() => {
     // Reset the singleton instance before each test
     TextGenerationPipelineFactory.instance = undefined;
+    vi.clearAllMocks();
   });
 
   it('should have correct static properties', () => {
@@ -29,32 +31,73 @@ describe('TextGenerationPipelineFactory', () => {
   });
 
   it('should return the same instance on multiple calls', async () => {
-    const { pipeline } = await import('@huggingface/transformers');
-    const mockPipeline = vi.fn().mockResolvedValue('mock-pipeline-instance');
-
-    (pipeline as any).mockImplementation(mockPipeline);
+    const pipelineMock = vi.mocked(pipeline) as any;
+    pipelineMock.mockResolvedValue('mock-pipeline-instance' as any);
 
     const instance1 = await TextGenerationPipelineFactory.getInstance();
     const instance2 = await TextGenerationPipelineFactory.getInstance();
 
     expect(instance1).toBe(instance2);
     expect(instance1).toBe('mock-pipeline-instance');
-    expect(mockPipeline).toHaveBeenCalledTimes(1); // Should only create once
+    expect(pipelineMock).toHaveBeenCalledTimes(1); // Should only create once
+  });
+
+  it('should return existing instance without creating new pipeline', async () => {
+    const pipelineMock = vi.mocked(pipeline) as any;
+    pipelineMock.mockResolvedValue('mock-pipeline-instance' as any);
+
+    // First call creates the instance
+    await TextGenerationPipelineFactory.getInstance();
+    // Reset mock to check it's not called again
+    pipelineMock.mockClear();
+
+    // Second call should return existing instance
+    const instance = await TextGenerationPipelineFactory.getInstance();
+
+    expect(instance).toBe('mock-pipeline-instance');
+    expect(pipelineMock).not.toHaveBeenCalled(); // Should not create again
   });
 
   it('should call pipeline with correct parameters', async () => {
-    const { pipeline } = await import('@huggingface/transformers');
-    const mockPipeline = vi.fn().mockResolvedValue('mock-pipeline-instance');
+    const pipelineMock = vi.mocked(pipeline) as any;
+    pipelineMock.mockResolvedValue('mock-pipeline-instance' as any);
     const mockProgressCallback = vi.fn();
-
-    (pipeline as any).mockImplementation(mockPipeline);
 
     await TextGenerationPipelineFactory.getInstance(mockProgressCallback);
 
-    expect(mockPipeline).toHaveBeenCalledWith('text-generation', 'HuggingFaceTB/SmolLM2-360M-Instruct', {
+    expect(pipelineMock).toHaveBeenCalledWith('text-generation', 'HuggingFaceTB/SmolLM2-360M-Instruct', {
       device: 'webgpu',
       dtype: 'fp16',
       progress_callback: mockProgressCallback
+    });
+  });
+
+  it('should use WASM device when WebGPU is not available', async () => {
+    // Mock WebGPU as unavailable
+    const originalGpu = global.navigator.gpu;
+    Object.defineProperty(global.navigator, 'gpu', {
+      value: {
+        requestAdapter: vi.fn().mockResolvedValue(null)
+      },
+      writable: true
+    });
+
+    const pipelineMock = vi.mocked(pipeline) as any;
+    pipelineMock.mockResolvedValue('mock-pipeline-instance' as any);
+    const mockProgressCallback = vi.fn();
+
+    await TextGenerationPipelineFactory.getInstance(mockProgressCallback);
+
+    expect(pipelineMock).toHaveBeenCalledWith('text-generation', 'HuggingFaceTB/SmolLM2-360M-Instruct', {
+      device: 'wasm',
+      dtype: 'q8',
+      progress_callback: mockProgressCallback
+    });
+
+    // Restore original mock
+    Object.defineProperty(global.navigator, 'gpu', {
+      value: originalGpu,
+      writable: true
     });
   });
 });
@@ -63,6 +106,7 @@ describe('TranslationPipelineFactory', () => {
   beforeEach(() => {
     // Reset the singleton instance before each test
     TranslationPipelineFactory.instance = undefined;
+    vi.clearAllMocks();
   });
 
   it('should have correct static properties', () => {
@@ -71,29 +115,41 @@ describe('TranslationPipelineFactory', () => {
   });
 
   it('should return the same instance on multiple calls', async () => {
-    const { pipeline } = await import('@huggingface/transformers');
-    const mockPipeline = vi.fn().mockResolvedValue('mock-translation-instance');
-
-    (pipeline as any).mockImplementation(mockPipeline);
+    const pipelineMock = vi.mocked(pipeline) as any;
+    pipelineMock.mockResolvedValue('mock-translation-instance' as any);
 
     const instance1 = await TranslationPipelineFactory.getInstance();
     const instance2 = await TranslationPipelineFactory.getInstance();
 
     expect(instance1).toBe(instance2);
     expect(instance1).toBe('mock-translation-instance');
-    expect(mockPipeline).toHaveBeenCalledTimes(1); // Should only create once
+    expect(pipelineMock).toHaveBeenCalledTimes(1); // Should only create once
+  });
+
+  it('should return existing instance without creating new pipeline', async () => {
+    const pipelineMock = vi.mocked(pipeline) as any;
+    pipelineMock.mockResolvedValue('mock-translation-instance' as any);
+
+    // First call creates the instance
+    await TranslationPipelineFactory.getInstance();
+    // Reset mock to check it's not called again
+    pipelineMock.mockClear();
+
+    // Second call should return existing instance
+    const instance = await TranslationPipelineFactory.getInstance();
+
+    expect(instance).toBe('mock-translation-instance');
+    expect(pipelineMock).not.toHaveBeenCalled(); // Should not create again
   });
 
   it('should call pipeline with correct parameters', async () => {
-    const { pipeline } = await import('@huggingface/transformers');
-    const mockPipeline = vi.fn().mockResolvedValue('mock-translation-instance');
+    const pipelineMock = vi.mocked(pipeline) as any;
+    pipelineMock.mockResolvedValue('mock-translation-instance' as any);
     const mockProgressCallback = vi.fn();
-
-    (pipeline as any).mockImplementation(mockPipeline);
 
     await TranslationPipelineFactory.getInstance(mockProgressCallback);
 
-    expect(mockPipeline).toHaveBeenCalledWith('translation', 'Xenova/nllb-200-distilled-600M', {
+    expect(pipelineMock).toHaveBeenCalledWith('translation', 'Xenova/nllb-200-distilled-600M', {
       device: 'wasm',
       progress_callback: mockProgressCallback,
       dtype: "q8"

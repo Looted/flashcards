@@ -21,7 +21,8 @@ describe('MenuComponent', () => {
       startGame: vi.fn().mockResolvedValue(undefined)
     };
     statsServiceMock = {
-      getAllStats: vi.fn().mockReturnValue([])
+      getAllStats: vi.fn().mockReturnValue([]),
+      getStatsByCategory: vi.fn().mockReturnValue([])
     };
     routerMock = {
       navigate: vi.fn()
@@ -119,13 +120,41 @@ describe('MenuComponent', () => {
         writable: true
       });
     });
+
+    it('should load last session from storage', () => {
+      const sessionData = {
+        category: 'hr',
+        practiceMode: GameMode.Practice,
+        gameMode: 'blitz' as const,
+        difficulty: 2
+      };
+      storageServiceMock.getItem.mockReturnValue(JSON.stringify(sessionData));
+
+      component.ngOnInit();
+
+      expect(component.lastSession()).toEqual(sessionData);
+    });
+
+    it('should handle invalid stored session data', () => {
+      storageServiceMock.getItem.mockReturnValue('invalid json');
+
+      const consoleSpy = vi.spyOn(console, 'warn').mockImplementation(() => {});
+
+      component.ngOnInit();
+
+      expect(consoleSpy).toHaveBeenCalledWith('Failed to parse stored session data:', expect.any(SyntaxError));
+      expect(component.lastSession()).toBe(null);
+
+      consoleSpy.mockRestore();
+    });
   });
 
-  describe('selectTopic', () => {
+  describe('startSession', () => {
     it('should call startGame and navigate on success', async () => {
-      await component.selectTopic('IT');
+      component.selectedCategory.set('IT');
+      await component.startSession();
 
-      expect(gameServiceMock.startGame).toHaveBeenCalledWith('IT', GameMode.New, true, null);
+      expect(gameServiceMock.startGame).toHaveBeenCalledWith('IT', GameMode.New, 'classic', true, null);
       expect(routerMock.navigate).toHaveBeenCalledWith(['/game']);
       expect(component.isLoading).toBe(false);
     });
@@ -134,25 +163,37 @@ describe('MenuComponent', () => {
       const error = new Error('Game start failed');
       gameServiceMock.startGame.mockRejectedValue(error);
 
+      component.selectedCategory.set('IT');
+      component.currentScreen.set('config');
+
       // Spy on console.error to avoid test output pollution
       const consoleSpy = vi.spyOn(console, 'error').mockImplementation(() => { });
 
-      await expect(component.selectTopic('IT')).rejects.toThrow('Game start failed');
+      // Mock alert function
+      const alertSpy = vi.spyOn(window, 'alert').mockImplementation(() => { });
+
+      await component.startSession();
 
       expect(component.isLoading).toBe(false);
-      expect(consoleSpy).toHaveBeenCalledWith('Failed to start game:', error);
+      expect(consoleSpy).toHaveBeenCalledWith('[MenuComponent] Failed to start session:', error);
+      expect(alertSpy).toHaveBeenCalledWith('Failed to start session. Please try again.');
+      expect(component.currentScreen()).toBe('home');
+      expect(component.selectedCategory()).toBe(null);
 
       consoleSpy.mockRestore();
+      alertSpy.mockRestore();
     });
 
     it('should pass selected options to startGame', async () => {
       component.useStatic.set(false);
       component.selectedDifficulty.set(3);
-      component.selectedMode.set(GameMode.Practice);
+      component.selectedPracticeMode.set(GameMode.Practice);
+      component.selectedGameMode.set('blitz');
+      component.selectedCategory.set('HR');
 
-      await component.selectTopic('HR');
+      await component.startSession();
 
-      expect(gameServiceMock.startGame).toHaveBeenCalledWith('HR', GameMode.Practice, false, 3);
+      expect(gameServiceMock.startGame).toHaveBeenCalledWith('HR', GameMode.Practice, 'blitz', false, 3);
     });
 
     it('should set loading state during game start', async () => {
@@ -162,32 +203,30 @@ describe('MenuComponent', () => {
       });
 
       gameServiceMock.startGame.mockReturnValue(promise);
+      component.selectedCategory.set('IT');
 
-      const selectPromise = component.selectTopic('IT');
+      const startPromise = component.startSession();
       expect(component.isLoading).toBe(true);
 
       resolvePromise!();
-      await selectPromise;
+      await startPromise;
       expect(component.isLoading).toBe(false);
     });
 
-    it('should set selectedCategory when starting game', async () => {
-      await component.selectTopic('hr');
-      expect(component.selectedCategory()).toBe('hr');
-    });
+    it('should save last session settings', async () => {
+      component.selectedCategory.set('hr');
+      component.selectedPracticeMode.set(GameMode.New);
+      component.selectedGameMode.set('classic');
+      component.selectedDifficulty.set(2);
 
-    it('should reset selectedCategory on error', async () => {
-      const error = new Error('Game start failed');
-      gameServiceMock.startGame.mockRejectedValue(error);
+      await component.startSession();
 
-      // Spy on console.error to avoid test output pollution
-      const consoleSpy = vi.spyOn(console, 'error').mockImplementation(() => { });
-
-      await expect(component.selectTopic('hr')).rejects.toThrow('Game start failed');
-
-      expect(component.selectedCategory()).toBeNull();
-
-      consoleSpy.mockRestore();
+      expect(component.lastSession()).toEqual({
+        category: 'hr',
+        practiceMode: GameMode.New,
+        gameMode: 'classic',
+        difficulty: 2
+      });
     });
   });
 
@@ -226,6 +265,255 @@ describe('MenuComponent', () => {
 
       const serverComponent = TestBed.createComponent(MenuComponent).componentInstance;
       expect(serverComponent.isMobile).toBe(false);
+    });
+  });
+
+  describe('quickStartNew', () => {
+    it('should set all required state and call startSession without changing currentScreen to config', async () => {
+      const initialScreen = component.currentScreen();
+      expect(initialScreen).toBe('home');
+
+      await component.quickStartNew('hr');
+
+      expect(component.selectedCategory()).toBe('hr');
+      expect(component.selectedPracticeMode()).toBe(GameMode.New);
+      expect(component.selectedGameMode()).toBe('classic');
+      expect(component.selectedDifficulty()).toBe(null);
+      expect(component.currentScreen()).toBe('home'); // Should not change to 'config'
+      expect(gameServiceMock.startGame).toHaveBeenCalledWith('hr', GameMode.New, 'classic', true, null);
+      expect(routerMock.navigate).toHaveBeenCalledWith(['/game']);
+    });
+
+    it('should handle errors correctly and reset state', async () => {
+      const error = new Error('Game start failed');
+      gameServiceMock.startGame.mockRejectedValue(error);
+
+      const consoleSpy = vi.spyOn(console, 'error').mockImplementation(() => {});
+      const alertSpy = vi.spyOn(window, 'alert').mockImplementation(() => {});
+
+      await component.quickStartNew('hr');
+
+      expect(component.currentScreen()).toBe('home');
+      expect(component.selectedCategory()).toBe(null);
+      expect(consoleSpy).toHaveBeenCalledWith('[MenuComponent] Failed to start session:', error);
+      expect(alertSpy).toHaveBeenCalledWith('Failed to start session. Please try again.');
+
+      consoleSpy.mockRestore();
+      alertSpy.mockRestore();
+    });
+  });
+
+  describe('quickStartPracticeFromHome', () => {
+    it('should set all required state and call startSession without changing currentScreen to config', async () => {
+      const initialScreen = component.currentScreen();
+      expect(initialScreen).toBe('home');
+
+      await component.quickStartPracticeFromHome('pm');
+
+      expect(component.selectedCategory()).toBe('pm');
+      expect(component.selectedPracticeMode()).toBe(GameMode.Practice);
+      expect(component.selectedGameMode()).toBe('classic');
+      expect(component.selectedDifficulty()).toBe(null);
+      expect(component.currentScreen()).toBe('home'); // Should not change to 'config'
+      expect(gameServiceMock.startGame).toHaveBeenCalledWith('pm', GameMode.Practice, 'classic', true, null);
+      expect(routerMock.navigate).toHaveBeenCalledWith(['/game']);
+    });
+
+    it('should handle errors correctly and reset state', async () => {
+      const error = new Error('Game start failed');
+      gameServiceMock.startGame.mockRejectedValue(error);
+
+      const consoleSpy = vi.spyOn(console, 'error').mockImplementation(() => {});
+      const alertSpy = vi.spyOn(window, 'alert').mockImplementation(() => {});
+
+      await component.quickStartPracticeFromHome('pm');
+
+      expect(component.currentScreen()).toBe('home');
+      expect(component.selectedCategory()).toBe(null);
+      expect(consoleSpy).toHaveBeenCalledWith('[MenuComponent] Failed to start session:', error);
+      expect(alertSpy).toHaveBeenCalledWith('Failed to start session. Please try again.');
+
+      consoleSpy.mockRestore();
+      alertSpy.mockRestore();
+    });
+  });
+
+  describe('onAICheckboxChange', () => {
+    it('should set useStatic to false when AI checkbox is checked', () => {
+      const event = { target: { checked: true } } as any;
+      component.onAICheckboxChange(event);
+      expect(component.useStatic()).toBe(false);
+    });
+
+    it('should set useStatic to true when AI checkbox is unchecked', () => {
+      const event = { target: { checked: false } } as any;
+      component.onAICheckboxChange(event);
+      expect(component.useStatic()).toBe(true);
+    });
+  });
+
+  describe('selectCategory', () => {
+    it('should set selectedCategory and change screen to config', () => {
+      component.selectCategory('hr');
+      expect(component.selectedCategory()).toBe('hr');
+      expect(component.currentScreen()).toBe('config');
+    });
+  });
+
+  describe('backToHome', () => {
+    it('should reset screen to home and clear selected category', () => {
+      component.currentScreen.set('config');
+      component.selectedCategory.set('hr');
+
+      component.backToHome();
+
+      expect(component.currentScreen()).toBe('home');
+      expect(component.selectedCategory()).toBe(null);
+    });
+  });
+
+  describe('quickStartNewWords', () => {
+    it('should set practice mode to New and call startSession when category is selected', async () => {
+      component.selectedCategory.set('hr');
+
+      await component.quickStartNewWords();
+
+      expect(component.selectedPracticeMode()).toBe(GameMode.New);
+      expect(gameServiceMock.startGame).toHaveBeenCalledWith('hr', GameMode.New, 'classic', true, null);
+    });
+
+    it('should do nothing when no category is selected', () => {
+      component.selectedCategory.set(null);
+
+      component.quickStartNewWords();
+
+      expect(gameServiceMock.startGame).not.toHaveBeenCalled();
+    });
+  });
+
+  describe('quickStartPractice', () => {
+    it('should set practice mode to Practice and call startSession when category is selected', async () => {
+      component.selectedCategory.set('pm');
+
+      await component.quickStartPractice();
+
+      expect(component.selectedPracticeMode()).toBe(GameMode.Practice);
+      expect(gameServiceMock.startGame).toHaveBeenCalledWith('pm', GameMode.Practice, 'classic', true, null);
+    });
+
+    it('should do nothing when no category is selected', () => {
+      component.selectedCategory.set(null);
+
+      component.quickStartPractice();
+
+      expect(gameServiceMock.startGame).not.toHaveBeenCalled();
+    });
+  });
+
+  describe('continueLearning', () => {
+    it('should restore last session settings and start game', async () => {
+      const sessionData = {
+        category: 'hr',
+        practiceMode: GameMode.Practice,
+        gameMode: 'blitz' as const,
+        difficulty: 2
+      };
+      component.lastSession.set(sessionData);
+
+      await component.continueLearning();
+
+      expect(component.selectedCategory()).toBe('hr');
+      expect(component.selectedPracticeMode()).toBe(GameMode.Practice);
+      expect(component.selectedGameMode()).toBe('blitz');
+      expect(component.selectedDifficulty()).toBe(2);
+      expect(gameServiceMock.startGame).toHaveBeenCalledWith('hr', GameMode.Practice, 'blitz', true, 2);
+    });
+
+    it('should do nothing when no last session exists', () => {
+      component.lastSession.set(null);
+
+      component.continueLearning();
+
+      expect(gameServiceMock.startGame).not.toHaveBeenCalled();
+    });
+  });
+
+  describe('calculateGrade', () => {
+    it('should return N/A when no words learned', () => {
+      const result = (component as any).calculateGrade(0, 0);
+      expect(result).toBe('N/A');
+    });
+
+    it('should return A for 90% or higher mastery ratio', () => {
+      expect((component as any).calculateGrade(9, 1)).toBe('A');
+      expect((component as any).calculateGrade(10, 0)).toBe('A');
+    });
+
+    it('should return B for 80-89% mastery ratio', () => {
+      expect((component as any).calculateGrade(8, 2)).toBe('B');
+    });
+
+    it('should return C for 70-79% mastery ratio', () => {
+      expect((component as any).calculateGrade(7, 3)).toBe('C');
+    });
+
+    it('should return D for 60-69% mastery ratio', () => {
+      expect((component as any).calculateGrade(6, 4)).toBe('D');
+    });
+
+    it('should return F for below 60% mastery ratio', () => {
+      expect((component as any).calculateGrade(5, 5)).toBe('F');
+      expect((component as any).calculateGrade(1, 9)).toBe('F');
+    });
+  });
+
+  describe('template helper methods', () => {
+    describe('getCategoryName', () => {
+      it('should return category name for valid category id', () => {
+        expect(component.getCategoryName('hr')).toBe('HR Words');
+        expect(component.getCategoryName('pm')).toBe('Project Management');
+      });
+
+      it('should return empty string for invalid category id', () => {
+        expect(component.getCategoryName('invalid')).toBe('');
+        expect(component.getCategoryName(null)).toBe('');
+      });
+    });
+
+    describe('getCategoryStats', () => {
+      it('should return stats for valid category', () => {
+        const stats = component.getCategoryStats('hr');
+        expect(stats).toBeDefined();
+        expect(stats.mastered).toBeDefined();
+        expect(stats.needsPractice).toBeDefined();
+        expect(stats.totalLearned).toBeDefined();
+      });
+
+      it('should return default stats for invalid category', () => {
+        const stats = component.getCategoryStats('invalid');
+        expect(stats).toEqual({ mastered: 0, needsPractice: 0, totalLearned: 0 });
+      });
+    });
+
+    describe('getProgressPercentage', () => {
+      it('should return 0', () => {
+        const result = component.getProgressPercentage({});
+        expect(result).toBe(0);
+      });
+    });
+
+    describe('getNewWordsCount', () => {
+      it('should return 0', () => {
+        expect(component.getNewWordsCount('hr')).toBe(0);
+        expect(component.getNewWordsCount(null)).toBe(0);
+      });
+    });
+
+    describe('getMistakesCount', () => {
+      it('should return 0', () => {
+        expect(component.getMistakesCount('hr')).toBe(0);
+        expect(component.getMistakesCount(null)).toBe(0);
+      });
     });
   });
 });

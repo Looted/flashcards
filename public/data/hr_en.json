@@ -1,0 +1,1502 @@
+[
+  {
+    "id": "hr_0001",
+    "term": "Absenteeism",
+    "definition": "The habitual non-presence of an employee at their job.",
+    "example": "High absenteeism rates can negatively impact team productivity.",
+    "metadata": {
+      "difficulty": 1,
+      "tags": ["attendance", "workplace"]
+    }
+  },
+  {
+    "id": "hr_0002",
+    "term": "Attrition",
+    "definition": "The gradual reduction of workforce due to resignation or retirement without immediate replacement.",
+    "example": "The company saw a decline in staff numbers due to natural attrition.",
+    "metadata": {
+      "difficulty": 2,
+      "tags": ["workforce", "retention"]
+    }
+  },
+  {
+    "id": "hr_0003",
+    "term": "Benchmarking",
+    "definition": "Comparing business processes and performance metrics to industry bests or best practices.",
+    "example": "We use benchmarking to gauge our employee benefits against competitors.",
+    "metadata": {
+      "difficulty": 2,
+      "tags": ["performance", "analysis"]
+    }
+  },
+  {
+    "id": "hr_0004",
+    "term": "Behavioral competency",
+    "definition": "Specific behaviors and skills an employee must demonstrate to succeed in a role.",
+    "example": "Communication skills are a critical behavioral competency in customer service roles.",
+    "metadata": {
+      "difficulty": 2,
+      "tags": ["skills", "performance"]
+    }
+  },
+  {
+    "id": "hr_0005",
+    "term": "Bereavement leave",
+    "definition": "Time off granted to an employee following the death of a close family member.",
+    "example": "She took bereavement leave after her grandfather passed away.",
+    "metadata": {
+      "difficulty": 1,
+      "tags": ["leave", "policy"]
+    }
+  },
+  {
+    "id": "hr_0006",
+    "term": "Career path",
+    "definition": "The progression of jobs and roles an employee takes over their working life.",
+    "example": "The company mapped out a clear career path for junior employees.",
+    "metadata": {
+      "difficulty": 1,
+      "tags": ["development", "planning"]
+    }
+  },
+  {
+    "id": "hr_0007",
+    "term": "Change management",
+    "definition": "The approach to transitioning individuals and organizations to a desired future state.",
+    "example": "Effective change management helped ease the company’s transition to remote work.",
+    "metadata": {
+      "difficulty": 3,
+      "tags": ["organizational", "strategy"]
+    }
+  },
+  {
+    "id": "hr_0008",
+    "term": "Compensation",
+    "definition": "The total payment and benefits an employee receives for their work.",
+    "example": "Competitive compensation packages attract top talent.",
+    "metadata": {
+      "difficulty": 1,
+      "tags": ["pay", "benefits"]
+    }
+  },
+  {
+    "id": "hr_0009",
+    "term": "Conflict resolution",
+    "definition": "Methods and processes involved in facilitating the peaceful ending of conflict.",
+    "example": "HR facilitated conflict resolution between two team members having a disagreement.",
+    "metadata": {
+      "difficulty": 2,
+      "tags": ["mediation", "workplace"]
+    }
+  },
+  {
+    "id": "hr_0010",
+    "term": "Corporate culture",
+    "definition": "The shared values, beliefs, and behaviors that shape how a company's employees interact.",
+    "example": "A strong corporate culture can improve employee engagement.",
+    "metadata": {
+      "difficulty": 2,
+      "tags": ["organizational", "values"]
+    }
+  },
+  {
+    "id": "hr_0011",
+    "term": "Discrimination",
+    "definition": "Unfair treatment of employees based on race, gender, age, or other protected characteristics.",
+    "example": "The company enforces strict policies against workplace discrimination.",
+    "metadata": {
+      "difficulty": 2,
+      "tags": ["policy", "ethics"]
+    }
+  },
+  {
+    "id": "hr_0012",
+    "term": "Diversity and inclusion",
+    "definition": "Efforts to create a workplace that welcomes and respects different backgrounds and perspectives.",
+    "example": "Diversity and inclusion initiatives help build stronger teams.",
+    "metadata": {
+      "difficulty": 2,
+      "tags": ["culture", "policy"]
+    }
+  },
+  {
+    "id": "hr_0013",
+    "term": "Employee engagement",
+    "definition": "The level of an employee's emotional investment and motivation towards their work.",
+    "example": "High employee engagement often leads to better productivity.",
+    "metadata": {
+      "difficulty": 1,
+      "tags": ["motivation", "workplace"]
+    }
+  },
+  {
+    "id": "hr_0014",
+    "term": "Employee handbook",
+    "definition": "A manual containing company policies, procedures, and employee expectations.",
+    "example": "All new hires receive an employee handbook during orientation.",
+    "metadata": {
+      "difficulty": 1,
+      "tags": ["policy", "documentation"]
+    }
+  },
+  {
+    "id": "hr_0015",
+    "term": "Employee turnover",
+    "definition": "The rate at which employees leave a company and are replaced.",
+    "example": "High employee turnover can indicate issues with job satisfaction.",
+    "metadata": {
+      "difficulty": 2,
+      "tags": ["retention", "metrics"]
+    }
+  },
+  {
+    "id": "hr_0016",
+    "term": "Equal opportunity employer",
+    "definition": "A company that hires and treats employees fairly regardless of gender, race, or other personal characteristics.",
+    "example": "Our firm prides itself on being an equal opportunity employer.",
+    "metadata": {
+      "difficulty": 1,
+      "tags": ["policy", "ethics"]
+    }
+  },
+  {
+    "id": "hr_0017",
+    "term": "Exit interview",
+    "definition": "A meeting conducted with an employee leaving the company to gather feedback.",
+    "example": "The HR team conducted an exit interview to understand why she left.",
+    "metadata": {
+      "difficulty": 1,
+      "tags": ["feedback", "process"]
+    }
+  },
+  {
+    "id": "hr_0018",
+    "term": "Flexible work arrangements",
+    "definition": "Work schedules that allow employees flexibility in time and place of work.",
+    "example": "The company offers flexible work arrangements to improve work-life balance.",
+    "metadata": {
+      "difficulty": 2,
+      "tags": ["workplace", "policy"]
+    }
+  },
+  {
+    "id": "hr_0019",
+    "term": "Full-time employee",
+    "definition": "An employee who works a standard number of hours defined by the employer.",
+    "example": "Full-time employees usually qualify for company benefits.",
+    "metadata": {
+      "difficulty": 1,
+      "tags": ["employment", "contract"]
+    }
+  },
+  {
+    "id": "hr_0020",
+    "term": "Grievance",
+    "definition": "A formal complaint raised by an employee regarding workplace issues.",
+    "example": "The manager handled the grievance according to company policy.",
+    "metadata": {
+      "difficulty": 2,
+      "tags": ["complaint", "policy"]
+    }
+  },
+  {
+    "id": "hr_0021",
+    "term": "Harassment",
+    "definition": "Unwanted behavior that creates a hostile work environment.",
+    "example": "The HR department investigates claims of workplace harassment promptly.",
+    "metadata": {
+      "difficulty": 2,
+      "tags": ["policy", "ethics"]
+    }
+  },
+  {
+    "id": "hr_0022",
+    "term": "Hiring process",
+    "definition": "The steps an organization takes to recruit and select new employees.",
+    "example": "The hiring process includes resume screening, interviews, and reference checks.",
+    "metadata": {
+      "difficulty": 1,
+      "tags": ["recruitment", "process"]
+    }
+  },
+  {
+    "id": "hr_0023",
+    "term": "Human Resources Information System (HRIS)",
+    "definition": "A software solution that manages employee data and HR processes.",
+    "example": "We use an HRIS to streamline payroll and benefits administration.",
+    "metadata": {
+      "difficulty": 3,
+      "tags": ["technology", "database"]
+    }
+  },
+  {
+    "id": "hr_0024",
+    "term": "Job description",
+    "definition": "A document outlining the duties, responsibilities, and requirements of a job.",
+    "example": "The job description helps candidates understand the role before applying.",
+    "metadata": {
+      "difficulty": 1,
+      "tags": ["documentation", "role"]
+    }
+  },
+  {
+    "id": "hr_0025",
+    "term": "Job evaluation",
+    "definition": "A systematic process to determine the value of a job in relation to others.",
+    "example": "Job evaluation helps set fair compensation levels.",
+    "metadata": {
+      "difficulty": 2,
+      "tags": ["compensation", "analysis"]
+    }
+  },
+  {
+    "id": "hr_0026",
+    "term": "Job rotation",
+    "definition": "A practice where employees switch jobs periodically to build skills and reduce monotony.",
+    "example": "Job rotation allows employees to gain experience in different departments.",
+    "metadata": {
+      "difficulty": 2,
+      "tags": ["development", "training"]
+    }
+  },
+  {
+    "id": "hr_0027",
+    "term": "Leave of absence",
+    "definition": "Temporary time away from work approved by the employer.",
+    "example": "He requested a leave of absence for medical reasons.",
+    "metadata": {
+      "difficulty": 1,
+      "tags": ["policy", "time off"]
+    }
+  },
+  {
+    "id": "hr_0028",
+    "term": "Learning and Development",
+    "definition": "Organizational activities aimed at improving employee skills and knowledge.",
+    "example": "Learning and Development programs are vital for career growth.",
+    "metadata": {
+      "difficulty": 2,
+      "tags": ["training", "education"]
+    }
+  },
+  {
+    "id": "hr_0029",
+    "term": "Onboarding",
+    "definition": "The process of integrating a new employee into the company.",
+    "example": "Onboarding helps new hires adapt quickly to their roles.",
+    "metadata": {
+      "difficulty": 1,
+      "tags": ["orientation", "training"]
+    }
+  },
+  {
+    "id": "hr_0030",
+    "term": "Performance appraisal",
+    "definition": "A periodic review of an employee's job performance and contribution.",
+    "example": "Annual performance appraisals provide feedback and goals for employees.",
+    "metadata": {
+      "difficulty": 2,
+      "tags": ["evaluation", "feedback"]
+    }
+  },
+  {
+    "id": "hr_0031",
+    "term": "Probation period",
+    "definition": "A trial period when a new employee's suitability for a job is assessed.",
+    "example": "During the probation period, the employee’s performance is closely monitored.",
+    "metadata": {
+      "difficulty": 1,
+      "tags": ["evaluation", "policy"]
+    }
+  },
+  {
+    "id": "hr_0032",
+    "term": "Recruitment",
+    "definition": "The process of attracting, selecting, and hiring suitable candidates.",
+    "example": "Effective recruitment ensures the right talent joins the company.",
+    "metadata": {
+      "difficulty": 1,
+      "tags": ["hiring", "process"]
+    }
+  },
+  {
+    "id": "hr_0033",
+    "term": "Redundancy",
+    "definition": "A situation where an employee’s job is no longer necessary.",
+    "example": "The company announced redundancies due to restructuring.",
+    "metadata": {
+      "difficulty": 2,
+      "tags": ["termination", "workforce"]
+    }
+  },
+  {
+    "id": "hr_0034",
+    "term": "Remuneration",
+    "definition": "Payment or compensation received for services or employment.",
+    "example": "Remuneration packages often include bonuses and benefits.",
+    "metadata": {
+      "difficulty": 3,
+      "tags": ["pay", "benefits"]
+    }
+  },
+  {
+    "id": "hr_0035",
+    "term": "Retention",
+    "definition": "Efforts and strategies to keep employees from leaving the organization.",
+    "example": "Employee retention improves when career development is prioritized.",
+    "metadata": {
+      "difficulty": 2,
+      "tags": ["workforce", "strategy"]
+    }
+  },
+  {
+    "id": "hr_0036",
+    "term": "Salary",
+    "definition": "Fixed regular payment made to an employee for their work.",
+    "example": "The salary is paid monthly to the employee's bank account.",
+    "metadata": {
+      "difficulty": 1,
+      "tags": ["pay", "compensation"]
+    }
+  },
+  {
+    "id": "hr_0037",
+    "term": "Sick leave",
+    "definition": "Time off from work granted to an employee due to illness.",
+    "example": "Employees must provide a doctor’s certificate for sick leave over three days.",
+    "metadata": {
+      "difficulty": 1,
+      "tags": ["leave", "policy"]
+    }
+  },
+  {
+    "id": "hr_0038",
+    "term": "Staffing",
+    "definition": "The process of recruiting and placing employees in appropriate roles.",
+    "example": "Staffing needs increase during peak business seasons.",
+    "metadata": {
+      "difficulty": 2,
+      "tags": ["hiring", "workforce"]
+    }
+  },
+  {
+    "id": "hr_0039",
+    "term": "Succession planning",
+    "definition": "Preparing for the replacement of key employees in critical roles.",
+    "example": "Succession planning ensures smooth leadership transitions.",
+    "metadata": {
+      "difficulty": 3,
+      "tags": ["planning", "strategy"]
+    }
+  },
+  {
+    "id": "hr_0040",
+    "term": "Termination",
+    "definition": "The end of an employee’s contract or employment period.",
+    "example": "Termination procedures must comply with labor laws.",
+    "metadata": {
+      "difficulty": 2,
+      "tags": ["process", "policy"]
+    }
+  },
+  {
+    "id": "hr_0041",
+    "term": "Training",
+    "definition": "Activities aimed at enhancing employees’ skills or knowledge.",
+    "example": "Regular training keeps employees updated on industry changes.",
+    "metadata": {
+      "difficulty": 1,
+      "tags": ["development", "education"]
+    }
+  },
+  {
+    "id": "hr_0042",
+    "term": "Work-life balance",
+    "definition": "Equilibrium between work responsibilities and personal life.",
+    "example": "Flexible hours help employees maintain better work-life balance.",
+    "metadata": {
+      "difficulty": 1,
+      "tags": ["wellness", "policy"]
+    }
+  },
+  {
+    "id": "hr_0043",
+    "term": "Workplace harassment",
+    "definition": "Unwelcome conduct based on protected characteristics that creates a hostile environment.",
+    "example": "The company has zero tolerance for workplace harassment.",
+    "metadata": {
+      "difficulty": 2,
+      "tags": ["policy", "ethics"]
+    }
+  },
+  {
+    "id": "hr_0044",
+    "term": "Workplace safety",
+    "definition": "Measures and policies to ensure employees' health and safety at work.",
+    "example": "Regular drills improve workplace safety awareness.",
+    "metadata": {
+      "difficulty": 1,
+      "tags": ["safety", "policy"]
+    }
+  },
+  {
+    "id": "hr_0045",
+    "term": "360-degree feedback",
+    "definition": "A performance appraisal method involving feedback from supervisors, peers, and subordinates.",
+    "example": "360-degree feedback helps provide a well-rounded view of employee performance.",
+    "metadata": {
+      "difficulty": 3,
+      "tags": ["evaluation", "feedback"]
+    }
+  },
+  {
+    "id": "hr_0046",
+    "term": "Affirmative action",
+    "definition": "Policies to increase opportunities for historically marginalized groups.",
+    "example": "The company supports affirmative action to promote diversity.",
+    "metadata": {
+      "difficulty": 3,
+      "tags": ["policy", "diversity"]
+    }
+  },
+  {
+    "id": "hr_0047",
+    "term": "Applicant Tracking System (ATS)",
+    "definition": "Software used to manage recruitment and applicant data digitally.",
+    "example": "Our ATS filters candidates to streamline hiring.",
+    "metadata": {
+      "difficulty": 3,
+      "tags": ["technology", "recruitment"]
+    }
+  },
+  {
+    "id": "hr_0048",
+    "term": "Benefits",
+    "definition": "Non-wage compensations provided to employees, such as health insurance and retirement plans.",
+    "example": "Health insurance is a critical employee benefit.",
+    "metadata": {
+      "difficulty": 1,
+      "tags": ["compensation", "wellness"]
+    }
+  },
+  {
+    "id": "hr_0049",
+    "term": "Bonus",
+    "definition": "Additional compensation awarded for performance or achievement.",
+    "example": "Employees received a year-end bonus for their hard work.",
+    "metadata": {
+      "difficulty": 1,
+      "tags": ["pay", "incentive"]
+    }
+  },
+  {
+    "id": "hr_0050",
+    "term": "Collective bargaining",
+    "definition": "Negotiations between management and a group of employees to reach agreements.",
+    "example": "The union engaged in collective bargaining with the company.",
+    "metadata": {
+      "difficulty": 3,
+      "tags": ["labor relations", "policy"]
+    }
+  },
+  {
+    "id": "hr_0051",
+    "term": "Compensation package",
+    "definition": "The combination of salary, benefits, bonuses, and other perks employees receive.",
+    "example": "A competitive compensation package attracts skilled professionals.",
+    "metadata": {
+      "difficulty": 2,
+      "tags": ["pay", "benefits"]
+    }
+  },
+  {
+    "id": "hr_0052",
+    "term": "Contract employee",
+    "definition": "An individual hired for a fixed period under specific terms.",
+    "example": "The company hired a contract employee to complete the project.",
+    "metadata": {
+      "difficulty": 2,
+      "tags": ["employment", "contract"]
+    }
+  },
+  {
+    "id": "hr_0053",
+    "term": "Disciplinary action",
+    "definition": "Steps taken by management to address employee misconduct or poor performance.",
+    "example": "The employee received disciplinary action after repeated absences.",
+    "metadata": {
+      "difficulty": 2,
+      "tags": ["policy", "performance"]
+    }
+  },
+  {
+    "id": "hr_0054",
+    "term": "Diversity hiring",
+    "definition": "Recruitment practices aimed at increasing workforce diversity.",
+    "example": "Diversity hiring initiatives help build inclusive workplaces.",
+    "metadata": {
+      "difficulty": 3,
+      "tags": ["policy", "recruitment"]
+    }
+  },
+  {
+    "id": "hr_0055",
+    "term": "Employee assistance program (EAP)",
+    "definition": "Services provided to help employees with personal or work-related problems.",
+    "example": "The EAP offers counseling and support to employees.",
+    "metadata": {
+      "difficulty": 3,
+      "tags": ["wellness", "support"]
+    }
+  },
+  {
+    "id": "hr_0056",
+    "term": "Employee benefits",
+    "definition": "Various non-monetary perks offered to employees, like health care and retirement savings.",
+    "example": "Good employee benefits improve job satisfaction.",
+    "metadata": {
+      "difficulty": 1,
+      "tags": ["compensation", "wellness"]
+    }
+  },
+  {
+    "id": "hr_0057",
+    "term": "Employee engagement survey",
+    "definition": "A tool to measure employees’ satisfaction and commitment to the organization.",
+    "example": "The company conducts an annual employee engagement survey.",
+    "metadata": {
+      "difficulty": 2,
+      "tags": ["feedback", "survey"]
+    }
+  },
+  {
+    "id": "hr_0058",
+    "term": "Employee retention",
+    "definition": "The ability of an organization to keep its employees over time.",
+    "example": "Strong leadership can improve employee retention rates.",
+    "metadata": {
+      "difficulty": 2,
+      "tags": ["strategy", "workforce"]
+    }
+  },
+  {
+    "id": "hr_0059",
+    "term": "Exit interview",
+    "definition": "An interview conducted with a departing employee to gain feedback about the company.",
+    "example": "Exit interviews provide insights to improve workplace conditions.",
+    "metadata": {
+      "difficulty": 1,
+      "tags": ["feedback", "process"]
+    }
+  },
+  {
+    "id": "hr_0060",
+    "term": "Flexible working hours",
+    "definition": "Work schedules that allow variation in start and finish times.",
+    "example": "Flexible working hours help employees balance work and personal life.",
+    "metadata": {
+      "difficulty": 2,
+      "tags": ["policy", "workplace"]
+    }
+  },
+  {
+    "id": "hr_0061",
+    "term": "Full-time equivalent (FTE)",
+    "definition": "A unit representing the workload of one full-time employee.",
+    "example": "The department has 10 FTEs, combining full- and part-time workers.",
+    "metadata": {
+      "difficulty": 3,
+      "tags": ["metrics", "workforce"]
+    }
+  },
+  {
+    "id": "hr_0062",
+    "term": "General Data Protection Regulation (GDPR)",
+    "definition": "European Union regulation on data protection and privacy.",
+    "example": "HR must ensure compliance with GDPR when handling employee data.",
+    "metadata": {
+      "difficulty": 3,
+      "tags": ["compliance", "legal"]
+    }
+  },
+  {
+    "id": "hr_0063",
+    "term": "Grievance procedure",
+    "definition": "A formal process for employees to raise complaints and resolve disputes.",
+    "example": "The company follows a clear grievance procedure to handle employee concerns.",
+    "metadata": {
+      "difficulty": 2,
+      "tags": ["policy", "process"]
+    }
+  },
+  {
+    "id": "hr_0064",
+    "term": "Harassment training",
+    "definition": "Education programs aimed at preventing workplace harassment.",
+    "example": "Employees must complete harassment training annually.",
+    "metadata": {
+      "difficulty": 2,
+      "tags": ["training", "policy"]
+    }
+  },
+  {
+    "id": "hr_0065",
+    "term": "Health and safety",
+    "definition": "Policies to protect employees from hazards and injuries at work.",
+    "example": "Regular health and safety inspections ensure a safe workplace.",
+    "metadata": {
+      "difficulty": 1,
+      "tags": ["safety", "policy"]
+    }
+  },
+  {
+    "id": "hr_0066",
+    "term": "Hiring manager",
+    "definition": "A person responsible for recruiting and selecting candidates.",
+    "example": "The hiring manager schedules interviews and evaluates applicants.",
+    "metadata": {
+      "difficulty": 1,
+      "tags": ["recruitment", "role"]
+    }
+  },
+  {
+    "id": "hr_0067",
+    "term": "Human capital",
+    "definition": "The economic value of employee skills, knowledge, and experience.",
+    "example": "Investing in human capital benefits organizational growth.",
+    "metadata": {
+      "difficulty": 2,
+      "tags": ["strategy", "resources"]
+    }
+  },
+  {
+    "id": "hr_0068",
+    "term": "Incentive",
+    "definition": "A reward to motivate employees to achieve goals.",
+    "example": "Sales teams receive financial incentives for exceeding targets.",
+    "metadata": {
+      "difficulty": 1,
+      "tags": ["motivation", "pay"]
+    }
+  },
+  {
+    "id": "hr_0069",
+    "term": "Job analysis",
+    "definition": "A detailed study to identify the duties and requirements of a job.",
+    "example": "Job analysis helps create accurate job descriptions.",
+    "metadata": {
+      "difficulty": 2,
+      "tags": ["performance", "planning"]
+    }
+  },
+  {
+    "id": "hr_0070",
+    "term": "Job enrichment",
+    "definition": "Adding meaningful tasks to a job to increase job satisfaction.",
+    "example": "Job enrichment improved employee motivation and retention.",
+    "metadata": {
+      "difficulty": 2,
+      "tags": ["development", "motivation"]
+    }
+  },
+  {
+    "id": "hr_0071",
+    "term": "Job posting",
+    "definition": "Advertising an open position to attract candidates.",
+    "example": "The HR team posted the job opening online.",
+    "metadata": {
+      "difficulty": 1,
+      "tags": ["recruitment", "communication"]
+    }
+  },
+  {
+    "id": "hr_0072",
+    "term": "Job satisfaction",
+    "definition": "The level of contentment employees feel about their jobs.",
+    "example": "Good management increases job satisfaction.",
+    "metadata": {
+      "difficulty": 1,
+      "tags": ["motivation", "workplace"]
+    }
+  },
+  {
+    "id": "hr_0073",
+    "term": "Labor union",
+    "definition": "An organization representing workers' interests and negotiating with employers.",
+    "example": "The labor union negotiated better wages for its members.",
+    "metadata": {
+      "difficulty": 2,
+      "tags": ["organization", "rights"]
+    }
+  },
+  {
+    "id": "hr_0074",
+    "term": "Learning management system (LMS)",
+    "definition": "Software for delivering and managing employee training programs.",
+    "example": "The company uses an LMS to track employee courses and certifications.",
+    "metadata": {
+      "difficulty": 3,
+      "tags": ["technology", "training"]
+    }
+  },
+  {
+    "id": "hr_0075",
+    "term": "Mentoring",
+    "definition": "A developmental relationship where an experienced employee guides another.",
+    "example": "Mentoring programs support employee growth and retention.",
+    "metadata": {
+      "difficulty": 1,
+      "tags": ["development", "support"]
+    }
+  },
+  {
+    "id": "hr_0076",
+    "term": "Offboarding",
+    "definition": "The process of managing an employee’s exit from the company.",
+    "example": "Offboarding includes exit interviews and return of company property.",
+    "metadata": {
+      "difficulty": 2,
+      "tags": ["process", "termination"]
+    }
+  },
+  {
+    "id": "hr_0077",
+    "term": "On-the-job training",
+    "definition": "Learning and development provided at the workplace during the course of employment.",
+    "example": "On-the-job training allows employees to gain practical skills.",
+    "metadata": {
+      "difficulty": 2,
+      "tags": ["training", "development"]
+    }
+  },
+  {
+    "id": "hr_0078",
+    "term": "Overtime",
+    "definition": "Work performed beyond the standard working hours.",
+    "example": "Employees are paid overtime for hours worked above 40 per week.",
+    "metadata": {
+      "difficulty": 1,
+      "tags": ["hours", "pay"]
+    }
+  },
+  {
+    "id": "hr_0079",
+    "term": "Part-time employee",
+    "definition": "An employee who works fewer hours than a full-time schedule.",
+    "example": "Part-time employees often have flexible schedules.",
+    "metadata": {
+      "difficulty": 1,
+      "tags": ["employment", "contract"]
+    }
+  },
+  {
+    "id": "hr_0080",
+    "term": "Payroll",
+    "definition": "The list of employees to be paid and the process of paying them.",
+    "example": "Payroll must be processed monthly to ensure timely payment.",
+    "metadata": {
+      "difficulty": 1,
+      "tags": ["payment", "process"]
+    }
+  },
+  {
+    "id": "hr_0081",
+    "term": "Performance management",
+    "definition": "Continuous process of improving employee performance and productivity.",
+    "example": "Performance management includes coaching and regular reviews.",
+    "metadata": {
+      "difficulty": 2,
+      "tags": ["evaluation", "development"]
+    }
+  },
+  {
+    "id": "hr_0082",
+    "term": "Probationary period",
+    "definition": "Initial period of employment where the employee’s suitability is evaluated.",
+    "example": "During the probationary period, employees may be terminated more easily.",
+    "metadata": {
+      "difficulty": 2,
+      "tags": ["evaluation", "policy"]
+    }
+  },
+  {
+    "id": "hr_0083",
+    "term": "Recruitment funnel",
+    "definition": "The stages candidates go through from application to hiring.",
+    "example": "Improving the recruitment funnel speeds up hiring.",
+    "metadata": {
+      "difficulty": 2,
+      "tags": ["recruitment", "process"]
+    }
+  },
+  {
+    "id": "hr_0084",
+    "term": "Reference check",
+    "definition": "Contacting previous employers to verify candidate information.",
+    "example": "A reference check confirmed the candidate’s work history.",
+    "metadata": {
+      "difficulty": 1,
+      "tags": ["recruitment", "verification"]
+    }
+  },
+  {
+    "id": "hr_0085",
+    "term": "Relocation assistance",
+    "definition": "Support provided to employees when moving for a job.",
+    "example": "The company offers relocation assistance for new hires.",
+    "metadata": {
+      "difficulty": 2,
+      "tags": ["benefits", "support"]
+    }
+  },
+  {
+    "id": "hr_0086",
+    "term": "Resignation",
+    "definition": "Voluntary decision to leave a job.",
+    "example": "Her resignation was effective at the end of the month.",
+    "metadata": {
+      "difficulty": 1,
+      "tags": ["termination", "process"]
+    }
+  },
+  {
+    "id": "hr_0087",
+    "term": "Retention strategy",
+    "definition": "Plans and actions to keep valuable employees.",
+    "example": "The retention strategy includes career development opportunities.",
+    "metadata": {
+      "difficulty": 2,
+      "tags": ["strategy", "workforce"]
+    }
+  },
+  {
+    "id": "hr_0088",
+    "term": "Salary range",
+    "definition": "The minimum and maximum pay for a job position.",
+    "example": "Each job has an approved salary range based on experience.",
+    "metadata": {
+      "difficulty": 1,
+      "tags": ["compensation", "planning"]
+    }
+  },
+  {
+    "id": "hr_0089",
+    "term": "Secondment",
+    "definition": "Temporary transfer of an employee to another role or department.",
+    "example": "She accepted a secondment to the marketing department for six months.",
+    "metadata": {
+      "difficulty": 3,
+      "tags": ["employment", "development"]
+    }
+  },
+    {
+    "id": "hr_0090",
+    "term": "Applicant tracking system",
+    "definition": "Software used to manage and track candidates throughout the recruitment process.",
+    "example": "The applicant tracking system automatically filtered resumes based on keywords.",
+    "metadata": {
+      "difficulty": 2,
+      "tags": ["recruitment", "technology"]
+    }
+  },
+  {
+    "id": "hr_0091",
+    "term": "Assessment center",
+    "definition": "A structured process using multiple exercises and observers to evaluate candidates’ skills.",
+    "example": "Final candidates attended an assessment center to complete group exercises and interviews.",
+    "metadata": {
+      "difficulty": 3,
+      "tags": ["selection", "evaluation"]
+    }
+  },
+  {
+    "id": "hr_0092",
+    "term": "Behavioral interview",
+    "definition": "An interview technique focused on past behavior as a predictor of future performance.",
+    "example": "The recruiter used behavioral interview questions to understand how the candidate handles conflict.",
+    "metadata": {
+      "difficulty": 2,
+      "tags": ["interview", "selection"]
+    }
+  },
+  {
+    "id": "hr_0093",
+    "term": "Bias",
+    "definition": "A tendency or preference that can unfairly influence hiring or evaluation decisions.",
+    "example": "Interview training helps reduce unconscious bias in the selection process.",
+    "metadata": {
+      "difficulty": 2,
+      "tags": ["ethics", "recruitment"]
+    }
+  },
+  {
+    "id": "hr_0094",
+    "term": "Blind recruitment",
+    "definition": "A hiring approach where personal information is removed from applications to reduce bias.",
+    "example": "Blind recruitment helped the company increase diversity in its shortlists.",
+    "metadata": {
+      "difficulty": 3,
+      "tags": ["recruitment", "diversity"]
+    }
+  },
+  {
+    "id": "hr_0095",
+    "term": "Candidate experience",
+    "definition": "The overall perception candidates have of a company’s recruitment process.",
+    "example": "Fast feedback and clear communication improved the candidate experience.",
+    "metadata": {
+      "difficulty": 2,
+      "tags": ["recruitment", "branding"]
+    }
+  },
+  {
+    "id": "hr_0096",
+    "term": "Candidate pipeline",
+    "definition": "A pool of qualified candidates being considered for current or future roles.",
+    "example": "Maintaining a strong candidate pipeline reduced time to hire.",
+    "metadata": {
+      "difficulty": 2,
+      "tags": ["recruitment", "talent"]
+    }
+  },
+  {
+    "id": "hr_0097",
+    "term": "Compensation band",
+    "definition": "A defined pay range for a group of similar roles or levels.",
+    "example": "Each job level has a compensation band based on market data.",
+    "metadata": {
+      "difficulty": 2,
+      "tags": ["pay", "structure"]
+    }
+  },
+  {
+    "id": "hr_0098",
+    "term": "Competency framework",
+    "definition": "A structured set of competencies required for roles across an organization.",
+    "example": "The competency framework guides hiring, development, and promotion decisions.",
+    "metadata": {
+      "difficulty": 3,
+      "tags": ["skills", "performance"]
+    }
+  },
+  {
+    "id": "hr_0099",
+    "term": "Confidentiality agreement",
+    "definition": "A contract where an employee agrees not to disclose sensitive company information.",
+    "example": "New hires sign a confidentiality agreement during onboarding.",
+    "metadata": {
+      "difficulty": 2,
+      "tags": ["legal", "policy"]
+    }
+  },
+  {
+    "id": "hr_0100",
+    "term": "Constructive dismissal",
+    "definition": "A situation where an employee resigns because the employer created intolerable working conditions.",
+    "example": "The employee claimed constructive dismissal after major changes to their role.",
+    "metadata": {
+      "difficulty": 3,
+      "tags": ["legal", "termination"]
+    }
+  },
+  {
+    "id": "hr_0101",
+    "term": "Core competencies",
+    "definition": "Key skills and capabilities that are critical for success in a role or organization.",
+    "example": "The company defined collaboration and innovation as core competencies.",
+    "metadata": {
+      "difficulty": 2,
+      "tags": ["skills", "strategy"]
+    }
+  },
+  {
+    "id": "hr_0102",
+    "term": "Cost-per-hire",
+    "definition": "The total cost associated with hiring a new employee divided by the number of hires.",
+    "example": "Tracking cost-per-hire helps evaluate the efficiency of recruitment channels.",
+    "metadata": {
+      "difficulty": 3,
+      "tags": ["metrics", "recruitment"]
+    }
+  },
+  {
+    "id": "hr_0103",
+    "term": "Cross-training",
+    "definition": "Training employees to perform tasks outside their primary job responsibilities.",
+    "example": "Cross-training customer service staff increased schedule flexibility.",
+    "metadata": {
+      "difficulty": 2,
+      "tags": ["development", "training"]
+    }
+  },
+  {
+    "id": "hr_0104",
+    "term": "Culture fit",
+    "definition": "The degree to which a candidate’s values and behaviors align with the organization’s culture.",
+    "example": "Interviewers assessed culture fit alongside technical skills.",
+    "metadata": {
+      "difficulty": 2,
+      "tags": ["culture", "recruitment"]
+    }
+  },
+  {
+    "id": "hr_0105",
+    "term": "Digital HR",
+    "definition": "The use of digital tools and data to transform HR processes and employee experiences.",
+    "example": "Digital HR solutions automated manual HR workflows.",
+    "metadata": {
+      "difficulty": 3,
+      "tags": ["technology", "strategy"]
+    }
+  },
+  {
+    "id": "hr_0106",
+    "term": "Employee advocacy",
+    "definition": "When employees voluntarily promote their company’s brand and values.",
+    "example": "Employee advocacy on social media strengthened the employer brand.",
+    "metadata": {
+      "difficulty": 2,
+      "tags": ["branding", "engagement"]
+    }
+  },
+  {
+    "id": "hr_0107",
+    "term": "Employee burnout",
+    "definition": "A state of physical and emotional exhaustion caused by prolonged work-related stress.",
+    "example": "HR monitored workload to reduce employee burnout.",
+    "metadata": {
+      "difficulty": 2,
+      "tags": ["wellbeing", "workload"]
+    }
+  },
+  {
+    "id": "hr_0108",
+    "term": "Employee experience",
+    "definition": "The overall journey and perceptions an employee has across all interactions with an employer.",
+    "example": "Improving the employee experience reduced voluntary turnover.",
+    "metadata": {
+      "difficulty": 2,
+      "tags": ["engagement", "culture"]
+    }
+  },
+  {
+    "id": "hr_0109",
+    "term": "Employee lifecycle",
+    "definition": "The stages an employee goes through from attraction and hiring to exit and alumni.",
+    "example": "HR mapped the employee lifecycle to identify improvement areas.",
+    "metadata": {
+      "difficulty": 3,
+      "tags": ["strategy", "process"]
+    }
+  },
+  {
+    "id": "hr_0110",
+    "term": "Employee net promoter score",
+    "definition": "A metric that measures how likely employees are to recommend their company as a place to work.",
+    "example": "The employee net promoter score increased after leadership training.",
+    "metadata": {
+      "difficulty": 3,
+      "tags": ["metrics", "engagement"]
+    }
+  },
+  {
+    "id": "hr_0111",
+    "term": "Employee referral program",
+    "definition": "A structured program that rewards employees for recommending successful candidates.",
+    "example": "The employee referral program became a major source of quality hires.",
+    "metadata": {
+      "difficulty": 2,
+      "tags": ["recruitment", "incentives"]
+    }
+  },
+  {
+    "id": "hr_0112",
+    "term": "Employee relations",
+    "definition": "The efforts and practices that manage the relationship between employer and employees.",
+    "example": "Strong employee relations practices helped prevent disputes.",
+    "metadata": {
+      "difficulty": 2,
+      "tags": ["workplace", "policy"]
+    }
+  },
+  {
+    "id": "hr_0113",
+    "term": "Employee resource group",
+    "definition": "A voluntary, employee-led group that supports members with shared identities or interests.",
+    "example": "The women’s employee resource group organized mentoring sessions.",
+    "metadata": {
+      "difficulty": 3,
+      "tags": ["diversity", "community"]
+    }
+  },
+  {
+    "id": "hr_0114",
+    "term": "Employee value proposition",
+    "definition": "The unique set of benefits and experiences employees receive in return for their work.",
+    "example": "A clear employee value proposition helped attract top candidates.",
+    "metadata": {
+      "difficulty": 3,
+      "tags": ["branding", "strategy"]
+    }
+  },
+  {
+    "id": "hr_0115",
+    "term": "Employer branding",
+    "definition": "The company’s reputation and image as an employer in the job market.",
+    "example": "Positive reviews online strengthened the company’s employer branding.",
+    "metadata": {
+      "difficulty": 2,
+      "tags": ["branding", "recruitment"]
+    }
+  },
+  {
+    "id": "hr_0116",
+    "term": "Equal pay",
+    "definition": "The principle that employees doing similar work should receive similar compensation regardless of protected characteristics.",
+    "example": "The pay audit checked for equal pay across comparable roles.",
+    "metadata": {
+      "difficulty": 2,
+      "tags": ["pay", "equity"]
+    }
+  },
+  {
+    "id": "hr_0117",
+    "term": "Equity, diversity and inclusion",
+    "definition": "Organizational efforts to ensure fairness, representation, and belonging for all employees.",
+    "example": "The HR team launched new equity, diversity and inclusion training.",
+    "metadata": {
+      "difficulty": 3,
+      "tags": ["culture", "policy"]
+    }
+  },
+  {
+    "id": "hr_0118",
+    "term": "Exit survey",
+    "definition": "A questionnaire completed by departing employees about their reasons for leaving.",
+    "example": "Exit survey data highlighted issues with career progression.",
+    "metadata": {
+      "difficulty": 2,
+      "tags": ["feedback", "turnover"]
+    }
+  },
+  {
+    "id": "hr_0119",
+    "term": "Flexible benefits",
+    "definition": "A benefits system where employees can choose from a range of options to suit their needs.",
+    "example": "Flexible benefits allow employees to trade extra vacation for less insurance.",
+    "metadata": {
+      "difficulty": 3,
+      "tags": ["benefits", "compensation"]
+    }
+  },
+  {
+    "id": "hr_0120",
+    "term": "Gig worker",
+    "definition": "A person engaged in short-term, project-based, or freelance work rather than permanent employment.",
+    "example": "The company hired a gig worker to support the marketing campaign.",
+    "metadata": {
+      "difficulty": 2,
+      "tags": ["employment", "workforce"]
+    }
+  },
+  {
+    "id": "hr_0121",
+    "term": "Grievance policy",
+    "definition": "A formal policy describing how employees can raise complaints and how they will be handled.",
+    "example": "The updated grievance policy clarified response timelines.",
+    "metadata": {
+      "difficulty": 2,
+      "tags": ["policy", "procedures"]
+    }
+  },
+  {
+    "id": "hr_0122",
+    "term": "Hard skills",
+    "definition": "Specific, teachable abilities that can be measured, such as software or technical skills.",
+    "example": "The job posting listed advanced Excel as a required hard skill.",
+    "metadata": {
+      "difficulty": 1,
+      "tags": ["skills", "hiring"]
+    }
+  },
+  {
+    "id": "hr_0123",
+    "term": "Soft skills",
+    "definition": "Personal attributes and interpersonal abilities, such as communication and teamwork.",
+    "example": "Soft skills like empathy are important for leadership positions.",
+    "metadata": {
+      "difficulty": 1,
+      "tags": ["skills", "behaviour"]
+    }
+  },
+  {
+    "id": "hr_0124",
+    "term": "Hybrid work",
+    "definition": "A work model where employees split their time between remote and on-site locations.",
+    "example": "Hybrid work policies specify which days employees are expected in the office.",
+    "metadata": {
+      "difficulty": 2,
+      "tags": ["workplace", "flexibility"]
+    }
+  },
+  {
+    "id": "hr_0125",
+    "term": "Inclusion",
+    "definition": "Creating a work environment where all employees feel respected and able to contribute fully.",
+    "example": "Leaders play a key role in fostering inclusion on their teams.",
+    "metadata": {
+      "difficulty": 2,
+      "tags": ["culture", "diversity"]
+    }
+  },
+  {
+    "id": "hr_0126",
+    "term": "Induction",
+    "definition": "The initial orientation process that introduces new employees to the organization.",
+    "example": "The induction program covers company history, values, and key policies.",
+    "metadata": {
+      "difficulty": 1,
+      "tags": ["onboarding", "training"]
+    }
+  },
+  {
+    "id": "hr_0127",
+    "term": "Job shadowing",
+    "definition": "A development activity where an employee observes another person’s work to learn about their role.",
+    "example": "New managers did job shadowing with experienced leaders.",
+    "metadata": {
+      "difficulty": 2,
+      "tags": ["development", "training"]
+    }
+  },
+  {
+    "id": "hr_0128",
+    "term": "Job sharing",
+    "definition": "An arrangement where two or more employees share the responsibilities of one full-time role.",
+    "example": "Job sharing allowed two parents to split a single management position.",
+    "metadata": {
+      "difficulty": 3,
+      "tags": ["flexibility", "employment"]
+    }
+  },
+  {
+    "id": "hr_0129",
+    "term": "Job posting",
+    "definition": "An internal or external announcement that a position is open and accepting applications.",
+    "example": "The job posting outlined the main responsibilities and requirements.",
+    "metadata": {
+      "difficulty": 1,
+      "tags": ["recruitment", "communication"]
+    }
+  },
+  {
+    "id": "hr_0130",
+    "term": "Job requisition",
+    "definition": "A formal request to open a new position or refill an existing role.",
+    "example": "Managers must submit a job requisition before HR can start recruiting.",
+    "metadata": {
+      "difficulty": 3,
+      "tags": ["recruitment", "process"]
+    }
+  },
+  {
+    "id": "hr_0131",
+    "term": "Key performance indicator",
+    "definition": "A measurable value that shows how effectively an employee or organization is achieving objectives.",
+    "example": "Customer satisfaction scores are a key performance indicator for the support team.",
+    "metadata": {
+      "difficulty": 2,
+      "tags": ["metrics", "performance"]
+    }
+  },
+  {
+    "id": "hr_0132",
+    "term": "Labor relations",
+    "definition": "The management of relationships between employers and employee representatives such as unions.",
+    "example": "Labor relations experts prepared for the upcoming union negotiations.",
+    "metadata": {
+      "difficulty": 3,
+      "tags": ["unions", "policy"]
+    }
+  },
+  {
+    "id": "hr_0133",
+    "term": "Learning culture",
+    "definition": "An environment that encourages continuous learning, experimentation, and knowledge sharing.",
+    "example": "A strong learning culture motivates employees to develop new skills.",
+    "metadata": {
+      "difficulty": 2,
+      "tags": ["culture", "development"]
+    }
+  },
+  {
+    "id": "hr_0134",
+    "term": "Leave management",
+    "definition": "The policies and processes for tracking and approving employee time off.",
+    "example": "HR implemented new leave management software to simplify approvals.",
+    "metadata": {
+      "difficulty": 2,
+      "tags": ["leave", "policy"]
+    }
+  },
+  {
+    "id": "hr_0135",
+    "term": "Mentoring program",
+    "definition": "A structured initiative that pairs mentors with mentees for development and support.",
+    "example": "The mentoring program matched junior staff with senior leaders.",
+    "metadata": {
+      "difficulty": 2,
+      "tags": ["development", "support"]
+    }
+  },
+  {
+    "id": "hr_0136",
+    "term": "On-call work",
+    "definition": "A work arrangement where employees are available to be called in as needed.",
+    "example": "On-call work is common in emergency and support functions.",
+    "metadata": {
+      "difficulty": 2,
+      "tags": ["scheduling", "employment"]
+    }
+  },
+  {
+    "id": "hr_0137",
+    "term": "Overtime pay",
+    "definition": "Additional pay employees receive for working beyond their standard hours.",
+    "example": "The policy requires overtime pay for hours worked above the weekly limit.",
+    "metadata": {
+      "difficulty": 1,
+      "tags": ["pay", "hours"]
+    }
+  },
+  {
+    "id": "hr_0138",
+    "term": "Performance improvement plan",
+    "definition": "A formal plan that outlines expectations and support to help an employee improve performance.",
+    "example": "The manager created a performance improvement plan with clear milestones.",
+    "metadata": {
+      "difficulty": 3,
+      "tags": ["performance", "corrective"]
+    }
+  },
+  {
+    "id": "hr_0139",
+    "term": "Performance review cycle",
+    "definition": "The regular schedule on which employee performance is evaluated.",
+    "example": "The company moved from annual to quarterly performance review cycles.",
+    "metadata": {
+      "difficulty": 2,
+      "tags": ["performance", "process"]
+    }
+  },
+  {
+    "id": "hr_0140",
+    "term": "Probation review",
+    "definition": "A formal assessment at the end of a probation period to confirm continued employment.",
+    "example": "During the probation review, the manager evaluated the new hire’s fit and results.",
+    "metadata": {
+      "difficulty": 2,
+      "tags": ["probation", "evaluation"]
+    }
+  },
+  {
+    "id": "hr_0141",
+    "term": "Psychometric test",
+    "definition": "A standardized assessment used to measure personality traits, abilities, or aptitudes.",
+    "example": "Candidates completed a psychometric test as part of the selection process.",
+    "metadata": {
+      "difficulty": 3,
+      "tags": ["assessment", "selection"]
+    }
+  },
+  {
+    "id": "hr_0142",
+    "term": "Real-time feedback",
+    "definition": "Feedback given close to the moment an event or behavior occurs.",
+    "example": "Real-time feedback helps employees adjust their performance quickly.",
+    "metadata": {
+      "difficulty": 2,
+      "tags": ["feedback", "performance"]
+    }
+  },
+  {
+    "id": "hr_0143",
+    "term": "Remote work policy",
+    "definition": "A set of rules and expectations for employees who work outside the office.",
+    "example": "The remote work policy defines working hours, tools, and security requirements.",
+    "metadata": {
+      "difficulty": 2,
+      "tags": ["remote", "policy"]
+    }
+  },
+  {
+    "id": "hr_0144",
+    "term": "Reskilling",
+    "definition": "Training employees to learn new skills for a different role or career path.",
+    "example": "The company invested in reskilling programs for employees affected by automation.",
+    "metadata": {
+      "difficulty": 2,
+      "tags": ["development", "change"]
+    }
+  },
+  {
+    "id": "hr_0145",
+    "term": "Return to work interview",
+    "definition": "A meeting held when an employee returns after a period of absence.",
+    "example": "Managers conduct a return to work interview after long sickness absences.",
+    "metadata": {
+      "difficulty": 3,
+      "tags": ["attendance", "wellbeing"]
+    }
+  },
+  {
+    "id": "hr_0146",
+    "term": "Self-service HR portal",
+    "definition": "An online platform where employees can access HR information and complete tasks themselves.",
+    "example": "The self-service HR portal lets staff update personal details and request leave.",
+    "metadata": {
+      "difficulty": 3,
+      "tags": ["technology", "self-service"]
+    }
+  },
+  {
+    "id": "hr_0147",
+    "term": "Succession candidate",
+    "definition": "An employee identified as a potential future replacement for a key role.",
+    "example": "High-potential employees were listed as succession candidates for leadership roles.",
+    "metadata": {
+      "difficulty": 3,
+      "tags": ["talent", "planning"]
+    }
+  },
+  {
+    "id": "hr_0148",
+    "term": "Talent pool",
+    "definition": "A group of qualified internal or external candidates available for future roles.",
+    "example": "Building a talent pool reduced hiring time for critical positions.",
+    "metadata": {
+      "difficulty": 2,
+      "tags": ["talent", "recruitment"]
+    }
+  },
+  {
+    "id": "hr_0149",
+    "term": "Time and attendance system",
+    "definition": "A tool used to track employee working hours, breaks, and absences.",
+    "example": "The new time and attendance system integrates directly with payroll.",
+    "metadata": {
+      "difficulty": 2,
+      "tags": ["attendance", "technology"]
+    }
+  },
+  {
+    "id": "hr_0150",
+    "term": "Workforce analytics",
+    "definition": "The use of data analysis to understand and improve workforce performance and decisions.",
+    "example": "Workforce analytics revealed trends in turnover among new hires.",
+    "metadata": {
+      "difficulty": 3,
+      "tags": ["analytics", "strategy"]
+    }
+  }
+]

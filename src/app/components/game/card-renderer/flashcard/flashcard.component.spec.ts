@@ -75,6 +75,20 @@ describe('FlashcardComponent', () => {
       mockStore.currentRoundConfig.mockReturnValue(null);
       expect(component.displayFrontLabel()).toBe('Front');
     });
+
+    it('should return field name for contextSentence', () => {
+      mockStore.currentRoundConfig.mockReturnValue({
+        layout: { dataMap: { primary: 'contextSentence' } }
+      });
+      expect(component.displayFrontLabel()).toBe('contextSentence');
+    });
+
+    it('should return field name for translation', () => {
+      mockStore.currentRoundConfig.mockReturnValue({
+        layout: { dataMap: { primary: 'translation' } }
+      });
+      expect(component.displayFrontLabel()).toBe('translation');
+    });
   });
 
   describe('displayFrontText', () => {
@@ -104,6 +118,30 @@ describe('FlashcardComponent', () => {
       mockStore.currentRoundConfig.mockReturnValue(null);
       expect(component.displayFrontText()).toBe('');
     });
+
+    it('should return empty string for contextSentence field', () => {
+      mockStore.currentCard.mockReturnValue({ english: 'hello', translations: { polish: 'cześć' } });
+      mockStore.currentRoundConfig.mockReturnValue({
+        layout: { dataMap: { primary: 'contextSentence' } }
+      });
+      expect(component.displayFrontText()).toBe('');
+    });
+
+    it('should return empty string for translation field', () => {
+      mockStore.currentCard.mockReturnValue({ english: 'hello', translations: { polish: 'cześć' } });
+      mockStore.currentRoundConfig.mockReturnValue({
+        layout: { dataMap: { primary: 'translation' } }
+      });
+      expect(component.displayFrontText()).toBe('');
+    });
+
+    it('should return empty string when translation not found', () => {
+      mockStore.currentCard.mockReturnValue({ english: 'hello', translations: { polish: 'cześć' } });
+      mockStore.currentRoundConfig.mockReturnValue({
+        layout: { dataMap: { primary: 'german' } }
+      });
+      expect(component.displayFrontText()).toBe('');
+    });
   });
 
   describe('displayBackLabel', () => {
@@ -129,6 +167,20 @@ describe('FlashcardComponent', () => {
     it('should return "Back" when no config available', () => {
       mockStore.currentRoundConfig.mockReturnValue(null);
       expect(component.displayBackLabel()).toBe('Back');
+    });
+
+    it('should return field name for contextSentence secondary', () => {
+      mockStore.currentRoundConfig.mockReturnValue({
+        layout: { dataMap: { secondary: 'contextSentence' } }
+      });
+      expect(component.displayBackLabel()).toBe('contextSentence');
+    });
+
+    it('should return field name for translation secondary', () => {
+      mockStore.currentRoundConfig.mockReturnValue({
+        layout: { dataMap: { secondary: 'translation' } }
+      });
+      expect(component.displayBackLabel()).toBe('translation');
     });
   });
 
@@ -157,6 +209,30 @@ describe('FlashcardComponent', () => {
     it('should return empty string when no card or config', () => {
       mockStore.currentCard.mockReturnValue(null);
       mockStore.currentRoundConfig.mockReturnValue(null);
+      expect(component.displayBackText()).toBe('');
+    });
+
+    it('should return empty string for contextSentence secondary field', () => {
+      mockStore.currentCard.mockReturnValue({ english: 'hello', translations: { polish: 'cześć' } });
+      mockStore.currentRoundConfig.mockReturnValue({
+        layout: { dataMap: { secondary: 'contextSentence' } }
+      });
+      expect(component.displayBackText()).toBe('');
+    });
+
+    it('should return empty string for translation secondary field', () => {
+      mockStore.currentCard.mockReturnValue({ english: 'hello', translations: { polish: 'cześć' } });
+      mockStore.currentRoundConfig.mockReturnValue({
+        layout: { dataMap: { secondary: 'translation' } }
+      });
+      expect(component.displayBackText()).toBe('');
+    });
+
+    it('should return empty string when secondary translation not found', () => {
+      mockStore.currentCard.mockReturnValue({ english: 'hello', translations: { polish: 'cześć' } });
+      mockStore.currentRoundConfig.mockReturnValue({
+        layout: { dataMap: { secondary: 'german' } }
+      });
       expect(component.displayBackText()).toBe('');
     });
   });

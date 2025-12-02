@@ -254,6 +254,114 @@ describe('GameStore', () => {
     });
   });
 
+  describe('advanceRound with different input sources', () => {
+    it('should use prev_round_successes for next round', () => {
+      const modeWithSuccessesInput = {
+        ...mockGameMode,
+        rounds: [
+          mockGameMode.rounds[0], // round 1: deck_start
+          {
+            ...mockGameMode.rounds[1],
+            inputSource: 'prev_round_successes' as any
+          }
+        ]
+      };
+
+      store.startGame(modeWithSuccessesInput, mockCards);
+
+      // Graduate all cards in round 1
+      store.submitAnswer(true);
+      store.submitAnswer(true);
+      store.submitAnswer(true);
+
+      // Should advance to round 2 using only graduated cards
+      expect(store.roundIndex()).toBe(1);
+      expect(store.queue()).toHaveLength(3); // All graduated cards from round 1
+      expect(store.graduatePile()).toHaveLength(3);
+    });
+
+    it('should use prev_round_failures for next round', () => {
+      const modeWithFailuresInput = {
+        ...mockGameMode,
+        rounds: [
+          mockGameMode.rounds[0], // round 1: deck_start
+          {
+            ...mockGameMode.rounds[1],
+            inputSource: 'prev_round_failures' as any
+          }
+        ]
+      };
+
+      store.startGame(modeWithFailuresInput, mockCards);
+
+      // Fail first card, succeed others
+      store.submitAnswer(false);
+      store.submitAnswer(true);
+      store.submitAnswer(true);
+
+      // Graduate pile has 2, queue has 1 (failed)
+      expect(store.graduatePile()).toHaveLength(2);
+      expect(store.queue()).toHaveLength(1);
+
+      // Advance round - graduate the failed card, then advance to round 2
+      store.submitAnswer(true); // Graduate the failed card
+
+      expect(store.roundIndex()).toBe(1);
+      expect(store.queue()).toHaveLength(0); // No failures left
+      expect(store.phase()).toBe('SUMMARY'); // No more rounds
+      expect(store.graduatePile()).toHaveLength(3);
+    });
+
+    it('should skip rounds with empty queue', () => {
+      const modeWithEmptyRound = {
+        ...mockGameMode,
+        rounds: [
+          mockGameMode.rounds[0], // round 1: deck_start
+          {
+            ...mockGameMode.rounds[1],
+            inputSource: 'prev_round_failures' as any // Will be empty since all succeed
+          },
+          mockGameMode.rounds[2] // round 3: deck_start
+        ]
+      };
+
+      store.startGame(modeWithEmptyRound, mockCards);
+
+      // Succeed all in round 1
+      store.submitAnswer(true);
+      store.submitAnswer(true);
+      store.submitAnswer(true);
+
+      // Should skip round 2 (empty) and go to round 3
+      expect(store.roundIndex()).toBe(2);
+      expect(store.queue()).toHaveLength(3);
+      expect(store.phase()).toBe('PLAYING');
+    });
+
+    it('should handle unknown inputSource gracefully', () => {
+      const modeWithUnknownInput = {
+        ...mockGameMode,
+        rounds: [
+          mockGameMode.rounds[0], // round 1: deck_start
+          {
+            ...mockGameMode.rounds[1],
+            inputSource: 'unknown' as any
+          }
+        ]
+      };
+
+      store.startGame(modeWithUnknownInput, mockCards);
+
+      // Graduate all cards in round 1
+      store.submitAnswer(true);
+      store.submitAnswer(true);
+      store.submitAnswer(true);
+
+      // Should advance to round 2 with empty queue, then skip to summary
+      expect(store.phase()).toBe('SUMMARY');
+    });
+  });
+
   describe('reset', () => {
     it('should reset all state to initial values', () => {
       store.startGame(mockGameMode, mockCards);

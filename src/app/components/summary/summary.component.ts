@@ -14,6 +14,9 @@ export class SummaryComponent {
   store = inject(GameStore);
   router = inject(Router);
 
+  // Expose Math for template use
+  Math = Math;
+
   startNewSession() {
     this.store.reset();
     this.router.navigate(['/']);

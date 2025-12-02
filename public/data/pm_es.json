@@ -1,0 +1,902 @@
+[
+  {
+    "id": "pm_0001",
+    "term_translation": "Acta de proyecto",
+    "definition_translation": "Documento que autoriza formalmente un proyecto y define sus objetivos, alcance y partes interesadas.",
+    "example_translation": "El patrocinador firmó el acta de proyecto para iniciar oficialmente la iniciativa."
+  },
+  {
+    "id": "pm_0002",
+    "term_translation": "Alcance",
+    "definition_translation": "Límites de un proyecto que describen qué está incluido y qué queda fuera del trabajo.",
+    "example_translation": "Definir claramente el alcance ayuda a evitar malentendidos más adelante."
+  },
+  {
+    "id": "pm_0003",
+    "term_translation": "Crecimiento del alcance",
+    "definition_translation": "Cambio o expansión no controlada del alcance del proyecto sin ajustar tiempo, coste o recursos.",
+    "example_translation": "Las solicitudes frecuentes de los interesados provocaron crecimiento del alcance."
+  },
+  {
+    "id": "pm_0004",
+    "term_translation": "Parte interesada",
+    "definition_translation": "Cualquier persona o grupo que puede influir en un proyecto o verse afectado por él.",
+    "example_translation": "Identificar a las partes interesadas clave al inicio ayudó a alinear expectativas."
+  },
+  {
+    "id": "pm_0005",
+    "term_translation": "Entregable",
+    "definition_translation": "Resultado tangible o intangible producido como consecuencia de las actividades del proyecto.",
+    "example_translation": "El informe final es el principal entregable de esta fase del proyecto."
+  },
+  {
+    "id": "pm_0006",
+    "term_translation": "Hito",
+    "definition_translation": "Punto o acontecimiento importante en la línea de tiempo del proyecto usado para seguir el progreso.",
+    "example_translation": "Completar las pruebas de usuario es un hito clave antes del lanzamiento."
+  },
+  {
+    "id": "pm_0007",
+    "term_translation": "Estructura de desglose del trabajo (EDT)",
+    "definition_translation": "Descomposición jerárquica de todo el trabajo del proyecto en componentes más pequeños y manejables.",
+    "example_translation": "El equipo utilizó la EDT para organizar las tareas en paquetes de trabajo."
+  },
+  {
+    "id": "pm_0008",
+    "term_translation": "Ruta crítica",
+    "definition_translation": "Secuencia más larga de tareas que determina la duración mínima del proyecto.",
+    "example_translation": "Los retrasos en la ruta crítica retrasarán todo el proyecto."
+  },
+  {
+    "id": "pm_0009",
+    "term_translation": "Dependencia",
+    "definition_translation": "Relación entre tareas en la que una actividad depende del resultado de otra.",
+    "example_translation": "La aprobación del diseño es una dependencia antes de empezar el desarrollo."
+  },
+  {
+    "id": "pm_0010",
+    "term_translation": "Línea base",
+    "definition_translation": "Versión aprobada de un plan que sirve como referencia para medir el desempeño del proyecto.",
+    "example_translation": "Comparamos los costes reales con la línea base del presupuesto cada mes."
+  },
+  {
+    "id": "pm_0011",
+    "term_translation": "Ciclo de vida del proyecto",
+    "definition_translation": "Serie de fases por las que pasa un proyecto desde su inicio hasta su cierre.",
+    "example_translation": "Nuestro ciclo de vida del proyecto incluye descubrimiento, diseño, construcción y lanzamiento."
+  },
+  {
+    "id": "pm_0012",
+    "term_translation": "Ágil",
+    "definition_translation": "Enfoque iterativo de gestión de proyectos centrado en la colaboración, la flexibilidad y la entrega continua.",
+    "example_translation": "El equipo adoptó un enfoque ágil para responder rápidamente a los cambios de requisitos."
+  },
+  {
+    "id": "pm_0013",
+    "term_translation": "Scrum",
+    "definition_translation": "Marco ágil que utiliza iteraciones fijas llamadas sprints para entregar valor de forma incremental.",
+    "example_translation": "En Scrum, el equipo planifica el trabajo del sprint durante la reunión de planificación."
+  },
+  {
+    "id": "pm_0014",
+    "term_translation": "Sprint",
+    "definition_translation": "Período corto y acotado de tiempo en el que un equipo Scrum completa una cantidad de trabajo.",
+    "example_translation": "El objetivo del equipo es entregar un incremento publicable en cada sprint."
+  },
+  {
+    "id": "pm_0015",
+    "term_translation": "Product backlog",
+    "definition_translation": "Lista ordenada de funcionalidades, mejoras y correcciones que representan trabajo futuro sobre el producto.",
+    "example_translation": "El product owner prioriza los elementos del product backlog."
+  },
+  {
+    "id": "pm_0016",
+    "term_translation": "Sprint backlog",
+    "definition_translation": "Lista de elementos del product backlog seleccionados para un sprint y plan de cómo entregarlos.",
+    "example_translation": "El sprint backlog define el trabajo del equipo para las próximas dos semanas."
+  },
+  {
+    "id": "pm_0017",
+    "term_translation": "Kanban",
+    "definition_translation": "Método visual de flujo de trabajo que limita el trabajo en curso para mejorar el flujo y la eficiencia.",
+    "example_translation": "El equipo usa un tablero Kanban para seguir las tareas en cada etapa."
+  },
+  {
+    "id": "pm_0018",
+    "term_translation": "Diagrama de Gantt",
+    "definition_translation": "Gráfico de barras que muestra las tareas del proyecto a lo largo del tiempo con sus fechas de inicio y fin.",
+    "example_translation": "El director del proyecto actualizó el diagrama de Gantt tras cambiar los plazos."
+  },
+  {
+    "id": "pm_0019",
+    "term_translation": "Riesgo",
+    "definition_translation": "Evento o condición incierta que, si ocurre, tiene un impacto positivo o negativo en los objetivos.",
+    "example_translation": "Identificar los riesgos pronto ayuda al equipo a planificar respuestas."
+  },
+  {
+    "id": "pm_0020",
+    "term_translation": "Incidencia",
+    "definition_translation": "Problema que está afectando al proyecto y requiere atención inmediata.",
+    "example_translation": "El retraso del proveedor se convirtió en una incidencia crítica para el calendario."
+  },
+  {
+    "id": "pm_0021",
+    "term_translation": "Registro de riesgos",
+    "definition_translation": "Documento que lista los riesgos identificados, su análisis y las respuestas planificadas.",
+    "example_translation": "Revisamos el registro de riesgos en cada reunión de seguimiento."
+  },
+  {
+    "id": "pm_0022",
+    "term_translation": "Solicitud de cambio",
+    "definition_translation": "Propuesta formal para modificar el alcance, el cronograma o el presupuesto de un proyecto.",
+    "example_translation": "El cliente envió una solicitud de cambio para añadir nuevas funcionalidades."
+  },
+  {
+    "id": "pm_0023",
+    "term_translation": "Control de cambios",
+    "definition_translation": "Proceso estructurado para evaluar y aprobar cambios en el proyecto.",
+    "example_translation": "El control de cambios garantiza que solo se apliquen cambios justificados."
+  },
+  {
+    "id": "pm_0024",
+    "term_translation": "Patrocinador del proyecto",
+    "definition_translation": "Persona de alto nivel que proporciona recursos, apoyo y dirección general al proyecto.",
+    "example_translation": "El patrocinador del proyecto resolvió conflictos entre los departamentos."
+  },
+  {
+    "id": "pm_0025",
+    "term_translation": "Director de proyecto",
+    "definition_translation": "Persona responsable de planificar, ejecutar y cerrar un proyecto.",
+    "example_translation": "El director de proyecto facilitó la comunicación en todo el equipo."
+  },
+  {
+    "id": "pm_0026",
+    "term_translation": "Plan de proyecto",
+    "definition_translation": "Documento que describe cómo se ejecutará, supervisará y cerrará el proyecto.",
+    "example_translation": "El plan de proyecto recoge los hitos, recursos y riesgos principales."
+  },
+  {
+    "id": "pm_0027",
+    "term_translation": "Triple restricción",
+    "definition_translation": "Relación entre alcance, tiempo y coste que condiciona los resultados del proyecto.",
+    "example_translation": "Cambiar el alcance impactará en la triple restricción y probablemente en el coste."
+  },
+  {
+    "id": "pm_0028",
+    "term_translation": "Supuesto",
+    "definition_translation": "Factor que se considera verdadero para planificar, sin contar con una prueba completa.",
+    "example_translation": "Un supuesto del plan es que el personal clave estará disponible."
+  },
+  {
+    "id": "pm_0029",
+    "term_translation": "Restricción",
+    "definition_translation": "Factor limitante que afecta la ejecución del proyecto.",
+    "example_translation": "La fecha de lanzamiento fija es una restricción importante para el equipo."
+  },
+  {
+    "id": "pm_0030",
+    "term_translation": "Asignación de recursos",
+    "definition_translation": "Proceso de asignar personas, presupuesto y herramientas a las tareas del proyecto.",
+    "example_translation": "Una buena asignación de recursos evita sobrecargar a los miembros del equipo."
+  },
+  {
+    "id": "pm_0031",
+    "term_translation": "Análisis de interesados",
+    "definition_translation": "Proceso de identificar a las partes interesadas y entender sus intereses e influencia.",
+    "example_translation": "El análisis de interesados ayudó a priorizar los esfuerzos de comunicación."
+  },
+  {
+    "id": "pm_0032",
+    "term_translation": "Plan de comunicación",
+    "definition_translation": "Documento que define cómo se compartirá la información con las partes interesadas.",
+    "example_translation": "El plan de comunicación especifica quién recibe los informes de estado y cuándo."
+  },
+  {
+    "id": "pm_0033",
+    "term_translation": "Informe de estado",
+    "definition_translation": "Actualización periódica sobre el progreso del proyecto, sus riesgos e incidencias.",
+    "example_translation": "El informe de estado semanal mantiene informadas a las partes interesadas."
+  },
+  {
+    "id": "pm_0034",
+    "term_translation": "Reunión de arranque",
+    "definition_translation": "Primera reunión en la que el equipo del proyecto y las partes interesadas alinean objetivos y expectativas.",
+    "example_translation": "Durante la reunión de arranque todos acordaron el cronograma del proyecto."
+  },
+  {
+    "id": "pm_0035",
+    "term_translation": "Lecciones aprendidas",
+    "definition_translation": "Conclusiones obtenidas de las experiencias del proyecto que pueden mejorar trabajos futuros.",
+    "example_translation": "Documentamos las lecciones aprendidas para evitar problemas similares en el próximo proyecto."
+  },
+  {
+    "id": "pm_0036",
+    "term_translation": "Cierre del proyecto",
+    "definition_translation": "Fase final en la que el proyecto se completa formalmente y se transfiere a la operación.",
+    "example_translation": "El cierre del proyecto incluyó una revisión final y la entrega al equipo de soporte."
+  },
+  {
+    "id": "pm_0037",
+    "term_translation": "Criterios de aceptación",
+    "definition_translation": "Condiciones que deben cumplirse para que el cliente acepte un entregable.",
+    "example_translation": "El equipo validó las funcionalidades contra los criterios de aceptación."
+  },
+  {
+    "id": "pm_0038",
+    "term_translation": "Aseguramiento de la calidad (QA)",
+    "definition_translation": "Actividades destinadas a garantizar que los procesos del proyecto produzcan resultados de calidad.",
+    "example_translation": "Las revisiones de aseguramiento de la calidad verifican el cumplimiento de los estándares."
+  },
+  {
+    "id": "pm_0039",
+    "term_translation": "Control de calidad (QC)",
+    "definition_translation": "Actividades que comprueban si los entregables cumplen los requisitos de calidad.",
+    "example_translation": "El equipo realizó pruebas de control de calidad antes de publicar el producto."
+  },
+  {
+    "id": "pm_0040",
+    "term_translation": "Valor ganado",
+    "definition_translation": "Medida del trabajo realizado expresada en términos del presupuesto autorizado.",
+    "example_translation": "El análisis de valor ganado mostró que el proyecto iba retrasado."
+  },
+  {
+    "id": "pm_0041",
+    "term_translation": "Presupuesto",
+    "definition_translation": "Coste estimado de completar un proyecto.",
+    "example_translation": "Mantenerse dentro del presupuesto fue un objetivo clave para el patrocinador."
+  },
+  {
+    "id": "pm_0042",
+    "term_translation": "Sobrecoste",
+    "definition_translation": "Importe en el que los costes reales superan el presupuesto del proyecto.",
+    "example_translation": "Los cambios tardíos en los requisitos provocaron un sobrecoste."
+  },
+  {
+    "id": "pm_0043",
+    "term_translation": "Timebox",
+    "definition_translation": "Período de tiempo fijo reservado para una actividad específica.",
+    "example_translation": "El equipo utilizó un timebox de dos horas para refinar el backlog."
+  },
+  {
+    "id": "pm_0044",
+    "term_translation": "Refinamiento del backlog",
+    "definition_translation": "Proceso continuo de revisar y actualizar los elementos del product backlog.",
+    "example_translation": "El refinamiento del backlog ayuda a mantener claro y estimado el trabajo futuro."
+  },
+  {
+    "id": "pm_0045",
+    "term_translation": "Daily stand-up",
+    "definition_translation": "Reunión diaria breve donde el equipo sincroniza el trabajo e identifica obstáculos.",
+    "example_translation": "En el daily stand-up cada miembro del equipo compartió sus avances."
+  },
+  {
+    "id": "pm_0046",
+    "term_translation": "Retrospectiva",
+    "definition_translation": "Reunión al final de una iteración para reflexionar sobre lo que funcionó bien y lo que se puede mejorar.",
+    "example_translation": "En la retrospectiva el equipo acordó mejorar la forma de estimar las tareas."
+  },
+  {
+    "id": "pm_0047",
+    "term_translation": "User story",
+    "definition_translation": "Descripción breve de una funcionalidad desde la perspectiva del usuario final.",
+    "example_translation": "El product owner redactó una user story para capturar el requisito de inicio de sesión."
+  },
+  {
+    "id": "pm_0048",
+    "term_translation": "Story points",
+    "definition_translation": "Unidad relativa que el equipo utiliza para estimar el esfuerzo de una user story.",
+    "example_translation": "El equipo asignó cinco story points a la nueva funcionalidad."
+  },
+  {
+    "id": "pm_0049",
+    "term_translation": "Gráfico de burn-down",
+    "definition_translation": "Gráfico que muestra el trabajo pendiente en un sprint o proyecto a lo largo del tiempo.",
+    "example_translation": "El gráfico de burn-down indicaba que el equipo iba por delante del plan."
+  },
+  {
+    "id": "pm_0050",
+    "term_translation": "Gráfico de burn-up",
+    "definition_translation": "Gráfico que muestra el trabajo completado a lo largo del tiempo y el alcance total.",
+    "example_translation": "El gráfico de burn-up facilitó ver los cambios de alcance."
+  },
+  {
+    "id": "pm_0051",
+    "term_translation": "Producto mínimo viable (MVP)",
+    "definition_translation": "Versión más sencilla de un producto que se puede lanzar para probar hipótesis y recoger feedback.",
+    "example_translation": "El equipo se centró en construir un MVP para las primeras pruebas con usuarios."
+  },
+  {
+    "id": "pm_0052",
+    "term_translation": "Hoja de ruta (roadmap)",
+    "definition_translation": "Resumen visual de alto nivel que muestra la visión y dirección de un producto en el tiempo.",
+    "example_translation": "La hoja de ruta del producto muestra los lanzamientos previstos para el próximo año."
+  },
+  {
+    "id": "pm_0053",
+    "term_translation": "Levantamiento de requisitos",
+    "definition_translation": "Proceso de recopilar necesidades y expectativas de las partes interesadas.",
+    "example_translation": "Se organizaron talleres con usuarios finales para el levantamiento de requisitos."
+  },
+  {
+    "id": "pm_0054",
+    "term_translation": "Caso de uso",
+    "definition_translation": "Descripción de cómo un usuario interactúa con un sistema para alcanzar un objetivo.",
+    "example_translation": "El analista documentó casos de uso para el nuevo sistema de reservas."
+  },
+  {
+    "id": "pm_0055",
+    "term_translation": "Mitigación de riesgos",
+    "definition_translation": "Acciones destinadas a reducir la probabilidad o el impacto de un riesgo.",
+    "example_translation": "Contratar a un desarrollador adicional fue una estrategia de mitigación de riesgos."
+  },
+  {
+    "id": "pm_0056",
+    "term_translation": "Plan de contingencia",
+    "definition_translation": "Plan alternativo que define qué hacer si los riesgos identificados ocurren.",
+    "example_translation": "El plan de contingencia contemplaba posibles caídas del sistema."
+  },
+  {
+    "id": "pm_0057",
+    "term_translation": "Escalado",
+    "definition_translation": "Proceso de elevar una incidencia a un nivel superior para su resolución.",
+    "example_translation": "El director de proyecto inició el escalado cuando el proveedor volvió a incumplir el plazo."
+  },
+  {
+    "id": "pm_0058",
+    "term_translation": "Matriz RACI",
+    "definition_translation": "Cuadro que define quién es responsable, aprobador, consultado e informado en cada tarea.",
+    "example_translation": "La matriz RACI aclaró los roles de decisión entre los equipos."
+  },
+  {
+    "id": "pm_0059",
+    "term_translation": "Declaración del alcance del proyecto",
+    "definition_translation": "Descripción detallada del alcance, los entregables y los criterios de aceptación del proyecto.",
+    "example_translation": "La declaración del alcance del proyecto se compartió con todas las partes interesadas."
+  },
+  {
+    "id": "pm_0060",
+    "term_translation": "Paquete de trabajo",
+    "definition_translation": "Unidad de trabajo más pequeña en la EDT que se puede asignar y gestionar.",
+    "example_translation": "Cada paquete de trabajo se asignó a un líder de equipo concreto."
+  },
+  {
+    "id": "pm_0061",
+    "term_translation": "Lag",
+    "definition_translation": "Retraso entre tareas dependientes en el que la sucesora comienza después de que la predecesora termina.",
+    "example_translation": "Hay un lag de dos días entre las pruebas y la puesta en producción."
+  },
+  {
+    "id": "pm_0062",
+    "term_translation": "Lead time",
+    "definition_translation": "Tiempo transcurrido entre el inicio de un proceso y su finalización.",
+    "example_translation": "Reducir el lead time ayudó a entregar funcionalidades más rápido."
+  },
+  {
+    "id": "pm_0063",
+    "term_translation": "Nivelación de recursos",
+    "definition_translation": "Técnica para suavizar el uso de recursos ajustando las fechas de inicio y fin de las tareas.",
+    "example_translation": "La nivelación de recursos redujo las horas extra desplazando tareas no críticas."
+  },
+  {
+    "id": "pm_0064",
+    "term_translation": "Inicio de ejecución del proyecto",
+    "definition_translation": "Momento en el que el equipo comienza a trabajar en las tareas planificadas.",
+    "example_translation": "Tras la fase de planificación, el inicio de ejecución del proyecto marcó el comienzo de la entrega."
+  },
+  {
+    "id": "pm_0065",
+    "term_translation": "Gobernanza del proyecto",
+    "definition_translation": "Marco de normas y procesos que guía la toma de decisiones en el proyecto.",
+    "example_translation": "Una gobernanza del proyecto sólida garantizó decisiones coherentes en todo el portafolio."
+  },
+  {
+    "id": "pm_0066",
+    "term_translation": "Programa",
+    "definition_translation": "Conjunto de proyectos relacionados gestionados de forma coordinada para obtener beneficios.",
+    "example_translation": "Varios proyectos de TI se agruparon en un solo programa."
+  },
+  {
+    "id": "pm_0067",
+    "term_translation": "Portafolio de proyectos",
+    "definition_translation": "Colección de proyectos y programas gestionados conjuntamente para cumplir objetivos estratégicos.",
+    "example_translation": "La dirección revisa el portafolio de proyectos completo cada trimestre."
+  },
+  {
+    "id": "pm_0068",
+    "term_translation": "Realización de beneficios",
+    "definition_translation": "Proceso que garantiza que los resultados del proyecto entregan el valor de negocio esperado.",
+    "example_translation": "La realización de beneficios se evaluó seis meses después del despliegue."
+  },
+  {
+    "id": "pm_0069",
+    "term_translation": "Propietario del riesgo",
+    "definition_translation": "Persona responsable de supervisar y responder a un riesgo específico.",
+    "example_translation": "A cada riesgo clave se le asignó un propietario del riesgo dentro del equipo."
+  },
+  {
+    "id": "pm_0070",
+    "term_translation": "Registro de incidencias",
+    "definition_translation": "Documento utilizado para registrar incidencias del proyecto, su estado y las acciones tomadas.",
+    "example_translation": "El registro de incidencias se revisa en cada reunión semanal."
+  },
+  {
+    "id": "pm_0071",
+    "term_translation": "Restricciones del proyecto",
+    "definition_translation": "Limitaciones relacionadas con tiempo, coste, alcance o calidad que afectan al proyecto.",
+    "example_translation": "El equipo tuvo que planificar el trabajo teniendo en cuenta fuertes restricciones del proyecto."
+  },
+  {
+    "id": "pm_0072",
+    "term_translation": "Registro de supuestos",
+    "definition_translation": "Documento que recoge los supuestos realizados durante la planificación y ejecución.",
+    "example_translation": "Actualizamos el registro de supuestos cuando el proveedor cambió la fecha de entrega."
+  },
+  {
+    "id": "pm_0073",
+    "term_translation": "Crecimiento del alcance del proyecto",
+    "definition_translation": "Expansión gradual del alcance del proyecto sin aprobación formal ni ajustes de recursos.",
+    "example_translation": "Las solicitudes de nuevas funcionalidades sin control llevaron al crecimiento del alcance del proyecto."
+  },
+  {
+    "id": "pm_0074",
+    "term_translation": "Aprobación del patrocinador del proyecto",
+    "definition_translation": "Confirmación formal del patrocinador de que una decisión o entregable clave está aceptado.",
+    "example_translation": "El equipo esperó la aprobación del patrocinador del proyecto antes de pasar a la siguiente fase."
+  },
+  {
+    "id": "pm_0075",
+    "term_translation": "Reunión de seguimiento del proyecto",
+    "definition_translation": "Reunión periódica para revisar el progreso, los riesgos y los próximos pasos.",
+    "example_translation": "La reunión semanal de seguimiento del proyecto mantiene a todos alineados."
+  },
+  {
+    "id": "pm_0076",
+    "term_translation": "Registro RAID",
+    "definition_translation": "Herramienta para registrar riesgos, supuestos, incidencias y dependencias en un solo lugar.",
+    "example_translation": "El registro RAID ofrecía una visión clara de los desafíos del proyecto."
+  },
+  {
+    "id": "pm_0077",
+    "term_translation": "Línea base del alcance",
+    "definition_translation": "Versión aprobada de la declaración del alcance, la EDT y el diccionario de la EDT.",
+    "example_translation": "Los cambios en la línea base del alcance requieren aprobación formal."
+  },
+  {
+    "id": "pm_0078",
+    "term_translation": "Línea base del cronograma",
+    "definition_translation": "Versión aprobada del cronograma del proyecto utilizada para comparar el progreso.",
+    "example_translation": "Los retrasos se midieron frente a la línea base del cronograma."
+  },
+  {
+    "id": "pm_0079",
+    "term_translation": "Línea base de costes",
+    "definition_translation": "Presupuesto aprobado del proyecto, excluyendo las reservas de gestión.",
+    "example_translation": "El gasto real se siguió en comparación con la línea base de costes."
+  },
+  {
+    "id": "pm_0080",
+    "term_translation": "Registro de cambios",
+    "definition_translation": "Documento que registra todas las solicitudes de cambio, aprobadas o rechazadas, en el proyecto.",
+    "example_translation": "El registro de cambios muestra cómo ha ido evolucionando el alcance con el tiempo."
+  },
+    {
+    "id": "pm_0081",
+    "term_translation": "Registro de interesados",
+    "definition_translation": "Documento que recoge la lista de interesados e incluye detalles como sus intereses, influencia e información de contacto.",
+    "example_translation": "El registro de interesados ayudó al equipo a adaptar la comunicación a cada público."
+  },
+  {
+    "id": "pm_0082",
+    "term_translation": "Plan de involucración de interesados",
+    "definition_translation": "Plan que describe cómo se implicará a las partes interesadas en las decisiones y actividades del proyecto.",
+    "example_translation": "El plan de involucración de interesados definió los puntos de contacto con patrocinadores y usuarios clave."
+  },
+  {
+    "id": "pm_0083",
+    "term_translation": "Taller de acta de proyecto",
+    "definition_translation": "Sesión colaborativa en la que los interesados clave definen y acuerdan el propósito y los límites del proyecto.",
+    "example_translation": "Durante el taller de acta de proyecto el equipo aclaró objetivos y criterios de éxito."
+  },
+  {
+    "id": "pm_0084",
+    "term_translation": "Resumen de proyecto",
+    "definition_translation": "Resumen conciso de los objetivos, alcance y restricciones de un proyecto utilizado para alinear a las partes interesadas.",
+    "example_translation": "La agencia compartió un resumen de proyecto con el cliente antes de la planificación detallada."
+  },
+  {
+    "id": "pm_0085",
+    "term_translation": "Plan de gestión del alcance",
+    "definition_translation": "Documento que describe cómo se definirá, validará y controlará el alcance del proyecto.",
+    "example_translation": "El plan de gestión del alcance especificaba quién podía aprobar cambios de alcance."
+  },
+  {
+    "id": "pm_0086",
+    "term_translation": "Plan de gestión del cronograma",
+    "definition_translation": "Plan que define cómo se desarrollará, supervisará y controlará el cronograma del proyecto.",
+    "example_translation": "El plan de gestión del cronograma fijó reglas para actualizar hitos y dependencias."
+  },
+  {
+    "id": "pm_0087",
+    "term_translation": "Plan de gestión de costes",
+    "definition_translation": "Plan que detalla cómo se estimarán, presupuestarán y controlarán los costes del proyecto.",
+    "example_translation": "El plan de gestión de costes exigía previsiones mensuales a cada línea de trabajo."
+  },
+  {
+    "id": "pm_0088",
+    "term_translation": "Plan de gestión de la calidad",
+    "definition_translation": "Documento que especifica los estándares de calidad, métricas y actividades de aseguramiento y control de calidad.",
+    "example_translation": "El plan de gestión de la calidad definió umbrales de defectos antes de publicar una versión."
+  },
+  {
+    "id": "pm_0089",
+    "term_translation": "Plan de gestión de recursos",
+    "definition_translation": "Plan que describe cómo se adquirirán, desarrollarán y gestionarán los recursos humanos y materiales.",
+    "example_translation": "El plan de gestión de recursos identificó las competencias críticas necesarias cada trimestre."
+  },
+  {
+    "id": "pm_0090",
+    "term_translation": "Plan de gestión de las comunicaciones",
+    "definition_translation": "Documento que define objetivos, canales, frecuencia y responsables de la comunicación.",
+    "example_translation": "El plan de gestión de las comunicaciones programó boletines mensuales para los interesados."
+  },
+  {
+    "id": "pm_0091",
+    "term_translation": "Plan de gestión de riesgos",
+    "definition_translation": "Plan que describe cómo se identificarán, analizarán y tratarán los riesgos.",
+    "example_translation": "El plan de gestión de riesgos exigía un responsable y una fecha objetivo para cada riesgo importante."
+  },
+  {
+    "id": "pm_0092",
+    "term_translation": "Plan de gestión de adquisiciones",
+    "definition_translation": "Documento que define cómo se obtendrán bienes y servicios de proveedores externos.",
+    "example_translation": "El plan de gestión de adquisiciones detalló los criterios y plazos de selección de proveedores."
+  },
+  {
+    "id": "pm_0093",
+    "term_translation": "Comité de control de cambios",
+    "definition_translation": "Grupo de interesados responsable de revisar y aprobar las solicitudes de cambio del proyecto.",
+    "example_translation": "El comité de control de cambios se reúne semanalmente para evaluar cambios de alcance importantes."
+  },
+  {
+    "id": "pm_0094",
+    "term_translation": "Punto de control de fase",
+    "definition_translation": "Revisión al final de una fase del proyecto donde se aprueba o rechaza su continuación.",
+    "example_translation": "El proyecto superó el punto de control de fase tras cumplir todos los criterios de diseño."
+  },
+  {
+    "id": "pm_0095",
+    "term_translation": "Decisión go/no-go",
+    "definition_translation": "Decisión formal para continuar o detener un proyecto o un lanzamiento.",
+    "example_translation": "En la reunión go/no-go la dirección aprobó el lanzamiento del producto."
+  },
+  {
+    "id": "pm_0096",
+    "term_translation": "Planificación por oleadas",
+    "definition_translation": "Técnica de planificación en la que el trabajo cercano se detalla más y el lejano se planifica a alto nivel.",
+    "example_translation": "El equipo utilizó planificación por oleadas para afinar tareas según se disponía de más información."
+  },
+  {
+    "id": "pm_0097",
+    "term_translation": "Estimación descendente",
+    "definition_translation": "Método de estimación en el que primero se estima el coste o la duración global y luego se descompone.",
+    "example_translation": "La estimación descendente se utilizó en fases tempranas con poca información detallada."
+  },
+  {
+    "id": "pm_0098",
+    "term_translation": "Estimación ascendente",
+    "definition_translation": "Técnica en la que se descompone el trabajo en tareas detalladas y se estima cada una por separado.",
+    "example_translation": "La estimación ascendente permitió crear un cronograma más preciso para la fase de construcción."
+  },
+  {
+    "id": "pm_0099",
+    "term_translation": "Estimación análoga",
+    "definition_translation": "Método de estimación que usa datos históricos de proyectos similares para predecir coste o duración.",
+    "example_translation": "El equipo aplicó una estimación análoga basada en el proyecto de migración del año anterior."
+  },
+  {
+    "id": "pm_0100",
+    "term_translation": "Estimación paramétrica",
+    "definition_translation": "Técnica de estimación que utiliza relaciones estadísticas entre variables, como coste por unidad.",
+    "example_translation": "La estimación paramétrica empleó el coste por funcionalidad para calcular el presupuesto total."
+  },
+  {
+    "id": "pm_0101",
+    "term_translation": "Estimación de tres puntos",
+    "definition_translation": "Método de estimación que tiene en cuenta valores optimistas, pesimistas y más probables.",
+    "example_translation": "La estimación de tres puntos ayudó a reflejar la incertidumbre en la duración de las pruebas."
+  },
+  {
+    "id": "pm_0102",
+    "term_translation": "Simulación de Monte Carlo",
+    "definition_translation": "Técnica cuantitativa de análisis de riesgos que utiliza muestreo aleatorio para modelar posibles resultados.",
+    "example_translation": "La simulación de Monte Carlo estimó la probabilidad de cumplir la fecha objetivo."
+  },
+  {
+    "id": "pm_0103",
+    "term_translation": "Apetito de riesgo",
+    "definition_translation": "Nivel de riesgo que una organización o interesado está dispuesto a asumir.",
+    "example_translation": "El bajo apetito de riesgo del patrocinador influyó en las estrategias de mitigación."
+  },
+  {
+    "id": "pm_0104",
+    "term_translation": "Tolerancia al riesgo",
+    "definition_translation": "Variación aceptable en los resultados relacionada con un riesgo específico.",
+    "example_translation": "El equipo definió una tolerancia al riesgo clara para los retrasos del cronograma."
+  },
+  {
+    "id": "pm_0105",
+    "term_translation": "Propietario del riesgo",
+    "definition_translation": "Persona responsable de supervisar y gestionar un riesgo concreto.",
+    "example_translation": "Cada riesgo crítico del registro tenía asignado un propietario del riesgo."
+  },
+  {
+    "id": "pm_0106",
+    "term_translation": "Plan de respuesta a riesgos",
+    "definition_translation": "Conjunto de acciones diseñadas para tratar los riesgos identificados si llegan a ocurrir.",
+    "example_translation": "El plan de respuesta a riesgos incluía un proveedor alternativo para los componentes críticos."
+  },
+  {
+    "id": "pm_0107",
+    "term_translation": "Oportunidad",
+    "definition_translation": "Riesgo positivo que, si ocurre, tiene un impacto beneficioso en los objetivos del proyecto.",
+    "example_translation": "Conseguir un descuento de los proveedores se identificó como una oportunidad."
+  },
+  {
+    "id": "pm_0108",
+    "term_translation": "Dependencia del proyecto",
+    "definition_translation": "Relación en la que el proyecto depende de entregas o actividades fuera de su control directo.",
+    "example_translation": "El proyecto de integración tenía una dependencia del proyecto de actualización del ERP."
+  },
+  {
+    "id": "pm_0109",
+    "term_translation": "Dependencia externa",
+    "definition_translation": "Dependencia que implica tareas o eventos fuera de la autoridad del equipo de proyecto.",
+    "example_translation": "La aprobación regulatoria era una dependencia externa clave para el lanzamiento."
+  },
+  {
+    "id": "pm_0110",
+    "term_translation": "Dependencia interna",
+    "definition_translation": "Dependencia entre tareas o equipos dentro de la misma organización.",
+    "example_translation": "Los cambios de informes tenían una dependencia interna con el equipo de data warehouse."
+  },
+  {
+    "id": "pm_0111",
+    "term_translation": "Planificación de sprint",
+    "definition_translation": "Evento de Scrum en el que el equipo decide qué trabajo entregará en el próximo sprint.",
+    "example_translation": "Durante la planificación de sprint el equipo seleccionó historias según la capacidad y la prioridad."
+  },
+  {
+    "id": "pm_0112",
+    "term_translation": "Revisión de sprint",
+    "definition_translation": "Evento de Scrum en el que el equipo presenta el incremento y recoge feedback de los interesados.",
+    "example_translation": "En la revisión de sprint los usuarios probaron nuevas funcionalidades y dieron sugerencias."
+  },
+  {
+    "id": "pm_0113",
+    "term_translation": "Incremento",
+    "definition_translation": "Suma de todos los elementos completados del backlog de producto al final de un sprint.",
+    "example_translation": "Cada incremento debe estar en un estado utilizable, aunque no se publique."
+  },
+  {
+    "id": "pm_0114",
+    "term_translation": "Definición de terminado (Definition of Done)",
+    "definition_translation": "Entendimiento compartido de lo que significa que un trabajo esté completamente finalizado.",
+    "example_translation": "El equipo actualizó la Definición de terminado para incluir pruebas de rendimiento."
+  },
+  {
+    "id": "pm_0115",
+    "term_translation": "Definición de listo (Definition of Ready)",
+    "definition_translation": "Criterios que un elemento del backlog debe cumplir antes de que el equipo lo acepte en un sprint.",
+    "example_translation": "Las historias deben cumplir la Definición de listo antes de entrar en un sprint."
+  },
+  {
+    "id": "pm_0116",
+    "term_translation": "Product owner",
+    "definition_translation": "Rol responsable de maximizar el valor del producto y gestionar el backlog de producto.",
+    "example_translation": "El product owner priorizó las funcionalidades según el impacto en el cliente."
+  },
+  {
+    "id": "pm_0117",
+    "term_translation": "Scrum master",
+    "definition_translation": "Líder facilitador que organiza los eventos de Scrum y elimina impedimentos para el equipo.",
+    "example_translation": "El scrum master ayudó a resolver un conflicto sobre las prioridades."
+  },
+  {
+    "id": "pm_0118",
+    "term_translation": "Coach ágil",
+    "definition_translation": "Persona que guía a individuos y equipos en la adopción de prácticas y mentalidad ágiles.",
+    "example_translation": "El coach ágil formó a los equipos en principios de Kanban y Scrum."
+  },
+  {
+    "id": "pm_0119",
+    "term_translation": "Planificación de versiones",
+    "definition_translation": "Proceso de definir el alcance y el calendario de las versiones de un producto.",
+    "example_translation": "La planificación de versiones alineó a varios equipos con los objetivos del siguiente trimestre."
+  },
+  {
+    "id": "pm_0120",
+    "term_translation": "Tren de releases",
+    "definition_translation": "Ciclo de releases recurrente y sincronizado utilizado en marcos ágiles a escala.",
+    "example_translation": "Las funcionalidades de todos los equipos se publican juntas en el tren de releases trimestral."
+  },
+  {
+    "id": "pm_0121",
+    "term_translation": "Incremento de programa",
+    "definition_translation": "Intervalo de tiempo con duración fija, normalmente de 8 a 12 semanas, en marcos ágiles escalados.",
+    "example_translation": "Durante el incremento de programa los equipos trabajaron hacia objetivos compartidos."
+  },
+  {
+    "id": "pm_0122",
+    "term_translation": "Velocidad",
+    "definition_translation": "Cantidad de trabajo que un equipo completa en un sprint, normalmente medida en story points.",
+    "example_translation": "La velocidad del equipo se estabilizó en torno a 40 puntos por sprint."
+  },
+  {
+    "id": "pm_0123",
+    "term_translation": "Throughput",
+    "definition_translation": "Número de elementos de trabajo completados en un período determinado.",
+    "example_translation": "El equipo Kanban midió el throughput semanalmente para evaluar el rendimiento."
+  },
+  {
+    "id": "pm_0124",
+    "term_translation": "Tiempo de ciclo",
+    "definition_translation": "Tiempo que tarda un elemento de trabajo en pasar desde su inicio hasta su finalización.",
+    "example_translation": "Reducir el tiempo de ciclo ayudó a entregar funcionalidades más rápido."
+  },
+  {
+    "id": "pm_0125",
+    "term_translation": "Límite de trabajo en progreso",
+    "definition_translation": "Número máximo de tareas que pueden estar en una etapa concreta al mismo tiempo.",
+    "example_translation": "Establecer un límite de trabajo en progreso evitó que el equipo empezara demasiadas tareas."
+  },
+  {
+    "id": "pm_0126",
+    "term_translation": "Swimlane",
+    "definition_translation": "Sección horizontal o vertical en un tablero que agrupa elementos por categoría o responsable.",
+    "example_translation": "El tablero Kanban utilizaba swimlanes para cada área de producto."
+  },
+  {
+    "id": "pm_0127",
+    "term_translation": "Bloqueo",
+    "definition_translation": "Impedimento que impide el avance de una tarea o del proyecto.",
+    "example_translation": "La falta de una aprobación clave se convirtió en un bloqueo para el despliegue."
+  },
+  {
+    "id": "pm_0128",
+    "term_translation": "Impedimento",
+    "definition_translation": "Cualquier cosa que ralentiza o detiene el progreso del equipo.",
+    "example_translation": "El scrum master registra y elimina impedimentos mencionados en los daily stand-ups."
+  },
+  {
+    "id": "pm_0129",
+    "term_translation": "Declaración detallada del alcance del proyecto",
+    "definition_translation": "Descripción detallada de los entregables, límites y criterios de aceptación del proyecto.",
+    "example_translation": "La declaración detallada del alcance del proyecto ayudó a evitar trabajo fuera de los límites acordados."
+  },
+  {
+    "id": "pm_0130",
+    "term_translation": "Cuadro de mando del proyecto",
+    "definition_translation": "Visualización de las métricas clave del proyecto como cronograma, costes y riesgos.",
+    "example_translation": "La dirección revisó el cuadro de mando del proyecto antes del comité de dirección."
+  },
+  {
+    "id": "pm_0131",
+    "term_translation": "Comité de dirección",
+    "definition_translation": "Grupo de altos directivos que proporciona supervisión y orientación al proyecto.",
+    "example_translation": "El comité de dirección aprobó cambios importantes en la hoja de ruta del proyecto."
+  },
+  {
+    "id": "pm_0132",
+    "term_translation": "Registro de beneficios",
+    "definition_translation": "Documento que lista los beneficios esperados del proyecto y cómo se medirán.",
+    "example_translation": "El registro de beneficios vinculó cada beneficio a una métrica y a un responsable concretos."
+  },
+  {
+    "id": "pm_0133",
+    "term_translation": "Caso de negocio",
+    "definition_translation": "Justificación del proyecto que expone los beneficios esperados, costes y riesgos.",
+    "example_translation": "El caso de negocio mostró que la automatización se amortizaría en dos años."
+  },
+  {
+    "id": "pm_0134",
+    "term_translation": "Estudio de viabilidad",
+    "definition_translation": "Análisis que determina si un proyecto propuesto es viable técnica, financiera y operativamente.",
+    "example_translation": "El estudio de viabilidad concluyó que el sistema heredado no soportaría la actualización."
+  },
+  {
+    "id": "pm_0135",
+    "term_translation": "Proyecto piloto",
+    "definition_translation": "Implementación a pequeña escala utilizada para probar un enfoque antes del despliegue completo.",
+    "example_translation": "El proyecto piloto se ejecutó primero en una región antes de extenderse globalmente."
+  },
+  {
+    "id": "pm_0136",
+    "term_translation": "Prueba de concepto",
+    "definition_translation": "Pequeño experimento diseñado para demostrar que una idea o enfoque es viable.",
+    "example_translation": "La prueba de concepto confirmó que la integración era técnicamente posible."
+  },
+  {
+    "id": "pm_0137",
+    "term_translation": "Análisis de impacto del cambio",
+    "definition_translation": "Análisis de cómo afectará un cambio propuesto a los sistemas, procesos y personas.",
+    "example_translation": "El análisis de impacto del cambio puso de manifiesto necesidades adicionales de formación."
+  },
+  {
+    "id": "pm_0138",
+    "term_translation": "Plan de realización de beneficios",
+    "definition_translation": "Plan que describe cómo y cuándo se entregarán y medirán los beneficios del proyecto.",
+    "example_translation": "El plan de realización de beneficios se extendía más allá de la fecha de cierre del proyecto."
+  },
+  {
+    "id": "pm_0139",
+    "term_translation": "Transferencia a operaciones",
+    "definition_translation": "Proceso de traspaso de responsabilidades del equipo de proyecto a los equipos operativos.",
+    "example_translation": "La transferencia a operaciones incluyó documentación, formación y acuerdos de soporte."
+  },
+  {
+    "id": "pm_0140",
+    "term_translation": "Periodo de hypercare",
+    "definition_translation": "Periodo intensivo de soporte inmediatamente después del arranque para resolver incidencias rápidamente.",
+    "example_translation": "Durante el periodo de hypercare personal adicional supervisó el sistema las 24 horas."
+  },
+  {
+    "id": "pm_0141",
+    "term_translation": "Plan de despliegue",
+    "definition_translation": "Plan detallado para implementar una solución por ubicaciones, usuarios o fases.",
+    "example_translation": "El plan de despliegue preveía implantaciones por país durante tres meses."
+  },
+  {
+    "id": "pm_0142",
+    "term_translation": "Plan de cutover",
+    "definition_translation": "Plan paso a paso para pasar de un sistema o proceso antiguo a uno nuevo.",
+    "example_translation": "El plan de cutover detallaba la hora exacta de cada actividad de migración."
+  },
+  {
+    "id": "pm_0143",
+    "term_translation": "Plan de reversión",
+    "definition_translation": "Plan que describe cómo volver al estado anterior si la nueva solución falla.",
+    "example_translation": "El plan de reversión permitía restaurar el sistema antiguo en menos de dos horas."
+  },
+  {
+    "id": "pm_0144",
+    "term_translation": "Informe de excepciones",
+    "definition_translation": "Informe que destaca desviaciones respecto al rendimiento planificado.",
+    "example_translation": "Se emitió un informe de excepciones cuando los costes superaron el umbral definido."
+  },
+  {
+    "id": "pm_0145",
+    "term_translation": "Tolerancia",
+    "definition_translation": "Desviación permitida respecto a un objetivo sin que sea necesaria una escalada.",
+    "example_translation": "El proyecto tenía una tolerancia de costes de más o menos cinco por ciento."
+  },
+  {
+    "id": "pm_0146",
+    "term_translation": "Autorización de trabajo",
+    "definition_translation": "Permiso formal para iniciar el trabajo sobre una tarea o paquete de trabajo concreto.",
+    "example_translation": "Se requería una autorización de trabajo antes de comenzar la integración con el proveedor."
+  },
+  {
+    "id": "pm_0147",
+    "term_translation": "Análisis de tendencias de hitos",
+    "definition_translation": "Técnica para seguir cómo cambian en el tiempo las fechas previstas de los hitos.",
+    "example_translation": "El análisis de tendencias de hitos mostró que los retrasos empezaban a estabilizarse."
+  },
+  {
+    "id": "pm_0148",
+    "term_translation": "Congelación de cambios",
+    "definition_translation": "Periodo durante el cual no se pueden introducir cambios nuevos.",
+    "example_translation": "Se aplicó una congelación de cambios dos semanas antes de la salida a producción."
+  },
+  {
+    "id": "pm_0149",
+    "term_translation": "Auditoría de proyecto",
+    "definition_translation": "Revisión independiente de cómo se gestiona un proyecto y de su cumplimiento de los estándares.",
+    "example_translation": "La auditoría de proyecto detectó carencias en la documentación de riesgos."
+  },
+  {
+    "id": "pm_0150",
+    "term_translation": "Health check del proyecto",
+    "definition_translation": "Evaluación rápida del estado de un proyecto centrada en factores clave de riesgo y éxito.",
+    "example_translation": "Un health check a mitad del proyecto confirmó un buen control del alcance y una alta motivación del equipo."
+  }
+]

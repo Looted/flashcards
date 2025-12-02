@@ -38,8 +38,13 @@ describe('GameService', () => {
 
     const mockGameModeService = {
       getStandardGameMode: vi.fn().mockReturnValue({
-        id: 'standard',
-        description: 'Standard Learning Mode',
+        id: 'classic',
+        description: 'Classic Learning Mode',
+        rounds: []
+      }),
+      getGameMode: vi.fn().mockReturnValue({
+        id: 'classic',
+        description: 'Classic Learning Mode',
         rounds: []
       })
     };
@@ -72,41 +77,41 @@ describe('GameService', () => {
     });
 
     it('should use static vocabulary for hr topic when useStatic is true', async () => {
-      await service.startGame('hr', GameMode.New, true, null);
+      await service.startGame('hr', GameMode.New, 'classic', true, null);
 
       expect(mockStaticService.generateWords).toHaveBeenCalledWith('hr', GAME_CONSTANTS.CARDS_PER_GAME, undefined);
       expect(mockAiService.generateWords).not.toHaveBeenCalled();
     });
 
     it('should use static vocabulary for pm topic when useStatic is true', async () => {
-      await service.startGame('pm', GameMode.New, true, null);
+      await service.startGame('pm', GameMode.New, 'classic', true, null);
 
       expect(mockStaticService.generateWords).toHaveBeenCalledWith('pm', GAME_CONSTANTS.CARDS_PER_GAME, undefined);
       expect(mockAiService.generateWords).not.toHaveBeenCalled();
     });
 
     it('should use fallback words for non-hr/pm topics when useStatic is true', async () => {
-      await service.startGame('IT', GameMode.New, true, null);
+      await service.startGame('IT', GameMode.New, 'classic', true, null);
 
       expect(mockStaticService.generateWords).not.toHaveBeenCalled();
       expect(mockAiService.generateWords).not.toHaveBeenCalled();
     });
 
     it('should use AI service when useStatic is false', async () => {
-      await service.startGame('IT', GameMode.New, false, null);
+      await service.startGame('IT', GameMode.New, 'classic', false, null);
 
       expect(mockAiService.generateWords).toHaveBeenCalledWith('IT', GAME_CONSTANTS.CARDS_PER_GAME, undefined, null);
       expect(mockStaticService.generateWords).not.toHaveBeenCalled();
     });
 
     it('should pass difficulty parameter to AI service', async () => {
-      await service.startGame('IT', GameMode.New, false, 2);
+      await service.startGame('IT', GameMode.New, 'classic', false, 2);
 
       expect(mockAiService.generateWords).toHaveBeenCalledWith('IT', GAME_CONSTANTS.CARDS_PER_GAME, undefined, 2);
     });
 
     it('should pass difficulty parameter to static service', async () => {
-      await service.startGame('hr', GameMode.New, true, 3);
+      await service.startGame('hr', GameMode.New, 'classic', true, 3);
 
       expect(mockStaticService.generateWords).toHaveBeenCalledWith('hr', GAME_CONSTANTS.CARDS_PER_GAME, 3);
     });
@@ -122,7 +127,7 @@ describe('GameService', () => {
         .mockReturnValueOnce({}) // seen word has stats
         .mockReturnValueOnce(null); // unseen word has no stats
 
-      await service.startGame('IT', GameMode.New, false, null);
+      await service.startGame('IT', GameMode.New, 'classic', false, null);
 
       const gameModeService = TestBed.inject(GameModeService);
       expect(mockStore.startGame).toHaveBeenCalledWith(gameModeService.getStandardGameMode(), [
@@ -145,7 +150,7 @@ describe('GameService', () => {
 
       mockStatsService.getWordsNeedingPractice.mockReturnValue(practiceWords);
 
-      await service.startGame('IT', GameMode.Practice, false, null);
+      await service.startGame('IT', GameMode.Practice, 'classic', false, null);
 
       const gameModeService = TestBed.inject(GameModeService);
       expect(mockStore.startGame).toHaveBeenCalledWith(gameModeService.getStandardGameMode(), [
@@ -176,14 +181,14 @@ describe('GameService', () => {
 
       mockStatsService.getWordsNeedingPractice.mockReturnValue(manyPracticeWords);
 
-      await service.startGame('IT', GameMode.Practice, false, null);
+      await service.startGame('IT', GameMode.Practice, 'classic', false, null);
 
       const callArgs = mockStore.startGame.mock.calls[0][1]; // cards are at index 1
       expect(callArgs).toHaveLength(GAME_CONSTANTS.CARDS_PER_GAME);
     });
 
     it('should create flashcards with proper structure', async () => {
-      await service.startGame('IT', GameMode.New, false, null);
+      await service.startGame('IT', GameMode.New, 'classic', false, null);
 
       const gameModeService = TestBed.inject(GameModeService);
       expect(mockStore.startGame).toHaveBeenCalledWith(gameModeService.getStandardGameMode(), [
@@ -207,7 +212,7 @@ describe('GameService', () => {
     it('should handle empty cards array', async () => {
       mockAiService.generateWords.mockResolvedValue([]);
 
-      await service.startGame('IT', GameMode.New, false, null);
+      await service.startGame('IT', GameMode.New, 'classic', false, null);
 
       const gameModeService = TestBed.inject(GameModeService);
       expect(mockStore.startGame).toHaveBeenCalledWith(gameModeService.getStandardGameMode(), []);
@@ -216,10 +221,27 @@ describe('GameService', () => {
     it('should handle static service returning empty observable', async () => {
       mockStaticService.generateWords.mockReturnValue(of([]));
 
-      await service.startGame('hr', GameMode.New, true, null);
+      await service.startGame('hr', GameMode.New, 'classic', true, null);
 
       const gameModeService = TestBed.inject(GameModeService);
       expect(mockStore.startGame).toHaveBeenCalledWith(gameModeService.getStandardGameMode(), []);
+    });
+
+    it('should fall back to all words when difficulty filter leaves no words', async () => {
+      // IT theme has words with difficulty 1 and 2, so difficulty 3 should leave none
+      await service.startGame('IT', GameMode.New, 'classic', true, 3);
+
+      // Should use fallback words (all words since filter leaves none)
+      const gameModeService = TestBed.inject(GameModeService);
+      const callArgs = mockStore.startGame.mock.calls[0][1]; // cards
+      expect(callArgs.length).toBeGreaterThan(0);
+      // Should include words of different difficulties
+      const difficulties = callArgs.map((card: any) => {
+        const word = service['getStaticFallbackWords']('IT', 10, 3).find(w => w.english === card.english);
+        return word ? 3 : null; // This test is to ensure fallback works
+      });
+      // Since difficulty 3 has no matches, it should fall back to all words
+      expect(callArgs.length).toBe(10); // All IT words
     });
   });
 

@@ -137,4 +137,70 @@ describe('TypingCardComponent', () => {
       expect(component.isPaused()).toBe(true);
     });
   });
+
+  describe('Template rendering', () => {
+    beforeEach(() => {
+      (component as any).promptText = () => 'cześć';
+      (component as any).expectedAnswer = () => 'hello';
+      fixture.detectChanges();
+    });
+
+    it('should render prompt text', () => {
+      const promptElement = fixture.nativeElement.querySelector('h2');
+      expect(promptElement.textContent.trim()).toBe('cześć');
+    });
+
+    it('should render feedback when typingFeedback is set for correct answer', () => {
+      component.typingFeedback.set({ correct: true, msg: 'Correct!' });
+      fixture.detectChanges();
+
+      const feedbackElement = fixture.nativeElement.querySelector('.bg-green-100');
+      expect(feedbackElement).toBeTruthy();
+      expect(feedbackElement.textContent.trim()).toBe('Correct!');
+    });
+
+    it('should render feedback when typingFeedback is set for incorrect answer', () => {
+      component.typingFeedback.set({ correct: false, msg: 'Incorrect. It was: hello' });
+      fixture.detectChanges();
+
+      const feedbackElement = fixture.nativeElement.querySelector('.bg-red-100');
+      expect(feedbackElement).toBeTruthy();
+      expect(feedbackElement.textContent.trim()).toBe('Incorrect. It was: hello');
+    });
+
+    it('should render continue button when incorrect and paused', () => {
+      component.typingFeedback.set({ correct: false, msg: 'Wrong' });
+      component.isPaused.set(true);
+      fixture.detectChanges();
+
+      const continueButton = fixture.nativeElement.querySelector('button.bg-red-600');
+      expect(continueButton).toBeTruthy();
+      expect(continueButton.textContent.trim()).toBe('Continue');
+    });
+
+    it('should not render continue button when correct', () => {
+      component.typingFeedback.set({ correct: true, msg: 'Correct!' });
+      component.isPaused.set(false);
+      fixture.detectChanges();
+
+      const continueButton = fixture.nativeElement.querySelector('button.bg-red-600');
+      expect(continueButton).toBeFalsy();
+    });
+
+    it('should disable check button when paused', () => {
+      component.isPaused.set(true);
+      fixture.detectChanges();
+
+      const checkButton = fixture.nativeElement.querySelector('button.bg-indigo-600');
+      expect(checkButton.disabled).toBe(true);
+    });
+
+    it('should enable check button when not paused', () => {
+      component.isPaused.set(false);
+      fixture.detectChanges();
+
+      const checkButton = fixture.nativeElement.querySelector('button.bg-indigo-600');
+      expect(checkButton.disabled).toBe(false);
+    });
+  });
 });

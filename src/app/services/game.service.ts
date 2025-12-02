@@ -5,7 +5,7 @@ import { StaticVocabularyService } from './static-vocabulary.service';
 import { VocabularyStatsService } from './vocabulary-stats.service';
 import { GameStore, Flashcard } from '../game-store';
 import { GameMode, GAME_CONSTANTS } from '../shared/constants';
-import { GameModeService } from './game-mode.service';
+import { GameModeService, GameModeType } from './game-mode.service';
 
 @Injectable({
   providedIn: 'root'
@@ -17,10 +17,10 @@ export class GameService {
   private statsService = inject(VocabularyStatsService);
   private gameModeService = inject(GameModeService);
 
-  async startGame(topic: string, mode: GameMode, useStatic: boolean, difficulty: number | null) {
+  async startGame(topic: string, practiceMode: GameMode, gameModeType: GameModeType, useStatic: boolean, difficulty: number | null) {
     let cards: { english: string, translations: Record<string, string> }[];
 
-    console.log('[GameService] startGame called:', { topic, mode, useStatic, difficulty });
+    console.log('[GameService] startGame called:', { topic, practiceMode, gameModeType, useStatic, difficulty });
 
     if (useStatic) {
       const topicLower = topic.toLowerCase();
@@ -45,11 +45,11 @@ export class GameService {
 
     console.log('[GameService] Total cards before filtering:', cards.length);
 
-    // Filter cards based on selected mode
-    if (mode === GameMode.New) {
+    // Filter cards based on selected practice mode
+    if (practiceMode === GameMode.New) {
       // Show only words never seen before
       cards = cards.filter(card => !this.statsService.getStats(card.english, card.translations['polish'] || ''));
-    } else if (mode === GameMode.Practice) {
+    } else if (practiceMode === GameMode.Practice) {
       // Show words that need practice from the stats service
       const wordsNeedingPractice = this.statsService.getWordsNeedingPractice()
         .filter(stat => stat.category === topic)
@@ -65,7 +65,7 @@ export class GameService {
       category: topic,
       masteryLevel: 0
     }));
-    this.store.startGame(this.gameModeService.getStandardGameMode(), flashcards);
+    this.store.startGame(this.gameModeService.getGameMode(gameModeType), flashcards);
   }
 
   handleAnswer(correct: boolean) {
