@@ -36,6 +36,15 @@
           "/hr_eng_pl/**/*.txt"
         ]
       }
+    },
+    {
+      "name": "translations",
+      "installMode": "prefetch",
+      "resources": {
+        "files": [
+          "/i18n/**/*.json"
+        ]
+      }
     }
   ]
 }

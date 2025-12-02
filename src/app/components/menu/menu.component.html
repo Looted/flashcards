@@ -28,8 +28,8 @@
         <span class="continue-arrow text-xl opacity-80">→</span>
       </button>
 
-      <!-- Separator -->
-      <div class="separator text-center mb-6 relative">
+      <!-- Separator - only show when there are quick actions above -->
+      <div *ngIf="lastSession()" class="separator text-center mb-6 relative">
         <div class="absolute inset-0 flex items-center">
           <div class="w-full border-t border-slate-200"></div>
         </div>
@@ -38,27 +38,31 @@
         </div>
       </div>
 
-      <!-- Quick Actions -->
-      <div class="quick-actions grid grid-cols-2 gap-3 mb-6">
+      <!-- Quick Actions - only show if user has completed at least one session -->
+      <div *ngIf="lastSession()" class="quick-actions grid grid-cols-2 gap-3 mb-6">
         <button
-          (click)="quickStartNew('hr')"
+          (click)="quickStartNew(lastSession()!.category)"
           class="quick-action bg-slate-50 border-2 border-slate-200 rounded-lg p-4 text-center transition-all hover:border-blue-500 hover:shadow-md disabled:opacity-50"
           [disabled]="isLoading">
           <div class="quick-action-icon text-3xl mb-2">🎯</div>
-          <div class="quick-action-title font-semibold text-sm">New Words</div>
+          <div class="quick-action-title font-semibold text-sm mb-1">New Words</div>
+          <div class="quick-action-subtitle text-xs text-slate-400">{{ getCategoryName(lastSession()!.category) }}</div>
         </button>
         <button
-          (click)="quickStartPracticeFromHome('hr')"
+          (click)="quickStartPracticeFromHome(lastSession()!.category)"
           class="quick-action bg-slate-50 border-2 border-slate-200 rounded-lg p-4 text-center transition-all hover:border-blue-500 hover:shadow-md disabled:opacity-50"
-          [disabled]="isLoading || getCategoryStats('hr').needsPractice === 0">
+          [disabled]="isLoading || getCategoryStats(lastSession()!.category).needsPractice === 0">
           <div class="quick-action-icon text-3xl mb-2">⚠️</div>
-          <div class="quick-action-title font-semibold text-sm">Practice Mistakes</div>
+          <div class="quick-action-title font-semibold text-sm mb-1">Practice Mistakes</div>
+          <div class="quick-action-subtitle text-xs text-slate-400">{{ getCategoryName(lastSession()!.category) }}</div>
         </button>
       </div>
 
       <!-- Categories -->
       <div class="categories-section mb-6">
-        <div class="categories-label text-xs font-semibold uppercase tracking-wide text-slate-500 mb-3">Or choose a category</div>
+        <div class="categories-label text-xs font-semibold uppercase tracking-wide text-slate-500 mb-3">
+          {{ lastSession() ? 'Or choose a category' : 'Choose a category to start' }}
+        </div>
         <div class="categories-grid grid grid-cols-1 sm:grid-cols-2 gap-4">
           @for (category of categoryStats(); track category.id) {
             <button

@@ -1,3 +1,9 @@
 :host {
   display: block;
 }
+
+.quick-action-subtitle {
+  margin-top: 4px;
+  font-size: 0.75rem;
+  color: rgb(148 163 184);
+}

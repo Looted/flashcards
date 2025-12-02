@@ -6,6 +6,7 @@ import { VocabularyStatsService } from './vocabulary-stats.service';
 import { GameStore, Flashcard } from '../game-store';
 import { GameMode, GAME_CONSTANTS } from '../shared/constants';
 import { GameModeService, GameModeType } from './game-mode.service';
+import { LanguageService } from './language.service';
 
 @Injectable({
   providedIn: 'root'
@@ -16,6 +17,7 @@ export class GameService {
   private staticVocab = inject(StaticVocabularyService);
   private statsService = inject(VocabularyStatsService);
   private gameModeService = inject(GameModeService);
+  private languageService = inject(LanguageService);
 
   async startGame(topic: string, practiceMode: GameMode, gameModeType: GameModeType, useStatic: boolean, difficulty: number | null) {
     let cards: { english: string, translations: Record<string, string> }[];
@@ -28,10 +30,10 @@ export class GameService {
 
       // Support HR and PM with static vocabulary files
       if (topicLower === 'hr' || topicLower === 'pm') {
-        console.log('[GameService] Loading static vocabulary for:', topicLower);
-        const observable = this.staticVocab.generateWords(topicLower, GAME_CONSTANTS.CARDS_PER_GAME, difficulty ?? undefined);
+        console.log('[GameService] Loading translated vocabulary for:', topicLower, 'with language:', this.languageService.nativeLanguage);
+        const observable = this.staticVocab.generateTranslatedWords(topicLower, this.languageService.nativeLanguage, GAME_CONSTANTS.CARDS_PER_GAME, difficulty ?? undefined);
         cards = await firstValueFrom(observable) || [];
-        console.log('[GameService] Static vocabulary loaded:', cards.length, 'cards');
+        console.log('[GameService] Translated vocabulary loaded:', cards.length, 'cards');
       } else {
         console.log('[GameService] No static vocabulary for topic, using fallback');
         // Use static fallback words for other topics when AI is disabled

@@ -22,7 +22,8 @@ describe('GameService', () => {
     };
 
     mockStaticService = {
-      generateWords: vi.fn()
+      generateWords: vi.fn(),
+      generateTranslatedWords: vi.fn()
     };
 
     mockStatsService = {
@@ -72,6 +73,7 @@ describe('GameService', () => {
     beforeEach(() => {
       mockAiService.generateWords.mockResolvedValue(mockCards);
       mockStaticService.generateWords.mockReturnValue(of(mockCards));
+      mockStaticService.generateTranslatedWords.mockReturnValue(of(mockCards));
       mockStatsService.getStats.mockReturnValue(null);
       mockStatsService.getWordsNeedingPractice.mockReturnValue([]);
     });
@@ -79,14 +81,14 @@ describe('GameService', () => {
     it('should use static vocabulary for hr topic when useStatic is true', async () => {
       await service.startGame('hr', GameMode.New, 'classic', true, null);
 
-      expect(mockStaticService.generateWords).toHaveBeenCalledWith('hr', GAME_CONSTANTS.CARDS_PER_GAME, undefined);
+      expect(mockStaticService.generateTranslatedWords).toHaveBeenCalledWith('hr', 'english', GAME_CONSTANTS.CARDS_PER_GAME, undefined);
       expect(mockAiService.generateWords).not.toHaveBeenCalled();
     });
 
     it('should use static vocabulary for pm topic when useStatic is true', async () => {
       await service.startGame('pm', GameMode.New, 'classic', true, null);
 
-      expect(mockStaticService.generateWords).toHaveBeenCalledWith('pm', GAME_CONSTANTS.CARDS_PER_GAME, undefined);
+      expect(mockStaticService.generateTranslatedWords).toHaveBeenCalledWith('pm', 'english', GAME_CONSTANTS.CARDS_PER_GAME, undefined);
       expect(mockAiService.generateWords).not.toHaveBeenCalled();
     });
 
@@ -113,7 +115,7 @@ describe('GameService', () => {
     it('should pass difficulty parameter to static service', async () => {
       await service.startGame('hr', GameMode.New, 'classic', true, 3);
 
-      expect(mockStaticService.generateWords).toHaveBeenCalledWith('hr', GAME_CONSTANTS.CARDS_PER_GAME, 3);
+      expect(mockStaticService.generateTranslatedWords).toHaveBeenCalledWith('hr', 'english', GAME_CONSTANTS.CARDS_PER_GAME, 3);
     });
 
     it('should filter cards for New mode to show only unseen words', async () => {
@@ -219,7 +221,7 @@ describe('GameService', () => {
     });
 
     it('should handle static service returning empty observable', async () => {
-      mockStaticService.generateWords.mockReturnValue(of([]));
+      mockStaticService.generateTranslatedWords.mockReturnValue(of([]));
 
       await service.startGame('hr', GameMode.New, 'classic', true, null);
 

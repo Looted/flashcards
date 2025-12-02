@@ -1,7 +1,7 @@
 import { Injectable, inject, signal, PLATFORM_ID } from '@angular/core';
 import { isPlatformBrowser } from '@angular/common';
 
-export type Language = 'polish' | 'spanish'
+export type Language = 'english' | 'polish' | 'spanish'
 
 @Injectable({
   providedIn: 'root'
@@ -11,6 +11,7 @@ export class LanguageService {
 
   // Supported native languages with their ISO codes
   private supportedLanguages: Record<string, Language> = {
+    'en': 'english',
     'pl': 'polish',
     'es': 'spanish'
   };
@@ -51,6 +52,7 @@ export class LanguageService {
   // Get display name for a language
   getLanguageDisplayName(language: Language): string {
     const names: Record<Language, string> = {
+      english: 'English',
       polish: 'Polski',
       spanish: 'Español',
     };
