@@ -36,7 +36,7 @@ export class WorkerOrchestrator {
                 do_sample: true
             });
 
-            const generatedText = (output as any)[0].generated_text.at(-1).content;
+            const generatedText = (output as any)[0].generated_text;
             console.log('AI Raw Response:', generatedText);
             const examples: Example[] = TextParser.parseExamples(generatedText);
 

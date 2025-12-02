@@ -65,6 +65,13 @@ describe('HeaderComponent', () => {
       isAiModeEnabled: true
     };
 
+    // Mock isDevMode
+    vi.stubGlobal('ng', {
+      core: {
+        isDevMode: vi.fn().mockReturnValue(true)
+      }
+    });
+
     await TestBed.configureTestingModule({
       imports: [HeaderComponent],
       providers: [

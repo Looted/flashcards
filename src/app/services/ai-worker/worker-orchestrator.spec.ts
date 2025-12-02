@@ -34,9 +34,7 @@ describe('WorkerOrchestrator', () => {
       const { pipeline } = await import('@huggingface/transformers');
 
       const mockGenerator = vi.fn().mockResolvedValue([{
-        generated_text: [{
-          content: 'Difficulty: beginner\nVocabulary: test\nSentence: Test sentence'
-        }]
+        generated_text: 'Difficulty: beginner\nVocabulary: test\nSentence: Test sentence'
       }]);
 
       (pipeline as any).mockImplementation((task: string) => {
@@ -105,9 +103,7 @@ describe('WorkerOrchestrator', () => {
       const { pipeline } = await import('@huggingface/transformers');
 
       const mockGenerator = vi.fn().mockResolvedValue([{
-        generated_text: [{
-          content: 'Difficulty: beginner\nVocabulary: test\nSentence: Test sentence'
-        }]
+        generated_text: 'Difficulty: beginner\nVocabulary: test\nSentence: Test sentence'
       }]);
 
       (pipeline as any).mockImplementation((task: string, model: string, options: any) => {
