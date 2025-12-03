@@ -49,3 +49,6 @@ Thumbs.db
 
 # Firebase
 /.firebase
+
+# Android deployment
+com.bizzwords

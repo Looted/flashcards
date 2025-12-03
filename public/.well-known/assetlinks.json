@@ -1,0 +1,9 @@
+[{
+      "relation": ["delegate_permission/common.handle_all_urls"],
+      "target": {
+        "namespace": "android_app",
+        "package_name": "com.bizzwords",
+        "sha256_cert_fingerprints": ["8B:BB:43:FF:04:84:14:C9:DD:4C:D9:8E:9D:BA:62:FD:1B:07:B9:1B:BF:7D:11:CD:61:42:F6:98:A8:24:BA:EA",
+		"1C:88:F8:B6:93:83:EE:6B:6C:10:8E:C2:94:2A:2C:94:94:47:04:89:66:C9:14:B6:51:E0:5C:01:00:1D:C6:5F"]
+      }
+    }]
