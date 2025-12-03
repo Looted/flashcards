@@ -139,6 +139,14 @@ export class GameStore {
     }
   }
 
+  startNewGame() {
+    // Reset progress but keep the same mode and deck
+    this.roundIndex.set(0);
+    this.queue.set(this.activeDeck().map(c => ({ flashcard: c, successCount: 0 })));
+    this.graduatePile.set([]);
+    this.phase.set('PLAYING');
+  }
+
   reset() {
     this.phase.set('MENU');
     this.activeMode.set(null);

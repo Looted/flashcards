@@ -18,6 +18,11 @@ export class SummaryComponent {
   Math = Math;
 
   startNewSession() {
+    this.store.startNewGame();
+    this.router.navigate(['/game']);
+  }
+
+  backToHome() {
     this.store.reset();
     this.router.navigate(['/']);
   }

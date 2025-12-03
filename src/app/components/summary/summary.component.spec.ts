@@ -23,7 +23,8 @@ describe('SummaryComponent', () => {
     gameStoreMock = {
       activeDeck: activeDeckSignal,
       graduatePile: graduatePileSignal,
-      reset: vi.fn()
+      reset: vi.fn(),
+      startNewGame: vi.fn()
     };
     routerMock = {
       navigate: vi.fn()
@@ -64,8 +65,15 @@ describe('SummaryComponent', () => {
     expect(component.Math).toBe(Math);
   });
 
-  it('should reset store and navigate on startNewSession', () => {
+  it('should start new game and navigate to game on startNewSession', () => {
     component.startNewSession();
+
+    expect(gameStoreMock.startNewGame).toHaveBeenCalled();
+    expect(routerMock.navigate).toHaveBeenCalledWith(['/game']);
+  });
+
+  it('should reset store and navigate to home on backToHome', () => {
+    component.backToHome();
 
     expect(gameStoreMock.reset).toHaveBeenCalled();
     expect(routerMock.navigate).toHaveBeenCalledWith(['/']);
@@ -126,13 +134,26 @@ describe('SummaryComponent', () => {
     });
 
     it('should render start new session button', () => {
-      const button = fixture.nativeElement.querySelector('button');
-      expect(button.textContent.trim()).toBe('Start New Session');
+      const buttons = fixture.nativeElement.querySelectorAll('button');
+      expect(buttons[0].textContent.trim()).toBe('Start New Session');
     });
 
-    it('should call startNewSession when button is clicked', () => {
-      const button = fixture.nativeElement.querySelector('button');
-      button.click();
+    it('should render back to home button', () => {
+      const buttons = fixture.nativeElement.querySelectorAll('button');
+      expect(buttons[1].textContent.trim()).toBe('Back to Home');
+    });
+
+    it('should call startNewSession when start new session button is clicked', () => {
+      const buttons = fixture.nativeElement.querySelectorAll('button');
+      buttons[0].click();
+
+      expect(gameStoreMock.startNewGame).toHaveBeenCalled();
+      expect(routerMock.navigate).toHaveBeenCalledWith(['/game']);
+    });
+
+    it('should call backToHome when back to home button is clicked', () => {
+      const buttons = fixture.nativeElement.querySelectorAll('button');
+      buttons[1].click();
 
       expect(gameStoreMock.reset).toHaveBeenCalled();
       expect(routerMock.navigate).toHaveBeenCalledWith(['/']);

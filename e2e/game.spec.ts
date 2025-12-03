@@ -185,6 +185,39 @@ test.describe("BizzWords", () => {
       // Verify action buttons are present
       await expect(page.locator("text=Start New Session")).toBeVisible();
       await expect(page.locator("text=Back to Home")).toBeVisible();
+
+      // Test Start New Session button
+      await page.click("text=Start New Session");
+
+      // Should navigate back to the game screen with same settings
+      await expect(page.locator("[class*='perspective-1000']")).toBeVisible();
+
+      // Test Back to Home button (need to complete another session first)
+      // Since we clicked Start New Session, we're back in game, so complete it again quickly
+      for (let i = 0; i < 3; i++) {
+        await expect(page.locator("[class*='perspective-1000']")).toBeVisible();
+        await page.click("[class*='perspective-1000']");
+        await page.waitForTimeout(600);
+        await page.click("#got-it");
+        await page.waitForTimeout(300);
+      }
+
+      for (let i = 0; i < 3; i++) {
+        await expect(page.locator("[class*='perspective-1000']")).toBeVisible();
+        await page.click("[class*='perspective-1000']");
+        await page.waitForTimeout(600);
+        await page.click("#got-it");
+        await page.waitForTimeout(300);
+      }
+
+      // Back on summary
+      await expect(page.locator("text=Session Complete!")).toBeVisible();
+
+      // Now test Back to Home
+      await page.click("text=Back to Home");
+
+      // Should navigate to main menu
+      await expect(page.locator("text=Master Business Lingo")).toBeVisible();
     });
   });
 
