@@ -1,3 +1,7 @@
 :host {
   display: block;
 }
+
+#still-learning:disabled:hover, #got-it:disabled:hover {
+  background-color: #475569; /* slate-600 */
+}
