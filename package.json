@@ -8,6 +8,7 @@
     "build:gh-pages": "ng build",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
+    "e2e": "playwright test",
     "serve:ssr:bizzwords": "node dist/bizzwords/server/server.mjs",
     "deploy:ghpages": "ng deploy --base-href=/bizzwords/"
   },
@@ -48,6 +49,7 @@
     "@angular/cli": "^21.0.1",
     "@angular/compiler-cli": "^21.0.1",
     "@angular/platform-browser-dynamic": "^21.0.1",
+    "@playwright/test": "^1.57.0",
     "@types/express": "^5.0.1",
     "@types/node": "^20.17.19",
     "@vitest/coverage-v8": "^4.0.14",
