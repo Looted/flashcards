@@ -54,12 +54,14 @@
     "@types/node": "^20.17.19",
     "@vitest/coverage-v8": "^4.0.14",
     "@vitest/web-worker": "^4.0.14",
+    "@zenai/playwright-coding-agent-reporter": "^1.2.1",
     "angular-cli-ghpages": "^2.0.3",
     "gh-pages": "^6.3.0",
-    "jsdom": "^27.1.0",
+    "jsdom": "^24.1.3",
     "ng-mocks": "^14.14.0",
     "tailwindcss": "^4.1.17",
     "typescript": "~5.9.2",
-    "vitest": "^4.0.8"
+    "vitest": "^4.0.8",
+    "vitest-llm-reporter": "^1.2.1"
   }
 }

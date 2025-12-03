@@ -29,9 +29,11 @@ export class GameStore {
   phase = signal<GamePhase>('MENU');
   activeMode = signal<GameMode | null>(null);
   roundIndex = signal<number>(0);
+  initialSessionDeck = signal<Flashcard[]>([]); // New signal to store the original deck for the session
   activeDeck = signal<Flashcard[]>([]);
   queue = signal<GameCard[]>([]);
   graduatePile = signal<Flashcard[]>([]);
+  skippedPile = signal<Flashcard[]>([]);
 
   currentCard = computed(() => this.queue()[0]?.flashcard || null);
 
@@ -42,7 +44,8 @@ export class GameStore {
   });
 
   progress = computed(() => {
-    const total = this.activeDeck().length;
+    // Progress is now based on the initialSessionDeck minus skipped cards
+    const total = this.initialSessionDeck().length - this.skippedPile().length;
     const done = this.graduatePile().length;
     return total === 0 ? 0 : (done / total) * 100;
   });
@@ -50,10 +53,13 @@ export class GameStore {
   startGame(mode: GameMode, cards: Flashcard[]) {
     this.activeMode.set(mode);
     this.roundIndex.set(0);
+    this.initialSessionDeck.set(cards); // Store the original cards for the session
+    this.skippedPile.set([]); // Ensure skippedPile is clear for a new game
+
     this.activeDeck.set(cards);
     this.queue.set(cards.map(c => ({ flashcard: c, successCount: 0 })));
     this.graduatePile.set([]);
-    this.phase.set('PLAYING');
+    this.phase.set("PLAYING");
   }
 
   submitAnswer(success: boolean) {
@@ -97,6 +103,12 @@ export class GameStore {
     const nativeTranslation = card.flashcard.translations[this.languageService.nativeLanguage] || card.flashcard.translations.polish || '';
     this.statsService.markAsSkipped(card.flashcard.english, nativeTranslation, card.flashcard.category);
 
+    // Add to skippedPile
+    this.skippedPile.update(p => [...p, card.flashcard]);
+
+    // Update activeDeck to reflect the skipped card (no longer available for subsequent rounds)
+    this.activeDeck.update(deck => deck.filter(c => c.id !== card.flashcard.id));
+
     if (this.queue().length === 0) {
       this.advanceRound();
     }
@@ -109,7 +121,7 @@ export class GameStore {
     while (true) {
       const nextRound = currentRoundIndex + 1;
       if (nextRound >= mode.rounds.length) {
-        this.phase.set('SUMMARY');
+        this.phase.set("SUMMARY");
         return;
       }
 
@@ -118,14 +130,18 @@ export class GameStore {
       const config = mode.rounds[currentRoundIndex];
 
       let sourceCards: Flashcard[];
-      if (config.inputSource === 'deck_start') {
-        sourceCards = this.activeDeck();
-      } else if (config.inputSource === 'prev_round_failures') {
-        const initialDeck = this.activeDeck();
+      const skippedIds = new Set(this.skippedPile().map(c => c.id));
+
+      if (config.inputSource === "deck_start") {
+        // Source from the initial session deck, explicitly filtering any currently skipped cards
+        sourceCards = this.initialSessionDeck().filter(c => !skippedIds.has(c.id));
+      } else if (config.inputSource === "prev_round_failures") {
+        const initialDeckForFailures = this.initialSessionDeck(); // Use initialSessionDeck as base
         const graduatedIds = new Set(this.graduatePile().map(c => c.id));
-        sourceCards = initialDeck.filter(c => !graduatedIds.has(c.id));
-      } else if (config.inputSource === 'prev_round_successes') {
-        sourceCards = this.graduatePile();
+        // Filter out graduated and skipped cards from the initial deck
+        sourceCards = initialDeckForFailures.filter(c => !graduatedIds.has(c.id) && !skippedIds.has(c.id));
+      } else if (config.inputSource === "prev_round_successes") {
+        sourceCards = this.graduatePile().filter(c => !skippedIds.has(c.id));
       } else {
         sourceCards = [];
       }
@@ -140,19 +156,25 @@ export class GameStore {
   }
 
   startNewGame() {
-    // Reset progress but keep the same mode and deck
+    // When starting a new game, reset progress, but re-initialize activeDeck based on initialSessionDeck
     this.roundIndex.set(0);
+    this.skippedPile.set([]); // Clear skipped cards for a new run
+
+    // Re-filter activeDeck from initialSessionDeck (all original cards are back for a new game)
+    this.activeDeck.set(this.initialSessionDeck());
     this.queue.set(this.activeDeck().map(c => ({ flashcard: c, successCount: 0 })));
     this.graduatePile.set([]);
-    this.phase.set('PLAYING');
+    this.phase.set("PLAYING");
   }
 
   reset() {
-    this.phase.set('MENU');
+    this.phase.set("MENU");
     this.activeMode.set(null);
     this.roundIndex.set(0);
+    this.initialSessionDeck.set([]); // Clear the original deck too
     this.activeDeck.set([]);
     this.queue.set([]);
     this.graduatePile.set([]);
+    this.skippedPile.set([]);
   }
 }

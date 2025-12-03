@@ -11,7 +11,7 @@ Technologies used:
 - Data persistence: VocabularyStatsService with localStorage for tracking word performance, mastery levels, and learning statistics across sessions
 
 Development setup:
-- Node.js 18+ and npm for package management
+- Node.js 20+ and npm for package management
 - Git for version control
 - VS Code with extensions for Angular, TypeScript, and Markdown
 - Angular CLI for project scaffolding and development tasks
@@ -19,7 +19,7 @@ Development setup:
 Technical constraints:
 - Browser support: Modern browsers (Chrome, Firefox, Safari, Edge)
 - Data limits: LocalStorage ~5-10MB per origin; plan for IndexedDB if needed
-- Offline functionality: Service workers for caching (future enhancement)
+- Offline functionality: Service workers for caching
 - Performance: Aim for <100ms response times for UI interactions using OnPush change detection
 - AI device compatibility: WebGPU acceleration preferred for production, CPU fallback required for testing environments
 
@@ -36,4 +36,5 @@ Tool usage patterns:
 - Use branches for feature development
 - Follow conventional commit format for automated versioning
 - Run tests with `npm run test -- --no-watch --no-progress` for CI
+- Run E2E tests with `npx playwright test` after significant changes to core application functionality
 - Maintain 100% test coverage using `npm run coverage -- --no-watch --no-progress`

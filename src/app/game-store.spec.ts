@@ -238,19 +238,35 @@ describe('GameStore', () => {
       expect(store.queue()[0].flashcard).toEqual(mockCards[1]);
     });
 
-    it('should advance round when queue empties after skip', () => {
+    it('should advance to summary when all cards are skipped', () => {
       // Skip all cards one by one
       store.skipCurrentCard();
       store.skipCurrentCard();
       store.skipCurrentCard();
 
-      expect(store.roundIndex()).toBe(1);
-      expect(store.queue()).toHaveLength(3); // All cards again, since no graduates
+      expect(store.phase()).toBe('SUMMARY'); // All cards skipped, game should end
+      expect(store.roundIndex()).toBe(2); // advanceRound tried all rounds but couldn't populate queue
+      expect(store.queue()).toHaveLength(0);
+      expect(store.skippedPile()).toHaveLength(3);
     });
 
     it('should not crash when no current card', () => {
       store.startGame(mockGameMode, []);
       expect(() => store.skipCurrentCard()).not.toThrow();
+    });
+
+    it('should permanently remove skipped card from active deck', () => {
+      store.startGame(mockGameMode, mockCards);
+
+      const initialDeckLength = store.activeDeck().length;
+      expect(initialDeckLength).toBe(3);
+
+      store.skipCurrentCard();
+
+      expect(store.activeDeck()).toHaveLength(2);
+      expect(store.skippedPile()).toHaveLength(1);
+      expect(store.skippedPile()[0]).toEqual(mockCards[0]);
+      expect(store.activeDeck()).not.toContain(mockCards[0]);
     });
   });
 

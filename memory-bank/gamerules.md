@@ -37,7 +37,8 @@ When starting a new game, the user can configure the following settings:
     - **"I don't know" button**: Quickly mark the word as unknown.
 
 ## General Gameplay Mechanics
-- **"Skip" button**: In any mode, the user can skip the current card. The card will be removed from the current round's queue and marked as skipped. It may reappear in a subsequent round depending on the round's configuration.
+- **"Skip" button**: In any mode, the user can skip the current card. The card will be permanently removed from the current game session - it will not reappear in subsequent rounds, future runs, or the same game session. The card is marked as skipped and excluded from all further gameplay. When a card is skipped, it is added to a "skipped pile" and filtered out from all round transitions that source cards from the initial deck or previous round results.
++++++++ REPLACE</parameter>
 - **Card Repetition on Failure**: If a user marks a card as "I don't know" or answers incorrectly in the text input round, the card will be re-introduced into the deck to be reviewed again after 3 other cards have been shown. This reinforces learning for difficult words.
 - **Card Repetition on Success (Spaced Repetition)**: In Classic mode, even if a user answers a card correctly, it might be shown again later in the same round to reinforce memory. This is especially true for the first time a user sees a word. A correct answer will push the card further back in the queue (e.g., after 10 other cards).
 - **Advancing Rounds**: When all cards in a round have been answered correctly (graduated), the game advances to the next round. The next round can be configured to start with all the initial words, only the words the user failed in the previous round, or only the words the user succeeded with. By default, the next round starts with all the words from the initial deck.
