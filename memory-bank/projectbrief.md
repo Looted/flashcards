@@ -2,21 +2,21 @@
 
 Project Name: BizzWords
 
-Description: A flashcard application to help users learn and memorize business terminology across various domains (HR, Medicine, Finance, etc.) through spaced repetition.
+Description: A flashcard application to help users learn and memorize business terminology across various domains (HR, Medicine, Finance, etc.) through configurable game modes.
 
 Core Requirements:
-- User can create decks of flashcards with a chosen theme (e.g. IT or HR words)
-- Words generated on the fly by embedded transformers.js LLM model
-- Each flashcard has a front (question) and back (answer)
-- Three rounds:
-  - 1. Card shows word in english, when reverted shows word in polish. User confirms if they got it right.
-  - 2. Card in polish, reverted shows english. User confirms.
-  - 3. Card in polish, user types in english word.  System approves or not.
-- Used words saved. Words the user got wrong saved.
-- When starting new game, user either selects new words or practicing the ones he got wrong.
-- Save progress locally or in the cloud
-- Simple and intuitive UI
-- Progressive Web App (PWA) with offline functionality, installable, and native app-like experience
+- **PWA**: Progressive Web App with offline functionality, installable, and native app-like experience.
+- **Static Vocabulary**: The application will use a predefined, static vocabulary for the flashcards. The use of Large Language Models (LLMs) for on-the-fly word generation is a potential future enhancement.
+- **Configurable Game Modes**: Users can choose from different game modes to tailor their learning experience. This includes:
+    - **Classic Mode**: The standard learning mode with configurable rounds.
+    - **Blitz Mode**: A fast-paced mode for quick review sessions.
+- **Configurable Rounds**: Within the Classic Mode, users can configure the number and type of rounds for their study session. The rounds can include:
+    - Round 1: Card shows the word in English, and the translation is revealed on flip.
+    - Round 2: Card shows the word in the translated language, and the English word is revealed on flip.
+    - Round 3: Card shows the word in the translated language, and the user has to type the English equivalent.
+- **Progress Tracking**: User progress, including correctly and incorrectly answered words, is saved locally.
+- **Practice Mode**: Users can choose to practice words they have previously answered incorrectly.
+- **Simple and Intuitive UI**: A clean and user-friendly interface for a seamless learning experience.
 
 Goals:
 - Efficient learning tool built with modern Angular v20+ standards
