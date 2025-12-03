@@ -153,7 +153,7 @@ describe('GameStore', () => {
   });
 
   describe('progress calculation', () => {
-    it('should calculate progress as graduated / total', () => {
+    it('should calculate progress as graduated / total for current round', () => {
       store.startGame(mockGameMode, mockCards);
       expect(store.progress()).toBe(0); // 0/3
 
@@ -163,8 +163,26 @@ describe('GameStore', () => {
       store.submitAnswer(true); // Graduate second
       expect(store.progress()).toBeCloseTo(66.66666666666667); // 2/3
 
-      store.submitAnswer(true); // Graduate third
-      expect(store.progress()).toBe(100); // 3/3
+      store.submitAnswer(true); // Graduate third, round advances
+      expect(store.roundIndex()).toBe(1); // Now in round 2
+      expect(store.progress()).toBe(0); // Round 2 starts fresh with 0 progress
+    });
+
+    it('should reset progress when advancing to next round', () => {
+      store.startGame(mockGameMode, mockCards);
+
+      // Complete round 1
+      store.submitAnswer(true);
+      store.submitAnswer(true);
+      store.submitAnswer(true);
+
+      // Should be in round 2 with fresh progress
+      expect(store.roundIndex()).toBe(1);
+      expect(store.progress()).toBe(0);
+
+      // Graduate one card in round 2
+      store.submitAnswer(true);
+      expect(store.progress()).toBeCloseTo(33.333333333333336); // 1/3 in round 2
     });
   });
 

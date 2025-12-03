@@ -35,6 +35,10 @@ export class GameStore {
   graduatePile = signal<Flashcard[]>([]);
   skippedPile = signal<Flashcard[]>([]);
 
+  // Round-specific progress signals
+  roundInitialQueueSize = signal<number>(0);
+  roundGraduatedCount = signal<number>(0);
+
   currentCard = computed(() => this.queue()[0]?.flashcard || null);
 
   currentRoundConfig = computed(() => {
@@ -44,9 +48,9 @@ export class GameStore {
   });
 
   progress = computed(() => {
-    // Progress is now based on the initialSessionDeck minus skipped cards
-    const total = this.initialSessionDeck().length - this.skippedPile().length;
-    const done = this.graduatePile().length;
+    // Progress is now based on the current round's initial queue size and graduated count
+    const total = this.roundInitialQueueSize();
+    const done = this.roundGraduatedCount();
     return total === 0 ? 0 : (done / total) * 100;
   });
 
@@ -59,6 +63,11 @@ export class GameStore {
     this.activeDeck.set(cards);
     this.queue.set(cards.map(c => ({ flashcard: c, successCount: 0 })));
     this.graduatePile.set([]);
+
+    // Initialize round-specific progress signals
+    this.roundInitialQueueSize.set(cards.length);
+    this.roundGraduatedCount.set(0);
+
     this.phase.set("PLAYING");
   }
 
@@ -76,6 +85,8 @@ export class GameStore {
       card.successCount++;
       if (card.successCount >= this.currentRoundConfig()!.completionCriteria.requiredSuccesses) {
         this.graduatePile.update(p => [...p, card.flashcard]);
+        // Update round-specific progress
+        this.roundGraduatedCount.update(c => c + 1);
       } else {
         // Re-queue at index + 10 (spaced repetition within session)
         const insertIndex = Math.min(10, this.queue().length);
@@ -149,6 +160,9 @@ export class GameStore {
       const newQueue = sourceCards.map(c => ({ flashcard: c, successCount: 0 }));
       if (newQueue.length > 0) {
         this.queue.set(newQueue);
+        // Reset round-specific progress signals for the new round
+        this.roundInitialQueueSize.set(newQueue.length);
+        this.roundGraduatedCount.set(0);
         break;
       }
       // If queue would be empty, continue to next round
@@ -164,6 +178,11 @@ export class GameStore {
     this.activeDeck.set(this.initialSessionDeck());
     this.queue.set(this.activeDeck().map(c => ({ flashcard: c, successCount: 0 })));
     this.graduatePile.set([]);
+
+    // Initialize round-specific progress signals
+    this.roundInitialQueueSize.set(this.activeDeck().length);
+    this.roundGraduatedCount.set(0);
+
     this.phase.set("PLAYING");
   }
 
@@ -176,5 +195,8 @@ export class GameStore {
     this.queue.set([]);
     this.graduatePile.set([]);
     this.skippedPile.set([]);
+    // Reset round-specific progress signals
+    this.roundInitialQueueSize.set(0);
+    this.roundGraduatedCount.set(0);
   }
 }
