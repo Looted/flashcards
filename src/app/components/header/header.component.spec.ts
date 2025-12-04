@@ -48,7 +48,14 @@ describe('HeaderComponent', () => {
     };
 
     routerMock = {
-      navigate: vi.fn()
+      navigate: vi.fn(),
+      events: {
+        pipe: vi.fn().mockReturnValue({
+          subscribe: vi.fn().mockReturnValue({
+            unsubscribe: vi.fn()
+          })
+        })
+      }
     };
 
     storageServiceMock = {

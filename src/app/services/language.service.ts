@@ -71,9 +71,9 @@ export class LanguageService {
    */
   getLanguageDisplayName(language: SupportedLanguage): string {
     switch (language) {
-      case 'pl': return 'Polish';
-      case 'es': return 'Spanish';
-      default: return 'Polish';
+      case 'pl': return 'Polski';
+      case 'es': return 'Español';
+      default: return 'Polski';
     }
   }
 

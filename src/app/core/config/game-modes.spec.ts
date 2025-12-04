@@ -7,7 +7,7 @@ describe('Game Modes', () => {
 
   beforeEach(() => {
     mockLanguageService = {
-      nativeLanguage: 'polish'
+      currentLanguage: vi.fn().mockReturnValue('pl')
     };
   });
 

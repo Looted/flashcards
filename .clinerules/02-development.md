@@ -11,5 +11,7 @@ Run the unit tests by running `npm run test -- --no-watch --no-progress` command
 If you wish to run a single suite, use the `--include` flag, e.g. `npm run test -- --no-watch --no-progress --include=src/app/app.spec.ts`, or use a glob pattern.
 Important: do not run npx vitests - you need to use Angular CLI's command for tests to work reliably.
 
+Note: If tests result in segfaults, rerun them as the issue may be transient.
+
 ## Coverage
 Make sure the coverage is 100% after adding any new code. Run the coverage using `npm run test -- --coverage --no-watch --no-progress` command.

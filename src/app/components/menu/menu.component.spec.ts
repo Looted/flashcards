@@ -23,8 +23,8 @@ describe('MenuComponent', () => {
     statsServiceMock = {
       getAllStats: vi.fn().mockReturnValue([]),
       getStatsByCategory: vi.fn().mockReturnValue([]),
-      wordsNeedingReviewByCategory: { 'hr': 0, 'pm': 0 },
-      totalWordsNeedingReview: 0
+      wordsNeedingReviewByCategory: vi.fn().mockReturnValue({ 'hr': 0, 'pm': 0 }),
+      totalWordsNeedingReview: vi.fn().mockReturnValue(0)
     };
     routerMock = {
       navigate: vi.fn()

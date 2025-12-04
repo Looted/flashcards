@@ -29,6 +29,7 @@ Testing patterns:
 - Progress callback testing: Mock progress_callback parameters in pipeline options for async operation testing.
 - Device compatibility: Use CPU fallback for AI models in test environments when WebGPU is unavailable.
 - Error scenario coverage: Test various error conditions including device support, network failures, and invalid inputs.
+- Segfault handling: If tests result in segfaults, rerun them as the issue may be transient.
 
 Component relationships:
 - App (root standalone component) -> Header, RouterOutlet

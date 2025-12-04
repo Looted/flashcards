@@ -2,6 +2,7 @@ import { TestBed } from '@angular/core/testing';
 import { GameStore, Flashcard } from './game-store';
 import { VocabularyStatsService } from './services/vocabulary-stats.service';
 import { StorageService } from './services/storage.service';
+import { LanguageService } from './services/language.service';
 import { PLATFORM_ID } from '@angular/core';
 import { GameModeService } from './services/game-mode.service';
 import { describe, it, expect, beforeEach, vi } from 'vitest';
@@ -41,6 +42,7 @@ describe('GameStore', () => {
         },
         { provide: VocabularyStatsService, useValue: vocabularyStatsServiceMock },
         { provide: StorageService, useValue: storageServiceMock },
+        { provide: LanguageService, useValue: { currentLanguage: vi.fn().mockReturnValue('pl') } },
         { provide: PLATFORM_ID, useValue: 'browser' }
       ]
     });
