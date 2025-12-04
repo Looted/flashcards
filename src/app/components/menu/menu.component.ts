@@ -46,12 +46,13 @@ export class MenuComponent implements OnInit {
     difficulty: number | null;
   } | null>(null);
 
-  // Computed category stats
+  // Computed category stats using reactive signals
   categoryStats = computed(() => {
+    const needsReviewByCategory = this.statsService.wordsNeedingReviewByCategory();
     return this.categories.map(category => {
       const categoryStats = this.statsService.getStatsByCategory(category.id);
       const mastered = categoryStats.filter(s => s.masteryLevel >= 4).length;
-      const needsPractice = categoryStats.filter(s => s.masteryLevel < 2).length;
+      const needsPractice = needsReviewByCategory[category.id] || 0;
 
       return {
         ...category,
@@ -61,6 +62,9 @@ export class MenuComponent implements OnInit {
       };
     });
   });
+
+  // Computed signal for total words needing review
+  totalWordsNeedingReview = computed(() => this.statsService.totalWordsNeedingReview());
 
   // Overall stats for the stats bar
   overallStats = computed(() => {

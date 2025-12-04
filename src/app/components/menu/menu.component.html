@@ -160,11 +160,11 @@
             </div>
           </label>
           <label class="flex items-center p-3 rounded-xl border border-slate-200 dark:border-slate-700 cursor-pointer hover:bg-slate-50 dark:hover:bg-slate-700 has-[:checked]:border-blue-500 dark:has-[:checked]:border-blue-500 has-[:checked]:bg-blue-50/50 dark:has-[:checked]:bg-blue-900/20 transition-all"
-                 [class.opacity-50]="getMistakesCount(selectedCategory()) === 0">
-            <input type="radio" name="practiceMode" value="practice" class="w-5 h-5 text-blue-600 border-slate-300 focus:ring-blue-500" [checked]="selectedPracticeMode() === GameMode.Practice" (change)="selectedPracticeMode.set(GameMode.Practice)">
+                 [class.opacity-50]="totalWordsNeedingReview() === 0">
+            <input type="radio" name="practiceMode" value="practice" class="w-5 h-5 text-blue-600 border-slate-300 focus:ring-blue-500" [checked]="selectedPracticeMode() === GameMode.Practice" (change)="selectedPracticeMode.set(GameMode.Practice)" [disabled]="totalWordsNeedingReview() === 0">
             <div class="ml-3">
               <span class="block text-sm font-bold text-slate-900 dark:text-white">Review Mistakes</span>
-              <span class="block text-xs text-slate-500 dark:text-slate-400">Focus on what you missed</span>
+              <span class="block text-xs text-slate-500 dark:text-slate-400">{{ totalWordsNeedingReview() }} words to review</span>
             </div>
           </label>
         </div>

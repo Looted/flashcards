@@ -7,7 +7,7 @@
   },
   {
     "id": "hr_0002",
-    "term_translation": "Rotación natural (attrition)",
+    "term_translation": "Rotación natural",
     "definition_translation": "Reducción gradual de la plantilla debido a renuncias o jubilaciones sin reemplazo inmediato.",
     "example_translation": "El número de empleados disminuyó por la rotación natural."
   },
@@ -133,7 +133,7 @@
   },
   {
     "id": "hr_0023",
-    "term_translation": "Sistema de información de RR. HH. (HRIS)",
+    "term_translation": "Sistema de información de RR. HH.",
     "definition_translation": "Software utilizado para gestionar datos de empleados y procesos de recursos humanos.",
     "example_translation": "Utilizamos un HRIS para simplificar la nómina y la administración de beneficios."
   },
@@ -163,13 +163,13 @@
   },
   {
     "id": "hr_0028",
-    "term_translation": "Learning and Development (L&D)",
+    "term_translation": "Formación y desarrollo",
     "definition_translation": "Actividades de la organización destinadas a desarrollar conocimientos y habilidades de los empleados.",
     "example_translation": "Los programas de L&D son fundamentales para el crecimiento profesional."
   },
   {
     "id": "hr_0029",
-    "term_translation": "Onboarding (inducción)",
+    "term_translation": "Inducción",
     "definition_translation": "Proceso de integración de un nuevo empleado en la empresa y en su puesto.",
     "example_translation": "Un buen proceso de onboarding ayuda a los nuevos empleados a adaptarse más rápido."
   },
@@ -223,7 +223,7 @@
   },
   {
     "id": "hr_0038",
-    "term_translation": "Dotación de personal (staffing)",
+    "term_translation": "Dotación de personal",
     "definition_translation": "Proceso de cubrir puestos con empleados adecuados.",
     "example_translation": "Las necesidades de dotación de personal aumentan en temporadas de alta demanda."
   },
@@ -277,7 +277,7 @@
   },
   {
     "id": "hr_0047",
-    "term_translation": "Sistema de seguimiento de candidatos (ATS)",
+    "term_translation": "Sistema de seguimiento de candidatos",
     "definition_translation": "Software utilizado para gestionar los procesos de reclutamiento y los datos de candidatos.",
     "example_translation": "Nuestro ATS filtra candidatos y agiliza la contratación."
   },
@@ -325,7 +325,7 @@
   },
   {
     "id": "hr_0055",
-    "term_translation": "Programa de asistencia al empleado (EAP)",
+    "term_translation": "Programa de asistencia al empleado",
     "definition_translation": "Servicios que ayudan a los empleados con problemas personales o laborales.",
     "example_translation": "El EAP ofrece asesoría y apoyo a los empleados que lo necesitan."
   },
@@ -367,7 +367,7 @@
   },
   {
     "id": "hr_0062",
-    "term_translation": "RGPD (GDPR)",
+    "term_translation": "RGPD",
     "definition_translation": "Reglamento de la Unión Europea sobre protección de datos y privacidad.",
     "example_translation": "RR. HH. debe cumplir con el RGPD al manejar los datos de los empleados."
   },
@@ -439,7 +439,7 @@
   },
   {
     "id": "hr_0074",
-    "term_translation": "Sistema de gestión del aprendizaje (LMS)",
+    "term_translation": "Sistema de gestión del aprendizaje",
     "definition_translation": "Software para impartir y gestionar formaciones a los empleados.",
     "example_translation": "La empresa usa un LMS para hacer seguimiento de los cursos y certificaciones."
   },
@@ -487,7 +487,7 @@
   },
   {
     "id": "hr_0082",
-    "term_translation": "Período de prueba (probationary period)",
+    "term_translation": "Período de prueba",
     "definition_translation": "Primer periodo de empleo en el que se evalúa la aptitud del trabajador.",
     "example_translation": "Durante el período de prueba el contrato puede rescindirse con mayor facilidad."
   },
@@ -529,7 +529,7 @@
   },
   {
     "id": "hr_0089",
-    "term_translation": "Comisión de servicio (secondment)",
+    "term_translation": "Comisión de servicio",
     "definition_translation": "Traslado temporal de un empleado a otro puesto o departamento.",
     "example_translation": "Aceptó una comisión de servicio en el departamento de marketing durante seis meses."
   }

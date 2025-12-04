@@ -1,6 +1,7 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 import { SummaryComponent } from './summary.component';
 import { GameStore } from '../../game-store';
+import { VocabularyStatsService } from '../../services/vocabulary-stats.service';
 import { StorageService } from '../../services/storage.service';
 import { Router } from '@angular/router';
 import { PLATFORM_ID } from '@angular/core';
@@ -13,16 +14,20 @@ describe('SummaryComponent', () => {
   let gameStoreMock: any;
   let routerMock: any;
   let storageServiceMock: any;
-  let activeDeckSignal: any;
+  let statsServiceMock: any;
+  let initialSessionDeckSignal: any;
   let graduatePileSignal: any;
+  let skippedPileSignal: any;
 
   beforeEach(async () => {
-    activeDeckSignal = signal([]);
+    initialSessionDeckSignal = signal([]);
     graduatePileSignal = signal([]);
+    skippedPileSignal = signal([]);
 
     gameStoreMock = {
-      activeDeck: activeDeckSignal,
+      initialSessionDeck: initialSessionDeckSignal,
       graduatePile: graduatePileSignal,
+      skippedPile: skippedPileSignal,
       reset: vi.fn(),
       startNewGame: vi.fn()
     };
@@ -35,11 +40,17 @@ describe('SummaryComponent', () => {
       removeItem: vi.fn(),
       clear: vi.fn()
     };
+    statsServiceMock = {
+      getAllStats: vi.fn().mockReturnValue([]),
+      wordsNeedingReviewByCategory: {},
+      totalWordsNeedingReview: 0
+    };
 
     await TestBed.configureTestingModule({
       imports: [SummaryComponent],
       providers: [
         { provide: GameStore, useValue: gameStoreMock },
+        { provide: VocabularyStatsService, useValue: statsServiceMock },
         { provide: Router, useValue: routerMock },
         { provide: StorageService, useValue: storageServiceMock },
         { provide: PLATFORM_ID, useValue: 'browser' }
@@ -61,10 +72,6 @@ describe('SummaryComponent', () => {
     expect(component).toBeTruthy();
   });
 
-  it('should expose Math object for template use', () => {
-    expect(component.Math).toBe(Math);
-  });
-
   it('should start new game and navigate to game on startNewSession', () => {
     component.startNewSession();
 
@@ -80,45 +87,51 @@ describe('SummaryComponent', () => {
   });
 
   describe('Template data binding', () => {
-    it('should display total cards count', async () => {
-      activeDeckSignal.set([{ id: 1 }, { id: 2 }, { id: 3 }]);
+    it('should display total cards, mastered, and needs learning counts', async () => {
+      const mockCards = [
+        { id: '1', english: 'Hello', translations: { polish: 'Cześć' }, category: 'Basic', masteryLevel: 0 },
+        { id: '2', english: 'Goodbye', translations: { polish: 'Do widzenia' }, category: 'Basic', masteryLevel: 0 },
+        { id: '3', english: 'Thank you', translations: { polish: 'Dziękuję' }, category: 'Basic', masteryLevel: 0 }
+      ];
+
+      // Set up stats where "Hello" is mastered (masteryLevel >= 4)
+      const mockStats = [
+        { english: 'Hello', polish: 'Cześć', category: 'Basic', timesEncountered: 10, timesCorrect: 10, timesIncorrect: 0, lastEncountered: Date.now(), masteryLevel: 5, skipped: false },
+        { english: 'Goodbye', polish: 'Do widzenia', category: 'Basic', timesEncountered: 1, timesCorrect: 0, timesIncorrect: 1, lastEncountered: Date.now(), masteryLevel: 0, skipped: false },
+        { english: 'Thank you', polish: 'Dziękuję', category: 'Basic', timesEncountered: 1, timesCorrect: 0, timesIncorrect: 1, lastEncountered: Date.now(), masteryLevel: 0, skipped: false }
+      ];
+
+      initialSessionDeckSignal.set(mockCards);
+      skippedPileSignal.set([mockCards[1]]);   // 1 needs learning (Goodbye was skipped)
+      statsServiceMock.getAllStats.mockReturnValue(mockStats);
       fixture.detectChanges();
       await fixture.whenStable();
 
-      const totalCardsElement = fixture.nativeElement.querySelector('.border-b .text-2xl');
-      expect(totalCardsElement.textContent.trim()).toBe('3');
+      const spans = fixture.nativeElement.querySelectorAll('.flex.justify-between > span:last-child');
+      const totalSpan = spans[0];
+      const masteredSpan = spans[1];
+      const needsSpan = spans[2];
+
+      expect(totalSpan.textContent.trim()).toBe('3');
+      expect(masteredSpan.textContent.trim()).toBe('1'); // Hello is mastered
+      expect(needsSpan.textContent.trim()).toBe('1');   // Goodbye was skipped
     });
 
-    it('should display needs practice count', async () => {
-      activeDeckSignal.set([{ id: 1 }, { id: 2 }, { id: 3 }]);
-      graduatePileSignal.set([{ id: 1 }]); // 1 graduated, 2 need practice
-      fixture.detectChanges();
-      await fixture.whenStable();
-
-      const needsPracticeElement = fixture.nativeElement.querySelector('.text-amber-500, .text-green-500');
-      expect(needsPracticeElement.textContent.trim()).toBe('2');
-    });
-
-    it('should display zero needs practice when all cards graduated', async () => {
-      activeDeckSignal.set([{ id: 1 }, { id: 2 }]);
-      graduatePileSignal.set([{ id: 1 }, { id: 2 }, { id: 3 }]); // More graduated than active
-      fixture.detectChanges();
-      await fixture.whenStable();
-
-      const needsPracticeElement = fixture.nativeElement.querySelector('.text-amber-500, .text-green-500');
-      expect(needsPracticeElement.textContent.trim()).toBe('0');
-    });
-
-    it('should display zero total cards when deck is empty', async () => {
-      activeDeckSignal.set([]);
+    it('should display zero counts when all signals are empty', async () => {
+      initialSessionDeckSignal.set([]);
       graduatePileSignal.set([]);
+      skippedPileSignal.set([]);
       fixture.detectChanges();
       await fixture.whenStable();
 
-      const totalCardsElement = fixture.nativeElement.querySelector('.border-b .text-2xl');
-      const needsPracticeElement = fixture.nativeElement.querySelector('.text-amber-500, .text-green-500');
-      expect(totalCardsElement.textContent.trim()).toBe('0');
-      expect(needsPracticeElement.textContent.trim()).toBe('0');
+      const spans = fixture.nativeElement.querySelectorAll('.flex.justify-between > span:last-child');
+      const totalSpan = spans[0];
+      const masteredSpan = spans[1];
+      const needsSpan = spans[2];
+
+      expect(totalSpan.textContent.trim()).toBe('0');
+      expect(masteredSpan.textContent.trim()).toBe('0');
+      expect(needsSpan.textContent.trim()).toBe('0');
     });
   });
 

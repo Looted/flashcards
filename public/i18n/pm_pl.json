@@ -13,7 +13,7 @@
   },
   {
     "id": "pm_0003",
-    "term_translation": "Pełzanie zakresu",
+    "term_translation": "Rozszerzanie zakresu",
     "definition_translation": "Nie kontrolowane rozszerzanie się zakresu projektu bez odpowiednich zmian w czasie, kosztach lub zasobach.",
     "example_translation": "Częste nowe prośby interesariuszy spowodowały pełzanie zakresu."
   },
@@ -37,7 +37,7 @@
   },
   {
     "id": "pm_0007",
-    "term_translation": "Struktura podziału pracy (WBS)",
+    "term_translation": "Struktura podziału pracy",
     "definition_translation": "Hierarchiczny podział całej pracy projektowej na mniejsze, łatwiejsze do zarządzania elementy.",
     "example_translation": "Zespół użył WBS, aby uporządkować zadania w pakiety robocze."
   },
@@ -55,7 +55,7 @@
   },
   {
     "id": "pm_0010",
-    "term_translation": "Baseline (plan odniesienia)",
+    "term_translation": "Plan bazowy",
     "definition_translation": "Zatwierdzona wersja planu służąca jako punkt odniesienia do pomiaru wyników projektu.",
     "example_translation": "Co miesiąc porównujemy rzeczywiste koszty z budżetowym baseline’em."
   },
@@ -115,7 +115,7 @@
   },
   {
     "id": "pm_0020",
-    "term_translation": "Problem (issue)",
+    "term_translation": "Problem",
     "definition_translation": "Aktualny problem, który wpływa na projekt i wymaga natychmiastowej uwagi.",
     "example_translation": "Opóźnienie dostawcy stało się krytycznym problemem dla harmonogramu."
   },
@@ -205,7 +205,7 @@
   },
   {
     "id": "pm_0035",
-    "term_translation": "Wnioski po projekcie (lessons learned)",
+    "term_translation": "Wnioski z projektu",
     "definition_translation": "Wiedza zdobyta podczas projektu, która może poprawić przyszłe działania.",
     "example_translation": "Spisaliśmy wnioski po projekcie, aby uniknąć podobnych problemów następnym razem."
   },
@@ -223,13 +223,13 @@
   },
   {
     "id": "pm_0038",
-    "term_translation": "Zapewnienie jakości (QA)",
+    "term_translation": "Zapewnienie jakości",
     "definition_translation": "Działania mające zapewnić, że procesy projektowe prowadzą do oczekiwanej jakości wyników.",
     "example_translation": "Przeglądy w ramach zapewnienia jakości sprawdzają zgodność ze standardami."
   },
   {
     "id": "pm_0039",
-    "term_translation": "Kontrola jakości (QC)",
+    "term_translation": "Kontrola jakości",
     "definition_translation": "Działania sprawdzające, czy produkty cząstkowe spełniają wymagania jakościowe.",
     "example_translation": "Zespół przeprowadził testy w ramach kontroli jakości przed wydaniem produktu."
   },
@@ -289,25 +289,25 @@
   },
   {
     "id": "pm_0049",
-    "term_translation": "Wykres spalania (burn-down chart)",
+    "term_translation": "Wykres spalania",
     "definition_translation": "Wykres pokazujący pozostałą ilość pracy w sprincie lub projekcie w czasie.",
     "example_translation": "Wykres spalania wskazywał, że zespół jest przed harmonogramem."
   },
   {
     "id": "pm_0050",
-    "term_translation": "Wykres przyrostu (burn-up chart)",
+    "term_translation": "Wykres przyrostu",
     "definition_translation": "Wykres przedstawiający wykonany zakres pracy w czasie oraz całkowity zakres.",
     "example_translation": "Wykres przyrostu ułatwił zauważenie zmian w zakresie."
   },
   {
     "id": "pm_0051",
-    "term_translation": "Minimalny produkt użyteczny (MVP)",
+    "term_translation": "Minimalny produkt użyteczny",
     "definition_translation": "Najprostsza wersja produktu, którą można wypuścić, aby przetestować założenia i zebrać opinie.",
     "example_translation": "Zespół skupił się na zbudowaniu MVP do wczesnych testów z użytkownikami."
   },
   {
     "id": "pm_0052",
-    "term_translation": "Mapa drogowa (roadmap)",
+    "term_translation": "Mapa drogowa",
     "definition_translation": "Wysokopoziomowe podsumowanie pokazujące wizję i kierunek rozwoju produktu w czasie.",
     "example_translation": "Mapa drogowa produktu pokazuje planowane wydania na nadchodzący rok."
   },
@@ -325,7 +325,7 @@
   },
   {
     "id": "pm_0055",
-    "term_translation": "Łagodzenie ryzyka (risk mitigation)",
+    "term_translation": "Łagodzenie ryzyka",
     "definition_translation": "Działania podejmowane w celu zmniejszenia prawdopodobieństwa lub wpływu ryzyka.",
     "example_translation": "Zatrudnienie dodatkowego dewelopera było strategią łagodzenia ryzyka."
   },
@@ -367,25 +367,25 @@
   },
   {
     "id": "pm_0062",
-    "term_translation": "Czas realizacji (lead time)",
+    "term_translation": "Czas realizacji",
     "definition_translation": "Czas od rozpoczęcia procesu do jego zakończenia.",
     "example_translation": "Skrócenie czasu realizacji pomogło szybciej dostarczać funkcjonalności."
   },
   {
     "id": "pm_0063",
-    "term_translation": "Wyrównywanie zasobów (resource leveling)",
+    "term_translation": "Wyrównywanie zasobów",
     "definition_translation": "Technika wygładzania wykorzystania zasobów poprzez zmianę dat rozpoczęcia i zakończenia zadań.",
     "example_translation": "Wyrównywanie zasobów zmniejszyło nadgodziny dzięki przesunięciu zadań niekrytycznych."
   },
   {
     "id": "pm_0064",
-    "term_translation": "Rozpoczęcie realizacji projektu (project kickoff)",
+    "term_translation": "Rozpoczęcie realizacji projektu",
     "definition_translation": "Początek fazy realizacji, gdy zespół zaczyna wykonywać zadania.",
     "example_translation": "Po etapie planowania rozpoczęcie realizacji projektu oznaczało start prac dostawczych."
   },
   {
     "id": "pm_0065",
-    "term_translation": "Ład korporacyjny projektu (project governance)",
+    "term_translation": "Ład korporacyjny projektu",
     "definition_translation": "Zestaw zasad i procesów, które kierują podejmowaniem decyzji w projekcie.",
     "example_translation": "Silny ład korporacyjny projektu zapewnił spójne decyzje dla całego portfela."
   },
@@ -415,7 +415,7 @@
   },
   {
     "id": "pm_0070",
-    "term_translation": "Rejestr problemów (issue log)",
+    "term_translation": "Rejestr problemów",
     "definition_translation": "Dokument służący do śledzenia problemów, ich statusu i podjętych działań.",
     "example_translation": "Rejestr problemów jest omawiany na każdym cotygodniowym spotkaniu."
   },
@@ -433,7 +433,7 @@
   },
   {
     "id": "pm_0073",
-    "term_translation": "Pełzanie zakresu projektu",
+    "term_translation": "Rozszerzanie zakresu projektu",
     "definition_translation": "Stopniowe rozszerzanie zakresu projektu bez formalnej akceptacji i zmiany zasobów.",
     "example_translation": "Nie kontrolowane prośby o nowe funkcje doprowadziły do pełzania zakresu projektu."
   },
@@ -479,7 +479,7 @@
     "definition_translation": "Zapis wszystkich zgłoszonych, zatwierdzonych i odrzuconych zmian w projekcie.",
     "example_translation": "Rejestr zmian pokazuje, jak zakres ewoluował w czasie."
   },
-   {
+  {
     "id": "pm_0081",
     "term_translation": "Rejestr interesariuszy",
     "definition_translation": "Dokument zawierający listę interesariuszy wraz z informacjami o ich interesach, wpływie i danych kontaktowych.",
@@ -637,7 +637,7 @@
   },
   {
     "id": "pm_0107",
-    "term_translation": "Szansa (ryzyko pozytywne)",
+    "term_translation": "Szansa",
     "definition_translation": "Pozytywne ryzyko, które w przypadku wystąpienia ma korzystny wpływ na cele projektu.",
     "example_translation": "Uzyskanie rabatu od dostawców zostało zidentyfikowane jako szansa."
   },
@@ -679,19 +679,19 @@
   },
   {
     "id": "pm_0114",
-    "term_translation": "Definicja ukończenia (Definition of Done)",
+    "term_translation": "Definicja ukończenia",
     "definition_translation": "Wspólne zrozumienie tego, co oznacza zakończenie pracy nad elementem.",
     "example_translation": "Zespół zaktualizował Definicję ukończenia, dodając wymóg testów wydajnościowych."
   },
   {
     "id": "pm_0115",
-    "term_translation": "Definicja gotowości (Definition of Ready)",
+    "term_translation": "Definicja gotowości",
     "definition_translation": "Zestaw kryteriów, które element backlogu musi spełnić, aby zespół mógł podjąć nad nim pracę.",
     "example_translation": "Historyjki muszą spełniać Definicję gotowości, zanim trafią do sprintu."
   },
   {
     "id": "pm_0116",
-    "term_translation": "Właściciel produktu (Product Owner)",
+    "term_translation": "Właściciel produktu",
     "definition_translation": "Rola odpowiedzialna za maksymalizację wartości produktu i zarządzanie backlogiem produktu.",
     "example_translation": "Właściciel produktu priorytetyzował funkcje w oparciu o wpływ na klienta."
   },
@@ -763,7 +763,7 @@
   },
   {
     "id": "pm_0128",
-    "term_translation": "Impediment (przeszkoda)",
+    "term_translation": "Przeszkoda",
     "definition_translation": "Cokolwiek, co spowalnia lub zatrzymuje postęp zespołu.",
     "example_translation": "Scrum Master śledzi i usuwa impedimenty zgłaszane na daily."
   },
@@ -775,7 +775,7 @@
   },
   {
     "id": "pm_0130",
-    "term_translation": "Panel projektu (dashboard)",
+    "term_translation": "Panel projektu",
     "definition_translation": "Wizualna prezentacja kluczowych metryk projektu, takich jak harmonogram, koszty i ryzyka.",
     "example_translation": "Kadra zarządzająca przeglądała panel projektu przed spotkaniem komitetu sterującego."
   },
@@ -811,7 +811,7 @@
   },
   {
     "id": "pm_0136",
-    "term_translation": "Proof of concept",
+    "term_translation": "Dowód koncepcji",
     "definition_translation": "Niewielki eksperyment mający pokazać, że dany pomysł lub podejście jest wykonalne.",
     "example_translation": "Proof of concept potwierdził, że integracja jest technicznie możliwa."
   },
@@ -835,7 +835,7 @@
   },
   {
     "id": "pm_0140",
-    "term_translation": "Okres hypercare",
+    "term_translation": "Okres wzmożonego wsparcia",
     "definition_translation": "Wzmożony okres wsparcia bezpośrednio po uruchomieniu rozwiązania, aby szybko reagować na problemy.",
     "example_translation": "W czasie hypercare dodatkowy personel całodobowo monitorował system."
   },

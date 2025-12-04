@@ -7,7 +7,7 @@
   },
   {
     "id": "hr_0002",
-    "term_translation": "Attrition (naturalne odejścia)",
+    "term_translation": "Rotacja pracowników",
     "definition_translation": "Stopniowe zmniejszanie się liczby pracowników w wyniku rezygnacji lub przejścia na emeryturę bez natychmiastowego zastępowania ich nowymi osobami.",
     "example_translation": "Liczba pracowników w firmie spadła z powodu naturalnych odejść."
   },
@@ -25,7 +25,7 @@
   },
   {
     "id": "hr_0005",
-    "term_translation": "Urlop okolicznościowy (żałobny)",
+    "term_translation": "Urlop okolicznościowy",
     "definition_translation": "Czas wolny przyznawany pracownikowi po śmierci bliskiego członka rodziny.",
     "example_translation": "Ona skorzystała z urlopu okolicznościowego po śmierci dziadka."
   },
@@ -97,7 +97,7 @@
   },
   {
     "id": "hr_0017",
-    "term_translation": "Exit interview (rozmowa wyjściowa)",
+    "term_translation": "Rozmowa wyjściowa",
     "definition_translation": "Rozmowa z pracownikiem odchodzącym z firmy, mająca na celu zebranie informacji zwrotnej.",
     "example_translation": "Dział HR przeprowadził exit interview, aby zrozumieć powody odejścia."
   },
@@ -115,13 +115,13 @@
   },
   {
     "id": "hr_0020",
-    "term_translation": "Skarga (grievance)",
+    "term_translation": "Skarga",
     "definition_translation": "Formalna skarga zgłaszana przez pracownika w związku z problemami w miejscu pracy.",
     "example_translation": "Menedżer rozpatrzył skargę zgodnie z obowiązującą procedurą."
   },
   {
     "id": "hr_0021",
-    "term_translation": "Molestowanie / nękanie w pracy",
+    "term_translation": "Nękanie w miejscu pracy",
     "definition_translation": "Niepożądane zachowanie, które tworzy wrogie lub nieprzyjazne środowisko pracy.",
     "example_translation": "Dział HR niezwłocznie bada zgłoszenia dotyczące nękania w miejscu pracy."
   },
@@ -157,7 +157,7 @@
   },
   {
     "id": "hr_0027",
-    "term_translation": "Urlop bezpłatny / urlop okolicznościowy",
+    "term_translation": "Urlop bezpłatny",
     "definition_translation": "Tymczasowa nieobecność pracownika w pracy za zgodą pracodawcy.",
     "example_translation": "Poprosił o urlop z pracy z powodów zdrowotnych."
   },
@@ -169,7 +169,7 @@
   },
   {
     "id": "hr_0029",
-    "term_translation": "Onboarding (wdrożenie pracownika)",
+    "term_translation": "Wdrożenie pracownika",
     "definition_translation": "Proces wprowadzania nowego pracownika do organizacji i jego roli.",
     "example_translation": "Dobrze zaplanowany onboarding pomaga nowym osobom szybciej odnaleźć się w firmie."
   },
@@ -199,7 +199,7 @@
   },
   {
     "id": "hr_0034",
-    "term_translation": "Wynagrodzenie (remuneracja)",
+    "term_translation": "Wynagrodzenie",
     "definition_translation": "Zapłata lub świadczenie otrzymywane za pracę lub usługi.",
     "example_translation": "Pakiet wynagrodzenia może obejmować premie i benefity."
   },
@@ -349,7 +349,7 @@
   },
   {
     "id": "hr_0059",
-    "term_translation": "Exit interview (rozmowa wyjściowa)",
+    "term_translation": "Rozmowa wyjściowa",
     "definition_translation": "Rozmowa przeprowadzana z pracownikiem odchodzącym z firmy w celu uzyskania opinii o miejscu pracy.",
     "example_translation": "Rozmowy wyjściowe dostarczają cennych informacji do poprawy warunków pracy."
   },
@@ -361,7 +361,7 @@
   },
   {
     "id": "hr_0061",
-    "term_translation": "Ekwiwalent pełnego etatu (FTE)",
+    "term_translation": "Ekwiwalent pełnego etatu",
     "definition_translation": "Jednostka odzwierciedlająca obciążenie pracą odpowiadające jednemu pracownikowi na pełen etat.",
     "example_translation": "Dział zatrudnia 10 FTE, łącznie pracowników pełno- i niepełnoetatowych."
   },
@@ -385,7 +385,7 @@
   },
   {
     "id": "hr_0065",
-    "term_translation": "BHP / zdrowie i bezpieczeństwo",
+    "term_translation": "BHP",
     "definition_translation": "Zasady i procedury chroniące pracowników przed zagrożeniami w miejscu pracy.",
     "example_translation": "Regularne kontrole BHP zapewniają bezpieczne warunki pracy."
   },
@@ -403,7 +403,7 @@
   },
   {
     "id": "hr_0068",
-    "term_translation": "Bodźce motywacyjne (incentives)",
+    "term_translation": "Bodźce motywacyjne",
     "definition_translation": "Nagrody mające zachęcić pracowników do osiągania określonych celów.",
     "example_translation": "Zespoły sprzedażowe otrzymują bodźce motywacyjne za przekroczenie planu."
   },

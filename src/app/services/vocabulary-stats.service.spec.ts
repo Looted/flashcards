@@ -235,6 +235,74 @@ describe('VocabularyStatsService', () => {
     });
   });
 
+  describe('Reactive signals', () => {
+    describe('totalWordsNeedingReview', () => {
+      it('should return 0 when no words need review', () => {
+        expect(service.totalWordsNeedingReview()).toBe(0);
+      });
+
+      it('should return count of words with mastery level < 2', () => {
+        // Add word with mastery level 0 (needs review)
+        service.recordEncounter('needsreview', 'potrzebuje', 'basic', false);
+        service.recordEncounter('needsreview', 'potrzebuje', 'basic', false);
+
+        // Add word with mastery level 2 (doesn't need review)
+        service.recordEncounter('good', 'dobry', 'basic', true);
+        service.recordEncounter('good', 'dobry', 'basic', true);
+
+        expect(service.totalWordsNeedingReview()).toBe(1);
+      });
+
+      it('should update reactively when stats change', () => {
+        expect(service.totalWordsNeedingReview()).toBe(0);
+
+        // Add word needing review
+        service.recordEncounter('test', 'test', 'basic', false);
+        expect(service.totalWordsNeedingReview()).toBe(1);
+
+        // Improve word to mastery level 2
+        for (let i = 0; i < 3; i++) {
+          service.recordEncounter('test', 'test', 'basic', true);
+        }
+        expect(service.totalWordsNeedingReview()).toBe(0);
+      });
+    });
+
+    describe('wordsNeedingReviewByCategory', () => {
+      it('should return empty object when no words need review', () => {
+        expect(service.wordsNeedingReviewByCategory()).toEqual({});
+      });
+
+      it('should return correct counts by category', () => {
+        // Add words needing review in different categories
+        service.recordEncounter('hr1', 'hr1', 'hr', false);
+        service.recordEncounter('hr2', 'hr2', 'hr', false);
+        service.recordEncounter('pm1', 'pm1', 'pm', false);
+
+        // Add word that doesn't need review
+        service.recordEncounter('good', 'dobry', 'hr', true);
+        service.recordEncounter('good', 'dobry', 'hr', true);
+
+        const result = service.wordsNeedingReviewByCategory();
+        expect(result).toEqual({ 'hr': 2, 'pm': 1 });
+      });
+
+      it('should update reactively when stats change', () => {
+        expect(service.wordsNeedingReviewByCategory()).toEqual({});
+
+        // Add word needing review
+        service.recordEncounter('hr1', 'hr1', 'hr', false);
+        expect(service.wordsNeedingReviewByCategory()).toEqual({ 'hr': 1 });
+
+        // Improve word
+        for (let i = 0; i < 3; i++) {
+          service.recordEncounter('hr1', 'hr1', 'hr', true);
+        }
+        expect(service.wordsNeedingReviewByCategory()).toEqual({});
+      });
+    });
+  });
+
   describe('StorageService integration', () => {
     it('should load stats from storage', () => {
       const mockStats = {

@@ -1,4 +1,4 @@
-import { Injectable } from '@angular/core';
+import { Injectable, signal, computed } from '@angular/core';
 import { StorageService } from './storage.service';
 
 export interface WordStats {
@@ -18,7 +18,26 @@ export interface WordStats {
 })
 export class VocabularyStatsService {
   private readonly STORAGE_KEY = 'vocabulary-stats';
-  private stats: Map<string, WordStats> = new Map();
+  private stats = signal<Map<string, WordStats>>(new Map());
+
+  // Computed signals for reactive data
+  totalWordsNeedingReview = computed(() => {
+    const allStats = this.getAllStats();
+    return allStats.filter(s => s.masteryLevel < 2).length;
+  });
+
+  wordsNeedingReviewByCategory = computed(() => {
+    const categoryCounts: Record<string, number> = {};
+    const allStats = this.getAllStats();
+
+    for (const stat of allStats) {
+      if (stat.masteryLevel < 2) {
+        categoryCounts[stat.category] = (categoryCounts[stat.category] || 0) + 1;
+      }
+    }
+
+    return categoryCounts;
+  });
 
   constructor(private storageService: StorageService) {
     this.loadStats();
@@ -29,7 +48,7 @@ export class VocabularyStatsService {
       const savedStats = this.storageService.getItem(this.STORAGE_KEY);
       if (savedStats) {
         const parsed = JSON.parse(savedStats);
-        this.stats = new Map(Object.entries(parsed));
+        this.stats.set(new Map(Object.entries(parsed)));
       }
     } catch (e) {
       console.warn('Failed to load vocabulary stats:', e);
@@ -38,7 +57,7 @@ export class VocabularyStatsService {
 
   private saveStats(): void {
     try {
-      const obj = Object.fromEntries(this.stats);
+      const obj = Object.fromEntries(this.stats());
       this.storageService.setItem(this.STORAGE_KEY, JSON.stringify(obj));
     } catch (e) {
       console.warn('Failed to save vocabulary stats:', e);
@@ -47,70 +66,78 @@ export class VocabularyStatsService {
 
   recordEncounter(english: string, polish: string, category: string, isCorrect: boolean): void {
     const key = this.getKey(english, polish);
-    let stat = this.stats.get(key);
+    this.stats.update(currentStats => {
+      const stats = new Map(currentStats);
+      let stat = stats.get(key);
 
-    if (!stat) {
-      stat = {
-        english,
-        polish,
-        category,
-        timesEncountered: 0,
-        timesCorrect: 0,
-        timesIncorrect: 0,
-        lastEncountered: Date.now(),
-        masteryLevel: 0
-      };
-    }
-
-    stat.timesEncountered++;
-    stat.lastEncountered = Date.now();
-
-    if (isCorrect) {
-      stat.timesCorrect++;
-      // Increase mastery if correct
-      if (stat.masteryLevel < 5) {
-        stat.masteryLevel++;
+      if (!stat) {
+        stat = {
+          english,
+          polish,
+          category,
+          timesEncountered: 0,
+          timesCorrect: 0,
+          timesIncorrect: 0,
+          lastEncountered: Date.now(),
+          masteryLevel: 0
+        };
       }
-    } else {
-      stat.timesIncorrect++;
-      // Decrease mastery if incorrect
-      if (stat.masteryLevel > 0) {
-        stat.masteryLevel = Math.max(0, stat.masteryLevel - 2);
-      }
-    }
 
-    this.stats.set(key, stat);
+      stat.timesEncountered++;
+      stat.lastEncountered = Date.now();
+
+      if (isCorrect) {
+        stat.timesCorrect++;
+        // Increase mastery if correct
+        if (stat.masteryLevel < 5) {
+          stat.masteryLevel++;
+        }
+      } else {
+        stat.timesIncorrect++;
+        // Decrease mastery if incorrect
+        if (stat.masteryLevel > 0) {
+          stat.masteryLevel = Math.max(0, stat.masteryLevel - 2);
+        }
+      }
+
+      stats.set(key, stat);
+      return stats;
+    });
     this.saveStats();
   }
 
   markAsSkipped(english: string, polish: string, category: string): void {
     const key = this.getKey(english, polish);
-    let stat = this.stats.get(key);
+    this.stats.update(currentStats => {
+      const stats = new Map(currentStats);
+      let stat = stats.get(key);
 
-    if (!stat) {
-      stat = {
-        english,
-        polish,
-        category,
-        timesEncountered: 0,
-        timesCorrect: 0,
-        timesIncorrect: 0,
-        lastEncountered: Date.now(),
-        masteryLevel: 0
-      };
-    }
+      if (!stat) {
+        stat = {
+          english,
+          polish,
+          category,
+          timesEncountered: 0,
+          timesCorrect: 0,
+          timesIncorrect: 0,
+          lastEncountered: Date.now(),
+          masteryLevel: 0
+        };
+      }
 
-    stat.skipped = true;
-    this.stats.set(key, stat);
+      stat.skipped = true;
+      stats.set(key, stat);
+      return stats;
+    });
     this.saveStats();
   }
 
   getStats(english: string, polish: string): WordStats | undefined {
-    return this.stats.get(this.getKey(english, polish));
+    return this.stats().get(this.getKey(english, polish));
   }
 
   getAllStats(): WordStats[] {
-    return Array.from(this.stats.values()).filter(s => !s.skipped);
+    return Array.from(this.stats().values()).filter((s: WordStats) => !s.skipped);
   }
 
   getStatsByCategory(category: string): WordStats[] {
@@ -163,7 +190,7 @@ export class VocabularyStatsService {
   }
 
   clearAllStats(): void {
-    this.stats.clear();
+    this.stats.set(new Map());
     this.storageService.removeItem(this.STORAGE_KEY);
   }
 
