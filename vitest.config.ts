@@ -6,13 +6,9 @@ export default defineConfig({
     globals: true,
     environment: 'jsdom',
     pool: 'threads',
-    poolOptions: {
-        threads: {
-          maxThreads: 16,
-          minThreads: 8,
-          useAtomics: true
-        },
-      },
+    maxConcurrency: 1,
+    maxWorkers: 1,
+    isolate: false,
     setupFiles: ['src/test-setup.ts'],
     reporters: ['default'],
     coverage: {
