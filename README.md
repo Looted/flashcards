@@ -175,9 +175,21 @@ This app is built as a PWA and can be installed on devices:
 4. Commit with conventional commit format
 5. Push to your fork and submit a pull request
 
-## 📄 License
+## License
 
-This project is private and proprietary.
+This project is proprietary software. All rights reserved.
+
+**Copyright (c) 2025. Unauthorized copying, modification, distribution, or use of this software is strictly prohibited.**
+
+See the [LICENSE](LICENSE) file for details.
+
+For licensing inquiries or commercial use, please open an issue on GitHub.
+
+### Third-Party Dependencies
+
+This project uses open-source libraries listed in [THIRD-PARTY-LICENSES.md](THIRD-PARTY-LICENSES.md).
+These dependencies retain their original licenses (MIT and Apache 2.0) and do not affect
+the proprietary nature of the Bizzwords codebase.
 
 ## 📞 Support
 

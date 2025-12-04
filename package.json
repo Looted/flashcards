@@ -1,6 +1,7 @@
 {
   "name": "bizzwords",
   "version": "0.0.0",
+  "license": "UNLICENSED",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
@@ -24,7 +25,6 @@
       }
     ]
   },
-  "private": true,
   "packageManager": "npm@11.6.2",
   "dependencies": {
     "@angular/common": "^21.0.1",
