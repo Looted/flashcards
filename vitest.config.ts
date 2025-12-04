@@ -5,8 +5,16 @@ export default defineConfig({
   test: {
     globals: true,
     environment: 'jsdom',
+    pool: 'threads',
+    poolOptions: {
+        threads: {
+          maxThreads: 16,
+          minThreads: 8,
+          useAtomics: true
+        },
+      },
     setupFiles: ['src/test-setup.ts'],
-    reporters: ['vitest-llm-reporter'],
+    reporters: ['default'],
     coverage: {
       provider: 'v8',
       reporter: ['text', 'json', 'html'],

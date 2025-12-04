@@ -30,7 +30,7 @@ export class FlashcardComponent {
     if (field === 'english') {
       return 'English';
     } else if (field !== 'contextSentence' && field !== 'translation') {
-      return this.languageService.getLanguageDisplayName(field);
+      return this.languageService.getNativeLanguageDisplayName(field);
     }
     return field;
   });
@@ -58,7 +58,7 @@ export class FlashcardComponent {
     if (field === 'english') {
       return 'English';
     } else if (field !== 'contextSentence' && field !== 'translation') {
-      return this.languageService.getLanguageDisplayName(field);
+      return this.languageService.getNativeLanguageDisplayName(field);
     }
     return field;
   });

@@ -57,6 +57,15 @@ export class LanguageService {
     return names[language];
   }
 
+  // Get native display name for a language (in the language's native script)
+  getNativeLanguageDisplayName(language: Language): string {
+    const names: Record<Language, string> = {
+      polish: 'Polski',
+      spanish: 'Español',
+    };
+    return names[language];
+  }
+
   // Get all supported languages
   getSupportedLanguages(): Language[] {
     return Object.values(this.supportedLanguages);

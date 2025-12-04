@@ -69,7 +69,9 @@ describe('WorkerOrchestrator', () => {
 
     it('should handle errors during processing', async () => {
       const { pipeline } = await import('@huggingface/transformers');
-      (pipeline as any).mockRejectedValue(new Error('Pipeline error'));
+      (pipeline as any).mockImplementation(() => {
+        throw new Error('Pipeline error');
+      });
 
       const event = {
         data: { theme: 'IT', count: 1 }
@@ -85,7 +87,9 @@ describe('WorkerOrchestrator', () => {
 
     it('should handle non-Error exceptions', async () => {
       const { pipeline } = await import('@huggingface/transformers');
-      (pipeline as any).mockRejectedValue('String error');
+      (pipeline as any).mockImplementation(() => {
+        throw 'String error';
+      });
 
       const event = {
         data: { theme: 'IT', count: 1 }

@@ -67,13 +67,6 @@ describe('HeaderComponent', () => {
       isAiModeEnabled: true
     };
 
-    // Mock isDevMode
-    vi.stubGlobal('ng', {
-      core: {
-        isDevMode: vi.fn().mockReturnValue(true)
-      }
-    });
-
     await TestBed.configureTestingModule({
       imports: [HeaderComponent],
     }).overrideComponent(HeaderComponent, {
@@ -102,21 +95,23 @@ describe('HeaderComponent', () => {
 
   it('should display title', () => {
     const compiled = fixture.nativeElement as HTMLElement;
-    expect(compiled.querySelector('h1')?.textContent).toContain('Bizzwords');
+    expect(compiled.querySelector('h1')?.textContent).toContain('BizzWords');
   });
 
   it('should call installPWA when button is clicked', () => {
     pwaServiceMock.showInstallButton.set(true);
     fixture.detectChanges();
 
-    const button = fixture.nativeElement.querySelector('button');
-    button.click();
+    const buttons = fixture.nativeElement.querySelectorAll('button');
+    const installButton = Array.from(buttons as NodeListOf<HTMLElement>).find(btn => btn.textContent?.trim().includes('Install'));
+    expect(installButton).toBeTruthy();
+    installButton!.click();
 
     expect(pwaServiceMock.installPWA).toHaveBeenCalled();
   });
 
   it('should navigate to home when logo is clicked', () => {
-    const logo = fixture.nativeElement.querySelector('.flex.items-center.gap-2.cursor-pointer');
+    const logo = fixture.nativeElement.querySelector('[data-test-="header-logo"]');
     logo.click();
 
     expect(routerMock.navigate).toHaveBeenCalledWith(['/']);
@@ -126,7 +121,7 @@ describe('HeaderComponent', () => {
     let logo: HTMLElement;
 
     beforeEach(() => {
-      logo = fixture.nativeElement.querySelector('.flex.items-center.gap-2.cursor-pointer');
+      logo = fixture.nativeElement.querySelector('[data-test-="header-logo"]');
       // Reset state
       component.showDevControls.set(false);
       component['logoClickCount'] = 0;
@@ -219,7 +214,7 @@ describe('HeaderComponent', () => {
 
     it('should clear timeout on destroy', () => {
       // Trigger a click to set timeout
-      const logo = fixture.nativeElement.querySelector('.flex.items-center.gap-2.cursor-pointer');
+      const logo = fixture.nativeElement.querySelector('[data-test-="header-logo"]');
       logo.click();
 
       // Destroy component
