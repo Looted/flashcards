@@ -1,5 +1,6 @@
 import { TestBed } from '@angular/core/testing';
-import { Router } from '@angular/router';
+import { Router, NavigationEnd } from '@angular/router';
+import { Subject } from 'rxjs';
 import { LanguageSwitcherComponent } from './language-switcher.component';
 import { LanguageService } from '../../services/language.service';
 import { describe, it, expect, beforeEach, vi } from 'vitest';
@@ -24,13 +25,14 @@ describe('LanguageSwitcherComponent', () => {
       })
     };
 
-    let currentUrl = '/menu';
+    const routerEvents = new Subject();
     routerMock = {
-      get url() {
-        return currentUrl;
-      },
-      set url(value: string) {
-        currentUrl = value;
+      url: '/menu',
+      events: routerEvents.asObservable(),
+      // Method to simulate navigation for tests
+      navigateTo: (url: string) => {
+        routerMock.url = url;
+        routerEvents.next(new NavigationEnd(1, url, url));
       }
     };
 
@@ -103,9 +105,10 @@ describe('LanguageSwitcherComponent', () => {
   });
 
   describe('Game state handling', () => {
-    it('should disable language switcher during active game', () => {
+    it('should disable language switcher during active game', async () => {
       const { fixture, routerMock } = setup();
-      routerMock.url = '/game';
+      routerMock.navigateTo('/game');
+      await fixture.whenStable();
       fixture.detectChanges();
 
       const buttons = fixture.nativeElement.querySelectorAll('button');
@@ -115,9 +118,10 @@ describe('LanguageSwitcherComponent', () => {
       });
     });
 
-    it('should enable language switcher on menu screen', () => {
+    it('should enable language switcher on menu screen', async () => {
       const { fixture, routerMock } = setup();
-      routerMock.url = '/menu';
+      routerMock.navigateTo('/menu');
+      await fixture.whenStable();
       fixture.detectChanges();
 
       const buttons = fixture.nativeElement.querySelectorAll('button');
@@ -126,9 +130,10 @@ describe('LanguageSwitcherComponent', () => {
       });
     });
 
-    it('should show tooltip when game is active and switcher is hovered', () => {
+    it('should show tooltip when game is active and switcher is hovered', async () => {
       const { fixture, routerMock } = setup();
-      routerMock.url = '/game';
+      routerMock.navigateTo('/game');
+      await fixture.whenStable();
       fixture.detectChanges();
 
       const tooltip = fixture.nativeElement.querySelector('.group-hover\\:visible');
@@ -136,9 +141,10 @@ describe('LanguageSwitcherComponent', () => {
       expect(tooltip.textContent).toContain('Finish your game to change language');
     });
 
-    it('should not change language when button clicked during game', () => {
+    it('should not change language when button clicked during game', async () => {
       const { fixture, routerMock } = setup();
-      routerMock.url = '/game';
+      routerMock.navigateTo('/game');
+      await fixture.whenStable();
       fixture.detectChanges();
 
       const buttons = fixture.nativeElement.querySelectorAll('button') as NodeListOf<HTMLButtonElement>;
@@ -148,9 +154,10 @@ describe('LanguageSwitcherComponent', () => {
       expect(languageServiceMock.setLanguage).not.toHaveBeenCalled();
     });
 
-    it('should allow language change when on summary screen', () => {
+    it('should allow language change when on summary screen', async () => {
       const { fixture, routerMock } = setup();
-      routerMock.url = '/summary';
+      routerMock.navigateTo('/summary');
+      await fixture.whenStable();
       fixture.detectChanges();
 
       const buttons = fixture.nativeElement.querySelectorAll('button') as NodeListOf<HTMLButtonElement>;

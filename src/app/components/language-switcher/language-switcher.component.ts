@@ -1,5 +1,6 @@
-import { ChangeDetectionStrategy, Component, computed, inject } from '@angular/core';
-import { Router } from '@angular/router';
+import { ChangeDetectionStrategy, Component, computed, inject, signal, effect } from '@angular/core';
+import { Router, NavigationEnd } from '@angular/router';
+import { filter } from 'rxjs/operators';
 import { LanguageService } from '../../services/language.service';
 
 /**
@@ -20,12 +21,29 @@ export class LanguageSwitcherComponent {
 
   protected readonly currentLanguage = this.languageService.currentLanguage;
 
+  // Track current route
+  private readonly currentRoute = signal<string>('');
+
   /**
    * Detect if user is currently in an active game
    */
   protected readonly isGameActive = computed(() => {
-    return this.router.url.includes('/game');
+    return this.currentRoute().includes('/game');
   });
+
+  constructor() {
+    // Listen to router events to track current route
+    effect(() => {
+      const subscription = this.router.events
+        .pipe(filter(event => event instanceof NavigationEnd))
+        .subscribe((event: NavigationEnd) => {
+          this.currentRoute.set(event.url);
+        });
+
+      // Cleanup subscription when component is destroyed
+      return () => subscription.unsubscribe();
+    });
+  }
 
   /**
    * Available native languages for flashcard translations.
