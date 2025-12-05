@@ -1,12 +1,14 @@
-import { Component, input, output, inject, HostListener, computed, ChangeDetectionStrategy } from '@angular/core';
+import { Component, input, output, inject, HostListener, computed, ChangeDetectionStrategy, signal } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { ThemeService } from '../../services/theme.service';
 import { LanguageService, SupportedLanguage } from '../../services/language.service';
+import { AuthService } from '../../services/auth.service';
+import { EmailSigninModal } from '../email-signin-modal/email-signin-modal';
 
 @Component({
   selector: 'app-settings-menu',
   standalone: true,
-  imports: [CommonModule],
+  imports: [CommonModule, EmailSigninModal],
   templateUrl: './settings-menu.html',
   styleUrl: './settings-menu.css',
   changeDetection: ChangeDetectionStrategy.OnPush,
@@ -14,6 +16,7 @@ import { LanguageService, SupportedLanguage } from '../../services/language.serv
 export class SettingsMenu {
   themeService = inject(ThemeService);
   languageService = inject(LanguageService);
+  authService = inject(AuthService);
 
   // Input signal for menu open state
   isOpen = input.required<boolean>();
@@ -28,6 +31,22 @@ export class SettingsMenu {
   currentLanguageName = computed(() => {
     const current = this.languageService.currentLanguage();
     return this.languageService.getLanguageDisplayName(current);
+  });
+
+  // Auth-related computed signals
+  authStatus = computed(() => this.authService.authStatus());
+  currentUser = computed(() => this.authService.currentUser());
+  isAuthenticated = computed(() => this.authService.isAuthenticated());
+  isMigrating = computed(() => this.authService.isMigrating());
+
+  userDisplayInfo = computed(() => {
+    const user = this.currentUser();
+    if (!user) return null;
+    return {
+      displayName: user.displayName || user.email?.split('@')[0] || 'User',
+      email: user.email,
+      photoURL: user.photoURL
+    };
   });
 
   // Host listener for escape key
@@ -67,9 +86,49 @@ export class SettingsMenu {
     this.closeMenu.emit();
   }
 
-  // Placeholder methods
+  // Auth methods
+  showSignInOptions = signal(false);
+  showEmailSignInModal = signal(false);
+
+  async onSignInClick() {
+    this.showSignInOptions.set(true);
+  }
+
+  async onGoogleSignInClick() {
+    try {
+      await this.authService.signInWithGoogle();
+      this.closeMenu.emit();
+    } catch (error) {
+      console.error('Google sign in failed:', error);
+      // TODO: Show error message to user
+    }
+  }
+
+  onEmailSignInClick() {
+    this.showEmailSignInModal.set(true);
+  }
+
+  onEmailSignInModalClose() {
+    this.showEmailSignInModal.set(false);
+  }
+
+  onEmailSignedIn() {
+    this.showEmailSignInModal.set(false);
+    this.closeMenu.emit();
+  }
+
+  async onSignOutClick() {
+    try {
+      await this.authService.signOut();
+      this.closeMenu.emit();
+    } catch (error) {
+      console.error('Sign out failed:', error);
+    }
+  }
+
+  // Other methods
   onUserProfileClick() {
-    // TODO: Implement user profile
+    // Could expand to show more detailed profile view
     console.log('User profile clicked');
   }
 
@@ -81,10 +140,5 @@ export class SettingsMenu {
   onPrivacyClick() {
     // TODO: Navigate to privacy page
     console.log('Privacy clicked');
-  }
-
-  onSignOutClick() {
-    // TODO: Implement sign out
-    console.log('Sign out clicked');
   }
 }

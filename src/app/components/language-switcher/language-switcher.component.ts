@@ -3,6 +3,7 @@ import { CommonModule } from '@angular/common';
 import { Router, NavigationEnd } from '@angular/router';
 import { filter } from 'rxjs/operators';
 import { LanguageService } from '../../services/language.service';
+import { GameStore } from '../../game-store';
 
 interface Language {
   code: string;
@@ -19,6 +20,7 @@ interface Language {
 })
 export class LanguageSwitcherComponent {
   private languageService = inject(LanguageService);
+  private gameStore = inject(GameStore);
 
   isDropdownOpen = signal(false);
 
@@ -34,8 +36,14 @@ export class LanguageSwitcherComponent {
     return this.availableLanguages().find(lang => lang.code === currentCode) || this.availableLanguages()[0];
   });
 
+  // Check if game is currently active (playing)
+  isGameActive = computed(() => this.gameStore.phase() === 'PLAYING');
+
   toggleDropdown() {
-    this.isDropdownOpen.update(open => !open);
+    // Prevent opening dropdown during active game
+    if (!this.isGameActive()) {
+      this.isDropdownOpen.update(open => !open);
+    }
   }
 
   closeDropdown() {
@@ -43,8 +51,11 @@ export class LanguageSwitcherComponent {
   }
 
   selectLanguage(code: string) {
-    this.languageService.setLanguage(code as any);
-    this.closeDropdown();
+    // Prevent language switching during active game
+    if (!this.isGameActive()) {
+      this.languageService.setLanguage(code as any);
+      this.closeDropdown();
+    }
   }
 
   getCurrentFlag(): string {

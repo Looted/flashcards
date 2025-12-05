@@ -1,5 +1,7 @@
 import { VocabularyStatsService } from './vocabulary-stats.service';
 import { StorageService } from './storage.service';
+import { AuthService } from './auth.service';
+import { FirestoreService } from './firestore.service';
 import { vi, describe, it, expect, beforeEach, afterEach } from 'vitest';
 
 class MockStorageService {
@@ -9,13 +11,48 @@ class MockStorageService {
   clear = vi.fn();
 }
 
+class MockAuthService {
+  currentUser = vi.fn().mockReturnValue(null);
+  userProfileReady = vi.fn().mockReturnValue(true);
+  isAuthenticated = vi.fn().mockReturnValue(false);
+}
+
+class MockFirestoreService {
+  saveUserProgress = vi.fn();
+}
+
 describe('VocabularyStatsService', () => {
   let service: VocabularyStatsService;
   let storageService: StorageService;
+  let authService: AuthService;
+  let firestoreService: FirestoreService;
 
   beforeEach(() => {
     storageService = new MockStorageService() as any;
-    service = new VocabularyStatsService(storageService);
+    authService = new MockAuthService() as any;
+    firestoreService = new MockFirestoreService() as any;
+
+    // Mock the inject function globally for this test
+    const mockInject = vi.fn((token: any) => {
+      if (token === StorageService) return storageService;
+      if (token === AuthService) return authService;
+      if (token === FirestoreService) return firestoreService;
+      return undefined;
+    });
+
+    // Mock signal, computed, effect to return simple objects
+    vi.doMock('@angular/core', () => ({
+      inject: mockInject,
+      signal: vi.fn((initial) => ({
+        set: vi.fn(),
+        update: vi.fn(),
+        asReadonly: () => ({})
+      })),
+      computed: vi.fn((fn) => fn()),
+      effect: vi.fn(() => {}),
+    }));
+
+    service = new VocabularyStatsService();
   });
 
   afterEach(() => {

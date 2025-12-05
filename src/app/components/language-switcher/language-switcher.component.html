@@ -1,9 +1,13 @@
 <div class="relative">
   <!-- Trigger button -->
   <button (click)="toggleDropdown()"
-          class="flex h-9 items-center gap-2 rounded-lg px-2 hover:bg-slate-100 dark:hover:bg-slate-800 transition-all"
-          [attr.aria-label]="'Change language'"
-          [attr.aria-expanded]="isDropdownOpen()">
+          class="flex h-9 items-center gap-2 rounded-lg px-2 transition-all"
+          [class]="isGameActive()
+            ? 'cursor-not-allowed opacity-50'
+            : 'hover:bg-slate-100 dark:hover:bg-slate-800 cursor-pointer'"
+          [attr.aria-label]="isGameActive() ? 'Language switching disabled during game' : 'Change language'"
+          [attr.aria-expanded]="isDropdownOpen()"
+          [disabled]="isGameActive()">
     <!-- Current language flag -->
     <span class="text-xl">{{ getCurrentFlag() }}</span>
     <!-- Language name (desktop) or code (mobile) -->
@@ -16,6 +20,7 @@
     <!-- Dropdown arrow -->
     <svg class="h-3 w-3 text-slate-500 transition-transform"
          [class.rotate-180]="isDropdownOpen()"
+         [class]="isGameActive() ? 'text-slate-300 dark:text-slate-600' : 'text-slate-500'"
          fill="none" viewBox="0 0 24 24" stroke="currentColor">
       <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
     </svg>

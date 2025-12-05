@@ -1,5 +1,7 @@
-import { Injectable, signal, computed } from '@angular/core';
+import { Injectable, inject, signal, computed, effect } from '@angular/core';
 import { StorageService } from './storage.service';
+import { AuthService } from './auth.service';
+import { FirestoreService } from './firestore.service';
 
 export interface WordStats {
   english: string;
@@ -18,6 +20,10 @@ export interface WordStats {
 })
 export class VocabularyStatsService {
   private readonly STORAGE_KEY = 'vocabulary-stats';
+  private readonly storageService = inject(StorageService);
+  private readonly authService = inject(AuthService);
+  private readonly firestoreService = inject(FirestoreService);
+
   private stats = signal<Map<string, WordStats>>(new Map());
 
   // Computed signals for reactive data
@@ -39,8 +45,18 @@ export class VocabularyStatsService {
     return categoryCounts;
   });
 
-  constructor(private storageService: StorageService) {
+  constructor() {
+    // Load initial data
     this.loadStats();
+
+    // Listen to auth state changes to sync data
+    effect(() => {
+      const user = this.authService.currentUser();
+      const profileReady = this.authService.userProfileReady();
+      if (user && profileReady) {
+        this.loadFromFirestore(user.uid);
+      }
+    });
   }
 
   private loadStats(): void {
@@ -59,8 +75,28 @@ export class VocabularyStatsService {
     try {
       const obj = Object.fromEntries(this.stats());
       this.storageService.setItem(this.STORAGE_KEY, JSON.stringify(obj));
+
+      // Also save to Firestore if user is authenticated
+      if (this.authService.isAuthenticated()) {
+        const user = this.authService.currentUser();
+        if (user) {
+          this.firestoreService.saveUserProgress(user.uid, obj);
+        }
+      }
     } catch (e) {
       console.warn('Failed to save vocabulary stats:', e);
+    }
+  }
+
+  private async loadFromFirestore(uid: string): Promise<void> {
+    try {
+      const userProgress = await this.firestoreService.getUserProgress(uid);
+      if (userProgress?.stats) {
+        // Load data from Firestore and update the signal
+        this.stats.set(new Map(Object.entries(userProgress.stats)));
+      }
+    } catch (error) {
+      console.warn('Failed to load vocabulary stats from Firestore:', error);
     }
   }
 

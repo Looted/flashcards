@@ -3,6 +3,7 @@ import { Router, NavigationEnd } from '@angular/router';
 import { Subject } from 'rxjs';
 import { LanguageSwitcherComponent } from './language-switcher.component';
 import { LanguageService } from '../../services/language.service';
+import { GameStore } from '../../game-store';
 import { describe, it, expect, beforeEach, vi } from 'vitest';
 import { signal } from '@angular/core';
 
@@ -10,9 +11,10 @@ describe('LanguageSwitcherComponent', () => {
   let component: LanguageSwitcherComponent;
   let languageServiceMock: any;
   let routerMock: any;
+  let gameStoreMock: any;
   let fixture: any;
 
-  const setup = () => {
+  const setup = (gamePhase: 'MENU' | 'PLAYING' | 'SUMMARY' = 'MENU') => {
     languageServiceMock = {
       currentLanguage: signal('pl'),
       setLanguage: vi.fn(),
@@ -23,6 +25,10 @@ describe('LanguageSwitcherComponent', () => {
           default: return 'Polish';
         }
       })
+    };
+
+    gameStoreMock = {
+      phase: signal(gamePhase)
     };
 
     const routerEvents = new Subject();
@@ -40,6 +46,7 @@ describe('LanguageSwitcherComponent', () => {
       imports: [LanguageSwitcherComponent],
       providers: [
         { provide: LanguageService, useValue: languageServiceMock },
+        { provide: GameStore, useValue: gameStoreMock },
         { provide: Router, useValue: routerMock }
       ]
     });
@@ -48,7 +55,7 @@ describe('LanguageSwitcherComponent', () => {
     component = fixture.componentInstance;
     fixture.detectChanges();
 
-    return { fixture, component, routerMock };
+    return { fixture, component, routerMock, gameStoreMock };
   };
 
   it('should create', () => {
@@ -136,5 +143,52 @@ describe('LanguageSwitcherComponent', () => {
     expect(triggerButton?.getAttribute('aria-expanded')).toBe('false');
   });
 
+  describe('Game Active Behavior', () => {
+    it('should disable language switching when game is active', () => {
+      const { fixture, component } = setup('PLAYING');
+      const triggerButton = fixture.nativeElement.querySelector('button');
 
+      expect(component.isGameActive()).toBeTruthy();
+      expect(triggerButton?.getAttribute('aria-label')).toBe('Language switching disabled during game');
+      expect(triggerButton?.hasAttribute('disabled')).toBeTruthy();
+      expect(triggerButton?.classList.contains('cursor-not-allowed')).toBeTruthy();
+      expect(triggerButton?.classList.contains('opacity-50')).toBeTruthy();
+    });
+
+    it('should enable language switching when game is not active', () => {
+      const { fixture, component } = setup('MENU');
+      const triggerButton = fixture.nativeElement.querySelector('button');
+
+      expect(component.isGameActive()).toBeFalsy();
+      expect(triggerButton?.getAttribute('aria-label')).toBe('Change language');
+      expect(triggerButton?.hasAttribute('disabled')).toBeFalsy();
+      expect(triggerButton?.classList.contains('cursor-pointer')).toBeTruthy();
+    });
+
+    it('should not toggle dropdown when game is active', () => {
+      const { fixture, component } = setup('PLAYING');
+      const triggerButton = fixture.nativeElement.querySelector('button');
+
+      expect(component.isDropdownOpen()).toBe(false);
+
+      triggerButton.click();
+      expect(component.isDropdownOpen()).toBe(false); // Should remain closed
+    });
+
+    it('should not change language when game is active', () => {
+      const { fixture, component } = setup('PLAYING');
+
+      component.isDropdownOpen.set(true);
+      fixture.detectChanges();
+
+      const languageButtons = fixture.nativeElement.querySelectorAll('.absolute.right-0 button') as NodeListOf<HTMLButtonElement>;
+      const spanishButton = Array.from(languageButtons).find(btn =>
+        btn.textContent?.includes('Spanish')
+      );
+
+      spanishButton?.click();
+
+      expect(languageServiceMock.setLanguage).not.toHaveBeenCalled();
+    });
+  });
 });

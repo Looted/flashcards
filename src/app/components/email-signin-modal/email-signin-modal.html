@@ -1,0 +1,94 @@
+@if (isOpen()) {
+  <!-- Backdrop -->
+  <div class="fixed inset-0 z-50 bg-black/50 backdrop-blur-sm transition-opacity duration-300 ease-in-out"
+       (click)="onBackdropClick()"
+       aria-hidden="true">
+  </div>
+
+  <!-- Modal -->
+  <div class="fixed inset-0 z-50 flex items-center justify-center p-4">
+    <div class="w-full max-w-md bg-white dark:bg-slate-900 rounded-2xl shadow-2xl ring-1 ring-slate-200 dark:ring-slate-700 transform transition-all duration-300 ease-in-out">
+
+      <!-- Header -->
+      <div class="flex items-center justify-between p-6 border-b border-slate-200 dark:border-slate-700">
+        <h2 class="text-xl font-bold text-slate-900 dark:text-white">
+          {{ mode() === 'signin' ? 'Sign In' : 'Create Account' }}
+        </h2>
+        <button (click)="onClose()"
+                class="flex h-8 w-8 items-center justify-center rounded-lg text-slate-500 hover:bg-slate-100 dark:text-slate-400 dark:hover:bg-slate-800 transition-colors"
+                aria-label="Close modal">
+          <svg class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" />
+          </svg>
+        </button>
+      </div>
+
+      <!-- Form -->
+      <div class="p-6 space-y-6">
+        @if (error()) {
+          <div class="p-3 rounded-lg bg-red-50 dark:bg-red-900/30 text-red-700 dark:text-red-400 text-sm">
+            {{ error() }}
+          </div>
+        }
+
+        <form (ngSubmit)="onSubmit()" class="space-y-4">
+          <!-- Email -->
+          <div>
+            <label for="email" class="block text-sm font-medium text-slate-700 dark:text-slate-300 mb-2">
+              Email
+            </label>
+            <input
+              id="email"
+              type="email"
+              [(ngModel)]="email"
+              [ngModelOptions]="{standalone: true}"
+              class="w-full px-3 py-2 border border-slate-300 dark:border-slate-600 rounded-lg bg-white dark:bg-slate-800 text-slate-900 dark:text-white placeholder-slate-500 dark:placeholder-slate-400 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-blue-500 transition-colors"
+              placeholder="Enter your email"
+              [disabled]="isLoading()"
+              required>
+          </div>
+
+          <!-- Password -->
+          <div>
+            <label for="password" class="block text-sm font-medium text-slate-700 dark:text-slate-300 mb-2">
+              Password
+            </label>
+            <input
+              id="password"
+              type="password"
+              [(ngModel)]="password"
+              [ngModelOptions]="{standalone: true}"
+              class="w-full px-3 py-2 border border-slate-300 dark:border-slate-600 rounded-lg bg-white dark:bg-slate-800 text-slate-900 dark:text-white placeholder-slate-500 dark:placeholder-slate-400 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-blue-500 transition-colors"
+              placeholder="Enter your password"
+              [disabled]="isLoading()"
+              required
+              minlength="6">
+            <p class="mt-1 text-xs text-slate-500 dark:text-slate-400">
+              Must be at least 6 characters
+            </p>
+          </div>
+
+          <!-- Submit Button -->
+          <button
+            type="submit"
+            class="w-full py-3 px-4 bg-blue-600 hover:bg-blue-700 text-white font-semibold rounded-lg shadow-lg shadow-blue-500/30 transform transition-all active:scale-[0.98] disabled:opacity-70 disabled:cursor-not-allowed disabled:transform-none flex items-center justify-center gap-2"
+            [disabled]="isLoading()">
+            @if (isLoading()) {
+              <div class="animate-spin rounded-full h-4 w-4 border-2 border-white border-t-transparent"></div>
+            }
+            <span>{{ isLoading() ? 'Please wait...' : (mode() === 'signin' ? 'Sign In' : 'Create Account') }}</span>
+          </button>
+        </form>
+
+        <!-- Toggle Mode -->
+        <div class="text-center">
+          <button (click)="toggleMode()"
+                  class="text-sm text-blue-600 dark:text-blue-400 hover:text-blue-700 dark:hover:text-blue-300 transition-colors"
+                  [disabled]="isLoading()">
+            {{ mode() === 'signin' ? "Don't have an account? Sign up" : 'Already have an account? Sign in' }}
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+}

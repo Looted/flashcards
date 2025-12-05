@@ -4,6 +4,7 @@ import { Router } from '@angular/router';
 import { PwaService } from '../../services/pwa.service';
 import { ThemeService, ThemeMode } from '../../services/theme.service';
 import { EnvironmentService } from '../../services/environment.service';
+import { AuthService } from '../../services/auth.service';
 import { LanguageSwitcherComponent } from '../language-switcher/language-switcher.component';
 import { SettingsMenu } from '../settings-menu/settings-menu';
 
@@ -19,6 +20,7 @@ export class HeaderComponent implements OnDestroy {
   themeService = inject(ThemeService);
   router = inject(Router);
   environmentService = inject(EnvironmentService);
+  authService = inject(AuthService);
 
   // Developer controls
   showDevControls = signal(false);
@@ -32,6 +34,10 @@ export class HeaderComponent implements OnDestroy {
 
   // Computed signals
   isDarkMode = computed(() => this.themeService.currentMode() === 'dark');
+
+  // Auth-related computed signals
+  isAuthenticated = computed(() => this.authService.isAuthenticated());
+  userDisplayInfo = computed(() => this.authService.getUserDisplayInfo());
 
 
 
