@@ -152,8 +152,13 @@ test.describe("Settings Management Journey", () => {
     await expect(page.locator("text=Master Business Lingo")).toBeVisible();
 
     // Verify anonymous user sees sign-in option
-    await page.click("[data-testid=\'user-menu-button\']");
-    await expect(page.locator("[data-testid=\'signin-button\']")).toBeVisible();
+    const menuButton = page.locator("[data-testid='user-menu-button']");
+    await expect(menuButton).toBeVisible();
+    await menuButton.click();
+
+    // Wait for animation
+    await expect(page.locator("#settings-menu-title")).toBeVisible();
+    await expect(page.locator("[data-testid='signin-button']")).toBeVisible();
 
     // Settings menu should be open for anonymous users too
     await expect(page.locator("#settings-menu-title")).toBeVisible();

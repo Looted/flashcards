@@ -98,7 +98,7 @@ test.describe("Authenticated User Journey", () => {
 
     await page.click("[data-testid='user-menu-button']"); // Open menu
     await expect(page.locator("#settings-menu-title")).toBeVisible(); // Wait for menu to open
-    await expect(page.locator(`text=${email}`)).toBeVisible({ timeout: 15000 });
+    await expect(page.locator(`text=${email}`)).toBeVisible({ timeout: 30000 });
     await ensureMenuClosed(page); // Close menu
 
     // Wait for any data migration

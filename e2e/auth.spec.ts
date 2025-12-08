@@ -104,79 +104,73 @@ test.describe("Authentication User Stories", () => {
   });
 
   test("Existing User Signs In with Google and Plays a Game", async ({ page }) => {
-    console.log('[TEST] === Existing User Signs In with Google and Plays a Game ===');
-
     const email = `test-google-${Date.now()}@example.com`;
 
-    // Mock vocabulary data for the game to ensure consistent test results
-    await page.route("**/i18n/hr_en.json", async (route) => {
-      await route.fulfill({
-        status: 200,
-        contentType: "application/json",
-        body: JSON.stringify([
-          { id: "1", term: "hello", definition: "greeting", example: "say hello" },
-        ]),
+    await test.step('Setup mocks and authenticate', async () => {
+      // Mock vocabulary data for the game to ensure consistent test results
+      await page.route("**/i18n/hr_en.json", async (route) => {
+        await route.fulfill({
+          status: 200,
+          contentType: "application/json",
+          body: JSON.stringify([
+            { id: "1", term: "hello", definition: "greeting", example: "say hello" },
+          ]),
+        });
       });
-    });
-    await page.route("**/i18n/hr_pl.json", async (route) => {
-      await route.fulfill({
-        status: 200,
-        contentType: "application/json",
-        body: JSON.stringify([
-          { id: "1", term_translation: "cześć", definition_translation: "powitanie", example_translation: "powieść cześć" },
-        ]),
+      await page.route("**/i18n/hr_pl.json", async (route) => {
+        await route.fulfill({
+          status: 200,
+          contentType: "application/json",
+          body: JSON.stringify([
+            { id: "1", term_translation: "cześć", definition_translation: "powitanie", example_translation: "powieść cześć" },
+          ]),
+        });
       });
+
+      // Use Firebase Emulator REST API to create and authenticate a user
+      await mockFirebaseAuth(page, email, "password123", "Test Google User");
+
+      await expect(page.locator("text=Master Business Lingo")).toBeVisible();
     });
 
-    // Use Firebase Emulator REST API to create and authenticate a user
-    await mockFirebaseAuth(page, email, "password123", "Test Google User");
+    await test.step('Verify user authentication in menu', async () => {
+      await expect(page.locator("[data-testid='user-menu-button']")).toBeVisible();
+      await page.click("[data-testid='user-menu-button']");
+      await expect(page.locator("#settings-menu-title")).toBeVisible();
 
-    await expect(page.locator("text=Master Business Lingo")).toBeVisible();
-    console.log('[TEST] ✓ App ready');
+      // Explicitly wait for the user details to be populated (this depends on Auth Service signals)
+      try {
+        await page.waitForSelector("text=Test Google User", { state: 'visible', timeout: 5000 });
+      } catch (e) {
+        // It might be blocked by 'Account' header or similar
+        const menuText = await page.locator("#settings-menu-title").evaluate(el => el.closest('div[role="dialog"]')?.textContent);
+        console.log(`[TEST] Menu content: ${menuText?.substring(0, 200)}...`);
 
-    // Verify user is authenticated
-    console.log('[TEST] Verifying user is authenticated');
-    await expect(page.locator("[data-testid='user-menu-button']")).toBeVisible();
-    console.log('[TEST] ✓ User menu button visible, clicking to open menu');
-    await page.click("[data-testid='user-menu-button']");
-    console.log('[TEST] Waiting for Settings menu to open');
-    await expect(page.locator("#settings-menu-title")).toBeVisible();
-    console.log('[TEST] ✓ Settings menu visible, checking for user name');
+        // Retry once more with longer timeout
+        await expect(page.locator("text=Test Google User")).toBeVisible({ timeout: 10000 });
+      }
 
-    // Explicitly wait for the user details to be populated (this depends on Auth Service signals)
-    try {
-      await page.waitForSelector("text=Test Google User", { state: 'visible', timeout: 5000 });
-    } catch (e) {
-      console.log('[TEST] Name not immediately visible, checking what is there...');
-      // It might be blocked by 'Account' header or similar
-      const menuText = await page.locator("#settings-menu-title").evaluate(el => el.closest('div[role="dialog"]')?.textContent);
-      console.log(`[TEST] Menu content: ${menuText?.substring(0, 200)}...`);
+      await ensureMenuClosed(page);
+    });
 
-      // Retry once more with longer timeout
-      await expect(page.locator("text=Test Google User")).toBeVisible({ timeout: 10000 });
-    }
+    await test.step('Play game session', async () => {
+      // Play a game session (3 rounds)
+      await startGameSession(page, "HR Words", "Classic");
+      await playCompleteClassicGame(page, "hello");
+    });
 
-    console.log('[TEST] ✓ User name found, closing menu');
-    await ensureMenuClosed(page);
+    await test.step('Verify summary screen', async () => {
+      await expect(page.locator("text=Session Complete!")).toBeVisible({ timeout: 15000 });
+    });
 
-    // Play a game session (3 rounds)
-    await startGameSession(page, "HR Words", "Classic");
-    await playCompleteClassicGame(page, "hello");
+    await test.step('Log out', async () => {
+      await page.click("[data-testid='user-menu-button']"); // Open menu
+      await expect(page.locator("[data-testid='signout-button']")).toBeVisible();
+      await page.click("[data-testid='signout-button']");
 
-    // Go to summary screen
-    console.log('[TEST] Waiting for summary screen');
-    await expect(page.locator("text=Session Complete!")).toBeVisible({ timeout: 15000 });
-    console.log('[TEST] ✓ Summary screen visible');
-
-    // Log out
-    console.log('[TEST] Logging out');
-    await page.click("[data-testid='user-menu-button']"); // Open menu
-    await expect(page.locator("[data-testid='signout-button']")).toBeVisible();
-    await page.click("[data-testid='signout-button']");
-
-    // Sign out closes the menu, so we need to open it again to verify we are signed out (signin button visible)
-    await page.click("[data-testid='user-menu-button']");
-    await expect(page.locator("[data-testid='signin-button']")).toBeVisible();
-    console.log('[TEST] ✓ Logged out successfully');
+      // Sign out closes the menu, so we need to open it again to verify we are signed out (signin button visible)
+      await page.click("[data-testid='user-menu-button']");
+      await expect(page.locator("[data-testid='signin-button']")).toBeVisible();
+    });
   });
 });

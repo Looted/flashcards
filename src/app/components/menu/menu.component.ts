@@ -33,7 +33,7 @@ export class MenuComponent implements OnInit {
   selectedPracticeMode = signal<GameMode>(GameMode.New);
   selectedGameMode = signal<GameModeType>('classic');
   selectedCategory = signal<string | null>(null);
-  isLoading = false;
+  isLoading = signal(false);
 
   // Computed signal for AI checkbox - true when AI is enabled
   useAI = computed(() => !this.useStatic());
@@ -190,7 +190,7 @@ export class MenuComponent implements OnInit {
     const category = this.selectedCategory();
     if (!category) return;
 
-    this.isLoading = true;
+    this.isLoading.set(true);
     try {
       await this.gameService.startGame(
         category,
@@ -219,7 +219,7 @@ export class MenuComponent implements OnInit {
       this.currentScreen.set('home');
       this.selectedCategory.set(null);
     } finally {
-      this.isLoading = false;
+      this.isLoading.set(false);
     }
   }
 

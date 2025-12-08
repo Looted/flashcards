@@ -47,7 +47,7 @@ export default defineConfig({
     {
       command: "firebase emulators:start --only auth,firestore --project demo-bizzwords",
       port: 9099,
-      reuseExistingServer: !process.env.CI,
+      reuseExistingServer: !process.env.CI || !!process.env.FIREBASE_AUTH_EMULATOR_HOST,
       timeout: 120000, // 2 minutes timeout for emulator startup
     },
     {

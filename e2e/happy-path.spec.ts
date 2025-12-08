@@ -6,8 +6,6 @@ test.describe("BizzWords Happy Path", () => {
     test.beforeEach(async ({ page }) => {
       await page.goto("/");
       await waitForAppReady(page);
-      // Don't clear storage for happy path tests to preserve component state
-      // await clearBrowserStorage(page);
     });
 
     test("should load the main menu", async ({ page }) => {

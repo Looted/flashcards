@@ -15,3 +15,6 @@ Note: If tests result in segfaults, rerun them as the issue may be transient.
 
 ## Coverage
 Make sure the coverage is 100% after adding any new code. Run the coverage using `npm run test -- --coverage --no-watch --no-progress` command.
+
+## Running E2E tests
+Run the E2E tests by running `npm run e2e:safe` command. This command runs tests against local Firebase emulators (`auth`, `firestore`) to avoid affecting production data. After code changes, make sure no failures are present.

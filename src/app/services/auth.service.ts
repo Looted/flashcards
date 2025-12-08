@@ -1,4 +1,4 @@
-import { Injectable, inject, signal, computed, PLATFORM_ID } from '@angular/core';
+import { Injectable, inject, signal, computed, PLATFORM_ID, isDevMode } from '@angular/core';
 import { isPlatformBrowser } from '@angular/common';
 import {
   Auth,
@@ -46,7 +46,9 @@ export class AuthService {
     if (isPlatformBrowser(this.platformId)) {
       this.initializeAuthStateListener();
       // Expose for E2E testing
-      (window as any).authService = this;
+      if (isDevMode()) {
+        (window as any).authService = this;
+      }
     }
   }
 

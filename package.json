@@ -10,6 +10,7 @@
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
     "e2e": "playwright test",
+    "e2e:safe": "firebase emulators:exec --only auth,firestore --project demo-bizzwords \"npm run e2e\"",
     "serve:ssr:bizzwords": "node dist/bizzwords/server/server.mjs",
     "deploy:ghpages": "ng deploy --base-href=/bizzwords/"
   },
