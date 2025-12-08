@@ -9,6 +9,78 @@ test.describe("BizzWords", () => {
   });
 
   test.describe("Learning Mechanics", () => {
+    test("should display english definition on flip", async ({ page }) => {
+      // Mock the English vocabulary data
+      await page.route("**/i18n/hr_en.json", async (route) => {
+        await route.fulfill({
+          status: 200,
+          contentType: "application/json",
+          body: JSON.stringify([
+            {
+              id: "1",
+              term: "meeting",
+              definition: "A gathering of people for a purpose",
+              example: "We had a team meeting yesterday.",
+              metadata: {
+                difficulty: 1,
+                tags: ["business"]
+              }
+            }
+          ])
+        });
+      });
+
+      // Mock the Polish translation data
+      await page.route("**/i18n/hr_pl.json", async (route) => {
+        await route.fulfill({
+          status: 200,
+          contentType: "application/json",
+          body: JSON.stringify([
+            {
+              id: "1",
+              term_translation: "spotkanie",
+              definition_translation: "Zbiórka ludzi w jakimś celu",
+              example_translation: "Wczoraj mieliśmy spotkanie zespołu."
+            }
+          ])
+        });
+      });
+
+      // Already on main menu from beforeEach
+      await expect(page.locator("text=Master Business Lingo")).toBeVisible();
+
+      // Click on HR category
+      await page.click("text=HR Words");
+
+      // Select Classic mode
+      await page.click("text=Classic");
+
+      // Start the session
+      await page.click("text=Start Session");
+
+      // Dismiss round intro if shown
+      try {
+        await page.waitForSelector("text=Start Round", { timeout: 2000 });
+        await page.click("text=Start Round");
+        await page.waitForTimeout(500);
+      } catch (e) {
+        // Round intro might not be shown, continue
+      }
+
+      // First card should be visible
+      await expect(page.locator("[class*='perspective-1000']")).toBeVisible();
+
+      // Wait for card content to load
+      await page.waitForTimeout(1000);
+
+      // Flip the card
+      await page.click("[class*='perspective-1000']");
+      await page.waitForTimeout(600);
+
+      // Expect text "English Definition" (the label) to be visible
+      await expect(page.locator("text=English Definition")).toBeVisible();
+    });
+
     test("should permanently skip cards that are skipped", async ({ page }) => {
       // Mock the English vocabulary data
       await page.route("**/i18n/hr_en.json", async (route) => {

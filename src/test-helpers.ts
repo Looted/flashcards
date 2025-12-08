@@ -248,6 +248,7 @@ export async function dismissRoundIntro(page: Page): Promise<void> {
   try {
     // Look for the round intro card first
     const introCard = page.locator('.round-intro-card');
+    console.log('Checking for round intro card...');
     // Check visibility with a timeout (wait for game   to init)
     if (await introCard.isVisible({ timeout: 5000 })) {
       console.log('Round intro card is visible, dismissing it');

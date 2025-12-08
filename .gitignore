@@ -57,3 +57,5 @@ com.bizzwords
 playwright-report/
 test-results/
 test-report-for-coding-agents/
+
+*.log

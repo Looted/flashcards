@@ -50,9 +50,9 @@ describe('GameStore', () => {
   });
 
   const mockCards: Flashcard[] = [
-    { id: '1', english: 'Hello', translations: { polish: 'Cześć' }, category: 'Basic', masteryLevel: 0 },
-    { id: '2', english: 'Goodbye', translations: { polish: 'Do widzenia' }, category: 'Basic', masteryLevel: 0 },
-    { id: '3', english: 'Thank you', translations: { polish: 'Dziękuję' }, category: 'Basic', masteryLevel: 0 }
+    { id: '1', english: 'Hello', translations: { polish: 'Cześć' }, category: 'Basic', masteryLevel: 0, definition: '' },
+    { id: '2', english: 'Goodbye', translations: { polish: 'Do widzenia' }, category: 'Basic', masteryLevel: 0, definition: '' },
+    { id: '3', english: 'Thank you', translations: { polish: 'Dziękuję' }, category: 'Basic', masteryLevel: 0, definition: '' }
   ];
 
   // Mock game mode for tests

@@ -89,6 +89,12 @@ export class FlashcardComponent {
     return 'text-2xl sm:text-3xl md:text-4xl';
   });
 
+  currentWord = computed(() => {
+    const card = this.store.currentCard();
+    if (!card) return null;
+    return card;
+  });
+
   flip() {
     this.isFlipped.update(v => !v);
   }

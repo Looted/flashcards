@@ -61,13 +61,23 @@ export class GameService {
       cards = wordsNeedingPractice;
     }
 
-    const flashcards: Flashcard[] = cards.map((item) => ({
-      id: crypto.randomUUID(),
-      english: item.english,
-      translations: item.translations,
-      category: topic,
-      masteryLevel: 0
-    }));
+    const flashcards: Flashcard[] = cards.map((item) => {
+      // Always use English definition from the base file (e.g., hr_en.json)
+      // Never use translated definitions
+      let definition = '';
+      if (item.translations['definition_english']) {
+        definition = item.translations['definition_english'];
+      }
+
+      return {
+        id: crypto.randomUUID(),
+        english: item.english,
+        translations: item.translations,
+        category: topic,
+        masteryLevel: 0,
+        definition: definition
+      };
+    });
     this.store.startGame(this.gameModeService.getGameMode(gameModeType), flashcards);
   }
 

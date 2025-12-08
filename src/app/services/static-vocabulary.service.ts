@@ -184,6 +184,11 @@ export class StaticVocabularyService {
             spanish: item.term_translation || item.term
           };
 
+          // Always add English definition from base data
+          if (item.definition) {
+            translations['definition_english'] = item.definition;
+          }
+
           // Add translated definition and example if available
           if (item.definition_translation) {
             translations[`definition_${language}`] = item.definition_translation;

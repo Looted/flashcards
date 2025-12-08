@@ -9,3 +9,14 @@ How it should work: Users create themed decks of flashcards (e.g., HR, Medicine,
 Authentication & Data Sync: Users can learn as guests with local progress storage, or sign in with Google/email to sync progress across devices. Guest data automatically migrates to authenticated accounts. User profiles, vocabulary statistics, and learning progress are stored in Firebase Firestore for cross-device synchronization.
 
 User experience goals: Simple, intuitive interface that encourages daily professional vocabulary practice. Fast loading, offline capability through PWA service workers, installable as a native app, push notifications for review reminders, and progress tracking to keep users motivated. Mobile-first design with slide-over settings menu for easy access to preferences and account management.
+
+## Flashcard Features
+- English Definitions
+- Polish Translations
+- Example Sentences
+- Spaced Repetition
+- AI-Generated Content
+- Difficulty Levels
+- Themed Vocabulary Decks
+- Progress Tracking
+- Multi-device Sync

@@ -16,7 +16,8 @@ describe('CardRendererComponent', () => {
     english: 'hello',
     translations: { polish: 'cześć' },
     category: 'basic',
-    masteryLevel: 1
+    masteryLevel: 1,
+    definition: ''
   };
 
   const mockLayoutConfig: LayoutPolicy = {

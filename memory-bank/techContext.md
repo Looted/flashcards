@@ -42,3 +42,17 @@ Tool usage patterns:
 - Run tests with `npm run test -- --no-watch --no-progress` for CI
 - Run E2E tests with `npm run e2e:safe` which uses local Firebase emulators to avoid affecting production data.
 - Maintain 100% test coverage using `npm run coverage -- --no-watch --no-progress`
+
+## Data Models
+
+### Word Model
+The Word model represents vocabulary items in the flashcard system with the following fields:
+
+- `id`: Unique identifier for the word
+- `term`: The English term/word being learned
+- `definition`: The English definition/explanation of the term (displayed on card flip)
+- `example`: Example sentence showing the term in context
+- `metadata`: Additional information including difficulty level and tags/categories
+- `term_translation`: Polish translation of the term
+- `definition_translation`: Polish translation of the definition
+- `example_translation`: Polish translation of the example sentence

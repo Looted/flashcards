@@ -10,6 +10,7 @@ export interface Flashcard {
   translations: Partial<Record<LanguageField, string>>;
   category: string;
   masteryLevel: number;
+  definition: string;
 }
 
 export interface GameCard {
