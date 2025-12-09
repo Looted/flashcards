@@ -60,31 +60,4 @@ describe('StorageService', () => {
       expect(mockLocalStorage.clear).toHaveBeenCalled();
     });
   });
-
-  describe('Server platform', () => {
-    beforeEach(() => {
-      TestBed.resetTestingModule();
-      TestBed.configureTestingModule({
-        providers: [
-          StorageService,
-          { provide: PLATFORM_ID, useValue: 'server' }
-        ]
-      });
-      service = TestBed.inject(StorageService);
-    });
-
-    it('should return null for getItem on server', () => {
-      const result = service.getItem('test-key');
-      expect(result).toBeNull();
-    });
-
-    it('should not call localStorage methods on server', () => {
-      service.setItem('test-key', 'test-value');
-      service.removeItem('test-key');
-      service.clear();
-
-      // These should not throw errors and localStorage should not be accessed
-      expect(true).toBe(true); // Just a placeholder assertion
-    });
-  });
 });

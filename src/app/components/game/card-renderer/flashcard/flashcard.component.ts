@@ -21,6 +21,7 @@ export class FlashcardComponent {
   backText = input<string>();
   frontLabel = input<string>();
   backLabel = input<string>();
+  backDefinition = input<string>();
 
   displayFrontLabel = computed(() => {
     if (this.frontLabel()) return this.frontLabel()!;
@@ -80,6 +81,31 @@ export class FlashcardComponent {
     return '';
   });
 
+  displayBackDefinition = computed(() => {
+    // Return provided backDefinition if available
+    if (this.backDefinition()) return this.backDefinition()!;
+
+    const card = this.store.currentCard();
+    const config = this.store.currentRoundConfig();
+    if (!card || !config) return '';
+
+    // Determine the language based on the back-side field
+    const field = config.layout.dataMap.secondary;
+    let langCode = 'en'; // default to English
+
+    if (field === 'english') {
+      langCode = 'en';
+    } else if (field !== 'contextSentence' && field !== 'translation') {
+      // For native language fields, map to language code
+      langCode = this.mapFieldToLanguageCode(field);
+    }
+
+    // Get definition based on language code
+    // Expected keys: definition_english, definition_polish, definition_spanish, etc.
+    const definitionKey = `definition_${langCode}`;
+    return (card.translations as Record<string, string>)[definitionKey] || '';
+  });
+
   textSizeClass = computed(() => {
     const text = this.isFlipped() ? this.displayBackText() : this.displayFrontText();
     const length = text.length;
@@ -104,12 +130,14 @@ export class FlashcardComponent {
   }
 
   /**
-   * Maps LanguageField ('polish', 'spanish') to language codes ('pl', 'es')
+   * Maps LanguageField to language codes
    */
-  private mapFieldToLanguageCode(field: string): 'pl' | 'es' {
+  private mapFieldToLanguageCode(field: string): 'pl' | 'es' | 'de' | 'fr' {
     switch (field) {
       case 'polish': return 'pl';
       case 'spanish': return 'es';
+      case 'german': return 'de';
+      case 'french': return 'fr';
       default: return 'pl';
     }
   }

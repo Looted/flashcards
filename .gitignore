@@ -54,8 +54,8 @@ Thumbs.db
 com.bizzwords
 
 # Test reports
-# playwright-report/
-# test-results/
-# test-report-for-coding-agents/
+playwright-report/
+test-results/
+test-report-for-coding-agents/
 
-# *.log
+*.log

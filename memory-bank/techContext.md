@@ -39,9 +39,9 @@ Tool usage patterns:
 - Commit frequently with descriptive messages
 - Use branches for feature development
 - Follow conventional commit format for automated versioning
-- Run tests with `npm run test -- --no-watch --no-progress` for CI
+- Run tests with `npm run test` for CI (use `--include` for specific files)
 - Run E2E tests with `npm run e2e:safe` which uses local Firebase emulators to avoid affecting production data.
-- Maintain 100% test coverage using `npm run coverage -- --no-watch --no-progress`
+- Maintain 100% test coverage using `npm run test -- --coverage`
 
 ## Data Models
 
