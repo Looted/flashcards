@@ -138,18 +138,38 @@ describe('StaticVocabularyService', () => {
       const result = await resultPromise;
 
       expect(result).toHaveLength(2);
-      expect(result[0]).toEqual({
+
+      // Check that we have both expected items (order may vary due to shuffling)
+      const resultItems = result.map(item => item.english);
+      expect(resultItems).toContain('employee');
+      expect(resultItems).toContain('salary');
+
+      // Find and verify the employee item
+      const employeeItem = result.find(item => item.english === 'employee');
+      expect(employeeItem).toBeDefined();
+      expect(employeeItem?.translations).toEqual({
         english: 'employee',
-        translations: {
-          english: 'employee',
-          polish: 'pracownik',
-          spanish: 'pracownik',
-          german: 'pracownik',
-          french: 'pracownik',
-          definition_english: 'A person who works for a company',
-          definition_polish: 'Osoba pracująca w firmie',
-          example_polish: 'Pracownik pracuje 40 godzin tygodniowo.'
-        }
+        polish: 'pracownik',
+        spanish: 'pracownik',
+        german: 'pracownik',
+        french: 'pracownik',
+        definition_english: 'A person who works for a company',
+        definition_polish: 'Osoba pracująca w firmie',
+        example_polish: 'Pracownik pracuje 40 godzin tygodniowo.'
+      });
+
+      // Find and verify the salary item
+      const salaryItem = result.find(item => item.english === 'salary');
+      expect(salaryItem).toBeDefined();
+      expect(salaryItem?.translations).toEqual({
+        english: 'salary',
+        polish: 'wynagrodzenie',
+        spanish: 'wynagrodzenie',
+        german: 'wynagrodzenie',
+        french: 'wynagrodzenie',
+        definition_english: 'Money paid to an employee',
+        definition_polish: 'Pieniądze wypłacane pracownikowi',
+        example_polish: 'Otrzymuje miesięczne wynagrodzenie.'
       });
     });
 

@@ -1,10 +1,13 @@
 import { TestBed } from '@angular/core/testing';
 import { PwaService } from './pwa.service';
 import { describe, it, expect, beforeEach, vi } from 'vitest';
+import { SwUpdate } from '@angular/service-worker';
+import { of } from 'rxjs';
 
 describe('PwaService', () => {
   let service: PwaService;
   let mockWindow: any;
+  let mockSwUpdate: any;
 
   beforeEach(() => {
     // Mock window object
@@ -19,8 +22,18 @@ describe('PwaService', () => {
       writable: true
     });
 
+    // Mock SwUpdate
+    mockSwUpdate = {
+      isEnabled: true,
+      versionUpdates: of(),
+      activateUpdate: vi.fn().mockResolvedValue(undefined)
+    };
+
     TestBed.configureTestingModule({
-      providers: [PwaService]
+      providers: [
+        PwaService,
+        { provide: SwUpdate, useValue: mockSwUpdate }
+      ]
     });
     service = TestBed.inject(PwaService);
   });

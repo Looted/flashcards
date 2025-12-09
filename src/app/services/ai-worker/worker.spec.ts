@@ -10,6 +10,11 @@ describe('Worker', () => {
     // Spy on the static method
     mockHandleMessage = vi.spyOn(WorkerOrchestrator, 'handleMessage').mockResolvedValue(undefined);
 
+    // Mock self.addEventListener if it doesn't exist
+    if (!self.addEventListener) {
+      self.addEventListener = vi.fn();
+    }
+
     // Spy on self.addEventListener
     addEventListenerSpy = vi.spyOn(self, 'addEventListener');
 
@@ -18,8 +23,10 @@ describe('Worker', () => {
   });
 
   afterAll(() => {
-    // Restore the spy
-    addEventListenerSpy.mockRestore();
+    // Restore the spy if it exists
+    if (addEventListenerSpy?.mockRestore) {
+      addEventListenerSpy.mockRestore();
+    }
   });
 
   it('should set up message event listener', () => {

@@ -69,9 +69,19 @@ describe('WorkerOrchestrator', () => {
 
     it('should handle errors during processing', async () => {
       const { pipeline } = await import('@huggingface/transformers');
-      (pipeline as any).mockImplementation(() => {
-        throw new Error('Pipeline error');
+
+      // Mock the pipeline to throw an error during generation
+      const mockGenerator = vi.fn().mockRejectedValue(new Error('Pipeline error'));
+      (pipeline as any).mockImplementation((task: string) => {
+        if (task === 'text-generation') return mockGenerator;
+        return undefined;
       });
+
+      // Mock the prompt builder to return valid prompt
+      vi.spyOn(PromptBuilder, 'buildPrompt').mockReturnValue([
+        { role: "system", content: "You are an expert English teacher." },
+        { role: "user", content: "Generate examples..." }
+      ]);
 
       const event = {
         data: { theme: 'IT', count: 1 }
@@ -87,9 +97,19 @@ describe('WorkerOrchestrator', () => {
 
     it('should handle non-Error exceptions', async () => {
       const { pipeline } = await import('@huggingface/transformers');
-      (pipeline as any).mockImplementation(() => {
-        throw 'String error';
+
+      // Mock the pipeline to throw a non-Error exception during generation
+      const mockGenerator = vi.fn().mockRejectedValue('String error');
+      (pipeline as any).mockImplementation((task: string) => {
+        if (task === 'text-generation') return mockGenerator;
+        return undefined;
       });
+
+      // Mock the prompt builder to return valid prompt
+      vi.spyOn(PromptBuilder, 'buildPrompt').mockReturnValue([
+        { role: "system", content: "You are an expert English teacher." },
+        { role: "user", content: "Generate examples..." }
+      ]);
 
       const event = {
         data: { theme: 'IT', count: 1 }

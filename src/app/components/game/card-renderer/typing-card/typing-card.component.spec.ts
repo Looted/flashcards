@@ -24,7 +24,7 @@ describe('TypingCardComponent', () => {
     fixture = TestBed.createComponent(TypingCardComponent);
     component = fixture.componentInstance;
     validationServiceSpy = TestBed.inject(ValidationService);
-
+    vi.useFakeTimers()
     // Set required inputs using component properties
     fixture.componentRef.setInput('promptText', 'Translate: hello');
     fixture.componentRef.setInput('expectedAnswer', 'hola');
@@ -45,20 +45,21 @@ describe('TypingCardComponent', () => {
       expect(validationServiceSpy.validateTypingAnswer).toHaveBeenCalledWith('hola', 'hola');
     });
 
-    it('should emit success when validation passes', async () => {
+  it('should emit success when validation passes', async () => {
       validationServiceSpy.validateTypingAnswer.mockReturnValue(true);
       component.inputControl.setValue('hola');
 
-      const promise = new Promise<boolean>((resolve) => {
-        component.answerSubmitted.subscribe((event) => {
-          resolve(event.success);
-        });
+      let result: boolean | undefined = undefined;
+      const subscription = component.answerSubmitted.subscribe((event) => {
+        result = event.success;
       });
 
       component.checkTyping();
 
-      const result = await promise;
+      await vi.advanceTimersToNextTimerAsync();
+            await vi.advanceTimersToNextTimerAsync();
       expect(result).toBe(true);
+      subscription.unsubscribe();
     });
 
     it('should emit failure when validation fails', () => {

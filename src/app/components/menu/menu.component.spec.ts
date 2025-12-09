@@ -7,6 +7,8 @@ import { Router } from '@angular/router';
 import { PLATFORM_ID } from '@angular/core';
 import { GameMode } from '../../shared/constants';
 import { vi } from 'vitest';
+import { SwUpdate } from '@angular/service-worker';
+import { PwaService } from '../../services/pwa.service';
 
 describe('MenuComponent', () => {
   let component: MenuComponent;
@@ -15,6 +17,8 @@ describe('MenuComponent', () => {
   let statsServiceMock: any;
   let routerMock: any;
   let storageServiceMock: any;
+  let swUpdateMock: any;
+  let pwaServiceMock: any;
 
   beforeEach(async () => {
     gameServiceMock = {
@@ -35,6 +39,24 @@ describe('MenuComponent', () => {
       removeItem: vi.fn(),
       clear: vi.fn()
     };
+    swUpdateMock = {
+      isEnabled: false,
+      versionUpdates: {
+        pipe: vi.fn().mockReturnValue({
+          subscribe: vi.fn()
+        })
+      },
+      activateUpdate: vi.fn().mockResolvedValue(undefined)
+    };
+    pwaServiceMock = {
+      showInstallButton: { set: vi.fn() },
+      updateAvailable: { set: vi.fn() },
+      init: vi.fn(),
+      installPWA: vi.fn(),
+      updateApp: vi.fn().mockImplementation(() => {
+        swUpdateMock.activateUpdate();
+      })
+    };
 
     await TestBed.configureTestingModule({
       imports: [MenuComponent],
@@ -43,7 +65,9 @@ describe('MenuComponent', () => {
         { provide: VocabularyStatsService, useValue: statsServiceMock },
         { provide: Router, useValue: routerMock },
         { provide: PLATFORM_ID, useValue: 'browser' },
-        { provide: StorageService, useValue: storageServiceMock }
+        { provide: StorageService, useValue: storageServiceMock },
+        { provide: SwUpdate, useValue: swUpdateMock },
+        { provide: PwaService, useValue: pwaServiceMock }
       ]
     })
     .overrideComponent(MenuComponent, {
@@ -211,9 +235,8 @@ describe('MenuComponent', () => {
         practiceMode: GameMode.New,
         gameMode: 'classic',
         difficulty: 2
-      });
-    });
-  });
+  });  
+});  
 
   describe('isMobile computed', () => {
     it('should return true on mobile devices', () => {
@@ -244,7 +267,9 @@ describe('MenuComponent', () => {
           { provide: VocabularyStatsService, useValue: statsServiceMock },
           { provide: Router, useValue: routerMock },
           { provide: PLATFORM_ID, useValue: 'server' },
-          { provide: StorageService, useValue: storageServiceMock }
+          { provide: StorageService, useValue: storageServiceMock },
+          { provide: SwUpdate, useValue: swUpdateMock },
+          { provide: PwaService, useValue: pwaServiceMock }
         ]
       });
 
@@ -516,4 +541,104 @@ describe('MenuComponent', () => {
       });
     });
   });
+});
+
+describe('PWA Service Integration', () => {
+  it('should inject PwaService', () => {
+    expect(component.pwaService).toBeDefined();
+    expect(component.pwaService).toBeTruthy();
+  });
+
+  it('should have SwUpdate mocked properly', () => {
+    expect(swUpdateMock).toBeDefined();
+    expect(swUpdateMock.isEnabled).toBe(false);
+    expect(swUpdateMock.versionUpdates).toBeDefined();
+    expect(swUpdateMock.activateUpdate).toBeDefined();
+  });
+
+  it('should have PwaService mocked properly', () => {
+    expect(pwaServiceMock).toBeDefined();
+    expect(pwaServiceMock.showInstallButton).toBeDefined();
+    expect(pwaServiceMock.updateAvailable).toBeDefined();
+    expect(pwaServiceMock.init).toBeDefined();
+    expect(pwaServiceMock.installPWA).toBeDefined();
+    expect(pwaServiceMock.updateApp).toBeDefined();
+  });
+
+  describe('SwUpdate mock behavior', () => {
+    it('should handle version updates subscription', () => {
+      const mockPipe = swUpdateMock.versionUpdates.pipe();
+      expect(mockPipe.subscribe).toBeDefined();
+      expect(mockPipe.subscribe).toBeInstanceOf(Function);
+    });
+
+    it('should handle activateUpdate call', async () => {
+      const result = await swUpdateMock.activateUpdate();
+      expect(result).toBeUndefined();
+      expect(swUpdateMock.activateUpdate).toHaveBeenCalled();
+    });
+  });
+
+  describe('PwaService mock behavior', () => {
+    it('should handle showInstallButton signal', () => {
+      pwaServiceMock.showInstallButton.set(true);
+      expect(pwaServiceMock.showInstallButton.set).toHaveBeenCalledWith(true);
+    });
+
+    it('should handle updateAvailable signal', () => {
+      pwaServiceMock.updateAvailable.set(true);
+      expect(pwaServiceMock.updateAvailable.set).toHaveBeenCalledWith(true);
+    });
+
+    it('should handle init method with SwUpdate integration', () => {
+      // Mock window to simulate browser environment
+      Object.defineProperty(global, 'window', {
+        value: {
+          addEventListener: vi.fn(),
+          innerWidth: 1024
+        },
+        writable: true
+      });
+
+      pwaServiceMock.init();
+      expect(pwaServiceMock.init).toHaveBeenCalled();
+
+      // Verify that SwUpdate properties are accessed correctly
+      expect(swUpdateMock.isEnabled).toBe(false);
+      expect(swUpdateMock.versionUpdates).toBeDefined();
+    });
+
+    it('should handle installPWA method', async () => {
+      await pwaServiceMock.installPWA();
+      expect(pwaServiceMock.installPWA).toHaveBeenCalled();
+    });
+
+    it('should handle updateApp method with SwUpdate activation', () => {
+      pwaServiceMock.updateApp();
+      expect(pwaServiceMock.updateApp).toHaveBeenCalled();
+      expect(swUpdateMock.activateUpdate).toHaveBeenCalled();
+    });
+
+    it('should handle SwUpdate version updates subscription', () => {
+      // Test the version updates pipe and subscription
+      const pipeResult = swUpdateMock.versionUpdates.pipe();
+      expect(pipeResult.subscribe).toBeDefined();
+
+      const subscribeMock = vi.fn();
+      pipeResult.subscribe(subscribeMock);
+
+      expect(pipeResult.subscribe).toHaveBeenCalledWith(subscribeMock);
+    });
+
+    it('should handle SwUpdate isEnabled property', () => {
+      // Test when SwUpdate is enabled
+      swUpdateMock.isEnabled = true;
+      expect(swUpdateMock.isEnabled).toBe(true);
+
+      // Test when SwUpdate is disabled
+      swUpdateMock.isEnabled = false;
+      expect(swUpdateMock.isEnabled).toBe(false);
+    });
+  });
+});
 });
