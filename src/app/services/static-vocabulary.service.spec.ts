@@ -1,5 +1,5 @@
 import { TestBed } from '@angular/core/testing';
-import { HttpClientTestingModule, HttpTestingController } from '@angular/common/http/testing';
+import { HttpClientTestingModule, HttpTestingController, provideHttpClientTesting } from '@angular/common/http/testing';
 import { StaticVocabularyService } from './static-vocabulary.service';
 import { describe, it, expect, beforeEach, afterEach } from 'vitest';
 import { firstValueFrom } from 'rxjs';
@@ -42,8 +42,8 @@ describe('StaticVocabularyService', () => {
 
   beforeEach(() => {
     TestBed.configureTestingModule({
-      imports: [HttpClientTestingModule],
-      providers: [StaticVocabularyService]
+      imports: [],
+      providers: [StaticVocabularyService, provideHttpClientTesting()]
     });
     service = TestBed.inject(StaticVocabularyService);
     httpMock = TestBed.inject(HttpTestingController);
@@ -146,7 +146,9 @@ describe('StaticVocabularyService', () => {
           spanish: 'pracownik',
           german: 'pracownik',
           french: 'pracownik',
-          definition_english: 'A person who works for a company'
+          definition_english: 'A person who works for a company',
+          definition_polish: 'Osoba pracująca w firmie',
+          example_polish: 'Pracownik pracuje 40 godzin tygodniowo.'
         }
       });
     });

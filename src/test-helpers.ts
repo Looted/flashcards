@@ -248,17 +248,12 @@ export async function dismissRoundIntro(page: Page): Promise<void> {
   try {
     // Look for the round intro card first
     const introCard = page.locator('.round-intro-card');
-    console.log('Checking for round intro card...');
-    // Check visibility with a timeout (wait for game   to init)
-    if (await introCard.isVisible({ timeout: 5000 })) {
-      console.log('Round intro card is visible, dismissing it');
          // Click the continue button (Start Round)
          const startButton = introCard.getByRole('button', { name: /Start Round .*/gm })
          await expect(startButton).toBeVisible({timeout: 5000 });
          await startButton.click();
          await expect(introCard).toBeHidden({ timeout: 5000 });
-    }
-  } catch (e) {
+    } catch (e) {
       // Ignore if not found - assume we're already past it
       console.log('Round intro not found or already dismissed');
   }

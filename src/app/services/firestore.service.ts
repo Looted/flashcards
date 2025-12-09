@@ -11,25 +11,8 @@ import {
   getDocs,
   Timestamp
 } from '@angular/fire/firestore';
-
-// Types for Firestore data
-export interface UserProfile {
-  email: string;
-  photoURL?: string;
-  displayName?: string;
-  createdAt: Timestamp;
-  lastLogin: Timestamp;
-  hasMigratedLocalData: boolean;
-  settings: {
-    nativeLanguage: 'pl' | 'es';
-    themeMode: 'light' | 'dark' | 'system';
-  };
-}
-
-export interface UserProgress {
-  stats: Record<string, any>; // WordStats map
-  updatedAt: Timestamp;
-}
+import { UserProfile } from '../models/user.model';
+import { UserProgress } from '../models/stats.model';
 
 @Injectable({
   providedIn: 'root'
@@ -64,7 +47,8 @@ export class FirestoreService {
         settings: {
           nativeLanguage: 'pl',
           themeMode: 'system'
-        }
+        },
+        schemaVersion: 0 // Default to 0, migration service will upgrade if needed
       };
 
       await setDoc(userDocRef, { ...defaultProfile, ...userData });

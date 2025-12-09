@@ -150,4 +150,15 @@ describe('GameService', () => {
       expect(flashcards[0].definition).toBe('');
     });
   });
+
+  describe('GameMode filtering', () => {
+    it('should check stats for existing words in New mode using only english word', async () => {
+      const statsService = TestBed.inject(VocabularyStatsService);
+      const getStatsSpy = vi.spyOn(statsService, 'getStats');
+
+      await service.startGame('hr', GameMode.New, 'classic', null);
+
+      expect(getStatsSpy).toHaveBeenCalledWith('test');
+    });
+  });
 });

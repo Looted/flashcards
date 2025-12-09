@@ -13,6 +13,7 @@ Recent changes:
 - Added comprehensive test IDs to UI components for robust e2e test selectors
 - Fixed all E2E tests to work with new authentication and navigation patterns
 - Updated memory bank documentation with new system architecture and technologies
+- Refactored schema migration system into a modular architecture in `src/app/migrations/`.
 
 Current fixes in progress:
 - Updated Playwright config to start Firebase emulators before Angular dev server

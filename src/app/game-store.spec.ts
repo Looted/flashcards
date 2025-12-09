@@ -246,7 +246,7 @@ describe('GameStore', () => {
 
       store.skipCurrentCard();
 
-      expect(markAsSkippedSpy).toHaveBeenCalledWith('Hello', 'Cześć', 'Basic');
+      expect(markAsSkippedSpy).toHaveBeenCalledWith('Hello', 'Basic');
     });
 
     it('should remove current card from queue', () => {

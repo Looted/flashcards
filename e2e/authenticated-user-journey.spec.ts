@@ -26,7 +26,7 @@ test.describe("Authenticated User Journey", () => {
       });
     });
 
-    await page.route("**/i18n/pm_en.json", async (route) => {
+    await page.route("**/i18n/strategy_en.json", async (route) => {
       await route.fulfill({
         status: 200,
         contentType: "application/json",
@@ -57,7 +57,7 @@ test.describe("Authenticated User Journey", () => {
       });
     });
 
-    await page.route("**/i18n/pm_pl.json", async (route) => {
+    await page.route("**/i18n/strategy_pl.json", async (route) => {
       await route.fulfill({
         status: 200,
         contentType: "application/json",
@@ -116,11 +116,11 @@ test.describe("Authenticated User Journey", () => {
 
     await expect(page.locator("text=Session Complete!")).toBeVisible();
 
-    // Step 5: Switch to Project Management and play another game
+    // Step 5: Switch to Strategy and play another game
     await page.click("text=Back to Home");
 
-    // Play PM game (3 rounds)
-    await startGameSession(page, "Project Management", "Classic");
+    // Play Strategy game (3 rounds)
+    await startGameSession(page, "Strategy", "Classic");
     await playCompleteClassicGame(page, "milestone");
 
     await expect(page.locator("text=Session Complete!")).toBeVisible();

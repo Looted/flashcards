@@ -68,7 +68,7 @@ test.describe("Validation Features", () => {
     await expect(page.locator("text=Master Business Lingo")).toBeVisible();
 
     // Click on HR category
-    await page.click("text=HR Words");
+    await page.click("text=HR");
 
     // Select Classic mode
     await page.click("text=Classic");

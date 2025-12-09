@@ -1,9 +1,8 @@
 import { TestBed } from '@angular/core/testing';
 import { signal } from '@angular/core';
-import { MockComponent } from 'ng-mocks';
 import { CardRendererComponent } from './card-renderer.component';
-import { FlashcardComponent } from './flashcard/flashcard.component';
-import { TypingCardComponent } from './typing-card/typing-card.component';
+import { MockFlashcardComponent } from '../../mocks/flashcard.mock';
+import { MockTypingCardComponent } from '../../mocks/typing-card.mock';
 import { Flashcard } from '../../../game-store';
 import { LayoutPolicy } from '../../../core/models/game-config.model';
 import { LanguageService } from '../../../services/language.service';
@@ -51,8 +50,8 @@ describe('CardRendererComponent', () => {
     .overrideComponent(CardRendererComponent, {
       set: {
         imports: [
-          MockComponent(FlashcardComponent),
-          MockComponent(TypingCardComponent)
+          MockFlashcardComponent,
+          MockTypingCardComponent
         ]
       }
     })

@@ -1,4 +1,4 @@
-import { ApplicationConfig, provideBrowserGlobalErrorListeners, isDevMode } from '@angular/core';
+import { ApplicationConfig, provideBrowserGlobalErrorListeners, isDevMode, APP_INITIALIZER } from '@angular/core';
 import { provideRouter } from '@angular/router';
 import { provideServiceWorker } from '@angular/service-worker';
 import { provideClientHydration, withEventReplay } from '@angular/platform-browser';
@@ -8,6 +8,7 @@ import { provideAuth, getAuth, connectAuthEmulator } from '@angular/fire/auth';
 import { provideFirestore, getFirestore, connectFirestoreEmulator } from '@angular/fire/firestore';
 import { routes } from './app.routes';
 import { firebaseConfig } from './firebase.config';
+import { SchemaMigrationService } from './services/schema-migration.service';
 
 function initializeFirebaseAuth() {
   const auth = getAuth();
@@ -43,6 +44,14 @@ export const appConfig: ApplicationConfig = {
       registrationStrategy: 'registerWhenStable:30000'
     }),
     provideClientHydration(withEventReplay()),
+
+    // Schema Migration
+    {
+      provide: APP_INITIALIZER,
+      useFactory: (migrationService: SchemaMigrationService) => () => migrationService.checkAndMigrate(),
+      deps: [SchemaMigrationService],
+      multi: true
+    },
 
     // Firebase providers
     provideFirebaseApp(() => initializeApp(firebaseConfig)),

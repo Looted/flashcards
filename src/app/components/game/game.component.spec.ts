@@ -1,8 +1,7 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
-import { MockComponent } from 'ng-mocks';
 import { GameComponent } from './game.component';
-import { CardRendererComponent } from './card-renderer/card-renderer.component';
-import { RoundIntroComponent } from '../round-intro/round-intro.component';
+import { MockCardRendererComponent } from '../mocks/card-renderer.mock';
+import { MockRoundIntroComponent } from '../mocks/round-intro.mock';
 import { GameStore } from '../../game-store';
 import { GameService } from '../../services/game.service';
 import { StorageService } from '../../services/storage.service';
@@ -79,8 +78,8 @@ describe('GameComponent', () => {
     .overrideComponent(GameComponent, {
       set: {
         imports: [
-          MockComponent(CardRendererComponent),
-          MockComponent(RoundIntroComponent)
+          MockCardRendererComponent,
+          MockRoundIntroComponent
         ]
       }
     })

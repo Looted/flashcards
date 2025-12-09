@@ -25,6 +25,7 @@ Design patterns in use:
 - Modular worker architecture: AI worker split into focused modules (models, parsing, message handling) for better testability and maintainability.
 - Singleton pattern: AI model pipelines use lazy-loaded singletons to avoid redundant initialization.
 - Component state reset: Modal/Menu components using signals and OnPush strategy must explicitly reset internal state (using effects or inputs) when closed, as component instances persist in the DOM.
+- Schema Migration: Modular, versioned migration system located in `src/app/migrations/` to handle data schema updates for both local storage and Firestore. Migrations are defined as objects implementing `Migration` interface and registered in an index file.
 
 Testing patterns:
 - Mock external dependencies: Use vi.mock() to isolate units from external libraries (transformers.js, browser APIs).

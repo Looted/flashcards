@@ -27,7 +27,7 @@ export interface TranslatedItem extends TranslationItem {
 export class StaticVocabularyService {
   // Map category IDs to file prefixes (most use ID directly, but some differ)
   private readonly categoryToPrefix: Record<string, string> = {
-    'finance': 'fin',
+    'finance': 'fin'
     // others use the category ID as prefix
   };
 

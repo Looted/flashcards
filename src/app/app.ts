@@ -2,6 +2,7 @@ import { Component, inject, computed, Inject, PLATFORM_ID, OnInit } from '@angul
 import { CommonModule } from '@angular/common';
 import { RouterOutlet } from '@angular/router';
 import { HeaderComponent } from './components/header/header.component';
+import { UpdatePromptComponent } from './components/update-prompt/update-prompt.component';
 import { GameStore } from './game-store';
 import { PwaService } from './services/pwa.service';
 import { ThemeService } from './services/theme.service';
@@ -9,7 +10,7 @@ import { ThemeService } from './services/theme.service';
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [CommonModule, RouterOutlet, HeaderComponent],
+  imports: [CommonModule, RouterOutlet, HeaderComponent, UpdatePromptComponent],
   templateUrl: './app.html',
   styleUrls: ['./app.component.css']
 })

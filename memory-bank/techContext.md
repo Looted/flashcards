@@ -45,6 +45,15 @@ Tool usage patterns:
 
 ## Data Models
 
+### Schema Migration
+The application uses a versioned schema migration system:
+- **Location**: `src/app/migrations/`
+- **Structure**: Individual migration files (e.g., `001-integrity-check.ts`) export objects implementing `Migration` interface.
+- **Service**: `SchemaMigrationService` orchestrates migrations by comparing current schema version (from `localStorage` or `Firestore` profile) with the latest version defined in `src/app/migrations/index.ts`.
+- **Migrations**:
+  - `v1`: Data integrity check and normalization.
+  - `v2`: Clear vocabulary stats (due to category rework).
+
 ### Word Model
 The Word model represents vocabulary items in the flashcard system with the following fields:
 

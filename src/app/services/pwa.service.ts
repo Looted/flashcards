@@ -1,11 +1,16 @@
-import { Injectable, signal } from '@angular/core';
+import { Injectable, signal, inject } from '@angular/core';
+import { SwUpdate, VersionReadyEvent } from '@angular/service-worker';
+import { filter } from 'rxjs';
 
 @Injectable({
   providedIn: 'root'
 })
 export class PwaService {
+  private swUpdate = inject(SwUpdate);
   private deferredPrompt: any = null;
-  showInstallButton = signal(false);
+
+  readonly showInstallButton = signal(false);
+  readonly updateAvailable = signal(false);
 
   init() {
     if (typeof window === 'undefined') return; // Skip on server-side
@@ -26,6 +31,14 @@ export class PwaService {
       this.showInstallButton.set(false);
       this.deferredPrompt = null;
     });
+
+    if (this.swUpdate.isEnabled) {
+      this.swUpdate.versionUpdates
+        .pipe(filter((evt): evt is VersionReadyEvent => evt.type === 'VERSION_READY'))
+        .subscribe(() => {
+          this.updateAvailable.set(true);
+        });
+    }
   }
 
   async installPWA() {
@@ -42,5 +55,9 @@ export class PwaService {
 
     // Clear the deferredPrompt
     this.deferredPrompt = null;
+  }
+
+  updateApp() {
+    this.swUpdate.activateUpdate().then(() => document.location.reload());
   }
 }

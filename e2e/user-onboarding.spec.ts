@@ -33,17 +33,13 @@ test.describe("User Onboarding Journey", () => {
     await expect(page.locator("text=Master Business Lingo")).toBeVisible();
 
     // Browse available game modes
-    await expect(page.locator("text=HR Words")).toBeVisible();
-    await expect(page.locator("text=Project Management")).toBeVisible();
+    await expect(page.locator("text=Tech")).toBeVisible();
+    await expect(page.locator("text=Finance")).toBeVisible();
+    await expect(page.locator("text=Sales")).toBeVisible();
+    await expect(page.locator("text=HR")).toBeVisible();
+    await expect(page.locator("text=Strategy")).toBeVisible();
 
     // Step 2: Try a game as guest to see value (3 rounds)
-    // Note: The text in the button is "HR" but the value might be different.
-    // The previous test code used "text=HR Words", let's check what startGameSession expects.
-    // startGameSession takes category and mode.
-    // Let's stick to the previous selector logic but inside the startGameSession pattern
-    // Actually, looking at the previous code: await page.click("text=HR Words");
-    // startGameSession does: await page.click(`text=${category}`);
-    // So we should pass "HR"
     await startGameSession(page, "HR", "Classic");
 
     await playCompleteClassicGame(page, "hello");

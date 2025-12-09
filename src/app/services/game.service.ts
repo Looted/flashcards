@@ -43,14 +43,15 @@ export class GameService {
     // Filter cards based on selected practice mode
     if (practiceMode === GameMode.New) {
       // Show only words never seen before
-      cards = cards.filter(card => !this.statsService.getStats(card.english, card.translations['polish'] || ''));
+      cards = cards.filter(card => !this.statsService.getStats(card.english));
     } else if (practiceMode === GameMode.Practice) {
       // Show words that need practice from the stats service
-      const wordsNeedingPractice = this.statsService.getWordsNeedingPractice()
+      const practiceWords = new Set(this.statsService.getWordsNeedingPractice()
         .filter(stat => stat.category === topic)
-        .slice(0, GAME_CONSTANTS.CARDS_PER_GAME)
-        .map(stat => ({ english: stat.english, translations: { polish: stat.polish } }));
-      cards = wordsNeedingPractice;
+        .map(s => s.english.toLowerCase()));
+
+      cards = cards.filter(c => practiceWords.has(c.english.toLowerCase()))
+                   .slice(0, GAME_CONSTANTS.CARDS_PER_GAME);
     }
 
     const flashcards: Flashcard[] = cards.map((item) => {

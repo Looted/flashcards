@@ -2,18 +2,7 @@ import { Injectable, inject, signal, computed, effect } from '@angular/core';
 import { StorageService } from './storage.service';
 import { AuthService } from './auth.service';
 import { FirestoreService } from './firestore.service';
-
-export interface WordStats {
-  english: string;
-  polish: string;
-  category: string;
-  timesEncountered: number;
-  timesCorrect: number;
-  timesIncorrect: number;
-  lastEncountered: number;
-  masteryLevel: number; // 0-5 scale
-  skipped?: boolean;
-}
+import { WordStats } from '../models/stats.model';
 
 @Injectable({
   providedIn: 'root'
@@ -100,8 +89,8 @@ export class VocabularyStatsService {
     }
   }
 
-  recordEncounter(english: string, polish: string, category: string, isCorrect: boolean): void {
-    const key = this.getKey(english, polish);
+  recordEncounter(english: string, category: string, isCorrect: boolean): void {
+    const key = this.getKey(english);
     this.stats.update(currentStats => {
       const stats = new Map(currentStats);
       let stat = stats.get(key);
@@ -109,7 +98,6 @@ export class VocabularyStatsService {
       if (!stat) {
         stat = {
           english,
-          polish,
           category,
           timesEncountered: 0,
           timesCorrect: 0,
@@ -142,8 +130,8 @@ export class VocabularyStatsService {
     this.saveStats();
   }
 
-  markAsSkipped(english: string, polish: string, category: string): void {
-    const key = this.getKey(english, polish);
+  markAsSkipped(english: string, category: string): void {
+    const key = this.getKey(english);
     this.stats.update(currentStats => {
       const stats = new Map(currentStats);
       let stat = stats.get(key);
@@ -151,7 +139,6 @@ export class VocabularyStatsService {
       if (!stat) {
         stat = {
           english,
-          polish,
           category,
           timesEncountered: 0,
           timesCorrect: 0,
@@ -168,8 +155,8 @@ export class VocabularyStatsService {
     this.saveStats();
   }
 
-  getStats(english: string, polish: string): WordStats | undefined {
-    return this.stats().get(this.getKey(english, polish));
+  getStats(english: string): WordStats | undefined {
+    return this.stats().get(this.getKey(english));
   }
 
   getAllStats(): WordStats[] {
@@ -230,7 +217,7 @@ export class VocabularyStatsService {
     this.storageService.removeItem(this.STORAGE_KEY);
   }
 
-  private getKey(english: string, polish: string): string {
-    return `${english.toLowerCase()}|${polish.toLowerCase()}`;
+  private getKey(english: string): string {
+    return english.toLowerCase();
   }
 }
