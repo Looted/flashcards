@@ -161,4 +161,32 @@ describe('GameService', () => {
       expect(getStatsSpy).toHaveBeenCalledWith('test');
     });
   });
+
+  describe('Word Counts', () => {
+    it('should use 5 words for Classic mode', async () => {
+      const generateSpy = vi.spyOn(staticVocabMock, 'generateTranslatedWords');
+
+      await service.startGame('hr', GameMode.New, 'classic', null);
+
+      expect(generateSpy).toHaveBeenCalledWith(
+        expect.any(String),
+        expect.any(String),
+        5, // Classic count
+        undefined
+      );
+    });
+
+    it('should use 20 words for Blitz mode', async () => {
+      const generateSpy = vi.spyOn(staticVocabMock, 'generateTranslatedWords');
+
+      await service.startGame('hr', GameMode.New, 'blitz', null);
+
+      expect(generateSpy).toHaveBeenCalledWith(
+        expect.any(String),
+        expect.any(String),
+        20, // Blitz count
+        undefined
+      );
+    });
+  });
 });

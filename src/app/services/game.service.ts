@@ -20,7 +20,12 @@ export class GameService {
   async startGame(topic: string, practiceMode: GameMode, gameModeType: GameModeType, difficulty: number | null) {
     let cards: { english: string, translations: Record<string, string> }[];
 
-    console.log('[GameService] startGame called:', { topic, practiceMode, gameModeType, difficulty });
+    // Determine word count based on game mode
+    const wordCount = gameModeType === 'blitz'
+      ? GAME_CONSTANTS.BLITZ_WORD_COUNT
+      : GAME_CONSTANTS.CLASSIC_WORD_COUNT;
+
+    console.log('[GameService] startGame called:', { topic, practiceMode, gameModeType, difficulty, wordCount });
 
     const topicLower = topic.toLowerCase();
     console.log('[GameService] Using static vocabulary for topic:', topicLower);
@@ -29,13 +34,13 @@ export class GameService {
     try {
       const languageField = this.mapLanguageCodeToName(this.languageService.currentLanguage());
       console.log('[GameService] Loading translated vocabulary for:', topicLower, 'with language:', languageField);
-      const observable = this.staticVocab.generateTranslatedWords(topicLower, languageField, GAME_CONSTANTS.CARDS_PER_GAME, difficulty ?? undefined);
+      const observable = this.staticVocab.generateTranslatedWords(topicLower, languageField, wordCount, difficulty ?? undefined);
       cards = await firstValueFrom(observable) || [];
       console.log('[GameService] Translated vocabulary loaded:', cards.length, 'cards');
     } catch (error) {
       console.error('[GameService] Failed to load translated vocabulary, using fallback:', error);
       // Use static fallback words as safety net
-      cards = this.getStaticFallbackWords(topic, GAME_CONSTANTS.CARDS_PER_GAME, difficulty);
+      cards = this.getStaticFallbackWords(topic, wordCount, difficulty);
     }
 
     console.log('[GameService] Total cards before filtering:', cards.length);
@@ -51,7 +56,7 @@ export class GameService {
         .map(s => s.english.toLowerCase()));
 
       cards = cards.filter(c => practiceWords.has(c.english.toLowerCase()))
-                   .slice(0, GAME_CONSTANTS.CARDS_PER_GAME);
+                   .slice(0, wordCount);
     }
 
     const flashcards: Flashcard[] = cards.map((item) => {
