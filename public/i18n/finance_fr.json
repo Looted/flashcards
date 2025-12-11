@@ -1,0 +1,1182 @@
+[
+  {
+    "id": "finance_0001",
+    "term": "Flux de Trésorerie Actualisés",
+    "acronym": "DCF",
+    "definition": "Une méthode de valorisation utilisée pour estimer la valeur d'un investissement en se basant sur ses flux de trésorerie futurs attendus, ajustés pour la valeur temporelle de l'argent.",
+    "example": "L'analyste a utilisé un modèle de flux de trésorerie actualisés (DCF) pour déterminer que la société cible était sous-évaluée, ce qui en faisait une acquisition attrayante.",
+    "reviewed": true
+  },
+  {
+    "id": "finance_0002",
+    "term": "Valeur Actuelle Nette",
+    "acronym": "VAN",
+    "definition": "La différence entre la valeur actuelle des entrées de trésorerie et la valeur actuelle des sorties de trésorerie sur une période donnée. Elle est utilisée dans la budgétisation des investissements pour analyser la rentabilité d'un projet.",
+    "example": "Le projet a été approuvé car sa valeur actuelle nette (VAN) était positive, indiquant qu'il générerait plus de valeur qu'il n'en coûterait.",
+    "reviewed": true
+  },
+  {
+    "id": "finance_0003",
+    "term": "Taux de Rentabilité Interne",
+    "acronym": "TRI",
+    "definition": "Le taux d'actualisation qui rend la valeur actuelle nette (VAN) de tous les flux de trésorerie d'un projet particulier égale à zéro. C'est un indicateur utilisé pour estimer la rentabilité des investissements potentiels.",
+    "example": "Nous ne considérons que les projets ayant un taux de rentabilité interne (TRI) supérieur à 15 % pour nous assurer qu'ils atteignent nos objectifs de rentabilité.",
+    "reviewed": true
+  },
+  {
+    "id": "finance_0004",
+    "term": "Coût Moyen Pondéré du Capital",
+    "acronym": "CMPC",
+    "definition": "Un calcul du coût du capital d'une entreprise dans lequel chaque catégorie de capital est pondérée proportionnellement. Il représente le taux moyen qu'une entreprise s'attend à payer pour financer ses actifs.",
+    "example": "Pour évaluer le projet de nouvelle usine, nous avons utilisé le coût moyen pondéré du capital (CMPC) de l'entreprise comme taux d'actualisation dans notre analyse de la VAN.",
+    "reviewed": true
+  },
+  {
+    "id": "finance_0005",
+    "term": "Modèle d'Évaluation des Actifs Financiers",
+    "acronym": "MEDAF",
+    "definition": "Un modèle qui décrit la relation entre le risque systématique et le rendement attendu pour les actifs, en particulier les actions. Il est largement utilisé pour la tarification des titres risqués et la génération de rendements attendus.",
+    "example": "En utilisant le modèle d'évaluation des actifs financiers (MEDAF), nous avons calculé que le rendement attendu de l'action était de 9 %, compte tenu de son bêta et de la prime de risque actuelle du marché.",
+    "reviewed": true
+  },
+  {
+    "id": "finance_0006",
+    "term": "Valeur d'Entreprise",
+    "acronym": "VE",
+    "definition": "Une mesure de la valeur totale d'une société, souvent utilisée comme une alternative plus complète à la capitalisation boursière. Elle inclut la capitalisation boursière plus la dette, les intérêts minoritaires et les actions privilégiées, moins la trésorerie.",
+    "example": "Le prix de l'acquisition a été basé sur la valeur d'entreprise de la cible, ce qui donnait une image plus claire de sa valeur totale que le seul cours de son action.",
+    "reviewed": true
+  },
+  {
+    "id": "finance_0007",
+    "term": "Rachat avec effet de levier",
+    "acronym": "LBO",
+    "definition": "L'acquisition d'une autre société en utilisant un montant important de dette pour couvrir le coût de l'acquisition. Les actifs de la société acquise sont souvent utilisés comme garantie pour les prêts.",
+    "example": "La société de capital-investissement a réalisé un rachat avec effet de levier (LBO) de la chaîne de distribution, espérant la restructurer et la revendre avec un profit.",
+    "reviewed": true
+  },
+  {
+    "id": "finance_0008",
+    "term": "Financement Mezzanine",
+    "acronym": null,
+    "definition": "Un financement hybride entre la dette et les fonds propres qui donne au prêteur le droit de convertir son prêt en une participation au capital de l'entreprise en cas de défaut. Il est subordonné à la dette pure mais prioritaire par rapport aux fonds propres purs.",
+    "example": "Pour financer son expansion sans trop diluer l'actionnariat, la startup a obtenu un financement mezzanine comme alternative à un prêt bancaire traditionnel.",
+    "reviewed": true
+  },
+  {
+    "id": "finance_0009",
+    "term": "Titrisation",
+    "acronym": null,
+    "definition": "Le processus consistant à prendre un actif illiquide, ou un groupe d'actifs, et à les transformer en un titre négociable. L'émetteur regroupe des actifs tels que des prêts hypothécaires ou automobiles et les vend à des investisseurs.",
+    "example": "La banque a eu recours à la titrisation pour regrouper des milliers de prêts hypothécaires individuels en un seul produit d'investissement à vendre aux investisseurs institutionnels.",
+    "reviewed": true
+  },
+  {
+    "id": "finance_0010",
+    "term": "Arbitrage",
+    "acronym": null,
+    "definition": "L'achat et la vente simultanés d'un actif sur différents marchés afin de profiter d'une infime différence de prix, exploitant ainsi les inefficacités du marché.",
+    "example": "Le trader a exécuté une stratégie d'arbitrage en achetant l'action sur une bourse et en la vendant immédiatement à un prix légèrement plus élevé sur une autre.",
+    "reviewed": true
+  },
+  {
+    "id": "finance_0011",
+    "term": "Couverture",
+    "acronym": null,
+    "definition": "Une stratégie d'investissement conçue pour réduire le risque de mouvements de prix défavorables d'un actif. Elle implique généralement la prise d'une position inverse sur un titre connexe.",
+    "example": "La compagnie aérienne s'est couverte en achetant des contrats à terme sur le carburant pour fixer un prix et se protéger contre la hausse des coûts du pétrole.",
+    "reviewed": true
+  },
+  {
+    "id": "finance_0012",
+    "term": "Contrat à Terme",
+    "acronym": null,
+    "definition": "Un contrat privé et personnalisé entre deux parties pour acheter ou vendre un actif à un prix spécifié à une date future. Il n'est pas négocié sur une bourse centralisée.",
+    "example": "L'agriculteur a signé un contrat à terme pour vendre 10 000 boisseaux de maïs à un prix fixe dans six mois, garantissant ainsi ses revenus.",
+    "reviewed": true
+  },
+  {
+    "id": "finance_0013",
+    "term": "Swap de Taux d'Intérêt",
+    "acronym": null,
+    "definition": "Un contrat dérivé par lequel deux parties échangent des paiements d'intérêts pour un montant de principal spécifié, échangeant généralement un taux fixe contre un taux variable.",
+    "example": "Notre entreprise a conclu un swap de taux d'intérêt pour convertir notre prêt à taux variable en un prêt à taux fixe pour une plus grande certitude financière.",
+    "reviewed": true
+  },
+  {
+    "id": "finance_0014",
+    "term": "Contrat d'échange sur défaut de crédit",
+    "acronym": "CDS",
+    "definition": "Un dérivé financier qui permet à un investisseur de transférer son risque de crédit à une autre partie. C'est essentiellement une police d'assurance sur un instrument de dette.",
+    "example": "Le fonds spéculatif a acheté un contrat d'échange sur défaut de crédit (CDS) pour protéger son investissement dans les obligations de la société en cas de défaut de celle-ci.",
+    "reviewed": true
+  },
+  {
+    "id": "finance_0015",
+    "term": "Obligation Adossée à des Actifs",
+    "acronym": "CDO",
+    "definition": "Un produit de finance structurée complexe qui est adossé à un portefeuille de prêts et autres actifs, et vendu à des investisseurs institutionnels. Son risque est divisé en différentes tranches, ou couches.",
+    "example": "Pendant la crise financière, de nombreux investisseurs ont perdu de l'argent sur des obligations adossées à des actifs (CDO) qui étaient garanties par des prêts hypothécaires à risque.",
+    "reviewed": true
+  },
+  {
+    "id": "finance_0016",
+    "term": "Assouplissement Quantitatif",
+    "acronym": "QE",
+    "definition": "Une politique monétaire où une banque centrale achète des obligations d'État ou d'autres actifs financiers pour injecter de l'argent dans l'économie et stimuler l'activité économique.",
+    "example": "La banque centrale a annoncé une nouvelle série d'assouplissement quantitatif pour abaisser les taux d'intérêt et encourager l'investissement.",
+    "reviewed": true
+  },
+  {
+    "id": "finance_0017",
+    "term": "Courbe des Taux",
+    "acronym": null,
+    "definition": "Un graphique linéaire qui représente les taux d'intérêt des obligations ayant une qualité de crédit égale mais des dates d'échéance différentes. Sa forme peut indiquer les conditions économiques futures.",
+    "example": "Une courbe des taux inversée, où les obligations à court terme ont des rendements plus élevés que les obligations à long terme, est souvent considérée comme un signe avant-coureur d'une récession.",
+    "reviewed": true
+  },
+  {
+    "id": "finance_0018",
+    "term": "Volatilité Implicite",
+    "acronym": null,
+    "definition": "Une mesure qui représente la prévision du marché d'un mouvement probable du prix d'un titre. C'est un élément clé pour les modèles de tarification des options.",
+    "example": "La volatilité implicite de l'action a grimpé en flèche avant l'annonce des résultats, indiquant que les traders s'attendaient à une forte variation de prix.",
+    "reviewed": true
+  },
+  {
+    "id": "finance_0019",
+    "term": "Modèle Black-Scholes",
+    "acronym": null,
+    "definition": "Un modèle mathématique utilisé pour déterminer le juste prix ou la valeur théorique d'un contrat d'option. Il prend en compte des facteurs tels que le prix de l'action, le prix d'exercice, le temps jusqu'à l'expiration et la volatilité.",
+    "example": "Les traders utilisent le modèle Black-Scholes pour calculer la valeur théorique des options avant de réaliser une transaction.",
+    "reviewed": true
+  },
+  {
+    "id": "finance_0020",
+    "term": "Simulation de Monte-Carlo",
+    "acronym": null,
+    "definition": "Une technique informatisée qui tient compte du risque dans l'analyse quantitative en générant des milliers de résultats possibles. Elle aide à comprendre l'impact du risque et de l'incertitude.",
+    "example": "Nous avons effectué une simulation de Monte-Carlo pour prévoir la rentabilité du projet selon divers scénarios de marché.",
+    "reviewed": true
+  },
+  {
+    "id": "finance_0021",
+    "term": "Gestion du Fonds de Roulement",
+    "acronym": null,
+    "definition": "La stratégie commerciale conçue pour surveiller et utiliser les actifs et passifs courants afin d'assurer le fonctionnement le plus efficace d'une entreprise.",
+    "example": "Une gestion efficace du fonds de roulement est cruciale pour que notre entreprise maintienne un flux de trésorerie suffisant pour ses obligations à court terme.",
+    "reviewed": true
+  },
+  {
+    "id": "finance_0022",
+    "term": "Dépréciation de l'Écart d'Acquisition",
+    "acronym": null,
+    "definition": "Une charge comptable constatée lorsque la juste valeur marchande du goodwill (écart d'acquisition) passe en dessous de sa valeur comptable au bilan. Le goodwill est un actif incorporel créé lors d'une acquisition.",
+    "example": "L'entreprise a enregistré une importante charge de dépréciation de l'écart d'acquisition après que la filiale acquise ait sous-performé.",
+    "reviewed": true
+  },
+  {
+    "id": "finance_0023",
+    "term": "Tableau d'Amortissement",
+    "acronym": null,
+    "definition": "Un tableau détaillant chaque paiement périodique d'un prêt, montrant quelle part de chaque paiement est allouée aux intérêts par rapport au principal.",
+    "example": "Avant de contracter le prêt immobilier, elle a examiné le tableau d'amortissement pour comprendre comment ses paiements réduiraient le solde du prêt au fil du temps.",
+    "reviewed": true
+  },
+  {
+    "id": "finance_0024",
+    "term": "Comptabilité d'Engagement",
+    "acronym": null,
+    "definition": "Une méthode comptable où les revenus ou les dépenses sont enregistrés lorsqu'une transaction a lieu plutôt que lorsque le paiement est effectué. Elle donne une image plus précise de la santé financière d'une entreprise.",
+    "example": "Notre entreprise utilise la comptabilité d'engagement, nous avons donc comptabilisé les revenus en mai lorsque le service a été fourni, même si le client a payé en juin.",
+    "reviewed": true
+  },
+  {
+    "id": "finance_0025",
+    "term": "Flux de Trésorerie Disponible pour l'Entreprise",
+    "acronym": "UFCF",
+    "definition": "Le flux de trésorerie d'une entreprise avant la prise en compte des paiements d'intérêts. Il indique la quantité de liquidités disponible pour tous les apporteurs de capitaux (créanciers et actionnaires).",
+    "example": "Les analystes préfèrent utiliser le flux de trésorerie disponible pour l'entreprise dans les modèles DCF car il élimine les effets de la structure du capital sur la valorisation.",
+    "reviewed": true
+  },
+  {
+    "id": "finance_0026",
+    "term": "Modèle d'Actualisation des Dividendes",
+    "acronym": "DDM",
+    "definition": "Une méthode d'évaluation du prix de l'action d'une entreprise basée sur la théorie selon laquelle sa valeur est la somme de tous ses futurs paiements de dividendes, actualisés à leur valeur actuelle.",
+    "example": "L'investisseur a utilisé le modèle d'actualisation des dividendes pour affirmer que l'action de la société de services publics était un bon investissement à long terme.",
+    "reviewed": true
+  },
+  {
+    "id": "finance_0027",
+    "term": "Analyse des Sociétés Comparables",
+    "acronym": null,
+    "definition": "Une méthodologie de valorisation qui examine les ratios financiers de sociétés publiques similaires et les utilise pour déduire la valeur d'une autre entreprise.",
+    "example": "Pour estimer la valeur de la startup, le banquier d'affaires a effectué une analyse des sociétés comparables en utilisant des concurrents cotés en bourse.",
+    "reviewed": true
+  },
+  {
+    "id": "finance_0028",
+    "term": "Analyse des Transactions Comparables",
+    "acronym": null,
+    "definition": "Une méthode de valorisation dans laquelle le prix payé pour des sociétés similaires lors de transactions de fusions-acquisitions passées est utilisé pour évaluer une société aujourd'hui.",
+    "example": "L'équipe M&A a mené une analyse des transactions comparables pour déterminer un prix d'acquisition équitable pour la société cible.",
+    "reviewed": true
+  },
+  {
+    "id": "finance_0029",
+    "term": "Structure Optimale du Capital",
+    "acronym": null,
+    "definition": "La combinaison spécifique de financement par dette et par fonds propres qu'une entreprise utilise pour financer ses opérations, qui maximise sa valeur et minimise son coût du capital.",
+    "example": "L'objectif du directeur financier est de trouver la structure optimale du capital, en équilibrant les avantages de la dette avec les risques de difficultés financières.",
+    "reviewed": true
+  },
+  {
+    "id": "finance_0030",
+    "term": "Dette Subordonnée",
+    "acronym": null,
+    "definition": "Un prêt ou un titre qui se classe en dessous d'autres prêts en ce qui concerne les créances sur les actifs ou les bénéfices. En cas de défaut, les détenteurs de dette senior sont payés avant les détenteurs de dette subordonnée.",
+    "example": "L'entreprise a émis une dette subordonnée, qui offrait un taux d'intérêt plus élevé aux investisseurs pour compenser le risque accru.",
+    "reviewed": true
+  },
+  {
+    "id": "finance_0031",
+    "term": "Dette Senior Garantie",
+    "acronym": null,
+    "definition": "Un type de dette qui est adossé à une garantie et qui a la plus haute priorité de remboursement en cas de faillite.",
+    "example": "La banque a fourni une facilité de dette senior garantie à l'entreprise, en utilisant l'usine et ses équipements comme garantie.",
+    "reviewed": true
+  },
+  {
+    "id": "finance_0032",
+    "term": "Risque de Liquidité",
+    "acronym": null,
+    "definition": "Le risque qu'une entreprise ou un particulier ne soit pas en mesure de respecter ses obligations financières à court terme. Il découle de l'incapacité à convertir rapidement un actif en liquidités sans perte de valeur.",
+    "example": "Pour atténuer le risque de liquidité, l'entreprise maintient une réserve de trésorerie saine et une ligne de crédit auprès de sa banque.",
+    "reviewed": true
+  },
+  {
+    "id": "finance_0033",
+    "term": "Valeur à Risque",
+    "acronym": "VaR",
+    "definition": "Une statistique qui quantifie l'étendue des pertes financières possibles au sein d'une entreprise ou d'un portefeuille sur une période donnée à un niveau de confiance donné.",
+    "example": "L'équipe de gestion des risques a calculé que la Valeur à Risque à un jour du portefeuille est de 1 million de dollars à un niveau de confiance de 95 %.",
+    "reviewed": true
+  },
+  {
+    "id": "finance_0034",
+    "term": "Écart de Crédit",
+    "acronym": null,
+    "definition": "La différence de rendement entre deux titres de créance de même échéance mais de qualité de crédit différente. C'est une mesure du risque perçu d'une entreprise.",
+    "example": "Pendant le ralentissement économique, l'écart de crédit s'est élargi, indiquant que les investisseurs exigeaient une compensation plus élevée pour la prise de risque de crédit.",
+    "reviewed": true
+  },
+  {
+    "id": "finance_0035",
+    "term": "Risque Systématique",
+    "acronym": null,
+    "definition": "Le risque inhérent à l'ensemble du marché ou à un segment de marché, également connu sous le nom de 'risque de marché' ou 'risque non diversifiable'. Il affecte l'ensemble du marché, pas seulement une action en particulier.",
+    "example": "Le risque systématique, tel que les variations des taux d'intérêt ou une récession, ne peut être éliminé par la diversification.",
+    "reviewed": true
+  },
+  {
+    "id": "finance_0036",
+    "term": "Risque Non Systématique",
+    "acronym": null,
+    "definition": "Le risque qui est unique à une entreprise ou à un secteur spécifique, également connu sous le nom de 'risque spécifique' ou 'risque diversifiable'. Ce type de risque peut être réduit par la diversification.",
+    "example": "L'entreprise était confrontée à un risque non systématique en raison d'un nouveau concurrent, mais les investisseurs peuvent l'atténuer en détenant un portefeuille diversifié.",
+    "reviewed": true
+  },
+  {
+    "id": "finance_0037",
+    "term": "Coefficient Bêta",
+    "acronym": null,
+    "definition": "Une mesure de la volatilité d'une action par rapport au marché global. Un bêta supérieur à 1 indique que l'action est plus volatile que le marché, tandis qu'un bêta inférieur à 1 signifie qu'elle est moins volatile.",
+    "example": "L'action technologique a un coefficient bêta de 1,5, ce qui suggère qu'elle est 50 % plus volatile que l'indice S&P 500.",
+    "reviewed": true
+  },
+  {
+    "id": "finance_0038",
+    "term": "Alpha de Jensen",
+    "acronym": null,
+    "definition": "Une mesure du rendement actif d'un investissement, montrant sa performance par rapport à un indice de référence. Un alpha positif signifie que l'investissement a surperformé son indice de référence sur une base ajustée au risque.",
+    "example": "La gestionnaire de fonds a généré un Alpha de Jensen positif de 2 %, prouvant sa capacité à choisir des actions qui battent le rendement attendu du marché.",
+    "reviewed": true
+  },
+  {
+    "id": "finance_0039",
+    "term": "Ratio de Sharpe",
+    "acronym": null,
+    "definition": "Une mesure du rendement ajusté au risque, calculée comme le rendement moyen obtenu en excès du taux sans risque par unité de risque total. Un ratio de Sharpe plus élevé indique une meilleure performance.",
+    "example": "Bien que les deux fonds aient eu des rendements similaires, le Fonds A avait un Ratio de Sharpe beaucoup plus élevé, ce qui en faisait le meilleur choix sur une base ajustée au risque.",
+    "reviewed": true
+  },
+  {
+    "id": "finance_0040",
+    "term": "Ratio de Sortino",
+    "acronym": null,
+    "definition": "Une variante du ratio de Sharpe qui ne prend en compte que la volatilité à la baisse, ou le risque préjudiciable. Il différencie la volatilité nuisible de la volatilité globale.",
+    "example": "Le ratio de Sortino est utile pour les investisseurs qui se soucient davantage de protéger leur portefeuille contre des pertes importantes.",
+    "reviewed": true
+  },
+  {
+    "id": "finance_0041",
+    "term": "Due Diligence Financière",
+    "acronym": null,
+    "definition": "Une enquête ou un audit d'un investissement potentiel pour confirmer tous les faits, tels que l'examen des registres financiers, avant de conclure un accord.",
+    "example": "Avant d'acquérir l'entreprise, nous avons engagé un grand cabinet comptable pour mener une due diligence financière approfondie.",
+    "reviewed": true
+  },
+  {
+    "id": "finance_0042",
+    "term": "États Financiers Pro Forma",
+    "acronym": null,
+    "definition": "Des rapports financiers qui utilisent des hypothèses ou des conditions hypothétiques pour projeter la performance financière future d'une entreprise.",
+    "example": "La startup a présenté des états financiers pro forma aux investisseurs pour montrer la rentabilité projetée de l'entreprise au cours des cinq prochaines années.",
+    "reviewed": true
+  },
+  {
+    "id": "finance_0043",
+    "term": "Coût Irrécupérable",
+    "acronym": null,
+    "definition": "Un coût qui a déjà été engagé et qui ne peut être récupéré. Les coûts irrécupérables ne doivent pas être pris en compte dans les décisions commerciales futures.",
+    "example": "Bien que nous ayons dépensé 1 million de dollars pour le projet, c'est un coût irrécupérable ; nous devons décider de continuer en nous basant uniquement sur le potentiel futur.",
+    "reviewed": true
+  },
+  {
+    "id": "finance_0044",
+    "term": "Coût d'Opportunité",
+    "acronym": null,
+    "definition": "Le bénéfice potentiel auquel on renonce en choisissant une alternative plutôt qu'une autre. Il représente la valeur de la meilleure alternative non choisie.",
+    "example": "Le coût d'opportunité de l'investissement dans le projet A est le profit que nous aurions pu réaliser en investissant plutôt dans le projet B.",
+    "reviewed": true
+  },
+  {
+    "id": "finance_0045",
+    "term": "Valeur Temporelle de l'Argent",
+    "acronym": null,
+    "definition": "Le principe financier fondamental selon lequel une somme d'argent vaut plus maintenant que la même somme à une date future en raison de sa capacité potentielle à générer des revenus.",
+    "example": "Le concept de la valeur temporelle de l'argent explique pourquoi vous préféreriez recevoir 1 000 € aujourd'hui plutôt que 1 000 € dans un an.",
+    "reviewed": true
+  },
+  {
+    "id": "finance_0046",
+    "term": "Dépense d'Investissement",
+    "acronym": "CAPEX",
+    "definition": "Fonds utilisés par une entreprise pour acquérir, moderniser et entretenir des actifs physiques tels que des biens immobiliers, des bâtiments, de la technologie ou des équipements.",
+    "example": "Le budget de l'entreprise pour l'année prochaine comprend une importante dépense d'investissement pour une nouvelle usine de fabrication.",
+    "reviewed": true
+  },
+  {
+    "id": "finance_0047",
+    "term": "Retour sur Capitaux Investis",
+    "acronym": "ROIC",
+    "definition": "Un ratio de rentabilité qui mesure la capacité d'une entreprise à générer des flux de trésorerie par rapport au capital qu'elle a investi dans son activité.",
+    "example": "Une entreprise avec un retour sur capitaux investis (RCI) élevé et constant est souvent le signe d'un avantage concurrentiel solide.",
+    "reviewed": true
+  },
+  {
+    "id": "finance_0048",
+    "term": "Taux de Rentabilité Minimal Exigé",
+    "acronym": null,
+    "definition": "Le taux de rentabilité minimum d'un projet ou d'un investissement requis par un gestionnaire ou un investisseur. Il permet aux entreprises de décider de poursuivre ou non un projet spécifique.",
+    "example": "Le rendement attendu du projet est de 12 %, ce qui est inférieur à notre taux de rentabilité minimal exigé de 15 %, nous n'allons donc pas poursuivre ce projet.",
+    "reviewed": true
+  },
+  {
+    "id": "finance_0049",
+    "term": "Taux de Gain en Capital",
+    "acronym": null,
+    "definition": "L'appréciation du prix d'un investissement ou d'un titre exprimée en pourcentage du prix d'achat initial. Il n'inclut pas les revenus des dividendes.",
+    "example": "Si vous achetez une action à 50 € et la vendez à 60 €, votre taux de gain en capital est de 20 %.",
+    "reviewed": true
+  },
+  {
+    "id": "finance_0050",
+    "term": "Valeur Terminale",
+    "acronym": null,
+    "definition": "La valeur estimée d'une entreprise ou d'un projet au-delà de la période de prévision explicite dans une analyse des flux de trésorerie actualisés (DCF). Elle représente tous les flux de trésorerie futurs après la période de prévision.",
+    "example": "Dans notre modèle DCF, la valeur terminale représente plus de 60 % de la valorisation totale de l'entreprise, c'est donc une hypothèse cruciale.",
+    "reviewed": true
+  },
+  {
+    "id": "finance_0051",
+    "term": "Analyse d'Accrétion-Dilution",
+    "acronym": null,
+    "definition": "Une analyse financière utilisée dans les fusions et acquisitions pour évaluer l'impact d'une transaction proposée sur le bénéfice par action (BPA) de l'acquéreur.",
+    "example": "L'équipe de la banque d'investissement a réalisé une analyse d'accrétion-dilution pour montrer au conseil d'administration comment l'acquisition affecterait la valeur pour les actionnaires.",
+    "reviewed": true
+  },
+  {
+    "id": "finance_0052",
+    "term": "Active Share",
+    "acronym": null,
+    "definition": "Une mesure du pourcentage des participations d'un portefeuille qui diffère de son indice de référence, indiquant à quel point le fonds est géré activement.",
+    "example": "Notre fonds a un Active Share de 85 %, ce qui signifie que nous ne nous contentons pas de répliquer l'indice et que nous prenons des paris significatifs.",
+    "reviewed": true
+  },
+  {
+    "id": "finance_0053",
+    "term": "Trading Algorithmique",
+    "acronym": null,
+    "definition": "L'utilisation de programmes informatiques et d'algorithmes pour exécuter des ordres de bourse à des vitesses et volumes élevés sur la base de critères prédéfinis.",
+    "example": "La société utilise le trading algorithmique pour tirer parti de petites divergences de prix sur le marché qu'un trader humain ne pourrait pas exploiter.",
+    "reviewed": true
+  },
+  {
+    "id": "finance_0054",
+    "term": "Clause Anti-Dilution",
+    "acronym": null,
+    "definition": "Une clause qui protège un investisseur contre la réduction de sa participation au capital si la société émet de nouvelles actions à un prix inférieur.",
+    "example": "Les investisseurs en capital-risque ont insisté sur une clause anti-dilution de type \"full ratchet\" pour protéger la valeur de leur investissement lors des futurs tours de financement.",
+    "reviewed": true
+  },
+  {
+    "id": "finance_0055",
+    "term": "Titre Adossé à des Actifs",
+    "acronym": "ABS",
+    "definition": "Un titre financier garanti par un portefeuille d'actifs illiquides, tels que des prêts, des crédits-bails ou des dettes de cartes de crédit.",
+    "example": "La banque a regroupé des milliers de prêts automobiles dans un titre adossé à des actifs et l'a vendu à des investisseurs institutionnels.",
+    "reviewed": true
+  },
+  {
+    "id": "finance_0056",
+    "term": "Hétéroscédasticité Conditionnelle Autorégressive",
+    "acronym": "ARCH",
+    "definition": "Un modèle statistique utilisé pour les séries temporelles qui décrit la variance du terme d'erreur courant en fonction des termes d'erreur des périodes précédentes.",
+    "example": "Nous avons utilisé un modèle ARCH pour prévoir la volatilité du marché boursier, remarquant que les périodes de forte volatilité ont tendance à se regrouper.",
+    "reviewed": true
+  },
+  {
+    "id": "finance_0057",
+    "term": "Cadre de Bâle III",
+    "acronym": null,
+    "definition": "Un accord réglementaire international qui a introduit des réformes pour améliorer la réglementation, la supervision et la gestion des risques dans le secteur bancaire.",
+    "example": "Notre banque a dû augmenter ses réserves de capital pour se conformer aux exigences plus strictes du cadre de Bâle III.",
+    "reviewed": true
+  },
+  {
+    "id": "finance_0058",
+    "term": "Risque de Base",
+    "acronym": null,
+    "definition": "Le risque financier qu'un instrument de couverture n'évolue pas en parfaite corrélation avec l'actif sous-jacent qu'il est censé protéger.",
+    "example": "L'entreprise était confrontée à un risque de base important car son contrat à terme était basé sur une qualité de pétrole différente de celle qu'elle vendait réellement.",
+    "reviewed": true
+  },
+  {
+    "id": "finance_0059",
+    "term": "Remboursement In Fine",
+    "acronym": null,
+    "definition": "Un paiement en une seule fois de la totalité du principal d'un prêt, généralement effectué à la fin de la durée du prêt.",
+    "example": "L'obligation a une durée de cinq ans avec un remboursement in fine, ce qui signifie que nous ne rembourserons aucun principal avant la date d'échéance.",
+    "reviewed": true
+  },
+  {
+    "id": "finance_0060",
+    "term": "Appel de Fonds",
+    "acronym": null,
+    "definition": "Une demande d'un fonds de capital-investissement à ses investisseurs de fournir une partie de l'argent qu'ils se sont engagés à verser au fonds.",
+    "example": "La société de capital-investissement a émis un appel de fonds à ses investisseurs pour financer l'acquisition d'une nouvelle société en portefeuille.",
+    "reviewed": true
+  },
+  {
+    "id": "finance_0061",
+    "term": "Droite de Marché des Capitaux",
+    "acronym": "CML",
+    "definition": "Une droite sur un graphique qui représente les combinaisons de rendement-risque possibles pour les portefeuilles composés de l'actif sans risque et du portefeuille optimal d'actifs risqués.",
+    "example": "Selon la Droite de Marché des Capitaux, tout portefeuille situé en dessous de la droite est sous-optimal car il offre un rendement inférieur pour le même niveau de risque.",
+    "reviewed": true
+  },
+  {
+    "id": "finance_0062",
+    "term": "Carried Interest",
+    "acronym": null,
+    "definition": "Une part des bénéfices d'un fonds d'investissement, versée au gérant du fonds (general partner) en tant que commission de performance.",
+    "example": "Les gérants du fonds ont perçu un carried interest significatif après la sortie réussie de leur investissement.",
+    "reviewed": true
+  },
+  {
+    "id": "finance_0063",
+    "term": "Cycle de Conversion de Trésorerie",
+    "acronym": "CCC",
+    "definition": "Une métrique qui exprime la durée, en jours, nécessaire à une entreprise pour convertir ses investissements en stocks en liquidités provenant des ventes.",
+    "example": "En optimisant notre gestion des stocks, nous avons réussi à raccourcir notre cycle de conversion de trésorerie de 10 jours.",
+    "reviewed": true
+  },
+  {
+    "id": "finance_0064",
+    "term": "Cointégration",
+    "acronym": null,
+    "definition": "Une propriété statistique de deux ou plusieurs variables de séries temporelles qui indique qu'elles ont une relation d'équilibre à long terme.",
+    "example": "L'équipe de \"quants\" a découvert que les prix des deux actions présentaient une cointégration, ce qui leur a permis de créer une stratégie de \"pairs trading\".",
+    "reviewed": true
+  },
+  {
+    "id": "finance_0065",
+    "term": "Capital Engagé",
+    "acronym": null,
+    "definition": "Le montant total que les investisseurs ont accepté de verser à un fonds de capital-investissement ou de capital-risque, qui est ensuite appelé au fil du temps.",
+    "example": "Le nouveau fonds de capital-risque a été clôturé avec succès avec 500 millions de dollars de capital engagé de la part de ses commanditaires.",
+    "reviewed": true
+  },
+  {
+    "id": "finance_0066",
+    "term": "Mémorandum d'Information Confidentiel",
+    "acronym": "CIM",
+    "definition": "Un document détaillé utilisé dans une fusion ou acquisition pour fournir aux acheteurs potentiels des informations complètes sur l'entreprise à vendre.",
+    "example": "Après avoir signé l'accord de non-divulgation, les soumissionnaires potentiels ont reçu le mémorandum d'information confidentiel, qui incluait des projections financières détaillées.",
+    "reviewed": true
+  },
+  {
+    "id": "finance_0067",
+    "term": "États Financiers Consolidés",
+    "acronym": null,
+    "definition": "Les états financiers d'une société mère et de ses filiales qui sont présentés comme s'il s'agissait d'une seule entité économique.",
+    "example": "Le rapport annuel inclut les états financiers consolidés, qui agrègent la performance de toutes nos filiales mondiales.",
+    "reviewed": true
+  },
+  {
+    "id": "finance_0068",
+    "term": "Obligation Contingente Convertible",
+    "acronym": "CoCo",
+    "definition": "Une obligation hybride qui se convertit automatiquement en actions ou est dépréciée si un événement déclencheur spécifique se produit, comme la chute du capital de l'émetteur en dessous d'un certain niveau.",
+    "example": "La banque a émis des obligations contingentes convertibles, aussi connues sous le nom de CoCos, pour renforcer son capital réglementaire.",
+    "reviewed": true
+  },
+  {
+    "id": "finance_0069",
+    "term": "Analyse des Contributions",
+    "acronym": null,
+    "definition": "Une analyse dans le cadre d'une fusion qui compare ce que chaque partie apporte (en termes de chiffre d'affaires, de bénéfices, etc.) à ce qu'elle détiendra dans l'entreprise combinée.",
+    "example": "L'analyse des contributions a montré que notre entreprise apportait 60 % du chiffre d'affaires mais ne détiendrait que 50 % de la nouvelle entité, ce qui a mené à de nouvelles négociations.",
+    "reviewed": true
+  },
+  {
+    "id": "finance_0070",
+    "term": "Convexité",
+    "acronym": null,
+    "definition": "Une mesure de la courbure de la relation entre les prix des obligations et les rendements, utilisée pour mesurer plus précisément la sensibilité d'une obligation aux variations des taux d'intérêt.",
+    "example": "Pour de grandes variations des taux d'intérêt, la convexité d'une obligation devient importante pour prédire l'évolution de son prix avec plus de précision que la duration seule.",
+    "reviewed": true
+  },
+  {
+    "id": "finance_0071",
+    "term": "Coût des Capitaux Propres",
+    "acronym": null,
+    "definition": "Le rendement qu'une entreprise verse théoriquement à ses actionnaires pour compenser le risque qu'ils prennent en investissant leur capital.",
+    "example": "Nous avons utilisé le Modèle d'Évaluation des Actifs Financiers (MEDAF) pour calculer le coût des capitaux propres pour notre modèle de valorisation.",
+    "reviewed": true
+  },
+  {
+    "id": "finance_0072",
+    "term": "Risque de Contrepartie",
+    "acronym": null,
+    "definition": "Le risque que l'autre partie à un contrat financier ne remplisse pas ses obligations, entraînant une perte pour votre entreprise.",
+    "example": "Lorsque nous négocions des produits dérivés de gré à gré, nous sommes exposés au risque de contrepartie si l'autre institution fait défaut.",
+    "reviewed": true
+  },
+  {
+    "id": "finance_0073",
+    "term": "Prêt Covenant-Lite",
+    "acronym": null,
+    "definition": "Un type de prêt qui comporte moins de restrictions et d'exigences de maintenance financière pour l'emprunteur par rapport aux prêts traditionnels.",
+    "example": "Dans un marché favorable aux emprunteurs, de nombreuses entreprises ont pu obtenir des prêts covenant-lite, leur offrant plus de flexibilité opérationnelle.",
+    "reviewed": true
+  },
+  {
+    "id": "finance_0074",
+    "term": "Migration de la Notation de Crédit",
+    "acronym": null,
+    "definition": "Le changement de la notation de crédit d'un émetteur de dette sur une période spécifique, tel qu'un relèvement, un abaissement ou un défaut.",
+    "example": "Le gérant de portefeuille a analysé la matrice de migration de la notation de crédit pour comprendre la probabilité historique qu'une obligation soit déclassée.",
+    "reviewed": true
+  },
+  {
+    "id": "finance_0075",
+    "term": "Ajustement de Valeur de Crédit",
+    "acronym": "CVA",
+    "definition": "Un ajustement à la valeur de marché des instruments dérivés pour tenir compte du risque de crédit de la contrepartie.",
+    "example": "La salle des marchés doit calculer l'ajustement de valeur de crédit (CVA) pour valoriser correctement le swap et provisionner les pertes potentielles.",
+    "reviewed": true
+  },
+  {
+    "id": "finance_0076",
+    "term": "Overlay de Devises",
+    "acronym": null,
+    "definition": "Une stratégie dans laquelle un gérant spécialisé est engagé pour gérer les expositions aux devises d'un portefeuille séparément des actifs sous-jacents.",
+    "example": "Le fonds de pension a utilisé une stratégie d'overlay de devises pour couvrir le risque de change de son portefeuille d'actions internationales.",
+    "reviewed": true
+  },
+  {
+    "id": "finance_0077",
+    "term": "Obligation non Garantie",
+    "acronym": null,
+    "definition": "Un type d'instrument de dette non garanti qui n'est adossé à aucune sûreté et repose sur la solvabilité générale de l'émetteur.",
+    "example": "L'entreprise de premier ordre a pu émettre une obligation non garantie à un faible taux d'intérêt en raison de sa solide situation financière.",
+    "reviewed": true
+  },
+  {
+    "id": "finance_0078",
+    "term": "Ratio de Couverture du Service de la Dette",
+    "acronym": "DSCR",
+    "definition": "Une mesure du flux de trésorerie disponible pour payer les obligations de la dette courante, calculée en divisant le résultat d'exploitation net par le service total de la dette.",
+    "example": "La banque exigeait un ratio de couverture du service de la dette d'au moins 1,25 avant d'approuver le prêt pour le projet immobilier.",
+    "reviewed": true
+  },
+  {
+    "id": "finance_0079",
+    "term": "Actif d'Impôt Différé",
+    "acronym": "IAD",
+    "definition": "Un actif au bilan d'une entreprise qui peut être utilisé pour réduire toute obligation fiscale ultérieure.",
+    "example": "L'entreprise a comptabilisé un actif d'impôt différé car sa perte fiscale de cette année peut être reportée pour compenser les bénéfices futurs.",
+    "reviewed": true
+  },
+  {
+    "id": "finance_0080",
+    "term": "Passif d'Impôt Différé",
+    "acronym": "IDP",
+    "definition": "Un passif au bilan d'une entreprise qui représente des impôts dus mais dont le paiement n'est pas exigible avant une période future.",
+    "example": "L'utilisation de l'amortissement accéléré à des fins fiscales a créé un passif d'impôt différé dans nos comptes.",
+    "reviewed": true
+  },
+  {
+    "id": "finance_0081",
+    "term": "Contrat d'Acquisition Définitif",
+    "acronym": "DPA",
+    "definition": "Un contrat juridiquement contraignant qui spécifie les termes et conditions d'une fusion ou d'une acquisition, tels que le prix et les conditions de clôture.",
+    "example": "Après des mois de négociation, les deux entreprises ont finalement signé le contrat d'acquisition définitif, officialisant la transaction.",
+    "reviewed": true
+  },
+  {
+    "id": "finance_0082",
+    "term": "Couverture Delta",
+    "acronym": null,
+    "definition": "Une stratégie de trading d'options qui vise à réduire le risque directionnel associé aux mouvements de prix de l'actif sous-jacent.",
+    "example": "Le teneur de marché a utilisé la couverture delta en achetant et vendant l'action sous-jacente pour compenser la valeur changeante de son portefeuille d'options.",
+    "reviewed": true
+  },
+  {
+    "id": "finance_0083",
+    "term": "Investissement en Dette d'Entreprises en Difficulté",
+    "acronym": null,
+    "definition": "Une stratégie qui consiste à acheter la dette d'entreprises en faillite ou proches de la faillite, dans le but de profiter du redressement de l'entreprise.",
+    "example": "Le fonds spéculatif est spécialisé dans l'investissement en dette d'entreprises en difficulté, prenant souvent un rôle actif dans la réorganisation de l'entreprise.",
+    "reviewed": true
+  },
+  {
+    "id": "finance_0084",
+    "term": "Cascade de Distribution",
+    "acronym": null,
+    "definition": "Une méthode de distribution des flux de trésorerie et des bénéfices entre les participants à un investissement, où les paiements sont effectués dans un ordre hiérarchique et en cascade.",
+    "example": "Selon la cascade de distribution, les investisseurs doivent d'abord récupérer leur capital initial avant que les gérants ne perçoivent des commissions de performance.",
+    "reviewed": true
+  },
+  {
+    "id": "finance_0085",
+    "term": "Récapitalisation par Dividende",
+    "acronym": null,
+    "definition": "Une transaction dans laquelle une entreprise contracte une nouvelle dette afin de verser un dividende exceptionnel à ses actionnaires.",
+    "example": "La société de capital-investissement a procédé à une récapitalisation par dividende pour récupérer une partie importante de son investissement initial sans vendre l'entreprise.",
+    "reviewed": true
+  },
+  {
+    "id": "finance_0086",
+    "term": "Droit d'Entraînement",
+    "acronym": null,
+    "definition": "Une disposition légale qui permet à un actionnaire majoritaire de forcer un actionnaire minoritaire à se joindre à la vente d'une entreprise.",
+    "example": "La société de capital-risque a exercé son droit d'entraînement pour s'assurer que tous les actionnaires vendraient leurs actions à l'acquéreur.",
+    "reviewed": true
+  },
+  {
+    "id": "finance_0087",
+    "term": "Capitaux Disponibles",
+    "acronym": null,
+    "definition": "Le montant du capital engagé mais non encore investi dont dispose une société de capital-investissement ou de capital-risque pour réaliser de nouveaux investissements.",
+    "example": "Avec plus d'un milliard de dollars de capitaux disponibles, le fonds est bien positionné pour saisir de nouvelles opportunités d'investissement.",
+    "reviewed": true
+  },
+  {
+    "id": "finance_0088",
+    "term": "Duration",
+    "acronym": null,
+    "definition": "Une mesure de la sensibilité du prix d'une obligation aux variations des taux d'intérêt, exprimée en années.",
+    "example": "Une obligation avec une duration plus longue subira une baisse de prix plus importante si les taux d'intérêt augmentent.",
+    "reviewed": true
+  },
+  {
+    "id": "finance_0089",
+    "term": "Clause de Complément de Prix",
+    "acronym": null,
+    "definition": "Une disposition contractuelle dans une acquisition stipulant que le vendeur recevra une compensation future supplémentaire si l'entreprise atteint certains objectifs financiers.",
+    "example": "L'accord incluait une clause de complément de prix qui verserait aux anciens propriétaires 5 millions de dollars supplémentaires si l'entreprise atteignait ses objectifs de chiffre d'affaires l'année prochaine.",
+    "reviewed": true
+  },
+  {
+    "id": "finance_0090",
+    "term": "Valeur Économique Ajoutée",
+    "acronym": "EVA",
+    "definition": "Une mesure de la performance financière d'une entreprise calculée en déduisant son coût du capital de son résultat d'exploitation.",
+    "example": "Les bonus de la direction sont liés à la valeur économique ajoutée, ce qui garantit qu'ils se concentrent sur la création d'une véritable valeur pour les actionnaires.",
+    "reviewed": true
+  },
+  {
+    "id": "finance_0091",
+    "term": "Frontière efficiente",
+    "acronym": null,
+    "definition": "Un concept de la théorie moderne du portefeuille qui représente l'ensemble des portefeuilles optimaux offrant le rendement attendu le plus élevé pour un niveau de risque défini.",
+    "example": "Notre objectif est de construire un portefeuille qui se situe sur la frontière efficiente, maximisant les rendements pour la tolérance au risque de notre client.",
+    "reviewed": true
+  },
+  {
+    "id": "finance_0092",
+    "term": "Mise en équivalence",
+    "acronym": null,
+    "definition": "Une méthode comptable utilisée pour les investissements où l'investisseur a une influence notable mais pas le contrôle total (généralement une participation de 20 à 50 %).",
+    "example": "Nous comptabilisons notre participation de 30 % dans la coentreprise selon la méthode de la mise en équivalence dans notre bilan.",
+    "reviewed": true
+  },
+  {
+    "id": "finance_0093",
+    "term": "Prime de risque actions",
+    "acronym": "ERP",
+    "definition": "Le rendement excédentaire que l'investissement sur le marché actions offre par rapport à un taux sans risque, qui compense les investisseurs pour la prise d'un risque plus élevé.",
+    "example": "Une prime de risque actions plus élevée implique que les investisseurs exigent une plus grande compensation pour le risque de détenir des actions.",
+    "reviewed": true
+  },
+  {
+    "id": "finance_0094",
+    "term": "Attestation d'équité",
+    "acronym": null,
+    "definition": "Un rapport professionnel fourni par une banque d'investissement qui évalue l'équité des conditions financières d'une transaction, comme le prix dans une fusion.",
+    "example": "Le conseil d'administration a obtenu une attestation d'équité d'un conseiller indépendant avant de recommander la fusion aux actionnaires.",
+    "reviewed": true
+  },
+  {
+    "id": "finance_0095",
+    "term": "Modèle à trois facteurs de Fama-French",
+    "acronym": null,
+    "definition": "Un modèle d'évaluation des actifs qui étend le MEDAF en ajoutant les facteurs de risque de taille et de valeur au facteur de risque de marché pour expliquer les rendements des actions.",
+    "example": "Les rendements du fonds ont été analysés à l'aide du modèle à trois facteurs de Fama-French pour voir si la performance était due à la compétence ou simplement à l'exposition à certains facteurs de marché.",
+    "reviewed": true
+  },
+  {
+    "id": "finance_0096",
+    "term": "Dette de premier rang",
+    "acronym": null,
+    "definition": "Un type de dette senior garantie qui a la première créance sur la garantie spécifiée en cas de défaut de l'emprunteur.",
+    "example": "La banque a fourni une dette de premier rang pour le rachat, s'assurant d'être la première remboursée sur les actifs de la société en cas de liquidation.",
+    "reviewed": true
+  },
+  {
+    "id": "finance_0097",
+    "term": "Graphique \"Football Field\"",
+    "acronym": null,
+    "definition": "Un résumé visuel de la fourchette de valorisation d'une entreprise selon différentes méthodologies, présenté sous forme de barres horizontales sur un seul graphique.",
+    "example": "Le graphique \"Football Field\" montrait que la valorisation de l'entreprise variait de 80 à 120 millions de dollars selon différentes analyses comme le DCF et les comparables.",
+    "reviewed": true
+  },
+  {
+    "id": "finance_0098",
+    "term": "Gamma scalping",
+    "acronym": null,
+    "definition": "Une stratégie de trading qui cherche à profiter des changements du delta d'une option en réajustant continuellement la couverture d'un portefeuille pour maintenir une position delta-neutre.",
+    "example": "Le trader d'options a utilisé le gamma scalping pour profiter de la volatilité de l'action, achetant bas et vendant haut au gré des fluctuations du prix.",
+    "reviewed": true
+  },
+  {
+    "id": "finance_0099",
+    "term": "General Partner",
+    "acronym": "GP",
+    "definition": "L'associé gérant d'un fonds de capital-investissement ou de capital-risque, responsable des décisions d'investissement et ayant une responsabilité illimitée.",
+    "example": "Le General Partner du fonds a présenté le rapport de performance trimestriel aux commanditaires.",
+    "reviewed": true
+  },
+  {
+    "id": "finance_0100",
+    "term": "Mouvement brownien géométrique",
+    "acronym": "MBG",
+    "definition": "Un modèle mathématique utilisé pour décrire le mouvement aléatoire des prix des actifs, constituant la base du modèle d'évaluation des options de Black-Scholes.",
+    "example": "Le modèle financier a supposé que le prix de l'action suit un mouvement brownien géométrique pour simuler les trajectoires de prix futures.",
+    "reviewed": true
+  },
+  {
+    "id": "finance_0101",
+    "term": "Trading à haute fréquence",
+    "acronym": "HFT",
+    "definition": "Une méthode de trading automatisée utilisant des ordinateurs puissants pour exécuter un grand nombre d'ordres à des vitesses extrêmement élevées.",
+    "example": "Le système de HFT de l'entreprise a exécuté des milliers de transactions en moins d'une seconde pour capitaliser sur des écarts de prix mineurs sur le marché.",
+    "reviewed": true
+  },
+  {
+    "id": "finance_0102",
+    "term": "Clause d'indemnisation",
+    "acronym": null,
+    "definition": "Une disposition contractuelle par laquelle une partie s'engage à dédommager l'autre pour tout préjudice, perte ou dommage découlant de l'accord.",
+    "example": "Notre équipe juridique a insisté sur une clause d'indemnisation solide dans l'accord de fusion pour nous protéger contre d'éventuelles poursuites.",
+    "reviewed": true
+  },
+  {
+    "id": "finance_0103",
+    "term": "Ratio d'information",
+    "acronym": "IR",
+    "definition": "Une mesure des rendements ajustés au risque d'un portefeuille, évaluant la capacité d'un gestionnaire à générer des rendements excédentaires par rapport à un indice de référence.",
+    "example": "Le nouveau gestionnaire de fonds a un ratio d'information impressionnant, surperformant constamment le S&P 500 avec un risque supplémentaire minimal.",
+    "reviewed": true
+  },
+  {
+    "id": "finance_0104",
+    "term": "Lemme d'Itô",
+    "acronym": null,
+    "definition": "Un théorème fondamental du calcul stochastique utilisé en finance quantitative pour évaluer les produits dérivés et autres instruments financiers.",
+    "example": "Pour dériver l'équation de Black-Scholes pour la tarification des options, il faut d'abord appliquer le lemme d'Itô au processus de prix de l'action.",
+    "reviewed": true
+  },
+  {
+    "id": "finance_0105",
+    "term": "Modèle de diffusion à sauts",
+    "acronym": null,
+    "definition": "Un modèle financier qui intègre des mouvements de prix soudains et importants (sauts) en plus des fluctuations normales plus petites pour mieux représenter le comportement des prix des actifs.",
+    "example": "Contrairement aux modèles standards, le modèle de diffusion à sauts peut tenir compte des chocs de marché inattendus, le rendant plus robuste pour la tarification des options.",
+    "reviewed": true
+  },
+  {
+    "id": "finance_0106",
+    "term": "Commanditaire",
+    "acronym": "LP",
+    "definition": "Un investisseur dans une société en commandite dont la responsabilité est limitée au montant de son investissement et qui ne participe pas à la gestion quotidienne.",
+    "example": "Le fonds de pension a agi en tant que commanditaire, engageant 50 millions de dollars dans le nouveau fonds de capital-risque.",
+    "reviewed": true
+  },
+  {
+    "id": "finance_0107",
+    "term": "Préférence de liquidation",
+    "acronym": null,
+    "definition": "Une clause contractuelle qui dicte l'ordre de paiement lors d'une liquidation d'entreprise, donnant souvent la priorité aux détenteurs d'actions privilégiées sur les détenteurs d'actions ordinaires.",
+    "example": "Les investisseurs en capital-risque ont négocié une préférence de liquidation de 2x, ce qui signifie qu'ils récupèrent le double de leur investissement avant que les autres actionnaires ne soient payés.",
+    "reviewed": true
+  },
+  {
+    "id": "finance_0108",
+    "term": "Ratio prêt-valeur",
+    "acronym": "LTV",
+    "definition": "Un indicateur financier utilisé par les prêteurs qui exprime le rapport entre un prêt et la valeur de l'actif acheté.",
+    "example": "La banque n'approuvait qu'un prêt hypothécaire avec un ratio LTV de 80 %, nous avions donc besoin d'un acompte de 20 %.",
+    "reviewed": true
+  },
+  {
+    "id": "finance_0109",
+    "term": "Frais de gestion",
+    "acronym": null,
+    "definition": "Une commission périodique versée par un fonds d'investissement à son conseiller en investissement pour la gestion des actifs du fonds.",
+    "example": "Le hedge fund facture des frais de gestion annuels de 2 % sur tous les actifs sous gestion, en plus d'une commission de performance.",
+    "reviewed": true
+  },
+  {
+    "id": "finance_0110",
+    "term": "Comptabilisation à la valeur de marché",
+    "acronym": "MTM",
+    "definition": "Une pratique comptable consistant à ajuster la valeur d'un actif au bilan pour refléter sa valeur de marché actuelle.",
+    "example": "En raison de la comptabilisation à la valeur de marché, la société de trading a dû déclarer une perte importante car la valeur de son portefeuille de dérivés a diminué.",
+    "reviewed": true
+  },
+  {
+    "id": "finance_0111",
+    "term": "Théorie moderne du portefeuille",
+    "acronym": "MPT",
+    "definition": "Une théorie financière qui montre comment un investisseur peut construire un portefeuille pour maximiser le rendement attendu pour un niveau de risque donné grâce à la diversification.",
+    "example": "Notre stratégie d'investissement est basée sur la théorie moderne du portefeuille, se concentrant sur un mélange diversifié d'actifs pour obtenir des rendements optimaux.",
+    "reviewed": true
+  },
+  {
+    "id": "finance_0112",
+    "term": "Titre adossé à des créances hypothécaires",
+    "acronym": "MBS",
+    "definition": "Un type de titre adossé à des actifs qui est garanti par un ensemble de prêts hypothécaires.",
+    "example": "La banque d'investissement a créé un nouveau titre adossé à des créances hypothécaires en regroupant des milliers de prêts immobiliers individuels.",
+    "reviewed": true
+  },
+  {
+    "id": "finance_0113",
+    "term": "Amortissement négatif",
+    "acronym": null,
+    "definition": "Une augmentation du solde principal d'un prêt causée par des paiements inférieurs aux intérêts dus.",
+    "example": "Les faibles mensualités de départ du prêt hypothécaire ont entraîné un amortissement négatif, augmentant le montant total dû.",
+    "reviewed": true
+  },
+  {
+    "id": "finance_0114",
+    "term": "Participations ne donnant pas le contrôle",
+    "acronym": "NCI",
+    "definition": "Part des capitaux propres d'une filiale non détenue directement ou indirectement par la société mère. Également appelées « intérêts minoritaires ».",
+    "example": "Au bilan consolidé, la société a déclaré des participations ne donnant pas le contrôle d'une valeur de 15 millions de dollars, représentant les 20 % de la filiale qu'elle ne détient pas.",
+    "reviewed": true
+  },
+  {
+    "id": "finance_0115",
+    "term": "Élément non récurrent",
+    "acronym": null,
+    "definition": "Une écriture dans un état financier pour un événement ponctuel et inhabituel qui ne devrait pas se reproduire dans le cours normal des affaires.",
+    "example": "La vente de notre siège social était un élément non récurrent, les analystes l'ont donc exclu lors de la prévision des bénéfices futurs.",
+    "reviewed": true
+  },
+  {
+    "id": "finance_0116",
+    "term": "Ajustement de normalisation",
+    "acronym": null,
+    "definition": "Une modification apportée aux indicateurs financiers pour supprimer les effets d'événements inhabituels, permettant une comparaison plus précise.",
+    "example": "Nous avons procédé à un ajustement de normalisation de l'EBITDA de l'entreprise pour exclure l'impact d'un gain exceptionnel provenant du règlement d'un litige.",
+    "reviewed": true
+  },
+  {
+    "id": "finance_0117",
+    "term": "Montant notionnel",
+    "acronym": null,
+    "definition": "Le montant principal spécifié dans un contrat de produits dérivés, tel qu'un swap de taux d'intérêt, sur lequel les paiements sont calculés mais qui n'est pas réellement échangé.",
+    "example": "Les deux banques se sont mises d'accord sur un montant notionnel de 100 millions de dollars pour calculer les paiements d'intérêts variables et fixes de leur swap.",
+    "reviewed": true
+  },
+  {
+    "id": "finance_0118",
+    "term": "Lettres grecques",
+    "acronym": null,
+    "definition": "Un ensemble de mesures de risque (Delta, Gamma, Thêta, Véga) qui indiquent la sensibilité du prix d'une option aux changements de divers paramètres.",
+    "example": "Le trader a analysé les lettres grecques de son portefeuille pour comprendre son exposition aux mouvements du cours de l'action et à la volatilité.",
+    "reviewed": true
+  },
+  {
+    "id": "finance_0119",
+    "term": "Obligation PIK Toggle",
+    "acronym": "PIK",
+    "definition": "Un type d'obligation qui permet à l'émetteur de choisir de payer les intérêts en espèces ou avec de la dette supplémentaire.",
+    "example": "L'entreprise a utilisé l'option PIK Toggle de son obligation pour préserver sa trésorerie, en choisissant de payer les intérêts du trimestre par l'émission de dette supplémentaire.",
+    "reviewed": true
+  },
+  {
+    "id": "finance_0120",
+    "term": "Actions préférentielles",
+    "acronym": null,
+    "definition": "Une catégorie de titres de propriété qui a un droit de créance supérieur sur les actifs et les bénéfices par rapport aux actions ordinaires, et qui verse généralement un dividende fixe.",
+    "example": "Pour lever des capitaux sans diluer le pouvoir de vote, l'entreprise a émis pour 50 millions de dollars d'actions préférentielles auprès d'investisseurs institutionnels.",
+    "reviewed": true
+  },
+  {
+    "id": "finance_0121",
+    "term": "Allocation du prix d'acquisition",
+    "acronym": "PPA",
+    "definition": "Une pratique comptable par laquelle un acquéreur répartit le prix d'achat d'une entreprise entre les différents actifs et passifs acquis.",
+    "example": "Après la fusion, l'équipe comptable a commencé l'allocation du prix d'acquisition pour attribuer des valeurs aux brevets, aux immobilisations et à l'écart d'acquisition.",
+    "reviewed": true
+  },
+  {
+    "id": "finance_0122",
+    "term": "Capital réglementaire",
+    "acronym": null,
+    "definition": "Le montant de capital qu'une institution financière est tenue de détenir par son régulateur pour s'assurer qu'elle peut absorber des pertes inattendues.",
+    "example": "La banque a dû lever des fonds supplémentaires pour répondre aux nouvelles exigences de capital réglementaire, plus strictes.",
+    "reviewed": true
+  },
+  {
+    "id": "finance_0123",
+    "term": "Principe de reconnaissance des revenus",
+    "acronym": null,
+    "definition": "Un principe comptable qui spécifie les conditions dans lesquelles les revenus sont comptabilisés dans les états financiers d'une entreprise.",
+    "example": "Selon le principe de reconnaissance des revenus, nous ne pouvons comptabiliser les frais d'abonnement en revenus que sur la durée du contrat, et non en une seule fois.",
+    "reviewed": true
+  },
+  {
+    "id": "finance_0124",
+    "term": "Cantonnement",
+    "acronym": null,
+    "definition": "La pratique consistant à séparer une partie des actifs ou des bénéfices d'une entreprise du reste, souvent pour des raisons réglementaires.",
+    "example": "La nouvelle loi exige que les grandes banques utilisent le cantonnement pour séparer leurs activités de banque de détail de leurs activités de banque d'investissement plus risquées.",
+    "reviewed": true
+  },
+  {
+    "id": "finance_0125",
+    "term": "Dette de second rang",
+    "acronym": null,
+    "definition": "Un type de dette qui a une créance secondaire sur la garantie, ce qui signifie que ses détenteurs ne sont payés qu'après les détenteurs de dette de premier rang.",
+    "example": "L'entreprise a contracté une dette de second rang à un taux d'intérêt plus élevé pour financer son expansion, car ses principaux actifs étaient déjà donnés en garantie.",
+    "reviewed": true
+  },
+  {
+    "id": "finance_0126",
+    "term": "Droite de marché des titres",
+    "acronym": "SML",
+    "definition": "Une représentation graphique du Modèle d'Évaluation des Actifs Financiers (MEDAF), montrant le rendement attendu d'un actif en fonction de son risque systématique (bêta).",
+    "example": "Les actifs qui se situent au-dessus de la droite de marché des titres sont considérés comme sous-évalués car leur rendement attendu est élevé pour leur niveau de risque.",
+    "reviewed": true
+  },
+  {
+    "id": "finance_0127",
+    "term": "Sélection de titres",
+    "acronym": null,
+    "definition": "Le processus de choix de titres individuels au sein d'une classe d'actifs spécifique à inclure dans un portefeuille d'investissement.",
+    "example": "La compétence du gestionnaire de fonds en matière de sélection de titres a permis au portefeuille de surperformer son indice de référence.",
+    "reviewed": true
+  },
+  {
+    "id": "finance_0128",
+    "term": "Information sectorielle",
+    "acronym": null,
+    "definition": "La publication d'informations sur les segments opérationnels d'une entreprise dans ses états financiers, montrant la performance par division ou par zone géographique.",
+    "example": "Grâce à l'information sectorielle, les investisseurs ont pu voir que la division européenne de l'entreprise était bien plus rentable que sa division asiatique.",
+    "reviewed": true
+  },
+  {
+    "id": "finance_0129",
+    "term": "Clause de fonds d'amortissement",
+    "acronym": null,
+    "definition": "Une disposition dans un contrat d'émission d'obligations qui exige de l'émetteur qu'il mette périodiquement de l'argent de côté pour rembourser ses obligations.",
+    "example": "La clause de fonds d'amortissement de l'obligation d'entreprise donne aux investisseurs l'assurance que la société disposera des fonds pour rembourser le principal à l'échéance.",
+    "reviewed": true
+  },
+  {
+    "id": "finance_0130",
+    "term": "Véhicule ad hoc",
+    "acronym": "SPV",
+    "definition": "Une société filiale créée avec un objectif spécifique et étroit, souvent pour isoler le risque financier.",
+    "example": "L'entreprise a créé un véhicule ad hoc pour détenir les prêts hypothécaires de son opération de titrisation, protégeant ainsi la société mère de pertes potentielles.",
+    "reviewed": true
+  },
+  {
+    "id": "finance_0131",
+    "term": "Duration de spread",
+    "acronym": null,
+    "definition": "Une mesure de la sensibilité du prix d'une obligation aux variations de son écart de crédit (spread) par rapport à un taux de référence sans risque.",
+    "example": "Le gestionnaire de portefeuille a calculé la duration de spread des obligations d'entreprise pour estimer comment leur valeur changerait si le risque de crédit augmentait."
+  },
+  {
+    "id": "finance_0132",
+    "term": "Financement pré-arrangé",
+    "acronym": null,
+    "definition": "Un montage financier pré-arrangé offert par la banque d'investissement d'un vendeur aux soumissionnaires potentiels pour l'entreprise en vente.",
+    "example": "Pour accélérer le processus d'enchères, la banque du vendeur a offert un financement pré-arrangé à tous les acheteurs intéressés, leur assurant un accès immédiat aux fonds."
+  },
+  {
+    "id": "finance_0133",
+    "term": "État des résultats non distribués",
+    "acronym": null,
+    "definition": "Un état financier décrivant les changements dans les bénéfices non répartis d'une entreprise sur une période, reliant le compte de résultat au bilan.",
+    "example": "L'état des résultats non distribués a montré que l'entreprise a réinvesti la majeure partie de son résultat net dans l'activité."
+  },
+  {
+    "id": "finance_0134",
+    "term": "Arbitrage statistique",
+    "acronym": null,
+    "definition": "Une stratégie de trading quantitative qui utilise des modèles statistiques pour identifier et exploiter les inefficacités de prix temporaires entre des titres liés.",
+    "example": "La stratégie d'arbitrage statistique du hedge fund consiste à acheter une action technologique sous-évaluée tout en vendant à découvert une action surévaluée du même secteur."
+  },
+  {
+    "id": "finance_0135",
+    "term": "Volatilité stochastique",
+    "acronym": null,
+    "definition": "Un modèle financier où la volatilité d'un actif n'est pas constante mais suit plutôt son propre processus aléatoire et imprévisible.",
+    "example": "Les modèles à volatilité stochastique sont plus performants pour évaluer les options à long terme car ils tiennent compte du fait que la volatilité elle-même change avec le temps."
+  },
+  {
+    "id": "finance_0136",
+    "term": "Allocation d'actifs stratégique",
+    "acronym": "SAA",
+    "definition": "Une stratégie de portefeuille à long terme consistant à définir des allocations cibles pour diverses classes d'actifs et à les rééquilibrer périodiquement.",
+    "example": "La philosophie de notre cabinet repose sur l'allocation d'actifs stratégique, en maintenant un mix de 60 % d'actions et 40 % d'obligations pour les clients ayant une tolérance au risque modérée."
+  },
+  {
+    "id": "finance_0137",
+    "term": "Test de résistance",
+    "acronym": null,
+    "definition": "Une technique de simulation utilisée par les institutions financières pour évaluer la performance de leurs portefeuilles dans des scénarios économiques extrêmes.",
+    "example": "La banque centrale a exigé que toutes les grandes banques se soumettent à un test de résistance pour voir si elles pouvaient supporter une grave récession."
+  },
+  {
+    "id": "finance_0138",
+    "term": "Valorisation par somme des parties",
+    "acronym": "SOTP",
+    "definition": "Une méthode de valorisation d'une entreprise consistant à déterminer ce que vaudraient ses différentes divisions si elles étaient vendues séparément.",
+    "example": "L'analyste a utilisé une valorisation par somme des parties et a conclu que l'action de la société était sous-évaluée, car ses divisions valaient plus séparément."
+  },
+  {
+    "id": "finance_0139",
+    "term": "Swaption",
+    "acronym": null,
+    "definition": "Une option accordant à son détenteur le droit, mais non l'obligation, de conclure un swap de taux d'intérêt sous-jacent.",
+    "example": "L'entreprise a acheté une swaption de payeur pour se protéger contre une future hausse des taux d'intérêt."
+  },
+  {
+    "id": "finance_0140",
+    "term": "Valeur synergique",
+    "acronym": null,
+    "definition": "La valeur additionnelle créée par la combinaison de deux entreprises, qui est supérieure à la somme de leurs valeurs individuelles.",
+    "example": "L'acquéreur a justifié la prime élevée en soulignant l'importante valeur synergique qui serait débloquée en combinant les opérations."
+  },
+  {
+    "id": "finance_0141",
+    "term": "Droit de sortie conjointe",
+    "acronym": null,
+    "definition": "Une disposition contractuelle qui permet à un actionnaire minoritaire de vendre ses actions au même prix et aux mêmes conditions qu'un actionnaire majoritaire.",
+    "example": "Le droit de sortie conjointe du fondateur garantissait que si l'investisseur majoritaire vendait sa participation, le fondateur pourrait également quitter l'entreprise aux mêmes conditions."
+  },
+  {
+    "id": "finance_0142",
+    "term": "Term sheet",
+    "acronym": null,
+    "definition": "Un accord non contraignant qui expose les termes et conditions de base selon lesquels un investissement sera réalisé.",
+    "example": "La société de capital-risque a présenté à la startup un term sheet détaillant le montant de l'investissement proposé et la valorisation."
+  },
+  {
+    "id": "finance_0143",
+    "term": "Érosion de la valeur temps",
+    "acronym": null,
+    "definition": "Une mesure du taux de déclin de la valeur d'une option dû au passage du temps, également connue sous le nom de perte de valeur temps.",
+    "example": "À l'approche de la date d'expiration, la valeur de l'option a diminué rapidement en raison de l'érosion de la valeur temps, même si le cours de l'action n'a pas bougé."
+  },
+  {
+    "id": "finance_0144",
+    "term": "Erreur de suivi",
+    "acronym": "TE",
+    "definition": "Une mesure de la fidélité avec laquelle un portefeuille suit l'indice par rapport auquel il est comparé.",
+    "example": "Le fonds indiciel vise une erreur de suivi très faible, garantissant que sa performance est presque identique à celle du S&P 500."
+  },
+  {
+    "id": "finance_0145",
+    "term": "Ratio de Treynor",
+    "acronym": null,
+    "definition": "Un indicateur de performance permettant de déterminer le rendement excédentaire généré pour chaque unité de risque systématique prise par un portefeuille.",
+    "example": "Le fonds avec le ratio de Treynor le plus élevé a été jugé supérieur car il offrait un meilleur rendement pour le risque de marché qu'il assumait."
+  },
+  {
+    "id": "finance_0146",
+    "term": "Dette unitranche",
+    "acronym": null,
+    "definition": "Une structure de prêt hybride qui combine une dette senior et une dette subordonnée en un seul prêt avec un taux d'intérêt mixte.",
+    "example": "La société de capital-investissement a utilisé une dette unitranche pour financer le rachat par emprunt, simplifiant ainsi la structure du capital."
+  },
+  {
+    "id": "finance_0147",
+    "term": "Exposition au vega",
+    "acronym": null,
+    "definition": "Le risque pour un portefeuille d'options associé aux variations de la volatilité implicite des actifs sous-jacents.",
+    "example": "Le trader avait une exposition au vega positive, ce qui signifie que la valeur du portefeuille augmenterait si la volatilité du marché augmentait."
+  },
+  {
+    "id": "finance_0148",
+    "term": "Rendement à l'échéance",
+    "acronym": "YTM",
+    "definition": "Le rendement total anticipé d'une obligation si elle est conservée jusqu'à son échéance.",
+    "example": "L'obligation se négociait avec une décote, lui donnant un rendement à l'échéance de 5 %, ce qui était supérieur à son taux de coupon déclaré."
+  },
+  {
+    "id": "finance_0149",
+    "term": "Rendement au pire",
+    "acronym": "YTW",
+    "definition": "Le rendement potentiel le plus bas qui peut être obtenu sur une obligation remboursable par anticipation sans que l'émetteur ne fasse défaut.",
+    "example": "L'investisseur s'est concentré sur le rendement au pire pour comprendre le retour le plus prudent possible sur l'obligation rachetable."
+  },
+  {
+    "id": "finance_0150",
+    "term": "Obligation à coupon zéro",
+    "acronym": null,
+    "definition": "Un titre de créance qui ne verse pas d'intérêts mais qui est négocié avec une forte décote, générant un profit à l'échéance.",
+    "example": "Il a acheté une obligation à coupon zéro sur 20 ans pour 400 $, qui atteindra sa valeur nominale de 1 000 $ à l'échéance."
+  }
+]

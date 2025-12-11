@@ -25,16 +25,10 @@ export interface TranslatedItem extends TranslationItem {
   providedIn: 'root'
 })
 export class StaticVocabularyService {
-  // Map category IDs to file prefixes (most use ID directly, but some differ)
-  private readonly categoryToPrefix: Record<string, string> = {
-    'finance': 'fin'
-    // others use the category ID as prefix
-  };
-
   constructor(private http: HttpClient) {}
 
   private getFilePrefix(topic: string): string {
-    return this.categoryToPrefix[topic.toLowerCase()] || topic.toLowerCase();
+    return topic.toLowerCase();
   }
 
 
@@ -96,9 +90,9 @@ export class StaticVocabularyService {
       if (translationItem) {
         return {
           ...baseItem,
-          term_translation: translationItem.term_translation,
-          definition_translation: translationItem.definition_translation,
-          example_translation: translationItem.example_translation
+          term_translation: translationItem.term,
+          definition_translation: translationItem.definition,
+          example_translation: translationItem.example
         };
       }
       return baseItem;

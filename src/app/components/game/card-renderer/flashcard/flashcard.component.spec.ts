@@ -53,6 +53,21 @@ describe('FlashcardComponent', () => {
     expect(component.isFlipped()).toBe(false);
   });
 
+  it('should track hasBeenFlipped state', () => {
+    expect(component.hasBeenFlipped()).toBe(false);
+
+    component.flip();
+    expect(component.isFlipped()).toBe(true);
+    expect(component.hasBeenFlipped()).toBe(true);
+
+    component.flip(); // flip back
+    expect(component.isFlipped()).toBe(false);
+    expect(component.hasBeenFlipped()).toBe(true); // Should remain true
+
+    component.resetFlip();
+    expect(component.hasBeenFlipped()).toBe(false);
+  });
+
   describe('displayFrontLabel', () => {
     it('should return provided frontLabel when available', () => {
       fixture.componentRef.setInput('frontLabel', 'Custom Front');
@@ -284,6 +299,94 @@ describe('FlashcardComponent', () => {
 
     it('should return empty string when backDefinition is empty', () => {
       fixture.componentRef.setInput('backDefinition', '');
+      expect(component.displayBackDefinition()).toBe('');
+    });
+
+    it('should return English definition when secondary is english', () => {
+      const card = {
+        english: 'Assets',
+        definition: 'Resources owned by a company that have economic value',
+        translations: {
+          'definition_english': 'Resources owned by a company that have economic value',
+          'definition': 'Zasoby będące własnością firmy, posiadające wartość ekonomiczną'
+        }
+      };
+      mockStore.currentCard.set(card);
+      mockStore.currentRoundConfig.set({
+        layout: { dataMap: { secondary: 'english' } }
+      });
+      expect(component.displayBackDefinition()).toBe('Resources owned by a company that have economic value');
+    });
+
+    it('should return Polish definition when secondary is polish', () => {
+      const card = {
+        english: 'Assets',
+        definition: 'Resources owned by a company that have economic value',
+        translations: {
+          'definition_english': 'Resources owned by a company that have economic value',
+          'definition_polish': 'Zasoby będące własnością firmy, posiadające wartość ekonomiczną'
+        }
+      };
+      mockStore.currentCard.set(card);
+      mockStore.currentRoundConfig.set({
+        layout: { dataMap: { secondary: 'polish' } }
+      });
+      expect(component.displayBackDefinition()).toBe('Zasoby będące własnością firmy, posiadające wartość ekonomiczną');
+    });
+
+    it('should return Spanish definition when secondary is spanish', () => {
+      const card = {
+        english: 'Assets',
+        definition: 'Resources owned by a company that have economic value',
+        translations: {
+          'definition_english': 'Resources owned by a company that have economic value',
+          'definition_spanish': 'Recursos propiedad de una empresa que tienen valor económico'
+        }
+      };
+      mockStore.currentCard.set(card);
+      mockStore.currentRoundConfig.set({
+        layout: { dataMap: { secondary: 'spanish' } }
+      });
+      expect(component.displayBackDefinition()).toBe('Recursos propiedad de una empresa que tienen valor económico');
+    });
+
+    it('should return empty string when no definition available', () => {
+      const card = {
+        english: 'Assets',
+        translations: {}
+      };
+      mockStore.currentCard.set(card);
+      mockStore.currentRoundConfig.set({
+        layout: { dataMap: { secondary: 'polish' } }
+      });
+      expect(component.displayBackDefinition()).toBe('');
+    });
+
+    it('should return empty string for contextSentence secondary field', () => {
+      const card = {
+        english: 'Assets',
+        translations: {
+          'definition': 'Zasoby będące własnością firmy'
+        }
+      };
+      mockStore.currentCard.set(card);
+      mockStore.currentRoundConfig.set({
+        layout: { dataMap: { secondary: 'contextSentence' } }
+      });
+      expect(component.displayBackDefinition()).toBe('');
+    });
+
+    it('should return empty string for translation secondary field', () => {
+      const card = {
+        english: 'Assets',
+        translations: {
+          'definition': 'Zasoby będące własnością firmy'
+        }
+      };
+      mockStore.currentCard.set(card);
+      mockStore.currentRoundConfig.set({
+        layout: { dataMap: { secondary: 'translation' } }
+      });
       expect(component.displayBackDefinition()).toBe('');
     });
   });

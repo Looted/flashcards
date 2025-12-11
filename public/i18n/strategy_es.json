@@ -1,902 +1,1770 @@
 [
   {
-    "id": "strat_0001",
-    "term_translation": "Unidad sectorial",
-    "definition_translation": "Una parte distinta de una empresa que opera como una unidad de negocio separada, a menudo con su propia responsabilidad de pérdidas y ganancias.",
-    "example_translation": "La división farmacéutica generó los mayores ingresos este trimestre."
+    "id": "strategy_0051",
+    "term": "Fusiones y Adquisiciones",
+    "acronym": "M&A",
+    "definition": "La consolidación de empresas o activos a través de diversas transacciones financieras, incluyendo fusiones, adquisiciones y OPA (ofertas públicas de adquisición).",
+    "example": "Nuestro equipo de Fusiones y Adquisiciones (M&A) está evaluando la posible adquisición de un competidor más pequeño para aumentar nuestra cuota de mercado.",
+    "reviewed": true
+  },
+  {
+    "id": "strategy_0052",
+    "term": "Indicador Clave de Rendimiento",
+    "acronym": "KPI",
+    "definition": "Un valor medible que demuestra la eficacia con la que una empresa está logrando sus objetivos de negocio clave.",
+    "example": "Uno de nuestros principales Indicadores Clave de Rendimiento (KPI) para el departamento de marketing este trimestre es aumentar el tráfico del sitio web en un 15 %.",
+    "reviewed": true
+  },
+  {
+    "id": "strategy_0053",
+    "term": "Objetivos y Resultados Clave",
+    "acronym": "OKR",
+    "definition": "Un marco para establecer metas que ayuda a las empresas a definir objetivos ambiciosos y a seguir su progreso a través de resultados clave medibles.",
+    "example": "Para este ciclo, nuestro Objetivo es 'Lanzar la nueva aplicación con éxito' y un Resultado Clave es 'Alcanzar 10.000 descargas en el primer mes'.",
+    "reviewed": true
+  },
+  {
+    "id": "strategy_0054",
+    "term": "Visión Basada en los Recursos",
+    "acronym": "RBV",
+    "definition": "Un marco estratégico que sugiere que la ventaja competitiva de una empresa se deriva de sus recursos y capacidades internas, que son únicos y valiosos.",
+    "example": "Aplicando la Visión Basada en los Recursos, identificamos nuestro algoritmo patentado como un activo fundamental que los competidores no pueden replicar fácilmente.",
+    "reviewed": true
+  },
+  {
+    "id": "strategy_0055",
+    "term": "Producto Mínimo Viable",
+    "acronym": "MVP",
+    "definition": "Una versión de un nuevo producto con las características suficientes para ser utilizada por los primeros clientes, quienes pueden proporcionar comentarios para el desarrollo futuro del producto.",
+    "example": "En lugar de desarrollar el software con todas las funciones, vamos a lanzar un Producto Mínimo Viable (MVP) para probar nuestras hipótesis principales con usuarios reales primero.",
+    "reviewed": true
+  },
+  {
+    "id": "strategy_0056",
+    "term": "Valor de Vida del Cliente",
+    "acronym": "CLV",
+    "definition": "Una predicción del beneficio neto atribuido a toda la relación futura con un cliente.",
+    "example": "Al aumentar la retención de clientes en solo un 5 %, podemos impulsar significativamente el Valor de Vida del Cliente promedio.",
+    "reviewed": true
+  },
+  {
+    "id": "strategy_0057",
+    "term": "Análisis de Grupos Estratégicos",
+    "acronym": null,
+    "definition": "Un marco que agrupa a las empresas rivales de un sector en grupos basados en estrategias y modelos de negocio similares.",
+    "example": "Nuestro Análisis de Grupos Estratégicos muestra que competimos más directamente con otras marcas de lujo, no con los minoristas del mercado masivo.",
+    "reviewed": true
+  },
+  {
+    "id": "strategy_0058",
+    "term": "Teoría de Juegos",
+    "acronym": null,
+    "definition": "El estudio de modelos matemáticos de interacción estratégica entre agentes racionales, utilizado a menudo para predecir las acciones de los competidores.",
+    "example": "Utilizamos la Teoría de Juegos para modelar cómo podrían reaccionar nuestros competidores a nuestra nueva estrategia de precios.",
+    "reviewed": true
+  },
+  {
+    "id": "strategy_0059",
+    "term": "Coopetición",
+    "acronym": null,
+    "definition": "Una estrategia en la que empresas competidoras cooperan en ciertas actividades para lograr beneficios mutuos, mientras siguen compitiendo en otras áreas.",
+    "example": "Apple y Samsung practican la coopetición; son rivales feroces en el mercado de los smartphones, pero Samsung es también un proveedor clave de componentes para Apple.",
+    "reviewed": true
+  },
+  {
+    "id": "strategy_0060",
+    "term": "Sinergia",
+    "acronym": null,
+    "definition": "El concepto de que el valor combinado de dos empresas fusionadas será mayor que la suma de sus partes individuales.",
+    "example": "El objetivo principal de la fusión es crear sinergia al combinar nuestra fuerza de ventas con su innovadora línea de productos.",
+    "reviewed": true
+  },
+  {
+    "id": "strategy_0061",
+    "term": "Asignación de Capital",
+    "acronym": null,
+    "definition": "El proceso de distribuir los recursos financieros de una empresa entre varios proyectos o inversiones para aumentar la eficiencia y maximizar los beneficios.",
+    "example": "La principal responsabilidad del consejo es la asignación de capital efectiva entre la reinversión en el negocio y la devolución de efectivo a los accionistas.",
+    "reviewed": true
+  },
+  {
+    "id": "strategy_0062",
+    "term": "Valor para el Accionista",
+    "acronym": null,
+    "definition": "El valor que se entrega a los propietarios de una empresa, medido típicamente por la combinación de la apreciación del precio de las acciones y los dividendos pagados.",
+    "example": "Cada decisión estratégica que tomamos se juzga en última instancia por su capacidad para aumentar el valor para el accionista a largo plazo.",
+    "reviewed": true
+  },
+  {
+    "id": "strategy_0063",
+    "term": "Valor Económico Agregado",
+    "acronym": "EVA",
+    "definition": "Una medida del rendimiento financiero de una empresa basada en la riqueza residual, calculada deduciendo el coste de su capital de su beneficio operativo.",
+    "example": "Nuestro enfoque en mejorar el Valor Económico Agregado nos ha obligado a cerrar divisiones con bajo rendimiento que no cubrían su coste de capital.",
+    "reviewed": true
   },
   {
-    "id": "strat_0002",
-    "term_translation": "Falta de inclusión",
-    "definition_translation": "El hecho de no incluir o mencionar algo en los estados financieros o informes, lo que puede conducir a problemas de cumplimiento.",
-    "example_translation": "El auditor señaló una omisión material con respecto a los pasivos de la demanda pendiente."
+    "id": "strategy_0064",
+    "term": "Retorno sobre el Capital Invertido",
+    "acronym": "ROIC",
+    "definition": "Un ratio de rentabilidad que mide la eficiencia con la que una empresa utiliza su capital para generar beneficios.",
+    "example": "Un alto Retorno sobre el Capital Invertido (ROIC) indica que nuestra dirección es muy eficaz en la asignación de capital a inversiones rentables.",
+    "reviewed": true
   },
   {
-    "id": "strat_0003",
-    "term_translation": "Provisión",
-    "definition_translation": "Una cantidad reservada en las cuentas de una organización para un pasivo conocido de fecha o importe incierto.",
-    "example_translation": "La empresa hizo una provisión específica para deudas incobrables en previsión de la recesión."
+    "id": "strategy_0065",
+    "term": "Deriva Estratégica",
+    "acronym": null,
+    "definition": "Un deterioro gradual de la posición competitiva de una empresa porque su estrategia no logra adaptarse a los cambios en el entorno externo.",
+    "example": "Kodak experimentó una deriva estratégica al aferrarse a su negocio de películas fotográficas mientras el mercado cambiaba a la fotografía digital.",
+    "reviewed": true
   },
   {
-    "id": "strat_0004",
-    "term_translation": "Creación de visión",
-    "definition_translation": "El proceso estratégico de desarrollar una imagen mental clara de la dirección futura y los objetivos de una organización.",
-    "example_translation": "La junta pasó el retiro trabajando en la creación de visión sobre cómo debería ser la empresa en diez años."
+    "id": "strategy_0066",
+    "term": "Estrategia de Saneamiento",
+    "acronym": null,
+    "definition": "Un conjunto de acciones que se toman para revertir el mal rendimiento de una empresa y devolverla a la rentabilidad.",
+    "example": "El nuevo CEO fue contratado específicamente para implementar una estrategia de saneamiento, que incluye la reducción de costes y la venta de activos no esenciales.",
+    "reviewed": true
   },
   {
-    "id": "strat_0005",
-    "term_translation": "Gobernanza",
-    "definition_translation": "El sistema de reglas, prácticas y procesos mediante los cuales se dirige y controla una empresa.",
-    "example_translation": "Una buena gobernanza corporativa asegura transparencia y responsabilidad ante los accionistas."
+    "id": "strategy_0067",
+    "term": "Estrategia de Repliegue",
+    "acronym": null,
+    "definition": "Una estrategia a nivel corporativo que implica reducir el tamaño o la diversidad de las operaciones de una organización para recortar costes y mejorar el rendimiento.",
+    "example": "Ante la caída de las ventas, la empresa adoptó una estrategia de repliegue, cerrando sus oficinas internacionales para centrarse en el mercado nacional.",
+    "reviewed": true
   },
   {
-    "id": "strat_0006",
-    "term_translation": "Plan de bonificación",
-    "definition_translation": "Un esquema de compensación que recompensa a los empleados por lograr objetivos de rendimiento específicos.",
-    "example_translation": "El nuevo plan de bonificación está vinculado a las puntuaciones de satisfacción del cliente en lugar de solo al volumen de ventas."
+    "id": "strategy_0068",
+    "term": "Gestión de Cartera Corporativa",
+    "acronym": null,
+    "definition": "El proceso de gestionar el conjunto de unidades de negocio y líneas de productos de una corporación como una única cartera de inversiones.",
+    "example": "A través de una gestión de cartera corporativa eficaz, decidimos invertir más en nuestra división de la nube de alto crecimiento y desinvertir en nuestro negocio de hardware tradicional.",
+    "reviewed": true
   },
   {
-    "id": "strat_0007",
-    "term_translation": "Comisión",
-    "definition_translation": "Un pago variable hecho a los empleados basado en el valor de las ventas que han cerrado.",
-    "example_translation": "Los agentes ganan una comisión del 5% en cada transacción inmobiliaria."
+    "id": "strategy_0069",
+    "term": "Matriz GE-McKinsey",
+    "acronym": null,
+    "definition": "Una herramienta estratégica que ayuda a las corporaciones a evaluar sus unidades de negocio en función del atractivo del sector y la fortaleza competitiva.",
+    "example": "Utilizamos la Matriz GE-McKinsey para decidir en qué unidades de negocio invertir, mantener o desinvertir.",
+    "reviewed": true
   },
   {
-    "id": "strat_0008",
-    "term_translation": "Plan de acción",
-    "definition_translation": "Una secuencia detallada de pasos que deben tomarse para lograr una estrategia u objetivo específico.",
-    "example_translation": "Necesitamos convertir esta estrategia en un plan de acción concreto con plazos."
+    "id": "strategy_0070",
+    "term": "Rigidez Central",
+    "acronym": null,
+    "definition": "Una situación en la que las competencias clave de una empresa, que antes eran una fuente de fortaleza, se convierten en una debilidad que impide la adaptación a las nuevas condiciones del mercado.",
+    "example": "La dependencia de la empresa de su antiguo proceso de fabricación se convirtió en una rigidez central, lo que le impidió competir con startups más ágiles.",
+    "reviewed": true
   },
   {
-    "id": "strat_0009",
-    "term_translation": "Costes directos",
-    "definition_translation": "Gastos que pueden atribuirse directamente a la producción de bienes o servicios específicos.",
-    "example_translation": "Las materias primas y la mano de obra son los principales costes directos para esta línea de productos."
+    "id": "strategy_0071",
+    "term": "Punto de Inflexión Estratégico",
+    "acronym": null,
+    "definition": "Un momento crítico en el que un cambio fundamental en el entorno empresarial exige que una empresa realice un gran giro en su estrategia para sobrevivir y prosperar.",
+    "example": "El auge de internet fue un punto de inflexión estratégico para el comercio minorista tradicional, forzándolo a adoptar el comercio electrónico o arriesgarse a quedar obsoleto.",
+    "reviewed": true
   },
   {
-    "id": "strat_0010",
-    "term_translation": "Plan de enajenación",
-    "definition_translation": "Un acuerdo estratégico para vender o eliminar activos que ya no son necesarios.",
-    "example_translation": "El plan de enajenación para el equipo antiguo de la fábrica se ejecutará el próximo mes."
+    "id": "strategy_0072",
+    "term": "Migración de Valor",
+    "acronym": null,
+    "definition": "El flujo de valor económico desde modelos de negocio obsoletos hacia otros nuevos que satisfacen mejor las prioridades de los clientes.",
+    "example": "Estamos presenciando una migración de valor en la industria de los medios, a medida que los presupuestos de publicidad se trasladan de los periódicos impresos a las plataformas online.",
+    "reviewed": true
   },
   {
-    "id": "strat_0011",
-    "term_translation": "Activos objetivo",
-    "definition_translation": "Recursos o propiedades específicas que una empresa pretende adquirir durante una fusión o adquisición.",
-    "example_translation": "La debida diligencia reveló pasivos ocultos en los activos objetivo."
+    "id": "strategy_0073",
+    "term": "Efecto Volante de Inercia",
+    "acronym": null,
+    "definition": "Un concepto que describe cómo pequeños esfuerzos constantes en la dirección correcta generan impulso con el tiempo, lo que conduce a un crecimiento significativo y autorreforzado.",
+    "example": "El enfoque de Amazon en la experiencia del cliente crea más tráfico, lo que atrae a más vendedores, generando un poderoso efecto volante de inercia.",
+    "reviewed": true
   },
   {
-    "id": "strat_0012",
-    "term_translation": "Planta marginal",
-    "definition_translation": "Una instalación de producción que opera al borde de la rentabilidad, a menudo la primera en cerrar durante las recesiones.",
-    "example_translation": "Decidimos cerrar la planta marginal porque los costes de mantenimiento excedían los ingresos."
+    "id": "strategy_0074",
+    "term": "Competencia Asimétrica",
+    "acronym": null,
+    "definition": "Una forma de competencia en la que empresas con diferentes modelos de negocio, recursos u objetivos compiten por los mismos clientes.",
+    "example": "Una compañía de taxis tradicional se enfrenta a la competencia asimétrica de aplicaciones de transporte como Uber, que tienen una estructura de costes completamente diferente.",
+    "reviewed": true
   },
   {
-    "id": "strat_0013",
-    "term_translation": "Plan de emergencia",
-    "definition_translation": "Un curso de acción diseñado para mitigar el daño de posibles eventos negativos.",
-    "example_translation": "El plan de emergencia se activó inmediatamente después del ciberataque."
+    "id": "strategy_0075",
+    "term": "Barreras de Entrada",
+    "acronym": null,
+    "definition": "Obstáculos que dificultan la entrada de nuevas empresas en un mercado determinado, como altos requisitos de capital o una fuerte lealtad a la marca.",
+    "example": "El alto coste de construir una fábrica de semiconductores es una importante barrera de entrada en la industria de los microchips.",
+    "reviewed": true
   },
   {
-    "id": "strat_0014",
-    "term_translation": "Estrategia de auditoría",
-    "definition_translation": "El enfoque general que describe el alcance, el momento y la dirección de un proceso de inspección.",
-    "example_translation": "Nuestra estrategia de auditoría se centra en áreas de alto riesgo como el manejo de efectivo y las adquisiciones."
+    "id": "strategy_0076",
+    "term": "Barreras de Salida",
+    "acronym": null,
+    "definition": "Obstáculos que impiden que una empresa abandone un sector, como activos especializados difíciles de vender o regulaciones gubernamentales.",
+    "example": "A pesar de perder dinero, la aerolínea no podía abandonar fácilmente el mercado debido a importantes barreras de salida, como los arrendamientos de aeronaves a largo plazo.",
+    "reviewed": true
   },
   {
-    "id": "strat_0015",
-    "term_translation": "Cuotas de admisión",
-    "definition_translation": "Costes asociados con obtener entrada a un mercado, organización o grupo comercial específico.",
-    "example_translation": "Las altas cuotas de admisión impiden que los competidores más pequeños se unan al consorcio industrial."
+    "id": "strategy_0077",
+    "term": "Costes de Cambio",
+    "acronym": null,
+    "definition": "Los costes en los que incurre un consumidor como resultado de cambiar de marca, proveedor o producto.",
+    "example": "Nuestro nuevo software está diseñado para tener bajos costes de cambio para facilitar a los clientes la migración desde la plataforma de nuestro competidor.",
+    "reviewed": true
   },
   {
-    "id": "strat_0016",
-    "term_translation": "Costes indirectos",
-    "definition_translation": "Gastos que no son directamente atribuibles a un objeto de coste, a menudo llamados gastos generales.",
-    "example_translation": "El alquiler y los servicios públicos se clasifican como costes indirectos porque apoyan a toda la oficina."
+    "id": "strategy_0078",
+    "term": "Economías de Escala",
+    "acronym": null,
+    "definition": "Las ventajas de costes que las empresas obtienen debido a su escala de operación, donde el coste por unidad de producción disminuye a medida que aumenta la escala.",
+    "example": "Como gran fabricante, nos beneficiamos de las economías de escala, lo que nos permite producir bienes a un coste menor que los competidores más pequeños.",
+    "reviewed": true
   },
   {
-    "id": "strat_0017",
-    "term_translation": "Negocio directo",
-    "definition_translation": "Transacciones realizadas inmediatamente entre el proveedor y el cliente sin intermediarios.",
-    "example_translation": "Moverse a un modelo de negocio directo aumentó nuestros márgenes al eliminar a los distribuidores."
+    "id": "strategy_0079",
+    "term": "Economías de Alcance",
+    "acronym": null,
+    "definition": "Ventajas de costes que resultan de producir una variedad de productos utilizando las mismas operaciones o recursos, en lugar de especializarse en un solo producto.",
+    "example": "Una empresa que produce tanto champú como acondicionador puede lograr economías de alcance al compartir los canales de marketing y distribución.",
+    "reviewed": true
   },
   {
-    "id": "strat_0018",
-    "term_translation": "Mitigación",
-    "definition_translation": "La acción de reducir la gravedad, seriedad o dolor de algo.",
-    "example_translation": "Las estrategias de mitigación de riesgos incluyen la diversificación y el seguro."
+    "id": "strategy_0080",
+    "term": "Curva de Experiencia",
+    "acronym": null,
+    "definition": "El concepto de que el coste de producir una unidad disminuye en un porcentaje predecible cada vez que el volumen de producción acumulado de una empresa se duplica.",
+    "example": "Según la curva de experiencia, nuestros costes de producción deberían disminuir un 20 % después de haber fabricado nuestro primer millón de unidades.",
+    "reviewed": true
   },
   {
-    "id": "strat_0019",
-    "term_translation": "Desembolso",
-    "definition_translation": "El acto de gastar fondos, a menudo capitalizado para beneficios a largo plazo.",
-    "example_translation": "El desembolso de capital para la nueva planta fue significativo."
+    "id": "strategy_0081",
+    "term": "Estrategia Deliberada",
+    "acronym": null,
+    "definition": "Un curso de acción intencionado que una empresa planea seguir para alcanzar sus objetivos.",
+    "example": "Nuestra estrategia deliberada era entrar en el mercado europeo en un plazo de tres años, y seguimos nuestro plan con precisión.",
+    "reviewed": true
   },
   {
-    "id": "strat_0020",
-    "term_translation": "Auditoría",
-    "definition_translation": "Una inspección oficial de las cuentas de un individuo u organización, típicamente por un organismo independiente.",
-    "example_translation": "La auditoría anual no encontró irregularidades en la contabilidad."
+    "id": "strategy_0082",
+    "term": "Estrategia Emergente",
+    "acronym": null,
+    "definition": "Una estrategia no planificada que surge de acciones autónomas de los individuos o de oportunidades y desafíos inesperados.",
+    "example": "Aunque planeábamos vender nuestro software a grandes corporaciones, se desarrolló una estrategia emergente cuando las pequeñas empresas comenzaron a adoptarlo de forma orgánica.",
+    "reviewed": true
   },
   {
-    "id": "strat_0021",
-    "term_translation": "Activo",
-    "definition_translation": "Un recurso con valor económico que un individuo o corporación posee con la expectativa de un beneficio futuro.",
-    "example_translation": "La reputación de la marca es nuestro activo intangible más valioso."
+    "id": "strategy_0083",
+    "term": "Prospección Estratégica",
+    "acronym": null,
+    "definition": "La práctica de explorar y dar forma sistemáticamente al futuro mediante el análisis de las principales tendencias e incertidumbres.",
+    "example": "Nuestro equipo de prospección estratégica tiene la tarea de identificar tendencias tecnológicas a largo plazo que podrían alterar significativamente nuestro sector.",
+    "reviewed": true
   },
   {
-    "id": "strat_0022",
-    "term_translation": "Ganancia",
-    "definition_translation": "Una ganancia financiera, especialmente la diferencia entre la cantidad ganada y la cantidad gastada.",
-    "example_translation": "La empresa obtuvo un beneficio saludable a pesar de la recesión económica."
+    "id": "strategy_0084",
+    "term": "Simulación Estratégica",
+    "acronym": null,
+    "definition": "Un ejercicio de simulación donde equipos que representan a diferentes actores, como los competidores, simulan las posibles respuestas a diversos movimientos estratégicos.",
+    "example": "Realizamos una sesión de simulación estratégica para anticipar cómo reaccionarían nuestros rivales al lanzamiento de nuestro nuevo producto.",
+    "reviewed": true
   },
   {
-    "id": "strat_0023",
-    "term_translation": "Bienes",
-    "definition_translation": "La propiedad total de una persona, asociación o corporación sujeta al pago de deudas.",
-    "example_translation": "El tribunal ordenó la congelación de todos los bienes corporativos."
+    "id": "strategy_0085",
+    "term": "Inteligencia Competitiva",
+    "acronym": null,
+    "definition": "La recopilación, análisis y distribución éticos de información sobre competidores, clientes y el entorno del mercado.",
+    "example": "Nuestro informe de inteligencia competitiva reveló que nuestro principal rival planea lanzar un nuevo servicio el próximo trimestre.",
+    "reviewed": true
   },
   {
-    "id": "strat_0024",
-    "term_translation": "Proyección",
-    "definition_translation": "Una estimación o pronóstico de una situación o tendencia futura basada en tendencias presentes.",
-    "example_translation": "La proyección de ventas para el cuarto trimestre parece optimista según los datos actuales."
+    "id": "strategy_0086",
+    "term": "Mapa Estratégico",
+    "acronym": null,
+    "definition": "Un diagrama que muestra cómo una empresa planea alcanzar sus objetivos, vinculándolos en una cadena de causa y efecto a través de diferentes perspectivas.",
+    "example": "El mapa estratégico ilustra claramente cómo la mejora de las habilidades de los empleados conducirá a un mejor servicio al cliente y, en última instancia, a mayores ingresos.",
+    "reviewed": true
   },
   {
-    "id": "strat_0025",
-    "term_translation": "Ingresos",
-    "definition_translation": "La renta total producida por una fuente dada.",
-    "example_translation": "La publicidad es la principal fuente de ingresos para el gigante de las redes sociales."
+    "id": "strategy_0087",
+    "term": "Prima de Ejecución",
+    "acronym": null,
+    "definition": "El valor que una empresa crea cuando vincula y ejecuta con éxito su estrategia a través de sus sistemas de gestión operativa.",
+    "example": "Muchas empresas tienen grandes ideas, pero solo aquellas que pueden traducirlas en acciones logran una prima de ejecución.",
+    "reviewed": true
   },
   {
-    "id": "strat_0026",
-    "term_translation": "Coste de fin de vida",
-    "definition_translation": "Gastos asociados con el retiro de un producto o activo.",
-    "example_translation": "Debemos tener en cuenta las tarifas de reciclaje y eliminación como parte del coste de fin de vida."
+    "id": "strategy_0088",
+    "term": "Coherencia Estratégica",
+    "acronym": null,
+    "definition": "El grado en que las capacidades, productos y posiciones de mercado de una empresa se refuerzan mutuamente y están alineados con un objetivo estratégico claro.",
+    "example": "El ecosistema de productos de Apple demuestra una fuerte coherencia estratégica, ya que su hardware, software y servicios funcionan juntos a la perfección.",
+    "reviewed": true
   },
   {
-    "id": "strat_0027",
-    "term_translation": "Auditoría informática",
-    "definition_translation": "Un examen de los controles de gestión dentro de una infraestructura de tecnología de la información.",
-    "example_translation": "La auditoría informática reveló varias vulnerabilidades en la configuración de nuestro cortafuegos."
+    "id": "strategy_0089",
+    "term": "Orquestación de Recursos",
+    "acronym": null,
+    "definition": "La habilidad directiva para estructurar, agrupar y aprovechar eficazmente los recursos de una empresa para crear una ventaja competitiva.",
+    "example": "El talento del nuevo CEO para la orquestación de recursos permitió a la empresa lograr más con sus activos existentes.",
+    "reviewed": true
   },
   {
-    "id": "strat_0028",
-    "term_translation": "Emprendimiento",
-    "definition_translation": "Una jornada o empresa arriesgada o audaz, especialmente una que implica nuevos riesgos comerciales.",
-    "example_translation": "El emprendimiento conjunto entre los dos gigantes tecnológicos tiene como objetivo desarrollar procesadores cuánticos."
+    "id": "strategy_0090",
+    "term": "Desarrollo de Capacidades",
+    "acronym": null,
+    "definition": "El proceso de desarrollar la capacidad de una empresa para realizar tareas o actividades específicas que son críticas para su éxito estratégico.",
+    "example": "Estamos invirtiendo fuertemente en el desarrollo de capacidades de nuestro equipo de análisis de datos para comprender mejor el comportamiento del cliente.",
+    "reviewed": true
   },
   {
-    "id": "strat_0029",
-    "term_translation": "Inspección fiscal",
-    "definition_translation": "Un examen de una declaración de impuestos por parte de la autoridad tributaria para verificar que los ingresos y deducciones sean precisos.",
-    "example_translation": "Guarde todos sus recibos en caso de una inspección fiscal."
+    "id": "strategy_0091",
+    "term": "Abastecimiento Estratégico",
+    "acronym": null,
+    "definition": "Un proceso de adquisiciones que mejora continuamente las actividades de compra de una empresa para alinearlas con los objetivos de negocio a largo plazo.",
+    "example": "Mediante el abastecimiento estratégico, consolidamos a nuestros proveedores y negociamos mejores contratos a largo plazo, ahorrando millones a la empresa.",
+    "reviewed": true
   },
   {
-    "id": "strat_0030",
-    "term_translation": "Beneficio neto",
-    "definition_translation": "La ganancia real después de pagar los gastos operativos e impuestos.",
-    "example_translation": "Después de pagar impuestos y salarios, nuestro beneficio neto fue menor de lo esperado."
+    "id": "strategy_0092",
+    "term": "Estrategia de Deslocalización",
+    "acronym": null,
+    "definition": "La estrategia de reubicar un proceso o función de negocio de un país a otro, generalmente para aprovechar costes más bajos.",
+    "example": "Nuestra estrategia de deslocalización implicó trasladar nuestro centro de atención al cliente a un país con costes laborales más bajos.",
+    "reviewed": true
   },
   {
-    "id": "strat_0031",
-    "term_translation": "Expediente de auditoría",
-    "definition_translation": "La carpeta o ubicación de almacenamiento que contiene la documentación para un encargo de auditoría específico.",
-    "example_translation": "El contador junior fue responsable de organizar el expediente de auditoría."
+    "id": "strategy_0093",
+    "term": "Estrategia de Externalización",
+    "acronym": null,
+    "definition": "La práctica empresarial de contratar a una empresa externa para realizar servicios o crear bienes que tradicionalmente se realizaban internamente.",
+    "example": "Tenemos una estrategia de externalización para nuestro soporte de TI, lo que nos permite centrarnos en nuestro negocio principal de fabricación.",
+    "reviewed": true
   },
   {
-    "id": "strat_0032",
-    "term_translation": "Organismo de control",
-    "definition_translation": "Una organización o comité designado oficialmente para realizar inspecciones.",
-    "example_translation": "El organismo de control europeo está revisando el uso del dinero de la subvención."
+    "id": "strategy_0094",
+    "term": "Reingeniería de Procesos de Negocio",
+    "acronym": "BPR",
+    "definition": "El rediseño radical de los procesos de negocio clave para lograr mejoras drásticas en la productividad, los tiempos de ciclo y la calidad.",
+    "example": "Iniciamos un proyecto de Reingeniería de Procesos de Negocio para renovar por completo nuestro ineficiente sistema de gestión de pedidos.",
+    "reviewed": true
   },
   {
-    "id": "strat_0033",
-    "term_translation": "Cumplimiento normativo",
-    "definition_translation": "La acción o hecho de cumplir con un deseo o mandato, especialmente regulaciones legales.",
-    "example_translation": "El cumplimiento normativo es un centro de costes importante para las instituciones bancarias."
+    "id": "strategy_0095",
+    "term": "Estrategia de Transformación Digital",
+    "acronym": null,
+    "definition": "Un plan para aprovechar las tecnologías digitales con el fin de cambiar fundamentalmente la forma en que una empresa opera y entrega valor a sus clientes.",
+    "example": "Nuestra estrategia de transformación digital incluye migrar nuestra infraestructura a la nube e implementar un nuevo sistema CRM.",
+    "reviewed": true
   },
   {
-    "id": "strat_0034",
-    "term_translation": "Firma de auditoría",
-    "definition_translation": "Una empresa de servicios profesionales que proporciona servicios de auditoría y aseguramiento.",
-    "example_translation": "Contratamos a una firma de auditoría de las \"Big Four\" para manejar nuestra preparación para la salida a bolsa."
+    "id": "strategy_0096",
+    "term": "Innovación Abierta",
+    "acronym": null,
+    "definition": "Una estrategia que implica el uso de ideas y colaboraciones externas, además de las internas, para avanzar en la tecnología y la innovación.",
+    "example": "A través de nuestro programa de innovación abierta, colaboramos con universidades y startups para desarrollar nuevas tecnologías.",
+    "reviewed": true
   },
   {
-    "id": "strat_0035",
-    "term_translation": "Riesgo de precio",
-    "definition_translation": "El riesgo de una disminución en el valor de un valor o una cartera.",
-    "example_translation": "Los comerciantes de materias primas utilizan coberturas para gestionar el riesgo de precio."
+    "id": "strategy_0097",
+    "term": "Expansión a Negocios Adyacentes",
+    "acronym": null,
+    "definition": "Una estrategia de crecimiento en la que una empresa se introduce en un nuevo segmento de negocio o mercado que está estrechamente relacionado con el actual.",
+    "example": "La entrada de la compañía de café en la venta de equipos de preparación de marca es un ejemplo clásico de una expansión a negocios adyacentes.",
+    "reviewed": true
   },
   {
-    "id": "strat_0036",
-    "term_translation": "Activos netos",
-    "definition_translation": "Los activos totales de una empresa menos sus pasivos totales.",
-    "example_translation": "El valor contable de la empresa es esencialmente sus activos netos."
+    "id": "strategy_0098",
+    "term": "Estrategia de Espacios Blancos",
+    "acronym": null,
+    "definition": "Una estrategia que se dirige a oportunidades de mercado no explotadas donde las competencias únicas de una empresa podrían crear un nuevo producto o servicio.",
+    "example": "Nuestro equipo está desarrollando una estrategia de espacios blancos para identificar necesidades de los clientes que nadie está satisfaciendo en el mercado actual.",
+    "reviewed": true
   },
   {
-    "id": "strat_0037",
-    "term_translation": "Ayuda fiscal",
-    "definition_translation": "Asistencia financiera proporcionada por el gobierno u otras instituciones.",
-    "example_translation": "El sector en dificultades solicitó ayuda fiscal para sobrevivir a la crisis."
+    "id": "strategy_0099",
+    "term": "Análisis PIMS",
+    "acronym": "PIMS",
+    "definition": "Un análisis basado en datos (Impacto de la Estrategia de Mercado en los Beneficios) que utiliza una gran base de datos para identificar los factores estratégicos clave que impulsan la rentabilidad.",
+    "example": "El análisis PIMS sugirió una fuerte correlación entre la cuota de mercado y el retorno de la inversión para las empresas de nuestro sector.",
+    "reviewed": true
   },
   {
-    "id": "strat_0038",
-    "term_translation": "Activo crediticio",
-    "definition_translation": "Un préstamo considerado como un activo para el prestamista (el banco) porque genera ingresos por intereses.",
-    "example_translation": "El banco vendió una parte de su cartera de activo crediticio para aumentar la liquidez."
+    "id": "strategy_0100",
+    "term": "Estrategia de Marca Desafiante",
+    "acronym": null,
+    "definition": "Una estrategia de marketing adoptada por una marca que no es líder del mercado, con el objetivo de alterar el statu quo y ganar cuota de mercado mediante tácticas audaces.",
+    "example": "Como segundo actor del mercado, adoptamos una estrategia de marca desafiante centrada en resaltar el diferenciador clave de nuestro producto en una agresiva campaña publicitaria.",
+    "reviewed": true
   },
   {
-    "id": "strat_0039",
-    "term_translation": "Riesgo de auditoría",
-    "definition_translation": "El riesgo de que un auditor exprese una opinión inapropiada cuando los estados financieros contienen errores materiales.",
-    "example_translation": "Para minimizar el riesgo de auditoría, aumentamos el tamaño de la muestra de nuestras pruebas."
+    "id": "strategy_0101",
+    "term": "Dilema del incumbente",
+    "acronym": null,
+    "definition": "El desafío que enfrentan las empresas establecidas cuando una nueva innovación disruptiva amenaza su exitoso modelo de negocio existente.",
+    "example": "Kodak se enfrentó al dilema del incumbente; dudaron en adoptar la fotografía digital porque destruiría su rentable negocio de películas fotográficas.",
+    "reviewed": true
   },
   {
-    "id": "strat_0040",
-    "term_translation": "Compra de activos",
-    "definition_translation": "Un tipo de adquisición donde el comprador adquiere activos individuales de una empresa en lugar de sus acciones.",
-    "example_translation": "En una compra de activos, el comprador puede elegir exactamente qué pasivos asumir."
+    "id": "strategy_0102",
+    "term": "Dilema del innovador",
+    "acronym": null,
+    "definition": "El principio de que las empresas exitosas pueden fracasar por escuchar a sus clientes e invertir en tecnologías existentes, lo que les hace perderse las innovaciones disruptivas.",
+    "example": "El fracaso de Blockbuster para adaptarse al streaming es un caso clásico del dilema del innovador; se centraron en sus tiendas físicas mientras Netflix cambiaba el mercado.",
+    "reviewed": true
   },
   {
-    "id": "strat_0041",
-    "term_translation": "Comerciable",
-    "definition_translation": "Capaz de ser vendido o comercializado.",
-    "example_translation": "Necesitamos convertir este prototipo en un producto comerciable para el tercer trimestre."
+    "id": "strategy_0103",
+    "term": "Cruzar el abismo",
+    "acronym": null,
+    "definition": "Un concepto de marketing que describe el desafío de llevar un producto de nueva tecnología desde los primeros adoptantes al mercado masivo, que es mucho más grande.",
+    "example": "Nuestro software de IA es popular entre los entusiastas de la tecnología, pero la verdadera prueba será cruzar el abismo para atraer a clientes corporativos más conservadores.",
+    "reviewed": true
   },
   {
-    "id": "strat_0042",
-    "term_translation": "Fondo de activos",
-    "definition_translation": "Un grupo de activos que se combinan con el propósito de crear un valor financiero.",
-    "example_translation": "El valor respaldado por hipotecas se derivó de un gran fondo de activos de préstamos residenciales."
+    "id": "strategy_0104",
+    "term": "Modelo de la red de valor",
+    "acronym": null,
+    "definition": "Un marco para analizar a los actores clave en un entorno empresarial —clientes, proveedores, competidores y complementadores— para comprender y crear valor.",
+    "example": "Usando el modelo de la red de valor, nos dimos cuenta de que asociarnos con desarrolladores de aplicaciones (complementadores) haría nuestro hardware mucho más atractivo.",
+    "reviewed": true
   },
   {
-    "id": "strat_0043",
-    "term_translation": "Costes hundidos",
-    "definition_translation": "Costes que ya se han incurrido y no se pueden recuperar.",
-    "example_translation": "Deberíamos ignorar los costes hundidos al decidir si continuar con el proyecto."
+    "id": "strategy_0105",
+    "term": "Partidas Estratégicas",
+    "acronym": null,
+    "definition": "Un método de asignación de recursos donde las inversiones se clasifican en diferentes 'partidas', como negocio principal, nuevo crecimiento y proyectos especulativos.",
+    "example": "Para el presupuesto del próximo año, estamos utilizando partidas estratégicas para asegurar que financiamos no solo nuestras operaciones actuales, sino también nuestros laboratorios de innovación a largo plazo.",
+    "reviewed": true
   },
   {
-    "id": "strat_0044",
-    "term_translation": "Mercado",
-    "definition_translation": "Un ámbito de tratos competitivos o comerciales; el mundo del comercio.",
-    "example_translation": "En el mercado global actual, la presencia digital es obligatoria."
+    "id": "strategy_0106",
+    "term": "Análisis de opciones reales",
+    "acronym": null,
+    "definition": "Un método de evaluación de proyectos que aplica la teoría de opciones financieras, permitiendo flexibilidad a la gerencia para ampliar, retrasar o abandonar el proyecto en el futuro.",
+    "example": "Utilizamos el análisis de opciones reales para justificar un proyecto piloto más pequeño, lo que nos da la opción de expandirlo más tarde si tiene éxito.",
+    "reviewed": true
   },
   {
-    "id": "strat_0045",
-    "term_translation": "Campo de auditoría",
-    "definition_translation": "El área o alcance específico dentro de una organización que está sujeto a inspección.",
-    "example_translation": "El campo de auditoría para este año incluye las filiales en el extranjero."
+    "id": "strategy_0107",
+    "term": "Tasa de rentabilidad mínima",
+    "acronym": null,
+    "definition": "La tasa mínima de retorno que una empresa requiere de una inversión o proyecto antes de que sea aprobado.",
+    "example": "El retorno esperado del proyecto propuesto es del 9 %, lo que está por debajo de la tasa de rentabilidad mínima del 12 % de nuestra empresa, por lo que no procederemos.",
+    "reviewed": true
   },
   {
-    "id": "strat_0046",
-    "term_translation": "Activo tóxico",
-    "definition_translation": "Un activo que se vuelve ilíquido cuando su mercado secundario desaparece.",
-    "example_translation": "El balance del banco estaba lastrado por tenencias de activo tóxico de la crisis inmobiliaria."
+    "id": "strategy_0108",
+    "term": "Análisis del pool de beneficios",
+    "acronym": null,
+    "definition": "Una herramienta estratégica utilizada para identificar dónde se generan los beneficios más significativos en todas las partes de la cadena de valor de una industria.",
+    "example": "Nuestro análisis del pool de beneficios mostró que, si bien la fabricación de automóviles tiene márgenes bajos, la financiación y el servicio posventa son altamente rentables.",
+    "reviewed": true
   },
   {
-    "id": "strat_0047",
-    "term_translation": "Auditoría conjunta",
-    "definition_translation": "Una auditoría realizada por dos o más firmas de auditoría.",
-    "example_translation": "A menudo se requiere una auditoría conjunta para corporaciones multinacionales masivas."
+    "id": "strategy_0109",
+    "term": "Diversificación concéntrica",
+    "acronym": null,
+    "definition": "Una estrategia de crecimiento en la que una empresa añade nuevos productos o servicios que están estrechamente relacionados con su negocio existente.",
+    "example": "Cuando la empresa de calzado comenzó a vender calcetines y betún, fue un claro caso de diversificación concéntrica.",
+    "reviewed": true
   },
   {
-    "id": "strat_0048",
-    "term_translation": "Activo fijo",
-    "definition_translation": "Activos comprados para uso a largo plazo (por ejemplo, terrenos, edificios, equipos).",
-    "example_translation": "Un activo fijo no es probable que se convierta rápidamente en efectivo."
+    "id": "strategy_0110",
+    "term": "Diversificación Conglomerada",
+    "acronym": null,
+    "definition": "Una estrategia de crecimiento en la que una empresa se expande a negocios que no tienen ninguna relación con sus operaciones actuales.",
+    "example": "Cuando la empresa de electrónica compró una cadena hotelera, fue un movimiento hacia la diversificación conglomerada para reducir su dependencia de una sola industria.",
+    "reviewed": true
   },
   {
-    "id": "strat_0049",
-    "term_translation": "Costes fijos",
-    "definition_translation": "Costes comerciales, como el alquiler, que permanecen constantes independientemente de la cantidad de bienes producidos.",
-    "example_translation": "Las startups deben mantener sus costes fijos bajos para extender su tiempo de supervivencia."
+    "id": "strategy_0111",
+    "term": "Integración hacia adelante",
+    "acronym": null,
+    "definition": "Una estrategia en la que una empresa obtiene el control sobre sus distribuidores o minoristas, acercándose más al consumidor final.",
+    "example": "El fabricante de ropa apostó por la integración hacia adelante abriendo sus propias tiendas insignia en las principales ciudades.",
+    "reviewed": true
   },
   {
-    "id": "strat_0050",
-    "term_translation": "Rastro de auditoría",
-    "definition_translation": "Un registro paso a paso mediante el cual los datos contables o comerciales pueden rastrearse hasta su fuente.",
-    "example_translation": "La cadena de bloques proporciona un rastro de auditoría inmutable para cada transacción."
+    "id": "strategy_0112",
+    "term": "Integración hacia atrás",
+    "acronym": null,
+    "definition": "Una estrategia en la que una empresa obtiene el control sobre sus proveedores para asegurar una fuente fiable de materias primas o componentes.",
+    "example": "Para controlar la calidad y los costos, la cadena de cafeterías utilizó la integración hacia atrás comprando sus propias fincas de café.",
+    "reviewed": true
   },
   {
-    "id": "strat_0051",
-    "term_translation": "Mercado líder",
-    "definition_translation": "Un mercado donde una innovación específica se adopta ampliamente por primera vez.",
-    "example_translation": "Escandinavia se considera a menudo un mercado líder para los vehículos eléctricos."
+    "id": "strategy_0113",
+    "term": "Spin-off",
+    "acronym": null,
+    "definition": "La creación de una nueva empresa independiente a partir de una división de una empresa matriz, cuyas acciones se distribuyen entre los accionistas de la matriz.",
+    "example": "El conglomerado decidió hacer un spin-off de su división de salud para permitirle centrarse en su negocio principal de tecnología.",
+    "reviewed": true
   },
   {
-    "id": "strat_0052",
-    "term_translation": "Costes de insumos",
-    "definition_translation": "Los costes relacionados con los recursos utilizados para producir un bien o servicio.",
-    "example_translation": "El aumento de los precios de la energía ha incrementado significativamente nuestros costes de insumos."
+    "id": "strategy_0114",
+    "term": "Carve-out",
+    "acronym": null,
+    "definition": "Una acción corporativa en la que una empresa matriz vende una participación minoritaria de una filial al público a través de una OPI, conservando el control.",
+    "example": "Mediante un carve-out, la empresa recaudó capital vendiendo el 15 % de su filial fintech de rápido crecimiento a nuevos inversores.",
+    "reviewed": true
   },
   {
-    "id": "strat_0053",
-    "term_translation": "Riesgo crediticio",
-    "definition_translation": "El riesgo de incumplimiento de una deuda que puede surgir de un prestatario que no realiza los pagos requeridos.",
-    "example_translation": "Los bancos analizan su historial para evaluar el riesgo crediticio antes de emitir un préstamo."
+    "id": "strategy_0115",
+    "term": "Compra apalancada",
+    "acronym": "LBO",
+    "definition": "La adquisición de una empresa utilizando una cantidad significativa de dinero prestado (deuda), usando a menudo los activos de la empresa adquirida como garantía.",
+    "example": "La firma de capital privado utilizó una compra apalancada para adquirir la cadena minorista en dificultades, planeando reestructurarla y venderla más tarde.",
+    "reviewed": true
   },
   {
-    "id": "strat_0054",
-    "term_translation": "Coste estimado",
-    "definition_translation": "Una cantidad utilizada como sustituto del coste o coste depreciado en una fecha dada.",
-    "example_translation": "Utilizamos el valor razonable del terreno como su coste estimado al hacer la transición a las NIIF."
+    "id": "strategy_0116",
+    "term": "Teoría de las partes interesadas",
+    "acronym": null,
+    "definition": "Una teoría de ética y gestión empresarial que sugiere que una empresa debe crear valor para todas las partes interesadas (stakeholders), incluidos empleados, clientes y la sociedad, no solo para los accionistas.",
+    "example": "Guiada por la teoría de las partes interesadas, nuestra empresa considera el impacto ambiental y el bienestar de los empleados en todas las decisiones importantes.",
+    "reviewed": true
   },
   {
-    "id": "strat_0055",
-    "term_translation": "Método del coste",
-    "definition_translation": "Un método de contabilidad para una inversión donde se registra al precio pagado.",
-    "example_translation": "Bajo el método del coste, los dividendos se registran como ingresos."
+    "id": "strategy_0117",
+    "term": "Teoría de la agencia",
+    "acronym": null,
+    "definition": "Una teoría económica que explica la relación y los conflictos de interés entre los principales (como los accionistas) y sus agentes (como los ejecutivos de la empresa).",
+    "example": "Las opciones sobre acciones para los ejecutivos son una forma de abordar el problema central de la teoría de la agencia, al alinear sus intereses con los de los accionistas.",
+    "reviewed": true
   },
   {
-    "id": "strat_0056",
-    "term_translation": "Coste de los factores",
-    "definition_translation": "El coste de los factores de producción (tierra, trabajo, capital) utilizados para producir bienes.",
-    "example_translation": "Los economistas analizan el coste de los factores para entender los impulsores de la inflación."
+    "id": "strategy_0118",
+    "term": "Gobierno corporativo",
+    "acronym": null,
+    "definition": "El sistema de reglas, prácticas y procesos mediante el cual una empresa es dirigida y controlada.",
+    "example": "Un gobierno corporativo sólido, que incluye un consejo de administración independiente, es crucial para generar confianza con los inversores.",
+    "reviewed": true
   },
   {
-    "id": "strat_0057",
-    "term_translation": "Alcance de la auditoría",
-    "definition_translation": "La profundidad y el rango de una auditoría, incluyendo lo que está y no está cubierto.",
-    "example_translation": "El alcance de la auditoría se limitó únicamente a las operaciones nacionales."
+    "id": "strategy_0119",
+    "term": "Liderazgo estratégico",
+    "acronym": null,
+    "definition": "La capacidad de un líder para anticipar tendencias futuras, pensar estratégicamente y empoderar a otros para crear un cambio que se alinee con la visión de la empresa.",
+    "example": "El liderazgo estratégico del CEO fue esencial para pivotar la empresa de la venta de hardware a un modelo de software basado en suscripciones.",
+    "reviewed": true
   },
   {
-    "id": "strat_0058",
-    "term_translation": "Parte interesada",
-    "definition_translation": "Una parte que tiene un interés en una empresa y puede afectar o verse afectada por el negocio.",
-    "example_translation": "Necesitamos gestionar las expectativas de cada parte interesada con respecto al cronograma del proyecto."
+    "id": "strategy_0120",
+    "term": "Dependencia de la trayectoria",
+    "acronym": null,
+    "definition": "El concepto de que las decisiones y eventos pasados crean una 'trayectoria' que restringe las opciones futuras, incluso si surgen mejores alternativas.",
+    "example": "La dependencia de nuestra empresa del software heredado es un claro caso de dependencia de la trayectoria; cambiar ahora sería demasiado costoso y disruptivo.",
+    "reviewed": true
   },
   {
-    "id": "strat_0059",
-    "term_translation": "Proyecto TIC",
-    "definition_translation": "Un proyecto que involucra Tecnologías de la Información y la Comunicación.",
-    "example_translation": "El gobierno lanzó un proyecto TIC masivo para digitalizar los registros de salud."
+    "id": "strategy_0121",
+    "term": "Capacidad de absorción",
+    "acronym": null,
+    "definition": "La habilidad de una empresa para reconocer el valor de nueva información externa, asimilarla y aplicarla para alcanzar objetivos de negocio.",
+    "example": "Una empresa con alta capacidad de absorción puede aprender rápidamente de las tendencias del mercado e integrar nuevas tecnologías en sus productos.",
+    "reviewed": true
   },
   {
-    "id": "strat_0060",
-    "term_translation": "Poder de mercado",
-    "definition_translation": "La capacidad de una empresa para aumentar rentablemente el precio de mercado de un bien por encima del coste marginal.",
-    "example_translation": "El monopolio tiene un poder de mercado excesivo y puede dictar los precios."
+    "id": "strategy_0122",
+    "term": "Trampa de las competencias",
+    "acronym": null,
+    "definition": "Una situación en la que una empresa se vuelve tan experta en su forma actual de hacer las cosas que no logra adaptarse a métodos nuevos y superiores.",
+    "example": "La famosa compañía de cámaras cayó en la trampa de las competencias; eran expertos en fabricar película pero ignoraron el auge de la fotografía digital.",
+    "reviewed": true
   },
   {
-    "id": "strat_0061",
-    "term_translation": "Entrada al mercado",
-    "definition_translation": "El movimiento de una empresa hacia un nuevo mercado.",
-    "example_translation": "Las barreras a la entrada al mercado incluyen altos requisitos de capital y patentes."
+    "id": "strategy_0123",
+    "term": "Efecto de la Reina Roja",
+    "acronym": null,
+    "definition": "Una situación empresarial en la que una empresa debe innovar y mejorar continuamente solo para mantener su posición relativa frente a los competidores.",
+    "example": "En la industria de los smartphones, las empresas se enfrentan al efecto de la Reina Roja, forzadas a lanzar nuevos modelos cada año simplemente para mantenerse al día.",
+    "reviewed": true
   },
   {
-    "id": "strat_0062",
-    "term_translation": "Riesgo compartido",
-    "definition_translation": "Una estrategia donde el riesgo se distribuye entre varios participantes.",
-    "example_translation": "El seguro es una forma clásica de riesgo compartido."
+    "id": "strategy_0124",
+    "term": "Paradoja de Ícaro",
+    "acronym": null,
+    "definition": "El concepto de que las mayores fortalezas y los éxitos pasados de una empresa pueden llevar a su caída al causar un exceso de confianza y una falta de adaptación.",
+    "example": "La devoción de la empresa a su producto estrella, un claro ejemplo de la paradoja de Ícaro, la cegó ante un cambio fundamental en el comportamiento del consumidor.",
+    "reviewed": true
   },
   {
-    "id": "strat_0063",
-    "term_translation": "Participación accionaria",
-    "definition_translation": "Una acción que otorga al titular derecho a voto y a recibir dividendos.",
-    "example_translation": "Invertir en una participación accionaria ofrece rendimientos potenciales más altos que los bonos."
+    "id": "strategy_0125",
+    "term": "Lógica dominante",
+    "acronym": null,
+    "definition": "El conjunto de creencias y suposiciones compartidas dentro de un equipo directivo sobre cómo tener éxito en su negocio, lo cual puede obstaculizar la adaptación.",
+    "example": "La lógica dominante de la empresa se basaba en el comercio minorista físico, lo que les dificultó enormemente adoptar una estrategia centrada en el e-commerce.",
+    "reviewed": true
   },
   {
-    "id": "strat_0064",
-    "term_translation": "Coste del servicio",
-    "definition_translation": "El coste asociado con la prestación de un servicio a un cliente.",
-    "example_translation": "La automatización ayudó a reducir el coste del servicio por ticket."
+    "id": "strategy_0126",
+    "term": "Disonancia estratégica",
+    "acronym": null,
+    "definition": "Una brecha entre la estrategia declarada de una empresa y sus acciones y asignación de recursos del día a día.",
+    "example": "Había una clara disonancia estratégica: la empresa afirmaba priorizar la innovación, pero subfinanciaba constantemente su departamento de I+D.",
+    "reviewed": true
   },
   {
-    "id": "strat_0065",
-    "term_translation": "Coste corriente",
-    "definition_translation": "El coste que se requeriría para reemplazar un activo en el período actual.",
-    "example_translation": "La contabilidad basada en el coste corriente refleja la inflación mejor que los datos históricos."
+    "id": "strategy_0127",
+    "term": "Emprendimiento corporativo",
+    "acronym": null,
+    "definition": "El proceso de fomentar la innovación y crear nuevos negocios, productos o procesos dentro de una organización establecida, también conocido como intraemprendimiento.",
+    "example": "Nuestro 'Laboratorio de Innovación' es una iniciativa de emprendimiento corporativo que da a los empleados tiempo y recursos para desarrollar nuevas ideas de negocio.",
+    "reviewed": true
   },
   {
-    "id": "strat_0066",
-    "term_translation": "Emisión de acciones",
-    "definition_translation": "El acto de ofrecer acciones de la empresa al público o a inversores.",
-    "example_translation": "La empresa planeó una nueva emisión de acciones para financiar su expansión."
+    "id": "strategy_0128",
+    "term": "Renovación estratégica",
+    "acronym": null,
+    "definition": "El proceso por el cual una empresa adapta fundamentalmente su estrategia, estructura y capacidades en respuesta a un entorno cambiante.",
+    "example": "Tras años de ventas en declive, el consejo de administración inició un proceso de renovación estratégica, comenzando con la contratación de un nuevo CEO.",
+    "reviewed": true
   },
   {
-    "id": "strat_0067",
-    "term_translation": "Coste implícito",
-    "definition_translation": "Un coste de oportunidad que no es un gasto monetario directo.",
-    "example_translation": "El coste implícito de dejar el puesto vacante es la productividad perdida."
+    "id": "strategy_0129",
+    "term": "Servitización",
+    "acronym": null,
+    "definition": "La transición de las empresas manufactureras desde la venta de productos hacia la oferta de sistemas integrados de productos y servicios.",
+    "example": "Mediante la servitización, el fabricante de motores de avión ahora vende 'potencia por hora' en lugar de solo motores, asumiendo la responsabilidad de todo el mantenimiento y servicio.",
+    "reviewed": true
   },
   {
-    "id": "strat_0068",
-    "term_translation": "Riesgo de control",
-    "definition_translation": "El riesgo de que un error material no sea prevenido o detectado por los controles internos.",
-    "example_translation": "Las políticas de contraseñas débiles aumentan el riesgo de control para el sistema de TI."
+    "id": "strategy_0130",
+    "term": "Innovación inversa",
+    "acronym": null,
+    "definition": "El proceso de desarrollar productos primero para mercados emergentes y luego adaptarlos para su venta en mercados desarrollados.",
+    "example": "La máquina de ultrasonido portátil y de bajo costo fue una innovación inversa; diseñada para la India rural, más tarde encontró un mercado en las ambulancias estadounidenses.",
+    "reviewed": true
   },
   {
-    "id": "strat_0069",
-    "term_translation": "Auditoría de sistemas",
-    "definition_translation": "Una auditoría de los sistemas y procedimientos utilizados para registrar transacciones.",
-    "example_translation": "Una auditoría de sistemas verificó que los procedimientos de respaldo funcionaban correctamente."
+    "id": "strategy_0131",
+    "term": "Innovación frugal",
+    "acronym": null,
+    "definition": "El proceso de diseñar productos simples, de bajo costo y efectivos, a menudo para consumidores con recursos limitados.",
+    "example": "El enfoque de innovación frugal de la empresa dio lugar a un filtro de agua que era asequible para millones de personas y aun así cumplía con altos estándares de seguridad.",
+    "reviewed": true
   },
   {
-    "id": "strat_0070",
-    "term_translation": "Perfil de riesgo",
-    "definition_translation": "Una evaluación de la voluntad y capacidad de un individuo u organización para asumir riesgos.",
-    "example_translation": "Un inversor conservador típicamente tiene un perfil de riesgo bajo."
+    "id": "strategy_0132",
+    "term": "Arquitectura modular",
+    "acronym": null,
+    "definition": "Un enfoque de diseño en el que un sistema se divide en partes más pequeñas e independientes (módulos) que pueden ser fácilmente reemplazadas o intercambiadas.",
+    "example": "El fabricante de automóviles utiliza una arquitectura modular, lo que le permite construir sedanes, SUVs y camionetas sobre la misma plataforma básica para ahorrar costos.",
+    "reviewed": true
   },
   {
-    "id": "strat_0071",
-    "term_translation": "Activos totales",
-    "definition_translation": "La suma de todos los activos corrientes y no corrientes propiedad de una organización.",
-    "example_translation": "Los activos totales de la empresa superaron los mil millones de dólares el año pasado."
+    "id": "strategy_0133",
+    "term": "Creación de categoría",
+    "acronym": null,
+    "definition": "Una estrategia de negocio enfocada en crear y dominar una categoría de mercado completamente nueva en lugar de competir en una existente.",
+    "example": "Cuando Salesforce se lanzó, su estrategia fue la creación de categoría, definiendo el nuevo espacio del CRM basado en la nube para empresas.",
+    "reviewed": true
   },
   {
-    "id": "strat_0072",
-    "term_translation": "Financiación de riesgos",
-    "definition_translation": "La gestión del impacto financiero del riesgo, a menudo a través de seguros o retención.",
-    "example_translation": "El seguro cautivo es una forma sofisticada de financiación de riesgos."
+    "id": "strategy_0134",
+    "term": "Descomoditización",
+    "acronym": null,
+    "definition": "El proceso de hacer que un producto o servicio sea único y distinto de los de la competencia, permitiendo a una empresa cobrar un precio premium.",
+    "example": "Starbucks logró la descomoditización al convertir el café de un simple producto en una experiencia de marca y premium.",
+    "reviewed": true
   },
   {
-    "id": "strat_0073",
-    "term_translation": "Informe de auditoría",
-    "definition_translation": "Un documento preparado por un auditor que indica si los estados financieros son precisos.",
-    "example_translation": "Los accionistas se sintieron aliviados al ver un informe de auditoría limpio."
+    "id": "strategy_0135",
+    "term": "Hipercompetencia",
+    "acronym": null,
+    "definition": "Un estado de acción competitiva intensa y rápida en el que las ventajas competitivas de una empresa se erosionan rápidamente.",
+    "example": "El mercado de los viajes compartidos es un entorno de hipercompetencia, con empresas luchando constantemente por el precio, la tecnología y los conductores.",
+    "reviewed": true
   },
   {
-    "id": "strat_0074",
-    "term_translation": "Índice bursátil",
-    "definition_translation": "Una medida estadística de los cambios en una cartera de acciones que representa una parte del mercado general.",
-    "example_translation": "El S&P 500 es un índice bursátil muy conocido."
+    "id": "strategy_0136",
+    "term": "Ventaja competitiva transitoria",
+    "acronym": null,
+    "definition": "La idea de que las ventajas a largo plazo ya no son sostenibles, por lo que las empresas deben crear y explotar constantemente una serie de ventajas a corto plazo.",
+    "example": "La estrategia de nuestra firma se basa en la ventaja competitiva transitoria; lanzamos rápidamente nuevas funciones sabiendo que debemos innovar de nuevo una vez que los competidores nos copien.",
+    "reviewed": true
   },
   {
-    "id": "strat_0075",
-    "term_translation": "Activo cubierto",
-    "definition_translation": "Un activo que ha sido protegido contra el riesgo a través de una inversión compensatoria.",
-    "example_translation": "Aunque el mercado se desplomó, el valor del activo cubierto se mantuvo estable."
+    "id": "strategy_0137",
+    "term": "Mapeo de grupos estratégicos",
+    "acronym": null,
+    "definition": "Una herramienta analítica utilizada para agrupar empresas dentro de una industria en función de sus estrategias y posiciones competitivas similares.",
+    "example": "Utilizamos el mapeo de grupos estratégicos para analizar la industria de las aerolíneas, identificando un grupo distinto de aerolíneas de bajo costo y otro de aerolíneas internacionales premium.",
+    "reviewed": true
   },
   {
-    "id": "strat_0076",
-    "term_translation": "Activo arrendado",
-    "definition_translation": "Propiedad o equipo que es utilizado por un arrendatario a cambio de pagos al arrendador.",
-    "example_translation": "La aerolínea no es propietaria de sus aviones; cada uno es un activo arrendado."
+    "id": "strategy_0138",
+    "term": "Estrategia de la empresa matriz",
+    "acronym": null,
+    "definition": "Una estrategia a nivel corporativo donde la sede central es vista como una 'empresa matriz' que añade valor a su cartera de unidades de negocio.",
+    "example": "La estrategia de la empresa matriz del conglomerado implica proporcionar experiencia legal y financiera centralizada a todas sus empresas filiales.",
+    "reviewed": true
   },
   {
-    "id": "strat_0077",
-    "term_translation": "Cuota de mercado",
-    "definition_translation": "La porción de un mercado controlada por una empresa o producto en particular.",
-    "example_translation": "Los precios agresivos les ayudaron a capturar una cuota de mercado significativa."
+    "id": "strategy_0139",
+    "term": "Centro de excelencia",
+    "acronym": "CoE",
+    "definition": "Un equipo o instalación dedicado que proporciona liderazgo, mejores prácticas, investigación, soporte y formación para un área de enfoque específica.",
+    "example": "Nuestra empresa estableció un Centro de excelencia para la inteligencia artificial con el fin de estandarizar su uso en todos los departamentos.",
+    "reviewed": true
   },
   {
-    "id": "strat_0078",
-    "term_translation": "Precio de mercado",
-    "definition_translation": "El precio actual al que se puede comprar o vender un activo o servicio.",
-    "example_translation": "La oferta estaba muy por debajo del precio de mercado actual."
+    "id": "strategy_0140",
+    "term": "Percepción del mercado",
+    "acronym": null,
+    "definition": "El proceso de recopilar y actuar sobre la información acerca de las tendencias del mercado, los clientes y los competidores para guiar las decisiones estratégicas.",
+    "example": "Una percepción del mercado eficaz permitió a nuestra empresa anticipar el cambio de los consumidores hacia los alimentos de origen vegetal.",
+    "reviewed": true
   },
   {
-    "id": "strat_0079",
-    "term_translation": "Extensión de la auditoría",
-    "definition_translation": "La cantidad de evidencia de auditoría obtenida, típicamente determinada por el tamaño de la muestra.",
-    "example_translation": "Aumentamos la extensión de la auditoría después de encontrar discrepancias iniciales."
+    "id": "strategy_0141",
+    "term": "Pensamiento A3",
+    "acronym": null,
+    "definition": "Un enfoque estructurado de resolución de problemas y mejora continua, originario de Toyota, que resume todo el proceso en una sola hoja de papel de tamaño A3.",
+    "example": "El gerente utilizó el proceso de pensamiento A3 para comunicar claramente al equipo el problema de producción, su causa raíz y la solución propuesta.",
+    "reviewed": true
   },
   {
-    "id": "strat_0080",
-    "term_translation": "Auditoría interina",
-    "definition_translation": "Una auditoría realizada antes del final del período contable.",
-    "example_translation": "La auditoría interina ayudó a identificar problemas antes del cierre del año."
+    "id": "strategy_0142",
+    "term": "Proceso catchball",
+    "acronym": null,
+    "definition": "Un método de planificación colaborativa donde las ideas se 'lanzan' de un lado a otro entre diferentes niveles de una organización para construir consenso y alineación.",
+    "example": "A través de un proceso catchball, los objetivos de nuestro departamento se refinaron basándose en la valiosa retroalimentación de los empleados de primera línea que los ejecutarían.",
+    "reviewed": true
   },
   {
-    "id": "strat_0081",
-    "term_translation": "Accionista",
-    "definition_translation": "Una persona o entidad que posee acciones en una empresa.",
-    "example_translation": "Como accionista, tiene derecho a votar sobre los nombramientos de la junta."
+    "id": "strategy_0143",
+    "term": "Estrategia en cascada",
+    "acronym": null,
+    "definition": "El proceso de traducir la estrategia corporativa de alto nivel en metas y objetivos accionables para equipos e individuos en toda la organización.",
+    "example": "El CEO implementó una estrategia en cascada, asegurando que cada departamento entendiera cómo su trabajo contribuía a la visión de la empresa a cinco años.",
+    "reviewed": true
   },
   {
-    "id": "strat_0082",
-    "term_translation": "Coste residual",
-    "definition_translation": "El coste restante de un activo después de que termina su vida útil.",
-    "example_translation": "El coste residual fue insignificante ya que la máquina fue totalmente desechada."
+    "id": "strategy_0144",
+    "term": "Factor crítico de éxito",
+    "acronym": "FCE",
+    "definition": "Las áreas de actividad esenciales que deben realizarse bien para que una empresa o proyecto alcance sus metas.",
+    "example": "Para nuestra tienda en línea, los factores críticos de éxito son la disponibilidad del sitio web, un sistema de pago seguro y un envío rápido.",
+    "reviewed": true
   },
   {
-    "id": "strat_0083",
-    "term_translation": "Análisis de riesgos",
-    "definition_translation": "El proceso de identificar y analizar problemas potenciales que podrían impactar negativamente las iniciativas clave.",
-    "example_translation": "Se requiere un análisis de riesgos exhaustivo antes de aprobar la nueva ubicación de la planta."
+    "id": "strategy_0145",
+    "term": "Análisis de brechas",
+    "acronym": null,
+    "definition": "Un método para evaluar la diferencia entre el rendimiento real de un negocio y su rendimiento deseado para identificar áreas de mejora.",
+    "example": "Realizamos un análisis de brechas para entender por qué nuestras cifras de ventas no estaban alcanzando nuestras proyecciones iniciales.",
+    "reviewed": true
   },
   {
-    "id": "strat_0084",
-    "term_translation": "Datos comerciales",
-    "definition_translation": "Información relacionada con operaciones comerciales, ventas y comportamiento del cliente.",
-    "example_translation": "Proteger los datos comerciales sensibles es una prioridad máxima para la seguridad de TI."
+    "id": "strategy_0146",
+    "term": "Estrategia de comercialización",
+    "acronym": null,
+    "definition": "El plan que detalla cómo una empresa entregará sus productos o servicios a los clientes finales, incluyendo todos los canales de venta y distribución.",
+    "example": "Para nuestro nuevo producto, estamos desarrollando una estrategia de comercialización multicanal que incluye ventas directas en línea y alianzas con grandes minoristas.",
+    "reviewed": true
   },
   {
-    "id": "strat_0085",
-    "term_translation": "Nombre comercial",
-    "definition_translation": "El nombre bajo el cual opera una empresa.",
-    "example_translation": "Necesita registrar su nombre comercial ante las autoridades locales."
+    "id": "strategy_0147",
+    "term": "Modelo de disciplinas de valor",
+    "acronym": null,
+    "definition": "Un modelo estratégico que sugiere que una empresa debe elegir sobresalir en una de tres áreas —excelencia operacional, liderazgo de producto o intimidad con el cliente— para tener éxito.",
+    "example": "Según el modelo de disciplinas de valor, es mejor ser líder del mercado en un área que ser mediocre en las tres.",
+    "reviewed": true
   },
   {
-    "id": "strat_0086",
-    "term_translation": "Ingresos por ventas",
-    "definition_translation": "Ingresos recibidos por la venta de bienes o servicios.",
-    "example_translation": "Los ingresos por ventas del cuarto trimestre superaron las proyecciones en un veinte por ciento."
+    "id": "strategy_0148",
+    "term": "Intimidad con el cliente",
+    "acronym": null,
+    "definition": "Una estrategia centrada en adaptar con precisión los productos y servicios a las necesidades individuales de los clientes para construir lealtad a largo plazo.",
+    "example": "Una firma de gestión de patrimonios privados tiene éxito a través de la intimidad con el cliente, ofreciendo asesoramiento financiero altamente personalizado.",
+    "reviewed": true
   },
   {
-    "id": "strat_0087",
-    "term_translation": "Auditor del grupo",
-    "definition_translation": "El auditor responsable de informar sobre los estados financieros consolidados de un grupo.",
-    "example_translation": "El auditor del grupo coordina con los auditores locales en cada país subsidiario."
+    "id": "strategy_0149",
+    "term": "Excelencia operacional",
+    "acronym": null,
+    "definition": "Una estrategia centrada en proporcionar a los clientes productos fiables a precios competitivos y con la máxima comodidad, impulsada por la eficiencia.",
+    "example": "El negocio de Amazon es un excelente ejemplo de excelencia operacional, con su enfoque en precios bajos y una entrega increíblemente rápida.",
+    "reviewed": true
   },
   {
-    "id": "strat_0088",
-    "term_translation": "Auditor estatal",
-    "definition_translation": "Un funcionario público responsable de auditar agencias gubernamentales.",
-    "example_translation": "El auditor estatal publicó un informe criticando el gasto del departamento."
+    "id": "strategy_0150",
+    "term": "Liderazgo de producto",
+    "acronym": null,
+    "definition": "Una estrategia centrada en el desarrollo continuo de productos o servicios innovadores y de vanguardia que lideren el mercado.",
+    "example": "La estrategia de Tesla se centra en el liderazgo de producto, con el objetivo de producir los vehículos y la tecnología eléctrica más avanzados.",
+    "reviewed": true
   },
   {
-    "id": "strat_0089",
-    "term_translation": "Opinión de auditoría",
-    "definition_translation": "Una certificación que acompaña a los estados financieros, basada en una auditoría de los procedimientos y registros.",
-    "example_translation": "Una opinión de auditoría adversa puede dañar gravemente el precio de las acciones de una empresa."
+    "id": "strategy_0151",
+    "term": "Estrategia de propiedad intelectual",
+    "acronym": null,
+    "definition": "Un plan para gestionar y proteger los activos intangibles de una empresa, como patentes, marcas comerciales y derechos de autor, para crear una ventaja competitiva.",
+    "example": "Nuestra estrategia de propiedad intelectual implica patentar nuestra tecnología principal mientras mantenemos el proceso de fabricación como secreto comercial.",
+    "reviewed": true
   },
   {
-    "id": "strat_0090",
-    "term_translation": "Coste original",
-    "definition_translation": "El precio total pagado para adquirir un activo, incluyendo instalación y transporte.",
-    "example_translation": "El coste original del edificio era mucho menor que su valor de mercado actual."
+    "id": "strategy_0152",
+    "term": "Efecto de bloqueo",
+    "acronym": null,
+    "definition": "Una situación en la que un cliente depende de un proveedor para obtener productos y servicios, lo que hace que sea costoso o difícil cambiar a otro proveedor.",
+    "example": "El alto costo de migrar nuestros datos crea un fuerte efecto de bloqueo con nuestro proveedor actual de la nube.",
+    "reviewed": true
   },
   {
-    "id": "strat_0091",
-    "term_translation": "Margen de beneficio",
-    "definition_translation": "La cantidad por la cual los ingresos de las ventas superan los costes en un negocio.",
-    "example_translation": "Los bienes de lujo suelen tener un margen de beneficio muy alto."
+    "id": "strategy_0153",
+    "term": "Valor de marca",
+    "acronym": null,
+    "definition": "El valor comercial que tiene una marca debido a la percepción positiva del consumidor y al reconocimiento de su nombre, que es independiente del valor de sus activos físicos.",
+    "example": "Décadas de calidad constante han construido un significativo valor de marca para Coca-Cola, permitiéndoles cobrar un sobreprecio.",
+    "reviewed": true
   },
   {
-    "id": "strat_0092",
-    "term_translation": "Costes de venta",
-    "definition_translation": "Costes incrementales directamente atribuibles a la enajenación de un activo.",
-    "example_translation": "Dedujimos los costes de venta del valor razonable para determinar el valor neto realizable."
+    "id": "strategy_0154",
+    "term": "Mapa perceptual",
+    "acronym": null,
+    "definition": "Una técnica visual utilizada para mostrar la imagen mental que los clientes tienen de los productos o marcas de una empresa en comparación con la competencia.",
+    "example": "Utilizamos un mapa perceptual para ver que los clientes perciben nuestra marca como fiable, pero no particularmente innovadora.",
+    "reviewed": true
   },
   {
-    "id": "strat_0093",
-    "term_translation": "Activo corriente",
-    "definition_translation": "Efectivo y otros activos que se espera convertir en efectivo dentro de un año.",
-    "example_translation": "El inventario se considera un activo corriente."
+    "id": "strategy_0155",
+    "term": "Posicionamiento estratégico",
+    "acronym": null,
+    "definition": "El proceso de crear una posición distintiva y valiosa en el mercado que diferencia a una empresa y sus productos de la competencia.",
+    "example": "El posicionamiento estratégico de Volvo siempre se ha centrado en ser el coche más seguro del mercado.",
+    "reviewed": true
   },
   {
-    "id": "strat_0094",
-    "term_translation": "Riesgo de muestreo",
-    "definition_translation": "La posibilidad de que la conclusión del auditor basada en una muestra sea diferente de la conclusión si toda la población se sometiera al mismo procedimiento.",
-    "example_translation": "Usar un conjunto de datos más grande ayuda a reducir el riesgo de muestreo."
+    "id": "strategy_0156",
+    "term": "Análisis conjunto",
+    "acronym": null,
+    "definition": "Una técnica de investigación de mercado utilizada para determinar cómo las personas valoran los diferentes atributos que componen un producto o servicio individual.",
+    "example": "A través del análisis conjunto, descubrimos que nuestros clientes priorizan la duración de la batería sobre la calidad de la cámara en un teléfono nuevo.",
+    "reviewed": true
   },
   {
-    "id": "strat_0095",
-    "term_translation": "Valor en riesgo",
-    "definition_translation": "Una estadística que mide y cuantifica el nivel de riesgo financiero dentro de una empresa durante un período específico.",
-    "example_translation": "Los bancos utilizan modelos de valor en riesgo para determinar cuánto capital necesitan mantener."
+    "id": "strategy_0157",
+    "term": "Paridad competitiva",
+    "acronym": null,
+    "definition": "Un enfoque estratégico en el que una empresa busca igualar los recursos, las ofertas o los esfuerzos de marketing de sus competidores clave.",
+    "example": "En lugar de intentar innovar, han adoptado una estrategia de paridad competitiva, igualando cada bajada de precios que hacen sus rivales.",
+    "reviewed": true
   },
   {
-    "id": "strat_0096",
-    "term_translation": "Mercado maduro",
-    "definition_translation": "Un mercado donde la industria ha alcanzado un estado de equilibrio y el crecimiento es lento.",
-    "example_translation": "Es difícil encontrar nuevos clientes en un mercado maduro tan saturado."
+    "id": "strategy_0158",
+    "term": "Ventaja del último en llegar",
+    "acronym": null,
+    "definition": "El beneficio que una empresa puede obtener al entrar en un mercado más tarde que sus competidores, lo que le permite aprender de sus errores y mejorar los productos existentes.",
+    "example": "Facebook obtuvo la ventaja del último en llegar frente a MySpace al ofrecer una interfaz más limpia y una mejor experiencia de usuario.",
+    "reviewed": true
   },
   {
-    "id": "strat_0097",
-    "term_translation": "Auditoría testifical",
-    "definition_translation": "Una auditoría donde un observador ve a otro auditor realizar sus tareas para garantizar la calidad.",
-    "example_translation": "El organismo de acreditación realizó una auditoría testifical en nuestro proceso de certificación."
+    "id": "strategy_0159",
+    "term": "Equipo de proyectos especiales",
+    "acronym": null,
+    "definition": "Un grupo pequeño y autónomo dentro de una organización al que se le otorga un alto grado de libertad para trabajar en proyectos avanzados o secretos.",
+    "example": "Nuestro equipo de proyectos especiales está operando fuera del departamento principal de I+D para desarrollar una tecnología de baterías revolucionaria.",
+    "reviewed": true
   },
   {
-    "id": "strat_0098",
-    "term_translation": "Coste de intereses",
-    "definition_translation": "La cantidad acumulada de intereses que un prestatario paga por un préstamo.",
-    "example_translation": "La refinanciación ayudó a reducir significativamente el coste de intereses anual."
+    "id": "strategy_0160",
+    "term": "Curva S de la tecnología",
+    "acronym": null,
+    "definition": "Un modelo que describe el rendimiento de una tecnología a lo largo del tiempo y la inversión, mostrando un inicio lento, un crecimiento rápido y luego una meseta.",
+    "example": "La curva S de la tecnología para los motores de combustión interna se está aplanando, lo que indica la necesidad de invertir en tecnología de vehículos eléctricos.",
+    "reviewed": true
   },
   {
-    "id": "strat_0099",
-    "term_translation": "Método de participación",
-    "definition_translation": "Una técnica contable utilizada por las empresas para evaluar los beneficios obtenidos por sus inversiones en otras compañías.",
-    "example_translation": "Como poseemos el 30% de la filial, utilizamos el método de participación."
+    "id": "strategy_0161",
+    "term": "Pensamiento de primeros principios",
+    "acronym": null,
+    "definition": "La práctica de descomponer problemas complejos en sus elementos más básicos y fundamentales para luego reensamblarlos desde cero.",
+    "example": "Elon Musk utilizó el pensamiento de primeros principios para desafiar el alto costo de los cohetes, partiendo de los precios de la materia prima del metal.",
+    "reviewed": true
   },
   {
-    "id": "strat_0100",
-    "term_translation": "Exposición al riesgo",
-    "definition_translation": "La medida de la pérdida futura potencial resultante de una actividad o evento específico.",
-    "example_translation": "Las estrategias de cobertura están diseñadas para limitar la exposición al riesgo."
+    "id": "strategy_0162",
+    "term": "Margen de crecimiento estratégico",
+    "acronym": null,
+    "definition": "El potencial que tiene una empresa para crecer dentro de su mercado o modelo de negocio actual antes de necesitar un cambio estratégico importante.",
+    "example": "Con solo un 10% de penetración en el mercado europeo, nuestra empresa todavía tiene mucho margen de crecimiento estratégico.",
+    "reviewed": true
   },
   {
-    "id": "strat_0101",
-    "term_translation": "Fatiga de auditoría",
-    "definition_translation": "El cansancio experimentado por los empleados que están sujetos a auditorías frecuentes o continuas.",
-    "example_translation": "Para prevenir la fatiga de auditoría, combinamos las inspecciones de seguridad y calidad."
+    "id": "strategy_0163",
+    "term": "Estrategia de aprovechamiento de recursos",
+    "acronym": null,
+    "definition": "Una estrategia que consiste en crear soluciones y oportunidades utilizando los recursos que están disponibles de inmediato, en lugar de esperar los recursos ideales.",
+    "example": "Como startup sin financiación, nos basamos en una estrategia de aprovechamiento de recursos, usando software gratuito y nuestras redes personales para lanzar el negocio.",
+    "reviewed": true
   },
   {
-    "id": "strat_0102",
-    "term_translation": "Auditoría ex ante",
-    "definition_translation": "Una auditoría realizada antes de que tenga lugar una transacción o actividad.",
-    "example_translation": "La auditoría ex ante asegura que el presupuesto del proyecto sea realista antes de la aprobación."
+    "id": "strategy_0164",
+    "term": "Antifragilidad",
+    "acronym": null,
+    "definition": "Una propiedad de los sistemas que se fortalecen y se vuelven más capaces cuando se exponen a factores estresantes, shocks y volatilidad.",
+    "example": "Al diversificar nuestra cadena de suministro en múltiples países, estamos desarrollando antifragilidad para resistir mejor futuras interrupciones comerciales.",
+    "reviewed": true
   },
   {
-    "id": "strat_0103",
-    "term_translation": "Revisión previa",
-    "definition_translation": "Una revisión preliminar de documentos antes de que comience la auditoría oficial.",
-    "example_translation": "La revisión previa nos ayudó a organizar los archivos necesarios de antemano."
+    "id": "strategy_0165",
+    "term": "Planificación para eventos de cisne negro",
+    "acronym": null,
+    "definition": "El proceso de preparación para eventos altamente improbables y de alto impacto que están más allá del ámbito de las expectativas normales.",
+    "example": "Nuestra planificación para eventos de cisne negro incluye una estrategia de respuesta para un fallo repentino y completo del sistema financiero global.",
+    "reviewed": true
   },
   {
-    "id": "strat_0104",
-    "term_translation": "Riesgo inherente",
-    "definition_translation": "El riesgo de un error en un estado financiero debido a un factor distinto de una falla del control interno.",
-    "example_translation": "El manejo de efectivo tiene un alto riesgo inherente de robo."
+    "id": "strategy_0166",
+    "term": "Vacíos institucionales",
+    "acronym": null,
+    "definition": "La ausencia de instituciones de apoyo al mercado que sean fiables, como sistemas legales, marcos regulatorios o intermediarios financieros, que a menudo se encuentra en las economías emergentes.",
+    "example": "La empresa tuvo que crear su propia red logística en la región para superar los vacíos institucionales en la infraestructura local.",
+    "reviewed": true
   },
   {
-    "id": "strat_0105",
-    "term_translation": "Mercado activo",
-    "definition_translation": "Un mercado en el que las transacciones del activo o pasivo tienen lugar con suficiente frecuencia y volumen.",
-    "example_translation": "No hay un mercado activo para este tipo de maquinaria especializada."
+    "id": "strategy_0167",
+    "term": "Lienzo de la propuesta de valor",
+    "acronym": null,
+    "definition": "Una herramienta estratégica para asegurar que un producto o servicio esté diseñado en torno a las necesidades y valores del cliente.",
+    "example": "Utilizamos el lienzo de la propuesta de valor para alinear las características de nuestro software con los dolores y alegrías específicos de nuestros usuarios objetivo.",
+    "reviewed": true
   },
   {
-    "id": "strat_0106",
-    "term_translation": "Unidad de negocio",
-    "definition_translation": "Un segmento lógico de una empresa que representa una función comercial específica.",
-    "example_translation": "Cada unidad de negocio tiene su propio representante de Recursos Humanos."
+    "id": "strategy_0168",
+    "term": "Cláusula de blindaje",
+    "acronym": null,
+    "definition": "Un pago cuantioso u otra compensación financiera garantizada a un ejecutivo de una empresa en caso de ser despedido como resultado de una fusión o adquisición.",
+    "example": "El contrato del CEO incluye una cláusula de blindaje, lo que hace que una OPA hostil sea más cara para cualquier posible comprador.",
+    "reviewed": true
   },
   {
-    "id": "strat_0107",
-    "term_translation": "Autoauditoría",
-    "definition_translation": "El proceso de revisar el propio trabajo o departamento.",
-    "example_translation": "Se fomenta la autoauditoría, pero no puede reemplazar la verificación independiente."
+    "id": "strategy_0169",
+    "term": "Píldora venenosa",
+    "acronym": null,
+    "definition": "Una táctica utilizada por una empresa para hacer que sus propias acciones sean menos atractivas para un posible comprador, desalentando así una OPA hostil.",
+    "example": "El consejo de administración activó una píldora venenosa, permitiendo a los accionistas existentes comprar más acciones con descuento si un solo inversor adquiere más del 15% de la empresa.",
+    "reviewed": true
   },
   {
-    "id": "strat_0108",
-    "term_translation": "Regla de negocio",
-    "definition_translation": "Una regla que define o restringe algún aspecto del negocio y siempre se resuelve como verdadera o falsa.",
-    "example_translation": "Una regla de negocio impide que el sistema procese pedidos sin una dirección válida."
+    "id": "strategy_0170",
+    "term": "Defensa del caballero blanco",
+    "acronym": null,
+    "definition": "Una estrategia en la que una empresa 'amiga' adquiere una corporación en riesgo de ser absorbida por un comprador 'hostil' no deseado.",
+    "example": "Ante una oferta hostil, el consejo de administración buscó una defensa del caballero blanco y acordó ser adquirida por su socio estratégico a largo plazo.",
+    "reviewed": true
   },
   {
-    "id": "strat_0109",
-    "term_translation": "Consulta de auditoría",
-    "definition_translation": "Una pregunta o solicitud específica de información hecha por un auditor.",
-    "example_translation": "Recibimos una consulta de auditoría con respecto a los gastos de viaje en marzo."
+    "id": "strategy_0171",
+    "term": "Chantaje corporativo",
+    "acronym": null,
+    "definition": "La práctica de comprar suficientes acciones de una empresa para amenazar con una OPA hostil, forzando a la empresa objetivo a recomprar las acciones con una prima.",
+    "example": "El inversor activista fue acusado de practicar chantaje corporativo después de vender sus acciones a la empresa con una ganancia rápida del 30%.",
+    "reviewed": true
   },
   {
-    "id": "strat_0110",
-    "term_translation": "Auditoría seleccionada",
-    "definition_translation": "Una auditoría realizada en un subconjunto específico de datos o un departamento específico.",
-    "example_translation": "La autoridad fiscal realizó una auditoría seleccionada en nuestros registros de nómina."
+    "id": "strategy_0172",
+    "term": "Estrategia defensiva",
+    "acronym": null,
+    "definition": "Un conjunto de acciones que un líder de mercado lleva a cabo para proteger su cuota de mercado, rentabilidad y posición de marca frente a los competidores.",
+    "example": "Cuando un nuevo rival entró en el mercado, nuestra estrategia defensiva fue bajar los precios y aumentar nuestro presupuesto de publicidad.",
+    "reviewed": true
   },
   {
-    "id": "strat_0111",
-    "term_translation": "Enfoque de auditoría",
-    "definition_translation": "La estrategia utilizada por un auditor para realizar la auditoría.",
-    "example_translation": "Adoptamos un enfoque de auditoría basado en riesgos para centrarnos en las áreas más críticas."
+    "id": "strategy_0173",
+    "term": "Estrategia ofensiva",
+    "acronym": null,
+    "definition": "Un enfoque proactivo en el que una empresa busca activamente ganar cuota de mercado, a menudo atacando las debilidades de un competidor.",
+    "example": "La empresa lanzó una estrategia ofensiva con descuentos agresivos para robar clientes directamente al líder del mercado.",
+    "reviewed": true
   },
   {
-    "id": "strat_0112",
-    "term_translation": "Activo de software",
-    "definition_translation": "Una licencia de software o aplicación que tiene valor para la organización.",
-    "example_translation": "Gestionar cada activo de software es crucial para evitar multas de licencia."
+    "id": "strategy_0174",
+    "term": "Estrategia preventiva",
+    "acronym": null,
+    "definition": "Una acción agresiva tomada para disuadir o impedir que los competidores inicien o continúen un curso de acción particular.",
+    "example": "Al asegurar contratos exclusivos con todos los principales proveedores, ejecutamos una estrategia preventiva para bloquear la entrada de nuevos competidores en el mercado.",
+    "reviewed": true
   },
   {
-    "id": "strat_0113",
-    "term_translation": "Auditoría ecológica",
-    "definition_translation": "Una evaluación del impacto ambiental de una organización.",
-    "example_translation": "La auditoría ecológica ayuda a las empresas a mejorar sus credenciales de sostenibilidad."
+    "id": "strategy_0175",
+    "term": "Estrategia de flanqueo",
+    "acronym": null,
+    "definition": "Una estrategia competitiva que implica atacar los puntos débiles de un competidor o dirigirse a segmentos de mercado desatendidos que este ha descuidado.",
+    "example": "En lugar de competir en precio, utilizamos una estrategia de flanqueo ofreciendo un servicio prémium para una base de clientes de nicho.",
+    "reviewed": true
   },
   {
-    "id": "strat_0114",
-    "term_translation": "Auditoría interna",
-    "definition_translation": "Una actividad de aseguramiento independiente y objetiva diseñada para agregar valor y mejorar las operaciones de una organización.",
-    "example_translation": "El departamento de auditoría interna reporta directamente al Comité de Auditoría."
+    "id": "strategy_0176",
+    "term": "Estrategia de cerco",
+    "acronym": null,
+    "definition": "Una estrategia competitiva que implica rodear a un competidor lanzando una variedad de productos en diferentes segmentos de su mercado.",
+    "example": "La estrategia de cerco del gigante tecnológico incluyó el lanzamiento de teléfonos de gama baja, media y alta para desafiar a su rival en todos los frentes.",
+    "reviewed": true
   },
   {
-    "id": "strat_0115",
-    "term_translation": "Activo monetario",
-    "definition_translation": "Activos que están fijos en términos de moneda, como efectivo o cuentas por cobrar.",
-    "example_translation": "La inflación reduce el poder adquisitivo de un activo monetario."
+    "id": "strategy_0177",
+    "term": "Estrategia de evitación",
+    "acronym": null,
+    "definition": "Una estrategia que evita la confrontación directa con un competidor al diversificarse en productos no relacionados o en nuevos mercados geográficos.",
+    "example": "Enfrentada a una intensa competencia en EE. UU., la empresa adoptó una estrategia de evitación y se centró en expandirse a mercados asiáticos sin explotar.",
+    "reviewed": true
   },
   {
-    "id": "strat_0116",
-    "term_translation": "Auditoría externa",
-    "definition_translation": "Una auditoría realizada por un contador independiente que no es empleado de la empresa.",
-    "example_translation": "La auditoría externa es obligatoria para todas las empresas públicas."
+    "id": "strategy_0178",
+    "term": "Estrategia de guerrilla",
+    "acronym": null,
+    "definition": "Una estrategia competitiva en la que una empresa más pequeña utiliza tácticas no convencionales y sorpresivas para atacar a un competidor más grande y establecido.",
+    "example": "La estrategia de guerrilla de la startup incluyó una campaña viral en redes sociales que pilló al líder de la industria completamente desprevenido.",
+    "reviewed": true
   },
   {
-    "id": "strat_0117",
-    "term_translation": "Riesgo financiero",
-    "definition_translation": "El peligro de que una empresa no pueda cumplir con sus obligaciones financieras.",
-    "example_translation": "El alto apalancamiento aumenta el riesgo financiero durante una recesión económica."
+    "id": "strategy_0179",
+    "term": "Estrategia de cosecha",
+    "acronym": null,
+    "definition": "Una estrategia empresarial de reducir la inversión en un producto o línea de negocio para maximizar el flujo de caja a corto plazo, a menudo utilizada para productos en declive.",
+    "example": "Hemos decidido aplicar una estrategia de cosecha para nuestro software heredado, recortando toda la I+D y el marketing para extraer los beneficios restantes.",
+    "reviewed": true
   },
   {
-    "id": "strat_0118",
-    "term_translation": "Modelo de negocio",
-    "definition_translation": "Un plan para la operación exitosa de un negocio, identificando fuentes de ingresos, base de clientes y productos.",
-    "example_translation": "El modelo de negocio de suscripción proporciona ingresos recurrentes predecibles."
+    "id": "strategy_0180",
+    "term": "Estrategia de nicho de mercado",
+    "acronym": null,
+    "definition": "Una estrategia que concentra todos los esfuerzos de marketing en un segmento de la población pequeño pero específico y bien definido.",
+    "example": "Nuestra estrategia de nicho de mercado se centra exclusivamente en ofrecer botas de senderismo veganas de alta gama para escaladores profesionales.",
+    "reviewed": true
   },
   {
-    "id": "strat_0119",
-    "term_translation": "Evidencia de auditoría",
-    "definition_translation": "Información recopilada por el auditor para respaldar la opinión de auditoría.",
-    "example_translation": "Las facturas y los extractos bancarios sirven como evidencia de auditoría primaria."
+    "id": "strategy_0181",
+    "term": "Estrategia de franquicia",
+    "acronym": null,
+    "definition": "Una estrategia de crecimiento en la que una empresa (franquiciador) concede una licencia a otra parte (franquiciado) para operar un negocio utilizando su marca y sus procesos.",
+    "example": "La expansión global de McDonald's se logró en gran medida a través de una exitosa estrategia de franquicia que permitió un rápido crecimiento.",
+    "reviewed": true
   },
   {
-    "id": "strat_0120",
-    "term_translation": "Patrimonio de los propietarios",
-    "definition_translation": "Los derechos del propietario sobre los activos del negocio.",
-    "example_translation": "Las ganancias retenidas contribuyeron al crecimiento del patrimonio de los propietarios."
+    "id": "strategy_0182",
+    "term": "Estrategia de licencias",
+    "acronym": null,
+    "definition": "Un acuerdo por el cual una empresa permite a otra utilizar su propiedad intelectual (como una marca o una patente) a cambio de una tarifa o regalía.",
+    "example": "La estrategia de licencias de Disney permite a otras empresas producir mercancía con sus famosos personajes, creando una enorme fuente de ingresos.",
+    "reviewed": true
   },
   {
-    "id": "strat_0121",
-    "term_translation": "Costes nocionales",
-    "definition_translation": "Costes que no implican un pago real de dinero, como el uso de locales propios.",
-    "example_translation": "Incluimos el alquiler como un coste nocional para comparar la rentabilidad con precisión."
+    "id": "strategy_0183",
+    "term": "Estrategia global",
+    "acronym": null,
+    "definition": "Una estrategia en la que una empresa trata al mundo entero como un solo mercado, estandarizando sus productos y su marketing para lograr economías de escala.",
+    "example": "Una estrategia global funciona bien para productos como los relojes de lujo, que tienen un atractivo similar en la mayoría de los países.",
+    "reviewed": true
   },
   {
-    "id": "strat_0122",
-    "term_translation": "Muestreo de auditoría",
-    "definition_translation": "La aplicación de procedimientos de auditoría a menos del 100% de los elementos en una población.",
-    "example_translation": "El muestreo de auditoría nos permite sacar conclusiones sin verificar cada recibo individual."
+    "id": "strategy_0184",
+    "term": "Estrategia transnacional",
+    "acronym": null,
+    "definition": "Una estrategia que equilibra la necesidad de eficiencia global con la necesidad de adaptación a las condiciones locales en diferentes mercados nacionales.",
+    "example": "Un fabricante de automóviles podría usar una estrategia transnacional, fabricando un motor estándar a nivel mundial pero adaptando el diseño del vehículo a los gustos locales.",
+    "reviewed": true
   },
   {
-    "id": "strat_0123",
-    "term_translation": "Riesgo percibido",
-    "definition_translation": "El juicio subjetivo que las personas hacen sobre las características y gravedad de un riesgo.",
-    "example_translation": "El riesgo percibido de volar es a menudo mayor que el de conducir, a pesar de las estadísticas."
+    "id": "strategy_0185",
+    "term": "Estrategia multidoméstica",
+    "acronym": null,
+    "definition": "Una estrategia en la que una empresa personaliza sus productos y su enfoque de marketing para cada país o región en la que opera.",
+    "example": "La estrategia multidoméstica de Nestlé implica ofrecer diferentes productos alimenticios adaptados a los gustos locales en cada país.",
+    "reviewed": true
   },
   {
-    "id": "strat_0124",
-    "term_translation": "Costes variables",
-    "definition_translation": "Gastos corporativos que cambian en proporción a la producción.",
-    "example_translation": "El embalaje y el envío son costes variables típicos."
+    "id": "strategy_0186",
+    "term": "Estrategia internacional",
+    "acronym": null,
+    "definition": "Una estrategia en la que las empresas toman productos creados primero para su mercado nacional y los venden internacionalmente con una mínima personalización local.",
+    "example": "Muchas marcas de lujo siguen una estrategia internacional, aprovechando la sólida reputación de su marca nacional para vender los mismos productos en el extranjero.",
+    "reviewed": true
   },
   {
-    "id": "strat_0125",
-    "term_translation": "Riesgo de seguro",
-    "definition_translation": "La posibilidad de pérdida que una compañía de seguros acuerda cubrir.",
-    "example_translation": "La aseguradora evaluó el riesgo de seguro antes de emitir la póliza."
+    "id": "strategy_0187",
+    "term": "Empresa global desde su origen",
+    "acronym": null,
+    "definition": "Una empresa que, desde su creación, busca obtener una ventaja competitiva significativa del uso de recursos y ventas en múltiples países.",
+    "example": "Como desarrolladores de una aplicación móvil, eran una empresa global desde su origen, disponible en las tiendas de aplicaciones de todo el mundo desde el primer día.",
+    "reviewed": true
   },
   {
-    "id": "strat_0126",
-    "term_translation": "Auditoría forense",
-    "definition_translation": "Un examen y evaluación de la información financiera de una empresa o individuo para su uso como evidencia en la corte.",
-    "example_translation": "Se ordenó una auditoría forense después de que surgieran acusaciones de fraude."
+    "id": "strategy_0188",
+    "term": "Imperativo estratégico",
+    "acronym": null,
+    "definition": "Un objetivo o acción crítica que una empresa debe lograr para tener éxito a largo plazo, que a menudo impulsa importantes decisiones empresariales.",
+    "example": "La expansión hacia las energías renovables se ha convertido en un imperativo estratégico para la compañía petrolera para asegurar su viabilidad futura.",
+    "reviewed": true
   },
   {
-    "id": "strat_0127",
-    "term_translation": "Activo diferido",
-    "definition_translation": "Un gasto que se traslada como un activo para ser amortizado en períodos futuros.",
-    "example_translation": "El seguro pagado por adelantado se registró como un activo diferido."
+    "id": "strategy_0189",
+    "term": "Embudo de escenarios",
+    "acronym": null,
+    "definition": "Un marco utilizado en la planificación de escenarios que comienza con una amplia gama de incertidumbres y las va reduciendo progresivamente a unos pocos escenarios futuros plausibles.",
+    "example": "Usando un embudo de escenarios, analizamos docenas de tendencias del mercado y centramos nuestra planificación en los tres resultados más probables para nuestra industria.",
+    "reviewed": true
   },
   {
-    "id": "strat_0128",
-    "term_translation": "Riesgo de detección",
-    "definition_translation": "El riesgo de que los procedimientos realizados por el auditor no detecten un error.",
-    "example_translation": "El riesgo de detección puede reducirse mediante pruebas más rigurosas."
+    "id": "strategy_0190",
+    "term": "Simulación de túnel de viento",
+    "acronym": null,
+    "definition": "Un proceso para poner a prueba una estrategia empresarial frente a varios escenarios o futuros potenciales para evaluar su robustez.",
+    "example": "Antes de comprometernos con el nuevo modelo de negocio, lo sometimos a un riguroso ejercicio de simulación de túnel de viento frente a posibles recesiones económicas.",
+    "reviewed": true
   },
   {
-    "id": "strat_0129",
-    "term_translation": "Activos del subsuelo",
-    "definition_translation": "Reservas probadas de depósitos minerales ubicados bajo tierra.",
-    "example_translation": "La riqueza de la nación depende en gran medida de sus activos del subsuelo como el petróleo y el gas."
+    "id": "strategy_0191",
+    "term": "Cartera de iniciativas",
+    "acronym": null,
+    "definition": "Un enfoque estratégico que considera los proyectos de una empresa como una colección de inversiones, equilibrando iniciativas de alto riesgo y alta recompensa con apuestas más seguras.",
+    "example": "Nuestro departamento de I+D gestiona una cartera de iniciativas, que van desde mejoras incrementales de productos hasta investigaciones especulativas a largo plazo.",
+    "reviewed": true
   },
   {
-    "id": "strat_0130",
-    "term_translation": "Activos naturales",
-    "definition_translation": "Activos del entorno natural como el agua, el aire y los organismos vivos.",
-    "example_translation": "Los esfuerzos de conservación tienen como objetivo proteger los activos naturales para las generaciones futuras."
+    "id": "strategy_0192",
+    "term": "Desagregación",
+    "acronym": null,
+    "definition": "El proceso de descomponer un producto o servicio en sus componentes separados, que luego pueden ofrecerse a los clientes de forma individual.",
+    "example": "La desagregación de la televisión por cable permite a los clientes suscribirse solo a los canales que realmente quieren ver.",
+    "reviewed": true
   },
   {
-    "id": "strat_0131",
-    "term_translation": "Reparto de utilidades",
-    "definition_translation": "Un plan de incentivos donde los empleados reciben una parte directa de los beneficios de la empresa.",
-    "example_translation": "El cheque de reparto de utilidades al final del año impulsó la moral."
+    "id": "strategy_0193",
+    "term": "Reagregación",
+    "acronym": null,
+    "definition": "El proceso de combinar productos o servicios existentes, a menudo de diferentes fuentes, en un paquete nuevo e integrado para el cliente.",
+    "example": "Las empresas de streaming ahora están volviendo a la reagregación, ofreciendo paquetes que incluyen música, vídeo y juegos por una única cuota mensual.",
+    "reviewed": true
   },
   {
-    "id": "strat_0132",
-    "term_translation": "Coste amortizado",
-    "definition_translation": "El valor inicial de un activo menos la amortización acumulada.",
-    "example_translation": "El bono se mantiene al coste amortizado en el balance general."
+    "id": "strategy_0194",
+    "term": "Desintermediación",
+    "acronym": null,
+    "definition": "La eliminación de intermediarios en una cadena de suministro o transacción, como cuando una empresa vende directamente a los consumidores en línea en lugar de a través de minoristas.",
+    "example": "Internet causó la desintermediación de las agencias de viajes, ya que ahora muchas personas reservan vuelos directamente con las aerolíneas.",
+    "reviewed": true
   },
   {
-    "id": "strat_0133",
-    "term_translation": "Beneficio imponible",
-    "definition_translation": "La parte del beneficio que está sujeta a impuestos según las leyes fiscales.",
-    "example_translation": "Las deducciones pueden reducir significativamente el beneficio imponible."
+    "id": "strategy_0195",
+    "term": "Reintermediación",
+    "acronym": null,
+    "definition": "La introducción de nuevos tipos de intermediarios en una transacción o cadena de suministro, a menudo utilizando la tecnología para añadir valor.",
+    "example": "Las aplicaciones de reparto de comida a domicilio son una forma de reintermediación, añadiendo un nuevo intermediario digital entre los restaurantes y los clientes.",
+    "reviewed": true
   },
   {
-    "id": "strat_0134",
-    "term_translation": "Mercado de productos",
-    "definition_translation": "El mercado donde se venden bienes o servicios finales a empresas y al sector público.",
-    "example_translation": "Estamos lanzando el nuevo modelo en un mercado de productos altamente competitivo."
+    "id": "strategy_0196",
+    "term": "Estrategia basada en datos",
+    "acronym": null,
+    "definition": "Un enfoque empresarial que basa las decisiones en el análisis y la interpretación de datos en lugar de basarse únicamente en la intuición o la observación.",
+    "example": "Nuestro equipo de marketing utiliza una estrategia basada en datos, optimizando las campañas publicitarias según las métricas de rendimiento en tiempo real.",
+    "reviewed": true
   },
   {
-    "id": "strat_0135",
-    "term_translation": "Costes de puesta en marcha",
-    "definition_translation": "Costes no recurrentes asociados con el establecimiento de un negocio.",
-    "example_translation": "Los honorarios legales y las licencias son costes de puesta en marcha típicos."
+    "id": "strategy_0197",
+    "term": "Estrategia omnicanal",
+    "acronym": null,
+    "definition": "Una estrategia que proporciona una experiencia de cliente fluida e integrada a través de todos los canales, incluyendo la tienda física, el canal en línea y el canal móvil.",
+    "example": "Con nuestra estrategia omnicanal, un cliente puede añadir un artículo a su carrito en línea desde su portátil y completar la compra más tarde en su teléfono.",
+    "reviewed": true
   },
   {
-    "id": "strat_0136",
-    "term_translation": "Riesgo de liquidez",
-    "definition_translation": "El riesgo de que una empresa o banco no pueda cumplir con las demandas financieras a corto plazo.",
-    "example_translation": "Vender activos rápidamente con pérdidas es un síntoma de riesgo de liquidez."
+    "id": "strategy_0001",
+    "term": "Ventaja Competitiva",
+    "acronym": null,
+    "definition": "Una condición o circunstancia que sitúa a una empresa en una posición de negocio favorable o superior en comparación con sus rivales.",
+    "example": "La fuerte lealtad a la marca y el ecosistema integrado de Apple le otorgan una significativa ventaja competitiva en el mercado de la electrónica de consumo.",
+    "reviewed": true
   },
   {
-    "id": "strat_0137",
-    "term_translation": "Panorama de riesgos",
-    "definition_translation": "La vista completa de los riesgos potenciales que enfrenta una organización.",
-    "example_translation": "El panorama de riesgos ha cambiado drásticamente con el aumento de las amenazas cibernéticas."
+    "id": "strategy_0002",
+    "term": "Estrategia del Océano Azul",
+    "acronym": null,
+    "definition": "La búsqueda de la diferenciación y el bajo coste para abrir un nuevo espacio de mercado no disputado y crear nueva demanda, haciendo así que la competencia sea irrelevante.",
+    "example": "En lugar de competir con otros circos, el Cirque du Soleil creó un nuevo mercado fusionando las artes circenses y el entretenimiento callejero, un ejemplo clásico de la estrategia del océano azul.",
+    "reviewed": true
   },
   {
-    "id": "strat_0138",
-    "term_translation": "Costes de exploración",
-    "definition_translation": "Costes incurridos al buscar nuevas oportunidades de negocio o recursos.",
-    "example_translation": "Los costes de exploración para el nuevo sitio minero fueron sustanciales."
+    "id": "strategy_0003",
+    "term": "Estrategia del Océano Rojo",
+    "acronym": null,
+    "definition": "Competir en espacios de mercado existentes tratando de superar a los rivales para captar una mayor cuota de la demanda existente.",
+    "example": "El mercado de los smartphones es un océano rojo, con los principales actores luchando constantemente por la cuota de mercado mediante mejoras incrementales y guerras de precios.",
+    "reviewed": true
   },
   {
-    "id": "strat_0139",
-    "term_translation": "Activos del segmento",
-    "definition_translation": "Aquellos activos operativos que son empleados por un segmento en sus actividades operativas.",
-    "example_translation": "Asignamos los activos del segmento basándonos en la contribución de ingresos de la división."
+    "id": "strategy_0004",
+    "term": "Análisis DAFO",
+    "acronym": "SWOT",
+    "definition": "Un marco de planificación estratégica utilizado para identificar y analizar las Debilidades, Amenazas, Fortalezas y Oportunidades de una organización.",
+    "example": "Antes de lanzar el nuevo producto, el equipo realizó un análisis DAFO para comprender sus capacidades internas y el panorama del mercado externo.",
+    "reviewed": true
   },
   {
-    "id": "strat_0140",
-    "term_translation": "Mercado cautivo",
-    "definition_translation": "Un mercado donde los consumidores tienen opciones limitadas y deben comprar a un proveedor específico.",
-    "example_translation": "Los aeropuertos operan como un mercado cautivo para alimentos y bebidas."
+    "id": "strategy_0005",
+    "term": "Análisis PESTLE",
+    "acronym": "PESTLE",
+    "definition": "Un marco utilizado para analizar los factores macroambientales externos clave (Políticos, Económicos, Sociales, Tecnológicos, Legales y Ecológicos) que pueden impactar a una organización.",
+    "example": "Nuestro análisis PESTLE para la expansión en Europa destacó posibles desafíos regulatorios y cambios en las preferencias de los consumidores.",
+    "reviewed": true
   },
   {
-    "id": "strat_0141",
-    "term_translation": "Riesgo de flujo de caja",
-    "definition_translation": "El riesgo de fluctuaciones en la cantidad de efectivo que entra y sale.",
-    "example_translation": "Los negocios estacionales a menudo enfrentan un alto riesgo de flujo de caja en la temporada baja."
+    "id": "strategy_0006",
+    "term": "Las Cinco Fuerzas de Porter",
+    "acronym": null,
+    "definition": "Un modelo que identifica y analiza cinco fuerzas competitivas que dan forma a cada industria y ayuda a determinar las debilidades y fortalezas de la misma.",
+    "example": "Utilizando las cinco fuerzas de Porter, determinamos que la alta amenaza de nuevos entrantes hace que este sea un mercado de muy difícil acceso.",
+    "reviewed": true
   },
   {
-    "id": "strat_0142",
-    "term_translation": "Coste histórico",
-    "definition_translation": "El valor monetario nominal original de un elemento económico.",
-    "example_translation": "La tierra generalmente se registra al coste histórico, no al valor de mercado actual."
+    "id": "strategy_0007",
+    "term": "Análisis de la Cadena de Valor",
+    "acronym": null,
+    "definition": "Un proceso en el que una empresa identifica sus actividades primarias y de apoyo que añaden valor a su producto final, analizándolas para reducir costes o aumentar la diferenciación.",
+    "example": "Mediante el análisis de la cadena de valor, encontramos ineficiencias en nuestra red logística que, una vez corregidas, podrían mejorar significativamente nuestros márgenes de beneficio.",
+    "reviewed": true
   },
   {
-    "id": "strat_0143",
-    "term_translation": "Firma de auditoría pura",
-    "definition_translation": "Una firma que se especializa únicamente en servicios de auditoría sin ofrecer consultoría.",
-    "example_translation": "Para evitar conflictos de intereses, elegimos una firma de auditoría pura."
+    "id": "strategy_0008",
+    "term": "Competencias Clave",
+    "acronym": null,
+    "definition": "Las fortalezas y capacidades únicas de una empresa que son difíciles de imitar para los competidores y que proporcionan la base de su ventaja competitiva.",
+    "example": "Las competencias clave de Honda en el diseño y fabricación de motores le permiten destacar en la producción de coches, motocicletas e incluso generadores eléctricos.",
+    "reviewed": true
   },
   {
-    "id": "strat_0144",
-    "term_translation": "Autoridad de auditoría",
-    "definition_translation": "Un organismo oficial facultado para realizar auditorías.",
-    "example_translation": "La autoridad de auditoría exigió acceso a todas las comunicaciones por correo electrónico."
+    "id": "strategy_0009",
+    "term": "Matriz BCG",
+    "acronym": "BCG",
+    "definition": "Un modelo de planificación de cartera que ayuda a las empresas a analizar sus líneas de productos o unidades de negocio basándose en la tasa de crecimiento del mercado y la cuota de mercado relativa.",
+    "example": "Según nuestra matriz BCG, nuestro software heredado es una 'Vaca Lechera', que genera ingresos estables que podemos invertir en nuestro producto 'Estrella', la nueva aplicación móvil.",
+    "reviewed": true
   },
   {
-    "id": "strat_0145",
-    "term_translation": "Coste del ciclo de vida",
-    "definition_translation": "El coste total de propiedad durante la vida útil de un activo.",
-    "example_translation": "Comprar equipos baratos a menudo resulta en un mayor coste del ciclo de vida debido a las reparaciones."
+    "id": "strategy_0010",
+    "term": "Matriz de Ansoff",
+    "acronym": null,
+    "definition": "Una herramienta de planificación estratégica que proporciona un marco para el crecimiento presentando cuatro opciones: penetración de mercado, desarrollo de mercado, desarrollo de producto y diversificación.",
+    "example": "La junta directiva está utilizando la matriz de Ansoff para decidir si debemos buscar el crecimiento vendiendo productos existentes en nuevas regiones o desarrollando nuevos productos para nuestros clientes actuales.",
+    "reviewed": true
   },
   {
-    "id": "strat_0146",
-    "term_translation": "Mercado distinto",
-    "definition_translation": "Un segmento de mercado separado e identificable.",
-    "example_translation": "Los SUV de lujo se han convertido en un mercado distinto de los vehículos todoterreno estándar."
+    "id": "strategy_0011",
+    "term": "Estrategia de Comercialización",
+    "acronym": "GTM",
+    "definition": "Un plan de acción que especifica cómo una empresa llegará a los clientes objetivo y logrará una ventaja competitiva para un nuevo producto o servicio.",
+    "example": "Nuestra estrategia de comercialización para el nuevo software incluye un equipo de ventas directas para clientes empresariales y una campaña de marketing de contenidos para pequeñas empresas.",
+    "reviewed": true
   },
   {
-    "id": "strat_0147",
-    "term_translation": "Beneficio retenido",
-    "definition_translation": "El beneficio que se mantiene en la empresa en lugar de pagarse como dividendos.",
-    "example_translation": "Utilizamos el beneficio retenido para financiar el nuevo laboratorio."
+    "id": "strategy_0012",
+    "term": "Penetración de Mercado",
+    "acronym": null,
+    "definition": "Una estrategia de crecimiento centrada en aumentar las ventas de productos existentes en un segmento de mercado existente para ganar una mayor cuota de mercado.",
+    "example": "Nuestro objetivo es la penetración de mercado a través de precios agresivos y un programa de fidelización para captar una mayor parte de la base de clientes de nuestro competidor.",
+    "reviewed": true
   },
   {
-    "id": "strat_0148",
-    "term_translation": "Prueba de cumplimiento",
-    "definition_translation": "Una prueba para determinar si los controles se están aplicando de manera que cumplan con las políticas y procedimientos de gestión.",
-    "example_translation": "La prueba de cumplimiento mostró que se estaban ignorando los protocolos de seguridad."
+    "id": "strategy_0013",
+    "term": "Desarrollo de Mercado",
+    "acronym": null,
+    "definition": "Una estrategia de crecimiento que implica vender los productos existentes de una empresa en nuevos mercados o segmentos de clientes.",
+    "example": "Nuestra estrategia de desarrollo de mercado implica expandir nuestra tienda online para atender por primera vez a clientes en el sudeste asiático.",
+    "reviewed": true
   },
   {
-    "id": "strat_0149",
-    "term_translation": "Activos físicos",
-    "definition_translation": "Artículos tangibles de valor, como inventario, maquinaria y edificios.",
-    "example_translation": "Los activos físicos requieren mantenimiento regular y seguros."
+    "id": "strategy_0014",
+    "term": "Desarrollo de Producto",
+    "acronym": null,
+    "definition": "Una estrategia de crecimiento que se centra en introducir nuevos productos en los mercados existentes para servir mejor a los clientes actuales.",
+    "example": "Como parte de nuestra estrategia de desarrollo de producto, estamos lanzando una versión prémium de nuestro software con características avanzadas solicitadas por nuestros usuarios más expertos.",
+    "reviewed": true
   },
   {
-    "id": "strat_0150",
-    "term_translation": "Asignación de costes",
-    "definition_translation": "El proceso de identificar, agregar y asignar costes a objetos de coste.",
-    "example_translation": "Una asignación de costes adecuada nos ayuda a entender qué productos son realmente rentables."
+    "id": "strategy_0015",
+    "term": "Estrategia de Diversificación",
+    "acronym": null,
+    "definition": "Una estrategia de crecimiento que implica que una empresa entre en un nuevo mercado o industria con un nuevo producto.",
+    "example": "La incursión de Google en los coches autónomos es una clásica estrategia de diversificación, aprovechando su experiencia tecnológica en una industria completamente nueva.",
+    "reviewed": true
+  },
+  {
+    "id": "strategy_0016",
+    "term": "Alianza Estratégica",
+    "acronym": null,
+    "definition": "Un acuerdo entre dos o más organizaciones independientes para perseguir un conjunto de objetivos acordados mientras permanecen como entidades separadas.",
+    "example": "Starbucks formó una alianza estratégica con Spotify para ofrecer una experiencia musical única en sus tiendas, mejorando el ambiente para los clientes de ambas marcas.",
+    "reviewed": true
+  },
+  {
+    "id": "strategy_0017",
+    "term": "Empresa Conjunta",
+    "acronym": null,
+    "definition": "Un acuerdo comercial en el que dos o más partes acuerdan poner en común sus recursos para llevar a cabo una tarea específica, creando una nueva entidad empresarial separada.",
+    "example": "Sony y Ericsson formaron una empresa conjunta, Sony Ericsson, para combinar la experiencia de Sony en electrónica de consumo con los conocimientos de Ericsson en telecomunicaciones.",
+    "reviewed": true
+  },
+  {
+    "id": "strategy_0018",
+    "term": "Fusiones y Adquisiciones",
+    "acronym": "M&A",
+    "definition": "La consolidación de empresas o activos a través de transacciones financieras, donde una empresa compra o se fusiona con otra.",
+    "example": "Nuestro equipo de fusiones y adquisiciones está evaluando varias startups tecnológicas más pequeñas como posibles objetivos de adquisición para acelerar nuestra I+D.",
+    "reviewed": true
+  },
+  {
+    "id": "strategy_0019",
+    "term": "Desinversión",
+    "acronym": null,
+    "definition": "La acción por la que una empresa vende participaciones o inversiones en negocios subsidiarios para centrarse en sus operaciones principales.",
+    "example": "La compañía anunció la desinversión de su división de bienes de consumo para obtener capital y concentrarse en su negocio más rentable de software empresarial.",
+    "reviewed": true
+  },
+  {
+    "id": "strategy_0020",
+    "term": "Integración Vertical",
+    "acronym": null,
+    "definition": "Una estrategia en la que una empresa posee o controla a sus proveedores, distribuidores o puntos de venta para controlar su cadena de valor o de suministro.",
+    "example": "Al adquirir la granja que suministra sus ingredientes clave, la empresa de alimentos apostó por la integración vertical para asegurar la calidad y controlar los costes.",
+    "reviewed": true
+  },
+  {
+    "id": "strategy_0021",
+    "term": "Integración Horizontal",
+    "acronym": null,
+    "definition": "Una estrategia en la que una empresa adquiere, se fusiona o toma el control de otra empresa en la misma industria y en la misma etapa de producción.",
+    "example": "La adquisición de Pixar por parte de Disney es un ejemplo de integración horizontal, ya que combinó a dos actores principales en la industria del cine de animación.",
+    "reviewed": true
+  },
+  {
+    "id": "strategy_0022",
+    "term": "Liderazgo en Costos",
+    "acronym": null,
+    "definition": "Una estrategia utilizada por las empresas para crear un bajo costo de operación dentro de su nicho y así obtener una ventaja competitiva.",
+    "example": "Todo el modelo de negocio de Walmart se basa en una estrategia de liderazgo en costos, centrándose en la eficiencia operativa para ofrecer los precios más bajos.",
+    "reviewed": true
+  },
+  {
+    "id": "strategy_0023",
+    "term": "Estrategia de Diferenciación",
+    "acronym": null,
+    "definition": "Una estrategia en la que una empresa desarrolla productos o servicios con atributos únicos que son valorados por los clientes, quienes están dispuestos a pagar un precio superior.",
+    "example": "Lush Cosmetics utiliza una estrategia de diferenciación centrándose en productos frescos y hechos a mano con un abastecimiento ético, lo que atrae a una base de clientes específica.",
+    "reviewed": true
+  },
+  {
+    "id": "strategy_0024",
+    "term": "Estrategia de Enfoque",
+    "acronym": null,
+    "definition": "Una estrategia en la que una empresa concentra sus recursos en servir a un nicho de mercado estrecho de manera más eficaz o eficiente que los competidores con un enfoque más amplio.",
+    "example": "Rolex emplea una estrategia de enfoque al dirigirse al segmento de relojes de lujo de alta gama en lugar de competir en el mercado de relojes más amplio.",
+    "reviewed": true
+  },
+  {
+    "id": "strategy_0025",
+    "term": "Cuadro de Mando Integral",
+    "acronym": "BSC",
+    "definition": "Una herramienta de gestión del rendimiento estratégico que traduce la visión de una empresa en un conjunto coherente de medidas de rendimiento a través de perspectivas financieras, de cliente, internas y de innovación.",
+    "example": "Estamos implementando un cuadro de mando integral para seguir no solo los resultados financieros, sino también la satisfacción del cliente, los procesos internos y el desarrollo de los empleados.",
+    "reviewed": true
+  },
+  {
+    "id": "strategy_0026",
+    "term": "Indicador Clave de Rendimiento",
+    "acronym": "KPI",
+    "definition": "Un valor medible que demuestra la eficacia con la que una empresa está logrando sus objetivos empresariales clave.",
+    "example": "Nuestro principal indicador clave de rendimiento para este trimestre es aumentar la retención de clientes en un 5 %.",
+    "reviewed": true
+  },
+  {
+    "id": "strategy_0027",
+    "term": "Objetivos y Resultados Clave",
+    "acronym": "OKR",
+    "definition": "Un marco para establecer metas que ayuda a las organizaciones a definir objetivos ambiciosos y a seguir sus resultados a través de resultados clave específicos y medibles.",
+    "example": "Nuestro objetivo es 'Lanzar la nueva función con éxito', y un resultado clave es 'Alcanzar 10.000 usuarios activos en el primer mes'.",
+    "reviewed": true
+  },
+  {
+    "id": "strategy_0028",
+    "term": "Planificación de Escenarios",
+    "acronym": null,
+    "definition": "Un método de planificación estratégica que las organizaciones utilizan para elaborar planes flexibles a largo plazo, imaginando y analizando una variedad de posibles escenarios futuros.",
+    "example": "Nuestro equipo está utilizando la planificación de escenarios para prepararse ante posibles interrupciones en la cadena de suministro, considerando el mejor y el peor de los casos, así como el resultado más probable.",
+    "reviewed": true
+  },
+  {
+    "id": "strategy_0029",
+    "term": "Hoshin Kanri",
+    "acronym": null,
+    "definition": "Una metodología de planificación estratégica para asegurar que los objetivos de una empresa se comuniquen e implementen en toda la organización.",
+    "example": "A través de Hoshin Kanri, la visión de sostenibilidad de nuestra dirección se está traduciendo en acciones y metas específicas para cada departamento.",
+    "reviewed": true
+  },
+  {
+    "id": "strategy_0030",
+    "term": "Intención Estratégica",
+    "acronym": null,
+    "definition": "Una declaración convincente sobre hacia dónde se dirige una organización y qué quiere lograr, delineando sus ambiciosos objetivos a largo plazo.",
+    "example": "En la década de 1960, la intención estratégica de la NASA era clara y poderosa: poner un hombre en la luna antes de que terminara la década.",
+    "reviewed": true
+  },
+  {
+    "id": "strategy_0031",
+    "term": "Innovación Disruptiva",
+    "acronym": null,
+    "definition": "Una innovación que crea un nuevo mercado y una nueva red de valor, desplazando finalmente a las empresas, productos y alianzas líderes del mercado establecido.",
+    "example": "El servicio de streaming de Netflix fue una innovación disruptiva que cambió por completo la industria del entretenimiento en el hogar, dejando obsoletos los videoclubs.",
+    "reviewed": true
+  },
+  {
+    "id": "strategy_0032",
+    "term": "Innovación Incremental",
+    "acronym": null,
+    "definition": "Una innovación que mejora los productos o servicios existentes, generalmente en las dimensiones de rendimiento que los clientes mayoritarios han valorado históricamente.",
+    "example": "El lanzamiento anual de un nuevo iPhone con una mejor cámara y un procesador más rápido es un ejemplo clásico de innovación incremental.",
+    "reviewed": true
+  },
+  {
+    "id": "strategy_0033",
+    "term": "Ventaja del Pionero",
+    "acronym": null,
+    "definition": "La ventaja competitiva que obtiene una empresa por ser la primera en ocupar una posición significativa en un segmento de mercado.",
+    "example": "Amazon obtuvo una enorme ventaja del pionero en el comercio electrónico, lo que dificultó que los competidores posteriores pudieran alcanzarlo.",
+    "reviewed": true
+  },
+  {
+    "id": "strategy_0034",
+    "term": "Foso Económico",
+    "acronym": null,
+    "definition": "Una ventaja competitiva distintiva y sostenible que permite a una empresa proteger su cuota de mercado y rentabilidad de los competidores.",
+    "example": "El fuerte reconocimiento de marca y la red de distribución global de Coca-Cola crean un amplio foso económico que es muy difícil de superar para sus rivales.",
+    "reviewed": true
+  },
+  {
+    "id": "strategy_0035",
+    "term": "Efectos de Red",
+    "acronym": null,
+    "definition": "Un fenómeno por el cual un producto o servicio adquiere valor adicional a medida que más personas lo utilizan.",
+    "example": "Las plataformas de redes sociales como Facebook son poderosas debido a los efectos de red; su valor aumenta a medida que más amigos y colegas se unen.",
+    "reviewed": true
+  },
+  {
+    "id": "strategy_0036",
+    "term": "Estrategia de Plataforma",
+    "acronym": null,
+    "definition": "Un modelo de negocio que crea valor al facilitar los intercambios entre dos o más grupos interdependientes, generalmente consumidores y productores.",
+    "example": "La estrategia de plataforma de Uber conecta a conductores con pasajeros, creando valor para ambos grupos sin poseer los vehículos.",
+    "reviewed": true
+  },
+  {
+    "id": "strategy_0037",
+    "term": "Estrategia de Ecosistema",
+    "acronym": null,
+    "definition": "Una estrategia que involucra una red de servicios, productos y empresas interconectados que trabajan juntos para crear una experiencia de cliente fluida y fidelizar a los usuarios.",
+    "example": "La estrategia de ecosistema de Apple, con su estrecha integración de hardware, software y servicios, mantiene a los clientes leales a la marca.",
+    "reviewed": true
+  },
+  {
+    "id": "strategy_0038",
+    "term": "Crecimiento Orgánico",
+    "acronym": null,
+    "definition": "La tasa de crecimiento que una empresa logra aumentando la producción y mejorando las ventas internamente, sin recurrir a fusiones o adquisiciones.",
+    "example": "La empresa se está centrando en el crecimiento orgánico este año, optimizando sus embudos de marketing y expandiendo sus líneas de productos existentes.",
+    "reviewed": true
+  },
+  {
+    "id": "strategy_0039",
+    "term": "Crecimiento Inorgánico",
+    "acronym": null,
+    "definition": "El crecimiento en las operaciones e ingresos de una empresa que proviene de fusiones, adquisiciones o empresas conjuntas en lugar de sus propias actividades comerciales.",
+    "example": "Para entrar rápidamente en el mercado europeo, la firma decidió perseguir el crecimiento inorgánico mediante la adquisición de un competidor local.",
+    "reviewed": true
+  },
+  {
+    "id": "strategy_0040",
+    "term": "Visión Basada en los Recursos",
+    "acronym": "RBV",
+    "definition": "Un marco de gestión utilizado para determinar los recursos estratégicos que una empresa puede explotar para lograr una ventaja competitiva sostenible.",
+    "example": "Utilizando la visión basada en los recursos, identificamos nuestro algoritmo propio como un recurso clave que es valioso, raro y difícil de imitar.",
+    "reviewed": true
+  },
+  {
+    "id": "strategy_0041",
+    "term": "Marco VRIO",
+    "acronym": "VRIO",
+    "definition": "Una herramienta de análisis estratégico para ayudar a identificar recursos y capacidades que pueden ser una fuente de ventaja competitiva sostenida, basándose en si son Valiosos, Raros, Inimitables y si la empresa está Organizada para explotarlos.",
+    "example": "Aplicamos el marco VRIO a nuestra cartera de patentes y confirmamos que proporciona una ventaja competitiva a largo plazo.",
+    "reviewed": true
+  },
+  {
+    "id": "strategy_0042",
+    "term": "Capacidades Dinámicas",
+    "acronym": null,
+    "definition": "La capacidad de una empresa para integrar, construir y reconfigurar competencias internas y externas para hacer frente a entornos que cambian rápidamente.",
+    "example": "En la vertiginosa industria tecnológica, las capacidades dinámicas de una empresa —su habilidad para adaptarse e innovar rápidamente— son más importantes que sus activos actuales.",
+    "reviewed": true
+  },
+  {
+    "id": "strategy_0043",
+    "term": "Agilidad Estratégica",
+    "acronym": null,
+    "definition": "La capacidad de una organización para detectar y responder a las oportunidades y amenazas del mercado con rapidez y flexibilidad.",
+    "example": "Nuestra agilidad estratégica nos permitió cambiar rápidamente nuestro enfoque de producción para satisfacer el repentino aumento de la demanda de equipos de oficina en casa.",
+    "reviewed": true
+  },
+  {
+    "id": "strategy_0044",
+    "term": "Organización ambidiestra",
+    "acronym": null,
+    "definition": "Una organización que es capaz de explorar nuevas oportunidades (innovar) y explotar sus capacidades existentes (operar eficientemente) al mismo tiempo.",
+    "example": "Google aspira a ser una organización ambidiestra gestionando su rentable negocio de búsquedas mientras invierte fuertemente en proyectos experimentales de alto riesgo ('moonshots').",
+    "reviewed": true
+  },
+  {
+    "id": "strategy_0045",
+    "term": "Metodología Lean Startup",
+    "acronym": null,
+    "definition": "Un método para desarrollar negocios y productos que tiene como objetivo acortar los ciclos de desarrollo mediante la adopción de una combinación de experimentación, lanzamientos iterativos y aprendizaje validado.",
+    "example": "Siguiendo la metodología Lean Startup, lanzamos una versión simple de la aplicación para probar primero nuestras suposiciones principales con usuarios reales.",
+    "reviewed": true
+  },
+  {
+    "id": "strategy_0046",
+    "term": "Producto Mínimo Viable",
+    "acronym": "MVP",
+    "definition": "Una versión de un nuevo producto que permite a un equipo recopilar la máxima cantidad de aprendizaje validado sobre los clientes con el mínimo esfuerzo.",
+    "example": "Nuestro primer producto mínimo viable es solo una página de destino con un formulario de registro para medir el interés antes de escribir una sola línea de código.",
+    "reviewed": true
+  },
+  {
+    "id": "strategy_0047",
+    "term": "Pivote Estratégico",
+    "acronym": null,
+    "definition": "Un cambio fundamental en la estrategia de negocio de una empresa, a menudo en respuesta a la retroalimentación del mercado, para probar una nueva hipótesis central.",
+    "example": "Tras darnos cuenta de que nuestro mercado objetivo inicial no respondía, hicimos un pivote estratégico para centrarnos en clientes empresariales en lugar de consumidores individuales.",
+    "reviewed": true
+  },
+  {
+    "id": "strategy_0048",
+    "term": "Propuesta de Valor",
+    "acronym": null,
+    "definition": "Una declaración que identifica claramente los beneficios que los productos o servicios de una empresa ofrecerán a sus clientes y qué la hace única frente a la competencia.",
+    "example": "La propuesta de valor de Slack es que reduce el correo electrónico interno y agrupa toda la comunicación del equipo en un solo lugar, haciendo el trabajo más productivo.",
+    "reviewed": true
+  },
+  {
+    "id": "strategy_0049",
+    "term": "Lienzo de Modelo de Negocio",
+    "acronym": null,
+    "definition": "Una plantilla de gestión estratégica para desarrollar nuevos modelos de negocio o documentar los existentes en un único gráfico visual.",
+    "example": "Utilizamos el lienzo de modelo de negocio en nuestro taller para esbozar rápidamente los componentes clave de nuestro nuevo servicio de suscripción.",
+    "reviewed": true
+  },
+  {
+    "id": "strategy_0050",
+    "term": "Valor de Vida del Cliente",
+    "acronym": "CLV",
+    "definition": "Una métrica que predice el beneficio neto total que una empresa puede esperar obtener de un solo cliente durante toda la duración de su relación.",
+    "example": "Al aumentar nuestro valor de vida del cliente, podemos justificar un mayor gasto en adquisición, ya que cada nuevo cliente generará más ingresos a largo plazo.",
+    "reviewed": true
+  },
+  {
+    "id": "strategy_0198",
+    "term": "Fusiones y Adquisiciones",
+    "acronym": "M&A",
+    "definition": "El proceso de combinar dos empresas en una (fusión) o de que una empresa compre a otra (adquisición) para alcanzar objetivos estratégicos y financieros.",
+    "example": "Nuestro equipo de Fusiones y Adquisiciones está evaluando la posible adquisición de un competidor más pequeño para ampliar nuestra cuota de mercado.",
+    "reviewed": true
+  },
+  {
+    "id": "strategy_0199",
+    "term": "Indicador clave de rendimiento",
+    "acronym": "KPI",
+    "definition": "Un valor medible que demuestra la eficacia con la que una empresa está alcanzando sus objetivos de negocio clave.",
+    "example": "Uno de nuestros principales indicadores clave de rendimiento para el departamento de marketing este trimestre es aumentar el tráfico del sitio web en un 20 %.",
+    "reviewed": true
+  },
+  {
+    "id": "strategy_0200",
+    "term": "Objetivos y Resultados Clave",
+    "acronym": "OKR",
+    "definition": "Un marco de establecimiento de metas que ayuda a las empresas a definir objetivos ambiciosos (Objetivos) y a seguir el progreso a través de resultados específicos y medibles (Resultados Clave).",
+    "example": "Para nuestros OKRs del tercer trimestre, el objetivo es 'Mejorar la Satisfacción del Cliente', y un resultado clave es 'alcanzar un Net Promoter Score de 50'.",
+    "reviewed": true
+  },
+  {
+    "id": "strategy_0201",
+    "term": "Visión basada en los recursos",
+    "acronym": "RBV",
+    "definition": "Un marco estratégico que sugiere que la ventaja competitiva de una empresa se deriva de sus recursos y capacidades internas, que son únicos y difíciles de imitar.",
+    "example": "Utilizando la visión basada en los recursos, identificamos nuestro algoritmo patentado como nuestro activo estratégico clave que los competidores no pueden replicar fácilmente.",
+    "reviewed": true
+  },
+  {
+    "id": "strategy_0202",
+    "term": "Producto mínimo viable",
+    "acronym": "MVP",
+    "definition": "Una versión de un nuevo producto con las características suficientes para ser utilizado por los primeros clientes, quienes pueden proporcionar valoraciones para el desarrollo futuro del producto.",
+    "example": "En lugar de desarrollar la aplicación completa, la startup lanzó un producto mínimo viable para probar su idea central con usuarios reales y recopilar comentarios iniciales.",
+    "reviewed": true
+  },
+  {
+    "id": "strategy_0203",
+    "term": "Valor de vida del cliente",
+    "acronym": "CLV",
+    "definition": "Una métrica que predice el beneficio neto total que una empresa puede esperar de un solo cliente a lo largo de toda su relación.",
+    "example": "Al centrarnos en la retención de clientes, nuestro objetivo es aumentar el valor de vida del cliente promedio en un 15 % este año.",
+    "reviewed": true
+  },
+  {
+    "id": "strategy_0204",
+    "term": "Valor económico agregado",
+    "acronym": "EVA",
+    "definition": "Una medida del rendimiento financiero de una empresa basada en el valor creado por encima del retorno requerido por los inversores de la compañía.",
+    "example": "El consejo de administración se mostró complacido de que la empresa generara un valor económico agregado positivo, lo que indica que creamos valor real para nuestros accionistas.",
+    "reviewed": true
+  },
+  {
+    "id": "strategy_0205",
+    "term": "Retorno sobre el capital invertido",
+    "acronym": "ROIC",
+    "definition": "Un ratio de rentabilidad que mide la eficiencia con la que una empresa utiliza su capital para generar beneficios.",
+    "example": "Un alto retorno sobre el capital invertido sugiere que nuestra dirección es muy eficaz en la asignación de capital a inversiones rentables.",
+    "reviewed": true
+  },
+  {
+    "id": "strategy_0206",
+    "term": "Reingeniería de procesos de negocio",
+    "acronym": "BPR",
+    "definition": "El replanteamiento fundamental y el rediseño radical de los procesos de negocio para lograr mejoras drásticas en el rendimiento, como el costo, la calidad y la velocidad.",
+    "example": "La empresa inició un proyecto de reingeniería de procesos de negocio para renovar su anticuado sistema de gestión de la cadena de suministro.",
+    "reviewed": true
+  },
+  {
+    "id": "strategy_0207",
+    "term": "Compra apalancada",
+    "acronym": "LBO",
+    "definition": "La adquisición de otra empresa utilizando una cantidad significativa de dinero prestado para cubrir el costo de la adquisición.",
+    "example": "La firma de capital privado completó una compra apalancada de la cadena minorista en dificultades, con la esperanza de reestructurarla y venderla para obtener beneficios.",
+    "reviewed": true
+  },
+  {
+    "id": "strategy_0208",
+    "term": "Centro de Excelencia",
+    "acronym": "CoE",
+    "definition": "Un equipo o entidad dentro de una organización que proporciona liderazgo, mejores prácticas, investigación y soporte para un área de enfoque específica.",
+    "example": "Nuestro nuevo Centro de Excelencia de Analítica de Datos ayudará a todos los departamentos a tomar mejores decisiones basadas en datos.",
+    "reviewed": true
+  },
+  {
+    "id": "strategy_0209",
+    "term": "Factor Crítico de Éxito",
+    "acronym": "CSF",
+    "definition": "Las áreas de actividad esenciales que deben realizarse correctamente para que un negocio o proyecto alcance su misión u objetivos.",
+    "example": "Para el lanzamiento de nuestro nuevo producto, un Factor Crítico de Éxito clave es asegurar acuerdos de distribución con los principales minoristas.",
+    "reviewed": true
+  },
+  {
+    "id": "strategy_0210",
+    "term": "Fusiones y Adquisiciones",
+    "acronym": "M&A",
+    "definition": "La consolidación de empresas o activos a través de diversas transacciones financieras, incluyendo la compra de una empresa por otra (adquisición) o la combinación de dos empresas en una nueva entidad (fusión).",
+    "example": "El departamento de Fusiones y Adquisiciones de nuestra firma está explorando la posible compra de un competidor más pequeño para aumentar nuestra cuota de mercado.",
+    "reviewed": true
+  },
+  {
+    "id": "strategy_0211",
+    "term": "Indicador Clave de Rendimiento",
+    "acronym": "KPI",
+    "definition": "Un valor medible que demuestra la eficacia con la que una empresa está logrando sus objetivos de negocio clave.",
+    "example": "Para el equipo de ventas, el principal Indicador Clave de Rendimiento de este trimestre es aumentar la captación de nuevos clientes en un 10 %.",
+    "reviewed": true
+  },
+  {
+    "id": "strategy_0212",
+    "term": "Objetivos y Resultados Clave",
+    "acronym": "OKR",
+    "definition": "Un marco de establecimiento de metas utilizado por las empresas para definir objetivos ambiciosos (Objetivos) y seguir sus resultados con métricas específicas y medibles (Resultados Clave).",
+    "example": "Nuestra empresa estableció Objetivos y Resultados Clave a nivel global para asegurar que todos los departamentos estén alineados con las prioridades estratégicas del año.",
+    "reviewed": true
+  },
+  {
+    "id": "strategy_0213",
+    "term": "Visión Basada en Recursos",
+    "acronym": null,
+    "definition": "Un modelo de gestión estratégica que sostiene que la ventaja competitiva sostenible de una empresa proviene de sus recursos internos únicos y difíciles de imitar.",
+    "example": "Usando la Visión Basada en Recursos, identificamos nuestra tecnología patentada como nuestra principal fortaleza, la cual los competidores no pueden replicar fácilmente.",
+    "reviewed": true
+  },
+  {
+    "id": "strategy_0214",
+    "term": "Producto Mínimo Viable",
+    "acronym": "MVP",
+    "definition": "Una versión de un nuevo producto que permite a un equipo recopilar la máxima cantidad de aprendizaje validado sobre los clientes con el mínimo esfuerzo.",
+    "example": "Lanzamos un Producto Mínimo Viable de la aplicación solo con las funciones básicas para probar la demanda del mercado antes de invertir en un desarrollo a gran escala.",
+    "reviewed": true
+  },
+  {
+    "id": "strategy_0215",
+    "term": "Valor de Vida del Cliente",
+    "acronym": "CLV",
+    "definition": "Una métrica que predice el beneficio neto total que una empresa puede esperar obtener de un cliente a lo largo de toda su relación.",
+    "example": "Al mejorar el servicio al cliente, esperamos aumentar la retención e impulsar el Valor de Vida del Cliente promedio.",
+    "reviewed": true
+  },
+  {
+    "id": "strategy_0216",
+    "term": "Valor Económico Agregado",
+    "acronym": "EVA",
+    "definition": "Una medida del rendimiento financiero de una empresa basada en la riqueza residual, calculada deduciendo su coste de capital de su beneficio operativo.",
+    "example": "El bono para la alta dirección está ligado al Valor Económico Agregado de la firma para asegurar que se centren en crear verdadero valor para el accionista.",
+    "reviewed": true
+  },
+  {
+    "id": "strategy_0217",
+    "term": "Retorno sobre el Capital Invertido",
+    "acronym": "ROIC",
+    "definition": "Un ratio financiero utilizado para evaluar la eficiencia de una empresa en la asignación del capital bajo su control a inversiones rentables.",
+    "example": "Una empresa con un Retorno sobre el Capital Invertido consistentemente alto suele ser señal de un equipo directivo fuerte y una ventaja competitiva duradera.",
+    "reviewed": true
+  },
+  {
+    "id": "strategy_0218",
+    "term": "Reingeniería de Procesos de Negocio",
+    "acronym": "BPR",
+    "definition": "El acto de repensar y rediseñar la forma en que se realiza el trabajo para apoyar mejor la misión de una organización y reducir costes.",
+    "example": "Iniciamos un proyecto de Reingeniería de Procesos de Negocio para digitalizar nuestro sistema de facturación, lo que redujo drásticamente los tiempos de procesamiento de pagos.",
+    "reviewed": true
+  },
+  {
+    "id": "strategy_0219",
+    "term": "Compra Apalancada",
+    "acronym": "LBO",
+    "definition": "La adquisición de otra empresa utilizando una cantidad significativa de dinero prestado (deuda) para cubrir el coste de la adquisición.",
+    "example": "La firma de capital privado ejecutó una Compra Apalancada, planeando reestructurar la empresa y venderla con beneficios en unos pocos años.",
+    "reviewed": true
+  },
+  {
+    "id": "strategy_0220",
+    "term": "Centro de Excelencia",
+    "acronym": "CoE",
+    "definition": "Un equipo o instalación centralizada que proporciona liderazgo, mejores prácticas, soporte y formación para un área de enfoque específica dentro de una organización.",
+    "example": "Nuestro nuevo Centro de Excelencia en IA ayudará a las diferentes unidades de negocio a implementar el aprendizaje automático en sus operaciones.",
+    "reviewed": true
+  },
+  {
+    "id": "strategy_0221",
+    "term": "Factor Crítico de Éxito",
+    "acronym": "CSF",
+    "definition": "Un área o actividad clave que debe realizarse a un alto nivel para que una organización o proyecto alcance sus objetivos estratégicos.",
+    "example": "Para nuestro negocio de venta minorista en línea, el envío rápido y fiable es un Factor Crítico de Éxito para la satisfacción del cliente.",
+    "reviewed": true
   }
 ]

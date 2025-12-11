@@ -28,15 +28,15 @@ describe('StaticVocabularyService', () => {
   const mockTranslationData = [
     {
       id: '1',
-      term_translation: 'pracownik',
-      definition_translation: 'Osoba pracująca w firmie',
-      example_translation: 'Pracownik pracuje 40 godzin tygodniowo.'
+      term: 'pracownik',
+      definition: 'Osoba pracująca w firmie',
+      example: 'Pracownik pracuje 40 godzin tygodniowo.'
     },
     {
       id: '2',
-      term_translation: 'wynagrodzenie',
-      definition_translation: 'Pieniądze wypłacane pracownikowi',
-      example_translation: 'Otrzymuje miesięczne wynagrodzenie.'
+      term: 'wynagrodzenie',
+      definition: 'Pieniądze wypłacane pracownikowi',
+      example: 'Otrzymuje miesięczne wynagrodzenie.'
     }
   ];
 
@@ -54,12 +54,9 @@ describe('StaticVocabularyService', () => {
   });
 
   describe('getFilePrefix', () => {
-    it('should return correct prefix for finance', () => {
-      expect((service as any).getFilePrefix('finance')).toBe('fin');
-    });
-
-    it('should return lowercase topic for other categories', () => {
-      expect((service as any).getFilePrefix('tech')).toBe('tech');
+    it('should return lowercase topic for all categories', () => {
+      expect((service as any).getFilePrefix('finance')).toBe('finance');
+      expect((service as any).getFilePrefix('technology')).toBe('technology');
       expect((service as any).getFilePrefix('HR')).toBe('hr');
     });
   });
@@ -116,7 +113,7 @@ describe('StaticVocabularyService', () => {
     it('should use correct file prefix for finance category', async () => {
       const resultPromise = firstValueFrom(service.loadTranslationData('finance', 'english'));
 
-      const req = httpMock.expectOne('/i18n/fin_en.json');
+      const req = httpMock.expectOne('/i18n/finance_en.json');
       req.flush(mockBaseData);
 
       const result = await resultPromise;

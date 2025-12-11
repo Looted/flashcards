@@ -1,0 +1,1202 @@
+[
+  {
+    "id": "technology_0001",
+    "term": "Architektura mikroserwisów",
+    "acronym": null,
+    "definition": "Technika tworzenia oprogramowania, która organizuje aplikację jako zbiór luźno powiązanych ze sobą usług.",
+    "example": "Przejście na architekturę mikroserwisów pozwoliło zespołowi zaktualizować system płatności bez zakłócania interfejsu użytkownika.",
+    "reviewed": true
+  },
+  {
+    "id": "technology_0002",
+    "term": "Przetwarzanie bezserwerowe",
+    "acronym": null,
+    "definition": "Model wykonywania obliczeń w chmurze, w którym dostawca chmury zarządza serwerem i dynamicznie alokuje zasoby maszynowe.",
+    "example": "Dzięki wdrożeniu przetwarzania bezserwerowego płacimy tylko za faktycznie wykorzystany czas obliczeniowy, zamiast utrzymywać bezczynne serwery.",
+    "reviewed": true
+  },
+  {
+    "id": "technology_0003",
+    "term": "Konteneryzacja",
+    "acronym": null,
+    "definition": "Proces pakowania kodu oprogramowania wraz ze wszystkimi niezbędnymi komponentami, takimi jak biblioteki i zależności, aby działał spójnie w każdej infrastrukturze.",
+    "example": "Konteneryzacja uprościła nasz proces wdrażania, zapewniając, że aplikacja działa tak samo na laptopie dewelopera, jak i w środowisku produkcyjnym.",
+    "reviewed": true
+  },
+  {
+    "id": "technology_0004",
+    "term": "Orkiestracja",
+    "acronym": null,
+    "definition": "Zautomatyzowana konfiguracja, koordynacja i zarządzanie systemami komputerowymi oraz oprogramowaniem.",
+    "example": "Używamy narzędzi do orkiestracji, aby zarządzać tysiącami kontenerów obsługujących naszą globalną platformę e-commerce.",
+    "reviewed": true
+  },
+  {
+    "id": "technology_0005",
+    "term": "Ciągła integracja",
+    "acronym": "CI",
+    "definition": "Praktyka polegająca na automatyzacji integracji zmian w kodzie od wielu programistów w ramach jednego projektu oprogramowania.",
+    "example": "Wdrożenie ciągłej integracji pomaga nam wcześnie wykrywać błędy dzięki testowaniu kodu natychmiast po jego zatwierdzeniu.",
+    "reviewed": true
+  },
+  {
+    "id": "technology_0006",
+    "term": "Ciągłe wdrażanie",
+    "acronym": "CD",
+    "definition": "Strategia, w której zmiany w kodzie aplikacji są automatycznie publikowane w środowisku produkcyjnym.",
+    "example": "Dzięki ciągłemu wdrażaniu możemy dostarczać klientom nowe funkcje kilka razy dziennie.",
+    "reviewed": true
+  },
+  {
+    "id": "technology_0007",
+    "term": "Infrastruktura jako kod",
+    "acronym": "IaC",
+    "definition": "Proces zarządzania i udostępniania zasobów centrum danych za pomocą plików definicji odczytywanych maszynowo, zamiast fizycznej konfiguracji sprzętu.",
+    "example": "Stosowanie infrastruktury jako kodu pozwala nam w razie awarii odbudować całe nasze środowisko serwerowe w ciągu kilku minut.",
+    "reviewed": true
+  },
+  {
+    "id": "technology_0008",
+    "term": "DevSecOps",
+    "acronym": null,
+    "definition": "Filozofia integrowania praktyk bezpieczeństwa w procesie DevOps od samego początku cyklu życia oprogramowania.",
+    "example": "Przyjęcie DevSecOps zapewnia, że luki w zabezpieczeniach są usuwane na etapie rozwoju, a nie dopiero po uruchomieniu produktu.",
+    "reviewed": true
+  },
+  {
+    "id": "technology_0009",
+    "term": "Model Zero Trust",
+    "acronym": null,
+    "definition": "Model bezpieczeństwa, który wymaga, aby wszyscy użytkownicy, zarówno wewnątrz, jak i na zewnątrz sieci organizacji, byli uwierzytelnieni i autoryzowani przed uzyskaniem dostępu do danych.",
+    "example": "W dobie pracy zdalnej wdrożyliśmy model Zero Trust, aby mieć pewność, że żadne urządzenie nie jest domyślnie zaufane.",
+    "reviewed": true
+  },
+  {
+    "id": "technology_0010",
+    "term": "Zarządzanie tożsamością i dostępem",
+    "acronym": "IAM",
+    "definition": "Zbiór zasad i technologii zapewniających, że odpowiedni użytkownicy mają właściwy dostęp do zasobów technologicznych.",
+    "example": "Dział IT zaktualizował nasze protokoły zarządzania tożsamością i dostępem, aby uniemożliwić byłym pracownikom dostęp do firmowych baz danych.",
+    "reviewed": true
+  },
+  {
+    "id": "technology_0011",
+    "term": "Testy penetracyjne",
+    "acronym": null,
+    "definition": "Symulowany cyberatak na system komputerowy w celu znalezienia podatności, które mogą zostać wykorzystane.",
+    "example": "Zatrudniliśmy firmę do przeprowadzenia testów penetracyjnych, aby upewnić się, że nasza aplikacja bankowa jest bezpieczna przed hakerami.",
+    "reviewed": true
+  },
+  {
+    "id": "technology_0012",
+    "term": "Blockchain",
+    "acronym": null,
+    "definition": "System zapisywania informacji w sposób, który utrudnia lub uniemożliwia zmianę, zhakowanie lub oszukanie systemu.",
+    "example": "Firma logistyczna używa technologii blockchain do tworzenia niezmienialnego zapisu przebiegu łańcucha dostaw.",
+    "reviewed": true
+  },
+  {
+    "id": "technology_0013",
+    "term": "Inteligentne kontrakty",
+    "acronym": null,
+    "definition": "Samowykonujące się umowy, w których warunki porozumienia między kupującym a sprzedającym są bezpośrednio zapisane w liniach kodu.",
+    "example": "Dzięki inteligentnym kontraktom tantiemy są automatycznie wysyłane do artystów w momencie odtworzenia ich muzyki.",
+    "reviewed": true
+  },
+  {
+    "id": "technology_0014",
+    "term": "Niewymienialny token",
+    "acronym": "NFT",
+    "definition": "Unikalny cyfrowy identyfikator zapisany w blockchainie, którego nie można skopiować, zastąpić ani podzielić.",
+    "example": "Marka wprowadziła na rynek ekskluzywną kolekcję niewymienialnych tokenów, aby zwiększyć zaangażowanie cyfrowe wśród młodszych klientów.",
+    "reviewed": true
+  },
+  {
+    "id": "technology_0015",
+    "term": "Zdecentralizowane finanse",
+    "acronym": "DeFi",
+    "definition": "Technologia finansowa oparta na bezpiecznych, rozproszonych rejestrach, podobnych do tych używanych przez kryptowaluty.",
+    "example": "Aplikacje zdecentralizowanych finansów pozwalają użytkownikom na udzielanie i zaciąganie pożyczek bez pośrednictwa tradycyjnego banku.",
+    "reviewed": true
+  },
+  {
+    "id": "technology_0016",
+    "term": "Uczenie maszynowe",
+    "acronym": "ML",
+    "definition": "Dziedzina sztucznej inteligencji i informatyki, która koncentruje się na wykorzystaniu danych i algorytmów do naśladowania sposobu, w jaki uczą się ludzie.",
+    "example": "Nasz silnik rekomendacji wykorzystuje uczenie maszynowe do sugerowania produktów na podstawie wcześniejszych zakupów klienta.",
+    "reviewed": true
+  },
+  {
+    "id": "technology_0017",
+    "term": "Uczenie głębokie",
+    "acronym": null,
+    "definition": "Podzbiór uczenia maszynowego oparty na sztucznych sieciach neuronowych, w którym wykorzystuje się wiele warstw przetwarzania do ekstrakcji coraz bardziej zaawansowanych cech z danych.",
+    "example": "Uczenie głębokie to technologia stojąca za systemami rozpoznawania mowy w naszych wirtualnych asystentach.",
+    "reviewed": true
+  },
+  {
+    "id": "technology_0018",
+    "term": "Przetwarzanie języka naturalnego",
+    "acronym": "NLP",
+    "definition": "Dziedzina sztucznej inteligencji, która pomaga komputerom rozumieć, interpretować i przetwarzać język ludzki.",
+    "example": "Używamy przetwarzania języka naturalnego do analizy sentymentu w tysiącach opinii klientów.",
+    "reviewed": true
+  },
+  {
+    "id": "technology_0019",
+    "term": "Wizja komputerowa",
+    "acronym": null,
+    "definition": "Dziedzina sztucznej inteligencji, która umożliwia komputerom i systemom pozyskiwanie istotnych informacji z cyfrowych obrazów i filmów.",
+    "example": "Zakład produkcyjny wykorzystuje wizję komputerową do automatycznego wykrywania wad produktów na linii montażowej.",
+    "reviewed": true
+  },
+  {
+    "id": "technology_0020",
+    "term": "Analityka predykcyjna",
+    "acronym": null,
+    "definition": "Wykorzystanie danych, algorytmów statystycznych i technik uczenia maszynowego do identyfikacji prawdopodobieństwa przyszłych wyników na podstawie danych historycznych.",
+    "example": "Sprzedawcy detaliczni używają analityki predykcyjnej, aby określić, ile zapasów zgromadzić przed sezonem świątecznym.",
+    "reviewed": true
+  },
+  {
+    "id": "technology_0021",
+    "term": "Jezioro danych",
+    "acronym": null,
+    "definition": "Scentralizowane repozytorium, które pozwala na przechowywanie wszystkich ustrukturyzowanych i nieustrukturyzowanych danych w dowolnej skali.",
+    "example": "Zamiast najpierw filtrować dane, wrzucamy wszystko do jeziora danych, aby analitycy mogli je później eksplorować.",
+    "reviewed": true
+  },
+  {
+    "id": "technology_0022",
+    "term": "Hurtownia danych",
+    "acronym": null,
+    "definition": "Proces gromadzenia i zarządzania danymi z różnych źródeł w celu dostarczania istotnych informacji biznesowych, zwykle obejmujący dane ustrukturyzowane.",
+    "example": "Nasze rozwiązanie hurtowni danych organizuje raporty sprzedaży ze wszystkich regionów w jednym, łatwym do przeszukiwania formacie.",
+    "reviewed": true
+  },
+  {
+    "id": "technology_0023",
+    "term": "Analityka biznesowa",
+    "acronym": "BI",
+    "definition": "Strategie i technologie wykorzystywane przez przedsiębiorstwa do analizy danych i informacji biznesowych.",
+    "example": "Dyrektor generalny korzysta z pulpitu analityki biznesowej do monitorowania kluczowych wskaźników efektywności i wzrostu przychodów w czasie rzeczywistym.",
+    "reviewed": true
+  },
+  {
+    "id": "technology_0024",
+    "term": "Cyfrowy bliźniak",
+    "acronym": null,
+    "definition": "Wirtualny model zaprojektowany w celu dokładnego odzwierciedlenia obiektu fizycznego, umożliwiający symulację i testowanie.",
+    "example": "Inżynierowie stworzyli cyfrowego bliźniaka silnika odrzutowego, aby przewidywać potrzeby konserwacyjne bez wyłączania samolotu z eksploatacji.",
+    "reviewed": true
+  },
+  {
+    "id": "technology_0025",
+    "term": "Przetwarzanie brzegowe",
+    "acronym": null,
+    "definition": "Rozproszona architektura obliczeniowa, która przybliża aplikacje korporacyjne do źródeł danych, takich jak urządzenia IoT lub lokalne serwery brzegowe.",
+    "example": "Pojazdy autonomiczne polegają na przetwarzaniu brzegowym, aby natychmiast analizować dane drogowe bez oczekiwania na odpowiedź z serwera w chmurze.",
+    "reviewed": true
+  },
+  {
+    "id": "technology_0026",
+    "term": "Przetwarzanie we mgle",
+    "acronym": null,
+    "definition": "Infrastruktura, która łączy chmurę i urządzenia brzegowe, działając jako most do przetwarzania danych bliżej miejsca ich powstania.",
+    "example": "Przetwarzanie we mgle pomaga zmniejszyć przepustowość potrzebną do przesyłania danych z naszych czujników fabrycznych do centralnej chmury.",
+    "reviewed": true
+  },
+  {
+    "id": "technology_0027",
+    "term": "Internet rzeczy",
+    "acronym": "IoT",
+    "definition": "Sieć fizycznych obiektów wyposażonych w czujniki i oprogramowanie w celu łączenia się i wymiany danych z innymi urządzeniami przez internet.",
+    "example": "Nasze inteligentne biuro wykorzystuje czujniki internetu rzeczy do regulacji oświetlenia i temperatury w zależności od obłożenia.",
+    "reviewed": true
+  },
+  {
+    "id": "technology_0028",
+    "term": "Łączność 5G",
+    "acronym": "5G",
+    "definition": "Standard technologiczny piątej generacji dla szerokopasmowych sieci komórkowych, oferujący większe prędkości i mniejsze opóźnienia.",
+    "example": "Wprowadzenie łączności 5G umożliwi strumieniowanie wideo w wysokiej rozdzielczości na urządzeniach mobilnych bez buforowania.",
+    "reviewed": true
+  },
+  {
+    "id": "technology_0029",
+    "term": "Obliczenia kwantowe",
+    "acronym": null,
+    "definition": "Rodzaj obliczeń, który wykorzystuje zasady mechaniki kwantowej do wykonywania operacji na danych znacznie szybciej niż tradycyjne komputery.",
+    "example": "Firmy farmaceutyczne badają obliczenia kwantowe w celu modelowania złożonych struktur molekularnych na potrzeby nowych leków.",
+    "reviewed": true
+  },
+  {
+    "id": "technology_0030",
+    "term": "Rzeczywistość rozszerzona",
+    "acronym": "AR",
+    "definition": "Interaktywne doświadczenie, w którym środowisko świata rzeczywistego jest wzbogacone o generowane komputerowo informacje percepcyjne.",
+    "example": "Aplikacja sklepu meblowego wykorzystuje rzeczywistość rozszerzoną, aby umożliwić Ci zobaczenie, jak kanapa będzie wyglądać w Twoim salonie.",
+    "reviewed": true
+  },
+  {
+    "id": "technology_0031",
+    "term": "Rzeczywistość wirtualna",
+    "acronym": "VR",
+    "definition": "Symulowane doświadczenie, które może być podobne do świata rzeczywistego lub całkowicie od niego różne, zwykle wymagające użycia gogli.",
+    "example": "Używamy rzeczywistości wirtualnej do szkolenia pracowników z procedur bezpieczeństwa w niebezpiecznych środowiskach bez faktycznego ryzyka.",
+    "reviewed": true
+  },
+  {
+    "id": "technology_0032",
+    "term": "Rzeczywistość mieszana",
+    "acronym": "MR",
+    "definition": "Połączenie świata rzeczywistego i wirtualnego w celu tworzenia nowych środowisk, w których obiekty fizyczne i cyfrowe współistnieją i oddziałują na siebie w czasie rzeczywistym.",
+    "example": "Projektanci używają gogli rzeczywistości mieszanej do manipulowania holograficznymi modelami 3D, jednocześnie widząc swoich współpracowników w pokoju.",
+    "reviewed": true
+  },
+  {
+    "id": "technology_0033",
+    "term": "Oprogramowanie jako usługa",
+    "acronym": "SaaS",
+    "definition": "Model licencjonowania i dostarczania oprogramowania, w którym jest ono udostępniane na zasadzie subskrypcji i hostowane centralnie.",
+    "example": "Zamiast kupować drogie licencje, startup do współpracy wykorzystuje narzędzia w modelu oprogramowania jako usługi, takie jak Slack i Zoom.",
+    "reviewed": true
+  },
+  {
+    "id": "technology_0034",
+    "term": "Platforma jako usługa",
+    "acronym": "PaaS",
+    "definition": "Model chmury obliczeniowej, w którym zewnętrzny dostawca dostarcza użytkownikom przez internet narzędzia sprzętowe i programowe, przeznaczone specjalnie do tworzenia aplikacji.",
+    "example": "Deweloperzy korzystają z rozwiązań typu platformy jako usługi, aby szybko tworzyć aplikacje, nie martwiąc się o utrzymanie systemów operacyjnych.",
+    "reviewed": true
+  },
+  {
+    "id": "technology_0035",
+    "term": "Infrastruktura jako usługa",
+    "acronym": "IaaS",
+    "definition": "Forma chmury obliczeniowej, która dostarcza zwirtualizowane zasoby obliczeniowe przez internet.",
+    "example": "Przeszliśmy na model infrastruktury jako usługi, aby wynajmować serwery i przestrzeń dyskową na żądanie, zamiast budować własne centrum danych.",
+    "reviewed": true
+  },
+  {
+    "id": "technology_0036",
+    "term": "Minimalna wersja produktu",
+    "acronym": "MVP",
+    "definition": "Wersja produktu z wystarczającą liczbą funkcji, aby mogli z niej korzystać pierwsi klienci, którzy następnie mogą przekazać informacje zwrotne na potrzeby dalszego rozwoju.",
+    "example": "Wprowadziliśmy na rynek minimalną wersję produktu, aby przetestować zapotrzebowanie rynkowe przed zainwestowaniem w pełen zestaw funkcji.",
+    "reviewed": true
+  },
+  {
+    "id": "technology_0037",
+    "term": "Dług techniczny",
+    "acronym": null,
+    "definition": "Ukryty koszt dodatkowej pracy, spowodowany wyborem łatwego rozwiązania teraz, zamiast zastosowania lepszego podejścia, które zajęłoby więcej czasu.",
+    "example": "Pośpiech przy wprowadzaniu produktu na rynek wygenerował znaczny dług techniczny, który zespół inżynierów będzie musiał spłacić w następnym kwartale.",
+    "reviewed": true
+  },
+  {
+    "id": "technology_0038",
+    "term": "Skalowalność",
+    "acronym": null,
+    "definition": "Miara zdolności systemu do zwiększania lub zmniejszania wydajności i kosztów w odpowiedzi na zmiany w zapotrzebowaniu na przetwarzanie przez aplikacje i system.",
+    "example": "Startup wybrał dostawcę usług chmurowych znanego z wysokiej skalowalności, aby radzić sobie z nagłymi wzrostami ruchu użytkowników.",
+    "reviewed": true
+  },
+  {
+    "id": "technology_0039",
+    "term": "Wysoka dostępność",
+    "acronym": "HA",
+    "definition": "Cecha systemu, która ma na celu zapewnienie uzgodnionego poziomu wydajności operacyjnej, zazwyczaj czasu działania, przez okres dłuższy niż standardowy.",
+    "example": "Nasz system bankowy wymaga wysokiej dostępności, ponieważ każda przerwa w działaniu uniemożliwia klientom dostęp do ich środków.",
+    "reviewed": true
+  },
+  {
+    "id": "technology_0040",
+    "term": "Odzyskiwanie po awarii",
+    "acronym": "DR",
+    "definition": "Zestaw zasad, narzędzi i procedur umożliwiających odtworzenie lub kontynuację działania kluczowej infrastruktury i systemów technologicznych po katastrofie naturalnej lub spowodowanej przez człowieka.",
+    "example": "Niedawna awaria zasilania przetestowała nasz plan odzyskiwania po awarii i byliśmy z powrotem online w ciągu godziny.",
+    "reviewed": true
+  },
+  {
+    "id": "technology_0041",
+    "term": "Opóźnienie",
+    "acronym": null,
+    "definition": "Opóźnienie przed rozpoczęciem transferu danych po otrzymaniu instrukcji jego transferu.",
+    "example": "Niskie opóźnienie jest kluczowe w handlu wysokiej częstotliwości, gdzie milisekundy mogą oznaczać miliony dolarów.",
+    "reviewed": true
+  },
+  {
+    "id": "technology_0042",
+    "term": "Przepustowość",
+    "acronym": null,
+    "definition": "Ilość danych pomyślnie przeniesionych z jednego miejsca do drugiego w danym okresie.",
+    "example": "Wymiana kabli sieciowych znacznie zwiększyła przepustowość systemu, przyspieszając transfer dużych plików.",
+    "reviewed": true
+  },
+  {
+    "id": "technology_0043",
+    "term": "Gospodarka API",
+    "acronym": null,
+    "definition": "Model biznesowy, w którym firmy udostępniają swoje cyfrowe zasoby lub usługi za pośrednictwem interfejsów programowania aplikacji (API) w celu generowania wartości.",
+    "example": "Stripe i Twilio to doskonałe przykłady gospodarki API, które zbudowały miliardowe biznesy, umożliwiając deweloperom łatwą integrację płatności i komunikacji.",
+    "reviewed": true
+  },
+  {
+    "id": "technology_0044",
+    "term": "Architektura headless",
+    "acronym": null,
+    "definition": "Koncepcja, w której warstwa prezentacji (frontend) strony internetowej jest oddzielona od jej funkcjonalności (backend).",
+    "example": "Architektura headless pozwala nam używać tej samej bazy danych treści do zasilania zarówno naszej strony internetowej, jak i aplikacji mobilnej.",
+    "reviewed": true
+  },
+  {
+    "id": "technology_0045",
+    "term": "Ciemne dane",
+    "acronym": null,
+    "definition": "Zasoby informacyjne, które organizacje gromadzą, przetwarzają i przechowują podczas regularnej działalności biznesowej, ale których zazwyczaj nie wykorzystują do innych celów.",
+    "example": "Używamy sztucznej inteligencji do analizy naszych ciemnych danych, takich jak stare logi serwerowe, w celu znalezienia ukrytych wzorców wydajności.",
+    "reviewed": true
+  },
+  {
+    "id": "technology_0046",
+    "term": "Robotyczna automatyzacja procesów",
+    "acronym": "RPA",
+    "definition": "Technologia, która pozwala na skonfigurowanie oprogramowania komputerowego, czyli „robota”, do naśladowania działań człowieka w interakcji z systemami cyfrowymi w celu wykonania procesu biznesowego.",
+    "example": "Wdrożyliśmy robotyczną automatyzację procesów do obsługi zadań związanych z wprowadzaniem danych, co pozwoliło pracownikom skupić się na obsłudze klienta.",
+    "reviewed": true
+  },
+  {
+    "id": "technology_0047",
+    "term": "Generatywna sztuczna inteligencja",
+    "acronym": null,
+    "definition": "Rodzaj technologii sztucznej inteligencji, która potrafi tworzyć różnego rodzaju treści, w tym tekst, obrazy, dźwięk i dane syntetyczne.",
+    "example": "Zespół marketingowy używa generatywnej sztucznej inteligencji do generowania pomysłów na wpisy blogowe i tworzenia roboczych wersji opisów do mediów społecznościowych.",
+    "reviewed": true
+  },
+  {
+    "id": "technology_0048",
+    "term": "Transformacja cyfrowa",
+    "acronym": null,
+    "definition": "Wdrożenie technologii cyfrowej przez organizację w celu cyfryzacji niecyfrowych produktów, usług lub operacji.",
+    "example": "Nasza strategia transformacji cyfrowej obejmuje przejście z dokumentacji papierowej na w pełni chmurowy system zarządzania.",
+    "reviewed": true
+  },
+  {
+    "id": "technology_0049",
+    "term": "Projektowanie doświadczeń użytkownika",
+    "acronym": "UX",
+    "definition": "Proces projektowania produktów, które zapewniają użytkownikom wartościowe i odpowiednie doświadczenia.",
+    "example": "Dobre projektowanie doświadczeń użytkownika sprawia, że klienci mogą znaleźć na naszej stronie to, czego szukają, bez frustracji.",
+    "reviewed": true
+  },
+  {
+    "id": "technology_0050",
+    "term": "Strategia omnichannel",
+    "acronym": null,
+    "definition": "Międzykanałowa strategia dotycząca treści, która poprawia doświadczenie użytkownika i sprzyja budowaniu lepszych relacji we wszystkich punktach kontaktu.",
+    "example": "Skuteczna strategia omnichannel zapewnia klientowi taką samą cenę i obsługę niezależnie od tego, czy kupuje przez aplikację, stronę internetową, czy w sklepie stacjonarnym.",
+    "reviewed": true
+  },
+  {
+    "id": "technology_0051",
+    "term": "Architektura sterowana zdarzeniami",
+    "acronym": null,
+    "definition": "Wzorzec projektowy oprogramowania, w którym usługi komunikują się poprzez tworzenie i konsumowanie zdarzeń, co pozwala na luźne powiązanie i wysoką skalowalność systemów.",
+    "example": "Używamy architektury sterowanej zdarzeniami, aby po złożeniu nowego zamówienia nasze usługi inwentaryzacji, wysyłki i powiadomień mogły reagować niezależnie i w czasie rzeczywistym.",
+    "reviewed": true
+  },
+  {
+    "id": "technology_0052",
+    "term": "Projektowanie sterowane domeną",
+    "acronym": "DDD",
+    "definition": "Podejście do tworzenia oprogramowania, które koncentruje się na modelowaniu oprogramowania w taki sposób, aby odpowiadało ono konkretnej domenie biznesowej i jej złożonej logice.",
+    "example": "Dzięki zastosowaniu projektowania sterowanego domeną, nasz kod modułu 'zgłoszeń ubezpieczeniowych' teraz dokładnie odzwierciedla skomplikowane zasady i procesy, którymi kierują się nasi agenci.",
+    "reviewed": true
+  },
+  {
+    "id": "technology_0053",
+    "term": "Rozdział odpowiedzialności zapytań i poleceń",
+    "acronym": "CQRS",
+    "definition": "Wzorzec architektoniczny, który oddziela modele używane do odczytu danych (zapytania) od modeli używanych do aktualizacji danych (polecenia).",
+    "example": "Zaimplementowaliśmy rozdział odpowiedzialności zapytań i poleceń (CQRS), aby zoptymalizować naszą aplikację; strona odczytu jest stworzona z myślą o szybkich pulpitach nawigacyjnych, podczas gdy strona zapisu została zaprojektowana pod kątem integralności transakcyjnej.",
+    "reviewed": true
+  },
+  {
+    "id": "technology_0054",
+    "term": "Brama API",
+    "acronym": null,
+    "definition": "Narzędzie zarządzające, które działa jako pojedynczy punkt wejścia dla wszystkich żądań klientów, kierując je do odpowiednich mikroserwisów backendowych.",
+    "example": "Nasza aplikacja mobilna wysyła wszystkie żądania do jednej bramy API, która obsługuje bezpieczeństwo i równoważenie obciążenia dla naszych kilkudziesięciu wewnętrznych usług.",
+    "reviewed": true
+  },
+  {
+    "id": "technology_0055",
+    "term": "Siatka usług",
+    "acronym": null,
+    "definition": "Dedykowana warstwa infrastruktury do zarządzania komunikacją między usługami w architekturze mikroserwisów, obsługująca zadania takie jak zarządzanie ruchem, bezpieczeństwo i obserwowalność.",
+    "example": "Dzięki wdrożeniu siatki usług, nasz zespół DevOps może kontrolować komunikację między mikroserwisami bez zmiany kodu aplikacji.",
+    "reviewed": true
+  },
+  {
+    "id": "technology_0056",
+    "term": "Flagowanie funkcji",
+    "acronym": null,
+    "definition": "Technika pozwalająca programistom na zdalne włączanie lub wyłączanie określonych funkcji aplikacji bez konieczności wdrażania nowego kodu.",
+    "example": "Użyliśmy flagowania funkcji, aby udostępnić nowy wygląd procesu zakupowego tylko 10% użytkowników, co pozwoliło nam przetestować go przed pełnym wdrożeniem.",
+    "reviewed": true
+  },
+  {
+    "id": "technology_0057",
+    "term": "Programowanie sterowane testami",
+    "acronym": "TDD",
+    "definition": "Proces tworzenia oprogramowania, w którym programiści piszą zautomatyzowane testy dla danej funkcji przed napisaniem właściwego kodu, który ją implementuje.",
+    "example": "Nasz zespół praktykuje programowanie sterowane testami, co skutkuje wyższą jakością kodu i mniejszą liczbą błędów w końcowym produkcie.",
+    "reviewed": true
+  },
+  {
+    "id": "technology_0058",
+    "term": "Programowanie sterowane zachowaniem",
+    "acronym": "BDD",
+    "definition": "Rozszerzenie TDD, które skupia się na definiowaniu zachowania aplikacji w prostym, czytelnym dla człowieka języku przed rozpoczęciem prac deweloperskich.",
+    "example": "Dzięki programowaniu sterowanemu zachowaniem nasi menedżerowie produktu i deweloperzy współpracują przy pisaniu kryteriów akceptacji, które stają się podstawą naszych zautomatyzowanych testów.",
+    "reviewed": true
+  },
+  {
+    "id": "technology_0059",
+    "term": "Metodyka zwinna",
+    "acronym": null,
+    "definition": "Podejście do zarządzania projektami, które priorytetowo traktuje iteracyjny rozwój, współpracę i elastyczność w dostosowywaniu się do zmieniających się wymagań.",
+    "example": "Nasz zespół marketingowy przyjął metodykę zwinną do zarządzania kampaniami, co pozwala mu dostosowywać strategię co dwa tygodnie na podstawie danych o wynikach.",
+    "reviewed": true
+  },
+  {
+    "id": "technology_0060",
+    "term": "Refaktoryzacja",
+    "acronym": null,
+    "definition": "Proces restrukturyzacji istniejącego kodu komputerowego w celu poprawy jego wewnętrznej struktury i czytelności bez zmiany jego zewnętrznego zachowania.",
+    "example": "Zespół inżynierów spędził ostatni sprint na refaktoryzacji starego modułu płatności, aby ułatwić jego utrzymanie i dodawanie nowych funkcji w przyszłości.",
+    "reviewed": true
+  },
+  {
+    "id": "technology_0061",
+    "term": "Wstrzykiwanie zależności",
+    "acronym": "DI",
+    "definition": "Wzorzec projektowy, w którym zależności komponentu (inne obiekty, których potrzebuje do działania) są mu dostarczane z zewnętrznego źródła, a nie tworzone przez sam komponent.",
+    "example": "Używamy wstrzykiwania zależności, aby nasz kod był bardziej modularny i łatwiejszy do testowania, ponieważ możemy łatwo dostarczać atrapy usług podczas testów jednostkowych.",
+    "reviewed": true
+  },
+  {
+    "id": "technology_0062",
+    "term": "Odwrócenie sterowania",
+    "acronym": "IoC",
+    "definition": "Ogólna zasada projektowa, w której framework lub kontener kontroluje przepływ programu i wywołuje kod użytkownika, zamiast kod użytkownika kontrolowałby framework.",
+    "example": "Wstrzykiwanie zależności jest formą odwrócenia sterowania, gdzie to framework jest odpowiedzialny za tworzenie i dostarczanie obiektów tam, gdzie są potrzebne.",
+    "reviewed": true
+  },
+  {
+    "id": "technology_0063",
+    "term": "Ład danych",
+    "acronym": null,
+    "definition": "Całkowite zarządzanie dostępnością, użytecznością, integralnością i bezpieczeństwem danych w organizacji.",
+    "example": "Nasze nowe ramy ładu danych zapewniają, że wszystkie dane klientów są przetwarzane w spójny sposób i zgodnie z przepisami RODO we wszystkich działach.",
+    "reviewed": true
+  },
+  {
+    "id": "technology_0064",
+    "term": "Pochodzenie danych",
+    "acronym": null,
+    "definition": "Proces rozumienia, rejestrowania i wizualizacji danych w miarę ich przepływu od źródeł do miejsca ich wykorzystania.",
+    "example": "Audytorzy poprosili o nasz raport dotyczący pochodzenia danych, aby prześledzić, jak końcowe wyniki sprzedaży zostały obliczone na podstawie surowych logów transakcyjnych.",
+    "reviewed": true
+  },
+  {
+    "id": "technology_0065",
+    "term": "Zarządzanie danymi podstawowymi",
+    "acronym": "MDM",
+    "definition": "Dyscyplina, która koncentruje się na tworzeniu jednego, autorytatywnego źródła prawdy dla krytycznych danych biznesowych, takich jak informacje o klientach, produktach i dostawcach.",
+    "example": "Dzięki wdrożeniu zarządzania danymi podstawowymi wyeliminowaliśmy zduplikowane rekordy klientów i teraz mamy jeden, zaufany obraz każdego klienta.",
+    "reviewed": true
+  },
+  {
+    "id": "technology_0066",
+    "term": "Ekstrakcja, Transformacja, Ładowanie",
+    "acronym": "ETL",
+    "definition": "Proces integracji danych, który polega na zbieraniu danych z różnych źródeł, przekształcaniu ich do spójnego formatu, a następnie ładowaniu do bazy danych lub hurtowni danych.",
+    "example": "Każdej nocy nasz proces ETL (Ekstrakcja, Transformacja, Ładowanie) pobiera dane sprzedażowe ze wszystkich regionalnych sklepów, standaryzuje walutę i ładuje je do naszej centralnej platformy analitycznej.",
+    "reviewed": true
+  },
+  {
+    "id": "technology_0067",
+    "term": "Ekstrakcja, Ładowanie, Transformacja",
+    "acronym": "ELT",
+    "definition": "Nowoczesny proces integracji danych, w którym surowe dane są ładowane bezpośrednio do systemu docelowego, np. chmurowej hurtowni danych, i tam transformowane.",
+    "example": "Przeszliśmy z podejścia ETL na ELT (Ekstrakcja, Ładowanie, Transformacja), aby wykorzystać potężne możliwości przetwarzania naszej chmurowej hurtowni danych.",
+    "reviewed": true
+  },
+  {
+    "id": "technology_0068",
+    "term": "Wirtualizacja danych",
+    "acronym": null,
+    "definition": "Technologia, która integruje dane z różnych źródeł w jeden logiczny widok bez fizycznego przenoszenia danych.",
+    "example": "Dzięki wirtualizacji danych nasi analitycy mogą jednocześnie odpytywać dane sprzedażowe i marketingowe, tak jakby znajdowały się w jednej bazie danych, mimo że są przechowywane w oddzielnych systemach.",
+    "reviewed": true
+  },
+  {
+    "id": "technology_0069",
+    "term": "Data Fabric",
+    "acronym": null,
+    "definition": "Architektura zapewniająca zunifikowane, inteligentne i bezpieczne środowisko danych w wielu lokalizacjach, zarówno lokalnych (on-premises), jak i chmurowych.",
+    "example": "Nasza firma buduje data fabric, aby zapewnić zespołom bezproblemowy i kontrolowany dostęp do danych, niezależnie od tego, gdzie się one znajdują w naszej chmurze hybrydowej.",
+    "reviewed": true
+  },
+  {
+    "id": "technology_0070",
+    "term": "Siatka danych",
+    "acronym": null,
+    "definition": "Zdecentralizowane podejście architektoniczne, które traktuje dane jako produkt, zarządzany przez zespoły domenowe, które są właścicielami swoich potoków danych i usług.",
+    "example": "Wdrażamy model siatki danych, aby umożliwić naszemu zespołowi marketingowemu zarządzanie własnymi danymi analitycznymi, co redukuje wąskie gardła i odciąża centralny zespół danych.",
+    "reviewed": true
+  },
+  {
+    "id": "technology_0071",
+    "term": "Grafowa baza danych",
+    "acronym": null,
+    "definition": "Rodzaj bazy danych, która używa węzłów i krawędzi do przechowywania i nawigowania po relacjach między punktami danych, idealna dla złożonych, połączonych danych.",
+    "example": "Nasza platforma społecznościowa używa grafowej bazy danych do efektywnego mapowania połączeń między użytkownikami i rekomendowania nowych znajomych.",
+    "reviewed": true
+  },
+  {
+    "id": "technology_0072",
+    "term": "Wektorowa baza danych",
+    "acronym": null,
+    "definition": "Baza danych zaprojektowana do przechowywania i odpytywania wysokowymiarowych osadzeń wektorowych, powszechnie używana w zastosowaniach AI, takich jak wyszukiwanie podobieństw i systemy rekomendacji.",
+    "example": "Aby zasilić naszą funkcję wyszukiwania obrazów, używamy wektorowej bazy danych do znajdowania zdjęć wizualnie podobnych do tego, które przesłał użytkownik.",
+    "reviewed": true
+  },
+  {
+    "id": "technology_0073",
+    "term": "Testy A/B",
+    "acronym": null,
+    "definition": "Metoda porównywania dwóch wersji strony internetowej, aplikacji lub e-maila marketingowego w celu określenia, która z nich osiąga lepsze wyniki.",
+    "example": "Dzięki testom A/B odkryliśmy, że zielony przycisk 'Kup teraz' przyniósł o 15% wyższy współczynnik konwersji niż niebieski.",
+    "reviewed": true
+  },
+  {
+    "id": "technology_0074",
+    "term": "Inżynieria cech",
+    "acronym": null,
+    "definition": "Proces wykorzystywania wiedzy dziedzinowej do selekcji i transformacji surowych zmiennych danych w cechy, które lepiej reprezentują dany problem dla modeli uczenia maszynowego.",
+    "example": "W naszym modelu ryzyka kredytowego, inżynieria cech przeprowadzona przez zespół data science stworzyła 'wskaźnik zadłużenia do dochodu', który okazał się skutecznym predyktorem niewypłacalności.",
+    "reviewed": true
+  },
+  {
+    "id": "technology_0075",
+    "term": "Wykrywanie anomalii",
+    "acronym": null,
+    "definition": "Proces identyfikacji rzadkich elementów, zdarzeń lub obserwacji, które budzą podejrzenia, ponieważ znacząco różnią się od większości danych.",
+    "example": "Nasz system używa wykrywania anomalii do oznaczania nietypowych transakcji kartą kredytową w czasie rzeczywistym, aby zapobiegać oszustwom.",
+    "reviewed": true
+  },
+  {
+    "id": "technology_0076",
+    "term": "Chmura hybrydowa",
+    "acronym": null,
+    "definition": "Środowisko obliczeniowe, które łączy chmurę prywatną z jedną lub wieloma usługami chmury publicznej, z własnościowym oprogramowaniem umożliwiającym komunikację między nimi.",
+    "example": "Stosujemy strategię chmury hybrydowej, przechowując wrażliwe dane klientów na naszych prywatnych serwerach, jednocześnie wykorzystując chmurę publiczną ze względu na jej skalowalną moc obliczeniową.",
+    "reviewed": true
+  },
+  {
+    "id": "technology_0077",
+    "term": "Strategia wielochmurowa",
+    "acronym": null,
+    "definition": "Praktyka korzystania z usług chmurowych od dwóch lub więcej różnych dostawców chmury publicznej w celu uniknięcia uzależnienia od jednego dostawcy i optymalizacji kosztów lub funkcji.",
+    "example": "Nasza strategia wielochmurowa obejmuje korzystanie z Amazon Web Services do obliczeń i Google Cloud ze względu na zaawansowane możliwości uczenia maszynowego.",
+    "reviewed": true
+  },
+  {
+    "id": "technology_0078",
+    "term": "Aplikacja chmurowa natywna",
+    "acronym": null,
+    "definition": "Program zaprojektowany specjalnie do działania w nowoczesnym, dynamicznym środowisku chmury obliczeniowej, często wykorzystujący kontenery, mikroserwisy i architektury bezserwerowe.",
+    "example": "Przebudowujemy nasze stare oprogramowanie na aplikację chmurową natywną, aby w pełni wykorzystać skalowalność i odporność chmury.",
+    "reviewed": true
+  },
+  {
+    "id": "technology_0079",
+    "term": "Inżynieria chaosu",
+    "acronym": null,
+    "definition": "Praktyka eksperymentowania na systemie w środowisku produkcyjnym w celu zbudowania zaufania do jego zdolności do wytrzymywania niestabilnych warunków.",
+    "example": "Nasz zespół inżynierii chaosu celowo wyłącza losowe serwery w godzinach pracy, aby upewnić się, że nasza strona internetowa pozostaje dostępna dla klientów.",
+    "reviewed": true
+  },
+  {
+    "id": "technology_0080",
+    "term": "Inżynieria niezawodności serwisu",
+    "acronym": "SRE",
+    "definition": "Dyscyplina, która łączy aspekty inżynierii oprogramowania i stosuje je do problemów infrastrukturalnych i operacyjnych w celu tworzenia skalowalnych systemów o wysokiej niezawodności.",
+    "example": "Zespół inżynierii niezawodności serwisu jest odpowiedzialny za automatyzację naszego procesu wdrażania i zapewnienie, że nasza platforma osiąga swoje cele dostępności.",
+    "reviewed": true
+  },
+  {
+    "id": "technology_0081",
+    "term": "Cel poziomu usług",
+    "acronym": "SLO",
+    "definition": "Konkretny, mierzalny cel dotyczący niezawodności lub wydajności usługi, uzgodniony wewnętrznie w firmie.",
+    "example": "Nasz zespół inżynierów ustalił cel poziomu usług (SLO) na poziomie 99,95% dostępności dla usługi logowania w tym kwartale.",
+    "reviewed": true
+  },
+  {
+    "id": "technology_0082",
+    "term": "Wskaźnik poziomu usług",
+    "acronym": "SLI",
+    "definition": "Ilościowa miara pewnego aspektu poziomu świadczonej usługi, taka jak wskaźnik błędów lub opóźnienie systemu.",
+    "example": "Monitorujemy wskaźnik poziomu usług dla latencji żądań API, aby upewnić się, że osiągamy nasze cele wydajnościowe.",
+    "reviewed": true
+  },
+  {
+    "id": "technology_0083",
+    "term": "Umowa o poziomie usług",
+    "acronym": "SLA",
+    "definition": "Formalna umowa między dostawcą usług a klientem, która określa konkretny, oczekiwany poziom świadczenia usług.",
+    "example": "Umowa o poziomie usług naszego dostawcy chmury gwarantuje 99,9% dostępności, a w przypadku niedotrzymania tej obietnicy otrzymujemy bonifikatę.",
+    "reviewed": true
+  },
+  {
+    "id": "technology_0084",
+    "term": "Niezmienna infrastruktura",
+    "acronym": null,
+    "definition": "Podejście do zarządzania infrastrukturą, w którym serwery nigdy nie są modyfikowane po wdrożeniu; zamiast tego są zastępowane nowymi, zaktualizowanymi instancjami.",
+    "example": "Dzięki stosowaniu niezmiennej infrastruktury możemy szybciej wdrażać aktualizacje i unikać błędów konfiguracyjnych, które zdarzają się przy ręcznych zmianach.",
+    "reviewed": true
+  },
+  {
+    "id": "technology_0085",
+    "term": "Wdrożenie kanarkowe",
+    "acronym": null,
+    "definition": "Technika zmniejszająca ryzyko wprowadzenia nowej wersji oprogramowania na produkcję poprzez powolne udostępnianie zmiany małej podgrupie użytkowników.",
+    "example": "Przeprowadziliśmy wdrożenie kanarkowe, udostępniając nową funkcję tylko 5% naszych użytkowników, aby monitorować ewentualne problemy przed wydaniem na pełną skalę.",
+    "reviewed": true
+  },
+  {
+    "id": "technology_0086",
+    "term": "Wdrożenie typu blue-green",
+    "acronym": null,
+    "definition": "Strategia wdrożeniowa, w której utrzymywane są dwa identyczne środowiska produkcyjne, 'Blue' i 'Green', aby umożliwić niemal natychmiastowe wdrożenie o niskim ryzyku.",
+    "example": "Dzięki wdrożeniu typu blue-green możemy natychmiast przełączyć cały ruch użytkowników na nowe środowisko 'Green', a w razie problemów natychmiast wrócić do 'Blue'.",
+    "reviewed": true
+  },
+  {
+    "id": "technology_0087",
+    "term": "Autoskalowanie",
+    "acronym": null,
+    "definition": "Funkcja chmury obliczeniowej, która automatycznie dostosowuje ilość zasobów obliczeniowych w farmie serwerów w zależności od bieżącego obciążenia.",
+    "example": "Autoskalowanie pomaga nam zarządzać kosztami, automatycznie dodając więcej serwerów podczas świątecznego szczytu zakupowego i usuwając je w spokojniejszych okresach.",
+    "reviewed": true
+  },
+  {
+    "id": "technology_0088",
+    "term": "Równoważenie obciążenia",
+    "acronym": null,
+    "definition": "Proces dystrybucji ruchu sieciowego lub obciążeń obliczeniowych na wiele serwerów w celu zapewnienia, że żaden pojedynczy serwer nie zostanie przeciążony.",
+    "example": "System równoważenia obciążenia kieruje żądania użytkowników do najmniej zajętego serwera, dzięki czemu nasza strona internetowa pozostaje szybka i responsywna nawet podczas gwałtownych wzrostów ruchu.",
+    "reviewed": true
+  },
+  {
+    "id": "technology_0089",
+    "term": "Sieć dostarczania treści",
+    "acronym": "CDN",
+    "definition": "Geograficznie rozproszona sieć serwerów proxy, która przechowuje treść w pamięci podręcznej bliżej użytkowników, aby poprawić szybkość ładowania strony internetowej.",
+    "example": "Używamy sieci dostarczania treści do serwowania naszych obrazów i filmów, dzięki czemu korzystanie z serwisu jest dla klientów w Azji tak samo szybkie, jak dla klientów w Europie.",
+    "reviewed": true
+  },
+  {
+    "id": "technology_0090",
+    "term": "Wywiad o zagrożeniach",
+    "acronym": null,
+    "definition": "Oparta na dowodach wiedza o istniejących lub pojawiających się zagrożeniach, która może być wykorzystana do podejmowania decyzji dotyczących bezpieczeństwa organizacji.",
+    "example": "Nasze źródło wywiadu o zagrożeniach ostrzegło nas o nowej kampanii phishingowej, dzięki czemu mogliśmy proaktywnie zablokować złośliwe domeny.",
+    "reviewed": true
+  },
+  {
+    "id": "technology_0091",
+    "term": "Ocena podatności",
+    "acronym": null,
+    "definition": "Proces identyfikacji, kwantyfikacji i priorytetyzacji słabości bezpieczeństwa w systemie komputerowym, sieci lub aplikacji.",
+    "example": "Kwartalna ocena podatności ujawniła krytyczną słabość w naszym serwerze WWW, którą natychmiast naprawiliśmy.",
+    "reviewed": true
+  },
+  {
+    "id": "technology_0092",
+    "term": "Zarządzanie informacjami i zdarzeniami bezpieczeństwa",
+    "acronym": "SIEM",
+    "definition": "Rozwiązanie, które zbiera i analizuje dane dotyczące bezpieczeństwa z różnych źródeł, aby zapewnić analizę alertów bezpieczeństwa w czasie rzeczywistym.",
+    "example": "Nasz system SIEM skorelował wpisy w logach z trzech różnych serwerów, aby wykryć trwający, zaawansowany cyberatak.",
+    "reviewed": true
+  },
+  {
+    "id": "technology_0093",
+    "term": "System wykrywania włamań",
+    "acronym": "IDS",
+    "definition": "Urządzenie lub aplikacja, która monitoruje sieć pod kątem złośliwej aktywności lub naruszeń polityk i zgłasza je do stacji zarządzającej.",
+    "example": "System wykrywania włamań zaalarmował nasz zespół bezpieczeństwa o nieautoryzowanych próbach dostępu do naszej głównej bazy danych.",
+    "reviewed": true
+  },
+  {
+    "id": "technology_0094",
+    "term": "Zapobieganie utracie danych",
+    "acronym": "DLP",
+    "definition": "Strategia i zestaw narzędzi, które zapewniają, że wrażliwe dane nie zostaną utracone, niewłaściwie użyte lub udostępnione nieuprawnionym osobom.",
+    "example": "Wdrożyliśmy politykę zapobiegania utracie danych, która automatycznie blokuje wysyłanie e-maili zawierających numery kart kredytowych klientów poza firmę.",
+    "reviewed": true
+  },
+  {
+    "id": "technology_0095",
+    "term": "Wykrywanie i reagowanie na punktach końcowych",
+    "acronym": "EDR",
+    "definition": "Rozwiązanie cyberbezpieczeństwa, które stale monitoruje i reaguje na zaawansowane zagrożenia na urządzeniach końcowych, takich jak laptopy i serwery.",
+    "example": "Nasze nowe oprogramowanie EDR było w stanie wykryć i odizolować atak ransomware na laptopie pracownika, zanim zdążył się rozprzestrzenić po sieci.",
+    "reviewed": true
+  },
+  {
+    "id": "technology_0096",
+    "term": "Infrastruktura klucza publicznego",
+    "acronym": "PKI",
+    "definition": "Zestaw ról, polityk, sprzętu i oprogramowania potrzebnych do tworzenia, zarządzania, dystrybucji, używania, przechowywania i unieważniania certyfikatów cyfrowych oraz zarządzania szyfrowaniem kluczem publicznym.",
+    "example": "Bezpieczeństwo naszej strony internetowej opiera się na infrastrukturze klucza publicznego, która wydaje certyfikaty SSL umożliwiające szyfrowane połączenia HTTPS.",
+    "reviewed": true
+  },
+  {
+    "id": "technology_0097",
+    "term": "Uwierzytelnianie wieloskładnikowe",
+    "acronym": "MFA",
+    "definition": "Metoda bezpieczeństwa, która wymaga od użytkowników podania dwóch lub więcej czynników weryfikacyjnych w celu uzyskania dostępu do aplikacji lub konta.",
+    "example": "Aby poprawić bezpieczeństwo, wszyscy pracownicy muszą teraz używać uwierzytelniania wieloskładnikowego, które obejmuje ich hasło i kod z aplikacji mobilnej.",
+    "reviewed": true
+  },
+  {
+    "id": "technology_0098",
+    "term": "Jednokrotne logowanie",
+    "acronym": "SSO",
+    "definition": "Schemat uwierzytelniania, który pozwala użytkownikowi zalogować się za pomocą jednego identyfikatora i hasła do kilku powiązanych, lecz niezależnych systemów oprogramowania.",
+    "example": "Dzięki jednokrotnemu logowaniu nasi pracownicy mogą zalogować się raz do swojego komputera i uzyskać dostęp do wszystkich aplikacji służbowych bez ponownego wpisywania hasła.",
+    "reviewed": true
+  },
+  {
+    "id": "technology_0099",
+    "term": "Bezpieczny cykl życia oprogramowania",
+    "acronym": "SSDLC",
+    "definition": "Proces integrowania testów i praktyk bezpieczeństwa na każdym etapie cyklu życia oprogramowania, od projektu po wdrożenie.",
+    "example": "Przyjmując bezpieczny cykl życia oprogramowania, identyfikujemy i naprawiamy luki w zabezpieczeniach na wczesnym etapie, co jest znacznie tańsze niż naprawianie ich po wydaniu.",
+    "reviewed": true
+  },
+  {
+    "id": "technology_0100",
+    "term": "Modelowanie zagrożeń",
+    "acronym": null,
+    "definition": "Ustrukturyzowany proces identyfikacji potencjalnych zagrożeń i podatności w systemie oraz priorytetyzacji metod ich łagodzenia.",
+    "example": "W fazie projektowania przeprowadziliśmy sesję modelowania zagrożeń, aby zidentyfikować wszystkie sposoby, w jakie nasza nowa aplikacja bankowości mobilnej mogłaby zostać zaatakowana.",
+    "reviewed": true
+  },
+  {
+    "id": "technology_0101",
+    "term": "Sieci definiowane programowo",
+    "acronym": "SDN",
+    "definition": "Podejście do zarządzania siecią, które wykorzystuje kontrolery oparte na oprogramowaniu do zarządzania ruchem sieciowym, czyniąc sieć bardziej elastyczną i dynamiczną.",
+    "example": "Wdrażając sieci definiowane programowo, możemy centralnie zarządzać całą naszą infrastrukturą sieciową i reagować na zmieniające się zapotrzebowanie na ruch w czasie rzeczywistym.",
+    "reviewed": true
+  },
+  {
+    "id": "technology_0102",
+    "term": "Wirtualizacja funkcji sieciowych",
+    "acronym": "NFV",
+    "definition": "Praktyka oddzielania funkcji sieciowych, takich jak zapory sieciowe czy systemy równoważenia obciążenia, od dedykowanego sprzętu, aby mogły one działać jako oprogramowanie na standardowych serwerach.",
+    "example": "Dzięki wirtualizacji funkcji sieciowych nasza firma może wdrożyć nową wirtualną zaporę sieciową w ciągu kilku minut, bez zakupu nowego sprzętu.",
+    "reviewed": true
+  },
+  {
+    "id": "technology_0103",
+    "term": "Interfejs programowania aplikacji",
+    "acronym": "API",
+    "definition": "Zestaw reguł i protokołów, który umożliwia różnym aplikacjom komunikowanie się i wymianę danych między sobą.",
+    "example": "Nasza aplikacja mobilna używa interfejsu programowania aplikacji innej firmy do bezpiecznego przetwarzania płatności kartą kredytową.",
+    "reviewed": true
+  },
+  {
+    "id": "technology_0104",
+    "term": "Representational State Transfer",
+    "acronym": "REST",
+    "definition": "Styl architektoniczny do projektowania aplikacji sieciowych, często używany do tworzenia prostych, skalowalnych i niezawodnych usług internetowych.",
+    "example": "Zespół programistów buduje API w architekturze Representational State Transfer (REST), aby umożliwić naszym partnerom programistyczny dostęp do naszego katalogu produktów.",
+    "reviewed": true
+  },
+  {
+    "id": "technology_0105",
+    "term": "GraphQL",
+    "acronym": null,
+    "definition": "Język zapytań dla API, który pozwala klientom żądać dokładnie tych danych, których potrzebują, co sprawia, że aplikacje są szybsze i bardziej wydajne.",
+    "example": "Dzięki przejściu na GraphQL nasza aplikacja mobilna ładuje się teraz znacznie szybciej, ponieważ nie pobiera już nadmiarowych danych z serwera.",
+    "reviewed": true
+  },
+  {
+    "id": "technology_0106",
+    "term": "WebSockets",
+    "acronym": null,
+    "definition": "Protokół komunikacyjny, który zapewnia stały, dwukierunkowy kanał komunikacji między klientem a serwerem przez jedno połączenie.",
+    "example": "Używamy WebSockets do obsługi funkcji czatu w czasie rzeczywistym na naszej platformie wsparcia klienta.",
+    "reviewed": true
+  },
+  {
+    "id": "technology_0107",
+    "term": "Kolejka komunikatów",
+    "acronym": null,
+    "definition": "System, który pozwala aplikacjom na asynchroniczną komunikację poprzez wysyłanie wiadomości, które są przechowywane w kolejce do momentu, aż będą mogły zostać przetworzone.",
+    "example": "Gdy użytkownik składa zamówienie, umieszczamy komunikat w kolejce komunikatów, aby został później przetworzony przez nasz system magazynowy, co zapewnia responsywność strony internetowej.",
+    "reviewed": true
+  },
+  {
+    "id": "technology_0108",
+    "term": "Szyfrowanie homomorficzne",
+    "acronym": null,
+    "definition": "Forma szyfrowania, która pozwala na wykonywanie obliczeń na zaszyfrowanych danych bez ich wcześniejszego odszyfrowywania, co zwiększa bezpieczeństwo danych.",
+    "example": "Nasz startup z branży opieki zdrowotnej bada szyfrowanie homomorficzne, aby analizować dane pacjentów w chmurze przy jednoczesnym zachowaniu pełnej prywatności.",
+    "reviewed": true
+  },
+  {
+    "id": "technology_0109",
+    "term": "Uczenie sfederowane",
+    "acronym": null,
+    "definition": "Podejście w uczeniu maszynowym, które polega na trenowaniu algorytmu na wielu zdecentralizowanych urządzeniach lub serwerach przechowujących lokalne próbki danych, bez wymiany samych danych.",
+    "example": "Dzięki uczeniu sfederowanemu możemy ulepszać nasz model AI, wykorzystując dane z różnych szpitali bez naruszania przepisów o prywatności danych pacjentów.",
+    "reviewed": true
+  },
+  {
+    "id": "technology_0110",
+    "term": "Wyjaśnialna sztuczna inteligencja",
+    "acronym": "XAI",
+    "definition": "Zestaw metod i technik AI, które pozwalają użytkownikom zrozumieć i zaufać wynikom generowanym przez algorytmy uczenia maszynowego.",
+    "example": "Aby zachować zgodność z regulacjami finansowymi, nasz model zatwierdzania kredytów musi wykorzystywać wyjaśnialną sztuczną inteligencję, abyśmy mogli uzasadnić każdą decyzję.",
+    "reviewed": true
+  },
+  {
+    "id": "technology_0111",
+    "term": "Machine Learning Operations",
+    "acronym": "MLOps",
+    "definition": "Zbiór praktyk, których celem jest niezawodne i wydajne wdrażanie oraz utrzymywanie modeli uczenia maszynowego w środowisku produkcyjnym.",
+    "example": "Dzięki wdrożeniu MLOps zautomatyzowaliśmy proces ponownego trenowania i wdrażania naszego silnika rekomendacji, znacznie redukując nakład pracy ręcznej.",
+    "reviewed": true
+  },
+  {
+    "id": "technology_0112",
+    "term": "Platforma low-code",
+    "acronym": null,
+    "definition": "Platforma, która umożliwia szybkie tworzenie aplikacji przy minimalnym ręcznym kodowaniu, wykorzystując interfejsy wizualne i komponenty typu „przeciągnij i upuść”.",
+    "example": "Nasi analitycy biznesowi użyli platformy low-code, aby szybko zbudować wewnętrzną aplikację do śledzenia budżetów działów.",
+    "reviewed": true
+  },
+  {
+    "id": "technology_0113",
+    "term": "Platforma no-code",
+    "acronym": null,
+    "definition": "Platforma, która pozwala zarówno programistom, jak i osobom nietechnicznym tworzyć oprogramowanie za pomocą graficznych interfejsów użytkownika i konfiguracji, zamiast tradycyjnego programowania.",
+    "example": "Zespół marketingowy samodzielnie zbudował nową stronę docelową i formularz do zbierania danych, używając platformy no-code.",
+    "reviewed": true
+  },
+  {
+    "id": "technology_0114",
+    "term": "Architektura kompozytowa",
+    "acronym": null,
+    "definition": "Podejście architektoniczne, w którym systemy są budowane z niezależnych, wymiennych komponentów, co pozwala na większą elastyczność i szybszy rozwój.",
+    "example": "Nasza nowa platforma e-commerce wykorzystuje architekturę kompozytową, dzięki czemu możemy łatwo wymieniać dostawcę płatności lub wyszukiwarkę bez konieczności przebudowy wszystkiego.",
+    "reviewed": true
+  },
+  {
+    "id": "technology_0115",
+    "term": "Obserwowalność",
+    "acronym": null,
+    "definition": "Zdolność do mierzenia bieżącego stanu systemu na podstawie generowanych przez niego danych, takich jak logi, metryki i ślady, co pozwala na lepsze rozwiązywanie problemów.",
+    "example": "Dzięki poprawie obserwowalności naszego systemu zespół inżynierski może teraz szybko diagnozować i naprawiać problemy produkcyjne.",
+    "reviewed": true
+  },
+  {
+    "id": "technology_0116",
+    "term": "Technologia rozproszonych rejestrów",
+    "acronym": "DLT",
+    "definition": "Cyfrowy system do rejestrowania transakcji, w którym transakcje i ich szczegóły są zapisywane jednocześnie w wielu miejscach.",
+    "example": "Używamy technologii rozproszonych rejestrów do stworzenia przejrzystego i odpornego na manipulacje systemu śledzenia łańcucha dostaw.",
+    "reviewed": true
+  },
+  {
+    "id": "technology_0117",
+    "term": "Generowanie danych syntetycznych",
+    "acronym": null,
+    "definition": "Proces tworzenia sztucznych, generowanych algorytmicznie danych, które mogą być używane do testowania systemów lub trenowania modeli uczenia maszynowego.",
+    "example": "Wykorzystaliśmy generowanie danych syntetycznych, aby stworzyć duży zbiór danych do trenowania naszego modelu wykrywania oszustw bez użycia prawdziwych informacji o klientach.",
+    "reviewed": true
+  },
+  {
+    "id": "technology_0118",
+    "term": "Odpowiedzialna sztuczna inteligencja",
+    "acronym": null,
+    "definition": "Podejście do rozwoju, oceny i wdrażania systemów AI w sposób bezpieczny, godny zaufania oraz zgodny z ludzkimi wartościami i zasadami etycznymi.",
+    "example": "Nasza firma ma komitet ds. odpowiedzialnej sztucznej inteligencji, aby zapewnić, że nasze algorytmy są sprawiedliwe, przejrzyste i rozliczalne.",
+    "reviewed": true
+  },
+  {
+    "id": "technology_0119",
+    "term": "Stos technologiczny",
+    "acronym": null,
+    "definition": "Zestaw technologii, oprogramowania i języków programowania używanych do budowy i uruchomienia aplikacji lub projektu.",
+    "example": "Stos technologiczny naszej aplikacji internetowej obejmuje React dla front-endu, Python dla back-endu oraz bazę danych PostgreSQL.",
+    "reviewed": true
+  },
+  {
+    "id": "technology_0120",
+    "term": "Modernizacja systemów starszej generacji",
+    "acronym": null,
+    "definition": "Proces aktualizacji lub zastępowania przestarzałych systemów komputerowych, języków programowania lub oprogramowania nowoczesnymi alternatywami.",
+    "example": "Projekt modernizacji systemów starszej generacji ma na celu przeniesienie naszej 30-letniej aplikacji mainframe do chmury.",
+    "reviewed": true
+  },
+  {
+    "id": "technology_0121",
+    "term": "Uzależnienie od jednego dostawcy",
+    "acronym": null,
+    "definition": "Sytuacja, w której klient jest zależny od jednego dostawcy produktów i usług i nie może łatwo przejść na innego bez poniesienia znacznych kosztów.",
+    "example": "Używając oprogramowania open-source, staramy się unikać uzależnienia od jednego dostawcy i zachować kontrolę nad naszymi wyborami technologicznymi.",
+    "reviewed": true
+  },
+  {
+    "id": "technology_0122",
+    "term": "Całkowity koszt posiadania",
+    "acronym": "TCO",
+    "definition": "Szacunek finansowy pomagający nabywcom określić bezpośrednie i pośrednie koszty produktu lub systemu w całym jego cyklu życia.",
+    "example": "Wybierając nowego dostawcę chmury, musimy przeanalizować całkowity koszt posiadania, a nie tylko miesięczną opłatę abonamentową.",
+    "reviewed": true
+  },
+  {
+    "id": "technology_0123",
+    "term": "Dowód koncepcji",
+    "acronym": "PoC",
+    "definition": "Projekt lub eksperyment na małą skalę w celu sprawdzenia, czy dany pomysł lub technologia są wykonalne i mają potencjał biznesowy.",
+    "example": "Zanim zaangażujemy się w pełny projekt, przygotujemy dowód koncepcji, aby zweryfikować, czy nowa technologia działa zgodnie z oczekiwaniami.",
+    "reviewed": true
+  },
+  {
+    "id": "technology_0124",
+    "term": "Planowanie ciągłości działania",
+    "acronym": "BCP",
+    "definition": "Proces tworzenia systemów prewencji i odzyskiwania w celu radzenia sobie z potencjalnymi zagrożeniami, zapewniający, że kluczowe funkcje mogą być kontynuowane w trakcie i po katastrofie.",
+    "example": "Dzięki skutecznemu planowaniu ciągłości działania uniknęliśmy przestojów podczas ostatniej awarii zasilania.",
+    "reviewed": true
+  },
+  {
+    "id": "technology_0125",
+    "term": "Suwerenność danych",
+    "acronym": null,
+    "definition": "Zasada prawna, zgodnie z którą dane podlegają prawu i regulacjom kraju, w którym są gromadzone lub przetwarzane.",
+    "example": "Ze względu na przepisy dotyczące suwerenności danych musimy przechowywać wszystkie dane niemieckich klientów na serwerach zlokalizowanych w Niemczech.",
+    "reviewed": true
+  },
+  {
+    "id": "technology_0126",
+    "term": "Rezydencja danych",
+    "acronym": null,
+    "definition": "Fizyczna lub geograficzna lokalizacja, w której organizacja decyduje się przechowywać swoje dane.",
+    "example": "Nasza firma ma ścisłą politykę rezydencji danych, która wymaga, aby wszystkie zapisy finansowe były przechowywane w naszym lokalnym centrum danych.",
+    "reviewed": true
+  },
+  {
+    "id": "technology_0127",
+    "term": "Architektura monolityczna",
+    "acronym": null,
+    "definition": "Tradycyjne podejście do projektowania oprogramowania, w którym aplikacja jest zbudowana jako jedna, niepodzielna jednostka.",
+    "example": "Stara strona e-commerce miała architekturę monolityczną, co sprawiało, że była wolna i trudna w aktualizacji poszczególnych funkcji.",
+    "reviewed": true
+  },
+  {
+    "id": "technology_0128",
+    "term": "Architektura zorientowana na usługi",
+    "acronym": "SOA",
+    "definition": "Styl projektowania oprogramowania, w którym komponenty aplikacji świadczą usługi innym komponentom za pośrednictwem sieci, promując ponowne wykorzystanie i interoperacyjność.",
+    "example": "Bank przyjął architekturę zorientowaną na usługi, aby umożliwić swojej aplikacji mobilnej i stronie internetowej współdzielenie tej samej usługi uwierzytelniania klienta.",
+    "reviewed": true
+  },
+  {
+    "id": "technology_0129",
+    "term": "Informatyka śledcza",
+    "acronym": null,
+    "definition": "Praktyka zbierania, przetwarzania i analizowania danych cyfrowych w celu badania cyberprzestępstw lub incydentów bezpieczeństwa.",
+    "example": "Nasz zespół informatyki śledczej bada naruszenie danych, aby ustalić jego źródło i skutki.",
+    "reviewed": true
+  },
+  {
+    "id": "technology_0130",
+    "term": "Migracja typu „lift and shift”",
+    "acronym": null,
+    "definition": "Strategia migracji do chmury, która polega na przeniesieniu aplikacji i powiązanych z nią danych do środowiska chmurowego bez przeprojektowywania aplikacji.",
+    "example": "Jako pierwszy krok przeprowadzimy migrację typu „lift and shift” naszych serwerów do chmury, aby szybko zredukować koszty sprzętowe.",
+    "reviewed": true
+  },
+  {
+    "id": "technology_0131",
+    "term": "Replatforming",
+    "acronym": null,
+    "definition": "Strategia migracji do chmury, która obejmuje wprowadzenie pewnych modernizujących zmian w aplikacji w celu lepszego wykorzystania natywnych funkcji chmury.",
+    "example": "Zamiast prostej migracji „lift and shift”, przeprowadzamy replatforming naszej aplikacji, przenosząc jej bazę danych do zarządzanej usługi chmurowej.",
+    "reviewed": true
+  },
+  {
+    "id": "technology_0132",
+    "term": "FinOps",
+    "acronym": null,
+    "definition": "Praktyka kulturowa i ramy działania, które wprowadzają odpowiedzialność finansową do zmiennego modelu wydatków w chmurze.",
+    "example": "Nasz zespół FinOps współpracuje z programistami w celu optymalizacji wydatków na chmurę i eliminacji marnotrawionych zasobów.",
+    "reviewed": true
+  },
+  {
+    "id": "technology_0133",
+    "term": "GitOps",
+    "acronym": null,
+    "definition": "Metodologia automatyzacji dostarczania infrastruktury i wdrażania aplikacji z wykorzystaniem Gita jako jedynego źródła prawdy.",
+    "example": "Dzięki GitOps każda zmiana w naszym środowisku produkcyjnym jest automatycznie wdrażana po zatwierdzeniu i scaleniu w repozytorium Git.",
+    "reviewed": true
+  },
+  {
+    "id": "technology_0134",
+    "term": "Testy akceptacyjne",
+    "acronym": "UAT",
+    "definition": "Ostatnia faza procesu testowania oprogramowania, w której faktyczni użytkownicy testują oprogramowanie, aby sprawdzić, czy spełnia ono ich potrzeby biznesowe w rzeczywistym scenariuszu.",
+    "example": "Nie możemy uruchomić nowej funkcji, dopóki nie przejdzie ona testów akceptacyjnych w dziale sprzedaży.",
+    "reviewed": true
+  },
+  {
+    "id": "technology_0135",
+    "term": "Event sourcing",
+    "acronym": null,
+    "definition": "Wzorzec architektoniczny, który przechowuje każdą zmianę stanu aplikacji jako sekwencję niezmiennych zdarzeń.",
+    "example": "Używamy event sourcingu w naszym systemie zarządzania zamówieniami, co daje nam pełną i audytowalną historię każdego zamówienia.",
+    "reviewed": true
+  },
+  {
+    "id": "technology_0136",
+    "term": "Twierdzenie CAP",
+    "acronym": "CAP",
+    "definition": "Zasada dotycząca rozproszonych systemów przechowywania danych, która mówi, że niemożliwe jest jednoczesne zapewnienie więcej niż dwóch z trzech gwarancji: spójności (Consistency), dostępności (Availability) i odporności na podział (Partition tolerance).",
+    "example": "Podczas projektowania naszej rozproszonej bazy danych, twierdzenie CAP zmusiło nas do wyboru między zapewnieniem wysokiej dostępności a silną spójnością podczas awarii sieci.",
+    "reviewed": true
+  },
+  {
+    "id": "technology_0137",
+    "term": "Transakcje ACID",
+    "acronym": "ACID",
+    "definition": "Zestaw właściwości (Atomowość, Spójność, Izolacja, Trwałość), które gwarantują, że transakcje bazodanowe są przetwarzane niezawodnie.",
+    "example": "Nasza aplikacja bankowa opiera się na transakcjach ACID, aby zapewnić, że przelewy pieniężne są przetwarzane w całości i dokładnie, albo wcale.",
+    "reviewed": true
+  },
+  {
+    "id": "technology_0138",
+    "term": "Sharding",
+    "acronym": null,
+    "definition": "Proces dzielenia dużej bazy danych na mniejsze, szybsze i łatwiejsze w zarządzaniu części zwane shardami.",
+    "example": "Aby obsłużyć naszą szybko rosnącą bazę użytkowników, wdrożyliśmy sharding, aby rozłożyć obciążenie bazy danych na wiele serwerów.",
+    "reviewed": true
+  },
+  {
+    "id": "technology_0139",
+    "term": "Replikacja",
+    "acronym": null,
+    "definition": "Proces tworzenia i utrzymywania wielu kopii tych samych danych na różnych serwerach w celu poprawy niezawodności i dostępności.",
+    "example": "Replikacja bazy danych zapewnia, że jeśli nasz główny serwer ulegnie awarii, serwer zapasowy może natychmiast przejąć jego rolę bez utraty danych.",
+    "reviewed": true
+  },
+  {
+    "id": "technology_0140",
+    "term": "Strategia buforowania",
+    "acronym": null,
+    "definition": "Plan tymczasowego przechowywania często używanych danych w szybkiej warstwie (pamięci podręcznej) w celu zmniejszenia opóźnień i poprawy wydajności aplikacji.",
+    "example": "Nasza nowa strategia buforowania zdjęć produktów znacznie poprawiła czas ładowania stron w naszym sklepie e-commerce.",
+    "reviewed": true
+  },
+  {
+    "id": "technology_0141",
+    "term": "Broker komunikatów",
+    "acronym": null,
+    "definition": "Oprogramowanie pośredniczące, które tłumaczy komunikaty z formalnego protokołu komunikacyjnego nadawcy na formalny protokół komunikacyjny odbiorcy.",
+    "example": "Używamy brokera komunikatów, takiego jak RabbitMQ, aby umożliwić niezawodną, asynchroniczną komunikację między naszymi różnymi mikrousługami.",
+    "reviewed": true
+  },
+  {
+    "id": "technology_0142",
+    "term": "Ograniczanie szybkości zapytań",
+    "acronym": null,
+    "definition": "Praktyka kontrolowania ilości ruchu przychodzącego do usługi poprzez ograniczenie liczby żądań, które użytkownik może wysłać w danym okresie.",
+    "example": "Nasze publiczne API implementuje ograniczanie szybkości zapytań, aby zapobiec przeciążeniu systemu przez jednego dewelopera wysyłającego zbyt wiele żądań.",
+    "reviewed": true
+  },
+  {
+    "id": "technology_0143",
+    "term": "Wzorzec wyłącznika awaryjnego",
+    "acronym": null,
+    "definition": "Wzorzec projektowy, który zapobiega wielokrotnym próbom wykonania przez aplikację operacji, która prawdopodobnie się nie powiedzie, poprawiając stabilność systemu.",
+    "example": "Zaimplementowaliśmy wzorzec wyłącznika awaryjnego, więc jeśli usługa płatności jest niedostępna, nasza aplikacja przestanie próbować się z nią kontaktować i zamiast tego wyświetli komunikat o błędzie.",
+    "reviewed": true
+  },
+  {
+    "id": "technology_0144",
+    "term": "Idempotentność",
+    "acronym": null,
+    "definition": "Właściwość operacji, dzięki której może być ona wykonywana wielokrotnie bez zmiany wyniku poza pierwszym wykonaniem.",
+    "example": "Nasze API do przetwarzania płatności zostało zaprojektowane z myślą o idempotentności, co gwarantuje, że jeśli użytkownik przypadkowo prześle płatność dwukrotnie, zostanie obciążony tylko raz.",
+    "reviewed": true
+  },
+  {
+    "id": "technology_0145",
+    "term": "Aplikacja stanowa",
+    "acronym": null,
+    "definition": "Aplikacja, która zapisuje dane z sesji klienta, aby użyć ich w kolejnych żądaniach od tego samego klienta.",
+    "example": "Internetowy koszyk na zakupy to klasyczna aplikacja stanowa, ponieważ musi pamiętać produkty dodane przez użytkownika podczas przeglądania wielu stron.",
+    "reviewed": true
+  },
+  {
+    "id": "technology_0146",
+    "term": "Aplikacja bezstanowa",
+    "acronym": null,
+    "definition": "Aplikacja, która nie zapisuje na serwerze żadnych danych sesji klienta, traktując każde żądanie jako niezależną transakcję.",
+    "example": "Dobrze zaprojektowane API REST to aplikacja bezstanowa, ponieważ każde żądanie zawiera wszystkie informacje, których serwer potrzebuje do jego realizacji.",
+    "reviewed": true
+  },
+  {
+    "id": "technology_0147",
+    "term": "Progresywna aplikacja internetowa",
+    "acronym": "PWA",
+    "definition": "Typ aplikacji internetowej, którą można zainstalować na urządzeniu użytkownika i która oferuje funkcje takie jak działanie w trybie offline i powiadomienia push.",
+    "example": "Uruchomiliśmy progresywną aplikację internetową, aby zapewnić naszym użytkownikom doświadczenie podobne do aplikacji natywnej bezpośrednio z przeglądarki.",
+    "reviewed": true
+  },
+  {
+    "id": "technology_0148",
+    "term": "Aplikacja jednostronicowa",
+    "acronym": "SPA",
+    "definition": "Aplikacja internetowa, która ładuje pojedynczą stronę HTML i dynamicznie aktualizuje treść w miarę interakcji użytkownika, zamiast ładować nowe strony.",
+    "example": "Nowoczesne klienty poczty internetowej, takie jak Gmail, to aplikacje jednostronicowe, oferujące szybkie i responsywne doświadczenie użytkownika.",
+    "reviewed": true
+  },
+  {
+    "id": "technology_0149",
+    "term": "Renderowanie po stronie serwera",
+    "acronym": "SSR",
+    "definition": "Proces renderowania stron internetowych na serwerze przed wysłaniem ich do przeglądarki, co może poprawić początkową wydajność ładowania i optymalizację pod kątem wyszukiwarek.",
+    "example": "Nasz publiczny blog używa renderowania po stronie serwera, aby zapewnić, że nasze artykuły ładują się szybko i są łatwo indeksowane przez Google.",
+    "reviewed": true
+  },
+  {
+    "id": "technology_0150",
+    "term": "Zapora sieciowa dla aplikacji internetowych",
+    "acronym": "WAF",
+    "definition": "System bezpieczeństwa, który monitoruje i filtruje ruch HTTP między aplikacją internetową a internetem, aby chronić przed powszechnymi atakami.",
+    "example": "Nasz dział IT zainstalował zaporę sieciową dla aplikacji internetowych, aby chronić nasz portal klienta przed atakami typu SQL injection i cross-site scripting.",
+    "reviewed": true
+  }
+]

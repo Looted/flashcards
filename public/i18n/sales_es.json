@@ -1,902 +1,1610 @@
 [
   {
-    "id": "sls_0001",
-    "term_translation": "Pruebas A/B",
-    "definition_translation": "Comparación de dos versiones de una página web o aplicación para determinar cuál funciona mejor.",
-    "example_translation": "Utilizamos este método para ver si el botón rojo generaba más registros que el verde."
+    "id": "sales_0001",
+    "term": "Lead cualificado por ventas",
+    "acronym": "SQL",
+    "definition": "Un cliente potencial que ha sido investigado y evaluado por el equipo de ventas y se considera listo para la siguiente etapa del proceso de ventas.",
+    "example": "Tras nuestra llamada, el SDR confirmó que el prospecto tenía presupuesto y autoridad, por lo que ha sido convertido en un lead cualificado por ventas (SQL) para que el Ejecutivo de Cuentas continúe el proceso.",
+    "reviewed": true
+  },
+  {
+    "id": "sales_0002",
+    "term": "Lead cualificado por marketing",
+    "acronym": "MQL",
+    "definition": "Un lead que, en base a su actividad web (como descargar contenido o visitar una página de precios), se considera más propenso a convertirse en cliente que otros.",
+    "example": "Generamos más de 200 leads cualificados por marketing (MQLs) con nuestro webinar la semana pasada; ahora el equipo de desarrollo de ventas necesita cualificarlos.",
+    "reviewed": true
+  },
+  {
+    "id": "sales_0003",
+    "term": "Perfil de cliente ideal",
+    "acronym": "ICP",
+    "definition": "Una descripción de la empresa perfecta a la que vender, centrándose en datos firmográficos como el sector, el tamaño de la empresa y los ingresos anuales.",
+    "example": "Nuestro perfil de cliente ideal (ICP) son las empresas tecnológicas de tamaño medio en Norteamérica con 200-1000 empleados, así que deberíamos centrar nuestros esfuerzos de prospección allí.",
+    "reviewed": true
+  },
+  {
+    "id": "sales_0004",
+    "term": "Buyer Persona",
+    "acronym": null,
+    "definition": "Una representación semificticia de tu cliente ideal basada en investigación de mercado y datos reales, centrada en sus objetivos, desafíos y motivaciones.",
+    "example": "Creamos una 'buyer persona' llamada 'Mariana de Marketing' para ayudar a nuestro equipo de ventas a entender mejor los desafíos diarios de nuestro público objetivo.",
+    "reviewed": true
+  },
+  {
+    "id": "sales_0005",
+    "term": "Velocidad del pipeline",
+    "acronym": null,
+    "definition": "La velocidad a la que los leads cualificados avanzan por tu embudo de ventas y generan ingresos.",
+    "example": "Para aumentar nuestra velocidad del pipeline, necesitamos acortar el ciclo de ventas o mejorar nuestra tasa de cierre.",
+    "reviewed": true
+  },
+  {
+    "id": "sales_0006",
+    "term": "Cadencia de ventas",
+    "acronym": null,
+    "definition": "Una secuencia programada de interacciones que un vendedor utiliza para contactar con un prospecto, como correos electrónicos, llamadas telefónicas y puntos de contacto en redes sociales.",
+    "example": "Nuestros SDRs siguen una cadencia de ventas de 10 pasos durante dos semanas para todos los nuevos leads de prospección y así asegurar un seguimiento constante.",
+    "reviewed": true
+  },
+  {
+    "id": "sales_0007",
+    "term": "Ingresos recurrentes anuales",
+    "acronym": "ARR",
+    "definition": "Los ingresos predecibles que una empresa puede esperar recibir de sus clientes durante un período de un año, común en negocios basados en suscripciones.",
+    "example": "Con los nuevos clientes empresariales que firmamos, se proyecta que nuestros ingresos recurrentes anuales (ARR) alcancen los 5 millones de dólares al final del año fiscal.",
+    "reviewed": true
+  },
+  {
+    "id": "sales_0008",
+    "term": "Ingresos recurrentes mensuales",
+    "acronym": "MRR",
+    "definition": "Los ingresos predecibles que una empresa puede esperar recibir de sus clientes de forma mensual.",
+    "example": "Nuestros ingresos recurrentes mensuales (MRR) crecieron un 5% el mes pasado, lo cual es un gran indicador de nuestro crecimiento constante.",
+    "reviewed": true
+  },
+  {
+    "id": "sales_0009",
+    "term": "Coste de adquisición de cliente",
+    "acronym": "CAC",
+    "definition": "El coste total de los esfuerzos de ventas y marketing necesarios para adquirir un único nuevo cliente.",
+    "example": "Necesitamos reducir nuestro coste de adquisición de cliente (CAC); gastar 500 $ para adquirir un cliente que solo paga 50 $ al mes no es sostenible.",
+    "reviewed": true
+  },
+  {
+    "id": "sales_0010",
+    "term": "Valor de vida del cliente",
+    "acronym": "LTV",
+    "definition": "Los ingresos totales que una empresa puede esperar razonablemente de una única cuenta de cliente a lo largo de toda su relación.",
+    "example": "Al centrarnos en la retención, nuestro objetivo es aumentar el valor de vida del cliente para que sea al menos 3 veces nuestro coste de adquisición de cliente.",
+    "reviewed": true
+  },
+  {
+    "id": "sales_0011",
+    "term": "Consecución de la cuota",
+    "acronym": null,
+    "definition": "El porcentaje del objetivo de ventas asignado a un vendedor (cuota) que ha alcanzado con éxito durante un período específico.",
+    "example": "La consecución de la cuota de Juan fue del 115% el último trimestre, lo que le convierte en el vendedor con mejor rendimiento del equipo.",
+    "reviewed": true
+  },
+  {
+    "id": "sales_0012",
+    "term": "Tasa de cierre",
+    "acronym": null,
+    "definition": "El porcentaje de oportunidades de venta que resultan en un acuerdo cerrado y ganado.",
+    "example": "La tasa de cierre de nuestro equipo mejoró del 20% al 25% después de que implementamos la nueva formación en ventas.",
+    "reviewed": true
+  },
+  {
+    "id": "sales_0013",
+    "term": "Tamaño medio de la operación",
+    "acronym": null,
+    "definition": "Los ingresos medios generados por cada acuerdo cerrado y ganado durante un período específico.",
+    "example": "Nos estamos centrando en clientes empresariales para aumentar nuestro tamaño medio de la operación de 10.000 $ a 25.000 $.",
+    "reviewed": true
   },
   {
-    "id": "sls_0002",
-    "term_translation": "Parte visible sin desplazamiento",
-    "definition_translation": "La parte de una página web que es visible para el usuario inmediatamente, sin necesidad de bajar con el cursor.",
-    "example_translation": "Coloca la llamada a la acción más importante en esta zona para asegurar la máxima visibilidad."
+    "id": "sales_0014",
+    "term": "Tasa de cancelación",
+    "acronym": null,
+    "definition": "El porcentaje de clientes o suscriptores que cancelan o no renuevan su suscripción durante un período de tiempo determinado.",
+    "example": "Nuestra alta tasa de cancelación indica un problema con la satisfacción del cliente, por lo que necesitamos investigar la causa.",
+    "reviewed": true
   },
   {
-    "id": "sls_0003",
-    "term_translation": "Marketing de afiliación",
-    "definition_translation": "Estrategia basada en el rendimiento donde una empresa recompensa a los socios por cada cliente atraído por sus esfuerzos.",
-    "example_translation": "Muchos blogueros obtienen ingresos recomendando productos que ellos mismos utilizan."
+    "id": "sales_0015",
+    "term": "Retención neta de ingresos",
+    "acronym": "NRR",
+    "definition": "Una métrica que mide el porcentaje de ingresos recurrentes retenidos de los clientes existentes, incluyendo expansiones, reducciones de plan y cancelaciones.",
+    "example": "Con fuertes ventas adicionales y una baja tasa de cancelación, logramos una retención neta de ingresos (NRR) del 110%, lo que significa que crecimos incluso sin adquirir nuevos clientes.",
+    "reviewed": true
   },
   {
-    "id": "sls_0004",
-    "term_translation": "Algoritmo",
-    "definition_translation": "Conjunto de reglas utilizadas por las plataformas sociales para decidir qué contenido mostrar a los usuarios.",
-    "example_translation": "Este mecanismo de Instagram favorece las publicaciones con altas tasas de interacción."
+    "id": "sales_0016",
+    "term": "Duración del ciclo de ventas",
+    "acronym": null,
+    "definition": "El tiempo medio que se tarda en cerrar un acuerdo, desde el primer punto de contacto con un prospecto hasta la firma final.",
+    "example": "Nuestra duración del ciclo de ventas para acuerdos con grandes empresas es de unos 90 días, lo que es típico en nuestro sector.",
+    "reviewed": true
   },
   {
-    "id": "sls_0005",
-    "term_translation": "Marketing ambiental",
-    "definition_translation": "Colocación de anuncios en objetos inusuales o en lugares sorprendentes donde normalmente no se esperaría ver publicidad.",
-    "example_translation": "La publicidad en el reverso de las entradas de teatro o en los asideros del autobús son ejemplos de esta estrategia."
+    "id": "sales_0017",
+    "term": "Tasa de velocidad de leads",
+    "acronym": "LVR",
+    "definition": "La tasa de crecimiento de los leads cualificados mes a mes, que es un predictor clave de los ingresos futuros.",
+    "example": "Nuestra tasa de velocidad de leads (LVR) está en un 15%, lo que sugiere que probablemente alcanzaremos nuestros objetivos de ingresos el próximo trimestre si mantenemos este impulso.",
+    "reviewed": true
   },
   {
-    "id": "sls_0006",
-    "term_translation": "Efecto anclaje",
-    "definition_translation": "Sesgo cognitivo donde un individuo depende demasiado de la primera información recibida al tomar decisiones.",
-    "example_translation": "Mostrar el precio original tachado junto al precio de oferta utiliza este fenómeno para que el trato parezca mejor."
+    "id": "sales_0018",
+    "term": "Venta Challenger",
+    "acronym": null,
+    "definition": "Una metodología de ventas en la que el vendedor enseña al prospecto, personaliza el mensaje de ventas y toma el control de la conversación.",
+    "example": "En lugar de solo preguntar por sus necesidades, utilicé el modelo de Venta Challenger para mostrarles un riesgo en su sector que no habían considerado.",
+    "reviewed": true
   },
   {
-    "id": "sls_0007",
-    "term_translation": "Modelo de atribución",
-    "definition_translation": "Conjunto de reglas que determina cómo asignar el crédito de las ventas y conversiones a los puntos de contacto.",
-    "example_translation": "Cambiamos a un enfoque multitáctil para entender cómo nuestro blog contribuye a las ventas finales."
+    "id": "sales_0019",
+    "term": "Metodología MEDDIC",
+    "acronym": "MEDDIC",
+    "definition": "Un marco de cualificación de ventas que corresponde a Métricas, Comprador Económico, Criterios de Decisión, Proceso de Decisión, Identificar el Dolor y 'Champion' o promotor.",
+    "example": "Antes de pronosticar este acuerdo, repasemos la lista de verificación de la metodología MEDDIC para ver si tenemos toda la información clave.",
+    "reviewed": true
   },
   {
-    "id": "sls_0008",
-    "term_translation": "Valor medio del pedido",
-    "definition_translation": "La cantidad media gastada por un cliente en cada compra individual.",
-    "example_translation": "Ofrecer envío gratuito en pedidos superiores a cierta cantidad es una táctica común para aumentar esta métrica."
+    "id": "sales_0020",
+    "term": "Marco BANT",
+    "acronym": "BANT",
+    "definition": "Un marco de cualificación de ventas utilizado para determinar si un prospecto es adecuado basándose en su Presupuesto (Budget), Autoridad (Authority), Necesidad (Need) y Plazo (Timeline).",
+    "example": "El lead parece prometedor, pero necesitamos usar el marco BANT para confirmar que tienen el presupuesto y la autoridad para realizar una compra.",
+    "reviewed": true
   },
   {
-    "id": "sls_0009",
-    "term_translation": "B2B (Empresa a Empresa)",
-    "definition_translation": "Modelo de transacciones comerciales realizadas entre dos empresas.",
-    "example_translation": "LinkedIn es el canal principal para este tipo de marketing corporativo."
+    "id": "sales_0021",
+    "term": "Venta SPIN",
+    "acronym": "SPIN",
+    "definition": "Una técnica de ventas que implica hacer preguntas sobre la Situación, Problema, Implicación y Necesidad-Beneficio del prospecto para guiarlo hacia tu solución.",
+    "example": "Durante la llamada de descubrimiento, utilicé la venta SPIN para ayudar al cliente a darse cuenta de las importantes implicaciones financieras de su problema actual.",
+    "reviewed": true
   },
   {
-    "id": "sls_0010",
-    "term_translation": "B2C (Empresa a Consumidor)",
-    "definition_translation": "Proceso de venta de productos y servicios directamente de una empresa al consumidor final.",
-    "example_translation": "Coca-Cola es un ejemplo clásico de una compañía que opera bajo este modelo."
+    "id": "sales_0022",
+    "term": "Venta de soluciones",
+    "acronym": null,
+    "definition": "Una metodología de ventas en la que el vendedor diagnostica las necesidades de un prospecto y luego recomienda los productos o servicios adecuados para resolver esos problemas.",
+    "example": "No solo vendemos software; practicamos la venta de soluciones para ofrecer una respuesta completa a los desafíos del flujo de trabajo de nuestros clientes.",
+    "reviewed": true
   },
   {
-    "id": "sls_0011",
-    "term_translation": "Enlace entrante",
-    "definition_translation": "Hipervínculo en un sitio web externo que apunta hacia tu sitio web.",
-    "example_translation": "Conseguir un vínculo desde un sitio de noticias de renombre mejoró significativamente nuestro posicionamiento SEO."
+    "id": "sales_0023",
+    "term": "Propuesta de valor",
+    "acronym": null,
+    "definition": "Una declaración clara que explica los beneficios que ofrece tu producto, cómo resuelve los problemas de los clientes y qué te distingue de la competencia.",
+    "example": "Nuestra propuesta de valor es que podemos reducir el tiempo de procesamiento de datos de una empresa en un 50%, ahorrándoles tiempo y dinero.",
+    "reviewed": true
   },
   {
-    "id": "sls_0012",
-    "term_translation": "Efecto arrastre",
-    "definition_translation": "Tendencia de las personas a adoptar ciertos comportamientos o estilos simplemente porque otros lo están haciendo.",
-    "example_translation": "Las campañas que usan frases como 'Únete a millones de clientes satisfechos' intentan activar este fenómeno."
+    "id": "sales_0024",
+    "term": "Manejo de objeciones",
+    "acronym": null,
+    "definition": "El proceso de responder a las preocupaciones de un prospecto o a sus razones para no comprar, de una manera que alivie sus inquietudes y haga avanzar la venta.",
+    "example": "El nuevo manual de ventas incluye una sección sobre el manejo de objeciones para las preocupaciones comunes sobre precios e implementación.",
+    "reviewed": true
   },
   {
-    "id": "sls_0013",
-    "term_translation": "Ceguera a los banners",
-    "definition_translation": "Fenómeno en el que los visitantes de un sitio web ignoran consciente o inconscientemente la información que parece publicidad.",
-    "example_translation": "La publicidad nativa se desarrolló como una solución a la creciente resistencia de los usuarios a los anuncios tradicionales."
+    "id": "sales_0025",
+    "term": "Llamada de descubrimiento",
+    "acronym": null,
+    "definition": "Una conversación inicial entre un vendedor y un prospecto con el objetivo de entender las necesidades, desafíos y metas del prospecto.",
+    "example": "Tengo programada una llamada de descubrimiento con el Vicepresidente de Marketing mañana para ver si nuestra solución encaja bien con su equipo.",
+    "reviewed": true
   },
   {
-    "id": "sls_0014",
-    "term_translation": "Segmentación por comportamiento",
-    "definition_translation": "Técnica publicitaria que utiliza datos sobre la navegación anterior del usuario para personalizar el mensaje.",
-    "example_translation": "Esta herramienta me mostró anuncios de botas de montaña justo después de leer un artículo sobre camping."
+    "id": "sales_0026",
+    "term": "Prueba de concepto",
+    "acronym": "PoC",
+    "definition": "Una prueba o programa piloto a pequeña escala diseñado para demostrar la viabilidad y el valor comercial de un producto o servicio a un cliente potencial.",
+    "example": "El cliente quedó impresionado con la demostración y ahora ha aceptado una prueba de concepto de 30 días para probar nuestro software con sus datos.",
+    "reviewed": true
   },
   {
-    "id": "sls_0015",
-    "term_translation": "Estrategia del océano azul",
-    "definition_translation": "Creación de un nuevo espacio de mercado indiscutible que hace que la competencia sea irrelevante.",
-    "example_translation": "El Circo del Sol utilizó este enfoque para reinventar la industria circense."
+    "id": "sales_0027",
+    "term": "Evento apremiante",
+    "acronym": null,
+    "definition": "Un plazo específico o una presión empresarial que obliga a un prospecto a tomar una decisión de compra antes de una fecha determinada.",
+    "example": "Su próximo lanzamiento de producto es un evento apremiante que debería animarles a firmar el contrato este mes.",
+    "reviewed": true
   },
   {
-    "id": "sls_0016",
-    "term_translation": "Tasa de rebote",
-    "definition_translation": "El porcentaje de visitantes que abandonan el sitio web después de ver solo una página.",
-    "example_translation": "Una cifra alta en la página de inicio sugiere que el contenido no es relevante para los visitantes."
+    "id": "sales_0028",
+    "term": "Comprador económico",
+    "acronym": null,
+    "definition": "La persona dentro de la organización de un prospecto que tiene la autoridad final para aprobar una compra y liberar los fondos.",
+    "example": "Aunque mi contacto es el director de proyecto, necesito conseguir una reunión con el director financiero, que es el comprador económico para este acuerdo.",
+    "reviewed": true
   },
   {
-    "id": "sls_0017",
-    "term_translation": "Embajador de marca",
-    "definition_translation": "Persona contratada por una organización para representar una marca de manera positiva.",
-    "example_translation": "La empresa contrató a un atleta famoso para ser la cara de su nueva línea global."
+    "id": "sales_0029",
+    "term": "Desarrollo de 'champions'",
+    "acronym": null,
+    "definition": "El proceso de identificar y construir una relación sólida con un defensor interno (un 'champion') en la empresa de un prospecto que promoverá tu solución internamente.",
+    "example": "El desarrollo de 'champions' eficaz es clave para ganar grandes acuerdos empresariales; necesitamos a alguien dentro que nos impulse.",
+    "reviewed": true
   },
   {
-    "id": "sls_0018",
-    "term_translation": "Arquetipo de marca",
-    "definition_translation": "Personaje o situación universalmente familiar utilizado para definir la personalidad de una marca.",
-    "example_translation": "Nike utiliza la figura del 'Héroe' para inspirar a los clientes a superarse."
+    "id": "sales_0030",
+    "term": "Estrategia 'Land and Expand'",
+    "acronym": null,
+    "definition": "Una estrategia de ventas donde una empresa primero cierra un acuerdo pequeño con un nuevo cliente ('land') y luego hace crecer esa cuenta con el tiempo ('expand').",
+    "example": "Nuestra estrategia 'Land and Expand' está funcionando bien; empezamos con un solo departamento y ahora toda la empresa utiliza nuestro producto.",
+    "reviewed": true
   },
   {
-    "id": "sls_0019",
-    "term_translation": "Notoriedad de marca",
-    "definition_translation": "El grado en que los consumidores están familiarizados con las cualidades distintivas o la imagen de una marca.",
-    "example_translation": "Nuestra nueva campaña de vallas publicitarias está diseñada para aumentar el conocimiento local de nuestra empresa."
+    "id": "sales_0031",
+    "term": "Venta cruzada",
+    "acronym": null,
+    "definition": "La práctica de vender un producto o servicio adicional y diferente a un cliente existente.",
+    "example": "Después de que compraran nuestro CRM, les vendí con éxito nuestra plataforma de automatización de marketing como venta cruzada.",
+    "reviewed": true
   },
   {
-    "id": "sls_0020",
-    "term_translation": "Valor de marca",
-    "definition_translation": "El valor comercial que se deriva de la percepción del consumidor sobre el nombre de la marca, más allá del producto en sí.",
-    "example_translation": "Apple tiene un enorme capital en este aspecto, lo que les permite cobrar precios superiores."
+    "id": "sales_0032",
+    "term": "Upselling",
+    "acronym": null,
+    "definition": "La práctica de animar a los clientes a comprar una versión más cara de un producto, una actualización o un complemento para generar más ingresos.",
+    "example": "El cliente estaba a punto de comprar el plan básico, pero logré hacerle un upselling al plan premium destacando las funcionalidades avanzadas.",
+    "reviewed": true
   },
   {
-    "id": "sls_0021",
-    "term_translation": "Fidelidad a la marca",
-    "definition_translation": "Tendencia de los consumidores a comprar continuamente productos de una misma marca sobre otra.",
-    "example_translation": "Los programas de puntos son una herramienta clave para construir una relación a largo plazo."
+    "id": "sales_0033",
+    "term": "Operaciones de ingresos",
+    "acronym": "RevOps",
+    "definition": "Una función empresarial que alinea las operaciones de ventas, marketing y servicio al cliente para impulsar el crecimiento de los ingresos y mejorar la eficiencia.",
+    "example": "Nuestro equipo de RevOps es responsable de gestionar el CRM, analizar los datos de ventas y optimizar todo el proceso de salida al mercado.",
+    "reviewed": true
   },
   {
-    "id": "sls_0022",
-    "term_translation": "Personalidad de marca",
-    "definition_translation": "Conjunto de características humanas atribuidas a una marca.",
-    "example_translation": "La imagen de Red Bull se define como energética, atrevida y aventurera."
+    "id": "sales_0034",
+    "term": "Habilitación de ventas",
+    "acronym": null,
+    "definition": "El proceso iterativo de proporcionar a un equipo de ventas las herramientas, el contenido, la formación y los recursos que necesitan para vender de manera más eficaz.",
+    "example": "La nueva plataforma de habilitación de ventas da a nuestros representantes acceso fácil a todos los casos de estudio e información de producto más recientes.",
+    "reviewed": true
   },
   {
-    "id": "sls_0023",
-    "term_translation": "Perfil de comprador ideal",
-    "definition_translation": "Representación semi-ficticia de tu cliente ideal basada en investigación de mercado y datos reales.",
-    "example_translation": "Creamos el perfil del 'Gerente Miguel' para enfocar mejor nuestros mensajes B2B."
+    "id": "sales_0035",
+    "term": "Estrategia de salida al mercado",
+    "acronym": "GTM",
+    "definition": "Un plan de acción que describe cómo una empresa llegará a los clientes objetivo y logrará una ventaja competitiva para un nuevo producto o servicio.",
+    "example": "Nuestra estrategia de salida al mercado para el nuevo producto implica una combinación de ventas directas y asociaciones de canal.",
+    "reviewed": true
   },
   {
-    "id": "sls_0024",
-    "term_translation": "Llamada a la acción",
-    "definition_translation": "Indicación en un sitio web (botón o texto) que insta al usuario a realizar una acción específica.",
-    "example_translation": "El botón 'Regístrate gratis' es el elemento principal de este tipo en nuestra página de aterrizaje."
+    "id": "sales_0036",
+    "term": "Planificación de territorios",
+    "acronym": null,
+    "definition": "El proceso de dividir a los clientes potenciales en segmentos o 'territorios' y asignarlos a vendedores específicos.",
+    "example": "En nuestro evento anual de inicio de ventas, revisaremos la nueva planificación de territorios para asegurar que tenemos una cobertura equilibrada en todas las regiones.",
+    "reviewed": true
   },
   {
-    "id": "sls_0025",
-    "term_translation": "Canibalización",
-    "definition_translation": "Reducción en las ventas de un producto como resultado de la introducción de un nuevo producto por el mismo fabricante.",
-    "example_translation": "Lanzar una versión más barata del software provocó una caída en las ventas de nuestra versión premium."
+    "id": "sales_0037",
+    "term": "Representante de desarrollo de ventas",
+    "acronym": "SDR",
+    "definition": "Un rol de ventas internas centrado en generar nuevos leads y cualificarlos antes de pasarlos a un Ejecutivo de Cuentas.",
+    "example": "Nuestro equipo de SDR es responsable de toda la prospección de salida y de concertar las llamadas de descubrimiento iniciales.",
+    "reviewed": true
   },
   {
-    "id": "sls_0026",
-    "term_translation": "Etiqueta canónica",
-    "definition_translation": "Elemento HTML que ayuda a evitar problemas de contenido duplicado especificando la versión 'preferida' de una página.",
-    "example_translation": "Añadimos este código para decir a Google qué URL debe indexar como original."
+    "id": "sales_0038",
+    "term": "Ejecutivo de cuentas",
+    "acronym": "AE",
+    "definition": "Un rol de ventas responsable de gestionar el ciclo de ventas completo para leads cualificados, desde la reunión inicial hasta el cierre del acuerdo.",
+    "example": "Una vez que el SDR cualifica un lead, se le pasa a un AE que realizará la demostración del producto y negociará el contrato.",
+    "reviewed": true
   },
   {
-    "id": "sls_0027",
-    "term_translation": "Parálisis por análisis",
-    "definition_translation": "Pensar demasiado una decisión hasta el punto de que nunca se toma, a menudo debido a demasiadas opciones.",
-    "example_translation": "Reducir el número de planes de suscripción ayudó a eliminar este bloqueo en los nuevos usuarios."
+    "id": "sales_0039",
+    "term": "Precisión del pronóstico de ventas",
+    "acronym": null,
+    "definition": "Una medida de cuán cerca está la predicción de ingresos por ventas futuros de un vendedor o equipo de los ingresos por ventas reales alcanzados.",
+    "example": "Los líderes de ventas son juzgados por la precisión de su pronóstico de ventas, ya que la empresa depende de esas predicciones para la planificación.",
+    "reviewed": true
   },
   {
-    "id": "sls_0028",
-    "term_translation": "Tasa de cancelación",
-    "definition_translation": "El porcentaje de suscriptores que dejan de usar el servicio en un período de tiempo determinado.",
-    "example_translation": "Necesitamos reducir este índice porque adquirir clientes nuevos es más caro que retener a los actuales."
+    "id": "sales_0040",
+    "term": "Estructura de comisiones",
+    "acronym": null,
+    "definition": "El plan que describe cómo se remunera a los vendedores, incluyendo generalmente un salario base más una comisión variable basada en el rendimiento.",
+    "example": "Estamos rediseñando nuestra estructura de comisiones para incluir un acelerador para los representantes que superen su cuota trimestral.",
+    "reviewed": true
   },
   {
-    "id": "sls_0029",
-    "term_translation": "Ciberanzuelo",
-    "definition_translation": "Contenido cuyo objetivo principal es atraer atención y animar a los visitantes a hacer clic, a menudo siendo engañoso.",
-    "example_translation": "El titular era un puro engaño para conseguir clics y no cumplía con lo prometido."
+    "id": "sales_0041",
+    "term": "Declaración de trabajo",
+    "acronym": "SOW",
+    "definition": "Un documento legal que recoge y define todos los servicios específicos, entregables, plazos y costes de un proyecto con un cliente.",
+    "example": "Antes de comenzar la implementación, ambas partes deben firmar la Declaración de Trabajo (SOW) para acordar el alcance del proyecto.",
+    "reviewed": true
   },
   {
-    "id": "sls_0030",
-    "term_translation": "Tasa de clics (CTR)",
-    "definition_translation": "La proporción de usuarios que hacen clic en un enlace específico respecto al número total de usuarios que ven la página o anuncio.",
-    "example_translation": "Un porcentaje bajo en el anuncio sugiere que la imagen o el texto no son lo suficientemente atractivos."
+    "id": "sales_0042",
+    "term": "Acuerdo marco de servicios",
+    "acronym": "MSA",
+    "definition": "Un contrato que establece los términos y condiciones generales que rigen todas las transacciones o acuerdos futuros entre dos partes.",
+    "example": "Una vez que el Acuerdo Marco de Servicios (MSA) esté en vigor, podremos ejecutar nuevos proyectos con este cliente utilizando una Declaración de Trabajo mucho más simple.",
+    "reviewed": true
   },
   {
-    "id": "sls_0031",
-    "term_translation": "Disonancia cognitiva",
-    "definition_translation": "Estado de tensión interna por tener pensamientos o creencias inconsistentes, común después de una compra cara.",
-    "example_translation": "Después de comprar el coche de lujo, el cliente sintió ansiedad y buscó reafirmación en reseñas."
+    "id": "sales_0043",
+    "term": "Solicitud de propuesta",
+    "acronym": "RFP",
+    "definition": "Un documento comercial formal que anuncia un proyecto, lo describe y solicita ofertas de proveedores cualificados para completarlo.",
+    "example": "La agencia gubernamental emitió una Solicitud de Propuesta (RFP) para un nuevo sistema de infraestructura de TI, y nuestro equipo está trabajando en una respuesta detallada.",
+    "reviewed": true
   },
   {
-    "id": "sls_0032",
-    "term_translation": "Análisis de cohortes",
-    "definition_translation": "Herramienta analítica que desglosa los datos en grupos relacionados por una característica común en el tiempo.",
-    "example_translation": "Este estudio reveló que los usuarios que se registraron en Navidad tienen menor retención."
+    "id": "sales_0044",
+    "term": "Venta social",
+    "acronym": null,
+    "definition": "La práctica de utilizar plataformas de redes sociales como LinkedIn para encontrar, conectar, entender y nutrir a los prospectos de ventas.",
+    "example": "A nuestros mejores ejecutivos de cuentas se les da muy bien la venta social; comparten constantemente contenido valioso del sector para generar credibilidad con los compradores potenciales.",
+    "reviewed": true
   },
   {
-    "id": "sls_0033",
-    "term_translation": "Llamada en frío",
-    "definition_translation": "Solicitud de negocios a clientes potenciales que no han tenido contacto previo con el vendedor.",
-    "example_translation": "Es una táctica difícil y a menudo rechazada, pero sigue siendo básica en ventas B2B."
+    "id": "sales_0045",
+    "term": "Venta por canal",
+    "acronym": null,
+    "definition": "Una estrategia de ventas en la que una empresa vende sus productos o servicios a través de socios externos, como revendedores, distribuidores o afiliados.",
+    "example": "En lugar de contratar un gran equipo de ventas directas, estamos utilizando un modelo de venta por canal para llegar a un mercado internacional más amplio.",
+    "reviewed": true
   },
   {
-    "id": "sls_0034",
-    "term_translation": "Ventaja competitiva",
-    "definition_translation": "Una condición o circunstancia que coloca a una empresa en una posición comercial superior.",
-    "example_translation": "Nuestra tecnología patentada nos da una posición que los rivales no pueden copiar fácilmente."
+    "id": "sales_0046",
+    "term": "Nutrición de leads",
+    "acronym": null,
+    "definition": "El proceso de construir relaciones con clientes potenciales en cada etapa del embudo de ventas, incluso si aún no están listos para comprar.",
+    "example": "Para la nutrición de leads, utilizamos una campaña de correo electrónico automatizada que envía contenido útil a los prospectos hasta que están listos para una conversación de ventas.",
+    "reviewed": true
   },
   {
-    "id": "sls_0035",
-    "term_translation": "Sesgo de confirmación",
-    "definition_translation": "Tendencia a buscar, interpretar y recordar información que confirma las propias creencias previas.",
-    "example_translation": "El marketing efectivo a menudo apela a este sesgo para hacer que el cliente se sienta comprendido."
+    "id": "sales_0047",
+    "term": "Manual de ventas",
+    "acronym": null,
+    "definition": "Un documento que describe el proceso de ventas de una empresa, las mejores prácticas, los guiones y otros recursos clave para ayudar a los vendedores a tener éxito.",
+    "example": "Toda nueva incorporación al equipo de ventas tiene que estudiar el manual de ventas durante su primera semana.",
+    "reviewed": true
   },
   {
-    "id": "sls_0036",
-    "term_translation": "Sistema de gestión de contenidos",
-    "definition_translation": "Software que ayuda a crear y gestionar contenido en un sitio web sin necesidad de conocimientos técnicos especializados.",
-    "example_translation": "WordPress es la herramienta más popular de este tipo utilizada por equipos de marketing."
+    "id": "sales_0048",
+    "term": "Venta basada en actividades",
+    "acronym": null,
+    "definition": "Un enfoque de gestión de ventas que se centra en seguir y gestionar las acciones de los vendedores que se espera que conduzcan a resultados de ventas.",
+    "example": "Nuestro gerente utiliza la venta basada en actividades y quiere que cada SDR haga al menos 50 llamadas al día.",
+    "reviewed": true
   },
   {
-    "id": "sls_0037",
-    "term_translation": "Marketing de contenidos",
-    "definition_translation": "Enfoque estratégico centrado en crear y distribuir contenido valioso y relevante.",
-    "example_translation": "Nuestro blog es la pieza central de nuestra estrategia en este campo."
+    "id": "sales_0049",
+    "term": "Parte alta del embudo",
+    "acronym": "ToFu",
+    "definition": "La primera etapa del proceso de compra, donde los clientes potenciales están identificando un problema y buscando información.",
+    "example": "Nuestros artículos de blog y libros electrónicos están diseñados para una audiencia en la parte alta del embudo para generar conciencia y atraer nuevos leads.",
+    "reviewed": true
   },
   {
-    "id": "sls_0038",
-    "term_translation": "Optimización de la tasa de conversión",
-    "definition_translation": "Proceso sistemático de aumentar el porcentaje de visitantes del sitio web que realizan una acción deseada.",
-    "example_translation": "Mejoramos nuestros resultados simplificando el formulario de pago."
+    "id": "sales_0050",
+    "term": "Desplazamiento competitivo",
+    "acronym": null,
+    "definition": "Una estrategia de ventas enfocada en persuadir a un prospecto para que cambie del producto o servicio de un competidor al tuyo.",
+    "example": "Nuestra campaña de desplazamiento competitivo resalta nuestras características superiores para arrebatarle clientes al líder del mercado.",
+    "reviewed": true
   },
   {
-    "id": "sls_0039",
-    "term_translation": "Redacción publicitaria",
-    "definition_translation": "El acto de escribir texto con el propósito de publicidad u otras formas de marketing.",
-    "example_translation": "Un buen texto persuasivo se centra en los beneficios más que en las características."
+    "id": "sales_0051",
+    "term": "Lead cualificado para la venta",
+    "acronym": "SQL",
+    "definition": "Un cliente potencial que el equipo de ventas ha evaluado y confirmado que está listo para una conversación de venta directa.",
+    "example": "Tras nuestra llamada de descubrimiento, voy a marcar este prospecto como un lead cualificado para la venta (SQL) y a asignárselo a un ejecutivo de cuentas para que lo cierre.",
+    "reviewed": true
   },
   {
-    "id": "sls_0040",
-    "term_translation": "Responsabilidad Social Corporativa",
-    "definition_translation": "Modelo de negocio autorregulado que ayuda a una empresa a ser socialmente responsable ante sí misma y el público.",
-    "example_translation": "Nuestro programa de apoyo a escuelas locales es parte de nuestra estrategia ética."
+    "id": "sales_0052",
+    "term": "Lead cualificado por marketing",
+    "acronym": "MQL",
+    "definition": "Un cliente potencial que ha mostrado interés a través de las acciones de marketing, pero que aún no está listo para una llamada de ventas.",
+    "example": "Generamos más de 200 leads cualificados por marketing (MQL) con el seminario web, y ahora el equipo de SDR trabajará para cualificarlos más a fondo.",
+    "reviewed": true
   },
   {
-    "id": "sls_0041",
-    "term_translation": "Coste por adquisición",
-    "definition_translation": "El coste total para obtener un cliente que paga a nivel de campaña o canal.",
-    "example_translation": "Detuvimos la campaña porque pagábamos más por conseguir el cliente que el precio del producto."
+    "id": "sales_0053",
+    "term": "Perfil de cliente ideal",
+    "acronym": "ICP",
+    "definition": "Una descripción detallada de una empresa ficticia que obtendría el máximo valor de tu producto o servicio.",
+    "example": "Nuestras campañas de marketing se dirigen a empresas que encajan en nuestro perfil de cliente ideal, que son empresas tecnológicas de tamaño mediano.",
+    "reviewed": true
   },
   {
-    "id": "sls_0042",
-    "term_translation": "Coste por cliente potencial",
-    "definition_translation": "La cantidad que le cuesta a tu organización de marketing adquirir un contacto interesado.",
-    "example_translation": "Los anuncios en LinkedIn son más caros, pero la calidad de los contactos es generalmente mejor."
+    "id": "sales_0054",
+    "term": "Ingresos recurrentes anuales",
+    "acronym": "ARR",
+    "definition": "Los ingresos predecibles que una empresa puede esperar recibir de sus suscriptores de forma anual.",
+    "example": "Nuestro objetivo principal para el próximo año fiscal es aumentar nuestros ingresos recurrentes anuales (ARR) a más de 5 millones de dólares.",
+    "reviewed": true
   },
   {
-    "id": "sls_0043",
-    "term_translation": "Coste por mil",
-    "definition_translation": "Modelo de precios en publicidad basado en el coste por cada mil impresiones.",
-    "example_translation": "Las campañas de notoriedad de marca a menudo usan este modelo para maximizar el alcance."
+    "id": "sales_0055",
+    "term": "Ingresos recurrentes mensuales",
+    "acronym": "MRR",
+    "definition": "Los ingresos predecibles que una empresa puede esperar recibir de sus suscriptores cada mes.",
+    "example": "Aunque perdimos algunas cuentas pequeñas, nuestros ingresos recurrentes mensuales (MRR) crecieron un 5 % el mes pasado gracias a nuevos acuerdos.",
+    "reviewed": true
   },
   {
-    "id": "sls_0044",
-    "term_translation": "Venta cruzada",
-    "definition_translation": "Práctica de vender un producto o servicio adicional a un cliente existente.",
-    "example_translation": "Sugerir una funda al comprar un teléfono inteligente es un ejemplo clásico."
+    "id": "sales_0056",
+    "term": "Coste de adquisición de clientes",
+    "acronym": "CAC",
+    "definition": "El coste total en el que incurre una empresa, incluyendo los gastos de marketing y ventas, para conseguir un nuevo cliente.",
+    "example": "Necesitamos reducir nuestro coste de adquisición de clientes (CAC) optimizando la inversión en publicidad.",
+    "reviewed": true
   },
   {
-    "id": "sls_0045",
-    "term_translation": "Coste de adquisición de cliente",
-    "definition_translation": "El coste de ganar un cliente para que compre un producto o servicio.",
-    "example_translation": "Las startups deben vigilar que este coste sea menor que el valor de vida del cliente."
+    "id": "sales_0057",
+    "term": "Valor del ciclo de vida del cliente",
+    "acronym": "CLV",
+    "definition": "Los ingresos totales que una empresa puede esperar razonablemente de una única cuenta de cliente a lo largo de toda su relación.",
+    "example": "Un alto valor del ciclo de vida del cliente (CLV) justifica gastar más en servicio al cliente para asegurar que los clientes permanezcan contentos y suscritos.",
+    "reviewed": true
   },
   {
-    "id": "sls_0046",
-    "term_translation": "Centrado en el cliente",
-    "definition_translation": "Enfoque empresarial que se centra en proporcionar una experiencia positiva al cliente antes y después de la venta.",
-    "example_translation": "El éxito de Amazon se atribuye en gran medida a su obsesión por la satisfacción del comprador."
+    "id": "sales_0058",
+    "term": "Retención de ingresos netos",
+    "acronym": "NRR",
+    "definition": "Una métrica que mide los ingresos de los clientes existentes, teniendo en cuenta las ampliaciones, reducciones y cancelaciones de contratos.",
+    "example": "Con una retención de ingresos netos (NRR) del 115 %, estamos aumentando con éxito los ingresos de nuestra base de clientes actual a través de ventas adicionales.",
+    "reviewed": true
   },
   {
-    "id": "sls_0047",
-    "term_translation": "Mapa de experiencia del cliente",
-    "definition_translation": "Representación visual de cada interacción que tus clientes tienen contigo.",
-    "example_translation": "Este gráfico nos ayudó a identificar un punto de fricción durante el proceso de compra."
+    "id": "sales_0059",
+    "term": "Tasa de velocidad de leads",
+    "acronym": "LVR",
+    "definition": "La tasa de crecimiento de los leads cualificados que genera tu empresa, medida mes a mes.",
+    "example": "Nuestra tasa de velocidad de leads está aumentando, lo que es un fuerte indicador del crecimiento futuro de las ventas.",
+    "reviewed": true
   },
   {
-    "id": "sls_0048",
-    "term_translation": "Valor de vida del cliente",
-    "definition_translation": "El beneficio total que una empresa espera de un cliente durante toda su relación.",
-    "example_translation": "Aumentar la retención es la forma más efectiva de incrementar esta métrica financiera."
+    "id": "sales_0060",
+    "term": "Prueba de concepto",
+    "acronym": "PoC",
+    "definition": "Un proyecto o prueba a pequeña escala para demostrar que un producto es factible y tiene potencial práctico para un cliente.",
+    "example": "El cliente aceptó una prueba de concepto (PoC) de pago para probar nuestro software antes de firmar un contrato completo.",
+    "reviewed": true
   },
   {
-    "id": "sls_0049",
-    "term_translation": "Segmentación de clientes",
-    "definition_translation": "Proceso de dividir a los clientes en grupos basados en características comunes.",
-    "example_translation": "Esto nos permite enviar correos electrónicos personalizados a diferentes grupos demográficos."
+    "id": "sales_0061",
+    "term": "Operaciones de ingresos",
+    "acronym": "RevOps",
+    "definition": "La función empresarial que alinea las operaciones de ventas, marketing y servicio para impulsar un crecimiento predecible de los ingresos.",
+    "example": "Nuestro equipo de operaciones de ingresos es responsable de gestionar el CRM y garantizar la precisión de nuestros datos de ventas.",
+    "reviewed": true
   },
   {
-    "id": "sls_0050",
-    "term_translation": "Patrón oscuro",
-    "definition_translation": "Interfaz de usuario diseñada cuidadosamente para engañar a los usuarios para que hagan cosas que no pretendían.",
-    "example_translation": "Hacer que el enlace de 'darse de baja' sea casi invisible es una práctica poco ética."
+    "id": "sales_0062",
+    "term": "Representante de desarrollo de ventas",
+    "acronym": "SDR",
+    "definition": "Un rol de ventas internas enfocado en generar y calificar nuevos leads para el embudo de ventas.",
+    "example": "Un representante de desarrollo de ventas realiza el contacto inicial con un lead antes de pasárselo a un ejecutivo de cuentas para una demostración.",
+    "reviewed": true
   },
   {
-    "id": "sls_0051",
-    "term_translation": "Tráfico social oscuro",
-    "definition_translation": "Intercambio social que ocurre a través de canales privados (email, WhatsApp) y es difícil de rastrear.",
-    "example_translation": "Gran parte de nuestro 'tráfico directo' es en realidad gente compartiendo enlaces por mensajería privada."
+    "id": "sales_0063",
+    "term": "Ejecutivo de cuentas",
+    "acronym": "AE",
+    "definition": "Un rol de ventas responsable de gestionar y cerrar acuerdos comerciales con leads cualificados.",
+    "example": "Una vez que el lead está cualificado, el ejecutivo de cuentas se encarga de hacer una demostración y negociar el contrato.",
+    "reviewed": true
   },
   {
-    "id": "sls_0052",
-    "term_translation": "Efecto señuelo",
-    "definition_translation": "Fenómeno donde los consumidores cambian su preferencia entre dos opciones cuando se presenta una tercera opción asimétrica.",
-    "example_translation": "El tamaño mediano de palomitas suele tener un precio absurdo para que el grande parezca una ganga."
+    "id": "sales_0064",
+    "term": "Definición del Alcance del Trabajo",
+    "acronym": "SOW",
+    "definition": "Un documento legal que detalla las tareas específicas, los entregables, los plazos y los costes de un proyecto.",
+    "example": "Por favor, revise la definición del alcance del trabajo adjunta e infórmenos si tiene alguna pregunta antes de firmar.",
+    "reviewed": true
   },
   {
-    "id": "sls_0053",
-    "term_translation": "Correo directo",
-    "definition_translation": "Esfuerzo de marketing que utiliza el servicio postal para entregar material promocional.",
-    "example_translation": "Los agentes inmobiliarios todavía usan el buzoneo eficazmente en mercados locales."
+    "id": "sales_0065",
+    "term": "Contrato marco de servicios",
+    "acronym": "MSA",
+    "definition": "Un contrato fundamental entre dos partes que establece los términos generales para todas las transacciones futuras.",
+    "example": "Como ya tenemos un contrato marco de servicios en vigor, para este nuevo proyecto solo necesitamos una simple definición del alcance del trabajo.",
+    "reviewed": true
   },
   {
-    "id": "sls_0054",
-    "term_translation": "Autoridad de dominio",
-    "definition_translation": "Puntuación que predice la probabilidad de que un sitio web se posicione en los resultados de búsqueda.",
-    "example_translation": "Estamos intentando aumentar este indicador consiguiendo enlaces de universidades."
+    "id": "sales_0066",
+    "term": "Solicitud de propuesta",
+    "acronym": "RFP",
+    "definition": "Un documento formal que una empresa emite para solicitar ofertas de posibles proveedores para un proyecto específico.",
+    "example": "Nuestro equipo está trabajando en la respuesta a la solicitud de propuesta del cliente para presentarla antes de la fecha límite.",
+    "reviewed": true
   },
   {
-    "id": "sls_0055",
-    "term_translation": "Campaña de goteo",
-    "definition_translation": "Serie de correos electrónicos automatizados enviados a personas que realizan una acción específica.",
-    "example_translation": "Los nuevos suscriptores reciben una secuencia de bienvenida durante dos semanas."
+    "id": "sales_0067",
+    "term": "Parte superior del embudo",
+    "acronym": "TOFU",
+    "definition": "La etapa inicial del proceso de compra, donde los clientes potenciales apenas comienzan a identificar un problema.",
+    "example": "Nuestro contenido para blogs y redes sociales está diseñado para la parte superior del embudo, con el fin de generar notoriedad de marca.",
+    "reviewed": true
   },
   {
-    "id": "sls_0056",
-    "term_translation": "Medios ganados",
-    "definition_translation": "Publicidad obtenida a través de esfuerzos promocionales distintos a la publicidad pagada (ej. reseñas, menciones).",
-    "example_translation": "Una reseña positiva en un periódico importante es una forma valiosa de promoción gratuita."
+    "id": "sales_0068",
+    "term": "Lead Cualificado para Ventas",
+    "acronym": "SQL",
+    "definition": "Un cliente potencial que ha sido investigado y evaluado por el equipo de ventas y se considera listo para la siguiente etapa del proceso de ventas.",
+    "example": "Tras una llamada de descubrimiento exitosa, hemos convertido oficialmente este MQL en un lead cualificado para ventas y lo hemos añadido a nuestro pipeline.",
+    "reviewed": true
   },
   {
-    "id": "sls_0057",
-    "term_translation": "Calendario editorial",
-    "definition_translation": "Flujo de trabajo visual que ayuda a programar la creación de contenido.",
-    "example_translation": "Usamos Trello para planificar las publicaciones del blog para el próximo trimestre."
+    "id": "sales_0069",
+    "term": "Lead Cualificado por Marketing",
+    "acronym": "MQL",
+    "definition": "Un lead que ha mostrado interés en la oferta de una empresa a través de las acciones de marketing y tiene más probabilidades de convertirse en cliente que otros leads.",
+    "example": "Alguien que descarga nuestro 'whitepaper' es considerado un lead cualificado por marketing y se pasa al equipo de SDR para su seguimiento.",
+    "reviewed": true
   },
   {
-    "id": "sls_0058",
-    "term_translation": "Tasa de interacción",
-    "definition_translation": "Métrica que mide el nivel de participación que recibe un contenido (likes, comentarios).",
-    "example_translation": "Los micro-influencers suelen tener un porcentaje de participación más alto que las celebridades."
+    "id": "sales_0070",
+    "term": "Perfil de Cliente Ideal",
+    "acronym": "ICP",
+    "definition": "Una descripción detallada de una empresa ficticia que obtiene el máximo valor de tu producto o servicio y representa a tu mejor cliente posible.",
+    "example": "Estamos centrando nuestros esfuerzos de prospección en empresas que encajan con nuestro perfil de cliente ideal, específicamente negocios SaaS con 50-200 empleados.",
+    "reviewed": true
   },
   {
-    "id": "sls_0059",
-    "term_translation": "Contenido atemporal",
-    "definition_translation": "Contenido que es siempre relevante y se mantiene fresco para los lectores durante mucho tiempo.",
-    "example_translation": "Una guía sobre 'Cómo atarse la corbata' es un ejemplo perfecto de este tipo de material."
+    "id": "sales_0071",
+    "term": "Ingresos Anuales Recurrentes",
+    "acronym": "ARR",
+    "definition": "Los ingresos predecibles y recurrentes que una empresa espera obtener de suscripciones o contratos durante un período de un año.",
+    "example": "El objetivo de nuestra empresa es alcanzar los 10 millones de dólares en ingresos anuales recurrentes para el final del año fiscal.",
+    "reviewed": true
   },
   {
-    "id": "sls_0060",
-    "term_translation": "Marketing experiencial",
-    "definition_translation": "Estrategia que involucra a los consumidores utilizando experiencias de marca en vivo.",
-    "example_translation": "La tienda temporal ofreció una experiencia de realidad virtual para conectar con los usuarios."
+    "id": "sales_0072",
+    "term": "Ingresos Mensuales Recurrentes",
+    "acronym": "MRR",
+    "definition": "Los ingresos predecibles y recurrentes que una empresa espera recibir mensualmente de las suscripciones.",
+    "example": "Con los 10 nuevos clientes que firmamos, nuestros ingresos mensuales recurrentes aumentaron en 5000 dólares este mes.",
+    "reviewed": true
   },
   {
-    "id": "sls_0061",
-    "term_translation": "Grupo de enfoque",
-    "definition_translation": "Grupo diverso de personas reunidas para participar en una discusión guiada sobre un producto.",
-    "example_translation": "Los comentarios de este grupo nos llevaron a cambiar el envase del producto."
+    "id": "sales_0073",
+    "term": "Coste de Adquisición de Cliente",
+    "acronym": "CAC",
+    "definition": "El coste total de los esfuerzos de ventas y marketing necesarios para adquirir un nuevo cliente.",
+    "example": "Necesitamos reducir nuestro coste de adquisición de cliente; actualmente gastamos 500 dólares para adquirir cada nuevo cliente, lo cual es demasiado alto.",
+    "reviewed": true
   },
   {
-    "id": "sls_0062",
-    "term_translation": "Miedo a perderse algo",
-    "definition_translation": "Ansiedad de que un evento emocionante pueda estar ocurriendo en otra parte, usada para impulsar ventas.",
-    "example_translation": "Las ofertas por tiempo limitado aprovechan este sentimiento para forzar una compra rápida."
+    "id": "sales_0074",
+    "term": "Valor del Ciclo de Vida del Cliente",
+    "acronym": "CLV",
+    "definition": "Una proyección de los ingresos totales que una empresa puede esperar obtener de un solo cliente a lo largo de toda su relación comercial.",
+    "example": "Nuestros clientes más leales tienen un alto valor del ciclo de vida del cliente, lo que justifica nuestra inversión en el equipo de éxito del cliente.",
+    "reviewed": true
   },
   {
-    "id": "sls_0063",
-    "term_translation": "Franquicia",
-    "definition_translation": "Licencia que permite tener acceso al conocimiento, procesos y marcas registradas de un negocio.",
-    "example_translation": "McDonald's es el ejemplo más famoso de este modelo de negocio."
+    "id": "sales_0075",
+    "term": "Retención Neta de Ingresos",
+    "acronym": "NRR",
+    "definition": "Un porcentaje que mide cuántos ingresos recurrentes de los clientes existentes se retienen durante un período específico, incluyendo ampliaciones, reducciones y cancelaciones ('churn').",
+    "example": "Una retención neta de ingresos del 110 % significa que estamos logrando vender más a nuestros clientes actuales y aumentando los ingresos incluso sin nuevos negocios.",
+    "reviewed": true
   },
   {
-    "id": "sls_0064",
-    "term_translation": "Modelo Freemium",
-    "definition_translation": "Estrategia donde se ofrece un servicio básico gratis, pero se cobra por funciones avanzadas.",
-    "example_translation": "Spotify usa este modelo para convertir oyentes gratuitos en suscriptores de pago."
+    "id": "sales_0076",
+    "term": "Tasa de Velocidad de Leads",
+    "acronym": "LVR",
+    "definition": "Una métrica que mide el crecimiento mes a mes de los leads cualificados, indicando la salud del pipeline de ventas.",
+    "example": "Nuestra tasa de velocidad de leads ha subido un 15 % este trimestre, lo que es un fuerte predictor del crecimiento futuro de los ingresos.",
+    "reviewed": true
   },
   {
-    "id": "sls_0065",
-    "term_translation": "Frecuencia",
-    "definition_translation": "El número promedio de veces que una persona ve tu anuncio.",
-    "example_translation": "Limitamos la exposición a 3 veces por semana para no saturar a la audiencia."
+    "id": "sales_0077",
+    "term": "Prueba de Concepto",
+    "acronym": "PoC",
+    "definition": "Una prueba o demostración a pequeña escala para demostrar que un producto o idea es factible y puede aportar valor real a un cliente potencial.",
+    "example": "El cliente potencial quedó impresionado con la demostración, pero quiere una prueba de concepto de 30 días antes de firmar el contrato completo.",
+    "reviewed": true
   },
   {
-    "id": "sls_0066",
-    "term_translation": "Fricción",
-    "definition_translation": "Cualquier cosa que impide a los usuarios lograr un objetivo o completar una tarea.",
-    "example_translation": "Pedir el número de teléfono durante el pago añade una dificultad innecesaria."
+    "id": "sales_0078",
+    "term": "Operaciones de Ingresos",
+    "acronym": "RevOps",
+    "definition": "La alineación estratégica de las operaciones de ventas, marketing y servicio al cliente para impulsar el crecimiento de los ingresos y aumentar la eficiencia en todo el ciclo de vida del cliente.",
+    "example": "Nuestro equipo de operaciones de ingresos es responsable de gestionar el CRM, analizar los datos de ventas y optimizar nuestro proceso de salida al mercado.",
+    "reviewed": true
   },
   {
-    "id": "sls_0067",
-    "term_translation": "Fuga del embudo",
-    "definition_translation": "El punto en el proceso de ventas donde un cliente potencial abandona sin convertir.",
-    "example_translation": "Notamos una gran pérdida de usuarios en la página de información de envío."
+    "id": "sales_0079",
+    "term": "Representante de Desarrollo de Ventas",
+    "acronym": "SDR",
+    "definition": "Un tipo de representante de ventas interno que se centra en la prospección y en la cualificación de leads para crear oportunidades para los ejecutivos de cuentas.",
+    "example": "El equipo de representantes de desarrollo de ventas se encarga de llamar en frío y enviar correos electrónicos a nuevos prospectos para concertar reuniones para los ejecutivos de cuentas.",
+    "reviewed": true
   },
   {
-    "id": "sls_0068",
-    "term_translation": "Ludificación",
-    "definition_translation": "Aplicación de elementos de diseño de juegos en contextos que no son de juego.",
-    "example_translation": "La app de idiomas usa medallas y niveles para mantener a los usuarios motivados."
+    "id": "sales_0080",
+    "term": "Ejecutivo de Cuentas",
+    "acronym": "AE",
+    "definition": "Un rol de ventas responsable de gestionar y cerrar acuerdos con clientes nuevos y existentes.",
+    "example": "Una vez que el SDR cualifica un lead, se lo pasa a un ejecutivo de cuentas para que realice la demostración y cierre la venta.",
+    "reviewed": true
   },
   {
-    "id": "sls_0069",
-    "term_translation": "Controlador de acceso",
-    "definition_translation": "Persona que controla el acceso a algo o alguien, como un tomador de decisiones.",
-    "example_translation": "En ventas B2B, el asistente personal a menudo actúa como barrera para hablar con el director."
+    "id": "sales_0081",
+    "term": "Declaración de Trabajo",
+    "acronym": "SOW",
+    "definition": "Un documento legal que detalla las tareas específicas, los entregables, los plazos y los costes de un proyecto o servicio que se va a prestar.",
+    "example": "Antes de comenzar la implementación, ambas partes deben firmar la declaración de trabajo para acordar el alcance del proyecto.",
+    "reviewed": true
   },
   {
-    "id": "sls_0070",
-    "term_translation": "Contenido restringido",
-    "definition_translation": "Materiales online que requieren que los usuarios rellenen un formulario antes de acceder a ellos.",
-    "example_translation": "Pusimos el informe de la industria tras un formulario para generar contactos."
+    "id": "sales_0082",
+    "term": "Acuerdo Marco de Servicios",
+    "acronym": "MSA",
+    "definition": "Un contrato fundamental entre dos partes que establece los términos y condiciones generales para todas las transacciones o proyectos futuros.",
+    "example": "Tenemos un acuerdo marco de servicios con el cliente, por lo que para este nuevo proyecto solo necesitamos redactar una declaración de trabajo sencilla.",
+    "reviewed": true
   },
   {
-    "id": "sls_0071",
-    "term_translation": "Geovallado",
-    "definition_translation": "Uso de GPS para crear un límite geográfico virtual que activa una respuesta en dispositivos móviles.",
-    "example_translation": "La tienda envió un cupón a cualquiera que pasara a menos de 100 metros del local."
+    "id": "sales_0083",
+    "term": "Solicitud de Propuesta",
+    "acronym": "RFP",
+    "definition": "Un documento formal que una empresa emite a proveedores potenciales, solicitándoles que presenten una propuesta de negocio para proporcionar un producto o servicio específico.",
+    "example": "La agencia gubernamental envió una solicitud de propuesta y tenemos dos semanas para preparar y presentar nuestra oferta.",
+    "reviewed": true
   },
   {
-    "id": "sls_0072",
-    "term_translation": "Estrategia de lanzamiento",
-    "definition_translation": "Plan de acción que especifica cómo una empresa llegará a los clientes objetivo y logrará ventaja competitiva.",
-    "example_translation": "Nuestro plan para el nuevo producto implica fuertes ventas directas y socios estratégicos."
+    "id": "sales_0084",
+    "term": "Parte Superior del Embudo",
+    "acronym": "TOFU",
+    "definition": "La etapa inicial del proceso de compra, donde los clientes potenciales apenas comienzan a identificar un problema y a buscar información.",
+    "example": "Nuestra estrategia para la parte superior del embudo se centra en crear publicaciones de blog y contenido en redes sociales para atraer a una audiencia amplia.",
+    "reviewed": true
   },
   {
-    "id": "sls_0073",
-    "term_translation": "Hackeo de crecimiento",
-    "definition_translation": "Estrategias centradas únicamente en el crecimiento rápido, usadas por startups.",
-    "example_translation": "El programa de referidos de Dropbox es un ejemplo legendario de esta técnica."
+    "id": "sales_0085",
+    "term": "Penetración de Cuenta",
+    "acronym": null,
+    "definition": "Una estrategia para aumentar las ventas dentro de la organización de un cliente existente, vendiendo más productos o expandiéndose a diferentes departamentos.",
+    "example": "Nuestra penetración de cuenta es baja con este cliente; solo trabajamos con su equipo de marketing, pero también deberíamos hablar con su departamento de ventas.",
+    "reviewed": true
   },
   {
-    "id": "sls_0074",
-    "term_translation": "Marketing de guerrilla",
-    "definition_translation": "Estrategia de publicidad que utiliza interacciones sorpresa o no convencionales.",
-    "example_translation": "El flash mob en la estación de tren fue una gran maniobra promocional."
+    "id": "sales_0086",
+    "term": "Cláusula de Aceleración",
+    "acronym": null,
+    "definition": "Un término contractual que aumenta la tasa de comisión de un vendedor una vez que ha superado su cuota de ventas.",
+    "example": "Mi plan de comisiones tiene una cláusula de aceleración, por lo que ganaré un 15 % en cada acuerdo que cierre después de alcanzar mi objetivo anual.",
+    "reviewed": true
   },
   {
-    "id": "sls_0075",
-    "term_translation": "Efecto halo",
-    "definition_translation": "Tendencia a que las impresiones positivas de un producto influyan en la opinión sobre otros productos de la marca.",
-    "example_translation": "El éxito del iPod creó una percepción positiva que impulsó las ventas de Mac."
+    "id": "sales_0087",
+    "term": "Tasa de Adopción",
+    "acronym": null,
+    "definition": "El porcentaje de usuarios que se convierten en usuarios habituales y activos de un producto o función después de una prueba inicial o una compra.",
+    "example": "La tasa de adopción de nuestra nueva función supera el 80 %, lo que demuestra que los clientes la encuentran muy valiosa.",
+    "reviewed": true
   },
   {
-    "id": "sls_0076",
-    "term_translation": "Etiqueta (Hashtag)",
-    "definition_translation": "Palabra o frase precedida por el signo de almohadilla (#), usada en redes sociales.",
-    "example_translation": "Crea una etiqueta única para tu evento para rastrear las conversaciones sociales."
+    "id": "sales_0088",
+    "term": "Programa de Defensores de Marca",
+    "acronym": null,
+    "definition": "Una iniciativa de marketing que anima a los clientes más entusiastas a promocionar una marca o producto a través de testimonios, referencias y redes sociales.",
+    "example": "Vamos a lanzar un programa de defensores de marca para recompensar a nuestros mejores clientes por referirnos nuevos negocios.",
+    "reviewed": true
   },
   {
-    "id": "sls_0077",
-    "term_translation": "Mapa de calor",
-    "definition_translation": "Herramienta de visualización de datos que muestra cómo los usuarios interactúan con una página web.",
-    "example_translation": "El análisis mostró que los usuarios ignoraban completamente la barra lateral."
+    "id": "sales_0089",
+    "term": "Valor Anual del Contrato",
+    "acronym": "ACV",
+    "definition": "Los ingresos anuales promedio generados por el contrato de un solo cliente, sin incluir las tarifas únicas.",
+    "example": "Nuestro objetivo este año es aumentar nuestro valor anual del contrato promedio dirigiéndonos a clientes más grandes de nivel empresarial.",
+    "reviewed": true
   },
   {
-    "id": "sls_0078",
-    "term_translation": "Mercado horizontal",
-    "definition_translation": "Mercado en el que un producto satisface las necesidades de una amplia gama de compradores en diferentes sectores.",
-    "example_translation": "Los suministros de oficina se venden en este tipo de mercado amplio."
+    "id": "sales_0090",
+    "term": "Cierre por Asunción",
+    "acronym": null,
+    "definition": "Una técnica de cierre en la que el vendedor asume intencionadamente que el cliente potencial ya ha decidido comprar.",
+    "example": "Utilizando un cierre por asunción, el vendedor preguntó: 'Entonces, ¿qué día de la semana que viene le viene mejor para nuestra llamada de implementación?'",
+    "reviewed": true
   },
   {
-    "id": "sls_0079",
-    "term_translation": "Impresiones",
-    "definition_translation": "El número de veces que se muestra un anuncio o contenido, independientemente de si se hace clic.",
-    "example_translation": "Nuestro anuncio recibió un millón de visualizaciones pero muy poca interacción."
+    "id": "sales_0091",
+    "term": "Tasa de Vinculación",
+    "acronym": null,
+    "definition": "Una métrica que mide la cantidad de productos secundarios o complementos vendidos en relación con un producto principal.",
+    "example": "La tasa de vinculación de nuestro paquete de soporte prémium es de casi el 60 %, lo que aumenta significativamente el valor de cada venta.",
+    "reviewed": true
   },
   {
-    "id": "sls_0080",
-    "term_translation": "Compra por impulso",
-    "definition_translation": "La compra de bienes sin planificación previa, como resultado de un deseo repentino.",
-    "example_translation": "Los dulces en la caja están ahí para provocar este tipo de comportamiento."
+    "id": "sales_0092",
+    "term": "Distribución de Cumplimiento de Cuota",
+    "acronym": null,
+    "definition": "Un informe o gráfico que muestra el rendimiento de un equipo de ventas, ilustrando cuántos representantes están cumpliendo, superando o no alcanzando sus cuotas de ventas.",
+    "example": "El gráfico de distribución de cumplimiento de cuota muestra que el 70 % de nuestro equipo de ventas alcanzó su cuota el trimestre pasado, lo cual es un gran resultado.",
+    "reviewed": true
   },
   {
-    "id": "sls_0081",
-    "term_translation": "Marketing de atracción",
-    "definition_translation": "Metodología que atrae a los clientes creando contenido valioso y experiencias a medida.",
-    "example_translation": "El blog es un componente central de nuestra estrategia para que los clientes nos encuentren."
+    "id": "sales_0093",
+    "term": "Principio de Autoridad",
+    "acronym": null,
+    "definition": "Un principio psicológico que establece que las personas son más propensas a confiar y seguir el consejo de un experto o figura de autoridad creíble.",
+    "example": "Al presentar testimonios de líderes de la industria en nuestro sitio web, utilizamos el principio de autoridad para generar confianza con los nuevos prospectos.",
+    "reviewed": true
   },
   {
-    "id": "sls_0082",
-    "term_translation": "Marketing de influencers",
-    "definition_translation": "Forma de marketing en redes sociales que implica respaldos de personas con influencia social.",
-    "example_translation": "Nos asociamos con blogueros de moda para promocionar la nueva colección."
+    "id": "sales_0094",
+    "term": "Mejor Alternativa a un Acuerdo Negociado",
+    "acronym": "BATNA",
+    "definition": "El curso de acción más ventajoso que una de las partes puede tomar si las negociaciones con un cliente fracasan y no se puede llegar a un acuerdo.",
+    "example": "Antes de la negociación, determinamos que nuestra mejor alternativa a un acuerdo negociado es retirarnos y centrarnos en el otro gran acuerdo que tenemos en el pipeline.",
+    "reviewed": true
   },
   {
-    "id": "sls_0083",
-    "term_translation": "Infografía",
-    "definition_translation": "Representación visual de información o datos.",
-    "example_translation": "Creamos una imagen visual para explicar los resultados complejos de la encuesta de forma sencilla."
+    "id": "sales_0095",
+    "term": "Previsión del Mejor Escenario",
+    "acronym": null,
+    "definition": "Una previsión de ventas que representa los ingresos potenciales totales si cada acuerdo en el pipeline, incluyendo los más improbables, se cierra con éxito.",
+    "example": "Mi previsión del mejor escenario para este trimestre es de 500.000 $, pero mi previsión de compromiso más realista se acerca a los 300.000 $.",
+    "reviewed": true
   },
   {
-    "id": "sls_0084",
-    "term_translation": "Indicador clave de rendimiento",
-    "definition_translation": "Valor medible que demuestra la eficacia con la que una empresa está logrando objetivos clave.",
-    "example_translation": "El crecimiento del tráfico es la métrica principal para el equipo de contenido."
+    "id": "sales_0096",
+    "term": "Facturación",
+    "acronym": null,
+    "definition": "La cantidad total de dinero facturada a los clientes dentro de un período específico, que puede diferir de los ingresos debido a los principios contables.",
+    "example": "Nuestra facturación fue alta este trimestre porque firmamos varios acuerdos plurianuales y facturamos todo el primer año por adelantado.",
+    "reviewed": true
   },
   {
-    "id": "sls_0085",
-    "term_translation": "Página de aterrizaje",
-    "definition_translation": "Página web independiente creada específicamente para una campaña de marketing o publicidad.",
-    "example_translation": "El anuncio dirige a los usuarios a una página específica para la oferta, no a la página de inicio."
+    "id": "sales_0097",
+    "term": "Venta Caída del Cielo",
+    "acronym": null,
+    "definition": "Una venta inesperada que se produce con poco o ningún esfuerzo por parte del equipo de ventas, a menudo de un cliente anterior o una solicitud entrante.",
+    "example": "Hoy tuvimos una venta caída del cielo; la nueva empresa de un antiguo cliente llamó y pidió un presupuesto para 100 licencias.",
+    "reviewed": true
   },
   {
-    "id": "sls_0086",
-    "term_translation": "Generación de prospectos",
-    "definition_translation": "La iniciación del interés del consumidor o consulta sobre productos o servicios.",
-    "example_translation": "Los seminarios web son excelentes para conseguir contactos en B2B."
+    "id": "sales_0098",
+    "term": "Ventas Contratadas",
+    "acronym": null,
+    "definition": "El valor total de todos los contratos firmados con clientes durante un período específico, que representa un compromiso de ingresos futuros.",
+    "example": "El equipo de ventas tuvo un trimestre récord, con más de 2 millones de dólares en ventas contratadas de nuevos clientes empresariales.",
+    "reviewed": true
   },
   {
-    "id": "sls_0087",
-    "term_translation": "Imán de prospectos",
-    "definition_translation": "Artículo o servicio gratuito ofrecido con el fin de recopilar datos de contacto.",
-    "example_translation": "El libro electrónico gratuito sirvió como incentivo para hacer crecer nuestra lista de correo."
+    "id": "sales_0099",
+    "term": "Arrepentimiento del Comprador",
+    "acronym": null,
+    "definition": "Un sentimiento de arrepentimiento, ansiedad o duda que un cliente experimenta después de tomar una decisión de compra.",
+    "example": "Nuestro proceso de incorporación está diseñado para mostrar valor de inmediato y ayudar a prevenir el arrepentimiento del comprador.",
+    "reviewed": true
   },
   {
-    "id": "sls_0088",
-    "term_translation": "Maduración de prospectos",
-    "definition_translation": "Proceso de desarrollar relaciones con compradores en cada etapa del embudo de ventas.",
-    "example_translation": "Usamos secuencias de correo para educar al cliente hasta que esté listo para comprar."
+    "id": "sales_0100",
+    "term": "Comité de Compras",
+    "acronym": null,
+    "definition": "Un grupo de personas dentro de una empresa que son colectivamente responsables de tomar una decisión final de compra, a menudo incluyendo usuarios, expertos técnicos y ejecutivos.",
+    "example": "Necesitamos obtener la aprobación de todo el comité de compras, que incluye a los directores de TI, finanzas y marketing.",
+    "reviewed": true
   },
   {
-    "id": "sls_0089",
-    "term_translation": "Calificación de prospectos",
-    "definition_translation": "Metodología utilizada para clasificar a los clientes potenciales según su valor percibido.",
-    "example_translation": "Ventas solo contacta a los usuarios que tienen una puntuación superior a 80."
+    "id": "sales_0101",
+    "term": "Conflicto de Canal",
+    "acronym": null,
+    "definition": "Una situación en la que el equipo de ventas directas de una empresa compite contra sus propios socios de distribución (como los revendedores) por el mismo cliente.",
+    "example": "Creamos reglas de interacción claras para evitar el conflicto de canal entre nuestros representantes de ventas internos y nuestros socios.",
+    "reviewed": true
   },
   {
-    "id": "sls_0090",
-    "term_translation": "Cola larga",
-    "definition_translation": "Frase de búsqueda muy específica que contiene tres o más palabras.",
-    "example_translation": "Estas palabras clave tienen menos volumen de búsqueda pero tasas de conversión más altas."
+    "id": "sales_0102",
+    "term": "Cláusula de Recuperación",
+    "acronym": null,
+    "definition": "Una cláusula contractual que permite a una empresa recuperar el dinero de la comisión pagada a un vendedor si el cliente cancela su contrato anticipadamente o no paga.",
+    "example": "Nuestro plan de compensación incluye una cláusula de recuperación para los primeros seis meses de cualquier contrato nuevo.",
+    "reviewed": true
   },
   {
-    "id": "sls_0091",
-    "term_translation": "Audiencia similar",
-    "definition_translation": "Opción de segmentación que permite llegar a nuevas personas que se parecen a tus clientes actuales.",
-    "example_translation": "Creamos un grupo en Facebook basado en las características de nuestros suscriptores."
+    "id": "sales_0103",
+    "term": "Venta Conjunta",
+    "acronym": null,
+    "definition": "Una asociación en la que dos empresas colaboran para vender sus productos o servicios complementarios al mismo cliente.",
+    "example": "Estamos realizando una venta conjunta con nuestro proveedor de la nube para ofrecer una solución combinada que satisfaga todas las necesidades del cliente.",
+    "reviewed": true
   },
   {
-    "id": "sls_0092",
-    "term_translation": "Aversión a la pérdida",
-    "definition_translation": "Tendencia a preferir evitar pérdidas antes que adquirir ganancias equivalentes.",
-    "example_translation": "Mensajes como 'No pierdas tu plaza' aprovechan este sesgo psicológico."
+    "id": "sales_0104",
+    "term": "Disonancia Cognitiva",
+    "acronym": null,
+    "definition": "La incomodidad mental que experimenta una persona que tiene dos o más creencias, ideas o valores contradictorios, a menudo sentida por un comprador después de una compra.",
+    "example": "Un buen vendedor ayuda a resolver la disonancia cognitiva del cliente asegurándole que ha tomado la decisión correcta.",
+    "reviewed": true
   },
   {
-    "id": "sls_0093",
-    "term_translation": "Producto gancho",
-    "definition_translation": "Producto vendido con pérdidas para atraer clientes.",
-    "example_translation": "El supermercado vende leche muy barata para que la gente entre y compre otras cosas."
+    "id": "sales_0105",
+    "term": "Análisis de Cohortes",
+    "acronym": null,
+    "definition": "Una herramienta de análisis de comportamiento que desglosa los datos en grupos de personas con características comunes a lo largo del tiempo, como los clientes que se registraron en el mismo mes.",
+    "example": "El análisis de cohortes muestra que los clientes que se unieron en mayo tienen una tasa de retención mucho más alta que los de junio.",
+    "reviewed": true
   },
   {
-    "id": "sls_0094",
-    "term_translation": "Segmentación de mercado",
-    "definition_translation": "Proceso de dividir un mercado objetivo en categorías más pequeñas y definidas.",
-    "example_translation": "Usamos este proceso para adaptar nuestros mensajes a diferentes grupos de edad."
+    "id": "sales_0106",
+    "term": "Dominio del Mensaje",
+    "acronym": null,
+    "definition": "Un marco de mensajes de ventas que garantiza que los vendedores puedan articular claramente el valor de su solución en el contexto de los problemas específicos del cliente.",
+    "example": "Después de la formación, nuestro equipo tiene mucho mejor dominio del mensaje y puede explicar con confianza nuestras ventajas competitivas.",
+    "reviewed": true
   },
   {
-    "id": "sls_0095",
-    "term_translation": "Cuota de mercado",
-    "definition_translation": "El porcentaje de ventas totales en una industria generado por una empresa particular.",
-    "example_translation": "Nuestro objetivo es aumentar nuestra participación en el sector un 5% este año."
+    "id": "sales_0107",
+    "term": "Anticipo de Comisiones",
+    "acronym": null,
+    "definition": "Un pago por adelantado contra futuras comisiones esperadas, que a menudo se da a los nuevos vendedores para proporcionarles un ingreso estable mientras construyen su pipeline.",
+    "example": "La empresa ofrece un anticipo de comisiones no recuperable durante los primeros tres meses para ayudar a los nuevos empleados a empezar.",
+    "reviewed": true
   },
   {
-    "id": "sls_0096",
-    "term_translation": "Automatización de marketing",
-    "definition_translation": "Software diseñado para ejecutar tareas de marketing de manera más efectiva en múltiples canales.",
-    "example_translation": "Estas herramientas nos ayudan a enviar correos de cumpleaños a miles de clientes."
+    "id": "sales_0108",
+    "term": "Previsión Comprometida",
+    "acronym": null,
+    "definition": "Una previsión de ventas que representa los acuerdos sobre los que un vendedor tiene una alta confianza (p. ej., 90 % o más) de que se cerrarán en el período actual.",
+    "example": "Tengo diez acuerdos en mi pipeline, pero mi previsión comprometida solo incluye los tres que están en la fase final del contrato.",
+    "reviewed": true
   },
   {
-    "id": "sls_0097",
-    "term_translation": "Mezcla de mercadotecnia",
-    "definition_translation": "Modelo fundacional centrado históricamente en Producto, Precio, Plaza y Promoción.",
-    "example_translation": "Necesitamos ajustar nuestras 4P para competir en la nueva región."
+    "id": "sales_0109",
+    "term": "Venta Conceptual",
+    "acronym": null,
+    "definition": "Una metodología de ventas en la que el vendedor descubre las necesidades de negocio subyacentes o el 'concepto' del cliente y conecta su solución con la consecución de ese objetivo.",
+    "example": "En lugar de solo vender características, la venta conceptual nos enseña a vender el 'concepto' de mejora de la eficiencia al cliente.",
+    "reviewed": true
   },
   {
-    "id": "sls_0098",
-    "term_translation": "Marketing de memes",
-    "definition_translation": "Uso de imágenes virales de internet para comercializar un producto o servicio.",
-    "example_translation": "Wendy's es famosa por su uso efectivo del humor de internet en Twitter."
+    "id": "sales_0110",
+    "term": "CPQ (Configuración, Precio y Cotización)",
+    "acronym": "CPQ",
+    "definition": "Software que ayuda a los vendedores a generar cotizaciones de forma rápida y precisa para productos complejos y configurables.",
+    "example": "Nuestra nueva herramienta CPQ calcula automáticamente los descuentos y garantiza que todas nuestras propuestas sean precisas y profesionales.",
+    "reviewed": true
   },
   {
-    "id": "sls_0099",
-    "term_translation": "Merchandising",
-    "definition_translation": "Actividad de promover la venta de bienes, especialmente por su presentación en puntos de venta.",
-    "example_translation": "Una buena presentación visual en la tienda puede aumentar significativamente las ventas."
+    "id": "sales_0111",
+    "term": "MRR de Contracción",
+    "acronym": null,
+    "definition": "La cantidad de ingresos mensuales recurrentes que se pierde de clientes existentes que han bajado a un plan de menor precio.",
+    "example": "Tuvimos $5,000 en MRR de expansión, but $2,000 en MRR de contracción, lo que resultó en una ganancia neta de $3,000 de nuestra base de clientes.",
+    "reviewed": true
   },
   {
-    "id": "sls_0100",
-    "term_translation": "Metadescripción",
-    "definition_translation": "Fragmento de texto en el código HTML que resume el contenido de una página.",
-    "example_translation": "Un resumen convincente puede mejorar la tasa de clics desde los resultados de búsqueda."
+    "id": "sales_0112",
+    "term": "Puntuación de Salud del Cliente",
+    "acronym": null,
+    "definition": "Una métrica utilizada para predecir la lealtad de un cliente y su potencial de cancelación ('churn'), calculada a partir de factores como el uso del producto, los tickets de soporte y las respuestas a encuestas.",
+    "example": "Esta cuenta tiene una puntuación de salud del cliente baja, por lo que necesitamos que el 'customer success manager' se ponga en contacto de inmediato.",
+    "reviewed": true
   },
   {
-    "id": "sls_0101",
-    "term_translation": "Micromomento",
-    "definition_translation": "Instante en que una persona recurre a un dispositivo para actuar sobre una necesidad inmediata (saber, ir, comprar).",
-    "example_translation": "Google define las búsquedas de 'quiero ir' como momentos clave de intención."
+    "id": "sales_0113",
+    "term": "Enriquecimiento de Datos",
+    "acronym": null,
+    "definition": "El proceso de combinar datos de terceros con una base de datos existente de información de clientes o leads para hacerla más completa y precisa.",
+    "example": "Utilizamos una herramienta de enriquecimiento de datos para añadir información sobre el tamaño de la empresa y el sector a todos nuestros nuevos leads en el CRM.",
+    "reviewed": true
   },
   {
-    "id": "sls_0102",
-    "term_translation": "Ingresos recurrentes mensuales",
-    "definition_translation": "Ingresos que una empresa puede anticipar fiablemente cada 30 días.",
-    "example_translation": "Las empresas de software se centran mucho en hacer crecer esta métrica de suscripción."
+    "id": "sales_0114",
+    "term": "Comité de Acuerdos",
+    "acronym": null,
+    "definition": "Un equipo multifuncional (que a menudo incluye ventas, finanzas y legal) que ayuda a estructurar y aprobar acuerdos complejos o no estándar.",
+    "example": "Como el cliente solicita precios personalizados, necesitamos enviar este acuerdo al comité de acuerdos para su aprobación.",
+    "reviewed": true
   },
   {
-    "id": "sls_0103",
-    "term_translation": "Cliente misterioso",
-    "definition_translation": "Persona empleada para visitar una tienda de incógnito con el fin de evaluar la calidad del servicio.",
-    "example_translation": "Enviamos a un evaluador anónimo para probar el conocimiento del producto del personal."
+    "id": "sales_0115",
+    "term": "Revisión de Acuerdos",
+    "acronym": null,
+    "definition": "Una reunión formal en la que un gerente de ventas y un vendedor revisan el estado de un acuerdo específico en el pipeline para definir estrategias y asegurar su progreso.",
+    "example": "En nuestra revisión de acuerdos semanal, analizamos la cuenta empresarial estancada y creamos un nuevo plan para contactar al director financiero.",
+    "reviewed": true
   },
   {
-    "id": "sls_0104",
-    "term_translation": "Publicidad nativa",
-    "definition_translation": "Publicidad pagada donde el anuncio coincide con la forma y función del medio en el que aparece.",
-    "example_translation": "Los artículos patrocinados en sitios de noticias son una forma común de este formato."
+    "id": "sales_0116",
+    "term": "Registro de Oportunidades",
+    "acronym": null,
+    "definition": "Un proceso mediante el cual un socio de canal (como un revendedor) informa a un proveedor sobre un lead en el que está trabajando para obtener exclusividad y evitar conflictos.",
+    "example": "Nuestro socio presentó un registro de oportunidades para la cuenta de ABC Corp, por lo que ahora nuestro equipo de ventas directas no puede contactarlos.",
+    "reviewed": true
   },
   {
-    "id": "sls_0105",
-    "term_translation": "Índice de recomendación neta",
-    "definition_translation": "Métrica utilizada para medir la lealtad del cliente preguntando cuán probable es que recomienden la marca.",
-    "example_translation": "Una puntuación por encima de 50 se considera excelente en esta encuesta."
+    "id": "sales_0117",
+    "term": "Retraso de Acuerdos",
+    "acronym": null,
+    "definition": "Cuando un acuerdo que se pronosticaba cerrar en el período actual (como este mes o trimestre) se pospone a un período futuro.",
+    "example": "El retraso de acuerdos del trimestre pasado se debió a que dos grandes contratos se aplazaron y ahora se cerrarán en el tercer trimestre.",
+    "reviewed": true
   },
   {
-    "id": "sls_0106",
-    "term_translation": "Neuromarketing",
-    "definition_translation": "Aplicación de la neurociencia al marketing.",
-    "example_translation": "Los estudios mostraron que el envase rojo activa la excitación en el cerebro."
+    "id": "sales_0168",
+    "term": "Licencia por puesto",
+    "acronym": null,
+    "definition": "Un modelo de licencia de software donde el precio se determina por el número de usuarios individuales o 'puestos'.",
+    "example": "Nuestro nuevo software CRM utiliza un modelo de licencia por puesto, por lo que cuesta $50 por usuario al mes.",
+    "reviewed": true
   },
   {
-    "id": "sls_0107",
-    "term_translation": "Secuestro de actualidad",
-    "definition_translation": "Práctica de alinear una marca con un evento actual o noticia para generar atención mediática.",
-    "example_translation": "El tuit de Oreo durante el apagón de la Super Bowl es un ejemplo famoso."
+    "id": "sales_0169",
+    "term": "Acuerdo de Nivel de Servicio",
+    "acronym": "SLA",
+    "definition": "Un contrato que define el nivel de servicio que un proveedor promete a un cliente, incluyendo métricas, responsabilidades y soluciones en caso de incumplimiento.",
+    "example": "Antes de firmar, nuestro equipo legal revisó el Acuerdo de Nivel de Servicio para asegurarse de que garantizaba un 99,9 % de tiempo de actividad.",
+    "reviewed": true
   },
   {
-    "id": "sls_0108",
-    "term_translation": "Nicho de mercado",
-    "definition_translation": "Mercado pequeño y especializado para un producto o servicio particular.",
-    "example_translation": "Vender comida vegana para gatos es un segmento muy específico con clientes leales."
+    "id": "sales_0170",
+    "term": "Validación social",
+    "acronym": null,
+    "definition": "Un fenómeno psicológico en el que las personas asumen que las acciones de otros reflejan el comportamiento correcto, a menudo utilizado en ventas a través de testimonios o casos de estudio.",
+    "example": "Utilizamos testimonios de clientes y casos de estudio en nuestro sitio web como validación social para generar confianza con nuevos leads.",
+    "reviewed": true
   },
   {
-    "id": "sls_0109",
-    "term_translation": "Alcance orgánico",
-    "definition_translation": "El número de personas que ven tu contenido sin distribución pagada.",
-    "example_translation": "Los cambios en el algoritmo han reducido significativamente la visibilidad gratuita."
+    "id": "sales_0171",
+    "term": "Oportunidad estancada",
+    "acronym": null,
+    "definition": "Un acuerdo potencial que ha dejado de progresar en el pipeline de ventas durante un período prolongado.",
+    "example": "Ese trato con Acme Corp es ahora una oportunidad estancada; no he tenido noticias del responsable de la toma de decisiones en más de un mes.",
+    "reviewed": true
   },
   {
-    "id": "sls_0110",
-    "term_translation": "Marketing saliente",
-    "definition_translation": "Método tradicional de marketing que busca empujar el mensaje a los clientes potenciales (TV, vallas).",
-    "example_translation": "Los anuncios de televisión y las llamadas en frío son formas de esta estrategia tradicional."
+    "id": "sales_0172",
+    "term": "Sesgo del statu quo",
+    "acronym": null,
+    "definition": "La tendencia psicológica de las personas a preferir que las cosas permanezcan igual, lo que puede ser un obstáculo importante en las ventas.",
+    "example": "El mayor desafío es superar el sesgo del statu quo del cliente; se sienten cómodos con su sistema actual, que es menos eficiente.",
+    "reviewed": true
   },
   {
-    "id": "sls_0111",
-    "term_translation": "Medios pagados",
-    "definition_translation": "Marketing por el que pagas.",
-    "example_translation": "Google Ads y Facebook Ads son canales de este tipo."
+    "id": "sales_0173",
+    "term": "Venta a cuentas objetivo",
+    "acronym": "TAS",
+    "definition": "Una metodología de ventas centrada en identificar y perseguir un pequeño número de cuentas estratégicas y de alto valor.",
+    "example": "En lugar de lanzar una red amplia, nuestro equipo de grandes cuentas está utilizando la venta a cuentas objetivo para centrarse en las 10 principales empresas del sector financiero.",
+    "reviewed": true
   },
   {
-    "id": "sls_0112",
-    "term_translation": "Punto de dolor",
-    "definition_translation": "Problema específico que los clientes potenciales de tu negocio están experimentando.",
-    "example_translation": "Nuestro producto aborda directamente la principal frustración del cliente: la falta de tiempo."
+    "id": "sales_0174",
+    "term": "Victoria técnica",
+    "acronym": null,
+    "definition": "El punto en un proceso de ventas donde el equipo técnico del cliente potencial acepta que tu producto es la mejor solución para sus necesidades, incluso antes de que se tome una decisión final de compra.",
+    "example": "Logramos una victoria técnica después de la demostración, cuando su jefe de ingeniería confirmó que nuestro software cumplía con todos sus requisitos.",
+    "reviewed": true
   },
   {
-    "id": "sls_0113",
-    "term_translation": "Pago por clic",
-    "definition_translation": "Modelo de publicidad donde los anunciantes pagan una tarifa cada vez que se hace clic en su anuncio.",
-    "example_translation": "Este modelo puede generar tráfico inmediato, a diferencia del SEO que lleva tiempo."
+    "id": "sales_0175",
+    "term": "Rescisión por conveniencia",
+    "acronym": null,
+    "definition": "Una cláusula contractual que permite a una o ambas partes finalizar el acuerdo por cualquier motivo, sin necesidad de probar un incumplimiento de contrato.",
+    "example": "El contrato incluye una cláusula de rescisión por conveniencia, lo que nos permite finalizar la asociación con 30 días de antelación si nuestras necesidades cambian.",
+    "reviewed": true
   },
   {
-    "id": "sls_0114",
-    "term_translation": "Planograma",
-    "definition_translation": "Diagrama que indica la colocación de productos minoristas en los estantes.",
-    "example_translation": "El gerente de la tienda siguió el esquema visual para organizar el pasillo."
+    "id": "sales_0176",
+    "term": "Valor total del contrato",
+    "acronym": "TCV",
+    "definition": "Los ingresos totales que se espera que un contrato genere durante todo su plazo, incluyendo cargos únicos y tarifas recurrentes.",
+    "example": "El acuerdo de tres años tiene un valor total del contrato de 1,2 millones de dólares, que incluye las tarifas iniciales de implementación.",
+    "reviewed": true
   },
   {
-    "id": "sls_0115",
-    "term_translation": "Punto de venta",
-    "definition_translation": "El momento y lugar donde se completa una transacción minorista.",
-    "example_translation": "Colocamos artículos pequeños cerca de la caja para fomentar compras impulsivas."
+    "id": "sales_0177",
+    "term": "Cierre de prueba",
+    "acronym": null,
+    "definition": "Una técnica de ventas utilizada para medir la disposición de un cliente potencial a comprar antes de solicitar formalmente el cierre de la venta.",
+    "example": "Después de explicar los beneficios, el vendedor utilizó un cierre de prueba al preguntar: '¿Le parece que esta sería una solución que funcionaría para su equipo?'",
+    "reviewed": true
   },
   {
-    "id": "sls_0116",
-    "term_translation": "Posicionamiento",
-    "definition_translation": "El lugar que ocupa una marca en la mente de los clientes y cómo se distingue de la competencia.",
-    "example_translation": "La estrategia de Volvo siempre se ha centrado en la seguridad."
+    "id": "sales_0178",
+    "term": "Precio basado en el uso",
+    "acronym": null,
+    "definition": "Un modelo de precios en el que a los clientes se les cobra en función de cuánto utilizan un producto o servicio.",
+    "example": "Nuestro servicio de almacenamiento en la nube tiene un precio basado en el uso, por lo que solo pagas por los datos que realmente almacenas cada mes.",
+    "reviewed": true
   },
   {
-    "id": "sls_0117",
-    "term_translation": "Sensibilidad al precio",
-    "definition_translation": "El grado en que el precio de un producto afecta a los comportamientos de compra de los consumidores.",
-    "example_translation": "Los bienes de lujo a menudo tienen clientes a los que les importa poco el coste."
+    "id": "sales_0179",
+    "term": "Brecha de valor",
+    "acronym": null,
+    "definition": "La diferencia entre el valor que un cliente espera recibir de un producto y el valor que realmente percibe.",
+    "example": "Necesitamos abordar la brecha de valor; los clientes no están experimentando el ahorro de costes que prometimos en nuestro marketing.",
+    "reviewed": true
   },
   {
-    "id": "sls_0118",
-    "term_translation": "Primado",
-    "definition_translation": "Fenómeno por el cual la exposición a un estímulo influye en la respuesta a un estímulo posterior.",
-    "example_translation": "Imágenes sutiles pueden predisponer a los clientes a estar de humor para comprar."
+    "id": "sales_0180",
+    "term": "Marco de ventas basado en el valor",
+    "acronym": null,
+    "definition": "Una metodología de ventas que se centra en comprender los problemas comerciales de un cliente y demostrar el valor económico tangible de su solución.",
+    "example": "Al utilizar un marco de ventas basado en el valor, cambiamos la conversación del precio al retorno de la inversión a largo plazo que ofrece nuestra solución.",
+    "reviewed": true
   },
   {
-    "id": "sls_0119",
-    "term_translation": "Marca blanca",
-    "definition_translation": "Producto fabricado por una empresa pero vendido bajo la marca de otra (generalmente un supermercado).",
-    "example_translation": "Los productos de la marca Kirkland de Costco son un ejemplo de esta práctica."
+    "id": "sales_0181",
+    "term": "Revendedor de valor agregado",
+    "acronym": "VAR",
+    "definition": "Una empresa que añade características o servicios a un producto existente y luego lo revende como una solución integrada.",
+    "example": "Nos asociamos con un revendedor de valor agregado que empaqueta nuestro software con su hardware y servicios de instalación.",
+    "reviewed": true
   },
   {
-    "id": "sls_0120",
-    "term_translation": "Ciclo de vida del producto",
-    "definition_translation": "El ciclo por el que pasa cada producto desde su introducción hasta su retirada.",
-    "example_translation": "Los reproductores de DVD están actualmente en la etapa de declive."
+    "id": "sales_0182",
+    "term": "Voz del cliente",
+    "acronym": "VoC",
+    "definition": "Un proceso de investigación de mercado que captura las expectativas, preferencias y comentarios de los clientes para mejorar productos y servicios.",
+    "example": "Nuestro programa de Voz del Cliente utiliza encuestas y entrevistas para definir directamente nuestra hoja de ruta de desarrollo de productos.",
+    "reviewed": true
   },
   {
-    "id": "sls_0121",
-    "term_translation": "Ajuste producto-mercado",
-    "definition_translation": "Estar en un buen mercado con un producto que puede satisfacer a ese mercado.",
-    "example_translation": "Las startups a menudo fallan porque escalan antes de lograr que su producto encaje con la demanda."
+    "id": "sales_0183",
+    "term": "Punto de ruptura",
+    "acronym": null,
+    "definition": "El precio más bajo o las condiciones menos favorables que un vendedor está dispuesto a aceptar en una negociación, más allá de los cuales terminará la discusión.",
+    "example": "Mi punto de ruptura en esta negociación es un descuento del 15 %; cualquier cosa por encima de eso y el acuerdo no es rentable.",
+    "reviewed": true
   },
   {
-    "id": "sls_0122",
-    "term_translation": "Psicografía",
-    "definition_translation": "Estudio de las personas según sus actitudes, aspiraciones y otros criterios psicológicos.",
-    "example_translation": "La demografía te dice 'quién', esto te dice 'por qué'."
+    "id": "sales_0184",
+    "term": "Cuota de cartera",
+    "acronym": null,
+    "definition": "El porcentaje del gasto total de un cliente dentro de una categoría específica que es capturado por una sola empresa.",
+    "example": "Tenemos una baja cuota de cartera con este cliente; compran la mayoría de sus suministros a nuestro competidor, así que hay una gran oportunidad para hacer crecer la cuenta.",
+    "reviewed": true
   },
   {
-    "id": "sls_0123",
-    "term_translation": "Relaciones Públicas",
-    "definition_translation": "Práctica de gestionar la difusión de información entre una organización y el público.",
-    "example_translation": "El equipo trabajó duro para salvar la reputación de la empresa durante la crisis."
+    "id": "sales_0118",
+    "term": "Cláusula de desaceleración",
+    "acronym": null,
+    "definition": "Provisión contractual en un plan de comisiones de ventas que reduce la tasa de comisión para los representantes que no alcanzan un umbral de rendimiento determinado.",
+    "example": "Nuestro nuevo plan de compensación incluye una cláusula de desaceleración; si alcanzas menos del 50 % de tu cuota, tu tasa de comisión baja del 10 % al 7 %.",
+    "reviewed": true
   },
   {
-    "id": "sls_0124",
-    "term_translation": "Rebranding",
-    "definition_translation": "Proceso de cambiar la imagen corporativa de una organización.",
-    "example_translation": "La empresa anunció un cambio de imagen para modernizar su logotipo."
+    "id": "sales_0119",
+    "term": "Fatiga por toma de decisiones",
+    "acronym": null,
+    "definition": "Concepto psicológico que describe cómo la capacidad de una persona para tomar buenas decisiones se deteriora tras una larga sesión de toma de decisiones.",
+    "example": "Tras revisar diez opciones de software diferentes, el cliente sufría de fatiga por toma de decisiones y no podía comprometerse con la compra.",
+    "reviewed": true
   },
   {
-    "id": "sls_0125",
-    "term_translation": "Reciprocidad",
-    "definition_translation": "Norma social de responder a una acción positiva con otra acción positiva.",
-    "example_translation": "Dar una muestra gratis crea un sentimiento de deuda, haciendo más probable la compra."
+    "id": "sales_0120",
+    "term": "Reducción de categoría",
+    "acronym": null,
+    "definition": "Ocurre cuando un cliente decide cambiarse a una versión menos costosa de un producto o servicio, lo que resulta en una disminución del valor de su contrato.",
+    "example": "Vimos que varios clientes solicitaron una reducción de categoría a nuestro plan básico durante la recesión económica para ahorrar costes.",
+    "reviewed": true
   },
   {
-    "id": "sls_0126",
-    "term_translation": "Tráfico de referencia",
-    "definition_translation": "Visitas que llegan a tu sitio desde fuentes fuera de los motores de búsqueda.",
-    "example_translation": "Ser mencionado en un blog popular aumentó nuestras visitas desde ese sitio."
+    "id": "sales_0121",
+    "term": "Revisión ejecutiva de negocio",
+    "acronym": "EBR",
+    "definition": "Reunión estratégica entre un proveedor y el equipo ejecutivo de un cliente para revisar el valor aportado, discutir objetivos y alinear la estrategia futura.",
+    "example": "Para la próxima revisión ejecutiva de negocio, necesitamos preparar una presentación que muestre claramente el ROI que nuestro cliente ha logrado con nuestra plataforma.",
+    "reviewed": true
   },
   {
-    "id": "sls_0127",
-    "term_translation": "Marketing relacional",
-    "definition_translation": "Estrategia diseñada para fomentar la lealtad del cliente y el compromiso a largo plazo.",
-    "example_translation": "Enviar tarjetas de cumpleaños a clientes es una forma simple de mantener la conexión."
+    "id": "sales_0122",
+    "term": "Patrocinio ejecutivo",
+    "acronym": null,
+    "definition": "El apoyo y compromiso activo de un alto ejecutivo dentro de la organización de un cliente para un proyecto o compra específicos.",
+    "example": "No cerraremos este acuerdo millonario sin un fuerte patrocinio ejecutivo por parte de su director financiero.",
+    "reviewed": true
   },
   {
-    "id": "sls_0128",
-    "term_translation": "Reorientación publicitaria",
-    "definition_translation": "Dirigirse a usuarios que han visitado previamente tu sitio web con anuncios para animarles a volver.",
-    "example_translation": "Seguí viendo anuncios de los zapatos que miré ayer debido a esta técnica."
+    "id": "sales_0123",
+    "term": "Ingresos por expansión",
+    "acronym": null,
+    "definition": "Ingresos generados a partir de clientes existentes más allá de su compra inicial, como a través de ventas adicionales (upsells), ventas cruzadas (cross-sells) o complementos.",
+    "example": "Nuestro equipo de éxito del cliente se centra en impulsar los ingresos por expansión identificando oportunidades para vender más servicios a nuestra base de clientes actual.",
+    "reviewed": true
   },
   {
-    "id": "sls_0129",
-    "term_translation": "Diseño responsivo",
-    "definition_translation": "Enfoque de diseño web que hace que las páginas se vean bien en una variedad de dispositivos.",
-    "example_translation": "Con el tráfico móvil aumentando, es obligatorio que la web se adapte al móvil."
+    "id": "sales_0124",
+    "term": "GAP Selling",
+    "acronym": null,
+    "definition": "Metodología de ventas centrada en identificar la 'brecha' (gap) entre el estado actual de un prospecto y su estado futuro deseado, para luego posicionar el producto como la solución.",
+    "example": "Al utilizar GAP Selling, el representante ayudó al cliente a darse cuenta de que su proceso actual le costaba 50.000 $ al mes, creando un sólido caso de negocio para nuestra solución.",
+    "reviewed": true
   },
   {
-    "id": "sls_0130",
-    "term_translation": "Tasa de retención",
-    "definition_translation": "El porcentaje de clientes que continúan pagando por un producto durante un período dado.",
-    "example_translation": "Un índice alto es esencial para la rentabilidad a largo plazo."
+    "id": "sales_0125",
+    "term": "Negociación de dar para recibir",
+    "acronym": null,
+    "definition": "Táctica de negociación en la que se ofrece una concesión a la otra parte a cambio de recibir de ella una concesión de igual o mayor valor.",
+    "example": "Durante la negociación de dar para recibir, les ofrecí un 5 % de descuento a cambio de un contrato de dos años en lugar de uno.",
+    "reviewed": true
   },
   {
-    "id": "sls_0131",
-    "term_translation": "Redifusión de anuncios",
-    "definition_translation": "Forma de publicidad online para mantener tu marca frente al tráfico que abandonó tu web.",
-    "example_translation": "Es muy efectivo para recuperar carritos abandonados en comercio electrónico."
+    "id": "sales_0126",
+    "term": "Retención de ingresos brutos",
+    "acronym": "GRR",
+    "definition": "Métrica que mide el porcentaje de ingresos recurrentes retenidos de clientes existentes durante un período específico, excluyendo cualquier ingreso por expansión.",
+    "example": "Nuestra retención de ingresos brutos es del 95 %, lo que significa que el año pasado solo perdimos el 5 % de nuestros ingresos de clientes existentes debido a cancelaciones o reducciones de categoría.",
+    "reviewed": true
   },
   {
-    "id": "sls_0132",
-    "term_translation": "Retorno de la inversión publicitaria",
-    "definition_translation": "Métrica de marketing que mide la eficacia de una campaña publicitaria digital.",
-    "example_translation": "Por cada dólar gastado en anuncios, ganamos cuatro."
+    "id": "sales_0127",
+    "term": "Cláusula de indemnización",
+    "acronym": null,
+    "definition": "Disposición contractual en la que una de las partes se compromete a compensar a la otra por cualquier daño, pérdida o responsabilidad derivada del contrato.",
+    "example": "Nuestro equipo legal siempre insiste en una cláusula de indemnización sólida para protegernos de posibles demandas.",
+    "reviewed": true
   },
   {
-    "id": "sls_0133",
-    "term_translation": "Retorno de la inversión",
-    "definition_translation": "Medida de rendimiento utilizada para evaluar la eficiencia de una inversión.",
-    "example_translation": "La rentabilidad de nuestra campaña de correo electrónico fue increíblemente alta."
+    "id": "sales_0128",
+    "term": "Gestión de cuentas clave",
+    "acronym": "KAM",
+    "definition": "Proceso de construir y mantener relaciones a largo plazo con los clientes más valiosos de una empresa para maximizar el valor mutuo.",
+    "example": "Nuestra estrategia de gestión de cuentas clave implica asignar un gerente dedicado a cada uno de nuestros 10 clientes principales.",
+    "reviewed": true
   },
   {
-    "id": "sls_0134",
-    "term_translation": "Embudo de ventas",
-    "definition_translation": "Modelo que ilustra el viaje teórico del cliente hacia la compra de un bien o servicio.",
-    "example_translation": "Necesitamos ampliar la parte superior del proceso con más campañas de concienciación."
+    "id": "sales_0129",
+    "term": "Enrutamiento de leads",
+    "acronym": null,
+    "definition": "Proceso automatizado de asignación de leads entrantes a los representantes de ventas apropiados según criterios predefinidos como territorio, tamaño de la empresa o industria.",
+    "example": "Las reglas de enrutamiento de leads de nuestro CRM envían automáticamente todos los leads de la industria de la salud al equipo de Sarah.",
+    "reviewed": true
   },
   {
-    "id": "sls_0135",
-    "term_translation": "Escasez",
-    "definition_translation": "Principio de que la gente valora más las cosas que son pocas en cantidad.",
-    "example_translation": "Las ediciones limitadas utilizan este principio para impulsar la demanda."
+    "id": "sales_0130",
+    "term": "Modelo de puntuación de leads",
+    "acronym": null,
+    "definition": "Sistema utilizado para clasificar leads asignando puntos por diversos atributos y comportamientos para determinar su nivel de preparación para la venta.",
+    "example": "Según nuestro modelo de puntuación de leads, cualquiera que solicite una demo y trabaje en una empresa del Fortune 500 es considerado un lead 'caliente'.",
+    "reviewed": true
   },
   {
-    "id": "sls_0136",
-    "term_translation": "Marketing en buscadores",
-    "definition_translation": "Promoción de sitios web aumentando su visibilidad en buscadores principalmente mediante publicidad pagada.",
-    "example_translation": "Aumentamos nuestro presupuesto para aparecer en la cima de Google."
+    "id": "sales_0131",
+    "term": "Tasa de conversión de lead a oportunidad",
+    "acronym": null,
+    "definition": "Métrica que mide el porcentaje de leads que son cualificados por el equipo de ventas y se convierten en oportunidades de venta activas.",
+    "example": "Nuestra tasa de conversión de lead a oportunidad aumentó al 15 % este trimestre, lo que indica una mejor calidad de los leads generados por marketing.",
+    "reviewed": true
   },
   {
-    "id": "sls_0137",
-    "term_translation": "Posicionamiento en buscadores",
-    "definition_translation": "Proceso de mejorar la visibilidad de un sitio web en los resultados orgánicos de búsqueda.",
-    "example_translation": "Una buena estrategia requiere tanto contenido de calidad como optimización técnica."
+    "id": "sales_0132",
+    "term": "Limitación de responsabilidad",
+    "acronym": null,
+    "definition": "Cláusula contractual que limita la cantidad máxima por daños que una parte puede reclamar a la otra en caso de incumplimiento de contrato.",
+    "example": "La cláusula de limitación de responsabilidad del contrato establece que su reclamación máxima no puede exceder el total de las tarifas pagadas en los últimos 12 meses.",
+    "reviewed": true
   },
   {
-    "id": "sls_0138",
-    "term_translation": "Análisis de sentimiento",
-    "definition_translation": "Proceso de identificar computacionalmente opiniones expresadas en un texto.",
-    "example_translation": "El estudio de los tuits mostró que los clientes estaban frustrados con la actualización."
+    "id": "sales_0133",
+    "term": "Churn de logos",
+    "acronym": null,
+    "definition": "Métrica que mide la tasa a la que los clientes cancelan sus suscripciones o dejan de hacer negocios con una empresa, contada por el número de cuentas de clientes.",
+    "example": "Aunque nuestros ingresos son estables, nuestro churn de logos es alto, lo que significa que estamos perdiendo clientes pequeños y reemplazándolos por otros más grandes.",
+    "reviewed": true
   },
   {
-    "id": "sls_0139",
-    "term_translation": "Página de resultados del buscador",
-    "definition_translation": "La página mostrada por un motor de búsqueda en respuesta a una consulta.",
-    "example_translation": "Aparecer en la segunda página es prácticamente ser invisible."
+    "id": "sales_0134",
+    "term": "Aversión a la pérdida",
+    "acronym": null,
+    "definition": "Principio psicológico que establece que las personas sienten el dolor de una pérdida con más fuerza que el placer de una ganancia equivalente.",
+    "example": "El vendedor aprovechó la aversión a la pérdida al destacar las desventajas competitivas que la empresa enfrentaría si no adoptaba la nueva tecnología.",
+    "reviewed": true
   },
   {
-    "id": "sls_0140",
-    "term_translation": "Cuota de voz",
-    "definition_translation": "Medida del mercado que posee tu marca en comparación con tus competidores (en términos de visibilidad).",
-    "example_translation": "Nuestra visibilidad en redes sociales aumentó tras la campaña viral."
+    "id": "sales_0135",
+    "term": "Magic Number",
+    "acronym": null,
+    "definition": "Métrica de SaaS utilizada para medir la eficiencia de ventas y marketing, calculando cuántos nuevos ingresos recurrentes se generan por cada dólar gastado.",
+    "example": "Un magic number superior a 0,75 indica que nuestras inversiones en ventas y marketing están generando ingresos de manera eficiente.",
+    "reviewed": true
   },
   {
-    "id": "sls_0141",
-    "term_translation": "Escucha social",
-    "definition_translation": "Proceso de monitorizar conversaciones digitales para entender qué dicen los clientes sobre una marca.",
-    "example_translation": "Estas herramientas nos alertaron de una posible crisis de relaciones públicas."
+    "id": "sales_0136",
+    "term": "Fondos para el desarrollo de mercado",
+    "acronym": "MDF",
+    "definition": "Dinero proporcionado por un fabricante a sus socios de canal, como distribuidores o revendedores, para ayudarles con actividades de marketing y ventas.",
+    "example": "Asignamos nuestros fondos para el desarrollo de mercado a nuestro principal revendedor para ayudarle a realizar una campaña de publicidad local.",
+    "reviewed": true
   },
   {
-    "id": "sls_0142",
-    "term_translation": "Prueba social",
-    "definition_translation": "Fenómeno psicológico donde las personas asumen las acciones de otros como el comportamiento correcto.",
-    "example_translation": "Mostrar 'reseñas de 5 estrellas' es una forma poderosa de generar confianza."
+    "id": "sales_0137",
+    "term": "Contacto multinivel",
+    "acronym": null,
+    "definition": "Práctica de ventas que consiste en establecer relaciones con múltiples partes interesadas (stakeholders) dentro de la organización de un prospecto para reducir el riesgo y mejorar las posibilidades de cerrar un trato.",
+    "example": "El trato es arriesgado porque solo tenemos un contacto; necesitamos empezar a hacer contacto multinivel y construir una relación con el jefe de ingeniería.",
+    "reviewed": true
   },
   {
-    "id": "sls_0143",
-    "term_translation": "Narración de historias",
-    "definition_translation": "Uso de una narrativa para comunicar un mensaje y conectar emocionalmente.",
-    "example_translation": "La marca utilizó un relato conmovedor para conectar con su audiencia."
+    "id": "sales_0138",
+    "term": "Plan de acción mutuo",
+    "acronym": "MAP",
+    "definition": "Documento colaborativo compartido entre un vendedor y un prospecto que describe los pasos y el cronograma que ambas partes deben seguir para completar una compra.",
+    "example": "Creamos un plan de acción mutuo con el cliente para asegurarnos de mantener el rumbo y firmar el contrato a final de mes.",
+    "reviewed": true
   },
   {
-    "id": "sls_0144",
-    "term_translation": "Cadena de suministro",
-    "definition_translation": "Red de todas las personas, organizaciones y actividades involucradas en la creación y venta de un producto.",
-    "example_translation": "Marketing debe coordinarse con operaciones para asegurar que haya stock para la promoción."
+    "id": "sales_0139",
+    "term": "NEAT Selling",
+    "acronym": "NEAT",
+    "definition": "Marco de cualificación de ventas que se centra en comprender las necesidades principales (Needs), el impacto económico (Economic impact), el acceso a la autoridad (Access to authority) y el plazo (Timeline) del prospecto.",
+    "example": "Usar el marco NEAT Selling me ayudó a entender el verdadero impacto económico del problema, lo que fortaleció mi caso de negocio.",
+    "reviewed": true
   },
   {
-    "id": "sls_0145",
-    "term_translation": "Análisis DAFO",
-    "definition_translation": "Técnica de planificación estratégica usada para identificar Debilidades, Amenazas, Fortalezas y Oportunidades.",
-    "example_translation": "Realizamos este análisis antes de entrar en el mercado asiático."
+    "id": "sales_0140",
+    "term": "Ingresos objetivo",
+    "acronym": "OTE",
+    "definition": "La compensación total potencial que un vendedor puede ganar si alcanza el 100 % de su cuota de ventas, compuesta por el salario base más la comisión variable.",
+    "example": "El puesto de ejecutivo de cuentas tiene unos ingresos objetivo de 150.000 $, con un reparto 50/50 entre salario base y comisión.",
+    "reviewed": true
   },
   {
-    "id": "sls_0146",
-    "term_translation": "Público objetivo",
-    "definition_translation": "Grupo específico de consumidores con más probabilidades de querer tu producto.",
-    "example_translation": "Nuestros clientes ideales son profesionales urbanos de 25 a 40 años."
+    "id": "sales_0141",
+    "term": "Proceso de incorporación",
+    "acronym": null,
+    "definition": "Proceso estructurado para ayudar a los nuevos clientes a familiarizarse con un producto o servicio para asegurar su éxito a largo plazo.",
+    "example": "Un proceso de incorporación del cliente fluido es crucial para reducir la tasa de cancelación y aumentar la adopción por parte del usuario.",
+    "reviewed": true
   },
   {
-    "id": "sls_0147",
-    "term_translation": "Líder de opinión",
-    "definition_translation": "Individuo reconocido como una autoridad en un campo especializado.",
-    "example_translation": "Escribir artículos expertos ayudó al CEO a convertirse en una referencia en la industria."
+    "id": "sales_0142",
+    "term": "Tasa de conversión de oportunidad a venta",
+    "acronym": null,
+    "definition": "Métrica de ventas que calcula el porcentaje de oportunidades cualificadas que resultan en un trato cerrado-ganado, también conocida como la tasa de cierre (win rate).",
+    "example": "La tasa de conversión de oportunidad a venta de nuestro equipo es del 25 %, lo que significa que ganamos uno de cada cuatro tratos en nuestro pipeline.",
+    "reviewed": true
   },
   {
-    "id": "sls_0148",
-    "term_translation": "Tono de voz",
-    "definition_translation": "Cómo se transmite el carácter de tu negocio a través de tus palabras.",
-    "example_translation": "El estilo de nuestra marca es profesional pero amigable."
+    "id": "sales_0143",
+    "term": "Formulario de pedido",
+    "acronym": null,
+    "definition": "Documento que un cliente completa para realizar oficialmente un pedido de productos o servicios, especificando cantidades, precios y condiciones.",
+    "example": "Una vez que el cliente firme el formulario de pedido, el trato se considera oficialmente cerrado y podemos comenzar la implementación.",
+    "reviewed": true
   },
   {
-    "id": "sls_0149",
-    "term_translation": "Punto de contacto",
-    "definition_translation": "Cualquier momento de interacción entre un comprador y un vendedor.",
-    "example_translation": "Las llamadas al servicio al cliente son un momento crítico para la marca."
+    "id": "sales_0144",
+    "term": "Gestión de relaciones con socios",
+    "acronym": "PRM",
+    "definition": "La estrategia y el software utilizados para optimizar y gestionar los procesos de negocio entre una empresa y sus socios de canal.",
+    "example": "Usamos un sistema de gestión de relaciones con socios (PRM) para proporcionar a nuestros revendedores material de marketing y hacer un seguimiento de sus esfuerzos de generación de leads.",
+    "reviewed": true
   },
   {
-    "id": "sls_0150",
-    "term_translation": "Propuesta única de venta",
-    "definition_translation": "El factor presentado por un vendedor como la razón por la que su producto es diferente y mejor que el de la competencia.",
-    "example_translation": "Nuestro factor diferencial es que somos la única opción ecológica en el mercado."
+    "id": "sales_0145",
+    "term": "Mix salarial",
+    "acronym": null,
+    "definition": "La proporción del salario base fijo de un vendedor respecto a su comisión variable basada en el rendimiento.",
+    "example": "Un mix salarial de 60/40 significa que el 60 % de los ingresos objetivo del vendedor proviene de su salario base y el 40 % de la comisión.",
+    "reviewed": true
+  },
+  {
+    "id": "sales_0146",
+    "term": "Periodo de recuperación",
+    "acronym": null,
+    "definition": "El tiempo que tarda un cliente en generar suficientes ingresos para cubrir el coste de su adquisición.",
+    "example": "Con nuestros precios actuales, el periodo de recuperación del cliente es de unos 18 meses, lo cual es un poco largo para nuestra industria.",
+    "reviewed": true
+  },
+  {
+    "id": "sales_0147",
+    "term": "Ratio de cobertura del pipeline",
+    "acronym": null,
+    "definition": "Métrica que compara el valor total de todas las oportunidades abiertas en un pipeline de ventas con la cuota del vendedor para un período determinado.",
+    "example": "Nuestro gerente quiere que cada representante mantenga un ratio de cobertura del pipeline de al menos 3x, lo que significa que tienen tres dólares en el pipeline por cada dólar de cuota.",
+    "reviewed": true
+  },
+  {
+    "id": "sales_0148",
+    "term": "Generación de pipeline",
+    "acronym": null,
+    "definition": "El proceso de crear nuevas oportunidades de venta cualificadas para llenar el pipeline de ventas a través de la prospección y el marketing.",
+    "example": "Nuestro enfoque principal para este trimestre es la generación de pipeline, por lo que el equipo de ventas estará haciendo muchas llamadas en frío.",
+    "reviewed": true
+  },
+  {
+    "id": "sales_0149",
+    "term": "Higiene del pipeline",
+    "acronym": null,
+    "definition": "La práctica de revisar y actualizar regularmente un pipeline de ventas para garantizar que todos los datos sean precisos y proporcionen una previsión de ventas realista.",
+    "example": "El gerente de ventas enfatizó la importancia de una buena higiene del pipeline, pidiendo a todos que eliminen los tratos estancados y actualicen las fechas de cierre.",
+    "reviewed": true
+  },
+  {
+    "id": "sales_0150",
+    "term": "Prueba de valor",
+    "acronym": "PoV",
+    "definition": "Demostración en la que un prospecto utiliza un producto para ver y medir su valor de negocio antes de realizar una compra.",
+    "example": "Acordamos una prueba de valor de 30 días, durante la cual el cliente medirá el ahorro de costes para justificar la compra.",
+    "reviewed": true
+  },
+  {
+    "id": "sales_0151",
+    "term": "Revisión trimestral de negocio",
+    "acronym": "QBR",
+    "definition": "Reunión recurrente entre un proveedor y un cliente para revisar el rendimiento, discutir los logros y alinear los objetivos para el próximo trimestre.",
+    "example": "En nuestra revisión trimestral de negocio con el cliente, demostramos cómo nuestro software les ayudó a aumentar la productividad en un 15 % el último trimestre.",
+    "reviewed": true
+  },
+  {
+    "id": "sales_0152",
+    "term": "Capacidad de cuota",
+    "acronym": null,
+    "definition": "La cuota de ventas total que un equipo de ventas podría alcanzar teóricamente si todos los representantes estuvieran plenamente operativos y rindiendo al 100 % de sus cuotas.",
+    "example": "Al contratar nuevos representantes, debemos considerar nuestra capacidad de cuota para asegurar que los objetivos de ingresos de la empresa sean alcanzables.",
+    "reviewed": true
+  },
+  {
+    "id": "sales_0153",
+    "term": "Principio de reciprocidad",
+    "acronym": null,
+    "definition": "Principio de psicología social según el cual las personas se sienten obligadas a devolver un favor después de haber recibido algo primero.",
+    "example": "Al proporcionar un informe gratuito del sector, el vendedor estaba usando el principio de reciprocidad para animar al prospecto a aceptar una reunión.",
+    "reviewed": true
+  },
+  {
+    "id": "sales_0154",
+    "term": "Redlining",
+    "acronym": null,
+    "definition": "En el contexto de las ventas, el proceso de editar y marcar un contrato o documento legal para mostrar los cambios propuestos durante las negociaciones.",
+    "example": "El equipo legal del cliente está realizando el redlining del acuerdo ahora; deberíamos recibir sus propuestas de cambio para mañana.",
+    "reviewed": true
+  },
+  {
+    "id": "sales_0155",
+    "term": "Acuerdo de colaboración por referencias",
+    "acronym": null,
+    "definition": "Contrato formal que describe los términos bajo los cuales un socio referirá clientes potenciales a una empresa a cambio de una comisión.",
+    "example": "Firmamos un acuerdo de colaboración por referencias con una consultora que trabaja con nuestros clientes ideales.",
+    "reviewed": true
+  },
+  {
+    "id": "sales_0156",
+    "term": "Tasa de renovación",
+    "acronym": null,
+    "definition": "El porcentaje de clientes que renuevan sus suscripciones o contratos al final de un período.",
+    "example": "Nuestra alta tasa de renovación del 92 % demuestra que nuestros clientes están satisfechos y encuentran valor continuo en nuestro servicio.",
+    "reviewed": true
+  },
+  {
+    "id": "sales_0157",
+    "term": "Inteligencia de ingresos",
+    "acronym": null,
+    "definition": "Software que utiliza inteligencia artificial para capturar y analizar datos de interacción con el cliente para proporcionar a los equipos de ventas información y previsiones.",
+    "example": "Nuestra nueva plataforma de inteligencia de ingresos graba todas las llamadas de ventas e identifica automáticamente los temas clave y las acciones a seguir.",
+    "reviewed": true
+  },
+  {
+    "id": "sales_0158",
+    "term": "Derecho de adquisición preferente",
+    "acronym": null,
+    "definition": "Un derecho contractual que otorga a una parte la oportunidad de celebrar una transacción comercial con otra parte antes que nadie.",
+    "example": "Nuestro acuerdo de asociación incluye un derecho de adquisición preferente, por lo que deben ofrecernos el nuevo acuerdo de distribución antes de contactar a nuestros competidores.",
+    "reviewed": true
+  },
+  {
+    "id": "sales_0159",
+    "term": "Reglas de actuación",
+    "acronym": null,
+    "definition": "Conjunto formal de directrices que definen cómo deben interactuar los diferentes equipos de ventas o canales con los prospectos para evitar conflictos.",
+    "example": "Las reglas de actuación establecen claramente que el equipo de grandes cuentas no puede contactar a leads con menos de 500 empleados.",
+    "reviewed": true
+  },
+  {
+    "id": "sales_0160",
+    "term": "Tecnología de aceleración de ventas",
+    "acronym": null,
+    "definition": "Software y herramientas diseñadas para acelerar el proceso de ventas mediante la automatización de tareas administrativas y la mejora de la comunicación.",
+    "example": "Nuestra tecnología de aceleración de ventas incluye un marcador automático, que ayuda a nuestros representantes a contactar más leads cada día.",
+    "reviewed": true
+  },
+  {
+    "id": "sales_0161",
+    "term": "Ratio de eficiencia de ventas",
+    "acronym": null,
+    "definition": "Métrica que mide la eficiencia con la que una empresa genera nuevos ingresos a partir de su inversión en ventas y marketing.",
+    "example": "Los inversores siguen de cerca nuestro ratio de eficiencia de ventas para ver si nuestro crecimiento es sostenible y rentable.",
+    "reviewed": true
+  },
+  {
+    "id": "sales_0162",
+    "term": "Sala de ventas",
+    "acronym": null,
+    "definition": "El espacio físico en una oficina donde trabaja el equipo de ventas, a menudo caracterizado por un ambiente enérgico y colaborativo.",
+    "example": "Siempre se oye sonar la campana en la sala de ventas cuando alguien cierra un gran trato.",
+    "reviewed": true
+  },
+  {
+    "id": "sales_0163",
+    "term": "Gamificación de ventas",
+    "acronym": null,
+    "definition": "La aplicación de elementos propios de los juegos, como tablas de clasificación y competiciones, a las actividades de ventas para motivar a los representantes e impulsar el rendimiento.",
+    "example": "Nuestra plataforma de gamificación de ventas muestra una tabla de clasificación en vivo de quién ha hecho más llamadas, lo que fomenta una competencia amistosa.",
+    "reviewed": true
+  },
+  {
+    "id": "sales_0164",
+    "term": "Fondo de incentivos para el rendimiento de ventas",
+    "acronym": "SPIF",
+    "definition": "Programa de incentivos a corto plazo diseñado para motivar a los representantes de ventas a alcanzar un objetivo particular, a menudo recompensado con dinero en efectivo o premios.",
+    "example": "Este mes, el premio de nuestro fondo de incentivos para el rendimiento de ventas (SPIF) es de 500 $ para la primera persona que venda nuestro nuevo paquete de productos.",
+    "reviewed": true
+  },
+  {
+    "id": "sales_0165",
+    "term": "Gestión del rendimiento de ventas",
+    "acronym": "SPM",
+    "definition": "El proceso y las herramientas utilizadas para supervisar, gestionar y mejorar el rendimiento de una organización de ventas, abarcando la compensación, la planificación de territorios y el coaching.",
+    "example": "Estamos implementando un nuevo sistema de gestión del rendimiento de ventas para tener una mejor visibilidad de los resultados de nuestro equipo.",
+    "reviewed": true
+  },
+  {
+    "id": "sales_0166",
+    "term": "Sandler Selling System",
+    "acronym": null,
+    "definition": "Metodología de ventas que enfatiza la construcción de confianza mutua y hace que el vendedor actúe como un consultor que cualifica al prospecto.",
+    "example": "Al seguir el Sandler Selling System, descalificó al prospecto temprano, ahorrándose semanas de esfuerzo inútil en un trato que nunca se habría cerrado.",
+    "reviewed": true
+  },
+  {
+    "id": "sales_0167",
+    "term": "Principio de escasez",
+    "acronym": null,
+    "definition": "Principio psicológico según el cual las personas otorgan un mayor valor a las cosas que son escasas o de disponibilidad limitada.",
+    "example": "El vendedor utilizó el principio de escasez al mencionar que 'el descuento del 20 % solo está disponible para los diez primeros clientes'.",
+    "reviewed": true
+  },
+  {
+    "id": "sales_0185",
+    "term": "Lead calificado por ventas",
+    "acronym": "SQL",
+    "definition": "Un cliente potencial que el equipo de ventas ha investigado y evaluado, determinando que es un buen candidato y está listo para un seguimiento de ventas directo.",
+    "example": "El equipo de marketing nos envió 20 MQL, pero tras nuestra revisión, solo cinco se convirtieron en leads calificados por ventas (SQL) para que los ejecutivos de cuentas los contactaran activamente.",
+    "reviewed": true
+  },
+  {
+    "id": "sales_0186",
+    "term": "Lead calificado por marketing",
+    "acronym": "MQL",
+    "definition": "Un cliente potencial que ha mostrado interés al interactuar con el contenido de marketing, como descargar un libro electrónico o registrarse en un seminario web.",
+    "example": "Generamos más de 100 leads calificados por marketing (MQL) con nuestra última campaña publicitaria; ahora necesitamos nutrirlos hasta que se conviertan en SQL.",
+    "reviewed": true
+  },
+  {
+    "id": "sales_0187",
+    "term": "Perfil de cliente ideal",
+    "acronym": "ICP",
+    "definition": "Una descripción detallada de una empresa ficticia que obtendría un valor significativo del producto y que representa al cliente perfecto.",
+    "example": "Nuestro equipo de ventas centra sus esfuerzos en empresas que se ajustan a nuestro perfil de cliente ideal (ICP), ya que es más probable que cierren un trato y tengan un mayor valor de vida.",
+    "reviewed": true
+  },
+  {
+    "id": "sales_0188",
+    "term": "Ingresos Anuales Recurrentes",
+    "acronym": "ARR",
+    "definition": "Una métrica clave para los negocios basados en suscripciones que muestra el valor total de los ingresos por suscripción que se puede esperar recibir de los clientes en un año.",
+    "example": "Con los nuevos contratos empresariales que acabamos de firmar, se proyecta que nuestro ARR supere los 5 millones de dólares al final del año fiscal.",
+    "reviewed": true
+  },
+  {
+    "id": "sales_0189",
+    "term": "Ingresos Mensuales Recurrentes",
+    "acronym": "MRR",
+    "definition": "Los ingresos totales predecibles que una empresa espera recibir de todas sus suscripciones activas de forma mensual.",
+    "example": "Nuestro MRR creció un 10% este trimestre, gracias a nuestro nuevo plan de precios y a una disminución en la tasa de cancelación de clientes.",
+    "reviewed": true
+  },
+  {
+    "id": "sales_0190",
+    "term": "Costo de Adquisición de Cliente",
+    "acronym": "CAC",
+    "definition": "El costo total de los esfuerzos de ventas y marketing necesarios para adquirir un nuevo cliente.",
+    "example": "Necesitamos reducir nuestro CAC; actualmente estamos gastando 300 dólares para adquirir cada nuevo cliente, lo cual no es sostenible.",
+    "reviewed": true
+  },
+  {
+    "id": "sales_0191",
+    "term": "Valor del Ciclo de Vida del Cliente",
+    "acronym": "CLV",
+    "definition": "Los ingresos totales que una empresa puede esperar razonablemente de la cuenta de un solo cliente durante toda la relación comercial.",
+    "example": "Nuestro objetivo es tener un CLV que sea al menos tres veces nuestro CAC para asegurar que nuestro modelo de negocio sea rentable.",
+    "reviewed": true
+  },
+  {
+    "id": "sales_0192",
+    "term": "Retención Neta de Ingresos",
+    "acronym": "NRR",
+    "definition": "Una métrica que mide el porcentaje de ingresos recurrentes retenidos de los clientes existentes, incluyendo mejoras, degradaciones y cancelaciones.",
+    "example": "Nuestra NRR es del 110%, lo que significa que nuestros clientes existentes no solo se quedan, sino que también gastan más dinero con nosotros a través de expansiones.",
+    "reviewed": true
+  },
+  {
+    "id": "sales_0193",
+    "term": "Tasa de Crecimiento de Leads",
+    "acronym": "LVR",
+    "definition": "La tasa de crecimiento de los leads calificados que tu negocio genera mes a mes, utilizada como un predictor clave de los ingresos futuros.",
+    "example": "Nuestra LVR es de un sólido 15%, lo que indica que nuestro pipeline de ventas está creciendo de forma saludable y podemos esperar fuertes ventas el próximo trimestre.",
+    "reviewed": true
+  },
+  {
+    "id": "sales_0194",
+    "term": "Prueba de Concepto",
+    "acronym": "PoC",
+    "definition": "Un proyecto de prueba a pequeña escala utilizado para demostrar la viabilidad y el valor de un producto a un cliente potencial antes de que se comprometa a una compra completa.",
+    "example": "El cliente quiere realizar una PoC de 30 días con su equipo de ingeniería antes de firmar el contrato anual.",
+    "reviewed": true
+  },
+  {
+    "id": "sales_0195",
+    "term": "Operaciones de Ingresos",
+    "acronym": "RevOps",
+    "definition": "La alineación estratégica de las operaciones de ventas, marketing y servicio al cliente para impulsar el crecimiento de los ingresos y mejorar la eficiencia.",
+    "example": "Desde que implementamos una estrategia de RevOps, nuestros equipos de ventas y marketing por fin trabajan juntos a partir de una única fuente de datos.",
+    "reviewed": true
+  },
+  {
+    "id": "sales_0196",
+    "term": "Representante de Desarrollo de Ventas",
+    "acronym": "SDR",
+    "definition": "Un rol de ventas internas enfocado en la prospección de salida y la calificación de nuevos leads para vendedores más experimentados.",
+    "example": "Nuestro equipo de SDR es responsable de hacer llamadas en frío y enviar correos electrónicos a clientes potenciales para concertar reuniones iniciales.",
+    "reviewed": true
+  },
+  {
+    "id": "sales_0197",
+    "term": "Ejecutivo de Cuentas",
+    "acronym": "AE",
+    "definition": "Un vendedor responsable de gestionar el ciclo de ventas completo, desde la demostración del producto hasta la negociación y el cierre de tratos.",
+    "example": "Una vez que el SDR califica a un lead, se lo pasa a un AE para que realice la demostración y gestione el trato hasta su cierre.",
+    "reviewed": true
+  },
+  {
+    "id": "sales_0198",
+    "term": "Declaración de Trabajo",
+    "acronym": "SOW",
+    "definition": "Un documento formal que detalla las actividades específicas, los entregables, los plazos y los costos para un proyecto o servicio contratado.",
+    "example": "Antes de empezar el proyecto, ambas partes deben revisar y firmar la SOW para acordar el alcance y las expectativas.",
+    "reviewed": true
+  },
+  {
+    "id": "sales_0199",
+    "term": "Acuerdo Marco de Servicios",
+    "acronym": "MSA",
+    "definition": "Un contrato fundamental entre dos partes que establece los términos generales para todos los negocios futuros, cuyos detalles se especifican en Declaraciones de Trabajo separadas.",
+    "example": "Tenemos un MSA vigente con el proveedor, por lo que para cada nuevo proyecto solo necesitamos redactar una SOW breve.",
+    "reviewed": true
+  },
+  {
+    "id": "sales_0200",
+    "term": "Solicitud de Propuesta",
+    "acronym": "RFP",
+    "definition": "Un documento comercial formal que anuncia un proyecto y solicita ofertas de proveedores calificados para completarlo.",
+    "example": "La agencia gubernamental emitió una RFP para un nuevo sistema de software, y nuestro equipo de ventas está trabajando duro para presentar una oferta competitiva.",
+    "reviewed": true
+  },
+  {
+    "id": "sales_0201",
+    "term": "Parte Alta del Embudo",
+    "acronym": "TOFU",
+    "definition": "La etapa inicial del proceso de ventas y marketing, enfocada en generar una amplia conciencia de marca y atraer a una gran audiencia de leads potenciales.",
+    "example": "Nuestra estrategia TOFU incluye escribir artículos de blog y publicar anuncios en redes sociales para atraer a personas que recién comienzan a investigar un problema.",
+    "reviewed": true
   }
 ]

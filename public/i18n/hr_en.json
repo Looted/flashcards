@@ -1,1951 +1,2665 @@
 [
   {
     "id": "hr_0001",
-    "term": "Talent acquisition",
-    "definition": "The ongoing process of strategically identifying, attracting, and hiring people with skills that match the organization’s long-term needs.",
-    "example": "Our Talent acquisition team builds relationships with niche communities long before a vacancy appears.",
+    "term": "9-Box Grid",
+    "definition": "A talent management tool that plots employees on a grid based on their current performance and future potential.",
+    "example": "During the talent review, we used the 9-Box Grid to identify high-potential employees who are ready for leadership roles.",
     "metadata": {
-      "difficulty": 1,
+      "difficulty": 3,
       "tags": [
-        "recruitment",
-        "strategy"
+        "HR",
+        "talent management",
+        "performance management"
       ]
     }
   },
   {
     "id": "hr_0002",
-    "term": "Employer branding",
-    "definition": "The set of activities used to shape how current and potential employees perceive an organization as a place to work.",
-    "example": "Improving our Employer branding reduced the number of candidates who declined offers at the last minute.",
+    "term": "360-Degree Feedback",
+    "definition": "A performance review process where an employee receives confidential, anonymous feedback from their manager, peers, and direct reports.",
+    "example": "Our leadership team is undergoing a 360-Degree Feedback process to gain a holistic view of their management style.",
     "metadata": {
       "difficulty": 2,
       "tags": [
-        "brand",
-        "recruitment"
+        "HR",
+        "performance management",
+        "leadership"
       ]
     }
   },
   {
     "id": "hr_0003",
-    "term": "Employer value proposition",
-    "definition": "The unique mix of benefits, culture, and career opportunities that an organization promises in exchange for an employee’s skills and commitment.",
-    "example": "We rewrote the Employer value proposition to emphasize learning opportunities and flexible work.",
+    "term": "Adverse Impact Analysis",
+    "definition": "A statistical analysis used to determine if a selection process, such as hiring or promotion, has a discriminatory effect on a legally protected group.",
+    "example": "The company conducted an adverse impact analysis on its new hiring assessment to ensure it was fair to all demographic groups.",
     "metadata": {
       "difficulty": 3,
       "tags": [
-        "engagement",
+        "HR",
+        "legal",
+        "compliance",
         "recruitment"
       ]
     }
   },
   {
     "id": "hr_0004",
-    "term": "Workforce planning",
-    "definition": "A structured process for forecasting future talent needs and aligning staffing levels with business objectives.",
-    "example": "Through Workforce planning, HR identified critical roles that need successors in the next three years.",
+    "term": "Applicant Tracking System",
+    "acronym": "ATS",
+    "definition": "Software that helps companies manage and organize job applications and streamline the recruitment process.",
+    "example": "Our new Applicant Tracking System automatically screens resumes for keywords, saving our recruiters hours of work.",
     "metadata": {
       "difficulty": 1,
       "tags": [
-        "planning",
-        "staffing"
+        "HR",
+        "recruitment",
+        "technology"
       ]
     }
   },
   {
     "id": "hr_0005",
-    "term": "Headcount planning",
-    "definition": "The process of determining the number and type of positions an organization requires over a specific time horizon.",
-    "example": "Finance and HR collaborate on Headcount planning during the annual budget cycle.",
+    "term": "At-Will Employment",
+    "definition": "A legal employment relationship where an employer can dismiss an employee for any non-illegal reason without warning, and an employee can quit at any time.",
+    "example": "In most US states, at-will employment gives both the company and the employee flexibility to end the working relationship.",
     "metadata": {
       "difficulty": 2,
       "tags": [
-        "planning",
-        "budgeting"
+        "HR",
+        "legal",
+        "compliance"
       ]
     }
   },
   {
     "id": "hr_0006",
-    "term": "Talent pipeline",
-    "definition": "A pool of pre-qualified and engaged candidates who can fill current and future vacancies with minimal delay.",
-    "example": "Maintaining a strong Talent pipeline helped us replace a departing director within a few weeks.",
+    "term": "Attrition Rate",
+    "definition": "The rate at which employees leave a company over a specific period, often expressed as a percentage.",
+    "example": "The high attrition rate in the customer service department prompted HR to investigate issues with workload and management.",
     "metadata": {
-      "difficulty": 3,
+      "difficulty": 2,
       "tags": [
-        "recruitment",
-        "succession"
+        "HR",
+        "analytics",
+        "retention"
       ]
     }
   },
   {
     "id": "hr_0007",
-    "term": "Talent pool",
-    "definition": "A curated group of people with relevant skills who have shown interest in working for the organization.",
-    "example": "We tagged former interns in our Talent pool so recruiters can easily re-engage them.",
+    "term": "Boolean Search String",
+    "definition": "A search technique that uses operators like AND, OR, and NOT to combine keywords and find more relevant candidates in a database.",
+    "example": "The recruiter used a complex Boolean search string on LinkedIn to find a software engineer with Java skills but not management experience.",
     "metadata": {
-      "difficulty": 1,
+      "difficulty": 3,
       "tags": [
+        "HR",
         "recruitment",
-        "database"
+        "technology"
       ]
     }
   },
   {
     "id": "hr_0008",
-    "term": "Sourcing strategy",
-    "definition": "A plan that defines where and how recruiters will search for suitable candidates for specific roles.",
-    "example": "For senior engineers, the Sourcing strategy focuses on referrals and professional communities rather than job boards.",
+    "term": "Broadbanding",
+    "definition": "A compensation strategy that consolidates a large number of narrow salary grades into fewer, wider salary bands.",
+    "example": "Our company implemented broadbanding to give managers more flexibility in setting salaries and to support career growth across different roles.",
     "metadata": {
-      "difficulty": 2,
+      "difficulty": 3,
       "tags": [
-        "recruitment",
-        "sourcing"
+        "HR",
+        "compensation",
+        "strategy"
       ]
     }
   },
   {
     "id": "hr_0009",
-    "term": "Campus recruitment",
-    "definition": "Targeted hiring activities conducted at universities or colleges to attract graduates and interns.",
-    "example": "Our Campus recruitment program includes case-study workshops and mock interviews.",
+    "term": "Calibration Meeting",
+    "definition": "A meeting where managers discuss and align their employees' performance ratings to ensure fairness and consistency across the organization.",
+    "example": "We're holding a calibration meeting next week to make sure the performance scores given by different department heads are consistent.",
     "metadata": {
-      "difficulty": 3,
+      "difficulty": 2,
       "tags": [
-        "recruitment",
-        "graduates"
+        "HR",
+        "performance management",
+        "management"
       ]
     }
   },
   {
     "id": "hr_0010",
-    "term": "Internal mobility",
-    "definition": "The practice of filling vacancies by moving existing employees across roles, teams, or locations.",
-    "example": "Promoting Internal mobility increased retention among high-performing specialists.",
-    "metadata": {
-      "difficulty": 1,
-      "tags": [
-        "career",
-        "succession"
-      ]
-    }
-  },
-  {
-    "id": "hr_0011",
-    "term": "Job requisition",
-    "definition": "An internal request that formally initiates the hiring process for a specific position.",
-    "example": "The hiring manager submitted a Job requisition outlining responsibilities and budget for the role.",
-    "metadata": {
-      "difficulty": 2,
-      "tags": [
-        "recruitment",
-        "process"
-      ]
-    }
-  },
-  {
-    "id": "hr_0012",
-    "term": "Job posting strategy",
-    "definition": "A deliberate approach to deciding where, when, and how to publish vacancy announcements.",
-    "example": "We revised the Job posting strategy to prioritize niche platforms over generic job portals.",
+    "term": "Candidate Journey Mapping",
+    "definition": "The process of visualizing every interaction a potential employee has with a company, from initial awareness to hiring, to improve the experience.",
+    "example": "By using candidate journey mapping, we identified and fixed a major bottleneck in our application process.",
     "metadata": {
       "difficulty": 3,
       "tags": [
+        "HR",
         "recruitment",
+        "strategy",
         "marketing"
       ]
     }
   },
   {
-    "id": "hr_0013",
-    "term": "Candidate experience",
-    "definition": "How applicants perceive and emotionally respond to all interactions with an employer during the hiring journey.",
-    "example": "Simplifying the application form significantly improved the overall Candidate experience.",
+    "id": "hr_0011",
+    "term": "Career Pathing",
+    "definition": "The process of creating a formal plan for an employee's professional growth and advancement within an organization.",
+    "example": "Good career pathing helps employees see a future with the company, which significantly improves our retention rates.",
     "metadata": {
-      "difficulty": 1,
+      "difficulty": 2,
       "tags": [
-        "recruitment",
-        "engagement"
+        "HR",
+        "talent management",
+        "employee development"
+      ]
+    }
+  },
+  {
+    "id": "hr_0012",
+    "term": "Change Management",
+    "definition": "A structured approach for ensuring that organizational changes are implemented smoothly and that the lasting benefits are achieved.",
+    "example": "The HR team is leading the change management efforts for our transition to a hybrid work model.",
+    "metadata": {
+      "difficulty": 2,
+      "tags": [
+        "HR",
+        "management",
+        "strategy",
+        "operations"
+      ]
+    }
+  },
+  {
+    "id": "hr_0013",
+    "term": "Comp-a-Ratio",
+    "definition": "A formula (employee's salary divided by the salary range midpoint) used to assess how an individual's pay compares to the market average.",
+    "example": "An employee with a comp-a-ratio below 1.0 is paid less than the midpoint for their role, which may warrant a salary review.",
+    "metadata": {
+      "difficulty": 3,
+      "tags": [
+        "HR",
+        "compensation",
+        "analytics"
       ]
     }
   },
   {
     "id": "hr_0014",
-    "term": "Recruitment funnel",
-    "definition": "A staged view of the hiring pipeline that tracks how candidates move from attraction to offer acceptance.",
-    "example": "By analyzing the Recruitment funnel, HR found that many applicants dropped out after the screening call.",
+    "term": "Compensation Benchmarking",
+    "definition": "The process of comparing your company's salary and benefits packages to what competitors in the same industry are paying.",
+    "example": "We conduct annual compensation benchmarking to ensure our salaries remain competitive enough to attract top talent.",
     "metadata": {
       "difficulty": 2,
       "tags": [
-        "analytics",
-        "recruitment"
+        "HR",
+        "compensation",
+        "strategy"
       ]
     }
   },
   {
     "id": "hr_0015",
-    "term": "Time-to-hire",
-    "definition": "A metric that measures the number of days between opening a position and a candidate accepting the offer.",
-    "example": "Reducing Time-to-hire by two weeks gave us an advantage in a competitive talent market.",
+    "term": "Competency Mapping",
+    "definition": "The process of identifying the key skills, knowledge, and behaviors required for an individual to perform a specific job successfully.",
+    "example": "Through competency mapping, we created a clear framework for promotions within the marketing team.",
     "metadata": {
       "difficulty": 3,
       "tags": [
-        "metrics",
-        "recruitment"
+        "HR",
+        "talent management",
+        "performance management"
       ]
     }
   },
   {
     "id": "hr_0016",
-    "term": "Cost-per-hire",
-    "definition": "The average amount of money spent to fill a vacancy, including advertising, tools, and internal labor.",
-    "example": "We calculated Cost-per-hire to justify investing in an in-house sourcing team.",
+    "term": "Constructive Dismissal",
+    "definition": "A situation where an employee resigns because the employer created a hostile work environment, effectively forcing them to quit.",
+    "example": "After her core responsibilities were taken away without cause, she filed a lawsuit for constructive dismissal.",
     "metadata": {
-      "difficulty": 1,
+      "difficulty": 3,
       "tags": [
-        "metrics",
-        "budgeting"
+        "HR",
+        "legal",
+        "compliance",
+        "employee relations"
       ]
     }
   },
   {
     "id": "hr_0017",
-    "term": "Applicant tracking system",
-    "definition": "Software used to manage job applications, automate workflows, and store candidate data across the recruitment process.",
-    "example": "Our Applicant tracking system automatically screens résumés for mandatory qualifications.",
+    "term": "Contingent Workforce Management",
+    "definition": "The strategic approach to managing a company's non-permanent workers, such as freelancers, contractors, and temporary staff.",
+    "example": "Our contingent workforce management program allows us to scale our team up or down quickly based on project demands.",
     "metadata": {
       "difficulty": 2,
       "tags": [
-        "systems",
+        "HR",
+        "management",
+        "operations",
         "recruitment"
       ]
     }
   },
   {
     "id": "hr_0018",
-    "term": "Screening question",
-    "definition": "A predefined inquiry used early in the hiring process to quickly eliminate candidates who do not meet basic criteria.",
-    "example": "Adding a language proficiency Screening question saved recruiters hours of phone calls.",
+    "term": "Continuous Performance Management",
+    "definition": "An ongoing process where managers provide regular feedback and coaching to employees, rather than relying on a single annual review.",
+    "example": "We moved away from yearly appraisals to a system of continuous performance management with quarterly check-ins.",
     "metadata": {
-      "difficulty": 3,
+      "difficulty": 2,
       "tags": [
-        "selection",
-        "recruitment"
+        "HR",
+        "performance management",
+        "management"
       ]
     }
   },
   {
     "id": "hr_0019",
-    "term": "Structured interview",
-    "definition": "A conversation in which all candidates are asked the same set of predefined, job-related questions.",
-    "example": "Using a Structured interview format increased the consistency of our hiring decisions.",
+    "term": "Employee Lifecycle Management",
+    "acronym": "ELM",
+    "definition": "The process of managing all stages of an employee's time with a company, from recruitment and onboarding to development and departure.",
+    "example": "Effective Employee Lifecycle Management ensures a positive experience at every stage, which strengthens our company culture.",
     "metadata": {
-      "difficulty": 1,
+      "difficulty": 2,
       "tags": [
-        "selection",
-        "interviewing"
+        "HR",
+        "strategy",
+        "talent management"
       ]
     }
   },
   {
     "id": "hr_0020",
-    "term": "Competency-based interview",
-    "definition": "An interview format that explores past behaviors to assess whether a candidate demonstrates specific job-related competencies.",
-    "example": "In a Competency-based interview, candidates describe concrete situations instead of giving hypothetical answers.",
+    "term": "Employee Net Promoter Score",
+    "acronym": "eNPS",
+    "definition": "A metric used to measure employee loyalty by asking how likely they are to recommend their company as a great place to work.",
+    "example": "Our quarterly pulse survey includes the eNPS question to quickly gauge how our employees feel about the company.",
     "metadata": {
       "difficulty": 2,
       "tags": [
-        "selection",
-        "competencies"
+        "HR",
+        "analytics",
+        "employee engagement"
       ]
     }
   },
   {
     "id": "hr_0021",
-    "term": "Behavioral interview",
-    "definition": "An interview style that focuses on how candidates handled real situations to predict future performance.",
-    "example": "The recruiter used Behavioral interview questions to probe how the candidate manages conflict.",
+    "term": "Employee Stock Ownership Plan",
+    "acronym": "ESOP",
+    "definition": "An employee benefit plan that gives workers ownership interest in the company in the form of shares of stock.",
+    "example": "Our ESOP is a key benefit for attracting and retaining long-term employees who feel like true owners of the business.",
     "metadata": {
       "difficulty": 3,
       "tags": [
-        "selection",
-        "interviewing"
+        "HR",
+        "finance",
+        "compensation",
+        "benefits"
       ]
     }
   },
   {
     "id": "hr_0022",
-    "term": "Assessment center",
-    "definition": "A multi-step evaluation process that uses simulations, tests, and group exercises to assess candidates’ skills.",
-    "example": "Graduates completed an Assessment center with role plays and case studies before receiving offers.",
+    "term": "Employer Value Proposition",
+    "acronym": "EVP",
+    "definition": "The unique set of benefits and rewards an employee receives in return for their skills, capabilities, and experience at a company.",
+    "example": "Our Employer Value Proposition highlights our flexible work policies and professional development opportunities to attract top candidates.",
     "metadata": {
-      "difficulty": 1,
+      "difficulty": 2,
       "tags": [
-        "assessment",
-        "selection"
+        "HR",
+        "recruitment",
+        "strategy",
+        "marketing"
       ]
     }
   },
   {
     "id": "hr_0023",
-    "term": "Background screening",
-    "definition": "The verification of a candidate’s identity, qualifications, and history before finalizing a hire.",
-    "example": "Background screening revealed discrepancies in the candidate’s employment dates.",
+    "term": "Fiduciary Responsibility",
+    "definition": "A legal and ethical obligation to act in the best financial interests of another party, such as when managing a company's retirement plan.",
+    "example": "The HR director has a fiduciary responsibility to manage the employee 401(k) plan for the sole benefit of the participants.",
     "metadata": {
-      "difficulty": 2,
+      "difficulty": 3,
       "tags": [
-        "compliance",
-        "selection"
+        "HR",
+        "legal",
+        "finance",
+        "compliance"
       ]
     }
   },
   {
     "id": "hr_0024",
-    "term": "Reference check",
-    "definition": "The process of contacting previous supervisors or colleagues to validate a candidate’s experience and behavior.",
-    "example": "A structured Reference check template helps managers ask consistent questions.",
+    "term": "Forced Ranking",
+    "definition": "A performance management system where employees are ranked against each other, and a certain percentage are placed in top, middle, and bottom categories.",
+    "example": "The company abandoned forced ranking because it was damaging morale and discouraging teamwork.",
     "metadata": {
-      "difficulty": 3,
+      "difficulty": 2,
       "tags": [
-        "selection",
-        "verification"
+        "HR",
+        "performance management",
+        "management"
       ]
     }
   },
   {
     "id": "hr_0025",
-    "term": "Offer management",
-    "definition": "Coordinating the content, approval, and communication of job offers to selected candidates.",
-    "example": "Digital signatures made Offer management faster for both HR and candidates.",
+    "term": "Gainsharing",
+    "definition": "An incentive program that rewards employees for improvements in company performance with a share of the resulting financial gains.",
+    "example": "Our new gainsharing plan will distribute a portion of the factory's cost savings back to the production team members.",
     "metadata": {
-      "difficulty": 1,
+      "difficulty": 3,
       "tags": [
-        "recruitment",
-        "process"
+        "HR",
+        "compensation",
+        "finance",
+        "performance management"
       ]
     }
   },
   {
     "id": "hr_0026",
-    "term": "Onboarding program",
-    "definition": "A structured set of activities that help new employees integrate into the organization and become productive.",
-    "example": "Our Onboarding program pairs every newcomer with a buddy during the first month.",
+    "term": "Grievance Procedure",
+    "definition": "A formal process for employees to raise complaints about their workplace conditions or treatment without fear of retaliation.",
+    "example": "If you feel you have been treated unfairly, you should follow the official grievance procedure outlined in the employee handbook.",
     "metadata": {
       "difficulty": 2,
       "tags": [
-        "onboarding",
-        "engagement"
+        "HR",
+        "legal",
+        "compliance",
+        "employee relations"
       ]
     }
   },
   {
     "id": "hr_0027",
-    "term": "Probation period",
-    "definition": "An initial phase of employment during which fit and performance are evaluated before confirming the contract.",
-    "example": "The manager extended the Probation period to give the employee more time to improve.",
+    "term": "Headcount Planning",
+    "definition": "The process of analyzing and forecasting the number of employees and types of skills an organization needs to achieve its goals.",
+    "example": "Annual headcount planning ensures that our hiring budget is aligned with the company's strategic growth objectives.",
     "metadata": {
-      "difficulty": 3,
+      "difficulty": 2,
       "tags": [
-        "contracts",
-        "performance"
+        "HR",
+        "strategy",
+        "finance",
+        "workforce planning"
       ]
     }
   },
   {
     "id": "hr_0028",
-    "term": "Induction training",
-    "definition": "Introductory learning sessions that familiarize new employees with policies, tools, and culture.",
-    "example": "All new hires attend Induction training on workplace ethics and safety rules.",
+    "term": "HR Business Partner",
+    "acronym": "HRBP",
+    "definition": "An HR professional who works directly with a company's leadership to develop and execute an HR strategy that aligns with business objectives.",
+    "example": "The HR Business Partner for the sales department helped design a new commission structure.",
     "metadata": {
-      "difficulty": 1,
+      "difficulty": 2,
       "tags": [
-        "onboarding",
-        "training"
+        "HR",
+        "strategy",
+        "management"
       ]
     }
   },
   {
     "id": "hr_0029",
-    "term": "Offboarding process",
-    "definition": "The set of formal and informal steps taken when an employee leaves the organization.",
-    "example": "A well-designed Offboarding process protects knowledge and reduces legal risk.",
+    "term": "Human Capital Management",
+    "acronym": "HCM",
+    "definition": "The set of practices for recruiting, managing, and optimizing employees to increase their value, often referring to the software used for these tasks.",
+    "example": "Our new HCM system integrates payroll, performance reviews, and benefits administration into a single platform.",
     "metadata": {
       "difficulty": 2,
       "tags": [
-        "exit",
-        "process"
+        "HR",
+        "strategy",
+        "technology"
       ]
     }
   },
   {
     "id": "hr_0030",
-    "term": "Exit interview",
-    "definition": "A structured conversation with a departing employee to collect feedback and understand the reasons for leaving.",
-    "example": "Insights from the Exit interview led to improvements in our leadership training.",
+    "term": "Human Resources Information System",
+    "acronym": "HRIS",
+    "definition": "Software used to collect and store employee data, such as personal information, payroll, and benefits.",
+    "example": "Please update your address in the HRIS so we can mail your tax documents to the correct location.",
     "metadata": {
-      "difficulty": 3,
+      "difficulty": 1,
       "tags": [
-        "exit",
-        "feedback"
+        "HR",
+        "technology",
+        "data"
       ]
     }
   },
   {
     "id": "hr_0031",
-    "term": "Succession planning",
-    "definition": "A proactive approach to identifying and developing people who can step into key roles in the future.",
-    "example": "Succession planning ensured there was a ready successor when the CFO retired.",
+    "term": "Instructional Design",
+    "definition": "The systematic process of designing and developing learning materials and experiences to help people acquire new skills.",
+    "example": "Our training team uses instructional design principles to create engaging and effective online safety courses.",
     "metadata": {
-      "difficulty": 1,
+      "difficulty": 3,
       "tags": [
-        "leadership",
-        "planning"
+        "HR",
+        "training",
+        "employee development"
       ]
     }
   },
   {
     "id": "hr_0032",
-    "term": "Career pathing",
-    "definition": "Designing and communicating possible role progressions that employees can follow within the organization.",
-    "example": "Transparent Career pathing helped specialists see non-managerial growth options.",
+    "term": "Kirkpatrick Model",
+    "definition": "A method for evaluating the effectiveness of training programs across four levels: reaction, learning, behavior, and results.",
+    "example": "We are using the Kirkpatrick Model to measure the true business impact of our new leadership development program.",
     "metadata": {
-      "difficulty": 2,
+      "difficulty": 3,
       "tags": [
-        "career",
-        "development"
+        "HR",
+        "training",
+        "analytics"
       ]
     }
   },
   {
     "id": "hr_0033",
-    "term": "High-potential employee",
-    "definition": "A person identified as having the ability and motivation to grow into significantly larger roles.",
-    "example": "High-potential employees receive accelerated development and stretch assignments.",
+    "term": "Learning Management System",
+    "acronym": "LMS",
+    "definition": "A software application for the administration, tracking, and delivery of educational courses or training programs.",
+    "example": "All new hires must complete the compliance training modules on our Learning Management System within their first week.",
     "metadata": {
-      "difficulty": 3,
+      "difficulty": 1,
       "tags": [
-        "talent",
-        "development"
+        "HR",
+        "training",
+        "technology"
       ]
     }
   },
   {
     "id": "hr_0034",
-    "term": "Leadership pipeline",
-    "definition": "The flow of employees who are being prepared to assume leadership roles at different levels.",
-    "example": "Gaps in the Leadership pipeline became visible when two directors left simultaneously.",
+    "term": "Management by Objectives",
+    "acronym": "MBO",
+    "definition": "A management model that aims to improve performance by defining clear objectives agreed upon by both management and employees.",
+    "example": "With our Management by Objectives approach, each employee's bonus is tied to achieving their specific, pre-agreed goals.",
     "metadata": {
-      "difficulty": 1,
+      "difficulty": 2,
       "tags": [
-        "leadership",
-        "succession"
+        "HR",
+        "management",
+        "performance management",
+        "strategy"
       ]
     }
   },
   {
     "id": "hr_0035",
-    "term": "Individual development plan",
-    "definition": "A personalized document that outlines an employee’s learning goals and actions over a defined period.",
-    "example": "Every manager reviews the Individual development plan of their team members twice a year.",
+    "term": "Organizational Design",
+    "definition": "The process of structuring a company's roles, processes, and reporting relationships to align with its strategic goals.",
+    "example": "The company underwent a major organizational design project to break down silos and encourage cross-functional collaboration.",
     "metadata": {
-      "difficulty": 2,
+      "difficulty": 3,
       "tags": [
-        "development",
-        "planning"
+        "HR",
+        "strategy",
+        "management"
       ]
     }
   },
   {
     "id": "hr_0036",
-    "term": "Performance appraisal",
-    "definition": "A formal evaluation of an employee’s achievements and behaviors over a given timeframe.",
-    "example": "The company replaced annual Performance appraisals with more frequent check-ins.",
+    "term": "Pay Equity Analysis",
+    "definition": "An analysis of compensation data to identify and fix pay differences between employees of different genders, races, or other protected groups.",
+    "example": "Our annual pay equity analysis helps us ensure we are compensating all our employees fairly for similar work.",
     "metadata": {
       "difficulty": 3,
       "tags": [
-        "performance",
-        "evaluation"
+        "HR",
+        "compensation",
+        "legal",
+        "analytics",
+        "compliance"
       ]
     }
   },
   {
     "id": "hr_0037",
-    "term": "Performance review cycle",
-    "definition": "The recurring schedule and steps used to plan, assess, and discuss employee performance.",
-    "example": "Our Performance review cycle starts with goal-setting in January and ends with calibration in December.",
+    "term": "People Analytics",
+    "definition": "The practice of collecting and analyzing HR data to improve business outcomes and make better decisions about people.",
+    "example": "Our people analytics team discovered a clear link between manager training and lower team attrition rates.",
     "metadata": {
-      "difficulty": 1,
+      "difficulty": 2,
       "tags": [
-        "performance",
-        "process"
+        "HR",
+        "analytics",
+        "data",
+        "strategy"
       ]
     }
   },
   {
     "id": "hr_0038",
-    "term": "Performance improvement plan",
-    "definition": "A documented agreement that sets expectations and support for an underperforming employee over a specific period.",
-    "example": "The Performance improvement plan included clear targets and weekly coaching sessions.",
+    "term": "Performance Improvement Plan",
+    "acronym": "PIP",
+    "definition": "A formal document that outlines specific issues for an underperforming employee and sets clear goals for improvement.",
+    "example": "After several warnings, the manager had to put the employee on a Performance Improvement Plan to address missed deadlines.",
     "metadata": {
-      "difficulty": 2,
+      "difficulty": 1,
       "tags": [
-        "performance",
-        "remediation"
+        "HR",
+        "performance management",
+        "legal",
+        "employee relations"
       ]
     }
   },
   {
     "id": "hr_0039",
-    "term": "Objectives and key results",
-    "definition": "A goal-setting framework that links ambitious qualitative objectives with measurable outcomes.",
-    "example": "The HR team uses Objectives and key results to align their projects with business priorities.",
+    "term": "Psychological Safety",
+    "definition": "A shared belief within a team that members feel safe to take risks, such as speaking up with ideas or concerns, without fear of negative consequences.",
+    "example": "The manager fostered psychological safety by encouraging open debate and making it clear that mistakes were learning opportunities.",
     "metadata": {
-      "difficulty": 3,
+      "difficulty": 2,
       "tags": [
-        "goals",
-        "alignment"
+        "HR",
+        "management",
+        "culture",
+        "employee engagement"
       ]
     }
   },
   {
     "id": "hr_0040",
-    "term": "360-degree feedback",
-    "definition": "A method where employees receive input on their behavior from managers, peers, direct reports, and sometimes customers.",
-    "example": "Introducing 360-degree feedback exposed blind spots in how leaders communicated.",
+    "term": "Pulse Survey",
+    "definition": "A short, frequent survey sent to employees to quickly gather feedback on topics like engagement and job satisfaction.",
+    "example": "We send out a monthly pulse survey to track employee morale and address any emerging issues before they become major problems.",
     "metadata": {
       "difficulty": 1,
       "tags": [
-        "feedback",
-        "assessment"
+        "HR",
+        "analytics",
+        "employee engagement"
       ]
     }
   },
   {
     "id": "hr_0041",
-    "term": "Calibration meeting",
-    "definition": "A session in which managers compare performance ratings to ensure fairness and consistency across teams.",
-    "example": "During the Calibration meeting, several ratings were adjusted for consistency.",
+    "term": "Quality of Hire",
+    "definition": "A metric used to measure the value a new employee brings to the company, often assessed through performance, productivity, and retention.",
+    "example": "By tracking the quality of hire from different sources, we can invest more in the recruiting channels that bring us the best employees.",
     "metadata": {
-      "difficulty": 2,
+      "difficulty": 3,
       "tags": [
-        "performance",
-        "governance"
+        "HR",
+        "recruitment",
+        "analytics",
+        "performance management"
       ]
     }
   },
   {
     "id": "hr_0042",
-    "term": "Learning and development",
-    "definition": "A function that designs and delivers learning solutions to build skills and support business strategy.",
-    "example": "Investment in Learning and development grew as the company shifted to a digital model.",
+    "term": "Reasonable Accommodation",
+    "definition": "An adjustment made to a job or work environment that enables a qualified individual with a disability to perform the essential job functions.",
+    "example": "Providing a special keyboard for an employee with a wrist injury is an example of a reasonable accommodation.",
     "metadata": {
-      "difficulty": 3,
+      "difficulty": 2,
       "tags": [
-        "training",
-        "strategy"
+        "HR",
+        "legal",
+        "compliance",
+        "employee relations"
       ]
     }
   },
   {
     "id": "hr_0043",
-    "term": "Training needs analysis",
-    "definition": "A diagnostic process that identifies gaps between current and desired employee capabilities.",
-    "example": "The Training needs analysis revealed a widespread lack of data literacy.",
-    "metadata": {
-      "difficulty": 1,
-      "tags": [
-        "training",
-        "analysis"
-      ]
-    }
-  },
-  {
-    "id": "hr_0044",
-    "term": "Skills matrix",
-    "definition": "A visual tool that maps employees’ competencies against the skills required for specific roles.",
-    "example": "The Skills matrix helped allocate experts to critical project phases.",
-    "metadata": {
-      "difficulty": 2,
-      "tags": [
-        "competencies",
-        "planning"
-      ]
-    }
-  },
-  {
-    "id": "hr_0045",
-    "term": "Knowledge transfer",
-    "definition": "The deliberate sharing of expertise from one person or group to others to reduce dependence on single experts.",
-    "example": "Structured Knowledge transfer sessions were scheduled before the senior analyst retired.",
+    "term": "Recruitment Process Outsourcing",
+    "acronym": "RPO",
+    "definition": "A business model where a company transfers all or part of its recruitment processes to an external service provider.",
+    "example": "To scale our sales team quickly, we engaged an RPO firm to manage the entire hiring process from sourcing to onboarding.",
     "metadata": {
       "difficulty": 3,
       "tags": [
-        "knowledge",
-        "continuity"
-      ]
-    }
-  },
-  {
-    "id": "hr_0046",
-    "term": "Job rotation",
-    "definition": "A development practice where employees temporarily move between different roles or departments.",
-    "example": "Job rotation between sales and operations improved mutual understanding.",
-    "metadata": {
-      "difficulty": 1,
-      "tags": [
-        "development",
-        "mobility"
-      ]
-    }
-  },
-  {
-    "id": "hr_0047",
-    "term": "Cross-training",
-    "definition": "Teaching employees to perform tasks outside their primary role to increase flexibility and resilience.",
-    "example": "Cross-training the support team reduced service disruptions during absences.",
-    "metadata": {
-      "difficulty": 2,
-      "tags": [
-        "training",
-        "flexibility"
-      ]
-    }
-  },
-  {
-    "id": "hr_0048",
-    "term": "Mentorship scheme",
-    "definition": "A structured initiative where experienced professionals guide and support the development of less experienced colleagues.",
-    "example": "She credits her rapid promotion to the advice she received through the corporate Mentorship scheme.",
-    "metadata": {
-      "difficulty": 2,
-      "tags": [
-        "development",
-        "mentoring"
-      ]
-    }
-  },
-  {
-    "id": "hr_0049",
-    "term": "Coaching culture",
-    "definition": "An environment in which leaders regularly use coaching behaviors to develop their teams.",
-    "example": "Building a Coaching culture required training managers to ask more open questions.",
-    "metadata": {
-      "difficulty": 1,
-      "tags": [
-        "culture",
-        "leadership"
-      ]
-    }
-  },
-  {
-    "id": "hr_0050",
-    "term": "Talent review",
-    "definition": "A structured meeting where leaders discuss the performance and potential of employees across the organization.",
-    "example": "The annual Talent review highlighted a shortage of successors for technical leadership roles.",
-    "metadata": {
-      "difficulty": 2,
-      "tags": [
-        "talent",
-        "governance"
-      ]
-    }
-  },
-  {
-    "id": "hr_0051",
-    "term": "Total rewards",
-    "definition": "The full portfolio of monetary and non-monetary benefits that employees receive from an employer.",
-    "example": "The Total rewards strategy emphasizes wellbeing benefits instead of only higher pay.",
-    "metadata": {
-      "difficulty": 3,
-      "tags": [
-        "compensation",
-        "benefits"
-      ]
-    }
-  },
-  {
-    "id": "hr_0052",
-    "term": "Fixed remuneration",
-    "definition": "The guaranteed portion of an employee's compensation package, excluding variable bonuses and benefits.",
-    "example": "While the Fixed remuneration was lower than average, the stock options made the offer attractive.",
-    "metadata": {
-      "difficulty": 2,
-      "tags": [
-        "pay",
-        "compensation"
-      ]
-    }
-  },
-  {
-    "id": "hr_0053",
-    "term": "Variable pay",
-    "definition": "The portion of compensation that depends on individual, team, or company performance.",
-    "example": "For sales roles, Variable pay can make up half of the total compensation.",
-    "metadata": {
-      "difficulty": 2,
-      "tags": [
-        "pay",
-        "incentives"
-      ]
-    }
-  },
-  {
-    "id": "hr_0054",
-    "term": "Pay band",
-    "definition": "A predefined range of salaries that applies to jobs of similar value or level.",
-    "example": "Managers must keep offers within the Pay band approved for the role.",
-    "metadata": {
-      "difficulty": 3,
-      "tags": [
-        "grading",
-        "compensation"
-      ]
-    }
-  },
-  {
-    "id": "hr_0055",
-    "term": "Pay bracket",
-    "definition": "A distinct level or grade within a compensation structure that dictates the minimum and maximum earnings for a role.",
-    "example": "Moving to a management role usually places you in a significantly higher Pay bracket.",
-    "metadata": {
-      "difficulty": 2,
-      "tags": [
-        "grading",
-        "compensation"
-      ]
-    }
-  },
-  {
-    "id": "hr_0056",
-    "term": "Pay grade",
-    "definition": "A compensation level that groups roles with comparable responsibility and complexity.",
-    "example": "Promotions often involve moving to a higher Pay grade with a different benefits package.",
-    "metadata": {
-      "difficulty": 2,
-      "tags": [
-        "grading",
-        "structure"
-      ]
-    }
-  },
-  {
-    "id": "hr_0057",
-    "term": "Job evaluation",
-    "definition": "A systematic method for determining the relative value of jobs to ensure internal pay fairness.",
-    "example": "HR used a point-factor Job evaluation method before redesigning salary bands.",
-    "metadata": {
-      "difficulty": 3,
-      "tags": [
-        "compensation",
-        "methodology"
-      ]
-    }
-  },
-  {
-    "id": "hr_0058",
-    "term": "Grading structure",
-    "definition": "The hierarchy of pay grades or levels that supports consistent compensation decisions.",
-    "example": "The new Grading structure aligned managerial layers across all countries.",
-    "metadata": {
-      "difficulty": 1,
-      "tags": [
-        "structure",
-        "compensation"
-      ]
-    }
-  },
-  {
-    "id": "hr_0059",
-    "term": "Pay benchmarking",
-    "definition": "Comparing internal pay levels with external market data to stay competitive and fair.",
-    "example": "Annual Pay benchmarking showed that our engineers were paid below the market median.",
-    "metadata": {
-      "difficulty": 2,
-      "tags": [
-        "market",
-        "compensation"
-      ]
-    }
-  },
-  {
-    "id": "hr_0060",
-    "term": "Market pricing",
-    "definition": "Setting salary levels for a role based mainly on external salary survey data.",
-    "example": "For scarce skills, Market pricing is more influential than internal relativities.",
-    "metadata": {
-      "difficulty": 3,
-      "tags": [
-        "compensation",
-        "market"
-      ]
-    }
-  },
-  {
-    "id": "hr_0061",
-    "term": "Pay equity",
-    "definition": "The principle that employees who contribute comparable value should receive comparable compensation.",
-    "example": "The company launched a Pay equity review to address unexplained pay gaps.",
-    "metadata": {
-      "difficulty": 1,
-      "tags": [
-        "fairness",
-        "compensation"
-      ]
-    }
-  },
-  {
-    "id": "hr_0062",
-    "term": "Pay transparency",
-    "definition": "The degree to which an organization discloses information about pay structures and decisions.",
-    "example": "Moving toward Pay transparency required training managers to explain salary rationales.",
-    "metadata": {
-      "difficulty": 2,
-      "tags": [
-        "communication",
-        "compensation"
-      ]
-    }
-  },
-  {
-    "id": "hr_0063",
-    "term": "Pay compression",
-    "definition": "A situation where pay differences between new hires and experienced employees become too small.",
-    "example": "Rapid market increases caused Pay compression among software engineers.",
-    "metadata": {
-      "difficulty": 3,
-      "tags": [
-        "compensation",
-        "risk"
-      ]
-    }
-  },
-  {
-    "id": "hr_0064",
-    "term": "Pay progression",
-    "definition": "The pattern by which an employee’s pay moves within or across salary ranges over time.",
-    "example": "Clear Pay progression guidelines reduce perceptions of favoritism.",
-    "metadata": {
-      "difficulty": 1,
-      "tags": [
-        "career",
-        "compensation"
-      ]
-    }
-  },
-  {
-    "id": "hr_0065",
-    "term": "Overtime premium",
-    "definition": "An increased pay rate applied to hours worked beyond the standard working time.",
-    "example": "Warehouse staff receive an Overtime premium for night shifts.",
-    "metadata": {
-      "difficulty": 2,
-      "tags": [
-        "pay",
-        "time"
-      ]
-    }
-  },
-  {
-    "id": "hr_0066",
-    "term": "Shift allowance",
-    "definition": "Additional compensation paid to employees who work less desirable hours or rotating shifts.",
-    "example": "A Shift allowance helps attract nurses to weekend rotations.",
-    "metadata": {
-      "difficulty": 3,
-      "tags": [
-        "benefits",
-        "working-time"
-      ]
-    }
-  },
-  {
-    "id": "hr_0067",
-    "term": "Retention bonus",
-    "definition": "A one-time or temporary payment designed to encourage key employees to stay during critical periods.",
-    "example": "Project leaders received a Retention bonus for staying until the system go-live.",
-    "metadata": {
-      "difficulty": 1,
-      "tags": [
-        "retention",
-        "incentives"
-      ]
-    }
-  },
-  {
-    "id": "hr_0068",
-    "term": "Spot bonus",
-    "definition": "An unplanned, discretionary reward granted shortly after an exceptional contribution.",
-    "example": "The manager gave a Spot bonus to the analyst who resolved a major client issue overnight.",
-    "metadata": {
-      "difficulty": 2,
-      "tags": [
-        "recognition",
-        "incentives"
-      ]
-    }
-  },
-  {
-    "id": "hr_0069",
-    "term": "Long-term incentive plan",
-    "definition": "A scheme that links rewards to performance over several years, often using shares or deferred cash.",
-    "example": "Executives participate in a Long-term incentive plan tied to sustainable profit growth.",
-    "metadata": {
-      "difficulty": 3,
-      "tags": [
-        "incentives",
-        "governance"
-      ]
-    }
-  },
-  {
-    "id": "hr_0070",
-    "term": "Deferred compensation",
-    "definition": "Income that is earned but paid at a later date, typically to encourage retention or support tax planning.",
-    "example": "Part of the bonus was converted into Deferred compensation vested over three years.",
-    "metadata": {
-      "difficulty": 1,
-      "tags": [
-        "compensation",
-        "benefits"
-      ]
-    }
-  },
-  {
-    "id": "hr_0071",
-    "term": "Stock option plan",
-    "definition": "A program that gives employees the right to buy company shares at a predetermined price after a vesting period.",
-    "example": "The Stock option plan aligns senior managers’ interests with those of shareholders.",
-    "metadata": {
-      "difficulty": 2,
-      "tags": [
-        "equity",
-        "incentives"
-      ]
-    }
-  },
-  {
-    "id": "hr_0072",
-    "term": "Non-monetary rewards",
-    "definition": "Forms of recognition that do not involve direct payments, such as development opportunities or extra time off.",
-    "example": "Non-monetary rewards like special projects can be more motivating than cash for some employees.",
-    "metadata": {
-      "difficulty": 3,
-      "tags": [
-        "recognition",
-        "engagement"
-      ]
-    }
-  },
-  {
-    "id": "hr_0073",
-    "term": "Recognition program",
-    "definition": "A structured approach for acknowledging and rewarding desired behaviors and achievements.",
-    "example": "Our peer-nominated Recognition program increased cross-team collaboration.",
-    "metadata": {
-      "difficulty": 1,
-      "tags": [
-        "recognition",
-        "culture"
-      ]
-    }
-  },
-  {
-    "id": "hr_0074",
-    "term": "Benefits package",
-    "definition": "The collection of indirect rewards such as insurance, retirement plans, and perks offered by an employer.",
-    "example": "Candidates often compare the Benefits package rather than just base pay.",
-    "metadata": {
-      "difficulty": 2,
-      "tags": [
-        "benefits",
-        "compensation"
-      ]
-    }
-  },
-  {
-    "id": "hr_0075",
-    "term": "Flexible benefits",
-    "definition": "A system that allows employees to choose from a menu of benefit options within a fixed budget.",
-    "example": "Through Flexible benefits, staff can swap gym passes for extra childcare support.",
-    "metadata": {
-      "difficulty": 3,
-      "tags": [
-        "benefits",
-        "flexibility"
-      ]
-    }
-  },
-  {
-    "id": "hr_0076",
-    "term": "Cafeteria plan",
-    "definition": "A benefits arrangement where employees allocate credits or points to preferred options from a predefined list.",
-    "example": "The Cafeteria plan lets employees trade part of their bonus for additional vacation days.",
-    "metadata": {
-      "difficulty": 1,
-      "tags": [
-        "benefits",
-        "design"
-      ]
-    }
-  },
-  {
-    "id": "hr_0077",
-    "term": "Wellness allowance",
-    "definition": "A fixed budget that employees can spend on health-related goods or services.",
-    "example": "Employees used the Wellness allowance for fitness classes and ergonomic equipment.",
-    "metadata": {
-      "difficulty": 2,
-      "tags": [
-        "wellbeing",
-        "benefits"
-      ]
-    }
-  },
-  {
-    "id": "hr_0078",
-    "term": "Employee assistance program",
-    "definition": "A confidential support service that offers counseling and guidance on personal or work issues.",
-    "example": "The Employee assistance program saw higher usage during the merger announcement.",
-    "metadata": {
-      "difficulty": 3,
-      "tags": [
-        "wellbeing",
-        "support"
-      ]
-    }
-  },
-  {
-    "id": "hr_0079",
-    "term": "Pension scheme",
-    "definition": "An arrangement through which employees accrue rights to receive income after retirement.",
-    "example": "The company pension scheme matches employee contributions up to a fixed percentage.",
-    "metadata": {
-      "difficulty": 1,
-      "tags": [
-        "retirement",
-        "benefits"
-      ]
-    }
-  },
-  {
-    "id": "hr_0080",
-    "term": "Severance pay",
-    "definition": "Compensation provided to employees when their employment is terminated under specified conditions.",
-    "example": "Eligibility for Severance pay depends on length of service and local law.",
-    "metadata": {
-      "difficulty": 2,
-      "tags": [
-        "termination",
-        "compensation"
-      ]
-    }
-  },
-  {
-    "id": "hr_0081",
-    "term": "Redundancy package",
-    "definition": "The combination of financial and non-financial terms offered to employees whose roles are eliminated.",
-    "example": "The Redundancy package included outplacement services and extended health coverage.",
-    "metadata": {
-      "difficulty": 3,
-      "tags": [
-        "restructuring",
-        "termination"
-      ]
-    }
-  },
-  {
-    "id": "hr_0082",
-    "term": "Outplacement services",
-    "definition": "Support provided to departing employees to help them find new employment.",
-    "example": "Outplacement services offered coaching on résumés and interview skills.",
-    "metadata": {
-      "difficulty": 1,
-      "tags": [
-        "exit",
-        "support"
-      ]
-    }
-  },
-  {
-    "id": "hr_0083",
-    "term": "Redeployment program",
-    "definition": "A structured effort to move employees whose roles are at risk into open positions elsewhere in the organization.",
-    "example": "The Redeployment program minimized compulsory layoffs during the reorganization.",
-    "metadata": {
-      "difficulty": 2,
-      "tags": [
-        "mobility",
-        "restructuring"
-      ]
-    }
-  },
-  {
-    "id": "hr_0084",
-    "term": "Mobility allowance",
-    "definition": "Financial support granted to employees who relocate or commute as part of their job.",
-    "example": "A Mobility allowance made international assignments more attractive.",
-    "metadata": {
-      "difficulty": 3,
-      "tags": [
-        "mobility",
-        "benefits"
-      ]
-    }
-  },
-  {
-    "id": "hr_0085",
-    "term": "Expense claim",
-    "definition": "A formal request submitted by an employee to be reimbursed for business-related costs paid from their own pocket.",
-    "example": "You must attach all digital receipts to your Expense claim before the finance team approves it.",
-    "metadata": {
-      "difficulty": 1,
-      "tags": [
-        "expenses",
-        "admin"
-      ]
-    }
-  },
-  {
-    "id": "hr_0086",
-    "term": "Payroll processing",
-    "definition": "The operational task of calculating wages, deductions, and net pay for employees.",
-    "example": "Errors in Payroll processing can damage trust and create compliance risks.",
-    "metadata": {
-      "difficulty": 2,
-      "tags": [
-        "payroll",
+        "HR",
+        "recruitment",
+        "strategy",
         "operations"
       ]
     }
   },
   {
-    "id": "hr_0087",
-    "term": "Payroll reconciliation",
-    "definition": "The review activity that checks payroll data against source records to ensure accuracy.",
-    "example": "Monthly Payroll reconciliation compares paid amounts with approved timesheets.",
+    "id": "hr_0044",
+    "term": "Salary Compression",
+    "definition": "A pay issue that occurs when there is little difference in salary between new hires and more experienced employees in the same role.",
+    "example": "Salary compression has become a problem, as our new hires are demanding starting salaries close to what we pay senior staff.",
     "metadata": {
       "difficulty": 3,
       "tags": [
-        "payroll",
-        "controls"
+        "HR",
+        "compensation",
+        "retention"
+      ]
+    }
+  },
+  {
+    "id": "hr_0045",
+    "term": "Stay Interview",
+    "definition": "A structured conversation between a manager and a high-performing employee to understand what keeps them working for the company.",
+    "example": "Instead of only conducting exit interviews, we started doing stay interviews to proactively address issues and improve retention.",
+    "metadata": {
+      "difficulty": 2,
+      "tags": [
+        "HR",
+        "retention",
+        "management",
+        "employee engagement"
+      ]
+    }
+  },
+  {
+    "id": "hr_0046",
+    "term": "Succession Planning",
+    "definition": "The process of identifying and developing internal talent to fill critical leadership positions within the company in the future.",
+    "example": "Our succession planning identified three potential candidates to take over the CFO role when she retires next year.",
+    "metadata": {
+      "difficulty": 2,
+      "tags": [
+        "HR",
+        "talent management",
+        "strategy",
+        "leadership"
+      ]
+    }
+  },
+  {
+    "id": "hr_0047",
+    "term": "Time-to-Fill",
+    "definition": "A recruiting metric that measures the number of days between a job requisition being approved and a candidate accepting the offer.",
+    "example": "Our average time-to-fill for engineering roles is 62 days, a metric we are actively trying to reduce.",
+    "metadata": {
+      "difficulty": 2,
+      "tags": [
+        "HR",
+        "recruitment",
+        "analytics"
+      ]
+    }
+  },
+  {
+    "id": "hr_0048",
+    "term": "Total Rewards Strategy",
+    "definition": "A comprehensive approach to compensation that includes salary, benefits, and non-monetary elements like professional development and work-life balance.",
+    "example": "Our total rewards strategy is designed to attract, motivate, and retain employees by looking beyond just base pay.",
+    "metadata": {
+      "difficulty": 2,
+      "tags": [
+        "HR",
+        "compensation",
+        "benefits",
+        "strategy",
+        "retention"
+      ]
+    }
+  },
+  {
+    "id": "hr_0049",
+    "term": "Upskilling and Reskilling",
+    "definition": "The process of teaching employees new, advanced skills (upskilling) or training them for a different job within the company (reskilling).",
+    "example": "Our company has launched a major upskilling and reskilling initiative to prepare our workforce for the impact of AI.",
+    "metadata": {
+      "difficulty": 1,
+      "tags": [
+        "HR",
+        "training",
+        "employee development",
+        "strategy"
+      ]
+    }
+  },
+  {
+    "id": "hr_0050",
+    "term": "Workforce Planning",
+    "definition": "The strategic process of analyzing the current workforce and determining the future talent required to meet organizational goals.",
+    "example": "Effective workforce planning helps us anticipate future skill gaps and build a pipeline of qualified candidates.",
+    "metadata": {
+      "difficulty": 2,
+      "tags": [
+        "HR",
+        "strategy",
+        "analytics",
+        "recruitment"
+      ]
+    }
+  },
+  {
+    "id": "hr_0051",
+    "term": "Applicant Tracking System",
+    "acronym": "ATS",
+    "definition": "Software that manages the recruiting and hiring process by collecting and sorting thousands of resumes.",
+    "example": "Our new ATS helps us filter candidates more efficiently by scanning resumes for relevant keywords.",
+    "metadata": {
+      "difficulty": 2,
+      "tags": [
+        "hr",
+        "recruitment",
+        "technology"
+      ]
+    }
+  },
+  {
+    "id": "hr_0052",
+    "term": "Employee Net Promoter Score",
+    "acronym": "eNPS",
+    "definition": "A metric used to measure employee loyalty and engagement by asking how likely they are to recommend their company as a place to work.",
+    "example": "After implementing the new wellness program, our quarterly eNPS survey showed a significant increase in employee satisfaction.",
+    "metadata": {
+      "difficulty": 3,
+      "tags": [
+        "hr",
+        "management",
+        "metrics"
+      ]
+    }
+  },
+  {
+    "id": "hr_0053",
+    "term": "Employee Stock Ownership Plan",
+    "acronym": "ESOP",
+    "definition": "A type of employee benefit plan that gives employees an ownership interest in the company.",
+    "example": "The company's ESOP motivates us to work harder because we all benefit directly from its financial success.",
+    "metadata": {
+      "difficulty": 3,
+      "tags": [
+        "hr",
+        "finance",
+        "compensation"
+      ]
+    }
+  },
+  {
+    "id": "hr_0054",
+    "term": "Employer Value Proposition",
+    "acronym": "EVP",
+    "definition": "The unique set of benefits an employee receives in return for the skills, capabilities, and experience they bring to a company.",
+    "example": "Our strong EVP, which highlights work-life balance and career growth, helps us attract and retain top talent.",
+    "metadata": {
+      "difficulty": 3,
+      "tags": [
+        "hr",
+        "recruitment",
+        "strategy"
+      ]
+    }
+  },
+  {
+    "id": "hr_0055",
+    "term": "HR Business Partner",
+    "acronym": "HRBP",
+    "definition": "A senior HR professional who works directly with a business unit's leadership to align HR strategy with business objectives.",
+    "example": "The HRBP for the engineering department is helping managers develop a new plan for skill development.",
+    "metadata": {
+      "difficulty": 2,
+      "tags": [
+        "hr",
+        "management",
+        "roles"
+      ]
+    }
+  },
+  {
+    "id": "hr_0056",
+    "term": "Human Capital Management",
+    "acronym": "HCM",
+    "definition": "A comprehensive set of practices for recruiting, managing, developing, and optimizing employees to increase their value to the organization.",
+    "example": "Our new HCM software integrates everything from payroll to performance reviews into a single platform.",
+    "metadata": {
+      "difficulty": 3,
+      "tags": [
+        "hr",
+        "strategy",
+        "management"
+      ]
+    }
+  },
+  {
+    "id": "hr_0057",
+    "term": "Human Resources Information System",
+    "acronym": "HRIS",
+    "definition": "Software used to manage and process detailed employee information and HR-related policies and procedures.",
+    "example": "Please update your personal contact details in the HRIS portal before the end of the month.",
+    "metadata": {
+      "difficulty": 2,
+      "tags": [
+        "hr",
+        "technology",
+        "data"
+      ]
+    }
+  },
+  {
+    "id": "hr_0058",
+    "term": "Learning Management System",
+    "acronym": "LMS",
+    "definition": "A software application for the administration, documentation, tracking, and delivery of educational courses or training programs.",
+    "example": "All employees must complete the mandatory cybersecurity training module on our company's LMS by Friday.",
+    "metadata": {
+      "difficulty": 2,
+      "tags": [
+        "hr",
+        "training",
+        "technology"
+      ]
+    }
+  },
+  {
+    "id": "hr_0059",
+    "term": "Management by Objectives",
+    "acronym": "MBO",
+    "definition": "A management model that aims to improve organizational performance by defining clear objectives agreed upon by both management and employees.",
+    "example": "With our MBO approach, each team's success is measured by how well they achieve their quarterly goals.",
+    "metadata": {
+      "difficulty": 2,
+      "tags": [
+        "hr",
+        "management",
+        "performance"
+      ]
+    }
+  },
+  {
+    "id": "hr_0060",
+    "term": "Performance Improvement Plan",
+    "acronym": "PIP",
+    "definition": "A formal document outlining an employee's performance deficiencies and the clear steps required to improve.",
+    "example": "If his sales numbers don't improve by next month, we'll unfortunately have to put him on a PIP.",
+    "metadata": {
+      "difficulty": 2,
+      "tags": [
+        "hr",
+        "management",
+        "performance"
+      ]
+    }
+  },
+  {
+    "id": "hr_0061",
+    "term": "Recruitment Process Outsourcing",
+    "acronym": "RPO",
+    "definition": "When a company transfers all or part of its permanent recruitment processes to an external provider.",
+    "example": "To rapidly scale our sales team, we engaged an RPO firm to manage the entire hiring process.",
+    "metadata": {
+      "difficulty": 3,
+      "tags": [
+        "hr",
+        "recruitment",
+        "outsourcing"
+      ]
+    }
+  },
+  {
+    "id": "hr_0062",
+    "term": "Applicant Tracking System",
+    "acronym": "ATS",
+    "definition": "A software application that manages the recruitment and hiring process by sorting and tracking job candidates.",
+    "example": "Our new ATS helps us filter through thousands of resumes to find the most qualified candidates for the role.",
+    "metadata": {
+      "difficulty": 2,
+      "tags": [
+        "recruitment",
+        "technology",
+        "HR tech"
+      ]
+    }
+  },
+  {
+    "id": "hr_0063",
+    "term": "Employee Net Promoter Score",
+    "acronym": "eNPS",
+    "definition": "A metric used to measure employee loyalty and engagement based on how likely they are to recommend their company as a workplace.",
+    "example": "The quarterly eNPS results showed a 15-point increase, indicating a positive shift in company culture.",
+    "metadata": {
+      "difficulty": 3,
+      "tags": [
+        "employee engagement",
+        "metrics",
+        "analytics"
+      ]
+    }
+  },
+  {
+    "id": "hr_0064",
+    "term": "Employee Stock Ownership Plan",
+    "acronym": "ESOP",
+    "definition": "A type of employee benefit plan that gives workers ownership interest in the company in the form of shares of stock.",
+    "example": "As part of our long-term retention strategy, we are introducing an ESOP for all full-time employees.",
+    "metadata": {
+      "difficulty": 3,
+      "tags": [
+        "compensation",
+        "benefits",
+        "finance"
+      ]
+    }
+  },
+  {
+    "id": "hr_0065",
+    "term": "Employer Value Proposition",
+    "acronym": "EVP",
+    "definition": "The unique set of benefits and rewards an employee receives in return for their skills, capabilities, and experience.",
+    "example": "Our EVP emphasizes work-life balance and professional development, which helps us attract top talent.",
+    "metadata": {
+      "difficulty": 3,
+      "tags": [
+        "strategy",
+        "recruitment",
+        "employer branding"
+      ]
+    }
+  },
+  {
+    "id": "hr_0066",
+    "term": "HR Business Partner",
+    "acronym": "HRBP",
+    "definition": "An HR professional who works directly with an organization's senior leadership to develop and direct an HR agenda that supports business goals.",
+    "example": "The HRBP for the engineering department is helping to restructure the team for better efficiency.",
+    "metadata": {
+      "difficulty": 2,
+      "tags": [
+        "HR roles",
+        "strategy",
+        "management"
+      ]
+    }
+  },
+  {
+    "id": "hr_0067",
+    "term": "Human Capital Management",
+    "acronym": "HCM",
+    "definition": "The comprehensive set of practices for recruiting, managing, developing, and optimizing an organization's employees to achieve business objectives.",
+    "example": "Effective Human Capital Management is crucial for integrating our new acquisitions and aligning their talent with our goals.",
+    "metadata": {
+      "difficulty": 3,
+      "tags": [
+        "strategy",
+        "management",
+        "HR tech"
+      ]
+    }
+  },
+  {
+    "id": "hr_0068",
+    "term": "Human Resources Information System",
+    "acronym": "HRIS",
+    "definition": "A software solution that maintains, manages, and processes detailed employee information and HR-related policies and procedures.",
+    "example": "Please update your contact details in the HRIS portal before the end of the week.",
+    "metadata": {
+      "difficulty": 2,
+      "tags": [
+        "technology",
+        "HR tech",
+        "data management"
+      ]
+    }
+  },
+  {
+    "id": "hr_0069",
+    "term": "Learning Management System",
+    "acronym": "LMS",
+    "definition": "A software application for the administration, documentation, tracking, reporting, and delivery of educational courses or training programs.",
+    "example": "All new hires must complete the mandatory compliance training on our Learning Management System.",
+    "metadata": {
+      "difficulty": 2,
+      "tags": [
+        "training",
+        "technology",
+        "L&D"
+      ]
+    }
+  },
+  {
+    "id": "hr_0070",
+    "term": "Management by Objectives",
+    "acronym": "MBO",
+    "definition": "A strategic management model that aims to improve organizational performance by clearly defining objectives that are agreed to by both management and employees.",
+    "example": "Our company uses a Management by Objectives approach to ensure everyone's personal goals align with the quarterly business targets.",
+    "metadata": {
+      "difficulty": 3,
+      "tags": [
+        "management",
+        "performance",
+        "strategy"
+      ]
+    }
+  },
+  {
+    "id": "hr_0071",
+    "term": "Performance Improvement Plan",
+    "acronym": "PIP",
+    "definition": "A formal document that outlines specific performance issues and sets clear, measurable goals for an employee to reach within a set timeframe.",
+    "example": "After several missed deadlines, the manager put the employee on a Performance Improvement Plan.",
+    "metadata": {
+      "difficulty": 2,
+      "tags": [
+        "performance",
+        "employee relations",
+        "management"
+      ]
+    }
+  },
+  {
+    "id": "hr_0072",
+    "term": "Recruitment Process Outsourcing",
+    "acronym": "RPO",
+    "definition": "A form of business process outsourcing where an employer transfers all or part of its recruitment processes to an external service provider.",
+    "example": "To rapidly scale our sales team, we engaged an RPO firm to manage the entire hiring lifecycle.",
+    "metadata": {
+      "difficulty": 3,
+      "tags": [
+        "recruitment",
+        "outsourcing",
+        "strategy"
+      ]
+    }
+  },
+  {
+    "id": "hr_0073",
+    "term": "Absenteeism Rate",
+    "definition": "The percentage of unplanned or unexcused employee absences from work during a specific period.",
+    "example": "A high absenteeism rate in the call center is negatively impacting customer service levels.",
+    "metadata": {
+      "difficulty": 2,
+      "tags": [
+        "metrics",
+        "performance",
+        "employee relations"
+      ]
+    }
+  },
+  {
+    "id": "hr_0074",
+    "term": "Allyship Program",
+    "definition": "A structured company initiative designed to encourage employees to support and advocate for colleagues in underrepresented groups.",
+    "example": "Our new allyship program provides training on how to be an effective advocate for diversity and inclusion in the workplace.",
+    "metadata": {
+      "difficulty": 2,
+      "tags": [
+        "diversity & inclusion",
+        "culture",
+        "employee relations"
+      ]
+    }
+  },
+  {
+    "id": "hr_0075",
+    "term": "Alternative Dispute Resolution",
+    "acronym": "ADR",
+    "definition": "The use of methods such as mediation and arbitration to resolve disagreements without having to go to court.",
+    "example": "The company prefers alternative dispute resolution to handle employee grievances because it is faster and less costly than litigation.",
+    "metadata": {
+      "difficulty": 3,
+      "tags": [
+        "legal",
+        "employee relations",
+        "compliance"
+      ]
+    }
+  },
+  {
+    "id": "hr_0076",
+    "term": "Asynchronous Communication",
+    "definition": "Communication that does not happen in real time, such as email or project management comments, allowing people to respond at their convenience.",
+    "example": "Our remote team relies heavily on asynchronous communication to accommodate different time zones.",
+    "metadata": {
+      "difficulty": 2,
+      "tags": [
+        "communication",
+        "remote work",
+        "culture"
+      ]
+    }
+  },
+  {
+    "id": "hr_0077",
+    "term": "Behavioral Interviewing",
+    "definition": "An interviewing technique where candidates are asked to describe past experiences to demonstrate specific skills or competencies.",
+    "example": "In the behavioral interviewing session, I asked the candidate to 'tell me about a time' they handled a difficult client.",
+    "metadata": {
+      "difficulty": 2,
+      "tags": [
+        "recruitment",
+        "interviewing",
+        "talent acquisition"
+      ]
+    }
+  },
+  {
+    "id": "hr_0078",
+    "term": "Belonging Index",
+    "definition": "A metric used to measure the extent to which employees feel accepted, included, and valued within an organization.",
+    "example": "The results of our annual survey showed a 5% improvement in the belonging index, especially among new hires.",
+    "metadata": {
+      "difficulty": 3,
+      "tags": [
+        "diversity & inclusion",
+        "metrics",
+        "culture"
+      ]
+    }
+  },
+  {
+    "id": "hr_0079",
+    "term": "Benefits Administration",
+    "definition": "The process of creating, managing, and updating an organization's employee benefits program, such as health insurance and retirement plans.",
+    "example": "Benefits administration becomes much more complex during the annual open enrollment period.",
+    "metadata": {
+      "difficulty": 2,
+      "tags": [
+        "benefits",
+        "compensation",
+        "HR operations"
+      ]
+    }
+  },
+  {
+    "id": "hr_0080",
+    "term": "Blended Learning Approach",
+    "definition": "An educational strategy that combines traditional face-to-face instruction with online, digital media-based learning.",
+    "example": "Our new leadership course uses a blended learning approach, with in-person workshops and online modules.",
+    "metadata": {
+      "difficulty": 2,
+      "tags": [
+        "training",
+        "L&D",
+        "development"
+      ]
+    }
+  },
+  {
+    "id": "hr_0081",
+    "term": "Candidate Experience",
+    "definition": "A job applicant's overall perception of a company's recruitment process.",
+    "example": "Providing timely feedback to all applicants, even those not hired, is key to a positive candidate experience.",
+    "metadata": {
+      "difficulty": 2,
+      "tags": [
+        "recruitment",
+        "employer branding",
+        "talent acquisition"
+      ]
+    }
+  },
+  {
+    "id": "hr_0082",
+    "term": "Candidate Persona",
+    "definition": "A semi-fictional representation of an ideal job candidate, based on data and research, used to tailor recruitment strategies.",
+    "example": "We created a candidate persona for the Senior Developer role to better target our job ads on social media.",
+    "metadata": {
+      "difficulty": 3,
+      "tags": [
+        "recruitment",
+        "strategy",
+        "marketing"
+      ]
+    }
+  },
+  {
+    "id": "hr_0083",
+    "term": "Candidate Relationship Management",
+    "acronym": "CRM",
+    "definition": "A method for managing and improving relationships with potential job candidates to build a talent pipeline.",
+    "example": "Our candidate relationship management software allows us to keep in touch with promising applicants for future openings.",
+    "metadata": {
+      "difficulty": 3,
+      "tags": [
+        "recruitment",
+        "technology",
+        "talent acquisition"
+      ]
+    }
+  },
+  {
+    "id": "hr_0084",
+    "term": "Career Lattice",
+    "definition": "A career development model that allows for vertical, horizontal, and diagonal movement within an organization, rather than just a linear upward path.",
+    "example": "The company's career lattice structure enabled her to move from marketing into a project management role.",
+    "metadata": {
+      "difficulty": 3,
+      "tags": [
+        "career development",
+        "talent management",
+        "L&D"
+      ]
+    }
+  },
+  {
+    "id": "hr_0085",
+    "term": "Center of Excellence",
+    "acronym": "CoE",
+    "definition": "A specialized team or facility within an organization that provides leadership, best practices, and support for a specific focus area, like data analytics or L&D.",
+    "example": "Our Learning and Development Center of Excellence designs training programs for the entire global workforce.",
+    "metadata": {
+      "difficulty": 3,
+      "tags": [
+        "organizational design",
+        "strategy",
+        "management"
+      ]
+    }
+  },
+  {
+    "id": "hr_0086",
+    "term": "Collective Bargaining Agreement",
+    "acronym": "CBA",
+    "definition": "A written legal contract between an employer and a union representing employees, covering wages, hours, and other terms of employment.",
+    "example": "The new collective bargaining agreement includes a 3% annual pay raise for all union members.",
+    "metadata": {
+      "difficulty": 3,
+      "tags": [
+        "employee relations",
+        "legal",
+        "unions"
+      ]
+    }
+  },
+  {
+    "id": "hr_0087",
+    "term": "Competency Framework",
+    "definition": "A model that broadly defines the combination of skills, knowledge, and behaviors required for success in a particular role or organization.",
+    "example": "Our performance reviews are based on a competency framework that includes communication, teamwork, and problem-solving.",
+    "metadata": {
+      "difficulty": 3,
+      "tags": [
+        "performance",
+        "talent management",
+        "L&D"
       ]
     }
   },
   {
     "id": "hr_0088",
-    "term": "Time and attendance",
-    "definition": "Systems and processes used to track hours worked, start and end times, and breaks for payroll purposes.",
-    "example": "Modern Time and attendance software integrates directly with the payroll system to reduce errors.",
+    "term": "Deferred Compensation",
+    "definition": "A portion of an employee's compensation that is paid out at a later date, often used in executive pay packages as a retention tool.",
+    "example": "The CEO's deferred compensation plan will vest after five years of continued service.",
     "metadata": {
-      "difficulty": 2,
+      "difficulty": 3,
       "tags": [
-        "time",
-        "systems"
+        "compensation",
+        "benefits",
+        "finance"
       ]
     }
   },
   {
     "id": "hr_0089",
-    "term": "Absence management",
-    "definition": "Coordinating policies, data, and interventions to handle employee time off effectively.",
-    "example": "Better Absence management reduced unplanned sick days in customer service.",
+    "term": "Defined Benefit Plan",
+    "definition": "A type of pension plan in which an employer promises a specified monthly benefit on retirement that is predetermined by a formula.",
+    "example": "Unlike a 401(k), a traditional defined benefit plan guarantees a specific retirement income, regardless of market performance.",
     "metadata": {
-      "difficulty": 2,
+      "difficulty": 3,
       "tags": [
-        "time",
-        "wellbeing"
+        "benefits",
+        "retirement",
+        "finance"
       ]
     }
   },
   {
     "id": "hr_0090",
-    "term": "Leave entitlement",
-    "definition": "The amount and type of time off an employee is legally or contractually allowed to take.",
-    "example": "HR clarified Leave entitlement in a simple infographic for managers.",
+    "term": "Defined Contribution Plan",
+    "definition": "A retirement plan, such as a 401(k), in which an employee and/or employer contributes money into an individual account, with no guaranteed payout.",
+    "example": "Most companies today offer a defined contribution plan where they match a percentage of the employee's investment.",
     "metadata": {
-      "difficulty": 3,
+      "difficulty": 2,
       "tags": [
-        "leave",
-        "policy"
+        "benefits",
+        "retirement",
+        "finance"
       ]
     }
   },
   {
     "id": "hr_0091",
-    "term": "Parental leave",
-    "definition": "Authorized time away from work granted to parents after the birth or adoption of a child.",
-    "example": "The organization extended Parental leave to non-birth parents.",
+    "term": "Disciplinary Action",
+    "definition": "A process of addressing and correcting employee performance or behavior issues, which can range from a verbal warning to termination.",
+    "example": "Repeatedly violating the company's code of conduct will result in formal disciplinary action.",
     "metadata": {
       "difficulty": 1,
       "tags": [
-        "leave",
-        "family"
+        "employee relations",
+        "compliance",
+        "management"
       ]
     }
   },
   {
     "id": "hr_0092",
-    "term": "Sickness absence",
-    "definition": "The period of time an employee is away from work due to illness or injury, monitored for patterns.",
-    "example": "Frequent short-term Sickness absence triggered a formal review by the line manager.",
+    "term": "Diversity and Inclusion Council",
+    "definition": "A committee of employees who are responsible for guiding, overseeing, and championing an organization's diversity and inclusion initiatives.",
+    "example": "The Diversity and Inclusion Council is launching a new mentorship program to support underrepresented employees.",
     "metadata": {
       "difficulty": 2,
       "tags": [
-        "leave",
-        "wellbeing"
+        "diversity & inclusion",
+        "culture",
+        "strategy"
       ]
     }
   },
   {
     "id": "hr_0093",
-    "term": "Remote work policy",
-    "definition": "Guidelines that regulate working from locations other than the employer’s premises.",
-    "example": "The Remote work policy specifies eligibility, equipment, and data security requirements.",
+    "term": "Employee Assistance Program",
+    "acronym": "EAP",
+    "definition": "A confidential, employer-sponsored benefit that offers employees support and resources for personal or work-related problems.",
+    "example": "If you are struggling with stress, I encourage you to contact our Employee Assistance Program for free counseling services.",
     "metadata": {
-      "difficulty": 3,
+      "difficulty": 2,
       "tags": [
-        "flexibility",
-        "policy"
+        "benefits",
+        "employee wellness",
+        "employee relations"
       ]
     }
   },
   {
     "id": "hr_0094",
-    "term": "Hybrid work model",
-    "definition": "An arrangement in which employees split their working time between remote and on-site locations.",
-    "example": "The Hybrid work model is designed around team agreements, not individual preferences alone.",
+    "term": "Employee Data Privacy",
+    "definition": "The policies and procedures governing how an organization collects, uses, stores, and protects its employees' personal information.",
+    "example": "With new regulations like GDPR, employee data privacy has become a top priority for our HR department.",
     "metadata": {
-      "difficulty": 1,
+      "difficulty": 2,
       "tags": [
-        "flexibility",
-        "organization"
+        "legal",
+        "compliance",
+        "data management"
       ]
     }
   },
   {
     "id": "hr_0095",
-    "term": "Flextime",
-    "definition": "A scheduling arrangement that allows employees to choose their starting and ending times within agreed limits.",
-    "example": "Flextime has significantly reduced tardiness during the morning rush hour.",
+    "term": "Employee Engagement Survey",
+    "definition": "A tool used to measure employees' level of commitment, motivation, and satisfaction with their work and the organization.",
+    "example": "The results from the annual employee engagement survey will help us identify areas for improvement in our company culture.",
     "metadata": {
       "difficulty": 2,
       "tags": [
-        "flexibility",
-        "time"
+        "employee engagement",
+        "culture",
+        "metrics"
       ]
     }
   },
   {
     "id": "hr_0096",
-    "term": "Work-life balance initiative",
-    "definition": "A program aimed at helping employees manage professional and personal responsibilities sustainably.",
-    "example": "The Work-life balance initiative promoted meeting-free time blocks in the calendar.",
+    "term": "Employee Handbook",
+    "definition": "A document that communicates a company's mission, policies, and procedures to its employees.",
+    "example": "Please review the new remote work policy detailed in the updated employee handbook.",
     "metadata": {
-      "difficulty": 3,
+      "difficulty": 1,
       "tags": [
-        "wellbeing",
-        "culture"
+        "onboarding",
+        "compliance",
+        "employee relations"
       ]
     }
   },
   {
     "id": "hr_0097",
-    "term": "Occupational health and safety",
-    "definition": "The set of practices, policies, and controls that prevent work-related injuries and illnesses.",
-    "example": "Occupational health and safety training is mandatory for all line managers.",
+    "term": "Employee Referral Program",
+    "definition": "A recruitment strategy where current employees are encouraged and rewarded for recommending qualified candidates for open positions.",
+    "example": "We hired our best engineer through the employee referral program, so we're increasing the bonus for successful hires.",
     "metadata": {
       "difficulty": 1,
       "tags": [
-        "safety",
-        "compliance"
+        "recruitment",
+        "talent acquisition",
+        "benefits"
       ]
     }
   },
   {
     "id": "hr_0098",
-    "term": "Return-to-work interview",
-    "definition": "A short meeting held after an absence to discuss reasons for leave and any support needed.",
-    "example": "Supervisors conduct a Return-to-work interview after every extended sick leave.",
+    "term": "Employee Resource Group",
+    "acronym": "ERG",
+    "definition": "Voluntary, employee-led groups that foster a diverse, inclusive workplace aligned with organizational mission, values, and goals.",
+    "example": "The Women in Tech Employee Resource Group is hosting a networking event next month.",
     "metadata": {
       "difficulty": 2,
       "tags": [
-        "absence",
-        "wellbeing"
+        "diversity & inclusion",
+        "culture",
+        "employee engagement"
       ]
     }
   },
   {
     "id": "hr_0099",
-    "term": "Reasonable accommodation",
-    "definition": "Adjustments to a job or workplace that enable someone with specific needs to perform essential duties.",
-    "example": "Providing assistive technology counted as a Reasonable accommodation for the employee.",
+    "term": "Employee Self-Service Portal",
+    "acronym": "ESS",
+    "definition": "A web-based tool that allows employees to access and manage their own HR-related information, such as payroll, benefits, and personal data.",
+    "example": "You can download your pay stubs and update your address directly through the employee self-service portal.",
     "metadata": {
-      "difficulty": 3,
+      "difficulty": 1,
       "tags": [
-        "inclusion",
-        "compliance"
+        "technology",
+        "HR tech",
+        "HR operations"
       ]
     }
   },
   {
     "id": "hr_0100",
-    "term": "Disability leave",
-    "definition": "Authorized time away from work granted due to a health condition that limits work capacity.",
-    "example": "Clear rules around Disability leave reduce anxiety for employees facing serious illness.",
+    "term": "Employer Branding",
+    "definition": "The process of managing and influencing a company's reputation as an employer among job seekers, employees, and stakeholders.",
+    "example": "A strong employer brand on platforms like LinkedIn helps us attract passive candidates who aren't actively looking for a job.",
     "metadata": {
-      "difficulty": 1,
+      "difficulty": 2,
       "tags": [
-        "leave",
-        "health"
+        "recruitment",
+        "marketing",
+        "strategy"
       ]
     }
   },
   {
     "id": "hr_0101",
-    "term": "Employee engagement",
-    "definition": "The emotional and cognitive connection employees feel toward their work and organization.",
-    "example": "High Employee engagement often correlates with better customer satisfaction scores.",
+    "term": "Equal Employment Opportunity",
+    "acronym": "EEO",
+    "definition": "The principle that all individuals must have an equal chance for employment and advancement, regardless of race, color, religion, sex, age, or national origin.",
+    "example": "Our hiring practices are strictly governed by Equal Employment Opportunity laws to ensure fairness.",
     "metadata": {
       "difficulty": 2,
       "tags": [
-        "engagement",
-        "culture"
+        "legal",
+        "compliance",
+        "diversity & inclusion"
       ]
     }
   },
   {
     "id": "hr_0102",
-    "term": "Engagement survey",
-    "definition": "A structured questionnaire that measures how committed and energized employees feel.",
-    "example": "The Engagement survey highlighted concerns about workload and recognition.",
+    "term": "Equity Audit",
+    "definition": "A systematic review of an organization's policies, practices, and data to identify and address potential disparities in compensation, promotions, and opportunities among different employee groups.",
+    "example": "The company is conducting an equity audit to ensure there are no gender-based pay gaps.",
     "metadata": {
       "difficulty": 3,
       "tags": [
-        "metrics",
-        "feedback"
+        "diversity & inclusion",
+        "compliance",
+        "analytics"
       ]
     }
   },
   {
     "id": "hr_0103",
-    "term": "Organizational climate",
-    "definition": "Employees’ shared perceptions of policies, practices, and routines at a given point in time.",
-    "example": "A trust deficit in leadership negatively influenced the Organizational climate.",
+    "term": "Executive Compensation",
+    "definition": "The financial payment and non-financial benefits package for high-level corporate leaders, often including salary, bonuses, and long-term incentives.",
+    "example": "The board of directors must approve the executive compensation package for the new CEO.",
     "metadata": {
-      "difficulty": 1,
+      "difficulty": 3,
       "tags": [
-        "culture",
-        "perception"
+        "compensation",
+        "finance",
+        "strategy"
       ]
     }
   },
   {
     "id": "hr_0104",
-    "term": "Organizational culture",
-    "definition": "The underlying values, norms, and behaviors that shape how work gets done in an organization.",
-    "example": "Mergers often fail when Organizational cultures are incompatible.",
+    "term": "Executive Search",
+    "definition": "A specialized recruitment service used to source candidates for senior, executive, or other highly specialized positions.",
+    "example": "We've hired an executive search firm to help us find a new Chief Financial Officer.",
     "metadata": {
-      "difficulty": 2,
+      "difficulty": 3,
       "tags": [
-        "culture",
-        "strategy"
+        "recruitment",
+        "talent acquisition",
+        "C-suite"
       ]
     }
   },
   {
     "id": "hr_0105",
-    "term": "Psychological safety",
-    "definition": "A shared belief that the team is safe for interpersonal risk-taking, such as asking questions or admitting mistakes.",
-    "example": "Teams with strong Psychological safety report more errors but learn from them faster.",
+    "term": "Exit Interview Analysis",
+    "definition": "The process of systematically collecting, reviewing, and interpreting feedback from departing employees to identify trends and improve retention.",
+    "example": "Our exit interview analysis revealed that lack of career growth was the primary reason for employee turnover.",
     "metadata": {
-      "difficulty": 3,
+      "difficulty": 2,
       "tags": [
-        "teamwork",
-        "culture"
+        "employee relations",
+        "analytics",
+        "retention"
       ]
     }
   },
   {
     "id": "hr_0106",
-    "term": "Employee advocacy",
-    "definition": "The voluntary promotion of an employer’s brand and values by its employees.",
-    "example": "Social media guidelines encourage authentic Employee advocacy.",
+    "term": "Exempt vs Non-Exempt Classification",
+    "definition": "The legal classification of employees that determines their eligibility for overtime pay under labor laws.",
+    "example": "It is crucial to correctly determine the exempt vs non-exempt classification for each role to avoid legal penalties.",
     "metadata": {
-      "difficulty": 1,
+      "difficulty": 3,
       "tags": [
-        "brand",
-        "engagement"
+        "legal",
+        "compliance",
+        "compensation"
       ]
     }
   },
   {
     "id": "hr_0107",
-    "term": "Employee voice mechanism",
-    "definition": "A formal channel through which employees can express opinions, suggestions, or concerns.",
-    "example": "Anonymous hotlines are one type of Employee voice mechanism.",
+    "term": "Experiential Learning",
+    "definition": "The process of learning through doing and reflecting on the experience, often involving hands-on workshops, simulations, or on-the-job training.",
+    "example": "Our management training program focuses on experiential learning, using role-playing to practice difficult conversations.",
     "metadata": {
       "difficulty": 2,
       "tags": [
-        "engagement",
-        "governance"
+        "training",
+        "L&D",
+        "development"
       ]
     }
   },
   {
     "id": "hr_0108",
-    "term": "Grievance procedure",
-    "definition": "A documented process that employees can follow to raise and resolve complaints.",
-    "example": "Trade unions negotiated changes to the Grievance procedure after a high-profile case.",
+    "term": "Family and Medical Leave",
+    "acronym": "FMLA",
+    "definition": "A U.S. federal law requiring covered employers to provide employees with job-protected, unpaid leave for qualified medical and family reasons.",
+    "example": "She is taking 12 weeks of family and medical leave to care for her newborn child.",
     "metadata": {
-      "difficulty": 3,
+      "difficulty": 2,
       "tags": [
-        "relations",
-        "compliance"
+        "benefits",
+        "legal",
+        "compliance",
+        "leave"
       ]
     }
   },
   {
     "id": "hr_0109",
-    "term": "Disciplinary action",
-    "definition": "A formal response to misconduct or performance issues that can range from warnings to dismissal.",
-    "example": "Managers must document every Disciplinary action in the HR system.",
+    "term": "Flexible Spending Account",
+    "acronym": "FSA",
+    "definition": "A pre-tax benefit account that allows employees to pay for eligible out-of-pocket healthcare or dependent care expenses.",
+    "example": "I'm contributing to my Flexible Spending Account to save money on my children's daycare costs.",
     "metadata": {
-      "difficulty": 1,
+      "difficulty": 2,
       "tags": [
-        "relations",
-        "policy"
+        "benefits",
+        "compensation",
+        "finance"
       ]
     }
   },
   {
     "id": "hr_0110",
-    "term": "Progressive discipline",
-    "definition": "An approach that applies increasingly serious consequences if an issue is not corrected.",
-    "example": "The company uses Progressive discipline to give employees a chance to improve.",
+    "term": "Gig Economy Workforce",
+    "definition": "A labor market characterized by the prevalence of short-term contracts or freelance work as opposed to permanent jobs.",
+    "example": "Managing a gig economy workforce requires different HR strategies for onboarding, payment, and engagement.",
     "metadata": {
       "difficulty": 2,
       "tags": [
-        "relations",
-        "process"
+        "workforce planning",
+        "future of work",
+        "contractors"
       ]
     }
   },
   {
     "id": "hr_0111",
-    "term": "Harassment policy",
-    "definition": "Rules that define unacceptable behavior and outline how reports of harassment are handled.",
-    "example": "Mandatory training explains the Harassment policy with real-life examples.",
+    "term": "Health Savings Account",
+    "acronym": "HSA",
+    "definition": "A tax-advantaged savings account that can be used for healthcare expenses, available to those enrolled in a high-deductible health plan.",
+    "example": "I use my Health Savings Account to pay for medical bills, and any unused funds roll over to the next year.",
     "metadata": {
-      "difficulty": 3,
+      "difficulty": 2,
       "tags": [
-        "compliance",
-        "safety"
+        "benefits",
+        "compensation",
+        "finance"
       ]
     }
   },
   {
     "id": "hr_0112",
-    "term": "Anti-retaliation policy",
-    "definition": "A commitment that employees who report concerns in good faith will not suffer negative consequences.",
-    "example": "The Anti-retaliation policy is mentioned in every whistleblowing communication.",
-    "metadata": {
-      "difficulty": 1,
-      "tags": [
-        "ethics",
-        "compliance"
-      ]
-    }
-  },
-  {
-    "id": "hr_0113",
-    "term": "Whistleblowing policy",
-    "definition": "Guidelines that describe how employees can safely report suspected wrongdoing.",
-    "example": "An external hotline supports the Whistleblowing policy for sensitive cases.",
-    "metadata": {
-      "difficulty": 2,
-      "tags": [
-        "ethics",
-        "governance"
-      ]
-    }
-  },
-  {
-    "id": "hr_0114",
-    "term": "Code of conduct",
-    "definition": "A formal document that sets expectations for ethical and professional behavior.",
-    "example": "Violations of the Code of conduct can lead to disciplinary measures.",
+    "term": "Hostile Work Environment",
+    "definition": "A workplace made intimidating or offensive by unwelcome conduct based on protected traits, which interferes with an employee's work performance.",
+    "example": "The investigation concluded that the manager's constant jokes about age and race created a hostile work environment for several employees.",
     "metadata": {
       "difficulty": 3,
       "tags": [
-        "ethics",
-        "policy"
-      ]
-    }
-  },
-  {
-    "id": "hr_0115",
-    "term": "Workplace mediation",
-    "definition": "A voluntary process in which a neutral third party helps employees resolve conflicts.",
-    "example": "Workplace mediation prevented a long-running dispute from escalating.",
-    "metadata": {
-      "difficulty": 1,
-      "tags": [
-        "relations",
-        "conflict"
-      ]
-    }
-  },
-  {
-    "id": "hr_0116",
-    "term": "Conflict resolution training",
-    "definition": "Learning interventions that build skills for managing disagreements constructively.",
-    "example": "Supervisors attend Conflict resolution training as part of leadership development.",
-    "metadata": {
-      "difficulty": 2,
-      "tags": [
-        "training",
-        "relations"
-      ]
-    }
-  },
-  {
-    "id": "hr_0117",
-    "term": "Collective bargaining",
-    "definition": "Negotiations between employers and employee representatives over pay and working conditions.",
-    "example": "Collective bargaining rounds are scheduled every two years in the sector.",
-    "metadata": {
-      "difficulty": 3,
-      "tags": [
-        "unions",
-        "negotiation"
-      ]
-    }
-  },
-  {
-    "id": "hr_0118",
-    "term": "Works council",
-    "definition": "An elected body representing employees in consultations on workplace issues.",
-    "example": "The Works council must be informed before major reorganizations.",
-    "metadata": {
-      "difficulty": 1,
-      "tags": [
-        "representation",
-        "governance"
-      ]
-    }
-  },
-  {
-    "id": "hr_0119",
-    "term": "Employee representative body",
-    "definition": "A group formally authorized to speak on behalf of employees in discussions with management.",
-    "example": "The Employee representative body reviewed the proposed shift schedule changes.",
-    "metadata": {
-      "difficulty": 2,
-      "tags": [
-        "representation",
-        "relations"
-      ]
-    }
-  },
-  {
-    "id": "hr_0120",
-    "term": "Union recognition agreement",
-    "definition": "A formal document in which an employer accepts a trade union as the bargaining agent.",
-    "example": "The Union recognition agreement specifies which employees are covered.",
-    "metadata": {
-      "difficulty": 3,
-      "tags": [
-        "unions",
-        "governance"
-      ]
-    }
-  },
-  {
-    "id": "hr_0121",
-    "term": "Workforce diversity",
-    "definition": "The range of differences among people in an organization, including background, identity, and perspectives.",
-    "example": "Workforce diversity can improve problem-solving by bringing in varied viewpoints.",
-    "metadata": {
-      "difficulty": 1,
-      "tags": [
-        "diversity",
+        "hr",
+        "legal",
+        "compliance",
         "culture"
       ]
     }
   },
   {
-    "id": "hr_0122",
-    "term": "Diversity and inclusion strategy",
-    "definition": "A long-term plan for building a more representative workforce and inclusive environment.",
-    "example": "Targets for leadership representation are part of the Diversity and inclusion strategy.",
+    "id": "hr_0113",
+    "term": "HR Service Delivery Model",
+    "definition": "The framework that outlines how a company's HR department provides support and services to its employees.",
+    "example": "Our new HR service delivery model includes a self-service portal for basic questions and dedicated HR Business Partners for strategic advice.",
+    "metadata": {
+      "difficulty": 3,
+      "tags": [
+        "hr",
+        "strategy",
+        "operations"
+      ]
+    }
+  },
+  {
+    "id": "hr_0114",
+    "term": "HR Technology Stack",
+    "definition": "The collection of integrated software and tools used by an HR department to manage its processes and data.",
+    "example": "Our HR technology stack includes an applicant tracking system, a payroll platform, and an employee engagement survey tool.",
     "metadata": {
       "difficulty": 2,
       "tags": [
-        "diversity",
+        "hr",
+        "technology",
+        "hris"
+      ]
+    }
+  },
+  {
+    "id": "hr_0115",
+    "term": "Human Capital Return on Investment",
+    "acronym": "HCROI",
+    "definition": "A financial metric that measures the profit generated by a company for every dollar invested in employee compensation and benefits.",
+    "example": "We calculated our Human Capital Return on Investment to demonstrate the financial value of our new training programs to the leadership team.",
+    "metadata": {
+      "difficulty": 3,
+      "tags": [
+        "hr",
+        "finance",
+        "analytics",
+        "metrics"
+      ]
+    }
+  },
+  {
+    "id": "hr_0116",
+    "term": "Human Capital Strategy",
+    "definition": "A long-term plan that aligns an organization's people management practices with its overall business objectives.",
+    "example": "Our new human capital strategy focuses on developing leadership skills internally to support our global expansion.",
+    "metadata": {
+      "difficulty": 2,
+      "tags": [
+        "hr",
+        "strategy",
+        "management"
+      ]
+    }
+  },
+  {
+    "id": "hr_0117",
+    "term": "Hybrid Work Model",
+    "definition": "A flexible work arrangement where employees spend some of their time working in the office and some of their time working remotely.",
+    "example": "Our company has adopted a hybrid work model, requiring employees to be in the office on Tuesdays and Thursdays.",
+    "metadata": {
+      "difficulty": 1,
+      "tags": [
+        "hr",
+        "workplace",
+        "culture"
+      ]
+    }
+  },
+  {
+    "id": "hr_0118",
+    "term": "Inclusive Leadership",
+    "definition": "A leadership style that ensures all team members feel they are treated respectfully, are valued, and have a sense of belonging.",
+    "example": "The training session on inclusive leadership taught managers how to actively seek out and consider diverse perspectives in team meetings.",
+    "metadata": {
+      "difficulty": 2,
+      "tags": [
+        "management",
+        "leadership",
+        "dei",
+        "culture"
+      ]
+    }
+  },
+  {
+    "id": "hr_0119",
+    "term": "Individual Development Plan",
+    "acronym": "IDP",
+    "definition": "A personalized action plan designed to help an employee improve their skills and advance their career.",
+    "example": "During my performance review, my manager and I created an Individual Development Plan to help me get promoted to a senior role.",
+    "metadata": {
+      "difficulty": 2,
+      "tags": [
+        "hr",
+        "training",
+        "performance management"
+      ]
+    }
+  },
+  {
+    "id": "hr_0120",
+    "term": "Internal Mobility",
+    "definition": "The movement of employees to new roles, projects, or opportunities within the same organization.",
+    "example": "The company encourages internal mobility by posting all new job openings on the internal career portal first.",
+    "metadata": {
+      "difficulty": 2,
+      "tags": [
+        "hr",
+        "recruitment",
+        "career development"
+      ]
+    }
+  },
+  {
+    "id": "hr_0121",
+    "term": "Job Architecture",
+    "definition": "The framework that standardizes and organizes all jobs within a company based on level, function, and career path.",
+    "example": "Implementing a clear job architecture helped employees see how they could progress in their careers at our company.",
+    "metadata": {
+      "difficulty": 3,
+      "tags": [
+        "hr",
+        "compensation",
         "strategy"
       ]
     }
   },
   {
+    "id": "hr_0122",
+    "term": "Job Description Audit",
+    "definition": "A systematic review of job descriptions to ensure they are accurate, up-to-date, compliant, and free of bias.",
+    "example": "The HR department is conducting a job description audit to prepare for our upcoming pay equity analysis.",
+    "metadata": {
+      "difficulty": 2,
+      "tags": [
+        "hr",
+        "compliance",
+        "recruitment"
+      ]
+    }
+  },
+  {
     "id": "hr_0123",
-    "term": "Pay gap analysis",
-    "definition": "The examination of pay data to identify unexplained differences between groups, such as genders or age bands.",
-    "example": "Annual Pay gap analysis informs corrective pay adjustments and policy changes.",
+    "term": "Job Evaluation",
+    "definition": "The process of systematically determining the relative value of a job within an organization to create a fair pay structure.",
+    "example": "We used a job evaluation method to compare the responsibilities of a software engineer with those of a product manager.",
     "metadata": {
       "difficulty": 3,
       "tags": [
-        "analytics",
-        "fairness"
+        "hr",
+        "compensation"
       ]
     }
   },
   {
     "id": "hr_0124",
-    "term": "Gender pay gap reporting",
-    "definition": "Disclosing statistics that compare average earnings of women and men in an organization.",
-    "example": "Regulatory Gender pay gap reporting increases pressure to address structural imbalances.",
+    "term": "Job Requisition Management",
+    "definition": "The process of creating, approving, and tracking requests to fill a new or vacant position within a company.",
+    "example": "Our new applicant tracking system has streamlined job requisition management, making it much easier to get approval for new hires.",
     "metadata": {
-      "difficulty": 1,
+      "difficulty": 2,
       "tags": [
-        "compliance",
-        "fairness"
+        "hr",
+        "recruitment",
+        "operations"
       ]
     }
   },
   {
     "id": "hr_0125",
-    "term": "Equal opportunities policy",
-    "definition": "A statement that commits the employer to non-discrimination in recruitment and employment decisions.",
-    "example": "Job adverts are reviewed to ensure they align with the Equal opportunities policy.",
+    "term": "Knowledge Management System",
+    "acronym": "KMS",
+    "definition": "A centralized technology platform used to store, share, and manage an organization's knowledge and information.",
+    "example": "Before starting the project, I searched the company's Knowledge Management System for best practices from similar initiatives.",
     "metadata": {
       "difficulty": 2,
       "tags": [
-        "compliance",
-        "policy"
+        "it",
+        "operations",
+        "training"
       ]
     }
   },
   {
     "id": "hr_0126",
-    "term": "Age management",
-    "definition": "HR practices that address the needs and strengths of employees at different life stages.",
-    "example": "Age management initiatives include phased retirement and intergenerational mentoring.",
+    "term": "Knowledge Transfer Plan",
+    "definition": "A documented strategy for passing crucial knowledge from one person or team to another, often used for retiring employees or project handoffs.",
+    "example": "We created a detailed knowledge transfer plan to ensure a smooth transition when our lead engineer retires next month.",
     "metadata": {
-      "difficulty": 3,
+      "difficulty": 2,
       "tags": [
-        "diversity",
-        "planning"
+        "hr",
+        "training",
+        "management"
       ]
     }
   },
   {
     "id": "hr_0127",
-    "term": "Inclusive leadership training",
-    "definition": "Programs that help leaders recognize bias and create more inclusive team practices.",
-    "example": "Inclusive leadership training is mandatory for all people managers.",
+    "term": "Leadership Development Program",
+    "definition": "A structured program designed to cultivate and enhance the skills of current and future leaders within an organization.",
+    "example": "High-potential employees were invited to join the company's annual leadership development program.",
     "metadata": {
-      "difficulty": 1,
+      "difficulty": 2,
       "tags": [
-        "leadership",
-        "diversity"
+        "hr",
+        "training",
+        "management",
+        "leadership"
       ]
     }
   },
   {
     "id": "hr_0128",
-    "term": "Talent analytics",
-    "definition": "The use of data and statistical methods to understand and improve workforce decisions.",
-    "example": "Talent analytics helped predict which roles had the highest risk of resignation.",
+    "term": "Learning Agility",
+    "definition": "The ability and willingness to learn from experience and then apply that learning to perform successfully in new situations.",
+    "example": "The recruiter looked for candidates with high learning agility, as the role required adapting to new technologies quickly.",
     "metadata": {
-      "difficulty": 2,
+      "difficulty": 3,
       "tags": [
-        "analytics",
-        "talent"
+        "hr",
+        "recruitment",
+        "performance"
       ]
     }
   },
   {
     "id": "hr_0129",
-    "term": "People analytics",
-    "definition": "A broader discipline that combines HR data with business metrics to generate insights about human capital.",
-    "example": "People analytics linked engagement scores with customer churn in specific regions.",
+    "term": "Learning and Development Strategy",
+    "acronym": "L&D",
+    "definition": "A comprehensive plan that outlines how an organization will improve its employees' skills and knowledge to achieve business goals.",
+    "example": "Our new L&D strategy includes a mix of online courses, mentorship, and on-the-job training opportunities.",
     "metadata": {
-      "difficulty": 3,
+      "difficulty": 2,
       "tags": [
-        "analytics",
+        "hr",
+        "training",
         "strategy"
       ]
     }
   },
   {
     "id": "hr_0130",
-    "term": "HR dashboard",
-    "definition": "A visual display of key HR metrics that supports regular monitoring and decision-making.",
-    "example": "The HR dashboard shows headcount, turnover, and internal mobility trends by segment.",
+    "term": "Long-Term Incentive Plan",
+    "acronym": "LTIP",
+    "definition": "A compensation plan that rewards employees for achieving goals over a period longer than one year, often using stock options.",
+    "example": "As a director, she was eligible for the company's Long-Term Incentive Plan, which vested over four years.",
     "metadata": {
-      "difficulty": 1,
+      "difficulty": 3,
       "tags": [
-        "analytics",
-        "tools"
+        "hr",
+        "compensation",
+        "finance"
       ]
     }
   },
   {
     "id": "hr_0131",
-    "term": "FTE analysis",
-    "definition": "The calculation of the total workforce workload converted into the equivalent number of full-time employees.",
-    "example": "The FTE analysis showed we are understaffed despite the high number of part-time workers.",
+    "term": "Mentorship Program",
+    "definition": "A structured program where experienced employees (mentors) provide guidance and support to less experienced employees (mentees).",
+    "example": "The company's mentorship program helped new graduates navigate their first year in the corporate world.",
     "metadata": {
-      "difficulty": 3,
+      "difficulty": 1,
       "tags": [
-        "reporting",
-        "staffing"
+        "hr",
+        "training",
+        "career development"
       ]
     }
   },
   {
     "id": "hr_0132",
-    "term": "Workforce segmentation",
-    "definition": "Dividing employees into groups based on shared characteristics to tailor HR practices.",
-    "example": "Workforce segmentation distinguished critical experts from easily replaceable roles.",
+    "term": "Merit Increase Matrix",
+    "definition": "A grid used by managers to determine an employee's salary increase based on their performance rating and position in their salary range.",
+    "example": "According to the merit increase matrix, a top performer who is low in their pay range will receive the largest percentage raise.",
     "metadata": {
       "difficulty": 3,
       "tags": [
-        "analytics",
-        "planning"
+        "hr",
+        "compensation"
       ]
     }
   },
   {
     "id": "hr_0133",
-    "term": "Critical role",
-    "definition": "A position whose vacancy would create disproportionate risk for the organization.",
-    "example": "Succession plans prioritize every identified Critical role.",
+    "term": "Microlearning",
+    "definition": "A training approach that delivers content in small, focused, and easily digestible segments.",
+    "example": "Instead of a day-long workshop, we used a series of microlearning videos to teach the new software features.",
     "metadata": {
-      "difficulty": 1,
+      "difficulty": 2,
       "tags": [
-        "risk",
-        "talent"
+        "hr",
+        "training"
       ]
     }
   },
   {
     "id": "hr_0134",
-    "term": "Span of control",
-    "definition": "The number of direct reports that a manager supervises.",
-    "example": "Very wide Span of control can limit the quality of coaching a manager can provide.",
+    "term": "Offer Acceptance Rate",
+    "definition": "A recruitment metric that calculates the percentage of candidates who accept a formal job offer from a company.",
+    "example": "Our offer acceptance rate for engineering roles is 90%, which indicates our compensation packages are competitive.",
     "metadata": {
       "difficulty": 2,
       "tags": [
-        "structure",
-        "management"
+        "hr",
+        "recruitment",
+        "metrics"
       ]
     }
   },
   {
     "id": "hr_0135",
-    "term": "Organizational redesign",
-    "definition": "Deliberately changing structures, roles, and reporting lines to better support strategy.",
-    "example": "Organizational redesign moved HR business partners closer to product teams.",
+    "term": "Offboarding Process",
+    "definition": "The formal process for managing an employee's departure from a company, including exit interviews and revoking system access.",
+    "example": "A smooth offboarding process is important for maintaining good relationships with former employees and protecting company assets.",
     "metadata": {
-      "difficulty": 3,
+      "difficulty": 1,
       "tags": [
-        "structure",
-        "change"
+        "hr",
+        "operations"
       ]
     }
   },
   {
     "id": "hr_0136",
-    "term": "Change management plan",
-    "definition": "A roadmap of communications, training, and support actions that guide people through a transition.",
-    "example": "The Change management plan identified key stakeholders and resistance points.",
+    "term": "Onboarding Process",
+    "definition": "The process of integrating a new employee into an organization, providing them with the tools and information to become a productive team member.",
+    "example": "The first week of our onboarding process includes meetings with key team members and an overview of company policies.",
     "metadata": {
       "difficulty": 1,
       "tags": [
-        "change",
-        "planning"
+        "hr",
+        "recruitment",
+        "operations"
       ]
     }
   },
   {
     "id": "hr_0137",
-    "term": "Change champion network",
-    "definition": "A group of employees who promote and support a transformation within their local teams.",
-    "example": "The Change champion network gathered feedback from frontline staff during the rollout.",
+    "term": "Organizational Culture Assessment",
+    "definition": "A systematic process to evaluate the shared values, beliefs, and behaviors that define a company's work environment.",
+    "example": "The leadership team initiated an organizational culture assessment after noticing a decline in employee morale.",
     "metadata": {
       "difficulty": 2,
       "tags": [
-        "change",
-        "engagement"
+        "hr",
+        "culture",
+        "strategy"
       ]
     }
   },
   {
     "id": "hr_0138",
-    "term": "HR business partner",
-    "definition": "An HR professional who works closely with a specific part of the business to align people practices with strategy.",
-    "example": "The HR business partner joined leadership meetings to anticipate talent needs.",
+    "term": "Organizational Health Index",
+    "acronym": "OHI",
+    "definition": "A metric that measures an organization's ability to align, execute, and renew itself to sustain exceptional performance.",
+    "example": "Our quarterly Organizational Health Index score helps us identify areas where we need to improve our management practices.",
     "metadata": {
       "difficulty": 3,
       "tags": [
-        "hr-role",
-        "strategy"
+        "hr",
+        "strategy",
+        "analytics"
       ]
     }
   },
   {
     "id": "hr_0139",
-    "term": "HR shared services",
-    "definition": "A centralized unit that delivers standardized HR transactions and support to multiple parts of the organization.",
-    "example": "Creating HR shared services reduced duplication across country teams.",
-    "metadata": {
-      "difficulty": 1,
-      "tags": [
-        "operations",
-        "structure"
-      ]
-    }
-  },
-  {
-    "id": "hr_0140",
-    "term": "HR service catalogue",
-    "definition": "A documented list of HR services, with descriptions and service levels, available to managers and employees.",
-    "example": "The HR service catalogue clarifies who to contact for payroll versus benefits questions.",
-    "metadata": {
-      "difficulty": 2,
-      "tags": [
-        "operations",
-        "service"
-      ]
-    }
-  },
-  {
-    "id": "hr_0141",
-    "term": "Center of expertise",
-    "definition": "A specialized team within HR that provides deep knowledge in areas like compensation or talent analytics.",
-    "example": "The Center of expertise for rewards designed the new equity plan.",
+    "term": "Organizational Network Analysis",
+    "acronym": "ONA",
+    "definition": "A method for visualizing and analyzing how communication, information, and decisions flow between people in an organization.",
+    "example": "We conducted an Organizational Network Analysis to identify key influencers and communication bottlenecks before the restructuring.",
     "metadata": {
       "difficulty": 3,
       "tags": [
-        "hr-role",
-        "structure"
-      ]
-    }
-  },
-  {
-    "id": "hr_0142",
-    "term": "HR technology roadmap",
-    "definition": "A strategic plan that outlines the future implementation and integration of HR systems.",
-    "example": "Our HR technology roadmap prioritizes a new learning platform and analytics tools.",
-    "metadata": {
-      "difficulty": 1,
-      "tags": [
-        "systems",
+        "hr",
+        "analytics",
         "strategy"
       ]
     }
   },
   {
-    "id": "hr_0143",
-    "term": "HRIS analyst",
-    "definition": "A specialist who manages and configures the Human Resources Information System.",
-    "example": "The HRIS analyst is responsible for creating new reports and ensuring data integrity.",
+    "id": "hr_0140",
+    "term": "Passive Candidate Sourcing",
+    "definition": "The practice of proactively identifying and recruiting candidates who are currently employed and not actively looking for a new job.",
+    "example": "The recruiter used LinkedIn for passive candidate sourcing to find a specialist with a very rare skillset.",
     "metadata": {
       "difficulty": 2,
       "tags": [
-        "hr-role",
-        "systems"
+        "hr",
+        "recruitment"
+      ]
+    }
+  },
+  {
+    "id": "hr_0141",
+    "term": "Pay Grade Structure",
+    "definition": "A system that groups jobs of similar value into different pay levels, each with a defined minimum and maximum salary.",
+    "example": "The new pay grade structure ensures that employees in similar roles are compensated within the same salary range.",
+    "metadata": {
+      "difficulty": 2,
+      "tags": [
+        "hr",
+        "compensation"
+      ]
+    }
+  },
+  {
+    "id": "hr_0142",
+    "term": "Pay Parity Analysis",
+    "definition": "An analysis conducted to ensure that employees in similar roles are paid fairly, regardless of gender, race, or other protected characteristics.",
+    "example": "Our annual pay parity analysis confirmed that we have no statistically significant gender pay gap.",
+    "metadata": {
+      "difficulty": 3,
+      "tags": [
+        "hr",
+        "compensation",
+        "dei",
+        "legal"
+      ]
+    }
+  },
+  {
+    "id": "hr_0143",
+    "term": "Peer Coaching",
+    "definition": "A confidential process where employees work together to support each other's goals, solve problems, and enhance skills.",
+    "example": "The sales team implemented a peer coaching system where top performers share their techniques with newer colleagues.",
+    "metadata": {
+      "difficulty": 2,
+      "tags": [
+        "hr",
+        "training",
+        "performance"
       ]
     }
   },
   {
     "id": "hr_0144",
-    "term": "Employee self-service portal",
-    "definition": "A web-based tool that allows employees to manage their own personal data, leave, and benefits.",
-    "example": "Updating your address is easy using the Employee self-service portal.",
+    "term": "Performance Appraisal",
+    "definition": "A formal review process to evaluate an employee's job performance and productivity against established objectives.",
+    "example": "My annual performance appraisal is scheduled for next week, where I will discuss my achievements and goals with my manager.",
     "metadata": {
-      "difficulty": 3,
+      "difficulty": 1,
       "tags": [
-        "systems",
-        "efficiency"
+        "hr",
+        "performance management"
       ]
     }
   },
   {
     "id": "hr_0145",
-    "term": "Manager self-service",
-    "definition": "A feature in HR systems that enables managers to perform tasks like approving leave or initiating hires.",
-    "example": "Implementing Manager self-service reduced the administrative burden on the HR department.",
+    "term": "Performance Calibration",
+    "definition": "A process where managers meet to discuss their employees' performance ratings to ensure fairness and consistency across the organization.",
+    "example": "The leadership team held a performance calibration session to make sure that a 'high performer' rating meant the same thing in every department.",
     "metadata": {
-      "difficulty": 1,
+      "difficulty": 3,
       "tags": [
-        "systems",
-        "efficiency"
+        "hr",
+        "performance management"
       ]
     }
   },
   {
     "id": "hr_0146",
-    "term": "Data privacy compliance",
-    "definition": "Ensuring that HR practices for collecting and storing employee information adhere to legal requirements.",
-    "example": "Data privacy compliance became a top priority with the introduction of new regulations.",
+    "term": "Phantom Stock Plan",
+    "definition": "An employee benefit plan that gives selected employees the financial benefits of stock ownership without actually giving them company stock.",
+    "example": "The startup offered a phantom stock plan to key employees to align their interests with the company's long-term success.",
     "metadata": {
-      "difficulty": 2,
+      "difficulty": 3,
       "tags": [
-        "compliance",
-        "data"
+        "hr",
+        "compensation",
+        "finance"
       ]
     }
   },
   {
     "id": "hr_0147",
-    "term": "HR audit",
-    "definition": "A systematic review of HR policies, procedures, and practices to assess compliance and effectiveness.",
-    "example": "An internal HR audit revealed inconsistencies in our hiring documentation.",
+    "term": "Point-Factor Method",
+    "definition": "A quantitative job evaluation method that breaks down a job into compensable factors and assigns points to each factor.",
+    "example": "Using the point-factor method, we assigned scores for skill, responsibility, and working conditions to determine the job's pay grade.",
     "metadata": {
       "difficulty": 3,
       "tags": [
-        "audit",
-        "compliance"
+        "hr",
+        "compensation"
       ]
     }
   },
   {
     "id": "hr_0148",
-    "term": "Global mobility policy",
-    "definition": "A framework that governs the terms and conditions for employees who are transferred internationally.",
-    "example": "The Global mobility policy covers everything from tax support to cultural training.",
+    "term": "Predictive Hiring",
+    "definition": "The use of data, statistics, and artificial intelligence to identify which job candidates are most likely to be successful in a role.",
+    "example": "The company uses predictive hiring analytics to screen resumes and forecast candidate performance.",
     "metadata": {
-      "difficulty": 1,
+      "difficulty": 3,
       "tags": [
-        "mobility",
-        "policy"
+        "hr",
+        "recruitment",
+        "analytics",
+        "technology"
       ]
     }
   },
   {
     "id": "hr_0149",
-    "term": "Expatriate assignment",
-    "definition": "A temporary posting of an employee to work in a foreign country.",
-    "example": "The engineer was offered a three-year Expatriate assignment in the new research center.",
+    "term": "Pre-employment Screening",
+    "definition": "The process of investigating a job candidate's background to verify their claims and check for potential issues, such as a criminal record.",
+    "example": "All successful candidates must pass a pre-employment screening before receiving a final offer.",
     "metadata": {
-      "difficulty": 2,
+      "difficulty": 1,
       "tags": [
-        "mobility",
-        "international"
+        "hr",
+        "recruitment",
+        "legal",
+        "compliance"
       ]
     }
   },
   {
     "id": "hr_0150",
-    "term": "Repatriation process",
-    "definition": "The set of actions that support an employee's return to their home country after an international assignment.",
-    "example": "A well-managed Repatriation process helps retain valuable experience gained abroad.",
+    "term": "Progressive Discipline",
+    "definition": "A process for addressing employee misconduct that involves a series of increasingly severe steps, from a verbal warning to termination.",
+    "example": "The manager followed the company's progressive discipline policy when addressing the employee's consistent tardiness.",
+    "metadata": {
+      "difficulty": 2,
+      "tags": [
+        "hr",
+        "legal",
+        "employee relations"
+      ]
+    }
+  },
+  {
+    "id": "hr_0151",
+    "term": "Quid Pro Quo Harassment",
+    "definition": "A form of harassment where a job benefit is directly tied to an employee submitting to unwelcome sexual advances.",
+    "example": "Offering a promotion in exchange for a date is a clear example of quid pro quo harassment and is illegal.",
     "metadata": {
       "difficulty": 3,
       "tags": [
-        "mobility",
-        "integration"
+        "hr",
+        "legal",
+        "compliance"
+      ]
+    }
+  },
+  {
+    "id": "hr_0152",
+    "term": "Recruitment Marketing",
+    "definition": "The strategy of using marketing tactics to attract, engage, and nurture talented individuals to apply for jobs at an organization.",
+    "example": "Our recruitment marketing campaign on social media highlighted our company's great culture and benefits.",
+    "metadata": {
+      "difficulty": 2,
+      "tags": [
+        "hr",
+        "recruitment",
+        "marketing"
+      ]
+    }
+  },
+  {
+    "id": "hr_0153",
+    "term": "Representation Metrics",
+    "definition": "Data showing the demographic composition of a company's workforce, used to track progress on diversity and inclusion goals.",
+    "example": "The Chief HR Officer presented the latest representation metrics to the board, showing an increase in women in leadership roles.",
+    "metadata": {
+      "difficulty": 2,
+      "tags": [
+        "hr",
+        "dei",
+        "analytics",
+        "metrics"
+      ]
+    }
+  },
+  {
+    "id": "hr_0154",
+    "term": "Retaliation Claim",
+    "definition": "A legal claim filed by an employee who believes they were punished by their employer for engaging in a legally protected activity, such as reporting harassment.",
+    "example": "After he reported the safety violation, his manager demoted him, which led him to file a retaliation claim.",
+    "metadata": {
+      "difficulty": 3,
+      "tags": [
+        "hr",
+        "legal",
+        "compliance"
+      ]
+    }
+  },
+  {
+    "id": "hr_0155",
+    "term": "Return-to-Work Program",
+    "definition": "A structured program to help employees transition back to the workplace after an extended absence due to injury or illness.",
+    "example": "The return-to-work program allowed her to gradually increase her hours over four weeks following her medical leave.",
+    "metadata": {
+      "difficulty": 2,
+      "tags": [
+        "hr",
+        "benefits",
+        "compliance"
+      ]
+    }
+  },
+  {
+    "id": "hr_0156",
+    "term": "Right-to-Work State",
+    "definition": "A U.S. state with laws ensuring that no person can be compelled, as a condition of employment, to join or pay dues to a labor union.",
+    "example": "Because we operate in a right-to-work state, employees in the factory cannot be required to join the union.",
+    "metadata": {
+      "difficulty": 3,
+      "tags": [
+        "hr",
+        "legal",
+        "labor relations",
+        "us-specific"
+      ]
+    }
+  },
+  {
+    "id": "hr_0157",
+    "term": "Salary Range Penetration",
+    "definition": "A metric that measures how far an employee's salary is into their assigned pay range.",
+    "example": "An employee with a salary range penetration of 80% is paid well above the midpoint for their role.",
+    "metadata": {
+      "difficulty": 3,
+      "tags": [
+        "hr",
+        "compensation",
+        "analytics"
+      ]
+    }
+  },
+  {
+    "id": "hr_0158",
+    "term": "Shared Services Center",
+    "definition": "A centralized unit within an organization that handles routine, transaction-based HR tasks like payroll for multiple business units.",
+    "example": "Instead of calling a local HR rep, employees submit their benefits questions to the global HR Shared Services Center.",
+    "metadata": {
+      "difficulty": 2,
+      "tags": [
+        "hr",
+        "operations",
+        "strategy"
+      ]
+    }
+  },
+  {
+    "id": "hr_0159",
+    "term": "Short-Term Incentive Plan",
+    "acronym": "STIP",
+    "definition": "A compensation plan that rewards employees for achieving performance goals over one year or less, typically as an annual bonus.",
+    "example": "Based on the company's strong performance, all eligible employees will receive a bonus under the Short-Term Incentive Plan.",
+    "metadata": {
+      "difficulty": 2,
+      "tags": [
+        "hr",
+        "compensation"
+      ]
+    }
+  },
+  {
+    "id": "hr_0160",
+    "term": "Sourcing Strategy",
+    "definition": "A comprehensive plan outlining the methods and channels a company will use to find and attract qualified job candidates.",
+    "example": "Our sourcing strategy for the new engineering roles includes a mix of online job boards, employee referrals, and university partnerships.",
+    "metadata": {
+      "difficulty": 2,
+      "tags": [
+        "hr",
+        "recruitment"
+      ]
+    }
+  },
+  {
+    "id": "hr_0161",
+    "term": "Span of Control",
+    "definition": "The number of subordinates or direct reports a manager is responsible for.",
+    "example": "After the reorganization, the director's span of control increased from five to ten direct reports.",
+    "metadata": {
+      "difficulty": 2,
+      "tags": [
+        "management",
+        "hr",
+        "organizational design"
+      ]
+    }
+  },
+  {
+    "id": "hr_0162",
+    "term": "Strategic Workforce Management",
+    "acronym": "SWM",
+    "definition": "The process of aligning an organization's human capital with its strategic goals to ensure it has the right people, with the right skills, in the right roles at the right time.",
+    "example": "Our Strategic Workforce Management initiative identified a future need for data scientists, so we're starting to recruit and train for those skills now.",
+    "metadata": {
+      "difficulty": 3,
+      "tags": [
+        "HR",
+        "management",
+        "strategy",
+        "planning"
+      ]
+    }
+  },
+  {
+    "id": "hr_0163",
+    "term": "Stretch Assignment",
+    "definition": "A project or task given to an employee that is beyond their current knowledge or skill level, designed to challenge them and develop new abilities.",
+    "example": "To prepare her for a leadership role, her manager gave her a stretch assignment leading the new product launch.",
+    "metadata": {
+      "difficulty": 2,
+      "tags": [
+        "HR",
+        "management",
+        "career development",
+        "performance"
+      ]
+    }
+  },
+  {
+    "id": "hr_0164",
+    "term": "Structured Interviewing",
+    "definition": "An interviewing method where all candidates are asked the same set of predetermined questions to ensure fairness and consistency in the evaluation process.",
+    "example": "By using structured interviewing, the hiring team could objectively compare each candidate's answers to the same competency-based questions.",
+    "metadata": {
+      "difficulty": 2,
+      "tags": [
+        "HR",
+        "recruitment",
+        "hiring"
+      ]
+    }
+  },
+  {
+    "id": "hr_0165",
+    "term": "Talent Acquisition Funnel",
+    "definition": "A model visualizing the recruitment process from a candidate's first point of contact (awareness) to their eventual hire, helping to track and optimize each stage.",
+    "example": "We're losing too many good applicants after the first interview; we need to analyze our talent acquisition funnel to identify the problem.",
+    "metadata": {
+      "difficulty": 3,
+      "tags": [
+        "HR",
+        "recruitment",
+        "analytics",
+        "hiring"
+      ]
+    }
+  },
+  {
+    "id": "hr_0166",
+    "term": "Talent Pipelining",
+    "definition": "The proactive process of identifying and building relationships with potential candidates for critical roles, even before a specific job opening exists.",
+    "example": "Instead of waiting for a vacancy, our talent pipelining efforts ensure we have a pool of qualified software engineers ready to engage.",
+    "metadata": {
+      "difficulty": 3,
+      "tags": [
+        "HR",
+        "recruitment",
+        "strategy",
+        "sourcing"
+      ]
+    }
+  },
+  {
+    "id": "hr_0167",
+    "term": "Total Cash Compensation",
+    "acronym": "TCC",
+    "definition": "The complete pay an employee receives in a year, which includes their base salary plus any short-term cash incentives like bonuses or commissions.",
+    "example": "While the base salary is competitive, the performance bonus makes the Total Cash Compensation for this sales role very attractive.",
+    "metadata": {
+      "difficulty": 2,
+      "tags": [
+        "HR",
+        "finance",
+        "compensation",
+        "payroll"
+      ]
+    }
+  },
+  {
+    "id": "hr_0168",
+    "term": "Unconscious Bias Training",
+    "definition": "A program designed to make employees aware of their hidden, automatic biases so they can make more objective decisions, particularly in hiring and promotions.",
+    "example": "After the mandatory unconscious bias training, managers were more mindful of their assumptions during performance reviews.",
+    "metadata": {
+      "difficulty": 2,
+      "tags": [
+        "HR",
+        "DEI",
+        "training",
+        "management"
+      ]
+    }
+  },
+  {
+    "id": "hr_0169",
+    "term": "Unfair Labor Practice",
+    "acronym": "ULP",
+    "definition": "An action by an employer or union that violates labor laws, such as interfering with employees' rights to organize or bargain collectively.",
+    "example": "Firing an employee for trying to start a union was ruled an Unfair Labor Practice by the National Labor Relations Board.",
+    "metadata": {
+      "difficulty": 3,
+      "tags": [
+        "HR",
+        "legal",
+        "compliance",
+        "employee relations"
+      ]
+    }
+  },
+  {
+    "id": "hr_0170",
+    "term": "Whistleblower Protection",
+    "definition": "Legal safeguards that protect employees from retaliation after reporting illegal, unsafe, or unethical practices within their organization.",
+    "example": "The company's whistleblower protection policy ensures that anyone reporting financial misconduct can do so without fear of losing their job.",
+    "metadata": {
+      "difficulty": 2,
+      "tags": [
+        "HR",
+        "legal",
+        "compliance",
+        "ethics"
+      ]
+    }
+  },
+  {
+    "id": "hr_0171",
+    "term": "Workplace Investigation",
+    "definition": "A formal process of gathering facts to determine if a complaint of misconduct, such as harassment or discrimination, has occurred in the workplace.",
+    "example": "HR has launched a confidential workplace investigation following the anonymous complaint filed last week.",
+    "metadata": {
+      "difficulty": 2,
+      "tags": [
+        "HR",
+        "legal",
+        "compliance",
+        "employee relations"
+      ]
+    }
+  },
+  {
+    "id": "hr_0172",
+    "term": "Workforce Analytics",
+    "definition": "The practice of using data and statistical methods to measure, analyze, and improve the performance and management of an organization's workforce.",
+    "example": "Using workforce analytics, we discovered a direct correlation between employee engagement scores and departmental productivity.",
+    "metadata": {
+      "difficulty": 3,
+      "tags": [
+        "HR",
+        "analytics",
+        "data",
+        "management"
+      ]
+    }
+  },
+  {
+    "id": "hr_0173",
+    "term": "Applicant Tracking System",
+    "acronym": "ATS",
+    "definition": "A software application that manages the entire recruiting and hiring process, from receiving applications to making an offer.",
+    "example": "Our ATS automatically filters resumes for keywords, saving our recruiters hours of manual screening.",
+    "metadata": {
+      "difficulty": 2,
+      "tags": [
+        "recruitment",
+        "technology",
+        "software"
+      ]
+    }
+  },
+  {
+    "id": "hr_0174",
+    "term": "Employee Net Promoter Score",
+    "acronym": "eNPS",
+    "definition": "A metric used to measure employee loyalty and engagement by asking how likely they are to recommend their company as a place to work.",
+    "example": "After the recent changes, our quarterly eNPS dropped by 15 points, so we need to address employee concerns.",
+    "metadata": {
+      "difficulty": 3,
+      "tags": [
+        "employee engagement",
+        "metrics",
+        "analytics"
+      ]
+    }
+  },
+  {
+    "id": "hr_0175",
+    "term": "Employee Stock Ownership Plan",
+    "acronym": "ESOP",
+    "definition": "A type of employee benefit plan that gives workers an ownership interest in the company through shares of stock.",
+    "example": "The company's ESOP is a great incentive for long-term retention as it gives staff a real stake in our success.",
+    "metadata": {
+      "difficulty": 3,
+      "tags": [
+        "compensation",
+        "benefits",
+        "finance"
+      ]
+    }
+  },
+  {
+    "id": "hr_0176",
+    "term": "Employer Value Proposition",
+    "acronym": "EVP",
+    "definition": "The unique set of benefits and rewards an employee receives in return for their skills and contributions to a company.",
+    "example": "Our EVP emphasizes work-life balance and professional development opportunities to attract top candidates.",
+    "metadata": {
+      "difficulty": 3,
+      "tags": [
+        "recruitment",
+        "branding",
+        "strategy"
+      ]
+    }
+  },
+  {
+    "id": "hr_0177",
+    "term": "HR Business Partner",
+    "acronym": "HRBP",
+    "definition": "An HR professional who works directly with a company's leadership to develop and direct an HR strategy that aligns with business goals.",
+    "example": "I've scheduled a meeting with our HRBP to discuss the staffing needs for the new marketing project.",
+    "metadata": {
+      "difficulty": 2,
+      "tags": [
+        "roles",
+        "management",
+        "strategy"
+      ]
+    }
+  },
+  {
+    "id": "hr_0178",
+    "term": "Human Capital Management",
+    "acronym": "HCM",
+    "definition": "A broad set of practices for recruiting, managing, developing, and optimizing employees to increase their value to the organization.",
+    "example": "Our new HCM software integrates payroll, benefits, and performance management into a single platform.",
+    "metadata": {
+      "difficulty": 2,
+      "tags": [
+        "strategy",
+        "management",
+        "technology"
+      ]
+    }
+  },
+  {
+    "id": "hr_0179",
+    "term": "Human Resources Information System",
+    "acronym": "HRIS",
+    "definition": "A software system used to maintain and manage core employee data, such as personal information, roles, and payroll.",
+    "example": "Please update your contact information directly in the HRIS by the end of the week.",
+    "metadata": {
+      "difficulty": 2,
+      "tags": [
+        "technology",
+        "data management",
+        "software"
+      ]
+    }
+  },
+  {
+    "id": "hr_0180",
+    "term": "Learning Management System",
+    "acronym": "LMS",
+    "definition": "A software application for the administration, tracking, and delivery of educational courses or training programs.",
+    "example": "All new employees must complete the mandatory compliance training on our LMS within their first 30 days.",
+    "metadata": {
+      "difficulty": 2,
+      "tags": [
+        "training",
+        "development",
+        "technology"
+      ]
+    }
+  },
+  {
+    "id": "hr_0181",
+    "term": "Management by Objectives",
+    "acronym": "MBO",
+    "definition": "A management model that aims to improve performance by clearly defining objectives that are agreed upon by both management and employees.",
+    "example": "Our company uses an MBO approach, so each team member's goals are directly aligned with the department's key targets.",
+    "metadata": {
+      "difficulty": 3,
+      "tags": [
+        "management",
+        "performance",
+        "strategy"
+      ]
+    }
+  },
+  {
+    "id": "hr_0182",
+    "term": "Performance Improvement Plan",
+    "acronym": "PIP",
+    "definition": "A formal document outlining specific areas where an employee is underperforming and the steps they must take to improve.",
+    "example": "After several missed deadlines, John's manager had to put him on a Performance Improvement Plan.",
+    "metadata": {
+      "difficulty": 2,
+      "tags": [
+        "performance",
+        "management",
+        "employee relations"
+      ]
+    }
+  },
+  {
+    "id": "hr_0183",
+    "term": "Recruitment Process Outsourcing",
+    "acronym": "RPO",
+    "definition": "A business model where a company transfers all or part of its recruitment processes to an external provider.",
+    "example": "To scale up quickly for our expansion, we decided to use an RPO firm to handle all our international hiring.",
+    "metadata": {
+      "difficulty": 3,
+      "tags": [
+        "recruitment",
+        "outsourcing",
+        "strategy"
       ]
     }
   }

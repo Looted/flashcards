@@ -1,0 +1,1202 @@
+[
+  {
+    "id": "finance_0001",
+    "term": "Zdyskontowane przepływy pieniężne",
+    "acronym": "DCF",
+    "definition": "Metoda wyceny służąca do oszacowania wartości inwestycji na podstawie oczekiwanych przyszłych przepływów pieniężnych, skorygowanych o wartość pieniądza w czasie.",
+    "example": "Analityk wykorzystał model zdyskontowanych przepływów pieniężnych (DCF), aby ustalić, że docelowa spółka jest niedowartościowana, co czyni ją atrakcyjnym celem przejęcia.",
+    "reviewed": true
+  },
+  {
+    "id": "finance_0002",
+    "term": "Wartość bieżąca netto",
+    "acronym": "NPV",
+    "definition": "Różnica między bieżącą wartością wpływów pieniężnych a bieżącą wartością wypływów pieniężnych w danym okresie. Jest stosowana w budżetowaniu kapitałowym do analizy rentowności prognozowanej inwestycji.",
+    "example": "Projekt został zatwierdzony, ponieważ jego wartość bieżąca netto (NPV) była dodatnia, co wskazywało, że wygeneruje on większą wartość niż wynoszą jego koszty.",
+    "reviewed": true
+  },
+  {
+    "id": "finance_0003",
+    "term": "Wewnętrzna stopa zwrotu",
+    "acronym": "IRR",
+    "definition": "Stopa dyskontowa, przy której wartość bieżąca netto (NPV) wszystkich przepływów pieniężnych z danego projektu jest równa zero. Jest to wskaźnik używany do oceny rentowności potencjalnych inwestycji.",
+    "example": "Bierzemy pod uwagę tylko projekty, których wewnętrzna stopa zwrotu (IRR) przekracza 15%, aby upewnić się, że spełniają nasze cele rentowności.",
+    "reviewed": true
+  },
+  {
+    "id": "finance_0004",
+    "term": "Średni ważony koszt kapitału",
+    "acronym": "WACC",
+    "definition": "Kalkulacja kosztu kapitału firmy, w której każda kategoria kapitału jest ważona proporcjonalnie. Reprezentuje średnią stopę, jaką firma spodziewa się zapłacić za finansowanie swoich aktywów.",
+    "example": "Aby ocenić projekt nowej fabryki, użyliśmy średniego ważonego kosztu kapitału (WACC) naszej firmy jako stopy dyskontowej w analizie NPV.",
+    "reviewed": true
+  },
+  {
+    "id": "finance_0005",
+    "term": "Model wyceny aktywów kapitałowych",
+    "acronym": "CAPM",
+    "definition": "Model opisujący związek między ryzykiem systematycznym a oczekiwanym zwrotem z aktywów, w szczególności akcji. Jest szeroko stosowany do wyceny ryzykownych papierów wartościowych i generowania oczekiwanych stóp zwrotu.",
+    "example": "Korzystając z modelu wyceny aktywów kapitałowych (CAPM), obliczyliśmy, że oczekiwany zwrot z akcji wynosi 9%, biorąc pod uwagę jej współczynnik beta i bieżącą premię za ryzyko rynkowe.",
+    "reviewed": true
+  },
+  {
+    "id": "finance_0006",
+    "term": "Wartość przedsiębiorstwa",
+    "acronym": "EV",
+    "definition": "Miara całkowitej wartości firmy, często używana jako bardziej kompleksowa alternatywa dla kapitalizacji rynkowej. Obejmuje kapitalizację rynkową firmy plus zadłużenie, udziały mniejszościowe i akcje uprzywilejowane, minus gotówka.",
+    "example": "Cenę przejęcia ustalono na podstawie wartości przedsiębiorstwa (EV) spółki docelowej, co dało jaśniejszy obraz jej całkowitej wartości niż sama cena akcji.",
+    "reviewed": true
+  },
+  {
+    "id": "finance_0007",
+    "term": "Wykup lewarowany",
+    "acronym": "LBO",
+    "definition": "Przejęcie innej firmy przy użyciu znacznej ilości pożyczonych pieniędzy (długu) w celu pokrycia kosztów nabycia. Aktywa przejmowanej firmy są często wykorzystywane jako zabezpieczenie pożyczek.",
+    "example": "Fundusz private equity dokonał wykupu lewarowanego sieci handlowej, mając nadzieję na jej restrukturyzację i sprzedaż z zyskiem.",
+    "reviewed": true
+  },
+  {
+    "id": "finance_0008",
+    "term": "Finansowanie mezzanine",
+    "acronym": null,
+    "definition": "Hybryda finansowania dłużnego i kapitałowego, która daje pożyczkodawcy prawo do konwersji na udziały w spółce w przypadku niewywiązania się z umowy. Jest ono podporządkowane czystemu długowi, ale uprzywilejowane w stosunku do czystego kapitału własnego.",
+    "example": "Aby sfinansować ekspansję bez zbytniego rozwodnienia udziałów, startup pozyskał finansowanie mezzanine jako alternatywę dla tradycyjnego kredytu bankowego.",
+    "reviewed": true
+  },
+  {
+    "id": "finance_0009",
+    "term": "Sekurytyzacja",
+    "acronym": null,
+    "definition": "Proces przekształcania niepłynnych aktywów lub grupy aktywów w zbywalny papier wartościowy. Emitent gromadzi aktywa, takie jak kredyty hipoteczne lub samochodowe, i sprzedaje je inwestorom.",
+    "example": "Bank wykorzystał sekurytyzację, aby połączyć tysiące indywidualnych kredytów hipotecznych w jeden produkt inwestycyjny i sprzedać go inwestorom instytucjonalnym.",
+    "reviewed": true
+  },
+  {
+    "id": "finance_0010",
+    "term": "Arbitraż",
+    "acronym": null,
+    "definition": "Jednoczesny zakup i sprzedaż aktywów na różnych rynkach w celu osiągnięcia zysku z niewielkiej różnicy w cenie notowanej danego aktywa. Wykorzystuje on nieefektywności cenowe na rynku.",
+    "example": "Trader zrealizował strategię arbitrażu, kupując akcje na jednej giełdzie i natychmiast sprzedając je po nieco wyższej cenie na innej.",
+    "reviewed": true
+  },
+  {
+    "id": "finance_0011",
+    "term": "Hedging",
+    "acronym": null,
+    "definition": "Strategia inwestycyjna mająca na celu zmniejszenie ryzyka niekorzystnych zmian cen aktywów. Zazwyczaj polega na zajęciu przeciwstawnej pozycji w powiązanym papierze wartościowym.",
+    "example": "Linia lotnicza zastosowała hedging, kupując kontrakty terminowe na paliwo, aby zablokować cenę i zabezpieczyć się przed rosnącymi kosztami ropy.",
+    "reviewed": true
+  },
+  {
+    "id": "finance_0012",
+    "term": "Kontrakt forward",
+    "acronym": null,
+    "definition": "Indywidualna, prywatna umowa między dwiema stronami na kupno lub sprzedaż aktywów po określonej cenie w przyszłym terminie. Nie jest przedmiotem obrotu na scentralizowanej giełdzie.",
+    "example": "Rolnik podpisał kontrakt forward na sprzedaż 10 000 buszli kukurydzy po stałej cenie za sześć miesięcy, gwarantując sobie w ten sposób przychody.",
+    "reviewed": true
+  },
+  {
+    "id": "finance_0013",
+    "term": "Swap stopy procentowej",
+    "acronym": "IRS",
+    "definition": "Kontrakt pochodny, w ramach którego dwie strony wymieniają się płatnościami odsetkowymi dla określonej kwoty kapitału, zazwyczaj zamieniając stałą stopę procentową na zmienną.",
+    "example": "Nasza firma zawarła swap stopy procentowej, aby zamienić kredyt o zmiennym oprocentowaniu na kredyt o stałym oprocentowaniu dla większej pewności finansowej.",
+    "reviewed": true
+  },
+  {
+    "id": "finance_0014",
+    "term": "Swap ryzyka kredytowego",
+    "acronym": "CDS",
+    "definition": "Finansowy instrument pochodny, który pozwala inwestorowi „zamienić” lub zrekompensować swoje ryzyko kredytowe z ryzykiem innego inwestora. Jest to w istocie polisa ubezpieczeniowa na instrument dłużny.",
+    "example": "Fundusz hedgingowy zakupił swap ryzyka kredytowego (CDS), aby chronić swoją inwestycję w obligacje firmy na wypadek jej niewypłacalności.",
+    "reviewed": true
+  },
+  {
+    "id": "finance_0015",
+    "term": "Obligacja zabezpieczona długiem",
+    "acronym": "CDO",
+    "definition": "Złożony produkt finansowy o charakterze strukturyzowanym, który jest zabezpieczony pulą pożyczek i innych aktywów i sprzedawany inwestorom instytucjonalnym. Jego ryzyko jest podzielone na różne transze, czyli warstwy.",
+    "example": "Podczas kryzysu finansowego wielu inwestorów straciło pieniądze na obligacjach zabezpieczonych długiem (CDO), które były oparte na kredytach hipotecznych typu subprime.",
+    "reviewed": true
+  },
+  {
+    "id": "finance_0016",
+    "term": "Luzowanie ilościowe",
+    "acronym": "QE",
+    "definition": "Polityka pieniężna, w ramach której bank centralny skupuje obligacje rządowe lub inne aktywa finansowe w celu wprowadzenia pieniędzy do gospodarki i pobudzenia aktywności gospodarczej.",
+    "example": "Bank centralny ogłosił nową rundę luzowania ilościowego, aby obniżyć stopy procentowe i zachęcić do inwestycji.",
+    "reviewed": true
+  },
+  {
+    "id": "finance_0017",
+    "term": "Krzywa dochodowości",
+    "acronym": null,
+    "definition": "Wykres liniowy przedstawiający stopy procentowe obligacji o tej samej jakości kredytowej, ale różnych terminach zapadalności. Jej kształt może wskazywać na przyszłe warunki gospodarcze.",
+    "example": "Odwrócona krzywa dochodowości, gdzie obligacje krótkoterminowe mają wyższe rentowności niż długoterminowe, jest często postrzegana jako prognostyk recesji.",
+    "reviewed": true
+  },
+  {
+    "id": "finance_0018",
+    "term": "Zmienność implikowana",
+    "acronym": null,
+    "definition": "Wskaźnik, który odzwierciedla rynkową prognozę prawdopodobnego ruchu ceny papieru wartościowego. Jest to kluczowy element modeli wyceny opcji.",
+    "example": "Zmienność implikowana dla akcji gwałtownie wzrosła przed ogłoszeniem wyników, co wskazywało, że inwestorzy spodziewali się dużego wahania ceny.",
+    "reviewed": true
+  },
+  {
+    "id": "finance_0019",
+    "term": "Model Blacka-Scholesa",
+    "acronym": null,
+    "definition": "Model matematyczny używany do określania wartości godziwej lub teoretycznej kontraktu opcyjnego. Uwzględnia takie czynniki jak cena akcji, cena wykonania, czas do wygaśnięcia i zmienność.",
+    "example": "Inwestorzy używają modelu Blacka-Scholesa do obliczania teoretycznej wartości opcji przed dokonaniem transakcji.",
+    "reviewed": true
+  },
+  {
+    "id": "finance_0020",
+    "term": "Symulacja Monte Carlo",
+    "acronym": null,
+    "definition": "Skomputeryzowana technika, która uwzględnia ryzyko w analizie ilościowej poprzez generowanie tysięcy możliwych wyników. Pomaga w zrozumieniu wpływu ryzyka i niepewności.",
+    "example": "Przeprowadziliśmy symulację Monte Carlo, aby prognozować rentowność projektu w różnych scenariuszach rynkowych.",
+    "reviewed": true
+  },
+  {
+    "id": "finance_0021",
+    "term": "Zarządzanie kapitałem obrotowym",
+    "acronym": null,
+    "definition": "Strategia biznesowa mająca na celu monitorowanie i wykorzystywanie bieżących aktywów i zobowiązań w celu zapewnienia jak najefektywniejszego działania firmy.",
+    "example": "Efektywne zarządzanie kapitałem obrotowym jest kluczowe dla naszej firmy, aby utrzymać wystarczającą płynność finansową do pokrycia krótkoterminowych zobowiązań.",
+    "reviewed": true
+  },
+  {
+    "id": "finance_0022",
+    "term": "Odpis z tytułu utraty wartości firmy",
+    "acronym": null,
+    "definition": "Odpis księgowy dokonywany, gdy wartość godziwa wartości firmy (goodwill) spada poniżej jej wartości bilansowej. Wartość firmy to składnik aktywów niematerialnych, który powstaje w wyniku przejęcia.",
+    "example": "Firma dokonała dużego odpisu z tytułu utraty wartości firmy po tym, jak przejęta spółka zależna osiągnęła wyniki poniżej oczekiwań.",
+    "reviewed": true
+  },
+  {
+    "id": "finance_0023",
+    "term": "Harmonogram spłaty",
+    "acronym": null,
+    "definition": "Tabela szczegółowo opisująca każdą okresową płatność pożyczki, pokazująca, jaka część każdej płatności jest przeznaczona na odsetki, a jaka na kapitał.",
+    "example": "Przed wzięciem kredytu hipotecznego przejrzała harmonogram spłaty, aby zrozumieć, jak jej płatności będą zmniejszać saldo zadłużenia w czasie.",
+    "reviewed": true
+  },
+  {
+    "id": "finance_0024",
+    "term": "Księgowość memoriałowa",
+    "acronym": null,
+    "definition": "Metoda rachunkowości, w której przychody lub koszty są rejestrowane w momencie wystąpienia transakcji, a nie w momencie dokonania płatności. Zapewnia ona dokładniejszy obraz kondycji finansowej firmy.",
+    "example": "Nasza firma stosuje księgowość memoriałową, więc przychód za usługę wykonaną w maju ujęliśmy również w maju, mimo że klient zapłacił dopiero w czerwcu.",
+    "reviewed": true
+  },
+  {
+    "id": "finance_0025",
+    "term": "Wolne przepływy pieniężne dla firmy (FCFF)",
+    "acronym": "UFCF",
+    "definition": "Przepływy pieniężne firmy przed uwzględnieniem płatności odsetkowych. Pokazują, ile gotówki jest dostępne dla wszystkich dostawców kapitału (zarówno wierzycieli, jak i udziałowców).",
+    "example": "Analitycy preferują stosowanie wolnych przepływów pieniężnych dla firmy (FCFF) w modelach DCF, ponieważ eliminuje to wpływ struktury kapitału na wycenę.",
+    "reviewed": true
+  },
+  {
+    "id": "finance_0026",
+    "term": "Model zdyskontowanych dywidend",
+    "acronym": "DDM",
+    "definition": "Metoda wyceny akcji spółki oparta na teorii, że wartość akcji jest równa sumie wszystkich przyszłych wypłat dywidend, zdyskontowanych do ich wartości bieżącej.",
+    "example": "Inwestor użył modelu zdyskontowanych dywidend, aby uzasadnić, że akcje spółki użyteczności publicznej są dobrą inwestycją długoterminową.",
+    "reviewed": true
+  },
+  {
+    "id": "finance_0027",
+    "term": "Analiza spółek porównywalnych",
+    "acronym": "CCA",
+    "definition": "Metodologia wyceny, która analizuje wskaźniki finansowe podobnych spółek publicznych i wykorzystuje je do określenia wartości innego przedsiębiorstwa.",
+    "example": "Aby oszacować wartość startupu, bankier inwestycyjny przeprowadził analizę spółek porównywalnych, wykorzystując dane publicznie notowanych konkurentów.",
+    "reviewed": true
+  },
+  {
+    "id": "finance_0028",
+    "term": "Analiza transakcji porównywalnych",
+    "acronym": "PTA",
+    "definition": "Metoda wyceny, w której cena zapłacona za podobne firmy w przeszłych transakcjach fuzji i przejęć jest wykorzystywana do wyceny firmy dzisiaj.",
+    "example": "Zespół ds. fuzji i przejęć przeprowadził analizę transakcji porównywalnych, aby określić godziwą cenę przejęcia dla docelowej firmy.",
+    "reviewed": true
+  },
+  {
+    "id": "finance_0029",
+    "term": "Optymalna struktura kapitału",
+    "acronym": null,
+    "definition": "Określona kombinacja długu i kapitału własnego, którą firma wykorzystuje do finansowania swojej działalności, maksymalizująca jej wartość i minimalizująca koszt kapitału.",
+    "example": "Celem dyrektora finansowego jest znalezienie optymalnej struktury kapitału, równoważąc korzyści płynące z długu z ryzykiem trudności finansowych.",
+    "reviewed": true
+  },
+  {
+    "id": "finance_0030",
+    "term": "Dług podporządkowany",
+    "acronym": null,
+    "definition": "Pożyczka lub papier wartościowy, który ma niższy priorytet w roszczeniach do aktywów lub zysków w stosunku do innych pożyczek. W przypadku niewypłacalności, posiadacze długu uprzywilejowanego są spłacani przed posiadaczami długu podporządkowanego.",
+    "example": "Firma wyemitowała dług podporządkowany, który oferował inwestorom wyższe oprocentowanie w celu zrekompensowania zwiększonego ryzyka.",
+    "reviewed": true
+  },
+  {
+    "id": "finance_0031",
+    "term": "Dług zabezpieczony uprzywilejowany",
+    "acronym": null,
+    "definition": "Rodzaj długu, który jest zabezpieczony aktywami i ma najwyższy priorytet spłaty w przypadku bankructwa.",
+    "example": "Firma zaciągnęła w banku dług zabezpieczony uprzywilejowany, którego zabezpieczeniem była fabryka wraz z wyposażeniem.",
+    "reviewed": true
+  },
+  {
+    "id": "finance_0032",
+    "term": "Ryzyko płynności",
+    "acronym": null,
+    "definition": "Ryzyko, że firma lub osoba fizyczna nie będzie w stanie sprostać swoim krótkoterminowym zobowiązaniom finansowym. Wynika z niemożności szybkiej zamiany aktywów na gotówkę bez utraty ich wartości.",
+    "example": "Aby ograniczyć ryzyko płynności, firma utrzymuje odpowiednią rezerwę gotówkową oraz linię kredytową w banku.",
+    "reviewed": true
+  },
+  {
+    "id": "finance_0033",
+    "term": "Wartość zagrożona",
+    "acronym": "VaR",
+    "definition": "Statystyka, która kwantyfikuje zakres możliwych strat finansowych w firmie lub portfelu w określonym czasie przy danym poziomie ufności.",
+    "example": "Zespół zarządzania ryzykiem obliczył, że jednodniowa wartość zagrożona (VaR) portfela wynosi 1 milion dolarów przy 95% poziomie ufności.",
+    "reviewed": true
+  },
+  {
+    "id": "finance_0034",
+    "term": "Spread kredytowy",
+    "acronym": null,
+    "definition": "Różnica w rentowności między dwoma papierami dłużnymi o tej samej zapadalności, ale różnej jakości kredytowej. Jest to miara postrzeganego ryzyka związanego z firmą.",
+    "example": "Podczas spowolnienia gospodarczego spread kredytowy poszerzył się, co wskazywało, że inwestorzy domagali się wyższej rekompensaty za podejmowanie ryzyka kredytowego.",
+    "reviewed": true
+  },
+  {
+    "id": "finance_0035",
+    "term": "Ryzyko systematyczne",
+    "acronym": null,
+    "definition": "Ryzyko nieodłącznie związane z całym rynkiem lub segmentem rynku, znane również jako „ryzyko rynkowe” lub „ryzyko niedywersyfikowalne”. Wpływa na cały rynek, a nie tylko na pojedynczą akcję.",
+    "example": "Ryzyko systematyczne, takie jak zmiany stóp procentowych czy recesja, nie może być wyeliminowane poprzez dywersyfikację.",
+    "reviewed": true
+  },
+  {
+    "id": "finance_0036",
+    "term": "Ryzyko niesystematyczne",
+    "acronym": null,
+    "definition": "Ryzyko specyficzne dla danej firmy lub branży, znane również jako „ryzyko specyficzne” lub „ryzyko dywersyfikowalne”. Ten rodzaj ryzyka można zredukować poprzez dywersyfikację.",
+    "example": "Firma stanęła w obliczu ryzyka niesystematycznego z powodu pojawienia się nowego konkurenta, ale inwestorzy mogą je złagodzić, posiadając zdywersyfikowany portfel.",
+    "reviewed": true
+  },
+  {
+    "id": "finance_0037",
+    "term": "Współczynnik beta",
+    "acronym": null,
+    "definition": "Miara zmienności akcji w stosunku do całego rynku. Beta większa niż 1 oznacza, że akcja jest bardziej zmienna niż rynek, podczas gdy mniejsza niż 1 oznacza, że jest mniej zmienna.",
+    "example": "Akcje tej spółki technologicznej mają współczynnik beta równy 1,5, co sugeruje, że są o 50% bardziej zmienne niż indeks S&P 500.",
+    "reviewed": true
+  },
+  {
+    "id": "finance_0038",
+    "term": "Alfa Jensena",
+    "acronym": null,
+    "definition": "Miara aktywnego zwrotu z inwestycji, pokazująca jej wyniki w stosunku do indeksu referencyjnego (benchmarku). Dodatnia alfa oznacza, że inwestycja osiągnęła lepsze wyniki niż jej benchmark po uwzględnieniu ryzyka.",
+    "example": "Zarządzająca funduszem wygenerowała dodatnią alfę Jensena w wysokości 2%, dowodząc swojej umiejętności wybierania akcji, które przewyższają oczekiwany zwrot rynkowy.",
+    "reviewed": true
+  },
+  {
+    "id": "finance_0039",
+    "term": "Wskaźnik Sharpe'a",
+    "acronym": null,
+    "definition": "Miara zwrotu skorygowanego o ryzyko, obliczana jako średni zwrot uzyskany powyżej stopy wolnej od ryzyka na jednostkę całkowitego ryzyka. Wyższy wskaźnik Sharpe'a oznacza lepsze wyniki.",
+    "example": "Chociaż oba fundusze miały podobne stopy zwrotu, Fundusz A miał znacznie wyższy wskaźnik Sharpe'a, co czyniło go lepszym wyborem po uwzględnieniu ryzyka.",
+    "reviewed": true
+  },
+  {
+    "id": "finance_0040",
+    "term": "Wskaźnik Sortino",
+    "acronym": null,
+    "definition": "Wariant wskaźnika Sharpe'a, który bierze pod uwagę tylko zmienność ujemną (ryzyko straty). Odróżnia on niekorzystną zmienność od całkowitej zmienności.",
+    "example": "Wskaźnik Sortino jest przydatny dla inwestorów, którym bardziej zależy na ochronie portfela przed dużymi stratami.",
+    "reviewed": true
+  },
+  {
+    "id": "finance_0041",
+    "term": "Finansowe due diligence",
+    "acronym": "DD",
+    "definition": "Badanie lub audyt potencjalnej inwestycji w celu potwierdzenia wszystkich faktów, takich jak przegląd dokumentacji finansowej, przed zawarciem umowy.",
+    "example": "Przed przejęciem firmy zatrudniliśmy czołową firmę księgową do przeprowadzenia dokładnego finansowego due diligence.",
+    "reviewed": true
+  },
+  {
+    "id": "finance_0042",
+    "term": "Sprawozdania finansowe pro forma",
+    "acronym": null,
+    "definition": "Raporty finansowe, które wykorzystują założenia lub hipotetyczne warunki do prognozowania przyszłych wyników finansowych firmy.",
+    "example": "Startup przedstawił inwestorom sprawozdania finansowe pro forma, aby pokazać prognozowaną rentowność firmy w ciągu najbliższych pięciu lat.",
+    "reviewed": true
+  },
+  {
+    "id": "finance_0043",
+    "term": "Koszt utopiony",
+    "acronym": null,
+    "definition": "Koszt, który został już poniesiony i nie może zostać odzyskany. Koszty utopione nie powinny być brane pod uwagę przy podejmowaniu przyszłych decyzji biznesowych.",
+    "example": "Chociaż wydaliśmy na projekt 1 milion dolarów, jest to koszt utopiony. Musimy teraz zdecydować, czy kontynuować, opierając się wyłącznie na przyszłym potencjale.",
+    "reviewed": true
+  },
+  {
+    "id": "finance_0044",
+    "term": "Koszt alternatywny",
+    "acronym": null,
+    "definition": "Potencjalna korzyść, z której rezygnuje się, wybierając jedną alternatywę zamiast innej. Reprezentuje wartość drugiej najlepszej alternatywy.",
+    "example": "Kosztem alternatywnym inwestycji w Projekt A jest zysk, który moglibyśmy osiągnąć, inwestując zamiast tego w Projekt B.",
+    "reviewed": true
+  },
+  {
+    "id": "finance_0045",
+    "term": "Wartość pieniądza w czasie",
+    "acronym": null,
+    "definition": "Podstawowa zasada finansowa, zgodnie z którą dana suma pieniędzy ma obecnie większą wartość niż ta sama suma w przyszłości, ze względu na jej potencjalną zdolność do generowania zysku.",
+    "example": "Koncepcja wartości pieniądza w czasie wyjaśnia, dlaczego wolisz otrzymać 1000 zł dzisiaj niż 1000 zł za rok.",
+    "reviewed": true
+  },
+  {
+    "id": "finance_0046",
+    "term": "Nakłady inwestycyjne",
+    "acronym": "CAPEX",
+    "definition": "Środki wykorzystywane przez firmę na nabycie, modernizację i utrzymanie aktywów trwałych, takich jak nieruchomości, budynki, technologia czy sprzęt.",
+    "example": "Budżet firmy na przyszły rok obejmuje znaczne nakłady inwestycyjne na nowy zakład produkcyjny.",
+    "reviewed": true
+  },
+  {
+    "id": "finance_0047",
+    "term": "Zwrot z zainwestowanego kapitału",
+    "acronym": "ROIC",
+    "definition": "Wskaźnik rentowności, który mierzy, jak dobrze firma generuje przepływy pieniężne w stosunku do kapitału zainwestowanego w swoją działalność.",
+    "example": "Firma o wysokim i stałym zwrocie z zainwestowanego kapitału (ROIC) jest często oznaką silnej przewagi konkurencyjnej.",
+    "reviewed": true
+  },
+  {
+    "id": "finance_0048",
+    "term": "Stopa graniczna",
+    "acronym": null,
+    "definition": "Minimalna stopa zwrotu z projektu lub inwestycji wymagana przez menedżera lub inwestora. Pozwala firmom decydować, czy realizować dany projekt.",
+    "example": "Oczekiwany zwrot z projektu wynosi 12%, czyli poniżej stopy granicznej naszej firmy ustalonej na 15%, dlatego nie będziemy go realizować.",
+    "reviewed": true
+  },
+  {
+    "id": "finance_0049",
+    "term": "Stopa zysków kapitałowych",
+    "acronym": null,
+    "definition": "Wzrost ceny inwestycji lub papieru wartościowego wyrażony jako procent początkowej ceny zakupu. Nie obejmuje dochodów z dywidend.",
+    "example": "Jeśli kupisz akcję za 50 zł i sprzedasz ją za 60 zł, twoja stopa zysków kapitałowych wyniesie 20%.",
+    "reviewed": true
+  },
+  {
+    "id": "finance_0050",
+    "term": "Wartość rezydualna",
+    "acronym": "TV",
+    "definition": "Szacunkowa wartość przedsiębiorstwa lub projektu po zakończeniu wyraźnego okresu prognozy w analizie zdyskontowanych przepływów pieniężnych (DCF). Reprezentuje wszystkie przyszłe przepływy pieniężne po okresie prognozy.",
+    "example": "W naszym modelu DCF wartość rezydualna stanowi ponad 60% całkowitej wyceny firmy, więc jest to kluczowe założenie.",
+    "reviewed": true
+  },
+  {
+    "id": "finance_0051",
+    "term": "Analiza akrecji i rozwodnienia",
+    "acronym": null,
+    "definition": "Analiza finansowa stosowana przy fuzjach i przejęciach w celu oceny wpływu proponowanej transakcji na zysk na akcję (EPS) spółki przejmującej.",
+    "example": "Zespół bankowości inwestycyjnej przeprowadził analizę akrecji i rozwodnienia, aby pokazać zarządowi, jak przejęcie wpłynie na wartość dla akcjonariuszy.",
+    "reviewed": true
+  },
+  {
+    "id": "finance_0052",
+    "term": "Active Share",
+    "acronym": null,
+    "definition": "Miara procentowego udziału aktywów w portfelu, które różnią się od jego indeksu odniesienia (benchmarku), wskazująca, jak aktywnie zarządzany jest fundusz.",
+    "example": "Nasz fundusz ma wskaźnik Active Share na poziomie 85%, co oznacza, że nie naśladujemy biernie indeksu i podejmujemy znaczące decyzje inwestycyjne.",
+    "reviewed": true
+  },
+  {
+    "id": "finance_0053",
+    "term": "Handel algorytmiczny",
+    "acronym": null,
+    "definition": "Wykorzystanie programów komputerowych i algorytmów do realizacji zleceń handlowych z dużą prędkością i w dużych wolumenach na podstawie wcześniej zdefiniowanych kryteriów.",
+    "example": "Firma wykorzystuje handel algorytmiczny, aby czerpać zyski z niewielkich różnic cenowych na rynku, których ludzki trader nie byłby w stanie wykorzystać.",
+    "reviewed": true
+  },
+  {
+    "id": "finance_0054",
+    "term": "Klauzula antyrozwodnieniowa",
+    "acronym": null,
+    "definition": "Klauzula chroniąca inwestora przed zmniejszeniem jego udziału w spółce w przypadku emisji nowych akcji po niższej cenie.",
+    "example": "Inwestorzy venture capital nalegali na zastosowanie klauzuli antyrozwodnieniowej typu „full ratchet”, aby chronić wartość swojej inwestycji w przyszłych rundach finansowania.",
+    "reviewed": true
+  },
+  {
+    "id": "finance_0055",
+    "term": "Papier wartościowy zabezpieczony aktywami",
+    "acronym": "ABS",
+    "definition": "Instrument finansowy zabezpieczony pulą niepłynnych aktywów, takich jak pożyczki, leasingi czy zadłużenie na kartach kredytowych.",
+    "example": "Bank połączył tysiące kredytów samochodowych w jeden papier wartościowy zabezpieczony aktywami i sprzedał go inwestorom instytucjonalnym.",
+    "reviewed": true
+  },
+  {
+    "id": "finance_0056",
+    "term": "Autoregresyjny model warunkowej heteroskedastyczności",
+    "acronym": "ARCH",
+    "definition": "Model statystyczny stosowany dla danych szeregów czasowych, który opisuje wariancję bieżącego składnika losowego jako funkcję składników losowych z poprzednich okresów.",
+    "example": "Użyliśmy modelu ARCH do prognozowania zmienności na giełdzie, zauważając, że okresy wysokiej zmienności mają tendencję do występowania w skupiskach.",
+    "reviewed": true
+  },
+  {
+    "id": "finance_0057",
+    "term": "Regulacje Bazylea III",
+    "acronym": null,
+    "definition": "Międzynarodowe porozumienie regulacyjne, które wprowadziło reformy mające na celu poprawę regulacji, nadzoru i zarządzania ryzykiem w sektorze bankowym.",
+    "example": "Nasz bank musiał zwiększyć swoje rezerwy kapitałowe, aby sprostać bardziej rygorystycznym wymogom regulacji Bazylea III.",
+    "reviewed": true
+  },
+  {
+    "id": "finance_0058",
+    "term": "Ryzyko bazowe",
+    "acronym": null,
+    "definition": "Ryzyko finansowe polegające na tym, że instrument zabezpieczający nie będzie poruszał się w idealnej korelacji z aktywem bazowym, który ma chronić.",
+    "example": "Firma stanęła w obliczu znacznego ryzyka bazowego, ponieważ jej kontrakt futures opierał się na innym gatunku ropy niż ten, który faktycznie sprzedawała.",
+    "reviewed": true
+  },
+  {
+    "id": "finance_0059",
+    "term": "Spłata jednorazowa",
+    "acronym": null,
+    "definition": "Jednorazowa spłata całej kwoty głównej pożyczki, dokonywana zazwyczaj na koniec okresu kredytowania.",
+    "example": "Obligacja ma pięcioletni termin zapadalności ze spłatą jednorazową, co oznacza, że nie będziemy spłacać kapitału aż do terminu wykupu.",
+    "reviewed": true
+  },
+  {
+    "id": "finance_0060",
+    "term": "Wezwanie do wniesienia kapitału",
+    "acronym": null,
+    "definition": "Zwrócenie się przez fundusz private equity do swoich inwestorów z prośbą o wpłatę części pieniędzy, do których wniesienia się zobowiązali.",
+    "example": "Fundusz private equity wystosował wezwanie do wniesienia kapitału do swoich inwestorów, aby sfinansować przejęcie nowej spółki portfelowej.",
+    "reviewed": true
+  },
+  {
+    "id": "finance_0061",
+    "term": "Linia rynku kapitałowego",
+    "acronym": "CML",
+    "definition": "Linia na wykresie reprezentująca możliwe kombinacje ryzyka i zwrotu dla portfeli składających się z aktywów wolnych od ryzyka i optymalnego portfela aktywów ryzykownych.",
+    "example": "Zgodnie z linią rynku kapitałowego, każdy portfel poniżej tej linii jest nieoptymalny, ponieważ oferuje niższy zwrot przy tym samym poziomie ryzyka.",
+    "reviewed": true
+  },
+  {
+    "id": "finance_0062",
+    "term": "Carried interest",
+    "acronym": null,
+    "definition": "Udział w zyskach funduszu inwestycyjnego, wypłacany komplementariuszowi funduszu jako wynagrodzenie za wyniki.",
+    "example": "Zarządzający funduszem uzyskali znaczący carried interest po udanym wyjściu ze swojej inwestycji.",
+    "reviewed": true
+  },
+  {
+    "id": "finance_0063",
+    "term": "Cykl konwersji gotówki",
+    "acronym": "CCC",
+    "definition": "Wskaźnik wyrażający w dniach czas, jaki jest potrzebny firmie na zamianę inwestycji w zapasy na gotówkę ze sprzedaży.",
+    "example": "Dzięki optymalizacji zarządzania zapasami udało nam się skrócić nasz cykl konwersji gotówki o 10 dni.",
+    "reviewed": true
+  },
+  {
+    "id": "finance_0064",
+    "term": "Kointegracja",
+    "acronym": null,
+    "definition": "Statystyczna właściwość dwóch lub więcej zmiennych w szeregach czasowych, która wskazuje, że mają one długoterminową relację równowagi.",
+    "example": "Zespół analityków ilościowych odkrył, że ceny obu akcji cechuje kointegracja, co pozwoliło im stworzyć strategię handlu w parach.",
+    "reviewed": true
+  },
+  {
+    "id": "finance_0065",
+    "term": "Zadeklarowany kapitał",
+    "acronym": null,
+    "definition": "Całkowita kwota pieniędzy, którą inwestorzy zgodzili się wnieść do funduszu private equity lub venture capital, która jest następnie uruchamiana przez fundusz w miarę potrzeb.",
+    "example": "Nowy fundusz venture capital z sukcesem zamknął zbiórkę z kwotą 500 milionów dolarów zadeklarowanego kapitału od swoich komandytariuszy.",
+    "reviewed": true
+  },
+  {
+    "id": "finance_0066",
+    "term": "Poufne memorandum informacyjne",
+    "acronym": "CIM",
+    "definition": "Szczegółowy dokument wykorzystywany w procesie fuzji lub przejęcia, aby dostarczyć potencjalnym nabywcom kompleksowych informacji o sprzedawanym przedsiębiorstwie.",
+    "example": "Po podpisaniu umowy o poufności potencjalni oferenci otrzymali poufne memorandum informacyjne, które zawierało szczegółowe prognozy finansowe.",
+    "reviewed": true
+  },
+  {
+    "id": "finance_0067",
+    "term": "Skonsolidowane sprawozdanie finansowe",
+    "acronym": null,
+    "definition": "Sprawozdanie finansowe przedstawiające dane spółki dominującej i jej spółek zależnych tak, jakby stanowiły one jeden podmiot gospodarczy.",
+    "example": "Raport roczny zawiera skonsolidowane sprawozdanie finansowe, które agreguje wyniki wszystkich naszych globalnych spółek zależnych.",
+    "reviewed": true
+  },
+  {
+    "id": "finance_0068",
+    "term": "Warunkowa obligacja zamienna",
+    "acronym": "CoCo",
+    "definition": "Hybrydowa obligacja, która automatycznie konwertuje się na kapitał własny lub zostaje umorzona, jeśli wystąpi określone zdarzenie, np. spadek kapitału emitenta poniżej pewnego poziomu.",
+    "example": "Bank wyemitował warunkowe obligacje zamienne, znane również jako CoCos, w celu wzmocnienia swojego kapitału regulacyjnego.",
+    "reviewed": true
+  },
+  {
+    "id": "finance_0069",
+    "term": "Analiza wkładu",
+    "acronym": null,
+    "definition": "Analiza przeprowadzana podczas fuzji, która porównuje wkład każdej ze stron (pod względem przychodów, zysków itp.) z udziałem, jaki będzie posiadać w połączonej spółce.",
+    "example": "Analiza wkładu wykazała, że nasza firma wnosi 60% przychodów, ale będzie posiadać tylko 50% udziałów w nowym podmiocie, co doprowadziło do dalszych negocjacji.",
+    "reviewed": true
+  },
+  {
+    "id": "finance_0070",
+    "term": "Wypukłość obligacji",
+    "acronym": null,
+    "definition": "Miara krzywizny w relacji między cenami obligacji a ich rentownością, używana do dokładniejszego pomiaru wrażliwości obligacji na zmiany stóp procentowych.",
+    "example": "Przy dużych zmianach stóp procentowych wypukłość obligacji staje się ważna dla dokładniejszego przewidywania zmiany jej ceny niż samo duration.",
+    "reviewed": true
+  },
+  {
+    "id": "finance_0071",
+    "term": "Koszt kapitału własnego",
+    "acronym": null,
+    "definition": "Stopa zwrotu, jaką firma teoretycznie płaci swoim inwestorom kapitałowym w zamian za ryzyko, które podejmują, inwestując swój kapitał.",
+    "example": "Wykorzystaliśmy model wyceny aktywów kapitałowych (CAPM), aby obliczyć koszt kapitału własnego dla naszego modelu wyceny.",
+    "reviewed": true
+  },
+  {
+    "id": "finance_0072",
+    "term": "Ryzyko kontrahenta",
+    "acronym": null,
+    "definition": "Ryzyko, że druga strona kontraktu finansowego nie wywiąże się ze swoich zobowiązań, co doprowadzi do strat dla naszej firmy.",
+    "example": "Handlując pozagiełdowymi instrumentami pochodnymi, jesteśmy narażeni na ryzyko kontrahenta, jeśli druga instytucja zbankrutuje.",
+    "reviewed": true
+  },
+  {
+    "id": "finance_0073",
+    "term": "Kredyt typu covenant-lite",
+    "acronym": null,
+    "definition": "Rodzaj kredytu, który ma mniej ograniczeń i wymogów dotyczących utrzymania wskaźników finansowych dla pożyczkobiorcy w porównaniu z tradycyjnymi kredytami.",
+    "example": "Na rynku przyjaznym dla pożyczkobiorców wiele firm było w stanie uzyskać kredyty typu covenant-lite, co dało im większą elastyczność operacyjną.",
+    "reviewed": true
+  },
+  {
+    "id": "finance_0074",
+    "term": "Migracja ratingu kredytowego",
+    "acronym": null,
+    "definition": "Zmiana ratingu kredytowego emitenta długu w określonym czasie, taka jak podwyższenie, obniżenie lub niewypłacalność.",
+    "example": "Zarządzający portfelem przeanalizował macierz migracji ratingów kredytowych, aby zrozumieć historyczne prawdopodobieństwo obniżenia ratingu obligacji.",
+    "reviewed": true
+  },
+  {
+    "id": "finance_0075",
+    "term": "Korekta wyceny kredytowej",
+    "acronym": "CVA",
+    "definition": "Korekta wartości rynkowej instrumentów pochodnych w celu uwzględnienia ryzyka kredytowego kontrahenta.",
+    "example": "Dział tradingu musi obliczyć korektę wyceny kredytowej, aby dokładnie wycenić transakcję swap i utworzyć rezerwę na potencjalne straty.",
+    "reviewed": true
+  },
+  {
+    "id": "finance_0076",
+    "term": "Strategia currency overlay",
+    "acronym": null,
+    "definition": "Strategia, w której zatrudnia się wyspecjalizowanego menedżera do zarządzania ekspozycjami walutowymi portfela oddzielnie od aktywów bazowych.",
+    "example": "Fundusz emerytalny zastosował strategię currency overlay, aby zabezpieczyć ryzyko kursowe w swoim międzynarodowym portfelu akcji.",
+    "reviewed": true
+  },
+  {
+    "id": "finance_0077",
+    "term": "Obligacja niezabezpieczona",
+    "acronym": null,
+    "definition": "Rodzaj dłużnego instrumentu finansowego, który nie jest zabezpieczony żadnymi aktywami i opiera się na ogólnej wiarygodności kredytowej emitenta.",
+    "example": "Korporacja o ugruntowanej pozycji była w stanie wyemitować obligacje niezabezpieczone przy niskim oprocentowaniu dzięki swojej silnej kondycji finansowej.",
+    "reviewed": true
+  },
+  {
+    "id": "finance_0078",
+    "term": "Wskaźnik pokrycia obsługi długu",
+    "acronym": "DSCR",
+    "definition": "Miara dostępnych przepływów pieniężnych do spłaty bieżących zobowiązań dłużnych, obliczana przez podzielenie dochodu operacyjnego netto przez całkowitą obsługę długu.",
+    "example": "Bank wymagał, aby wskaźnik pokrycia obsługi długu wynosił co najmniej 1,25, zanim zatwierdziłby kredyt na projekt deweloperski.",
+    "reviewed": true
+  },
+  {
+    "id": "finance_0079",
+    "term": "Aktywa z tytułu odroczonego podatku dochodowego",
+    "acronym": null,
+    "definition": "Składnik aktywów w bilansie firmy, który może być wykorzystany do zmniejszenia przyszłego zobowiązania podatkowego.",
+    "example": "Firma wykazała aktywa z tytułu odroczonego podatku dochodowego, ponieważ tegoroczna strata podatkowa może zostać przeniesiona w celu pomniejszenia przyszłych zysków.",
+    "reviewed": true
+  },
+  {
+    "id": "finance_0080",
+    "term": "Rezerwa z tytułu odroczonego podatku dochodowego",
+    "acronym": null,
+    "definition": "Zobowiązanie w bilansie firmy reprezentujące podatki, które są należne, ale ich termin płatności przypada w przyszłym okresie.",
+    "example": "Stosowanie przyspieszonej amortyzacji do celów podatkowych stworzyło w naszych księgach rezerwę z tytułu odroczonego podatku dochodowego.",
+    "reviewed": true
+  },
+  {
+    "id": "finance_0081",
+    "term": "Ostateczna umowa sprzedaży",
+    "acronym": "DPA",
+    "definition": "Prawnie wiążąca umowa, która określa warunki fuzji lub przejęcia, takie jak cena i warunki zamknięcia transakcji.",
+    "example": "Po miesiącach negocjacji obie firmy w końcu podpisały ostateczną umowę sprzedaży, oficjalnie finalizując transakcję.",
+    "reviewed": true
+  },
+  {
+    "id": "finance_0082",
+    "term": "Delta hedging",
+    "acronym": null,
+    "definition": "Strategia handlu opcjami mająca na celu zmniejszenie ryzyka kierunkowego związanego ze zmianami ceny instrumentu bazowego.",
+    "example": "Animator rynku stosował delta hedging, kupując i sprzedając akcje bazowe, aby zrównoważyć zmieniającą się wartość swojego portfela opcji.",
+    "reviewed": true
+  },
+  {
+    "id": "finance_0083",
+    "term": "Inwestowanie w dług zagrożony",
+    "acronym": null,
+    "definition": "Strategia polegająca na kupowaniu długu firm, które są w trakcie postępowania upadłościowego lub bliskie bankructwa, w celu osiągnięcia zysku z restrukturyzacji firmy.",
+    "example": "Fundusz hedgingowy specjalizuje się w inwestowaniu w dług zagrożony, często biorąc aktywny udział w reorganizacji firmy.",
+    "reviewed": true
+  },
+  {
+    "id": "finance_0084",
+    "term": "Kaskadowy model dystrybucji",
+    "acronym": null,
+    "definition": "Metoda dystrybucji przepływów pieniężnych i zysków między uczestnikami inwestycji, gdzie płatności dokonywane są w kaskadowej, hierarchicznej kolejności.",
+    "example": "Zgodnie z kaskadowym modelem dystrybucji, inwestorzy muszą najpierw odzyskać swój wkład początkowy, zanim zarządzający otrzymają jakiekolwiek wynagrodzenie za wyniki.",
+    "reviewed": true
+  },
+  {
+    "id": "finance_0085",
+    "term": "Rekapitalizacja dywidendowa",
+    "acronym": null,
+    "definition": "Transakcja, w której firma zaciąga nowy dług w celu wypłaty specjalnej dywidendy swoim udziałowcom.",
+    "example": "Fundusz private equity przeprowadził rekapitalizację dywidendową, aby odzyskać znaczną część swojej początkowej inwestycji bez sprzedaży spółki.",
+    "reviewed": true
+  },
+  {
+    "id": "finance_0086",
+    "term": "Prawo pociągnięcia",
+    "acronym": null,
+    "definition": "Postanowienie prawne, które umożliwia większościowemu udziałowcowi zmuszenie mniejszościowego udziałowca do przyłączenia się do sprzedaży firmy.",
+    "example": "Fundusz venture capital skorzystał ze swojego prawa pociągnięcia, aby upewnić się, że wszyscy udziałowcy sprzedadzą swoje udziały nabywcy.",
+    "reviewed": true
+  },
+  {
+    "id": "finance_0087",
+    "term": "Suchy proch",
+    "acronym": null,
+    "definition": "Kwota zadeklarowanego, ale jeszcze niezainwestowanego kapitału, który fundusz private equity lub venture capital ma do dyspozycji na nowe inwestycje.",
+    "example": "Dysponując ponad miliardem dolarów suchego prochu, fundusz jest dobrze przygotowany do wykorzystania nowych okazji inwestycyjnych.",
+    "reviewed": true
+  },
+  {
+    "id": "finance_0088",
+    "term": "Duracja",
+    "acronym": null,
+    "definition": "Miara wrażliwości ceny obligacji na zmiany stóp procentowych, wyrażona w latach.",
+    "example": "Obligacja o dłuższej duracji doświadczy większego spadku ceny, jeśli stopy procentowe wzrosną.",
+    "reviewed": true
+  },
+  {
+    "id": "finance_0089",
+    "term": "Klauzula earn-out",
+    "acronym": null,
+    "definition": "Postanowienie umowne w transakcji przejęcia, zgodnie z którym sprzedający otrzyma dodatkowe, przyszłe wynagrodzenie, jeśli firma osiągnie określone cele finansowe.",
+    "example": "Umowa zawierała klauzulę earn-out, która przewidywała wypłatę byłym właścicielom dodatkowych 5 milionów dolarów, jeśli firma osiągnie swoje cele przychodowe w przyszłym roku.",
+    "reviewed": true
+  },
+  {
+    "id": "finance_0090",
+    "term": "Ekonomiczna wartość dodana",
+    "acronym": "EVA",
+    "definition": "Miara wyników finansowych firmy, obliczana przez odjęcie kosztu kapitału od zysku operacyjnego.",
+    "example": "Premie zarządu są powiązane z ekonomiczną wartością dodaną, co zapewnia, że koncentrują się oni na tworzeniu prawdziwej wartości dla akcjonariuszy.",
+    "reviewed": true
+  },
+  {
+    "id": "finance_0091",
+    "term": "Granica efektywna",
+    "acronym": null,
+    "definition": "Koncepcja w nowoczesnej teorii portfelowej, która reprezentuje zbiór optymalnych portfeli oferujących najwyższy oczekiwany zwrot dla określonego poziomu ryzyka.",
+    "example": "Naszym celem jest zbudowanie portfela, który leży na granicy efektywnej, maksymalizując zwroty przy danej tolerancji na ryzyko naszego klienta.",
+    "reviewed": true
+  },
+  {
+    "id": "finance_0092",
+    "term": "Inwestycja wyceniana metodą praw własności",
+    "acronym": null,
+    "definition": "Metoda rachunkowości stosowana w przypadku inwestycji, w których inwestor ma znaczący wpływ, ale nie pełną kontrolę (zazwyczaj 20-50% udziałów).",
+    "example": "Nasz 30% udział w spółce joint venture ewidencjonujemy w bilansie jako inwestycję wycenianą metodą praw własności.",
+    "reviewed": true
+  },
+  {
+    "id": "finance_0093",
+    "term": "Premia za ryzyko akcyjne",
+    "acronym": "ERP",
+    "definition": "Nadwyżka zwrotu, jaką inwestowanie na rynku akcji zapewnia ponad stopę wolną od ryzyka, która rekompensuje inwestorom podjęcie wyższego ryzyka.",
+    "example": "Wyższa premia za ryzyko akcyjne oznacza, że inwestorzy żądają większej rekompensaty za ryzyko posiadania akcji.",
+    "reviewed": true
+  },
+  {
+    "id": "finance_0094",
+    "term": "Opinia o rzetelności",
+    "acronym": null,
+    "definition": "Profesjonalny raport sporządzony przez bank inwestycyjny, który ocenia rzetelność warunków finansowych transakcji, takich jak cena w przypadku fuzji.",
+    "example": "Rada dyrektorów uzyskała opinię o rzetelności od niezależnego doradcy przed zarekomendowaniem fuzji akcjonariuszom.",
+    "reviewed": true
+  },
+  {
+    "id": "finance_0095",
+    "term": "Trójczynnikowy model Famy-Frencha",
+    "acronym": null,
+    "definition": "Model wyceny aktywów, który rozszerza model CAPM, dodając do czynnika ryzyka rynkowego czynniki ryzyka związanego z wielkością i wartością w celu wyjaśnienia stóp zwrotu z akcji.",
+    "example": "Zwroty z funduszu przeanalizowano za pomocą trójczynnikowego modelu Famy-Frencha, aby sprawdzić, czy wyniki wynikały z umiejętności, czy tylko z ekspozycji na określone czynniki rynkowe.",
+    "reviewed": true
+  },
+  {
+    "id": "finance_0096",
+    "term": "Dług z pierwszym prawem zastawu",
+    "acronym": null,
+    "definition": "Rodzaj uprzywilejowanego długu zabezpieczonego, który ma pierwszeństwo do zaspokojenia z określonego zabezpieczenia w przypadku niewypłacalności dłużnika.",
+    "example": "Bank zapewnił dług z pierwszym prawem zastawu na potrzeby wykupu, gwarantując sobie, że w przypadku likwidacji jako pierwszy zostanie spłacony z aktywów firmy.",
+    "reviewed": true
+  },
+  {
+    "id": "finance_0097",
+    "term": "Wykres typu football field",
+    "acronym": null,
+    "definition": "Wizualne podsumowanie zakresu wyceny firmy uzyskanej różnymi metodami, przedstawione w postaci poziomych słupków na jednym wykresie.",
+    "example": "Wykres typu football field pokazał, że wycena firmy wahała się od 80 do 120 milionów dolarów w zależności od różnych analiz, takich jak DCF i metody porównawcze.",
+    "reviewed": true
+  },
+  {
+    "id": "finance_0098",
+    "term": "Skalpowanie gammy",
+    "acronym": null,
+    "definition": "Strategia handlowa mająca na celu czerpanie zysków ze zmian w delcie opcji poprzez ciągłe rehedgingowanie portfela w celu utrzymania pozycji neutralnej pod względem delty.",
+    "example": "Trader opcji stosował skalpowanie gammy, aby zarabiać na zmienności akcji, kupując tanio i sprzedając drogo w miarę wahań ceny.",
+    "reviewed": true
+  },
+  {
+    "id": "finance_0099",
+    "term": "Komplementariusz",
+    "acronym": "GP",
+    "definition": "Partner zarządzający funduszem private equity lub venture capital, który jest odpowiedzialny za podejmowanie decyzji inwestycyjnych i ponosi nieograniczoną odpowiedzialność.",
+    "example": "Komplementariusz funduszu przedstawił kwartalny raport z wyników komandytariuszom.",
+    "reviewed": true
+  },
+  {
+    "id": "finance_0100",
+    "term": "Geometryczny ruch Browna",
+    "acronym": "GBM",
+    "definition": "Model matematyczny używany do opisu losowego ruchu cen aktywów, stanowiący podstawę modelu wyceny opcji Blacka-Scholesa.",
+    "example": "Model finansowy zakładał, że cena akcji podlega geometrycznemu ruchowi Browna, aby symulować przyszłe ścieżki cen.",
+    "reviewed": true
+  },
+  {
+    "id": "finance_0101",
+    "term": "Handel wysokiej częstotliwości",
+    "acronym": "HFT",
+    "definition": "Zautomatyzowana metoda handlu wykorzystująca potężne komputery do realizacji dużej liczby zleceń z niezwykle dużą prędkością.",
+    "example": "System handlu wysokiej częstotliwości (HFT) firmy zrealizował tysiące transakcji w mniej niż sekundę, aby wykorzystać drobne rozbieżności cenowe na rynku.",
+    "reviewed": true
+  },
+  {
+    "id": "finance_0102",
+    "term": "Klauzula odszkodowawcza",
+    "acronym": null,
+    "definition": "Postanowienie umowne, w którym jedna strona zgadza się zrekompensować drugiej stronie wszelkie szkody, straty lub uszczerbek wynikające z umowy.",
+    "example": "Nasz zespół prawny nalegał na umieszczenie w umowie o fuzji silnej klauzuli odszkodowawczej, aby chronić nas przed potencjalnymi pozwami.",
+    "reviewed": true
+  },
+  {
+    "id": "finance_0103",
+    "term": "Wskaźnik informacyjny",
+    "acronym": "IR",
+    "definition": "Miara stopy zwrotu portfela skorygowanej o ryzyko, oceniająca zdolność menedżera do generowania nadwyżkowych zwrotów w stosunku do benchmarku.",
+    "example": "Nowy zarządzający funduszem ma imponujący wskaźnik informacyjny, konsekwentnie osiągając lepsze wyniki niż S&P 500 przy minimalnym dodatkowym ryzyku.",
+    "reviewed": true
+  },
+  {
+    "id": "finance_0104",
+    "term": "Lemat Itô",
+    "acronym": null,
+    "definition": "Podstawowe twierdzenie rachunku stochastycznego wykorzystywane w finansach ilościowych do wyceny instrumentów pochodnych i innych instrumentów finansowych.",
+    "example": "Aby wyprowadzić równanie Blacka-Scholesa do wyceny opcji, należy najpierw zastosować lemat Itô do procesu cenowego akcji.",
+    "reviewed": true
+  },
+  {
+    "id": "finance_0105",
+    "term": "Model dyfuzji ze skokami",
+    "acronym": null,
+    "definition": "Model finansowy, który oprócz normalnych, mniejszych wahań uwzględnia nagłe, duże ruchy cenowe (skoki), aby lepiej odzwierciedlić zachowanie cen aktywów.",
+    "example": "W przeciwieństwie do standardowych modeli, model dyfuzji ze skokami może uwzględniać nieoczekiwane szoki rynkowe, co czyni go bardziej solidnym w wycenie opcji.",
+    "reviewed": true
+  },
+  {
+    "id": "finance_0106",
+    "term": "Komandytariusz",
+    "acronym": "LP",
+    "definition": "Inwestor w spółce osobowej, którego odpowiedzialność jest ograniczona do wysokości wniesionego wkładu i który nie uczestniczy w codziennym zarządzaniu.",
+    "example": "Fundusz emerytalny działał jako komandytariusz, wnosząc 50 milionów dolarów do nowego funduszu venture capital.",
+    "reviewed": true
+  },
+  {
+    "id": "finance_0107",
+    "term": "Preferencja likwidacyjna",
+    "acronym": null,
+    "definition": "Klauzula umowna, która określa kolejność wypłat w przypadku likwidacji spółki, często dając akcjonariuszom uprzywilejowanym pierwszeństwo przed akcjonariuszami zwykłymi.",
+    "example": "Inwestorzy VC wynegocjowali dwukrotną preferencję likwidacyjną, co oznacza, że otrzymają zwrot dwukrotności swojej inwestycji, zanim inni akcjonariusze zostaną spłaceni.",
+    "reviewed": true
+  },
+  {
+    "id": "finance_0108",
+    "term": "Wskaźnik LTV",
+    "acronym": "LTV",
+    "definition": "Wskaźnik finansowy stosowany przez kredytodawców, który wyraża stosunek kwoty kredytu do wartości nabywanego aktywa.",
+    "example": "Bank zgodził się na kredyt hipoteczny ze wskaźnikiem LTV na poziomie 80%, więc potrzebowaliśmy 20% wkładu własnego.",
+    "reviewed": true
+  },
+  {
+    "id": "finance_0109",
+    "term": "Opłata za zarządzanie",
+    "acronym": null,
+    "definition": "Okresowa opłata uiszczana przez fundusz inwestycyjny na rzecz swojego doradcy inwestycyjnego za zarządzanie aktywami funduszu.",
+    "example": "Fundusz hedgingowy pobiera 2% rocznej opłaty za zarządzanie od wartości zarządzanych aktywów, oprócz opłaty za wyniki.",
+    "reviewed": true
+  },
+  {
+    "id": "finance_0110",
+    "term": "Wycena według wartości rynkowej",
+    "acronym": "MTM",
+    "definition": "Praktyka księgowa polegająca na aktualizowaniu wartości aktywów w bilansie w celu odzwierciedlenia ich bieżącej wartości rynkowej.",
+    "example": "Z powodu wyceny według wartości rynkowej, firma handlowa musiała zaraportować znaczną stratę, ponieważ wartość jej portfela instrumentów pochodnych spadła.",
+    "reviewed": true
+  },
+  {
+    "id": "finance_0111",
+    "term": "Nowoczesna teoria portfelowa",
+    "acronym": "MPT",
+    "definition": "Teoria finansowa, która pokazuje, jak inwestor może skonstruować portfel w celu maksymalizacji oczekiwanego zwrotu dla danego poziomu ryzyka poprzez dywersyfikację.",
+    "example": "Nasza strategia inwestycyjna opiera się na nowoczesnej teorii portfelowej, koncentrując się na zdywersyfikowanej mieszance aktywów w celu osiągnięcia optymalnych zwrotów.",
+    "reviewed": true
+  },
+  {
+    "id": "finance_0112",
+    "term": "Papier wartościowy zabezpieczony hipoteką",
+    "acronym": "MBS",
+    "definition": "Rodzaj papieru wartościowego zabezpieczonego aktywami, który jest zabezpieczony pulą kredytów hipotecznych.",
+    "example": "Bank inwestycyjny stworzył nowy papier wartościowy zabezpieczony hipoteką, łącząc tysiące indywidualnych kredytów mieszkaniowych.",
+    "reviewed": true
+  },
+  {
+    "id": "finance_0113",
+    "term": "Amortyzacja ujemna",
+    "acronym": null,
+    "definition": "Wzrost salda kapitału pożyczki spowodowany dokonywaniem spłat niższych niż należne odsetki.",
+    "example": "Początkowo niskie raty kredytu hipotecznego doprowadziły do amortyzacji ujemnej, zwiększając całkowitą kwotę zadłużenia.",
+    "reviewed": true
+  },
+  {
+    "id": "finance_0114",
+    "term": "Udziały niekontrolujące",
+    "acronym": "NCI",
+    "definition": "Część kapitału własnego w spółce zależnej, która nie jest przypisana do spółki dominującej, znana również jako udziały mniejszościowe.",
+    "example": "W skonsolidowanym bilansie spółka wykazała udziały niekontrolujące w wysokości 15 milionów dolarów, reprezentujące 20% udziałów w spółce zależnej, których nie posiada.",
+    "reviewed": true
+  },
+  {
+    "id": "finance_0115",
+    "term": "Pozycja jednorazowa",
+    "acronym": null,
+    "definition": "Zapis w sprawozdaniu finansowym dotyczący jednorazowego, nietypowego zdarzenia, którego powtórzenia nie oczekuje się w normalnym toku działalności.",
+    "example": "Sprzedaż naszej siedziby głównej była pozycją jednorazową, więc analitycy wyłączyli ją przy prognozowaniu przyszłych zysków.",
+    "reviewed": true
+  },
+  {
+    "id": "finance_0116",
+    "term": "Korekta normalizująca",
+    "acronym": null,
+    "definition": "Zmiana wprowadzona do wskaźników finansowych w celu usunięcia skutków nietypowych zdarzeń, pozwalająca na dokładniejsze porównanie.",
+    "example": "Dokonaliśmy korekty normalizującej w EBITDA spółki, aby wyłączyć wpływ jednorazowego zysku z ugody sądowej.",
+    "reviewed": true
+  },
+  {
+    "id": "finance_0117",
+    "term": "Nominalna kwota kapitału",
+    "acronym": null,
+    "definition": "Określona kwota główna w kontrakcie pochodnym, takim jak swap stopy procentowej, na podstawie której obliczane są płatności, ale która nie jest faktycznie wymieniana.",
+    "example": "Oba banki uzgodniły nominalną kwotę kapitału w wysokości 100 milionów dolarów do obliczania płatności odsetkowych o zmiennej i stałej stopie procentowej w ramach swojego swapa.",
+    "reviewed": true
+  },
+  {
+    "id": "finance_0118",
+    "term": "Współczynniki greckie",
+    "acronym": null,
+    "definition": "Zestaw miar ryzyka (Delta, Gamma, Theta, Vega), które wskazują, jak wrażliwa jest cena opcji na zmiany różnych parametrów.",
+    "example": "Trader przeanalizował współczynniki greckie, aby zrozumieć ekspozycję portfela na ruchy cen akcji i zmienność.",
+    "reviewed": true
+  },
+  {
+    "id": "finance_0119",
+    "term": "Obligacja PIK Toggle",
+    "acronym": "PIK",
+    "definition": "Rodzaj obligacji, który pozwala emitentowi wybrać, czy chce płacić odsetki w gotówce, czy w formie dodatkowych obligacji.",
+    "example": "Spółka wykorzystała opcję PIK toggle, aby oszczędzać gotówkę, decydując się na spłatę odsetek za ten kwartał poprzez emisję dodatkowego długu.",
+    "reviewed": true
+  },
+  {
+    "id": "finance_0120",
+    "term": "Kapitał uprzywilejowany",
+    "acronym": null,
+    "definition": "Klasa własności, która ma wyższe roszczenia do aktywów i zysków niż akcje zwykłe, zazwyczaj wypłacająca stałą dywidendę.",
+    "example": "Aby pozyskać kapitał bez rozwadniania siły głosu, spółka wyemitowała akcje uprzywilejowane o wartości 50 milionów dolarów dla inwestorów instytucjonalnych.",
+    "reviewed": true
+  },
+  {
+    "id": "finance_0121",
+    "term": "Alokacja ceny nabycia",
+    "acronym": "PPA",
+    "definition": "Praktyka księgowa, w ramach której nabywca przypisuje cenę zakupu spółki do różnych nabytych aktywów i zobowiązań.",
+    "example": "Po fuzji zespół księgowy rozpoczął alokację ceny nabycia w celu przypisania wartości do nabytych patentów, nieruchomości i wartości firmy.",
+    "reviewed": true
+  },
+  {
+    "id": "finance_0122",
+    "term": "Kapitał regulacyjny",
+    "acronym": null,
+    "definition": "Kwota kapitału, którą instytucja finansowa jest zobowiązana utrzymywać na mocy wymogów regulatora, aby zapewnić, że może ona absorbować nieoczekiwane straty.",
+    "example": "Bank musiał pozyskać dodatkowe fundusze, aby sprostać nowym, bardziej rygorystycznym wymogom dotyczącym kapitału regulacyjnego.",
+    "reviewed": true
+  },
+  {
+    "id": "finance_0123",
+    "term": "Zasada ujmowania przychodów",
+    "acronym": null,
+    "definition": "Zasada rachunkowości określająca warunki, w jakich przychody są ujmowane w sprawozdaniach finansowych spółki.",
+    "example": "Zgodnie z zasadą ujmowania przychodów, opłaty subskrypcyjne możemy księgować jako przychód przez cały okres obowiązywania umowy, a nie jednorazowo.",
+    "reviewed": true
+  },
+  {
+    "id": "finance_0124",
+    "term": "Wydzielenie działalności",
+    "acronym": null,
+    "definition": "Praktyka oddzielania części aktywów lub zysków firmy od reszty, często z powodów regulacyjnych.",
+    "example": "Nowe prawo wymaga od dużych banków stosowania mechanizmu wydzielenia działalności, aby oddzielić operacje bankowości detalicznej od bardziej ryzykownych działań z zakresu bankowości inwestycyjnej.",
+    "reviewed": true
+  },
+  {
+    "id": "finance_0125",
+    "term": "Dług zabezpieczony w drugiej kolejności",
+    "acronym": null,
+    "definition": "Rodzaj długu, który ma drugorzędne roszczenie do zabezpieczenia, co oznacza, że jego posiadacze są spłacani dopiero po posiadaczach długu zabezpieczonego w pierwszej kolejności.",
+    "example": "Spółka zaciągnęła dług zabezpieczony w drugiej kolejności o wyższej stopie procentowej, aby sfinansować swoją ekspansję, ponieważ jej główne aktywa były już zastawione.",
+    "reviewed": true
+  },
+  {
+    "id": "finance_0126",
+    "term": "Linia rynku papierów wartościowych",
+    "acronym": "SML",
+    "definition": "Graficzna reprezentacja modelu wyceny aktywów kapitałowych (CAPM), pokazująca oczekiwany zwrot z aktywa jako funkcję jego ryzyka systematycznego (beta).",
+    "example": "Aktywa, które znajdują się powyżej linii rynku papierów wartościowych, są uważane za niedowartościowane, ponieważ ich oczekiwany zwrot jest wysoki w stosunku do poziomu ryzyka.",
+    "reviewed": true
+  },
+  {
+    "id": "finance_0127",
+    "term": "Selekcja papierów wartościowych",
+    "acronym": null,
+    "definition": "Proces wyboru poszczególnych papierów wartościowych w ramach określonej klasy aktywów, które mają być włączone do portfela inwestycyjnego.",
+    "example": "Umiejętności zarządzającego funduszem w zakresie selekcji papierów wartościowych pozwoliły portfelowi osiągnąć wyniki lepsze od benchmarku.",
+    "reviewed": true
+  },
+  {
+    "id": "finance_0128",
+    "term": "Sprawozdawczość segmentowa",
+    "acronym": null,
+    "definition": "Raportowanie segmentów operacyjnych spółki w ujawnieniach do sprawozdania finansowego, pokazujące wyniki według działów lub regionów geograficznych.",
+    "example": "Dzięki sprawozdawczości segmentowej inwestorzy mogli zobaczyć, że europejski oddział firmy był znacznie bardziej rentowny niż azjatycki.",
+    "reviewed": true
+  },
+  {
+    "id": "finance_0129",
+    "term": "Klauzula o funduszu amortyzacyjnym",
+    "acronym": null,
+    "definition": "Postanowienie w umowie obligacji, które wymaga od emitenta okresowego odkładania pieniędzy na spłatę swoich obligacji.",
+    "example": "Klauzula o funduszu amortyzacyjnym w obligacji korporacyjnej daje inwestorom pewność, że spółka będzie miała środki na spłatę kapitału w terminie zapadalności.",
+    "reviewed": true
+  },
+  {
+    "id": "finance_0130",
+    "term": "Spółka celowa",
+    "acronym": "SPV",
+    "definition": "Spółka zależna utworzona w określonym, wąskim celu, często w celu odizolowania ryzyka finansowego.",
+    "example": "Firma utworzyła spółkę celową, aby przechowywać kredyty hipoteczne na potrzeby transakcji sekurytyzacyjnej, chroniąc spółkę-matkę przed potencjalnymi stratami.",
+    "reviewed": true
+  },
+  {
+    "id": "finance_0131",
+    "term": "Duration spreadu",
+    "acronym": null,
+    "definition": "Miara wrażliwości ceny obligacji na zmiany jej spreadu kredytowego w stosunku do referencyjnej stopy wolnej od ryzyka.",
+    "example": "Zarządzający portfelem obliczył duration spreadu obligacji korporacyjnych, aby oszacować, jak zmieni się ich wartość, jeśli wzrośnie ryzyko kredytowe.",
+    "reviewed": true
+  },
+  {
+    "id": "finance_0132",
+    "term": "Finansowanie staplowane",
+    "acronym": null,
+    "definition": "Wstępnie zaaranżowany pakiet finansowania oferowany przez bank inwestycyjny sprzedającego potencjalnym oferentom na sprzedawaną spółkę.",
+    "example": "Aby przyspieszyć aukcję, bank sprzedającego zaoferował finansowanie staplowane wszystkim zainteresowanym nabywcom, zapewniając im natychmiastowy dostęp do funduszy.",
+    "reviewed": true
+  },
+  {
+    "id": "finance_0133",
+    "term": "Zestawienie zysków zatrzymanych",
+    "acronym": null,
+    "definition": "Sprawozdanie finansowe przedstawiające zmiany w zyskach zatrzymanych spółki w danym okresie, łączące rachunek zysków i strat z bilansem.",
+    "example": "Zestawienie zysków zatrzymanych wykazało, że spółka reinwestowała większość swojego zysku netto z powrotem w działalność.",
+    "reviewed": true
+  },
+  {
+    "id": "finance_0134",
+    "term": "Arbitraż statystyczny",
+    "acronym": null,
+    "definition": "Ilościowa strategia handlowa, która wykorzystuje modele statystyczne do identyfikacji i wykorzystywania tymczasowych nieefektywności cenowych między powiązanymi papierami wartościowymi.",
+    "example": "Strategia arbitrażu statystycznego funduszu hedgingowego polega na kupowaniu niedowartościowanych akcji technologicznych przy jednoczesnej krótkiej sprzedaży przewartościowanych akcji z tego samego sektora.",
+    "reviewed": true
+  },
+  {
+    "id": "finance_0135",
+    "term": "Zmienność stochastyczna",
+    "acronym": null,
+    "definition": "Model finansowy, w którym zmienność aktywa nie jest stała, lecz podlega własnemu losowemu, nieprzewidywalnemu procesowi.",
+    "example": "Modele ze zmiennością stochastyczną lepiej sprawdzają się w wycenie opcji długoterminowych, ponieważ uwzględniają fakt, że sama zmienność zmienia się w czasie.",
+    "reviewed": true
+  },
+  {
+    "id": "finance_0136",
+    "term": "Strategiczna alokacja aktywów",
+    "acronym": "SAA",
+    "definition": "Długoterminowa strategia portfelowa polegająca na ustalaniu docelowych alokacji dla różnych klas aktywów i okresowym przywracaniu równowagi (rebalancingu).",
+    "example": "Filozofia naszej firmy opiera się na strategicznej alokacji aktywów, utrzymując dla klientów o umiarkowanej tolerancji na ryzyko portfel składający się w 60% z akcji i 40% z obligacji.",
+    "reviewed": true
+  },
+  {
+    "id": "finance_0137",
+    "term": "Testy warunków skrajnych",
+    "acronym": null,
+    "definition": "Technika symulacyjna stosowana przez instytucje finansowe do oceny, jak ich portfele zachowałyby się w ekstremalnych scenariuszach ekonomicznych.",
+    "example": "Bank centralny wymagał od wszystkich głównych banków przeprowadzenia testów warunków skrajnych, aby sprawdzić, czy są w stanie wytrzymać głęboką recesję.",
+    "reviewed": true
+  },
+  {
+    "id": "finance_0138",
+    "term": "Wycena metodą sumy części",
+    "acronym": "SOTP",
+    "definition": "Metoda wyceny spółki polegająca na określeniu, ile warte byłyby jej poszczególne działy, gdyby zostały sprzedane oddzielnie.",
+    "example": "Analityk zastosował wycenę metodą sumy części i doszedł do wniosku, że akcje spółki są niedowartościowane, ponieważ jej działy były warte więcej osobno.",
+    "reviewed": true
+  },
+  {
+    "id": "finance_0139",
+    "term": "Swopcja",
+    "acronym": null,
+    "definition": "Opcja dająca jej posiadaczowi prawo, ale nie obowiązek, do zawarcia bazowego swapu stopy procentowej.",
+    "example": "Korporacja zakupiła swopcję płatnika, aby zabezpieczyć się przed przyszłym wzrostem stóp procentowych.",
+    "reviewed": true
+  },
+  {
+    "id": "finance_0140",
+    "term": "Wartość synergii",
+    "acronym": null,
+    "definition": "Dodatkowa wartość powstała w wyniku połączenia dwóch firm, która jest większa niż suma ich indywidualnych wartości.",
+    "example": "Nabywca uzasadnił wysoką premię, wskazując na znaczną wartość synergii, która zostanie uwolniona dzięki połączeniu operacji.",
+    "reviewed": true
+  },
+  {
+    "id": "finance_0141",
+    "term": "Prawo przyłączenia się do sprzedaży",
+    "acronym": null,
+    "definition": "Postanowienie umowne, które pozwala akcjonariuszowi mniejszościowemu sprzedać swoje akcje na takich samych warunkach i po tej samej cenie co akcjonariusz większościowy.",
+    "example": "Prawo przyłączenia się do sprzedaży zapewniło założycielowi, że jeśli większościowy inwestor sprzeda swój pakiet, on również będzie mógł wyjść ze spółki na tych samych warunkach.",
+    "reviewed": true
+  },
+  {
+    "id": "finance_0142",
+    "term": "Term sheet",
+    "acronym": null,
+    "definition": "Niewiążące porozumienie, które określa podstawowe warunki, na jakich zostanie dokonana inwestycja.",
+    "example": "Fundusz venture capital przedstawił startupowi term sheet szczegółowo opisujący proponowaną kwotę inwestycji i wycenę.",
+    "reviewed": true
+  },
+  {
+    "id": "finance_0143",
+    "term": "Zanik czasowy (Theta)",
+    "acronym": null,
+    "definition": "Miara tempa spadku wartości opcji z powodu upływu czasu.",
+    "example": "W miarę zbliżania się terminu wygaśnięcia, wartość opcji gwałtownie spadała z powodu zaniku czasowego, mimo że cena akcji się nie zmieniła.",
+    "reviewed": true
+  },
+  {
+    "id": "finance_0144",
+    "term": "Błąd odwzorowania",
+    "acronym": null,
+    "definition": "Miara tego, jak dokładnie portfel podąża za indeksem, do którego jest porównywany (benchmarkiem).",
+    "example": "Fundusz indeksowy dąży do bardzo niskiego błędu odwzorowania, zapewniając, że jego wyniki są niemal identyczne z wynikami S&P 500.",
+    "reviewed": true
+  },
+  {
+    "id": "finance_0145",
+    "term": "Wskaźnik Treynora",
+    "acronym": null,
+    "definition": "Wskaźnik wydajności służący do określenia, ile nadwyżkowego zwrotu zostało wygenerowane na każdą jednostkę ryzyka systematycznego podjętego przez portfel.",
+    "example": "Fundusz z wyższym wskaźnikiem Treynora został uznany za lepszy, ponieważ zapewnił wyższy zwrot w stosunku do podjętego ryzyka rynkowego.",
+    "reviewed": true
+  },
+  {
+    "id": "finance_0146",
+    "term": "Dług unitranche",
+    "acronym": null,
+    "definition": "Hybrydowa struktura pożyczki, która łączy w sobie dług uprzywilejowany i podporządkowany w jedną pożyczkę o uśrednionej stopie procentowej.",
+    "example": "Fundusz private equity wykorzystał dług unitranche do sfinansowania wykupu lewarowanego, upraszczając strukturę kapitałową.",
+    "reviewed": true
+  },
+  {
+    "id": "finance_0147",
+    "term": "Ekspozycja na vegę",
+    "acronym": null,
+    "definition": "Ryzyko portfela opcji związane ze zmianami zmienności implikowanej aktywów bazowych.",
+    "example": "Trader miał dodatnią ekspozycję na vegę, co oznacza, że wartość portfela wzrosłaby, gdyby zmienność rynkowa wzrosła.",
+    "reviewed": true
+  },
+  {
+    "id": "finance_0148",
+    "term": "Rentowność w terminie do wykupu",
+    "acronym": "YTM",
+    "definition": "Całkowity oczekiwany zwrot z obligacji, jeśli jest ona utrzymywana do terminu jej zapadalności.",
+    "example": "Obligacja była notowana z dyskontem, co dawało jej rentowność w terminie do wykupu na poziomie 5%, czyli wyższą niż jej oprocentowanie kuponowe.",
+    "reviewed": true
+  },
+  {
+    "id": "finance_0149",
+    "term": "Rentowność do najgorszego scenariusza",
+    "acronym": "YTW",
+    "definition": "Najniższa potencjalna rentowność, jaką można uzyskać z obligacji z opcją wcześniejszego wykupu (callable), bez niewykonania zobowiązania przez emitenta.",
+    "example": "Inwestor skupił się na rentowności do najgorszego scenariusza, aby zrozumieć najbardziej konserwatywny możliwy zwrot z obligacji z opcją wcześniejszego wykupu.",
+    "reviewed": true
+  },
+  {
+    "id": "finance_0150",
+    "term": "Obligacja zerokuponowa",
+    "acronym": null,
+    "definition": "Dłużny papier wartościowy, który nie wypłaca odsetek, ale jest sprzedawany z głębokim dyskontem, zapewniając zysk w momencie zapadalności.",
+    "example": "Kupił 20-letnią obligację zerokuponową za 400 dolarów, która w terminie zapadalności osiągnie wartość nominalną 1000 dolarów.",
+    "reviewed": true
+  }
+]

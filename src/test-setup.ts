@@ -14,3 +14,11 @@ global.self = global.self || {};
     dispatchEvent: vi.fn(),
   };
 });
+
+// Global mock for @huggingface/transformers to avoid conflicts between test files
+vi.mock('@huggingface/transformers', () => ({
+  pipeline: vi.fn(),
+  env: {
+    allowLocalModels: false
+  }
+}));

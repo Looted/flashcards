@@ -1,902 +1,1466 @@
 [
   {
     "id": "hr_0001",
-    "term_translation": "Pozyskiwanie talentów",
-    "definition_translation": "Ciągły proces strategicznego identyfikowania, przyciągania i zatrudniania osób o umiejętnościach odpowiadających długoterminowym potrzebom organizacji.",
-    "example_translation": "Nasz zespół odpowiedzialny za ten proces buduje relacje z niszowymi społecznościami na długo przed pojawieniem się wakatu."
+    "term": "Siatka 9-box",
+    "acronym": null,
+    "definition": "Narzędzie do zarządzania talentami, które umieszcza pracowników na siatce w oparciu o ich bieżącą wydajność i przyszły potencjał.",
+    "example": "Podczas przeglądu talentów użyliśmy siatki 9-box, aby zidentyfikować pracowników o wysokim potencjale, gotowych do objęcia ról liderskich.",
+    "reviewed": true
   },
   {
     "id": "hr_0002",
-    "term_translation": "Budowanie wizerunku pracodawcy",
-    "definition_translation": "Zbiór działań mających na celu kształtowanie postrzegania organizacji jako miejsca pracy przez obecnych i potencjalnych pracowników.",
-    "example_translation": "Poprawa w tym obszarze zmniejszyła liczbę kandydatów odrzucających oferty w ostatniej chwili."
+    "term": "Ocena 360 stopni",
+    "acronym": null,
+    "definition": "Proces oceny pracowniczej, w ramach którego pracownik otrzymuje poufną, anonimową informację zwrotną od swojego przełożonego, współpracowników i podwładnych.",
+    "example": "Nasz zespół kierowniczy przechodzi proces oceny 360 stopni, aby uzyskać całościowy obraz swojego stylu zarządzania.",
+    "reviewed": true
   },
   {
     "id": "hr_0003",
-    "term_translation": "Propozycja wartości dla pracownika",
-    "definition_translation": "Unikalny zestaw korzyści, kultury i możliwości rozwoju, który organizacja obiecuje w zamian za umiejętności i zaangażowanie zatrudnionej osoby.",
-    "example_translation": "Przeredagowaliśmy ten dokument, aby położyć nacisk na możliwości nauki i elastyczną pracę."
+    "term": "Analiza dyskryminującego wpływu",
+    "acronym": null,
+    "definition": "Analiza statystyczna stosowana do określenia, czy proces selekcji, taki jak rekrutacja lub awans, ma dyskryminujący wpływ na grupę chronioną prawnie.",
+    "example": "Firma przeprowadziła analizę dyskryminującego wpływu swoich nowych testów rekrutacyjnych, aby upewnić się, że są one sprawiedliwe dla wszystkich grup demograficznych.",
+    "reviewed": true
   },
   {
     "id": "hr_0004",
-    "term_translation": "Planowanie zatrudnienia",
-    "definition_translation": "Strukturalny proces prognozowania przyszłych potrzeb kadrowych i dopasowywania poziomu obsady do celów biznesowych.",
-    "example_translation": "Dzięki temu procesowi dział HR zidentyfikował kluczowe role, które będą wymagały następców w ciągu trzech lat."
+    "term": "System śledzenia kandydatów",
+    "acronym": "ATS",
+    "definition": "Oprogramowanie, które pomaga firmom zarządzać aplikacjami kandydatów i usprawniać proces rekrutacji.",
+    "example": "Nasz nowy system śledzenia kandydatów automatycznie skanuje CV w poszukiwaniu słów kluczowych, oszczędzając rekruterom wiele godzin pracy.",
+    "reviewed": true
   },
   {
     "id": "hr_0005",
-    "term_translation": "Planowanie stanu osobowego",
-    "definition_translation": "Proces określania liczby i rodzaju stanowisk wymaganych przez organizację w określonym horyzoncie czasowym.",
-    "example_translation": "Dział finansów i HR współpracują przy tym zadaniu podczas rocznego cyklu budżetowego."
+    "term": "Stosunek pracy podlegający swobodnemu rozwiązaniu",
+    "acronym": null,
+    "definition": "Stosunek prawny, w którym pracodawca może zwolnić pracownika z dowolnego, zgodnego z prawem powodu bez wypowiedzenia, a pracownik może odejść w dowolnym momencie.",
+    "example": "W większości stanów USA stosunek pracy podlegający swobodnemu rozwiązaniu daje zarówno firmie, jak i pracownikowi elastyczność w zakończeniu współpracy.",
+    "reviewed": true
   },
   {
     "id": "hr_0006",
-    "term_translation": "Baza potencjalnych kandydatów",
-    "definition_translation": "Grupa wstępnie zakwalifikowanych i zaangażowanych osób, które mogą obsadzić obecne i przyszłe wakaty przy minimalnym opóźnieniu.",
-    "example_translation": "Utrzymywanie silnej puli takich kontaktów pomogło nam zastąpić odchodzącego dyrektora w ciągu kilku tygodni."
+    "term": "Wskaźnik atrycji",
+    "acronym": null,
+    "definition": "Wskaźnik określający tempo, w jakim pracownicy odchodzą z firmy (np. na skutek rezygnacji lub emerytury) i nie są zastępowani nowymi.",
+    "example": "Wysoki wskaźnik atrycji w dziale IT jest sygnałem, że musimy poprawić nasze strategie retencyjne.",
+    "reviewed": true
   },
   {
     "id": "hr_0007",
-    "term_translation": "Pula talentów",
-    "definition_translation": "Wyselekcjonowana grupa osób o odpowiednich umiejętnościach, które wyraziły zainteresowanie pracą w organizacji.",
-    "example_translation": "Oznaczyliśmy byłych stażystów w naszej bazie, aby rekruterzy mogli łatwo ponownie nawiązać z nimi kontakt."
+    "term": "Zapytanie boolowskie",
+    "acronym": null,
+    "definition": "Technika wyszukiwania wykorzystująca operatory takie jak AND, OR i NOT do łączenia słów kluczowych w celu znalezienia bardziej trafnych kandydatów w bazie danych.",
+    "example": "Rekruter użył złożonego zapytania boolowskiego na LinkedIn, aby znaleźć programistę z umiejętnościami w Javie, ale bez doświadczenia w zarządzaniu.",
+    "reviewed": true
   },
   {
     "id": "hr_0008",
-    "term_translation": "Strategia pozyskiwania kandydatów",
-    "definition_translation": "Plan określający, gdzie i w jaki sposób rekruterzy będą szukać odpowiednich osób na konkretne stanowiska.",
-    "example_translation": "W przypadku starszych inżynierów to podejście koncentruje się na poleceniach i społecznościach zawodowych, a nie na portalach ogłoszeniowych."
+    "term": "Szerokie przedziały płacowe",
+    "acronym": null,
+    "definition": "Strategia wynagrodzeń, która konsoliduje dużą liczbę wąskich kategorii płacowych w mniejszą liczbę szerszych przedziałów.",
+    "example": "Nasza firma wdrożyła szerokie przedziały płacowe, aby dać menedżerom większą elastyczność w ustalaniu wynagrodzeń i wspierać rozwój kariery.",
+    "reviewed": true
   },
   {
     "id": "hr_0009",
-    "term_translation": "Rekrutacja akademicka",
-    "definition_translation": "Ukierunkowane działania zatrudnieniowe prowadzone na uczelniach w celu przyciągnięcia absolwentów i stażystów.",
-    "example_translation": "Nasz program współpracy z uczelniami obejmuje warsztaty case-study i próbne rozmowy kwalifikacyjne."
+    "term": "Spotkanie kalibracyjne",
+    "acronym": null,
+    "definition": "Spotkanie, podczas którego menedżerowie omawiają i uzgadniają oceny wyników swoich pracowników, aby zapewnić sprawiedliwość i spójność w całej organizacji.",
+    "example": "W przyszłym tygodniu organizujemy spotkanie kalibracyjne, aby upewnić się, że oceny wyników przyznawane przez różnych szefów działów są spójne.",
+    "reviewed": true
   },
   {
     "id": "hr_0010",
-    "term_translation": "Mobilność wewnętrzna",
-    "definition_translation": "Praktyka obsadzania wakatów poprzez przenoszenie obecnych pracowników między rolami, zespołami lub lokalizacjami.",
-    "example_translation": "Promowanie tego rozwiązania zwiększyło retencję wśród specjalistów o wysokich wynikach."
+    "term": "Mapowanie ścieżki kandydata",
+    "acronym": null,
+    "definition": "Proces wizualizacji każdej interakcji potencjalnego pracownika z firmą, od pierwszej świadomości marki po zatrudnienie, w celu poprawy jego doświadczeń.",
+    "example": "Dzięki mapowaniu ścieżki kandydata zidentyfikowaliśmy i usunęliśmy główne wąskie gardło w naszym procesie aplikacyjnym.",
+    "reviewed": true
   },
   {
     "id": "hr_0011",
-    "term_translation": "Zapotrzebowanie na wakat",
-    "definition_translation": "Wewnętrzny wniosek formalnie rozpoczynający proces zatrudniania na konkretne stanowisko.",
-    "example_translation": "Kierownik zatrudniający złożył ten dokument, określając w nim obowiązki i budżet dla danej roli."
+    "term": "Planowanie ścieżek kariery",
+    "acronym": null,
+    "definition": "Proces tworzenia formalnego planu rozwoju zawodowego i awansu pracownika wewnątrz organizacji.",
+    "example": "Dobre planowanie ścieżek kariery pomaga pracownikom dostrzec swoją przyszłość w firmie, co znacznie poprawia nasze wskaźniki retencji.",
+    "reviewed": true
   },
   {
     "id": "hr_0012",
-    "term_translation": "Strategia publikacji ogłoszeń",
-    "definition_translation": "Przemyślane podejście do decydowania, gdzie, kiedy i jak publikować informacje o wakatach.",
-    "example_translation": "Zrewidowaliśmy nasze podejście, aby nadać priorytet niszowym platformom nad ogólnymi portalami pracy."
+    "term": "Zarządzanie zmianą",
+    "acronym": null,
+    "definition": "Ustrukturyzowane podejście zapewniające, że zmiany organizacyjne są wdrażane płynnie i przynoszą trwałe korzyści.",
+    "example": "Zespół HR kieruje działaniami z zakresu zarządzania zmianą związanymi z naszym przejściem na hybrydowy model pracy.",
+    "reviewed": true
   },
   {
     "id": "hr_0013",
-    "term_translation": "Doświadczenie kandydata",
-    "definition_translation": "Sposób, w jaki aplikanci postrzegają i emocjonalnie reagują na wszystkie interakcje z pracodawcą podczas procesu rekrutacji.",
-    "example_translation": "Uproszczenie formularza zgłoszeniowego znacznie poprawiło ogólne wrażenia osób ubiegających się o pracę."
+    "term": "Wskaźnik compa-ratio",
+    "acronym": null,
+    "definition": "Wzór (płaca pracownika podzielona przez środek przedziału płacowego) używany do oceny, jak wynagrodzenie danej osoby plasuje się w odniesieniu do środka przedziału płacowego dla jej stanowiska.",
+    "example": "Pracownik ze wskaźnikiem compa-ratio poniżej 1.0 zarabia mniej niż wynosi środek przedziału dla jego roli, co może uzasadniać rewizję wynagrodzenia.",
+    "reviewed": true
   },
   {
     "id": "hr_0014",
-    "term_translation": "Lejek rekrutacyjny",
-    "definition_translation": "Etapowy podgląd procesu zatrudniania, śledzący przepływ kandydatów od momentu przyciągnięcia uwagi do przyjęcia oferty.",
-    "example_translation": "Analizując ten schemat, dział HR odkrył, że wielu aplikantów odpadało po rozmowie telefonicznej."
+    "term": "Benchmarking wynagrodzeń",
+    "acronym": null,
+    "definition": "Proces porównywania firmowych pakietów wynagrodzeń i świadczeń z tym, co oferuje konkurencja w tej samej branży.",
+    "example": "Przeprowadzamy coroczny benchmarking wynagrodzeń, aby upewnić się, że nasze pensje pozostają konkurencyjne i przyciągają najlepsze talenty.",
+    "reviewed": true
   },
   {
     "id": "hr_0015",
-    "term_translation": "Czas do zatrudnienia",
-    "definition_translation": "Miernik określający liczbę dni od otwarcia stanowiska do zaakceptowania oferty przez kandydata.",
-    "example_translation": "Skrócenie tego okresu o dwa tygodnie dało nam przewagę na konkurencyjnym rynku pracy."
+    "term": "Mapowanie kompetencji",
+    "acronym": null,
+    "definition": "Proces identyfikacji kluczowych umiejętności, wiedzy i zachowań wymaganych od danej osoby do skutecznego wykonywania określonej pracy.",
+    "example": "Dzięki mapowaniu kompetencji stworzyliśmy jasne ramy awansów w zespole marketingowym.",
+    "reviewed": true
   },
   {
     "id": "hr_0016",
-    "term_translation": "Koszt zatrudnienia",
-    "definition_translation": "Średnia kwota wydana na obsadzenie wakatu, obejmująca reklamy, narzędzia i pracę wewnętrzną.",
-    "example_translation": "Obliczyliśmy ten wskaźnik, aby uzasadnić inwestycję w wewnętrzny zespół sourcingowy."
+    "term": "Rozwiązanie umowy z winy pracodawcy",
+    "acronym": null,
+    "definition": "Sytuacja, w której pracownik rozwiązuje umowę, ponieważ pracodawca stworzył wrogie środowisko pracy, skutecznie zmuszając go do odejścia.",
+    "example": "Po tym, jak bez powodu odebrano jej kluczowe obowiązki, złożyła pozew o rozwiązanie umowy z winy pracodawcy.",
+    "reviewed": true
   },
   {
     "id": "hr_0017",
-    "term_translation": "System śledzenia aplikacji",
-    "definition_translation": "Oprogramowanie służące do zarządzania zgłoszeniami, automatyzacji przepływów pracy i przechowywania danych kandydatów.",
-    "example_translation": "Nasz program automatycznie sprawdza CV pod kątem obowiązkowych kwalifikacji."
+    "term": "Zarządzanie pracownikami zewnętrznymi",
+    "acronym": null,
+    "definition": "Strategiczne podejście do zarządzania pracownikami niezatrudnionymi na stałe, takimi jak freelancerzy, kontraktorzy i pracownicy tymczasowi.",
+    "example": "Nasz program zarządzania pracownikami zewnętrznymi pozwala nam szybko skalować zespół w zależności od wymagań projektu.",
+    "reviewed": true
   },
   {
     "id": "hr_0018",
-    "term_translation": "Pytanie przesiewowe",
-    "definition_translation": "Zdefiniowane zapytanie używane na wczesnym etapie procesu w celu szybkiej eliminacji kandydatów niespełniających podstawowych kryteriów.",
-    "example_translation": "Dodanie weryfikacji znajomości języka zaoszczędziło rekruterom godzin rozmów telefonicznych."
+    "term": "Ciągłe zarządzanie efektywnością",
+    "acronym": null,
+    "definition": "Ciągły proces, w ramach którego menedżerowie regularnie udzielają pracownikom informacji zwrotnych i coachingu, zamiast polegać na jednej rocznej ocenie.",
+    "example": "Zrezygnowaliśmy z rocznych ocen na rzecz systemu ciągłego zarządzania efektywnością, który obejmuje kwartalne spotkania podsumowujące.",
+    "reviewed": true
   },
   {
     "id": "hr_0019",
-    "term_translation": "Wywiad ustrukturyzowany",
-    "definition_translation": "Rozmowa, podczas której wszystkim kandydatom zadawany jest ten sam zestaw pytań związanych z pracą.",
-    "example_translation": "Zastosowanie tego formatu rozmowy zwiększyło spójność naszych decyzji o zatrudnieniu."
+    "term": "Zarządzanie cyklem życia pracownika",
+    "acronym": null,
+    "definition": "Proces zarządzania wszystkimi etapami obecności pracownika w firmie, od rekrutacji i wdrożenia, przez rozwój, aż po odejście.",
+    "example": "Skuteczne zarządzanie cyklem życia pracownika zapewnia pozytywne doświadczenia na każdym etapie, co wzmacnia naszą kulturę organizacyjną.",
+    "reviewed": true
   },
   {
     "id": "hr_0020",
-    "term_translation": "Wywiad kompetencyjny",
-    "definition_translation": "Format rozmowy badający zachowania z przeszłości w celu oceny, czy kandydat wykazuje konkretne umiejętności wymagane na stanowisku.",
-    "example_translation": "W tego typu rozmowie kandydaci opisują konkretne sytuacje zamiast udzielać hipotetycznych odpowiedzi."
+    "term": "Pracowniczy Net Promoter Score (eNPS)",
+    "acronym": "eNPS",
+    "definition": "Metryka używana do pomiaru zaangażowania i lojalności pracowników, oparta na odpowiedzi na pytanie, na ile prawdopodobne jest, że poleciliby swoją firmę jako miejsce pracy.",
+    "example": "Nasza kwartalna ankieta pulsacyjna mierzy Pracowniczy Net Promoter Score (eNPS), aby szybko ocenić nastroje w zespole.",
+    "reviewed": true
   },
   {
     "id": "hr_0021",
-    "term_translation": "Wywiad behawioralny",
-    "definition_translation": "Styl rozmowy koncentrujący się na sposobie, w jaki kandydaci radzili sobie z rzeczywistymi sytuacjami, aby przewidzieć przyszłe wyniki.",
-    "example_translation": "Rekruter użył pytań z tej metody, aby sprawdzić, jak kandydat zarządza konfliktami."
+    "term": "Program akcjonariatu pracowniczego",
+    "acronym": "ESOP",
+    "definition": "Program świadczeń pracowniczych, który daje pracownikom udział we własności firmy w postaci akcji.",
+    "example": "Nasz program akcjonariatu pracowniczego jest kluczowym benefitem przyciągającym i zatrzymującym długoterminowych pracowników, którzy czują się prawdziwymi właścicielami firmy.",
+    "reviewed": true
   },
   {
     "id": "hr_0022",
-    "term_translation": "Ośrodek oceny",
-    "definition_translation": "Wieloetapowy proces ewaluacji wykorzystujący symulacje, testy i ćwiczenia grupowe do sprawdzania umiejętności kandydatów.",
-    "example_translation": "Absolwenci przeszli przez całodniową sesję z odgrywaniem ról i studiami przypadków przed otrzymaniem ofert."
+    "term": "Propozycja wartości dla pracownika",
+    "acronym": "EVP",
+    "definition": "Unikalny zestaw korzyści i nagród, które pracownik otrzymuje w zamian za swoje umiejętności, zdolności i doświadczenie w firmie.",
+    "example": "Nasza propozycja wartości dla pracownika podkreśla elastyczne zasady pracy i możliwości rozwoju zawodowego, aby przyciągnąć najlepszych kandydatów.",
+    "reviewed": true
   },
   {
     "id": "hr_0023",
-    "term_translation": "Weryfikacja przeszłości",
-    "definition_translation": "Sprawdzenie tożsamości, kwalifikacji i historii kandydata przed sfinalizowaniem zatrudnienia.",
-    "example_translation": "Ten proces ujawnił rozbieżności w datach zatrudnienia podanych przez kandydata."
+    "term": "Odpowiedzialność powiernicza",
+    "acronym": null,
+    "definition": "Prawny i etyczny obowiązek działania w najlepszym interesie finansowym innej strony, na przykład podczas zarządzania firmowym planem emerytalnym.",
+    "example": "Dyrektor HR ponosi odpowiedzialność powierniczą za zarządzanie pracowniczym planem emerytalnym wyłącznie z korzyścią dla jego uczestników.",
+    "reviewed": true
   },
   {
     "id": "hr_0024",
-    "term_translation": "Sprawdzenie referencji",
-    "definition_translation": "Proces kontaktowania się z poprzednimi przełożonymi lub współpracownikami w celu potwierdzenia doświadczenia i zachowania kandydata.",
-    "example_translation": "Ustrukturyzowany szablon rozmowy pomaga menedżerom zadawać spójne pytania o byłego pracownika."
+    "term": "Ranking przymusowy",
+    "acronym": null,
+    "definition": "System zarządzania wynikami, w którym pracownicy są oceniani względem siebie, a określony procent jest umieszczany w kategoriach najlepszych, średnich i najsłabszych.",
+    "example": "Firma zrezygnowała z rankingu przymusowego, ponieważ psuł on morale i zniechęcał do pracy zespołowej.",
+    "reviewed": true
   },
   {
     "id": "hr_0025",
-    "term_translation": "Zarządzanie ofertami",
-    "definition_translation": "Koordynowanie treści, zatwierdzania i komunikowania propozycji pracy wybranym kandydatom.",
-    "example_translation": "Podpisy cyfrowe sprawiły, że ten proces stał się szybszy zarówno dla HR, jak i dla kandydatów."
+    "term": "System udziału w korzyściach",
+    "acronym": null,
+    "definition": "Program motywacyjny, który nagradza pracowników za poprawę wyników firmy udziałem w uzyskanych zyskach finansowych.",
+    "example": "Nasz nowy system udziału w korzyściach będzie rozdzielał część oszczędności fabryki pomiędzy członków zespołu produkcyjnego.",
+    "reviewed": true
   },
   {
     "id": "hr_0026",
-    "term_translation": "Program wdrożeniowy",
-    "definition_translation": "Ustrukturyzowany zestaw działań pomagających nowym pracownikom zintegrować się z organizacją i osiągnąć produktywność.",
-    "example_translation": "Nasz system adaptacji przydziela każdemu nowicjuszowi opiekuna (buddy) na pierwszy miesiąc."
+    "term": "Procedura składania skarg",
+    "acronym": null,
+    "definition": "Formalny proces, w ramach którego pracownicy mogą zgłaszać skargi dotyczące warunków lub traktowania w miejscu pracy bez obawy przed odwetem.",
+    "example": "Jeśli czujesz, że zostałeś niesprawiedliwie potraktowany, powinieneś postępować zgodnie z oficjalną procedurą składania skarg opisaną w regulaminie pracy.",
+    "reviewed": true
   },
   {
     "id": "hr_0027",
-    "term_translation": "Okres próbny",
-    "definition_translation": "Początkowa faza zatrudnienia, podczas której ocenia się dopasowanie i wyniki przed potwierdzeniem stałej umowy.",
-    "example_translation": "Kierownik przedłużył ten czas, aby dać pracownikowi więcej szans na poprawę."
+    "term": "Planowanie zatrudnienia",
+    "acronym": null,
+    "definition": "Proces analizowania i prognozowania liczby pracowników oraz rodzajów umiejętności, których organizacja potrzebuje do osiągnięcia swoich celów.",
+    "example": "Roczne planowanie zatrudnienia zapewnia, że nasz budżet rekrutacyjny jest zgodny ze strategicznymi celami wzrostu firmy.",
+    "reviewed": true
   },
   {
     "id": "hr_0028",
-    "term_translation": "Szkolenie wstępne",
-    "definition_translation": "Sesje wprowadzające zapoznające nowych pracowników z politykami, narzędziami i kulturą firmy.",
-    "example_translation": "Wszyscy nowo zatrudnieni biorą udział w zajęciach dotyczących etyki w miejscu pracy i zasad bezpieczeństwa."
+    "term": "Partner biznesowy HR",
+    "acronym": "HRBP",
+    "definition": "Specjalista HR, który bezpośrednio współpracuje z kierownictwem firmy w celu opracowania i wdrożenia strategii HR zgodnej z celami biznesowymi.",
+    "example": "Partner biznesowy HR dla działu sprzedaży pomógł zaprojektować nową strukturę prowizji.",
+    "reviewed": true
   },
   {
     "id": "hr_0029",
-    "term_translation": "Proces odejścia pracownika",
-    "definition_translation": "Zbiór formalnych i nieformalnych kroków podejmowanych, gdy osoba opuszcza organizację.",
-    "example_translation": "Dobrze zaprojektowana procedura rozstania chroni wiedzę i zmniejsza ryzyko prawne."
+    "term": "Zarządzanie kapitałem ludzkim",
+    "acronym": "HCM",
+    "definition": "Zbiór praktyk dotyczących rekrutacji, zarządzania i optymalizacji pracowników w celu zwiększenia ich wartości, często odnoszący się do oprogramowania używanego do tych zadań.",
+    "example": "Nasz nowy system do zarządzania kapitałem ludzkim integruje płace, oceny wyników i administrację benefitami w jednej platformie.",
+    "reviewed": true
   },
   {
     "id": "hr_0030",
-    "term_translation": "Wywiad wyjściowy",
-    "definition_translation": "Ustrukturyzowana rozmowa z odchodzącym pracownikiem w celu zebrania opinii i zrozumienia powodów rezygnacji.",
-    "example_translation": "Wnioski z tej rozmowy doprowadziły do ulepszeń w naszych szkoleniach dla liderów."
+    "term": "System informatyczny do zarządzania zasobami ludzkimi",
+    "acronym": "HRIS",
+    "definition": "Oprogramowanie używane do gromadzenia i przechowywania danych pracowniczych, takich jak dane osobowe, płace i świadczenia.",
+    "example": "Proszę zaktualizować swój adres w systemie informatycznym do zarządzania zasobami ludzkimi, abyśmy mogli wysłać dokumenty podatkowe pod właściwy adres.",
+    "reviewed": true
   },
   {
     "id": "hr_0031",
-    "term_translation": "Planowanie sukcesji",
-    "definition_translation": "Proaktywne podejście do identyfikowania i rozwijania osób, które mogą w przyszłości objąć kluczowe stanowiska.",
-    "example_translation": "To działanie zapewniło gotowego następcę, gdy dyrektor finansowy przeszedł na emeryturę."
+    "term": "Projektowanie dydaktyczne",
+    "acronym": null,
+    "definition": "Systematyczny proces projektowania i tworzenia materiałów oraz doświadczeń edukacyjnych, aby pomóc ludziom zdobywać nowe umiejętności.",
+    "example": "Nasz zespół szkoleniowy wykorzystuje zasady projektowania dydaktycznego do tworzenia angażujących i skutecznych internetowych kursów BHP.",
+    "reviewed": true
   },
   {
     "id": "hr_0032",
-    "term_translation": "Ścieżki kariery",
-    "definition_translation": "Projektowanie i komunikowanie możliwych etapów rozwoju, którymi pracownicy mogą podążać w organizacji.",
-    "example_translation": "Przejrzyste pokazanie możliwości awansu pomogło specjalistom dostrzec opcje rozwoju poza rolami kierowniczymi."
+    "term": "Model Kirkpatricka",
+    "acronym": null,
+    "definition": "Metoda oceny skuteczności programów szkoleniowych na czterech poziomach: reakcji, uczenia się, zachowania i wyników.",
+    "example": "Używamy modelu Kirkpatricka, aby zmierzyć rzeczywisty wpływ naszego nowego programu rozwoju przywództwa na biznes.",
+    "reviewed": true
   },
   {
     "id": "hr_0033",
-    "term_translation": "Pracownik o wysokim potencjale",
-    "definition_translation": "Osoba zidentyfikowana jako posiadająca zdolność i motywację do objęcia znacznie bardziej odpowiedzialnych ról.",
-    "example_translation": "Takie osoby otrzymują przyspieszony rozwój i ambitne zadania wykraczające poza ich standardowe obowiązki."
+    "term": "System zarządzania nauczaniem",
+    "acronym": "LMS",
+    "definition": "Aplikacja do administrowania, śledzenia i dostarczania kursów edukacyjnych lub programów szkoleniowych.",
+    "example": "Wszyscy nowo zatrudnieni muszą ukończyć moduły szkoleniowe dotyczące zgodności w naszym systemie zarządzania nauczaniem w ciągu pierwszego tygodnia pracy.",
+    "reviewed": true
   },
   {
     "id": "hr_0034",
-    "term_translation": "Rurociąg liderów",
-    "definition_translation": "Przepływ pracowników przygotowywanych do objęcia ról przywódczych na różnych szczeblach.",
-    "example_translation": "Luki w dostępności następców stały się widoczne, gdy dwóch dyrektorów odeszło jednocześnie."
+    "term": "Zarządzanie przez cele",
+    "acronym": "MBO",
+    "definition": "Model zarządzania, który ma na celu poprawę wydajności poprzez definiowanie jasnych celów uzgodnionych zarówno przez kierownictwo, jak i pracowników.",
+    "example": "Dzięki naszemu podejściu opartemu na zarządzaniu przez cele, premia każdego pracownika jest powiązana z osiągnięciem jego konkretnych, wcześniej uzgodnionych celów.",
+    "reviewed": true
   },
   {
     "id": "hr_0035",
-    "term_translation": "Indywidualny plan rozwoju",
-    "definition_translation": "Spersonalizowany dokument określający cele edukacyjne i działania pracownika w zdefiniowanym okresie.",
-    "example_translation": "Każdy menedżer omawia ten dokument ze swoimi podwładnymi dwa razy w roku."
+    "term": "Projektowanie organizacyjne",
+    "acronym": null,
+    "definition": "Proces strukturyzacji ról, procesów i zależności służbowych w firmie w celu dostosowania ich do strategicznych celów.",
+    "example": "Firma przeprowadziła duży projekt z zakresu projektowania organizacyjnego, aby przełamać silosy i zachęcić do współpracy międzyfunkcyjnej.",
+    "reviewed": true
   },
   {
     "id": "hr_0036",
-    "term_translation": "Ocena pracownicza",
-    "definition_translation": "Formalna ewaluacja osiągnięć i zachowań pracownika w danym przedziale czasowym.",
-    "example_translation": "Firma zastąpiła roczne podsumowania częstszymi spotkaniami kontrolnymi."
+    "term": "Analiza równości płac",
+    "acronym": null,
+    "definition": "Analiza danych płacowych w celu zidentyfikowania i zlikwidowania różnic w wynagrodzeniach między pracownikami różnej płci, rasy lub należącymi do innych grup chronionych.",
+    "example": "Nasza coroczna analiza równości płac pomaga nam zapewnić, że wynagradzamy wszystkich pracowników sprawiedliwie za podobną pracę.",
+    "reviewed": true
   },
   {
     "id": "hr_0037",
-    "term_translation": "Cykl oceny wyników",
-    "definition_translation": "Powtarzający się harmonogram i etapy planowania, oceniania i omawiania efektów pracy.",
-    "example_translation": "Nasz proces zaczyna się od wyznaczania celów w styczniu, a kończy kalibracją w grudniu."
+    "term": "Analityka personalna",
+    "acronym": null,
+    "definition": "Praktyka gromadzenia i analizowania danych HR w celu poprawy wyników biznesowych i podejmowania lepszych decyzji personalnych.",
+    "example": "Nasz zespół analityki personalnej odkrył wyraźny związek między szkoleniami menedżerów a niższym wskaźnikiem rotacji w zespołach.",
+    "reviewed": true
   },
   {
     "id": "hr_0038",
-    "term_translation": "Plan naprawczy",
-    "definition_translation": "Udokumentowane porozumienie określające oczekiwania i wsparcie dla pracownika z niskimi wynikami przez określony czas.",
-    "example_translation": "Ten program obejmował jasne cele i cotygodniowe sesje coachingowe."
+    "term": "Plan poprawy wyników",
+    "acronym": "PIP",
+    "definition": "Formalny dokument, który określa konkretne problemy pracownika osiągającego słabe wyniki i wyznacza jasne cele do poprawy.",
+    "example": "Po kilku ostrzeżeniach menedżer musiał wdrożyć pracownikowi plan poprawy wyników, aby rozwiązać problem niedotrzymywania terminów.",
+    "reviewed": true
   },
   {
     "id": "hr_0039",
-    "term_translation": "Cele i kluczowe rezultaty",
-    "definition_translation": "Ramy wyznaczania celów łączące ambitne założenia jakościowe z mierzalnymi wynikami.",
-    "example_translation": "Zespół HR używa tej metodyki, aby zgrać swoje projekty z priorytetami biznesowymi."
+    "term": "Bezpieczeństwo psychologiczne",
+    "acronym": null,
+    "definition": "Wspólne przekonanie w zespole, że jego członkowie czują się bezpiecznie, podejmując ryzyko, takie jak dzielenie się pomysłami czy obawami, bez strachu przed negatywnymi konsekwencjami.",
+    "example": "Menedżer budował bezpieczeństwo psychologiczne, zachęcając do otwartej debaty i jasno komunikując, że błędy są okazją do nauki.",
+    "reviewed": true
   },
   {
     "id": "hr_0040",
-    "term_translation": "Informacja zwrotna 360 stopni",
-    "definition_translation": "Metoda, w której pracownicy otrzymują opinie o swoim zachowaniu od przełożonych, współpracowników, podwładnych, a czasem klientów.",
-    "example_translation": "Wprowadzenie tej formy oceny ujawniło białe plamy w sposobie komunikacji liderów."
+    "term": "Ankieta pulsacyjna",
+    "acronym": null,
+    "definition": "Krótka, częsta ankieta wysyłana do pracowników w celu szybkiego zebrania opinii na tematy takie jak zaangażowanie i satysfakcja z pracy.",
+    "example": "Co miesiąc wysyłamy ankietę pulsacyjną, aby śledzić morale pracowników i reagować na pojawiające się problemy, zanim staną się poważne.",
+    "reviewed": true
   },
   {
     "id": "hr_0041",
-    "term_translation": "Spotkanie kalibracyjne",
-    "definition_translation": "Sesja, podczas której menedżerowie porównują oceny wyników, aby zapewnić sprawiedliwość i spójność między zespołami.",
-    "example_translation": "Podczas tej dyskusji skorygowano kilka ocen w celu zachowania jednolitych standardów."
+    "term": "Jakość zatrudnienia",
+    "acronym": null,
+    "definition": "Wskaźnik używany do pomiaru wartości, jaką nowy pracownik wnosi do firmy, często oceniany poprzez jego wydajność, produktywność i retencję.",
+    "example": "Śledząc jakość zatrudnienia z różnych źródeł, możemy więcej inwestować w kanały rekrutacyjne, które przynoszą nam najlepszych pracowników.",
+    "reviewed": true
   },
   {
     "id": "hr_0042",
-    "term_translation": "Dział szkoleń i rozwoju",
-    "definition_translation": "Funkcja projektująca i dostarczająca rozwiązania edukacyjne w celu budowania umiejętności i wspierania strategii firmy.",
-    "example_translation": "Inwestycje w ten obszar wzrosły, gdy firma przeszła na model cyfrowy."
+    "term": "Racjonalne usprawnienie",
+    "acronym": null,
+    "definition": "Dostosowanie stanowiska lub środowiska pracy, które umożliwia wykwalifikowanej osobie z niepełnosprawnością wykonywanie podstawowych funkcji zawodowych.",
+    "example": "Zapewnienie specjalnej klawiatury pracownikowi z urazem nadgarstka jest przykładem racjonalnego usprawnienia.",
+    "reviewed": true
   },
   {
     "id": "hr_0043",
-    "term_translation": "Analiza potrzeb szkoleniowych",
-    "definition_translation": "Proces diagnostyczny identyfikujący luki między obecnymi a pożądanymi kompetencjami pracowników.",
-    "example_translation": "To badanie ujawniło powszechny brak umiejętności w zakresie analizy danych."
+    "term": "Outsourcing procesów rekrutacyjnych",
+    "acronym": "RPO",
+    "definition": "Model biznesowy, w którym firma przekazuje całość lub część swoich procesów rekrutacyjnych zewnętrznemu dostawcy usług.",
+    "example": "Aby szybko powiększyć nasz zespół sprzedaży, zaangażowaliśmy firmę RPO do zarządzania całym procesem rekrutacji, od pozyskiwania kandydatów po wdrożenie.",
+    "reviewed": true
   },
   {
     "id": "hr_0044",
-    "term_translation": "Matryca umiejętności",
-    "definition_translation": "Wizualne narzędzie mapujące kompetencje pracowników względem wymagań dla konkretnych ról.",
-    "example_translation": "To zestawienie pomogło przydzielić ekspertów do krytycznych faz projektu."
+    "term": "Kompresja płac",
+    "acronym": null,
+    "definition": "Problem płacowy, który występuje, gdy istnieje niewielka różnica w wynagrodzeniach między nowo zatrudnionymi a bardziej doświadczonymi pracownikami na tym samym stanowisku.",
+    "example": "Kompresja płac stała się problemem, ponieważ nasi nowi pracownicy żądają pensji początkowych zbliżonych do tych, które płacimy starszym specjalistom.",
+    "reviewed": true
   },
   {
     "id": "hr_0045",
-    "term_translation": "Transfer wiedzy",
-    "definition_translation": "Celowe dzielenie się ekspertyzą przez osobę lub grupę z innymi, aby zmniejszyć zależność od pojedynczych specjalistów.",
-    "example_translation": "Ustrukturyzowane sesje przekazywania informacji zaplanowano przed odejściem starszego analityka."
+    "term": "Wywiad retencyjny",
+    "acronym": null,
+    "definition": "Ustrukturyzowana rozmowa między menedżerem a pracownikiem o wysokich wynikach, mająca na celu zrozumienie, co sprawia, że chce on pracować w firmie.",
+    "example": "Zamiast przeprowadzać tylko rozmowy końcowe, zaczęliśmy prowadzić wywiady retencyjne, aby proaktywnie rozwiązywać problemy i poprawiać retencję.",
+    "reviewed": true
   },
   {
     "id": "hr_0046",
-    "term_translation": "Rotacja stanowisk",
-    "definition_translation": "Praktyka rozwojowa polegająca na tymczasowym przenoszeniu pracowników między różnymi rolami lub działami.",
-    "example_translation": "Wymiana pracowników między sprzedażą a operacjami poprawiła wzajemne zrozumienie."
+    "term": "Planowanie sukcesji",
+    "acronym": null,
+    "definition": "Proces identyfikacji i rozwijania wewnętrznych talentów w celu obsadzenia kluczowych stanowisk kierowniczych w firmie w przyszłości.",
+    "example": "Dzięki planowaniu sukcesji wytypowaliśmy trzech potencjalnych kandydatów na stanowisko dyrektora finansowego, którzy przejmą obowiązki, gdy obecna pani dyrektor przejdzie na emeryturę w przyszłym roku.",
+    "reviewed": true
   },
   {
     "id": "hr_0047",
-    "term_translation": "Szkolenie krzyżowe",
-    "definition_translation": "Uczenie pracowników wykonywania zadań spoza ich podstawowej roli w celu zwiększenia elastyczności.",
-    "example_translation": "Nauczenie zespołu wsparcia zadań innych działów zmniejszyło zakłócenia w obsłudze podczas nieobecności."
+    "term": "Czas do obsadzenia stanowiska",
+    "acronym": null,
+    "definition": "Wskaźnik rekrutacyjny mierzący liczbę dni między zatwierdzeniem zapotrzebowania na stanowisko a przyjęciem oferty przez kandydata.",
+    "example": "Nasz średni czas do obsadzenia stanowiska dla stanowisk inżynierskich wynosi 62 dni i aktywnie staramy się go skrócić.",
+    "reviewed": true
   },
   {
     "id": "hr_0048",
-    "term_translation": "Program mentorski",
-    "definition_translation": "Ustrukturyzowana inicjatywa, w której doświadczeni pracownicy wspierają rozwój mniej doświadczonych kolegów.",
-    "example_translation": "Szybki awans zawdzięcza radom otrzymanym dzięki tej firmowej inicjatywie."
+    "term": "Strategia całkowitego wynagrodzenia",
+    "acronym": null,
+    "definition": "Kompleksowe podejście do wynagrodzeń, które obejmuje pensję, świadczenia oraz elementy niematerialne, takie jak rozwój zawodowy i równowaga między życiem zawodowym a prywatnym.",
+    "example": "Nasza strategia całkowitego wynagrodzenia ma na celu przyciąganie, motywowanie i zatrzymywanie pracowników poprzez oferowanie świadczeń wykraczających poza samą pensję podstawową.",
+    "reviewed": true
   },
   {
     "id": "hr_0049",
-    "term_translation": "Kultura coachingowa",
-    "definition_translation": "Środowisko, w którym liderzy regularnie stosują metody wspierania i naprowadzania do rozwijania swoich zespołów.",
-    "example_translation": "Budowanie takiego środowiska wymagało nauczenia menedżerów zadawania większej liczby pytań otwartych."
+    "term": "Podnoszenie i zmiana kwalifikacji",
+    "acronym": null,
+    "definition": "Proces uczenia pracowników nowych, zaawansowanych umiejętności (podnoszenie kwalifikacji) lub szkolenia ich do innej pracy w firmie (zmiana kwalifikacji).",
+    "example": "Nasza firma uruchomiła dużą inicjatywę podnoszenia i zmiany kwalifikacji, aby przygotować naszą kadrę na wpływ sztucznej inteligencji.",
+    "reviewed": true
   },
   {
     "id": "hr_0050",
-    "term_translation": "Przegląd talentów",
-    "definition_translation": "Ustrukturyzowane spotkanie, na którym liderzy omawiają wyniki i potencjał pracowników w całej organizacji.",
-    "example_translation": "Coroczna dyskusja o kadrach ujawniła brak następców na techniczne stanowiska kierownicze."
+    "term": "Planowanie zasobów ludzkich",
+    "acronym": null,
+    "definition": "Strategiczny proces analizy obecnych zasobów ludzkich i określania przyszłych potrzeb kadrowych w celu osiągnięcia celów organizacyjnych.",
+    "example": "Skuteczne planowanie zasobów ludzkich pomaga nam przewidywać przyszłe luki kompetencyjne i budować bazę wykwalifikowanych kandydatów.",
+    "reviewed": true
   },
   {
     "id": "hr_0051",
-    "term_translation": "Całkowity pakiet wynagrodzeń",
-    "definition_translation": "Pełne portfolio świadczeń pieniężnych i niepieniężnych, które pracownicy otrzymują od pracodawcy.",
-    "example_translation": "Strategia w tym zakresie kładzie nacisk na benefity związane z dobrostanem, a nie tylko na wyższą pensję."
+    "term": "System śledzenia kandydatów",
+    "acronym": "ATS",
+    "definition": "Oprogramowanie zarządzające procesem rekrutacji i zatrudniania, które zbiera i porządkuje tysiące CV.",
+    "example": "Nasz nowy system ATS pomaga nam skuteczniej filtrować kandydatów, skanując CV w poszukiwaniu odpowiednich słów kluczowych.",
+    "reviewed": true
   },
   {
     "id": "hr_0052",
-    "term_translation": "Stałe wynagrodzenie",
-    "definition_translation": "Gwarantowana część pakietu płacowego pracownika, wyłączająca zmienne premie i benefity.",
-    "example_translation": "Choć ta podstawa była niższa od średniej, opcje na akcje uczyniły ofertę atrakcyjną."
+    "term": "Pracowniczy Net Promoter Score",
+    "acronym": "eNPS",
+    "definition": "Wskaźnik służący do pomiaru lojalności i zaangażowania pracowników, oparty na pytaniu o prawdopodobieństwo polecenia firmy jako miejsca pracy.",
+    "example": "Po wdrożeniu nowego programu wellness nasze kwartalne badanie eNPS wykazało znaczny wzrost satysfakcji pracowników.",
+    "reviewed": true
   },
   {
     "id": "hr_0053",
-    "term_translation": "Płaca zmienna",
-    "definition_translation": "Część wynagrodzenia uzależniona od wyników indywidualnych, zespołowych lub firmowych.",
-    "example_translation": "W przypadku ról sprzedażowych ta część może stanowić połowę całkowitego dochodu."
+    "term": "Program akcjonariatu pracowniczego",
+    "acronym": "ESOP",
+    "definition": "Rodzaj programu świadczeń pracowniczych, który daje pracownikom udział we własności firmy.",
+    "example": "Firmowy program akcjonariatu pracowniczego motywuje nas do cięższej pracy, ponieważ wszyscy czerpiemy bezpośrednie korzyści z jej sukcesu finansowego.",
+    "reviewed": true
   },
   {
     "id": "hr_0054",
-    "term_translation": "Widełki płacowe",
-    "definition_translation": "Zdefiniowany zakres wynagrodzeń stosowany dla stanowisk o podobnej wartości lub poziomie.",
-    "example_translation": "Menedżerowie muszą utrzymać oferty w granicach zatwierdzonych dla danej roli."
+    "term": "Propozycja wartości dla pracownika",
+    "acronym": "EVP",
+    "definition": "Unikalny zestaw korzyści, które pracownik otrzymuje w zamian za umiejętności, zdolności i doświadczenie, jakie wnosi do firmy.",
+    "example": "Nasze mocne EVP, które podkreśla równowagę między życiem zawodowym a prywatnym oraz możliwości rozwoju kariery, pomaga nam przyciągać i zatrzymywać najlepsze talenty.",
+    "reviewed": true
   },
   {
     "id": "hr_0055",
-    "term_translation": "Przedział płacowy",
-    "definition_translation": "Odrębny poziom lub stopień w strukturze wynagrodzeń, który określa minimalne i maksymalne zarobki dla danej roli.",
-    "example_translation": "Przejście na stanowisko kierownicze zazwyczaj umieszcza cię w znacznie wyższym zakresie finansowym."
+    "term": "HR Business Partner",
+    "acronym": "HRBP",
+    "definition": "Starszy specjalista HR, który pracuje bezpośrednio z kierownictwem jednostki biznesowej w celu dostosowania strategii HR do celów biznesowych.",
+    "example": "HRBP dla działu inżynierii pomaga menedżerom w opracowaniu nowego planu rozwoju kompetencji.",
+    "reviewed": true
   },
   {
     "id": "hr_0056",
-    "term_translation": "Grupa zaszeregowania",
-    "definition_translation": "Poziom wynagrodzenia grupujący role o porównywalnej odpowiedzialności i złożoności.",
-    "example_translation": "Awanse często wiążą się z przejściem na wyższy stopień z innym pakietem świadczeń."
+    "term": "Zarządzanie kapitałem ludzkim",
+    "acronym": "HCM",
+    "definition": "Kompleksowy zestaw praktyk w zakresie rekrutacji, zarządzania, rozwoju i optymalizacji pracowników w celu zwiększenia ich wartości dla organizacji.",
+    "example": "Nasze nowe oprogramowanie do zarządzania kapitałem ludzkim integruje wszystko, od listy płac po oceny pracownicze, na jednej platformie.",
+    "reviewed": true
   },
   {
     "id": "hr_0057",
-    "term_translation": "Wartościowanie stanowisk",
-    "definition_translation": "Systematyczna metoda określania relatywnej wartości ról w celu zapewnienia wewnętrznej sprawiedliwości płacowej.",
-    "example_translation": "HR zastosował metodę punktową do oceny ról przed przeprojektowaniem siatki płac."
+    "term": "System informatyczny do zarządzania zasobami ludzkimi",
+    "acronym": "HRIS",
+    "definition": "Oprogramowanie służące do zarządzania i przetwarzania szczegółowych informacji o pracownikach oraz polityk i procedur związanych z HR.",
+    "example": "Proszę zaktualizować swoje dane kontaktowe w portalu HRIS przed końcem miesiąca.",
+    "reviewed": true
   },
   {
     "id": "hr_0058",
-    "term_translation": "Struktura zaszeregowania",
-    "definition_translation": "Hierarchia grup płacowych wspierająca spójne decyzje dotyczące wynagrodzeń.",
-    "example_translation": "Nowy system poziomów ujednolicił warstwy menedżerskie we wszystkich krajach."
+    "term": "System zarządzania nauczaniem",
+    "acronym": "LMS",
+    "definition": "Aplikacja do administrowania, dokumentowania, śledzenia i dostarczania kursów edukacyjnych lub programów szkoleniowych.",
+    "example": "Wszyscy pracownicy muszą ukończyć obowiązkowy moduł szkoleniowy z cyberbezpieczeństwa na firmowej platformie LMS do piątku.",
+    "reviewed": true
   },
   {
     "id": "hr_0059",
-    "term_translation": "Porównywanie wynagrodzeń",
-    "definition_translation": "Zestawianie wewnętrznych poziomów płac z danymi rynkowymi w celu zachowania konkurencyjności.",
-    "example_translation": "Coroczna analiza rynkowa wykazała, że nasi inżynierowie zarabiali poniżej mediany."
+    "term": "Zarządzanie przez cele",
+    "acronym": "MBO",
+    "definition": "Model zarządzania, który ma na celu poprawę wyników organizacji poprzez definiowanie jasnych celów, uzgodnionych zarówno przez kierownictwo, jak i pracowników.",
+    "example": "Dzięki naszemu podejściu opartemu na zarządzaniu przez cele, sukces każdego zespołu jest mierzony stopniem realizacji jego kwartalnych założeń.",
+    "reviewed": true
   },
   {
     "id": "hr_0060",
-    "term_translation": "Wycena rynkowa",
-    "definition_translation": "Ustalanie poziomu wynagrodzenia dla roli głównie na podstawie zewnętrznych danych z raportów płacowych.",
-    "example_translation": "W przypadku rzadkich umiejętności, zewnętrzne stawki mają większy wpływ niż wewnętrzne relacje płacowe."
+    "term": "Plan poprawy wyników",
+    "acronym": "PIP",
+    "definition": "Formalny dokument opisujący niedociągnięcia pracownika w zakresie wydajności oraz określający jasne kroki wymagane do poprawy.",
+    "example": "Jeśli jego wyniki sprzedaży nie poprawią się do przyszłego miesiąca, niestety będziemy musieli wdrożyć wobec niego plan poprawy wyników.",
+    "reviewed": true
   },
   {
     "id": "hr_0061",
-    "term_translation": "Równość płac",
-    "definition_translation": "Zasada mówiąca, że pracownicy wnoszący porównywalną wartość powinni otrzymywać porównywalne wynagrodzenie.",
-    "example_translation": "Firma rozpoczęła przegląd w tym zakresie, aby zająć się niewyjaśnionymi lukami w zarobkach."
+    "term": "Outsourcing procesów rekrutacyjnych",
+    "acronym": "RPO",
+    "definition": "Sytuacja, w której firma przekazuje całość lub część swoich stałych procesów rekrutacyjnych zewnętrznemu dostawcy.",
+    "example": "Aby szybko powiększyć nasz zespół sprzedaży, skorzystaliśmy z outsourcingu procesów rekrutacyjnych, powierzając cały proces zewnętrznej firmie.",
+    "reviewed": true
   },
   {
     "id": "hr_0062",
-    "term_translation": "Jawność wynagrodzeń",
-    "definition_translation": "Stopień, w jakim organizacja ujawnia informacje o strukturach i decyzjach płacowych.",
-    "example_translation": "Przejście w kierunku otwartości wymagało przeszkolenia menedżerów w wyjaśnianiu powodów przyznawania podwyżek."
+    "term": "System do zarządzania rekrutacjami",
+    "acronym": "ATS",
+    "definition": "Aplikacja do zarządzania procesem rekrutacji i zatrudnienia, która umożliwia sortowanie i śledzenie kandydatów do pracy.",
+    "example": "Nasz nowy system do zarządzania rekrutacjami pomaga nam filtrować tysiące CV, aby znaleźć najbardziej wykwalifikowanych kandydatów na dane stanowisko.",
+    "reviewed": true
   },
   {
     "id": "hr_0063",
-    "term_translation": "Spłaszczenie wynagrodzeń",
-    "definition_translation": "Sytuacja, w której różnice w płacach między nowymi pracownikami a doświadczonym personelem stają się zbyt małe.",
-    "example_translation": "Gwałtowne wzrosty stawek rynkowych spowodowały ten problem wśród inżynierów oprogramowania."
+    "term": "Pracowniczy Net Promoter Score",
+    "acronym": "eNPS",
+    "definition": "Wskaźnik służący do pomiaru lojalności i zaangażowania pracowników, oparty na prawdopodobieństwie, z jakim poleciliby swoją firmę jako miejsce pracy.",
+    "example": "Kwartalne wyniki Pracowniczego Net Promoter Score (eNPS) wykazały wzrost o 15 punktów, co wskazuje na pozytywną zmianę w kulturze firmy.",
+    "reviewed": true
   },
   {
     "id": "hr_0064",
-    "term_translation": "Progresja płacowa",
-    "definition_translation": "Schemat, według którego wynagrodzenie pracownika zmienia się w obrębie przedziałów w czasie.",
-    "example_translation": "Jasne wytyczne dotyczące wzrostu zarobków zmniejszają poczucie faworyzowania."
+    "term": "Program akcjonariatu pracowniczego",
+    "acronym": "ESOP",
+    "definition": "Rodzaj programu świadczeń pracowniczych, który daje pracownikom udział we własności firmy w postaci akcji.",
+    "example": "W ramach naszej długoterminowej strategii retencji, wprowadzamy program akcjonariatu pracowniczego dla wszystkich pracowników zatrudnionych na pełen etat.",
+    "reviewed": true
   },
   {
     "id": "hr_0065",
-    "term_translation": "Dodatek za nadgodziny",
-    "definition_translation": "Podwyższona stawka stosowana do godzin przepracowanych poza standardowym czasem pracy.",
-    "example_translation": "Pracownicy magazynu otrzymują tę dopłatę za zmiany nocne."
+    "term": "Propozycja wartości dla pracownika",
+    "acronym": "EVP",
+    "definition": "Unikalny zestaw korzyści i nagród, jakie pracownik otrzymuje w zamian za swoje umiejętności, zdolności i doświadczenie.",
+    "example": "Nasza propozycja wartości dla pracownika kładzie nacisk na równowagę między życiem zawodowym a prywatnym oraz rozwój zawodowy, co pomaga nam przyciągać najlepsze talenty.",
+    "reviewed": true
   },
   {
     "id": "hr_0066",
-    "term_translation": "Dodatek zmianowy",
-    "definition_translation": "Dodatkowe wynagrodzenie wypłacane pracownikom pracującym w mniej pożądanych godzinach lub systemie rotacyjnym.",
-    "example_translation": "Ta forma rekompensaty pomaga przyciągnąć pielęgniarki do pracy w weekendy."
+    "term": "Partner biznesowy ds. HR",
+    "acronym": "HRBP",
+    "definition": "Specjalista HR, który bezpośrednio współpracuje z kadrą kierowniczą wyższego szczebla w celu opracowania i realizacji strategii HR wspierającej cele biznesowe.",
+    "example": "Partner biznesowy ds. HR działu inżynieryjnego pomaga w restrukturyzacji zespołu w celu poprawy jego efektywności.",
+    "reviewed": true
   },
   {
     "id": "hr_0067",
-    "term_translation": "Premia retencyjna",
-    "definition_translation": "Jednorazowa lub okresowa płatność mająca na celu zachęcenie kluczowych pracowników do pozostania w firmie w krytycznym okresie.",
-    "example_translation": "Liderzy projektów otrzymali ten bonus za pozostanie do momentu uruchomienia systemu."
+    "term": "Zarządzanie kapitałem ludzkim",
+    "acronym": "HCM",
+    "definition": "Kompleksowy zestaw praktyk w zakresie rekrutacji, zarządzania, rozwoju i optymalizacji pracowników organizacji w celu osiągnięcia celów biznesowych.",
+    "example": "Efektywne zarządzanie kapitałem ludzkim jest kluczowe dla integracji nowo przejętych spółek i dopasowania ich talentów do naszych celów.",
+    "reviewed": true
   },
   {
     "id": "hr_0068",
-    "term_translation": "Premia uznaniowa",
-    "definition_translation": "Nieplanowana nagroda przyznawana krótko po wyjątkowym osiągnięciu.",
-    "example_translation": "Kierownik przyznał tę nagrodę analitykowi, który rozwiązał poważny problem klienta w ciągu nocy."
+    "term": "System informatyczny do zarządzania zasobami ludzkimi",
+    "acronym": "HRIS",
+    "definition": "Oprogramowanie, które przechowuje, zarządza i przetwarza szczegółowe informacje o pracownikach oraz procedury i polityki związane z HR.",
+    "example": "Proszę zaktualizować swoje dane kontaktowe w naszym systemie informatycznym do zarządzania zasobami ludzkimi (HRIS) do końca tygodnia.",
+    "reviewed": true
   },
   {
     "id": "hr_0069",
-    "term_translation": "Długoterminowy plan motywacyjny",
-    "definition_translation": "System łączący nagrody z wynikami w perspektywie kilku lat, często wykorzystujący akcje lub odroczoną gotówkę.",
-    "example_translation": "Dyrektorzy uczestniczą w tym programie powiązanym ze zrównoważonym wzrostem zysków."
+    "term": "System zarządzania nauczaniem",
+    "acronym": "LMS",
+    "definition": "Aplikacja do administrowania, dokumentowania, śledzenia, raportowania i dostarczania kursów edukacyjnych lub programów szkoleniowych.",
+    "example": "Wszyscy nowo zatrudnieni muszą ukończyć obowiązkowe szkolenie z zakresu zgodności w naszym systemie zarządzania nauczaniem.",
+    "reviewed": true
   },
   {
     "id": "hr_0070",
-    "term_translation": "Odroczone wynagrodzenie",
-    "definition_translation": "Dochód zarobiony, ale wypłacany w późniejszym terminie, zazwyczaj w celu zachęcenia do pozostania w firmie.",
-    "example_translation": "Część premii została przekształcona w tę formę płatności, nabywając uprawnienia przez trzy lata."
+    "term": "Zarządzanie przez cele",
+    "acronym": "MBO",
+    "definition": "Model zarządzania strategicznego, który ma na celu poprawę wyników organizacji poprzez jasne zdefiniowanie celów uzgodnionych zarówno przez kierownictwo, jak i pracowników.",
+    "example": "Nasza firma stosuje zarządzanie przez cele, aby upewnić się, że indywidualne cele każdego pracownika są zgodne z kwartalnymi celami biznesowymi.",
+    "reviewed": true
   },
   {
     "id": "hr_0071",
-    "term_translation": "Plan opcji na akcje",
-    "definition_translation": "Program dający pracownikom prawo do zakupu udziałów firmy po ustalonej cenie po upływie określonego czasu.",
-    "example_translation": "Ten system wiąże interesy kadry kierowniczej z interesami akcjonariuszy."
+    "term": "Plan poprawy wyników",
+    "acronym": "PIP",
+    "definition": "Formalny dokument, który określa konkretne problemy z wydajnością i wyznacza pracownikowi jasne, mierzalne cele do osiągnięcia w określonym czasie.",
+    "example": "Po kilku niedotrzymanych terminach menedżer objął pracownika planem poprawy wyników.",
+    "reviewed": true
   },
   {
     "id": "hr_0072",
-    "term_translation": "Nagrody pozapłacowe",
-    "definition_translation": "Formy uznania nieobejmujące bezpośrednich płatności, takie jak możliwości rozwoju czy dodatkowy urlop.",
-    "example_translation": "Dla niektórych pracowników wyróżnienia w postaci specjalnych projektów mogą być bardziej motywujące niż gotówka."
+    "term": "Outsourcing procesów rekrutacyjnych",
+    "acronym": "RPO",
+    "definition": "Forma outsourcingu procesów biznesowych, w ramach której pracodawca przekazuje całość lub część swoich procesów rekrutacyjnych zewnętrznemu dostawcy usług.",
+    "example": "Aby szybko rozbudować nasz zespół sprzedaży, skorzystaliśmy z outsourcingu procesów rekrutacyjnych, angażując firmę zewnętrzną do zarządzania całym cyklem zatrudnienia.",
+    "reviewed": true
   },
   {
     "id": "hr_0073",
-    "term_translation": "Program uznania",
-    "definition_translation": "Ustrukturyzowane podejście do doceniania i nagradzania pożądanych zachowań i osiągnięć.",
-    "example_translation": "Nasza inicjatywa oparta na nominacjach pracowniczych zwiększyła współpracę międzyzespołową."
+    "term": "Wskaźnik absencji",
+    "acronym": null,
+    "definition": "Procent nieplanowanych lub nieusprawiedliwionych nieobecności pracowników w pracy w danym okresie.",
+    "example": "Wysoki wskaźnik absencji w call center negatywnie wpływa na poziom obsługi klienta.",
+    "reviewed": true
   },
   {
     "id": "hr_0074",
-    "term_translation": "Pakiet świadczeń",
-    "definition_translation": "Zbiór pośrednich nagród, takich jak ubezpieczenie, plany emerytalne i dodatki oferowane przez pracodawcę.",
-    "example_translation": "Kandydaci często porównują zestaw dodatków, a nie tylko podstawową pensję."
+    "term": "Program sojusznictwa",
+    "acronym": null,
+    "definition": "Ustrukturyzowana inicjatywa firmowa mająca na celu zachęcanie pracowników do wspierania i rzecznictwa na rzecz kolegów z grup niedostatecznie reprezentowanych.",
+    "example": "Nasz nowy program sojusznictwa zapewnia szkolenia, jak być skutecznym rzecznikiem różnorodności i integracji w miejscu pracy.",
+    "reviewed": true
   },
   {
     "id": "hr_0075",
-    "term_translation": "Elastyczne świadczenia",
-    "definition_translation": "System pozwalający pracownikom wybierać opcje benefitów z listy w ramach ustalonego budżetu.",
-    "example_translation": "Dzięki temu rozwiązaniu pracownicy mogą zamienić karnety na siłownię na dodatkowe dofinansowanie opieki nad dziećmi."
+    "term": "Alternatywne metody rozwiązywania sporów",
+    "acronym": "ADR",
+    "definition": "Stosowanie metod takich jak mediacja i arbitraż w celu rozwiązywania sporów bez konieczności postępowania sądowego.",
+    "example": "Firma preferuje alternatywne metody rozwiązywania sporów do rozpatrywania skarg pracowniczych, ponieważ są one szybsze i mniej kosztowne niż procesy sądowe.",
+    "reviewed": true
   },
   {
     "id": "hr_0076",
-    "term_translation": "System kafeteryjny",
-    "definition_translation": "Układ benefitów, w którym pracownicy przydzielają punkty na preferowane opcje ze zdefiniowanej listy.",
-    "example_translation": "Ten model pozwala pracownikom wymienić część premii na dodatkowe dni urlopu."
+    "term": "Komunikacja asynchroniczna",
+    "acronym": null,
+    "definition": "Komunikacja, która nie odbywa się w czasie rzeczywistym, np. e-mail lub komentarze w systemie zarządzania projektami, pozwalająca na odpowiedź w dogodnym dla odbiorcy czasie.",
+    "example": "Nasz zdalny zespół w dużej mierze polega na komunikacji asynchronicznej, aby uwzględnić różne strefy czasowe.",
+    "reviewed": true
   },
   {
     "id": "hr_0077",
-    "term_translation": "Dodatek na cele zdrowotne",
-    "definition_translation": "Ustalony budżet, który pracownicy mogą wydać na towary lub usługi związane ze zdrowiem.",
-    "example_translation": "Pracownicy wykorzystali te środki na zajęcia fitness i sprzęt ergonomiczny."
+    "term": "Wywiad behawioralny",
+    "acronym": null,
+    "definition": "Technika prowadzenia rozmowy kwalifikacyjnej, podczas której kandydaci są proszeni o opisanie swoich przeszłych doświadczeń w celu zademonstrowania określonych umiejętności lub kompetencji.",
+    "example": "Podczas wywiadu behawioralnego poprosiłem kandydata o opisanie sytuacji, w której poradził sobie z trudnym klientem.",
+    "reviewed": true
   },
   {
     "id": "hr_0078",
-    "term_translation": "Program wsparcia pracowników",
-    "definition_translation": "Poufna usługa oferująca doradztwo i wskazówki w sprawach osobistych lub zawodowych.",
-    "example_translation": "Ta usługa odnotowała większe zainteresowanie w czasie ogłoszenia fuzji."
+    "term": "Wskaźnik poczucia przynależności",
+    "acronym": null,
+    "definition": "Wskaźnik służący do pomiaru stopnia, w jakim pracownicy czują się akceptowani, włączeni i doceniani w organizacji.",
+    "example": "Wyniki naszej corocznej ankiety wykazały 5% poprawę wskaźnika poczucia przynależności, zwłaszcza wśród nowo zatrudnionych.",
+    "reviewed": true
   },
   {
     "id": "hr_0079",
-    "term_translation": "Plan emerytalny",
-    "definition_translation": "Porozumienie, dzięki któremu pracownicy nabywają prawa do otrzymywania dochodu po zakończeniu aktywności zawodowej.",
-    "example_translation": "Firma dopłaca do składek pracownika do ustalonego procentu w ramach tego systemu."
+    "term": "Zarządzanie świadczeniami pracowniczymi",
+    "acronym": null,
+    "definition": "Proces tworzenia, zarządzania i aktualizowania programu świadczeń pracowniczych w organizacji, takich jak ubezpieczenie zdrowotne czy plany emerytalne.",
+    "example": "Zarządzanie świadczeniami pracowniczymi staje się znacznie bardziej skomplikowane podczas corocznego okresu zapisów do programów.",
+    "reviewed": true
   },
   {
     "id": "hr_0080",
-    "term_translation": "Odprawa",
-    "definition_translation": "Rekompensata przyznawana pracownikom w przypadku rozwiązania stosunku pracy na określonych warunkach.",
-    "example_translation": "Uprawnienie do tego świadczenia zależy od stażu pracy i lokalnego prawa."
+    "term": "Model nauczania hybrydowego",
+    "acronym": null,
+    "definition": "Strategia edukacyjna, która łączy tradycyjne nauczanie stacjonarne z nauką online opartą na mediach cyfrowych.",
+    "example": "Nasz nowy kurs liderski jest prowadzony w modelu nauczania hybrydowego, łącząc warsztaty stacjonarne z modułami online.",
+    "reviewed": true
   },
   {
     "id": "hr_0081",
-    "term_translation": "Pakiet zwolnień grupowych",
-    "definition_translation": "Kombinacja warunków finansowych i pozafinansowych oferowana pracownikom, których stanowiska są likwidowane.",
-    "example_translation": "Oferta dla odchodzących obejmowała usługi outplacementowe i rozszerzoną opiekę zdrowotną."
+    "term": "Doświadczenie kandydata",
+    "acronym": null,
+    "definition": "Ogólne odczucia kandydata ubiegającego się o pracę na temat procesu rekrutacyjnego firmy.",
+    "example": "Udzielanie terminowej informacji zwrotnej wszystkim kandydatom, nawet tym niezatrudnionym, jest kluczem do pozytywnego doświadczenia kandydata.",
+    "reviewed": true
   },
   {
     "id": "hr_0082",
-    "term_translation": "Usługi outplacementowe",
-    "definition_translation": "Wsparcie zapewniane odchodzącym pracownikom w celu pomocy w znalezieniu nowego zatrudnienia.",
-    "example_translation": "W ramach tej pomocy oferowano coaching w zakresie CV i umiejętności prowadzenia rozmów kwalifikacyjnych."
+    "term": "Persona kandydata",
+    "acronym": null,
+    "definition": "Półfikcyjna reprezentacja idealnego kandydata do pracy, stworzona na podstawie danych i badań, używana do dostosowywania strategii rekrutacyjnych.",
+    "example": "Stworzyliśmy personę kandydata na stanowisko Starszego Dewelopera, aby lepiej targetować nasze ogłoszenia o pracę w mediach społecznościowych.",
+    "reviewed": true
   },
   {
     "id": "hr_0083",
-    "term_translation": "Program realokacji",
-    "definition_translation": "Zorganizowany wysiłek mający na celu przeniesienie pracowników zagrożonych zwolnieniem na otwarte stanowiska w innej części organizacji.",
-    "example_translation": "Ta inicjatywa zminimalizowała liczbę przymusowych zwolnień podczas reorganizacji."
+    "term": "Zarządzanie relacjami z kandydatami",
+    "acronym": "CRM",
+    "definition": "Metoda zarządzania i doskonalenia relacji z potencjalnymi kandydatami do pracy w celu budowania bazy talentów.",
+    "example": "Nasze oprogramowanie do zarządzania relacjami z kandydatami pozwala nam utrzymywać kontakt z obiecującymi aplikantami na potrzeby przyszłych rekrutacji.",
+    "reviewed": true
   },
   {
     "id": "hr_0084",
-    "term_translation": "Dodatek za mobilność",
-    "definition_translation": "Wsparcie finansowe przyznawane pracownikom, którzy przeprowadzają się lub dojeżdżają do pracy.",
-    "example_translation": "To świadczenie uczyniło zagraniczne delegacje bardziej atrakcyjnymi."
+    "term": "Siatka kariery",
+    "acronym": null,
+    "definition": "Model rozwoju zawodowego, który umożliwia pionowe, poziome i diagonalne przemieszczanie się w ramach organizacji, zamiast jedynie liniowej ścieżki awansu.",
+    "example": "Struktura siatki kariery w firmie umożliwiła jej przejście z marketingu na stanowisko menedżerki projektu.",
+    "reviewed": true
   },
   {
     "id": "hr_0085",
-    "term_translation": "Wniosek o zwrot kosztów",
-    "definition_translation": "Formalne żądanie złożone przez pracownika w celu odzyskania pieniędzy za wydatki służbowe pokryte z własnej kieszeni.",
-    "example_translation": "Musisz dołączyć wszystkie cyfrowe paragony do tego dokumentu, zanim dział finansowy go zatwierdzi."
+    "term": "Centrum kompetencji",
+    "acronym": "CoE",
+    "definition": "Wyspecjalizowany zespół lub jednostka w organizacji, która zapewnia przywództwo, najlepsze praktyki i wsparcie w określonym obszarze, np. analityce danych czy rozwoju i szkoleniach.",
+    "example": "Nasze centrum kompetencji ds. szkoleń i rozwoju projektuje programy szkoleniowe dla wszystkich pracowników na całym świecie.",
+    "reviewed": true
   },
   {
     "id": "hr_0086",
-    "term_translation": "Przetwarzanie płac",
-    "definition_translation": "Operacyjne zadanie obliczania wynagrodzeń, potrąceń i kwot netto dla pracowników.",
-    "example_translation": "Błędy w tym procesie mogą podważyć zaufanie i stworzyć ryzyko niezgodności z przepisami."
+    "term": "Układ zbiorowy pracy",
+    "acronym": null,
+    "definition": "Pisemna umowa prawna między pracodawcą a związkiem zawodowym reprezentującym pracowników, regulująca płace, godziny pracy i inne warunki zatrudnienia.",
+    "example": "Nowy układ zbiorowy pracy obejmuje 3% roczną podwyżkę płac dla wszystkich członków związku.",
+    "reviewed": true
   },
   {
     "id": "hr_0087",
-    "term_translation": "Uzgodnienie listy płac",
-    "definition_translation": "Czynność kontrolna sprawdzająca dane płacowe względem dokumentów źródłowych w celu zapewnienia dokładności.",
-    "example_translation": "Comiesięczna weryfikacja porównuje wypłacone kwoty z zatwierdzonymi kartami czasu pracy."
+    "term": "Model kompetencyjny",
+    "acronym": null,
+    "definition": "Model, który szeroko definiuje kombinację umiejętności, wiedzy i zachowań wymaganych do odniesienia sukcesu na danym stanowisku lub w organizacji.",
+    "example": "Nasze oceny pracownicze opierają się na modelu kompetencyjnym, który obejmuje komunikację, pracę zespołową i rozwiązywanie problemów.",
+    "reviewed": true
   },
   {
     "id": "hr_0088",
-    "term_translation": "Rejestracja czasu pracy",
-    "definition_translation": "Systemy i procesy służące do śledzenia przepracowanych godzin, czasu rozpoczęcia i zakończenia pracy oraz przerw dla celów płacowych.",
-    "example_translation": "Nowoczesne oprogramowanie do tego celu integruje się bezpośrednio z systemem płacowym, redukując błędy."
+    "term": "Odroczone wynagrodzenie",
+    "acronym": null,
+    "definition": "Część wynagrodzenia pracownika, która jest wypłacana w późniejszym terminie, często stosowana w pakietach wynagrodzeń kadry kierowniczej jako narzędzie retencyjne.",
+    "example": "Zgodnie z planem odroczonego wynagrodzenia, prezes nabędzie do niego pełne prawa po pięciu latach nieprzerwanej pracy.",
+    "reviewed": true
   },
   {
     "id": "hr_0089",
-    "term_translation": "Zarządzanie absencją",
-    "definition_translation": "Koordynowanie polityk i działań w celu efektywnego radzenia sobie z nieobecnościami pracowników.",
-    "example_translation": "Lepsze kontrolowanie nieobecności zmniejszyło liczbę nieplanowanych dni chorobowych w dziale obsługi klienta."
+    "term": "Plan emerytalny o zdefiniowanym świadczeniu",
+    "acronym": null,
+    "definition": "Rodzaj planu emerytalnego, w którym pracodawca obiecuje określone miesięczne świadczenie emerytalne, ustalone na podstawie z góry określonego wzoru.",
+    "example": "W przeciwieństwie do PPK, tradycyjny plan emerytalny o zdefiniowanym świadczeniu gwarantuje określony dochód na emeryturze, niezależnie od wyników rynkowych.",
+    "reviewed": true
   },
   {
     "id": "hr_0090",
-    "term_translation": "Uprawnienie urlopowe",
-    "definition_translation": "Ilość i rodzaj czasu wolnego, jaki pracownik może legalnie lub umownie wykorzystać.",
-    "example_translation": "HR wyjaśnił zasady dotyczące limitów dni wolnych w prostej infografice dla menedżerów."
+    "term": "Plan emerytalny o zdefiniowanej składce",
+    "acronym": null,
+    "definition": "Plan emerytalny, taki jak PPK lub PPE, w którym pracownik i/lub pracodawca wpłacają pieniądze na indywidualne konto, bez gwarancji wysokości przyszłego świadczenia.",
+    "example": "Większość firm oferuje dziś plan emerytalny o zdefiniowanej składce, w ramach którego dopłacają pewien procent do inwestycji pracownika.",
+    "reviewed": true
   },
   {
     "id": "hr_0091",
-    "term_translation": "Urlop rodzicielski",
-    "definition_translation": "Autoryzowany czas wolny od pracy przyznawany rodzicom po urodzeniu lub adopcji dziecka.",
-    "example_translation": "Organizacja rozszerzyła to uprawnienie na rodziców niebędących rodzicami biologicznymi."
+    "term": "Postępowanie dyscyplinarne",
+    "acronym": null,
+    "definition": "Proces zajmowania się i korygowania problemów z wydajnością lub zachowaniem pracownika, który może obejmować od ustnego upomnienia po zwolnienie.",
+    "example": "Wielokrotne naruszanie kodeksu postępowania firmy skutkować będzie formalnym postępowaniem dyscyplinarnym.",
+    "reviewed": true
   },
   {
     "id": "hr_0092",
-    "term_translation": "Absencja chorobowa",
-    "definition_translation": "Okres nieobecności pracownika w pracy z powodu choroby lub urazu, monitorowany pod kątem powtarzalności.",
-    "example_translation": "Częste krótkoterminowe zwolnienia lekarskie uruchomiły formalny przegląd przez przełożonego."
+    "term": "Rada ds. Różnorodności i Integracji",
+    "acronym": null,
+    "definition": "Komitet pracowników odpowiedzialny za kierowanie, nadzorowanie i promowanie inicjatyw organizacji w zakresie różnorodności i integracji.",
+    "example": "Rada ds. Różnorodności i Integracji uruchamia nowy program mentorski w celu wsparcia pracowników z grup niedoreprezentowanych.",
+    "reviewed": true
   },
   {
     "id": "hr_0093",
-    "term_translation": "Polityka pracy zdalnej",
-    "definition_translation": "Wytyczne regulujące pracę z lokalizacji innych niż siedziba pracodawcy.",
-    "example_translation": "Ten dokument określa uprawnienia, sprzęt i wymagania dotyczące bezpieczeństwa danych w domu."
+    "term": "Program wsparcia pracowników",
+    "acronym": "EAP",
+    "definition": "Poufny, sponsorowany przez pracodawcę benefit, który oferuje pracownikom wsparcie i zasoby w rozwiązywaniu problemów osobistych lub zawodowych.",
+    "example": "Jeśli zmagasz się ze stresem, zachęcam do skontaktowania się z naszym programem wsparcia pracowników, aby skorzystać z bezpłatnych konsultacji.",
+    "reviewed": true
   },
   {
     "id": "hr_0094",
-    "term_translation": "Hybrydowy model pracy",
-    "definition_translation": "Układ, w którym pracownicy dzielą czas pracy między lokalizacje zdalne i biurowe.",
-    "example_translation": "To rozwiązanie zostało zaprojektowane wokół ustaleń zespołowych, a nie tylko indywidualnych preferencji."
+    "term": "Prywatność danych pracowników",
+    "acronym": null,
+    "definition": "Polityki i procedury regulujące sposób, w jaki organizacja gromadzi, wykorzystuje, przechowuje i chroni dane osobowe swoich pracowników.",
+    "example": "Wraz z nowymi przepisami, takimi jak RODO, prywatność danych pracowników stała się najwyższym priorytetem dla naszego działu HR.",
+    "reviewed": true
   },
   {
     "id": "hr_0095",
-    "term_translation": "Ruchomy czas pracy",
-    "definition_translation": "Rozwiązanie w harmonogramie pozwalające pracownikom wybierać godziny rozpoczęcia i zakończenia pracy w uzgodnionych granicach.",
-    "example_translation": "To udogodnienie znacznie ograniczyło spóźnienia podczas porannych godzin szczytu."
+    "term": "Badanie zaangażowania pracowników",
+    "acronym": null,
+    "definition": "Narzędzie służące do pomiaru poziomu zaangażowania, motywacji i satysfakcji pracowników z ich pracy i organizacji.",
+    "example": "Wyniki z corocznego badania zaangażowania pracowników pomogą nam zidentyfikować obszary do poprawy w kulturze naszej firmy.",
+    "reviewed": true
   },
   {
     "id": "hr_0096",
-    "term_translation": "Inicjatywa równowagi praca-życie",
-    "definition_translation": "Program mający na celu pomoc pracownikom w zrównoważonym zarządzaniu obowiązkami zawodowymi i osobistymi.",
-    "example_translation": "Ten program promował bloki czasu wolne od spotkań w kalendarzu."
+    "term": "Podręcznik pracownika",
+    "acronym": null,
+    "definition": "Dokument, który przedstawia pracownikom misję, polityki i procedury firmy.",
+    "example": "Proszę zapoznać się z nową polityką pracy zdalnej opisaną w zaktualizowanym podręczniku pracownika.",
+    "reviewed": true
   },
   {
     "id": "hr_0097",
-    "term_translation": "Bezpieczeństwo i higiena pracy",
-    "definition_translation": "Zbiór praktyk, zasad i kontroli zapobiegających urazom i chorobom związanym z pracą.",
-    "example_translation": "Szkolenie z tego zakresu jest obowiązkowe dla wszystkich kierowników liniowych."
+    "term": "Program poleceń pracowniczych",
+    "acronym": null,
+    "definition": "Strategia rekrutacyjna, w której obecni pracownicy są zachęcani i nagradzani za polecanie wykwalifikowanych kandydatów na otwarte stanowiska.",
+    "example": "Zatrudniliśmy naszego najlepszego inżyniera dzięki programowi poleceń pracowniczych, dlatego zwiększamy premię za skuteczne polecenia.",
+    "reviewed": true
   },
   {
     "id": "hr_0098",
-    "term_translation": "Rozmowa powrotna",
-    "definition_translation": "Krótkie spotkanie po nieobecności w celu omówienia powodów urlopu i potrzebnego wsparcia.",
-    "example_translation": "Przełożeni przeprowadzają taką dyskusję po każdym dłuższym zwolnieniu lekarskim."
+    "term": "Grupa zasobów pracowniczych",
+    "acronym": "ERG",
+    "definition": "Dobrowolne, prowadzone przez pracowników grupy, które wspierają zróżnicowane i integracyjne miejsce pracy, zgodne z misją, wartościami i celami organizacji.",
+    "example": "Grupa zasobów pracowniczych „Kobiety w Technologii” organizuje w przyszłym miesiącu spotkanie networkingowe.",
+    "reviewed": true
   },
   {
     "id": "hr_0099",
-    "term_translation": "Racjonalne usprawnienie",
-    "definition_translation": "Dostosowanie stanowiska lub miejsca pracy umożliwiające osobie o szczególnych potrzebach wykonywanie podstawowych obowiązków.",
-    "example_translation": "Zapewnienie technologii wspomagającej zostało uznane za odpowiednie dostosowanie dla pracownika."
+    "term": "Portal samoobsługowy dla pracowników",
+    "acronym": null,
+    "definition": "Narzędzie internetowe, które umożliwia pracownikom dostęp do własnych informacji związanych z HR, takich jak płace, benefity i dane osobowe, oraz zarządzanie nimi.",
+    "example": "Możesz pobrać swoje paski płacowe i zaktualizować adres bezpośrednio przez portal samoobsługowy dla pracowników.",
+    "reviewed": true
   },
   {
     "id": "hr_0100",
-    "term_translation": "Urlop zdrowotny",
-    "definition_translation": "Autoryzowany czas wolny od pracy przyznawany ze względu na stan zdrowia ograniczający zdolność do pracy.",
-    "example_translation": "Jasne zasady dotyczące tego zwolnienia zmniejszają niepokój pracowników zmagających się z poważną chorobą."
+    "term": "Budowanie marki pracodawcy",
+    "acronym": null,
+    "definition": "Proces zarządzania reputacją firmy jako pracodawcy i wpływania na nią wśród osób poszukujących pracy, pracowników i interesariuszy.",
+    "example": "Inwestujemy w budowanie marki pracodawcy na platformach takich jak LinkedIn, aby przyciągać kandydatów pasywnych.",
+    "reviewed": true
   },
   {
     "id": "hr_0101",
-    "term_translation": "Zaangażowanie pracowników",
-    "definition_translation": "Emocjonalna i poznawcza więź, jaką pracownicy czują w stosunku do swojej pracy i organizacji.",
-    "example_translation": "Wysoki poziom tego wskaźnika często koreluje z lepszymi ocenami satysfakcji klientów."
+    "term": "Równe szanse zatrudnienia",
+    "acronym": null,
+    "definition": "Zasada, zgodnie z którą wszystkie osoby muszą mieć równe szanse na zatrudnienie i awans, niezależnie od rasy, koloru skóry, religii, płci, wieku czy pochodzenia narodowego.",
+    "example": "Nasze praktyki rekrutacyjne są ściśle regulowane przez przepisy dotyczące równych szans zatrudnienia, aby zapewnić sprawiedliwość.",
+    "reviewed": true
   },
   {
     "id": "hr_0102",
-    "term_translation": "Badanie zaangażowania",
-    "definition_translation": "Ustrukturyzowany kwestionariusz mierzący, jak bardzo oddani i zmotywowani czują się pracownicy.",
-    "example_translation": "Ta ankieta ujawniła obawy dotyczące obciążenia pracą i braku uznania."
+    "term": "Audyt równościowy",
+    "acronym": null,
+    "definition": "Systematyczny przegląd polityk, praktyk i danych organizacji w celu zidentyfikowania i wyeliminowania potencjalnych dysproporcji w wynagrodzeniach, awansach i możliwościach rozwoju między różnymi grupami pracowników.",
+    "example": "Firma przeprowadza audyt równościowy, aby upewnić się, że nie występują luki płacowe ze względu na płeć.",
+    "reviewed": true
   },
   {
     "id": "hr_0103",
-    "term_translation": "Klimat organizacyjny",
-    "definition_translation": "Wspólne postrzeganie przez pracowników polityk, praktyk i procedur w danym momencie.",
-    "example_translation": "Deficyt zaufania do przywództwa negatywnie wpłynął na atmosferę w firmie."
+    "term": "Wynagrodzenie kadry zarządzającej",
+    "acronym": null,
+    "definition": "Pakiet świadczeń finansowych i pozafinansowych dla liderów korporacyjnych wysokiego szczebla, często obejmujący pensję, premie i długoterminowe programy motywacyjne.",
+    "example": "Rada nadzorcza musi zatwierdzić wynagrodzenie kadry zarządzającej, a w szczególności pakiet dla nowego prezesa.",
+    "reviewed": true
   },
   {
     "id": "hr_0104",
-    "term_translation": "Kultura organizacyjna",
-    "definition_translation": "Podstawowe wartości, normy i zachowania kształtujące sposób wykonywania pracy w organizacji.",
-    "example_translation": "Fuzje często kończą się niepowodzeniem, gdy te fundamentalne wzorce są niekompatybilne."
+    "term": "Poszukiwania bezpośrednie",
+    "acronym": null,
+    "definition": "Wyspecjalizowana usługa rekrutacyjna wykorzystywana do pozyskiwania kandydatów na stanowiska wyższego szczebla, kierownicze lub inne wysoko specjalistyczne.",
+    "example": "Zatrudniliśmy firmę specjalizującą się w poszukiwaniach bezpośrednich, aby pomogła nam znaleźć nowego Dyrektora Finansowego.",
+    "reviewed": true
   },
   {
     "id": "hr_0105",
-    "term_translation": "Bezpieczeństwo psychologiczne",
-    "definition_translation": "Wspólne przekonanie, że zespół jest bezpiecznym miejscem do podejmowania ryzyka interpersonalnego, np. zadawania pytań.",
-    "example_translation": "Zespoły z wysokim poziomem tego czynnika zgłaszają więcej błędów, ale szybciej się z nich uczą."
+    "term": "Analiza rozmów końcowych",
+    "acronym": null,
+    "definition": "Proces systematycznego zbierania, przeglądania i interpretowania informacji zwrotnych od odchodzących pracowników w celu identyfikacji trendów i poprawy retencji.",
+    "example": "Nasza analiza rozmów końcowych wykazała, że brak możliwości rozwoju kariery był głównym powodem rotacji pracowników.",
+    "reviewed": true
   },
   {
     "id": "hr_0106",
-    "term_translation": "Rzecznictwo pracownicze",
-    "definition_translation": "Dobrowolne promowanie marki i wartości pracodawcy przez zatrudnione osoby.",
-    "example_translation": "Wytyczne dotyczące mediów społecznościowych zachęcają do autentycznego promowania firmy przez personel."
+    "term": "Klasyfikacja pracowników pod kątem prawa do wynagrodzenia za nadgodziny",
+    "acronym": null,
+    "definition": "Prawna klasyfikacja pracowników, która określa ich uprawnienia do otrzymywania wynagrodzenia za pracę w godzinach nadliczbowych zgodnie z prawem pracy.",
+    "example": "Prawidłowa klasyfikacja pracowników pod kątem prawa do wynagrodzenia za nadgodziny dla każdego stanowiska jest kluczowa, aby uniknąć kar prawnych.",
+    "reviewed": true
   },
   {
     "id": "hr_0107",
-    "term_translation": "Mechanizm głosu pracowniczego",
-    "definition_translation": "Formalny kanał, przez który pracownicy mogą wyrażać opinie, sugestie lub obawy.",
-    "example_translation": "Anonimowe infolinie są jednym z typów tego kanału komunikacji."
+    "term": "Uczenie się przez doświadczenie",
+    "acronym": null,
+    "definition": "Proces nauki poprzez działanie i refleksję nad doświadczeniem, często obejmujący praktyczne warsztaty, symulacje lub szkolenia w miejscu pracy.",
+    "example": "Nasz program szkoleniowy dla kadry zarządzającej koncentruje się na uczeniu się przez doświadczenie, wykorzystując odgrywanie ról do ćwiczenia trudnych rozmów.",
+    "reviewed": true
   },
   {
     "id": "hr_0108",
-    "term_translation": "Procedura skargowa",
-    "definition_translation": "Udokumentowany proces, który pracownicy mogą śledzić, aby zgłaszać i rozwiązywać zażalenia.",
-    "example_translation": "Związki zawodowe wynegocjowały zmiany w tym regulaminie po głośnej sprawie."
+    "term": "Urlop z powodów rodzinnych i zdrowotnych",
+    "acronym": null,
+    "definition": "Prawo (obowiązujące w USA) wymagające od objętych nim pracodawców zapewnienia pracownikom chronionego, bezpłatnego urlopu z kwalifikowanych powodów medycznych i rodzinnych.",
+    "example": "Ona bierze 12 tygodni urlopu z powodów rodzinnych i zdrowotnych, aby zaopiekować się nowo narodzonym dzieckiem.",
+    "reviewed": true
   },
   {
     "id": "hr_0109",
-    "term_translation": "Działanie dyscyplinarne",
-    "definition_translation": "Formalna reakcja na niewłaściwe zachowanie lub problemy z wydajnością, od ostrzeżeń po zwolnienie.",
-    "example_translation": "Menedżerowie muszą dokumentować każdą taką interwencję w systemie HR."
+    "term": "Elastyczne konto wydatków",
+    "acronym": null,
+    "definition": "Konto benefitowe (dostępne w USA), na które wpłaty są odliczane od dochodu przed opodatkowaniem, umożliwiające pracownikom pokrywanie kwalifikowanych wydatków na opiekę zdrowotną lub opiekę nad osobami zależnymi.",
+    "example": "Wpłacam środki na moje elastyczne konto wydatków, aby zaoszczędzić na kosztach opieki nad dziećmi.",
+    "reviewed": true
   },
   {
     "id": "hr_0110",
-    "term_translation": "Dyscyplina progresywna",
-    "definition_translation": "Podejście stosujące coraz poważniejsze konsekwencje, jeśli problem nie zostanie naprawiony.",
-    "example_translation": "Firma stosuje ten stopniowalny system, aby dać pracownikom szansę na poprawę."
+    "term": "Pracownicy w gospodarce opartej na zleceniach",
+    "acronym": null,
+    "definition": "Pracownicy, którzy wykonują pracę na podstawie umów krótkoterminowych lub jako freelancerzy, a nie w ramach stałego zatrudnienia.",
+    "example": "Zarządzanie pracownikami w gospodarce opartej na zleceniach wymaga innych strategii HR w zakresie onboardingu, płatności i zaangażowania.",
+    "reviewed": true
   },
   {
     "id": "hr_0111",
-    "term_translation": "Polityka antymobbingowa",
-    "definition_translation": "Zasady definiujące niedopuszczalne zachowania i określające sposób obsługi zgłoszeń o nękaniu.",
-    "example_translation": "Obowiązkowe szkolenie wyjaśnia te zasady na przykładach z życia wziętych."
+    "term": "Konto oszczędnościowe na cele zdrowotne",
+    "acronym": null,
+    "definition": "Konto oszczędnościowe z ulgami podatkowymi (w USA), które można wykorzystać na wydatki medyczne, dostępne dla osób posiadających plan ubezpieczenia zdrowotnego z wysokim wkładem własnym.",
+    "example": "Używam mojego konta oszczędnościowego na cele zdrowotne do opłacania rachunków medycznych, a niewykorzystane środki przechodzą na następny rok.",
+    "reviewed": true
   },
   {
     "id": "hr_0112",
-    "term_translation": "Polityka zakazu odwetu",
-    "definition_translation": "Zobowiązanie, że pracownicy zgłaszający obawy w dobrej wierze nie poniosą negatywnych konsekwencji.",
-    "example_translation": "Ta zasada ochrony zgłaszających jest wymieniana w każdym komunikacie o sygnalistach."
+    "term": "Wrogie środowisko pracy",
+    "acronym": null,
+    "definition": "Miejsce pracy, które staje się zastraszające lub obraźliwe z powodu niepożądanych zachowań opartych na cechach chronionych, co negatywnie wpływa na wydajność pracownika.",
+    "example": "Dochodzenie wykazało, że ciągłe żarty menedżera na temat wieku i rasy stworzyły wrogie środowisko pracy dla kilku pracowników.",
+    "reviewed": true
   },
   {
     "id": "hr_0113",
-    "term_translation": "Polityka zgłaszania nadużyć",
-    "definition_translation": "Wytyczne opisujące, jak pracownicy mogą bezpiecznie raportować podejrzewane nieprawidłowości.",
-    "example_translation": "Zewnętrzna infolinia wspiera ten system dla spraw wrażliwych."
+    "term": "Model świadczenia usług HR",
+    "acronym": null,
+    "definition": "Struktura określająca, w jaki sposób dział HR firmy zapewnia wsparcie i świadczy usługi swoim pracownikom.",
+    "example": "Nasz nowy model świadczenia usług HR obejmuje portal samoobsługowy do podstawowych zapytań oraz dedykowanych HR Business Partnerów do doradztwa strategicznego.",
+    "reviewed": true
   },
   {
     "id": "hr_0114",
-    "term_translation": "Kodeks postępowania",
-    "definition_translation": "Formalny dokument określający oczekiwania dotyczące etycznego i profesjonalnego zachowania.",
-    "example_translation": "Naruszenie tego zbioru zasad może prowadzić do środków dyscyplinarnych."
+    "term": "Stos technologiczny HR",
+    "acronym": null,
+    "definition": "Zbiór zintegrowanych oprogramowań i narzędzi używanych przez dział HR do zarządzania procesami i danymi.",
+    "example": "Nasz stos technologiczny HR obejmuje system śledzenia kandydatów, platformę płacową oraz narzędzie do badania zaangażowania pracowników.",
+    "reviewed": true
   },
   {
     "id": "hr_0115",
-    "term_translation": "Mediacja pracownicza",
-    "definition_translation": "Dobrowolny proces, w którym neutralna osoba trzecia pomaga pracownikom rozwiązać konflikty.",
-    "example_translation": "Interwencja mediatora zapobiegła eskalacji długotrwałego sporu."
+    "term": "Zwrot z inwestycji w kapitał ludzki",
+    "acronym": "HCROI",
+    "definition": "Wskaźnik finansowy mierzący zysk generowany przez firmę w przeliczeniu na każdą złotówkę zainwestowaną w wynagrodzenia i świadczenia pracownicze.",
+    "example": "Obliczyliśmy nasz zwrot z inwestycji w kapitał ludzki, aby pokazać zarządowi wartość finansową naszych nowych programów szkoleniowych.",
+    "reviewed": true
   },
   {
     "id": "hr_0116",
-    "term_translation": "Szkolenie z rozwiązywania konfliktów",
-    "definition_translation": "Interwencje edukacyjne budujące umiejętności konstruktywnego zarządzania nieporozumieniami.",
-    "example_translation": "Przełożeni uczestniczą w tych warsztatach w ramach rozwoju przywództwa."
+    "term": "Strategia kapitału ludzkiego",
+    "acronym": null,
+    "definition": "Długoterminowy plan, który dostosowuje praktyki zarządzania ludźmi w organizacji do jej ogólnych celów biznesowych.",
+    "example": "Nasza nowa strategia kapitału ludzkiego koncentruje się na wewnętrznym rozwijaniu umiejętności przywódczych, aby wesprzeć naszą globalną ekspansję.",
+    "reviewed": true
   },
   {
     "id": "hr_0117",
-    "term_translation": "Rokowania zbiorowe",
-    "definition_translation": "Negocjacje między pracodawcami a przedstawicielami pracowników dotyczące płac i warunków pracy.",
-    "example_translation": "Rundy tych rozmów są zaplanowane w sektorze co dwa lata."
+    "term": "Hybrydowy model pracy",
+    "acronym": null,
+    "definition": "Elastyczna forma organizacji pracy, w której pracownicy spędzają część czasu pracując w biurze, a część zdalnie.",
+    "example": "Nasza firma przyjęła hybrydowy model pracy, wymagając od pracowników obecności w biurze we wtorki i czwartki.",
+    "reviewed": true
   },
   {
     "id": "hr_0118",
-    "term_translation": "Rada zakładowa",
-    "definition_translation": "Wybrany organ reprezentujący pracowników w konsultacjach dotyczących spraw pracowniczych.",
-    "example_translation": "To ciało przedstawicielskie musi zostać poinformowane przed poważnymi reorganizacjami."
+    "term": "Przywództwo włączające",
+    "acronym": null,
+    "definition": "Styl przywództwa, który zapewnia, że wszyscy członkowie zespołu czują się traktowani z szacunkiem, doceniani i mają poczucie przynależności.",
+    "example": "Szkolenie z przywództwa włączającego nauczyło menedżerów, jak aktywnie poszukiwać i uwzględniać różnorodne perspektywy podczas spotkań zespołu.",
+    "reviewed": true
   },
   {
     "id": "hr_0119",
-    "term_translation": "Organ przedstawicielski",
-    "definition_translation": "Grupa formalnie upoważniona do wypowiadania się w imieniu pracowników w dyskusjach z zarządem.",
-    "example_translation": "Reprezentanci załogi przeanalizowali proponowane zmiany w harmonogramie zmian."
+    "term": "Indywidualny plan rozwoju",
+    "acronym": "IPR",
+    "definition": "Spersonalizowany plan działania opracowany, aby pomóc pracownikowi w doskonaleniu umiejętności i rozwoju kariery.",
+    "example": "Podczas mojej oceny rocznej stworzyliśmy z menedżerem indywidualny plan rozwoju, aby pomóc mi w awansie na stanowisko seniorskie.",
+    "reviewed": true
   },
   {
     "id": "hr_0120",
-    "term_translation": "Porozumienie o uznaniu związku",
-    "definition_translation": "Formalny dokument, w którym pracodawca akceptuje organizację związkową jako podmiot negocjujący.",
-    "example_translation": "Ta umowa określa, którzy pracownicy są objęci reprezentacją."
+    "term": "Mobilność wewnętrzna",
+    "acronym": null,
+    "definition": "Przechodzenie pracowników na nowe stanowiska, do nowych projektów lub korzystanie z nowych możliwości w ramach tej samej organizacji.",
+    "example": "Firma zachęca do mobilności wewnętrznej, publikując wszystkie nowe oferty pracy w pierwszej kolejności na wewnętrznym portalu kariery.",
+    "reviewed": true
   },
   {
     "id": "hr_0121",
-    "term_translation": "Różnorodność siły roboczej",
-    "definition_translation": "Zakres różnic między ludźmi w organizacji, w tym tło, tożsamość i perspektywy.",
-    "example_translation": "Zróżnicowanie zespołu może poprawić rozwiązywanie problemów poprzez wnoszenie różnych punktów widzenia."
+    "term": "Architektura stanowisk",
+    "acronym": null,
+    "definition": "Struktura, która standaryzuje i organizuje wszystkie stanowiska w firmie na podstawie poziomu, funkcji i ścieżki kariery.",
+    "example": "Wdrożenie przejrzystej architektury stanowisk pomogło pracownikom zobaczyć, jak mogą rozwijać swoją karierę w naszej firmie.",
+    "reviewed": true
   },
   {
     "id": "hr_0122",
-    "term_translation": "Strategia różnorodności i włączenia",
-    "definition_translation": "Długoterminowy plan budowania bardziej reprezentatywnej kadry i inkluzywnego środowiska.",
-    "example_translation": "Cele dotyczące reprezentacji w kierownictwie są częścią tego planu działania."
+    "term": "Audyt opisów stanowisk",
+    "acronym": null,
+    "definition": "Systematyczny przegląd opisów stanowisk w celu zapewnienia, że są one dokładne, aktualne, zgodne z przepisami i wolne od uprzedzeń.",
+    "example": "Dział HR przeprowadza audyt opisów stanowisk, aby przygotować się do nadchodzącej analizy równości płac.",
+    "reviewed": true
   },
   {
     "id": "hr_0123",
-    "term_translation": "Analiza luki płacowej",
-    "definition_translation": "Badanie danych płacowych w celu zidentyfikowania niewyjaśnionych różnic między grupami, np. płciami.",
-    "example_translation": "Coroczne badanie różnic w zarobkach stanowi podstawę do korekt płac i zmian w polityce."
+    "term": "Wartościowanie stanowisk pracy",
+    "acronym": null,
+    "definition": "Proces systematycznego określania względnej wartości danego stanowiska w organizacji w celu stworzenia sprawiedliwej struktury wynagrodzeń.",
+    "example": "Zastosowaliśmy metodę wartościowania stanowisk pracy, aby porównać zakres obowiązków inżyniera oprogramowania z zakresem obowiązków menedżera produktu.",
+    "reviewed": true
   },
   {
     "id": "hr_0124",
-    "term_translation": "Raportowanie luki płacowej",
-    "definition_translation": "Ujawnianie statystyk porównujących średnie zarobki kobiet i mężczyzn w organizacji.",
-    "example_translation": "Regulacyjny wymóg publikowania tych danych zwiększa presję na rozwiązanie strukturalnych nierówności."
+    "term": "Zarządzanie zapotrzebowaniami rekrutacyjnymi",
+    "acronym": null,
+    "definition": "Proces tworzenia, zatwierdzania i śledzenia wniosków o obsadzenie nowego lub zwolnionego stanowiska w firmie.",
+    "example": "Nasz nowy system śledzenia kandydatów usprawnił zarządzanie zapotrzebowaniami rekrutacyjnymi, znacznie ułatwiając uzyskiwanie zgody na zatrudnienie nowych osób.",
+    "reviewed": true
   },
   {
     "id": "hr_0125",
-    "term_translation": "Polityka równych szans",
-    "definition_translation": "Oświadczenie zobowiązujące pracodawcę do niedyskryminacji w decyzjach rekrutacyjnych i pracowniczych.",
-    "example_translation": "Ogłoszenia o pracę są sprawdzane, aby upewnić się, że są zgodne z tymi wytycznymi."
+    "term": "System zarządzania wiedzą",
+    "acronym": null,
+    "definition": "Scentralizowana platforma technologiczna używana do przechowywania, udostępniania i zarządzania wiedzą oraz informacjami w organizacji.",
+    "example": "Przed rozpoczęciem projektu przeszukałem firmowy system zarządzania wiedzą w poszukiwaniu najlepszych praktyk z podobnych inicjatyw.",
+    "reviewed": true
   },
   {
     "id": "hr_0126",
-    "term_translation": "Zarządzanie wiekiem",
-    "definition_translation": "Praktyki HR adresujące potrzeby i mocne strony pracowników na różnych etapach życia.",
-    "example_translation": "Inicjatywy w tym obszarze obejmują stopniowe przechodzenie na emeryturę i mentoring międzypokoleniowy."
+    "term": "Plan transferu wiedzy",
+    "acronym": null,
+    "definition": "Udokumentowana strategia przekazywania kluczowej wiedzy z jednej osoby lub zespołu do drugiej, często stosowana w przypadku odchodzących na emeryturę pracowników lub przekazywania projektów.",
+    "example": "Stworzyliśmy szczegółowy plan transferu wiedzy, aby zapewnić płynne przejście, gdy nasz główny inżynier przejdzie na emeryturę w przyszłym miesiącu.",
+    "reviewed": true
   },
   {
     "id": "hr_0127",
-    "term_translation": "Szkolenie z przywództwa włączającego",
-    "definition_translation": "Programy pomagające liderom rozpoznawać uprzedzenia i tworzyć bardziej inkluzywne praktyki zespołowe.",
-    "example_translation": "Edukacja w zakresie inkluzywności jest obowiązkowa dla wszystkich menedżerów."
+    "term": "Program rozwoju kompetencji liderskich",
+    "acronym": null,
+    "definition": "Ustrukturyzowany program mający na celu kształtowanie i doskonalenie umiejętności obecnych i przyszłych liderów w organizacji.",
+    "example": "Pracownicy o wysokim potencjale zostali zaproszeni do udziału w corocznym firmowym programie rozwoju kompetencji liderskich.",
+    "reviewed": true
   },
   {
     "id": "hr_0128",
-    "term_translation": "Analityka talentów",
-    "definition_translation": "Wykorzystanie danych i metod statystycznych do zrozumienia i poprawy decyzji kadrowych.",
-    "example_translation": "To podejście pomogło przewidzieć, które role były najbardziej narażone na rezygnację."
+    "term": "Zwinność uczenia się",
+    "acronym": null,
+    "definition": "Zdolność i chęć do uczenia się na podstawie doświadczeń, a następnie stosowania tej wiedzy do osiągania sukcesów w nowych sytuacjach.",
+    "example": "Rekruter szukał kandydatów o wysokiej zwinności uczenia się, ponieważ stanowisko wymagało szybkiego dostosowywania się do nowych technologii.",
+    "reviewed": true
   },
   {
     "id": "hr_0129",
-    "term_translation": "Analityka kapitału ludzkiego",
-    "definition_translation": "Szersza dyscyplina łącząca dane HR z wskaźnikami biznesowymi w celu generowania wniosków.",
-    "example_translation": "Zaawansowana analiza powiązała wyniki zaangażowania z odejściami klientów w określonych regionach."
+    "term": "Strategia uczenia się i rozwoju",
+    "acronym": "L&D",
+    "definition": "Kompleksowy plan określający, w jaki sposób organizacja będzie doskonalić umiejętności i wiedzę swoich pracowników w celu osiągnięcia celów biznesowych.",
+    "example": "Nasza nowa strategia uczenia się i rozwoju obejmuje mieszankę kursów online, mentoringu i możliwości szkolenia w miejscu pracy.",
+    "reviewed": true
   },
   {
     "id": "hr_0130",
-    "term_translation": "Pulpit menedżerski HR",
-    "definition_translation": "Wizualna prezentacja kluczowych wskaźników HR wspierająca regularne monitorowanie i podejmowanie decyzji.",
-    "example_translation": "To narzędzie pokazuje trendy w zatrudnieniu, rotacji i mobilności wewnętrznej według segmentów."
+    "term": "Długoterminowy plan motywacyjny",
+    "acronym": "LTIP",
+    "definition": "Plan wynagrodzeń, który nagradza pracowników za osiąganie celów w okresie dłuższym niż rok, często z wykorzystaniem opcji na akcje.",
+    "example": "Jako dyrektor kwalifikowała się do firmowego długoterminowego planu motywacyjnego, którego realizacja rozłożona była na cztery lata.",
+    "reviewed": true
   },
   {
     "id": "hr_0131",
-    "term_translation": "Analiza ekwiwalentów pełnego etatu",
-    "definition_translation": "Obliczenie całkowitego obciążenia pracą przeliczone na równoważną liczbę pracowników pełnoetatowych.",
-    "example_translation": "To wyliczenie wykazało, że mamy braki kadrowe pomimo dużej liczby pracowników w niepełnym wymiarze."
+    "term": "Program mentorski",
+    "acronym": null,
+    "definition": "Ustrukturyzowany program, w którym doświadczeni pracownicy (mentorzy) zapewniają wskazówki i wsparcie mniej doświadczonym pracownikom (podopiecznym).",
+    "example": "Firmowy program mentorski pomógł nowym absolwentom odnaleźć się w korporacyjnym świecie podczas pierwszego roku pracy.",
+    "reviewed": true
   },
   {
     "id": "hr_0132",
-    "term_translation": "Segmentacja siły roboczej",
-    "definition_translation": "Dzielenie pracowników na grupy w oparciu o wspólne cechy w celu dostosowania praktyk HR.",
-    "example_translation": "Ten podział pozwolił odróżnić krytycznych ekspertów od ról łatwych do zastąpienia."
+    "term": "Matryca podwyżek uznaniowych",
+    "acronym": null,
+    "definition": "Tabela używana przez menedżerów do określania podwyżki dla pracownika na podstawie jego oceny wyników i pozycji w widełkach płacowych.",
+    "example": "Zgodnie z matrycą podwyżek uznaniowych pracownik z najwyższą oceną, który znajduje się w dolnej części swoich widełek płacowych, otrzyma największą procentową podwyżkę.",
+    "reviewed": true
   },
   {
     "id": "hr_0133",
-    "term_translation": "Rola krytyczna",
-    "definition_translation": "Stanowisko, którego wakat stworzyłby nieproporcjonalne ryzyko dla organizacji.",
-    "example_translation": "Plany sukcesji nadają priorytet każdemu zidentyfikowanemu kluczowemu stanowisku."
+    "term": "Mikrolearning",
+    "acronym": null,
+    "definition": "Podejście szkoleniowe, które dostarcza treści w małych, skoncentrowanych i łatwo przyswajalnych porcjach.",
+    "example": "Zamiast całodniowych warsztatów użyliśmy serii filmów w formule mikrolearningu, aby nauczyć nowych funkcji oprogramowania.",
+    "reviewed": true
   },
   {
     "id": "hr_0134",
-    "term_translation": "Rozpiętość kierowania",
-    "definition_translation": "Liczba bezpośrednich podwładnych, których nadzoruje menedżer.",
-    "example_translation": "Bardzo szeroki zasięg nadzoru może ograniczyć jakość coachingu, jaki menedżer może zapewnić."
+    "term": "Wskaźnik akceptacji ofert",
+    "acronym": null,
+    "definition": "Miernik rekrutacyjny, który oblicza odsetek kandydatów przyjmujących formalną ofertę pracy od firmy.",
+    "example": "Nasz wskaźnik akceptacji ofert na stanowiska inżynierskie wynosi 90%, co wskazuje, że nasze pakiety wynagrodzeń są konkurencyjne.",
+    "reviewed": true
   },
   {
     "id": "hr_0135",
-    "term_translation": "Przeprojektowanie organizacji",
-    "definition_translation": "Celowa zmiana struktur, ról i linii raportowania, aby lepiej wspierać strategię.",
-    "example_translation": "Zmiana struktury przesunęła partnerów biznesowych HR bliżej zespołów produktowych."
+    "term": "Proces offboardingu",
+    "acronym": null,
+    "definition": "Sformalizowany proces zarządzania odejściem pracownika z firmy, obejmujący rozmowy końcowe (exit interviews) i odbieranie dostępu do systemów.",
+    "example": "Sprawny proces offboardingu jest ważny dla utrzymania dobrych relacji z byłymi pracownikami i ochrony zasobów firmy.",
+    "reviewed": true
   },
   {
     "id": "hr_0136",
-    "term_translation": "Plan zarządzania zmianą",
-    "definition_translation": "Mapa drogowa komunikacji, szkoleń i działań wspierających, która prowadzi ludzi przez transformację.",
-    "example_translation": "Ten harmonogram zidentyfikował kluczowych interesariuszy i punkty oporu."
+    "term": "Proces onboardingu",
+    "acronym": null,
+    "definition": "Proces integracji nowego pracownika z organizacją, zapewniający mu narzędzia i informacje potrzebne do stania się produktywnym członkiem zespołu.",
+    "example": "Pierwszy tydzień naszego procesu onboardingu obejmuje spotkania z kluczowymi członkami zespołu oraz przegląd polityk firmowych.",
+    "reviewed": true
   },
   {
     "id": "hr_0137",
-    "term_translation": "Sieć liderów zmian",
-    "definition_translation": "Grupa pracowników, którzy promują i wspierają transformację w swoich lokalnych zespołach.",
-    "example_translation": "Ta grupa ambasadorów zebrała opinie od personelu pierwszej linii podczas wdrażania."
+    "term": "Badanie kultury organizacyjnej",
+    "acronym": null,
+    "definition": "Systematyczny proces oceny wspólnych wartości, przekonań i zachowań, które definiują środowisko pracy w firmie.",
+    "example": "Zarząd zainicjował badanie kultury organizacyjnej po zauważeniu spadku morale pracowników.",
+    "reviewed": true
   },
   {
     "id": "hr_0138",
-    "term_translation": "Partner biznesowy HR",
-    "definition_translation": "Profesjonalista HR ściśle współpracujący z konkretną częścią biznesu w celu dopasowania praktyk personalnych do strategii.",
-    "example_translation": "Osoba na tym stanowisku dołączyła do spotkań kierownictwa, aby przewidywać potrzeby kadrowe."
+    "term": "Wskaźnik kondycji organizacji",
+    "acronym": "OHI",
+    "definition": "Miernik oceniający zdolność organizacji do zjednoczenia, realizacji i odnowy w celu utrzymania wyjątkowych wyników.",
+    "example": "Kwartalna wartość naszego wskaźnika kondycji organizacji pomaga nam zidentyfikować obszary, w których musimy ulepszyć nasze praktyki zarządcze.",
+    "reviewed": true
   },
   {
     "id": "hr_0139",
-    "term_translation": "Usługi wspólne HR",
-    "definition_translation": "Scentralizowana jednostka dostarczająca standaryzowane transakcje i wsparcie HR dla wielu części organizacji.",
-    "example_translation": "Utworzenie centrum usług wspólnych zmniejszyło dublowanie zadań w zespołach krajowych."
+    "term": "Analiza sieci organizacyjnej",
+    "acronym": "ONA",
+    "definition": "Metoda wizualizacji i analizy przepływu komunikacji, informacji i decyzji między ludźmi w organizacji.",
+    "example": "Przeprowadziliśmy analizę sieci organizacyjnej, aby zidentyfikować kluczowych influencerów i wąskie gardła komunikacyjne przed restrukturyzacją.",
+    "reviewed": true
   },
   {
     "id": "hr_0140",
-    "term_translation": "Katalog usług HR",
-    "definition_translation": "Udokumentowana lista świadczeń HR, wraz z opisami i poziomami obsługi, dostępna dla menedżerów i pracowników.",
-    "example_translation": "Ten wykaz wyjaśnia, z kim kontaktować się w sprawach płacowych, a z kim w sprawie benefitów."
+    "term": "Pozyskiwanie kandydatów pasywnych",
+    "acronym": null,
+    "definition": "Praktyka proaktywnego identyfikowania i rekrutowania kandydatów, którzy są obecnie zatrudnieni i nie szukają aktywnie nowej pracy.",
+    "example": "Rekruter wykorzystał LinkedIn do pozyskiwania kandydatów pasywnych, aby znaleźć specjalistę z bardzo rzadkimi umiejętnościami.",
+    "reviewed": true
   },
   {
     "id": "hr_0141",
-    "term_translation": "Centrum ekspertyzy",
-    "definition_translation": "Wyspecjalizowany zespół w ramach HR zapewniający głęboką wiedzę w obszarach takich jak wynagrodzenia czy analityka.",
-    "example_translation": "Zespół ekspertów ds. nagród zaprojektował nowy plan kapitałowy."
+    "term": "Struktura kategorii zaszeregowania",
+    "acronym": null,
+    "definition": "System grupujący stanowiska o podobnej wartości w różne poziomy płacowe, z których każdy ma zdefiniowane minimalne i maksymalne wynagrodzenie.",
+    "example": "Nowa struktura kategorii zaszeregowania zapewnia, że pracownicy na podobnych stanowiskach są wynagradzani w ramach tych samych widełek płacowych.",
+    "reviewed": true
   },
   {
     "id": "hr_0142",
-    "term_translation": "Mapa drogowa technologii HR",
-    "definition_translation": "Strategiczny plan określający przyszłe wdrożenia i integrację systemów kadrowych.",
-    "example_translation": "Nasz plan technologiczny priorytetyzuje nową platformę edukacyjną i narzędzia analityczne."
+    "term": "Analiza parytetu płac",
+    "acronym": null,
+    "definition": "Analiza przeprowadzana w celu upewnienia się, że pracownicy na podobnych stanowiskach są wynagradzani sprawiedliwie, niezależnie od płci, rasy czy innych cech chronionych.",
+    "example": "Nasza coroczna analiza parytetu płac potwierdziła, że nie mamy statystycznie istotnej luki płacowej między płciami.",
+    "reviewed": true
   },
   {
     "id": "hr_0143",
-    "term_translation": "Analityk systemów HR",
-    "definition_translation": "Specjalista zarządzający i konfigurujący System Informacji o Zasobach Ludzkich.",
-    "example_translation": "Osoba na tym stanowisku odpowiada za tworzenie nowych raportów i zapewnienie integralności danych."
+    "term": "Coaching koleżeński",
+    "acronym": null,
+    "definition": "Poufny proces, w ramach którego pracownicy współpracują, aby wspierać swoje cele, rozwiązywać problemy i doskonalić umiejętności.",
+    "example": "Zespół sprzedaży wdrożył system coachingu koleżeńskiego, w którym najlepsi pracownicy dzielą się swoimi technikami z nowszymi kolegami.",
+    "reviewed": true
   },
   {
     "id": "hr_0144",
-    "term_translation": "Portal samoobsługowy pracownika",
-    "definition_translation": "Narzędzie internetowe pozwalające pracownikom zarządzać własnymi danymi, urlopami i benefitami.",
-    "example_translation": "Aktualizacja adresu jest łatwa przy użyciu tego systemu online."
+    "term": "Ocena pracownicza",
+    "acronym": null,
+    "definition": "Formalny proces przeglądu w celu oceny wyników pracy i produktywności pracownika w odniesieniu do ustalonych celów.",
+    "example": "Moja roczna ocena pracownicza jest zaplanowana na przyszły tydzień; omówię na niej z menedżerem moje osiągnięcia i cele.",
+    "reviewed": true
   },
   {
     "id": "hr_0145",
-    "term_translation": "Samoobsługa menedżerska",
-    "definition_translation": "Funkcja w systemach HR umożliwiająca przełożonym wykonywanie zadań takich jak zatwierdzanie urlopów czy inicjowanie zatrudnienia.",
-    "example_translation": "Wdrożenie tego modułu zmniejszyło obciążenie administracyjne działu HR."
+    "term": "Kalibracja ocen pracowniczych",
+    "acronym": null,
+    "definition": "Proces, podczas którego menedżerowie spotykają się, aby omówić oceny wyników swoich pracowników w celu zapewnienia sprawiedliwości i spójności w całej organizacji.",
+    "example": "Kadra kierownicza przeprowadziła sesję kalibracji ocen pracowniczych, aby upewnić się, że ocena „pracownik o wysokich wynikach” oznacza to samo w każdym dziale.",
+    "reviewed": true
   },
   {
     "id": "hr_0146",
-    "term_translation": "Zgodność z ochroną danych",
-    "definition_translation": "Zapewnienie, że praktyki HR dotyczące gromadzenia i przechowywania informacji o pracownikach są zgodne z wymogami prawnymi.",
-    "example_translation": "Kwestia prywatności danych stała się priorytetem wraz z wprowadzeniem nowych regulacji."
+    "term": "Program akcji fantomowych",
+    "acronym": null,
+    "definition": "Plan świadczeń pracowniczych, który daje wybranym pracownikom korzyści finansowe z posiadania akcji bez faktycznego przyznawania im akcji firmy.",
+    "example": "Startup zaoferował program akcji fantomowych kluczowym pracownikom, aby ich interesy były zbieżne z długoterminowym sukcesem firmy.",
+    "reviewed": true
   },
   {
     "id": "hr_0147",
-    "term_translation": "Audyt personalny",
-    "definition_translation": "Systematyczny przegląd polityk, procedur i praktyk HR w celu oceny zgodności i efektywności.",
-    "example_translation": "Wewnętrzna kontrola ujawniła niespójności w naszej dokumentacji rekrutacyjnej."
+    "term": "Metoda czynnikowo-punktowa",
+    "acronym": null,
+    "definition": "Ilościowa metoda wartościowania stanowisk, która dzieli stanowisko na czynniki płacowe i przypisuje punkty każdemu z nich.",
+    "example": "Używając metody czynnikowo-punktowej, przypisaliśmy punkty za umiejętności, odpowiedzialność i warunki pracy, aby określić kategorię zaszeregowania stanowiska.",
+    "reviewed": true
   },
   {
     "id": "hr_0148",
-    "term_translation": "Polityka mobilności globalnej",
-    "definition_translation": "Ramy regulujące warunki dla pracowników przenoszonych za granicę.",
-    "example_translation": "Ten dokument reguluje wszystko, od wsparcia podatkowego po szkolenia kulturowe."
+    "term": "Rekrutacja predykcyjna",
+    "acronym": null,
+    "definition": "Wykorzystanie danych, statystyk i sztucznej inteligencji do identyfikacji kandydatów do pracy, którzy mają największe szanse na odniesienie sukcesu na danym stanowisku.",
+    "example": "Firma wykorzystuje analitykę rekrutacji predykcyjnej do przeglądania CV i prognozowania wyników kandydatów.",
+    "reviewed": true
   },
   {
     "id": "hr_0149",
-    "term_translation": "Oddelegowanie zagraniczne",
-    "definition_translation": "Tymczasowe wysłanie pracownika do pracy w innym kraju.",
-    "example_translation": "Inżynier otrzymał propozycję trzyletniego wyjazdu do nowego centrum badawczego."
+    "term": "Weryfikacja przed zatrudnieniem",
+    "acronym": null,
+    "definition": "Proces sprawdzania przeszłości kandydata do pracy w celu weryfikacji jego oświadczeń i sprawdzenia potencjalnych problemów, takich jak karalność.",
+    "example": "Wszyscy wybrani kandydaci muszą przejść weryfikację przed zatrudnieniem, zanim otrzymają ostateczną ofertę.",
+    "reviewed": true
   },
   {
     "id": "hr_0150",
-    "term_translation": "Proces repatriacji",
-    "definition_translation": "Zestaw działań wspierających powrót pracownika do kraju macierzystego po zakończeniu zadania międzynarodowego.",
-    "example_translation": "Dobrze zarządzany powrót z zagranicy pomaga zatrzymać cenne doświadczenie zdobyte na wyjeździe."
+    "term": "Dyscyplina progresywna",
+    "acronym": null,
+    "definition": "Proces postępowania w przypadku niewłaściwego zachowania pracownika, który obejmuje serię coraz surowszych kroków, od ustnego ostrzeżenia po zwolnienie.",
+    "example": "Menedżer postępował zgodnie z firmową polityką dyscypliny progresywnej, reagując na ciągłe spóźnienia pracownika.",
+    "reviewed": true
+  },
+  {
+    "id": "hr_0151",
+    "term": "Molestowanie typu quid pro quo",
+    "acronym": null,
+    "definition": "Forma molestowania, w której korzyść zawodowa jest bezpośrednio uzależniona od uległości pracownika wobec niechcianych propozycji o charakterze seksualnym.",
+    "example": "Zaproponowanie awansu w zamian za randkę jest jawnym przykładem molestowania typu quid pro quo i jest nielegalne.",
+    "reviewed": true
+  },
+  {
+    "id": "hr_0152",
+    "term": "Marketing rekrutacyjny",
+    "acronym": null,
+    "definition": "Strategia wykorzystująca taktyki marketingowe do przyciągania, angażowania i pielęgnowania relacji z utalentowanymi osobami, aby aplikowały na stanowiska w organizacji.",
+    "example": "Nasza kampania marketingu rekrutacyjnego w mediach społecznościowych podkreślała wspaniałą kulturę i benefity naszej firmy.",
+    "reviewed": true
+  },
+  {
+    "id": "hr_0153",
+    "term": "Wskaźniki reprezentacji",
+    "acronym": null,
+    "definition": "Dane pokazujące skład demograficzny siły roboczej firmy, używane do śledzenia postępów w realizacji celów związanych z różnorodnością i włączaniem.",
+    "example": "Dyrektor HR przedstawił zarządowi najnowsze wskaźniki reprezentacji, pokazujące wzrost liczby kobiet na stanowiskach kierowniczych.",
+    "reviewed": true
+  },
+  {
+    "id": "hr_0154",
+    "term": "Roszczenie z tytułu odwetu",
+    "acronym": null,
+    "definition": "Roszczenie prawne złożone przez pracownika, który uważa, że został ukarany przez pracodawcę za podjęcie prawnie chronionej działalności, takiej jak zgłoszenie molestowania.",
+    "example": "Gdy zgłosił naruszenie zasad bezpieczeństwa, jego menedżer go zdegradował, co skłoniło go do złożenia roszczenia z tytułu odwetu.",
+    "reviewed": true
+  },
+  {
+    "id": "hr_0155",
+    "term": "Program powrotu do pracy",
+    "acronym": null,
+    "definition": "Ustrukturyzowany program pomagający pracownikom w powrocie do miejsca pracy po dłuższej nieobecności spowodowanej urazem lub chorobą.",
+    "example": "Program powrotu do pracy pozwolił jej stopniowo zwiększać liczbę godzin pracy przez cztery tygodnie po zwolnieniu lekarskim.",
+    "reviewed": true
+  },
+  {
+    "id": "hr_0156",
+    "term": "Stan z prawem do pracy (Right-to-Work State)",
+    "acronym": null,
+    "definition": "Stan w USA, w którym przepisy gwarantują, że żadna osoba nie może być zmuszona, jako warunek zatrudnienia, do wstąpienia do związku zawodowego lub płacenia na jego rzecz składek.",
+    "example": "Ponieważ działamy w stanie z prawem do pracy (Right-to-Work State), pracownicy fabryki nie mogą być zmuszani do wstępowania do związku zawodowego.",
+    "reviewed": true
+  },
+  {
+    "id": "hr_0157",
+    "term": "Poziom w widełkach płacowych",
+    "acronym": null,
+    "definition": "Wskaźnik, który mierzy, w którym miejscu w przypisanych widełkach płacowych znajduje się wynagrodzenie pracownika.",
+    "example": "Pracownik, którego poziom w widełkach płacowych wynosi 80%, zarabia znacznie powyżej środkowej wartości dla swojego stanowiska.",
+    "reviewed": true
+  },
+  {
+    "id": "hr_0158",
+    "term": "Centrum usług wspólnych",
+    "acronym": "SSC",
+    "definition": "Scentralizowana jednostka w organizacji, która obsługuje rutynowe, transakcyjne zadania HR, takie jak płace, dla wielu jednostek biznesowych.",
+    "example": "Zamiast dzwonić do lokalnego przedstawiciela HR, pracownicy kierują swoje pytania dotyczące benefitów do globalnego centrum usług wspólnych HR.",
+    "reviewed": true
+  },
+  {
+    "id": "hr_0159",
+    "term": "Krótkoterminowy plan motywacyjny",
+    "acronym": "STIP",
+    "definition": "Plan wynagrodzeń, który nagradza pracowników za osiąganie celów wynikowych w okresie jednego roku lub krótszym, zazwyczaj w formie rocznej premii.",
+    "example": "Na podstawie dobrych wyników firmy wszyscy uprawnieni pracownicy otrzymają premię w ramach krótkoterminowego planu motywacyjnego.",
+    "reviewed": true
+  },
+  {
+    "id": "hr_0160",
+    "term": "Strategia pozyskiwania kandydatów",
+    "acronym": null,
+    "definition": "Kompleksowy plan określający metody i kanały, których firma będzie używać do znajdowania i przyciągania wykwalifikowanych kandydatów do pracy.",
+    "example": "Nasza strategia pozyskiwania kandydatów na nowe stanowiska inżynierskie obejmuje połączenie portali z ofertami pracy, poleceń pracowniczych i współpracy z uczelniami.",
+    "reviewed": true
+  },
+  {
+    "id": "hr_0161",
+    "term": "Rozpiętość kierowania",
+    "acronym": null,
+    "definition": "Liczba podwładnych lub osób bezpośrednio podległych, za które odpowiedzialny jest menedżer.",
+    "example": "Po reorganizacji rozpiętość kierowania dyrektora wzrosła z pięciu do dziesięciu bezpośrednich podwładnych.",
+    "reviewed": true
+  },
+  {
+    "id": "hr_0162",
+    "term": "Strategiczne zarządzanie personelem",
+    "acronym": "SZP",
+    "definition": "Proces dostosowywania kapitału ludzkiego organizacji do jej celów strategicznych, aby zapewnić, że posiada ona odpowiednich ludzi, z odpowiednimi umiejętnościami, na odpowiednich stanowiskach i w odpowiednim czasie.",
+    "example": "Nasza inicjatywa w zakresie strategicznego zarządzania personelem zidentyfikowała przyszłe zapotrzebowanie na analityków danych, dlatego już teraz rozpoczynamy rekrutację i szkolenia pod kątem tych umiejętności.",
+    "reviewed": true
+  },
+  {
+    "id": "hr_0163",
+    "term": "Zadanie rozwojowe",
+    "acronym": null,
+    "definition": "Projekt lub zadanie powierzone pracownikowi, które wykracza poza jego obecną wiedzę lub poziom umiejętności, mające na celu stanowienie dla niego wyzwania i rozwój nowych zdolności.",
+    "example": "Aby przygotować ją do roli liderki, menedżer powierzył jej zadanie rozwojowe polegające na prowadzeniu procesu wprowadzenia nowego produktu na rynek.",
+    "reviewed": true
+  },
+  {
+    "id": "hr_0164",
+    "term": "Wywiad ustrukturyzowany",
+    "acronym": null,
+    "definition": "Metoda przeprowadzania rozmów kwalifikacyjnych, w której wszystkim kandydatom zadaje się ten sam zestaw z góry określonych pytań, aby zapewnić sprawiedliwość i spójność w procesie oceny.",
+    "example": "Stosując wywiad ustrukturyzowany, zespół rekrutacyjny mógł obiektywnie porównać odpowiedzi każdego kandydata na te same pytania oparte na kompetencjach.",
+    "reviewed": true
+  },
+  {
+    "id": "hr_0165",
+    "term": "Lejek pozyskiwania talentów",
+    "acronym": null,
+    "definition": "Model wizualizujący proces rekrutacji od pierwszego kontaktu kandydata z firmą (świadomość) aż do jego zatrudnienia, pomagający śledzić i optymalizować każdy etap.",
+    "example": "Tracimy zbyt wielu dobrych kandydatów po pierwszej rozmowie; musimy przeanalizować nasz lejek pozyskiwania talentów, aby zidentyfikować problem.",
+    "reviewed": true
+  },
+  {
+    "id": "hr_0166",
+    "term": "Tworzenie puli talentów",
+    "acronym": null,
+    "definition": "Proaktywny proces identyfikowania i budowania relacji z potencjalnymi kandydatami na kluczowe stanowiska, jeszcze zanim pojawi się konkretna oferta pracy.",
+    "example": "Zamiast czekać na wakat, nasze działania związane z tworzeniem puli talentów zapewniają, że mamy grupę wykwalifikowanych inżynierów oprogramowania gotowych do rozmów.",
+    "reviewed": true
+  },
+  {
+    "id": "hr_0167",
+    "term": "Całkowite wynagrodzenie pieniężne",
+    "acronym": "TCC",
+    "definition": "Pełna kwota wynagrodzenia, jaką pracownik otrzymuje w ciągu roku, obejmująca wynagrodzenie zasadnicze oraz wszelkie krótkoterminowe zachęty pieniężne, takie jak premie czy prowizje.",
+    "example": "Chociaż wynagrodzenie podstawowe jest konkurencyjne, premia za wyniki sprawia, że całkowite wynagrodzenie pieniężne na tym stanowisku sprzedażowym jest bardzo atrakcyjne.",
+    "reviewed": true
+  },
+  {
+    "id": "hr_0168",
+    "term": "Szkolenie z nieświadomych uprzedzeń",
+    "acronym": null,
+    "definition": "Program mający na celu uświadomienie pracownikom ich ukrytych, automatycznych uprzedzeń, aby mogli podejmować bardziej obiektywne decyzje, szczególnie w procesach rekrutacji i awansów.",
+    "example": "Po obowiązkowym szkoleniu z nieświadomych uprzedzeń menedżerowie byli bardziej świadomi swoich założeń podczas ocen pracowniczych.",
+    "reviewed": true
+  },
+  {
+    "id": "hr_0169",
+    "term": "Niezgodna z prawem praktyka pracownicza",
+    "acronym": null,
+    "definition": "Działanie pracodawcy lub związku zawodowego, które narusza prawo pracy, takie jak ingerowanie w prawa pracowników do zrzeszania się lub prowadzenia negocjacji zbiorowych.",
+    "example": "Zwolnienie pracownika za próbę założenia związku zawodowego zostało uznane przez sąd pracy za niezgodną z prawem praktykę pracowniczą.",
+    "reviewed": true
+  },
+  {
+    "id": "hr_0170",
+    "term": "Ochrona sygnalistów",
+    "acronym": null,
+    "definition": "Zabezpieczenia prawne, które chronią pracowników przed działaniami odwetowymi po zgłoszeniu nielegalnych, niebezpiecznych lub nieetycznych praktyk w ich organizacji.",
+    "example": "Firmowa polityka ochrony sygnalistów zapewnia, że każdy, kto zgłasza nadużycia finansowe, może to zrobić bez obawy o utratę pracy.",
+    "reviewed": true
+  },
+  {
+    "id": "hr_0171",
+    "term": "Dochodzenie w miejscu pracy",
+    "acronym": null,
+    "definition": "Formalny proces zbierania faktów w celu ustalenia, czy w miejscu pracy doszło do niewłaściwego postępowania, takiego jak molestowanie lub dyskryminacja.",
+    "example": "Dział HR wszczął poufne dochodzenie w miejscu pracy w następstwie anonimowej skargi złożonej w zeszłym tygodniu.",
+    "reviewed": true
+  },
+  {
+    "id": "hr_0172",
+    "term": "Analityka personalna",
+    "acronym": null,
+    "definition": "Praktyka wykorzystywania danych i metod statystycznych do mierzenia, analizowania i ulepszania wydajności oraz zarządzania personelem w organizacji.",
+    "example": "Korzystając z analityki personalnej, odkryliśmy bezpośrednią korelację między wynikami zaangażowania pracowników a produktywnością działów.",
+    "reviewed": true
+  },
+  {
+    "id": "hr_0173",
+    "term": "System śledzenia kandydatów",
+    "acronym": "ATS",
+    "definition": "Aplikacja do zarządzania całym procesem rekrutacji i zatrudniania, od otrzymywania aplikacji po złożenie oferty pracy.",
+    "example": "Nasz system śledzenia kandydatów (ATS) automatycznie filtruje CV w poszukiwaniu słów kluczowych, oszczędzając rekruterom wiele godzin ręcznej selekcji.",
+    "reviewed": true
+  },
+  {
+    "id": "hr_0174",
+    "term": "Wskaźnik eNPS",
+    "acronym": "eNPS",
+    "definition": "Wskaźnik używany do pomiaru lojalności i zaangażowania pracowników, oparty na pytaniu o prawdopodobieństwo polecenia firmy jako miejsca pracy.",
+    "example": "Po ostatnich zmianach nasz kwartalny wskaźnik eNPS spadł o 15 punktów, więc musimy zająć się obawami pracowników.",
+    "reviewed": true
+  },
+  {
+    "id": "hr_0175",
+    "term": "Program akcjonariatu pracowniczego",
+    "acronym": "ESOP",
+    "definition": "Rodzaj programu świadczeń pracowniczych, który daje pracownikom udział we własności firmy poprzez akcje.",
+    "example": "Firmowy program akcjonariatu pracowniczego to świetna zachęta do długoterminowej retencji, ponieważ daje pracownikom realny udział w naszym sukcesie.",
+    "reviewed": true
+  },
+  {
+    "id": "hr_0176",
+    "term": "Propozycja wartości dla pracownika",
+    "acronym": "EVP",
+    "definition": "Unikalny zestaw korzyści i nagród, które pracownik otrzymuje w zamian za swoje umiejętności i wkład w rozwój firmy.",
+    "example": "Nasza propozycja wartości dla pracownika kładzie nacisk na równowagę między życiem zawodowym a prywatnym oraz możliwości rozwoju, aby przyciągnąć najlepszych kandydatów.",
+    "reviewed": true
+  },
+  {
+    "id": "hr_0177",
+    "term": "Partner biznesowy HR",
+    "acronym": "HRBP",
+    "definition": "Specjalista HR, który współpracuje bezpośrednio z kadrą kierowniczą firmy w celu opracowania i wdrożenia strategii HR zgodnej z celami biznesowymi.",
+    "example": "Zaplanowałem spotkanie z naszym partnerem biznesowym HR, aby omówić potrzeby kadrowe związane z nowym projektem marketingowym.",
+    "reviewed": true
+  },
+  {
+    "id": "hr_0178",
+    "term": "Zarządzanie kapitałem ludzkim",
+    "acronym": "HCM",
+    "definition": "Szeroki zbiór praktyk w zakresie rekrutacji, zarządzania, rozwoju i optymalizacji pracowników w celu zwiększenia ich wartości dla organizacji.",
+    "example": "Nasze nowe oprogramowanie do zarządzania kapitałem ludzkim integruje płace, benefity i zarządzanie wydajnością w jednej platformie.",
+    "reviewed": true
+  },
+  {
+    "id": "hr_0179",
+    "term": "System informatyczny do zarządzania zasobami ludzkimi",
+    "acronym": "HRIS",
+    "definition": "System oprogramowania używany do przechowywania i zarządzania podstawowymi danymi pracowników, takimi jak dane osobowe, stanowiska i płace.",
+    "example": "Proszę zaktualizować swoje dane kontaktowe bezpośrednio w systemie HRIS do końca tygodnia.",
+    "reviewed": true
+  },
+  {
+    "id": "hr_0180",
+    "term": "System zarządzania nauczaniem",
+    "acronym": "LMS",
+    "definition": "Aplikacja do administrowania, śledzenia i dostarczania kursów edukacyjnych lub programów szkoleniowych.",
+    "example": "Wszyscy nowi pracownicy muszą ukończyć obowiązkowe szkolenie z zakresu zgodności na naszym systemie zarządzania nauczaniem w ciągu pierwszych 30 dni.",
+    "reviewed": true
+  },
+  {
+    "id": "hr_0181",
+    "term": "Zarządzanie przez cele",
+    "acronym": "MBO",
+    "definition": "Model zarządzania, który ma na celu poprawę wyników poprzez jasne zdefiniowanie celów, uzgodnionych zarówno przez kierownictwo, jak i pracowników.",
+    "example": "Nasza firma stosuje podejście zarządzania przez cele, dzięki czemu zadania każdego członka zespołu są bezpośrednio powiązane z kluczowymi celami działu.",
+    "reviewed": true
+  },
+  {
+    "id": "hr_0182",
+    "term": "Plan poprawy wyników",
+    "acronym": "PIP",
+    "definition": "Formalny dokument określający konkretne obszary, w których pracownik nie osiąga oczekiwanych rezultatów, oraz kroki, które musi podjąć, aby je poprawić.",
+    "example": "Po kilku przekroczonych terminach menedżer Jana musiał wdrożyć wobec niego plan poprawy wyników.",
+    "reviewed": true
+  },
+  {
+    "id": "hr_0183",
+    "term": "Outsourcing procesów rekrutacyjnych",
+    "acronym": "RPO",
+    "definition": "Model biznesowy, w którym firma przekazuje całość lub część swoich procesów rekrutacyjnych zewnętrznemu dostawcy.",
+    "example": "Aby szybko się skalować w ramach naszej ekspansji, obsługę wszystkich naszych międzynarodowych rekrutacji zleciliśmy firmie specjalizującej się w outsourcingu procesów rekrutacyjnych.",
+    "reviewed": true
   }
 ]

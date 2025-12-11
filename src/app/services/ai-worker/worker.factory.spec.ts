@@ -1,5 +1,10 @@
 import { describe, it, expect, vi, beforeAll, beforeEach, afterEach } from 'vitest';
 
+// Mock import.meta.url
+vi.mock('import.meta', () => ({
+  url: 'file:///mock/path/worker.factory.ts'
+}));
+
 // Mock the Worker constructor properly
 const mockWorker = vi.fn().mockImplementation(function (url: URL, options: any) {
   return {

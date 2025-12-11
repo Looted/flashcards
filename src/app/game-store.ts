@@ -7,7 +7,7 @@ import { LanguageService } from './services/language.service';
 export interface Flashcard {
   id: string;
   english: string;
-  translations: Partial<Record<LanguageField, string>>;
+  translations: Record<string, string>;
   category: string;
   masteryLevel: number;
   definition: string;

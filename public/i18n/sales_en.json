@@ -1,1202 +1,2917 @@
 [
   {
-    "id": "sls_0001",
-    "term": "A/B Testing",
-    "definition": "Comparing two versions of a webpage or app against each other to determine which one performs better.",
-    "example": "We used A/B testing to see if a red or green button resulted in more sign-ups.",
-    "difficulty": 2,
-    "tags": ["optimization", "testing"]
+    "id": "sales_0001",
+    "term": "Sales Qualified Lead",
+    "acronym": "SQL",
+    "definition": "A prospective customer that has been researched and vetted by the sales team and is deemed ready for the next stage in the sales process.",
+    "example": "After our call, the SDR confirmed the prospect had budget and authority, so they've been converted to an SQL for the Account Executive to pursue.",
+    "metadata": {
+      "difficulty": 2,
+      "tags": [
+        "lead generation",
+        "sales process",
+        "metrics"
+      ]
+    }
   },
   {
-    "id": "sls_0002",
-    "term": "Above the Fold",
-    "definition": "The portion of a webpage that is visible without scrolling.",
-    "example": "Place the most important call-to-action above the fold to ensure maximum visibility.",
-    "difficulty": 2,
-    "tags": ["web design", "ux"]
+    "id": "sales_0002",
+    "term": "Marketing Qualified Lead",
+    "acronym": "MQL",
+    "definition": "A lead judged more likely to become a customer compared to others based on their web activity, such as downloading content or visiting a pricing page.",
+    "example": "We generated over 200 MQLs from our webinar last week; now the sales development team needs to qualify them.",
+    "metadata": {
+      "difficulty": 2,
+      "tags": [
+        "lead generation",
+        "marketing",
+        "sales process"
+      ]
+    }
   },
   {
-    "id": "sls_0003",
-    "term": "Affiliate Marketing",
-    "definition": "A performance-based marketing strategy where a business rewards partners for each customer brought by the partner's efforts.",
-    "example": "Many bloggers earn revenue through affiliate marketing by recommending products they use.",
-    "difficulty": 2,
-    "tags": ["strategy", "digital"]
+    "id": "sales_0003",
+    "term": "Ideal Customer Profile",
+    "acronym": "ICP",
+    "definition": "A description of the perfect company to sell to, focusing on firmographic data like industry, company size, and annual revenue.",
+    "example": "Our ICP is mid-sized tech companies in North America with 200-1000 employees, so we should focus our outbound efforts there.",
+    "metadata": {
+      "difficulty": 2,
+      "tags": [
+        "strategy",
+        "marketing",
+        "prospecting"
+      ]
+    }
   },
   {
-    "id": "sls_0004",
-    "term": "Algorithm",
-    "definition": "A set of rules used by social platforms to determine which content to display to users.",
-    "example": "The Instagram algorithm favors posts with high engagement rates.",
-    "difficulty": 2,
-    "tags": ["tech", "social media"]
-  },
-  {
-    "id": "sls_0005",
-    "term": "Ambient Marketing",
-    "definition": "Placing ads on unusual items or in unusual places where you wouldn't normally expect to see an ad.",
-    "example": "Advertising on the back of theatre tickets is a form of ambient marketing.",
-    "difficulty": 2,
-    "tags": ["creative", "advertising"]
-  },
-  {
-    "id": "sls_0006",
-    "term": "Anchoring",
-    "definition": "A cognitive bias where an individual depends too heavily on an initial piece of information (the 'anchor') when making decisions.",
-    "example": "Displaying the original price of $100 next to the sale price of $70 uses anchoring to make the deal look better.",
-    "difficulty": 3,
-    "tags": ["psychology", "pricing"]
-  },
-  {
-    "id": "sls_0007",
-    "term": "Attribution Model",
-    "definition": "A rule or set of rules that determines how credit for sales and conversions is assigned to touchpoints in conversion paths.",
-    "example": "We switched to a multi-touch attribution model to understand how our blog contributes to final sales.",
-    "difficulty": 3,
-    "tags": ["analytics", "strategy"]
-  },
-  {
-    "id": "sls_0008",
-    "term": "Average Order Value (AOV)",
-    "definition": "The average amount spent each time a customer places an order.",
-    "example": "Offering free shipping on orders over $50 is a common tactic to increase AOV.",
-    "difficulty": 2,
-    "tags": ["metrics", "ecommerce"]
-  },
-  {
-    "id": "sls_0009",
-    "term": "B2B (Business-to-Business)",
-    "definition": "A form of transaction between businesses, such as one involving a manufacturer and wholesaler.",
-    "example": "LinkedIn is the primary channel for B2B marketing.",
-    "difficulty": 1,
-    "tags": ["business", "strategy"]
-  },
-  {
-    "id": "sls_0010",
-    "term": "B2C (Business-to-Consumer)",
-    "definition": "The process of selling products and services directly between a business and consumers.",
-    "example": "Coca-Cola is a classic example of a B2C company.",
-    "difficulty": 1,
-    "tags": ["business", "strategy"]
-  },
-  {
-    "id": "sls_0011",
-    "term": "Backlink",
-    "definition": "A hyperlink on one website that points to another website.",
-    "example": "Earning a backlink from a reputable news site significantly boosted our SEO ranking.",
-    "difficulty": 2,
-    "tags": ["seo", "digital"]
-  },
-  {
-    "id": "sls_0012",
-    "term": "Bandwagon Effect",
-    "definition": "The tendency for people to adopt certain behaviors, styles, or attitudes simply because others are doing so.",
-    "example": "Marketing campaigns often use phrases like 'Join millions of satisfied customers' to trigger the bandwagon effect.",
-    "difficulty": 2,
-    "tags": ["psychology", "social"]
-  },
-  {
-    "id": "sls_0013",
-    "term": "Banner Blindness",
-    "definition": "A phenomenon in web usability where visitors to a website consciously or subconsciously ignore banner-like information.",
-    "example": "Native ads were developed as a solution to banner blindness.",
-    "difficulty": 2,
-    "tags": ["ux", "advertising"]
-  },
-  {
-    "id": "sls_0014",
-    "term": "Behavioral Targeting",
-    "definition": "A technique used by online advertisers to increase the effectiveness of their campaigns by using data collected on an individual's web-browsing behavior.",
-    "example": "Behavioral targeting showed me ads for hiking boots after I read an article about camping.",
-    "difficulty": 2,
-    "tags": ["ads", "tech"]
-  },
-  {
-    "id": "sls_0015",
-    "term": "Blue Ocean Strategy",
-    "definition": "Creating a new, uncontested market space that makes competitors irrelevant.",
-    "example": "Cirque du Soleil used a Blue Ocean Strategy to reinvent the circus industry.",
-    "difficulty": 3,
-    "tags": ["strategy", "innovation"]
-  },
-  {
-    "id": "sls_0016",
-    "term": "Bounce Rate",
-    "definition": "The percentage of visitors to a particular website who navigate away from the site after viewing only one page.",
-    "example": "A high bounce rate on the homepage suggests the content isn't relevant to the visitors.",
-    "difficulty": 2,
-    "tags": ["metrics", "analytics"]
-  },
-  {
-    "id": "sls_0017",
-    "term": "Brand Ambassador",
-    "definition": "A person who is hired by an organization or company to represent a brand in a positive light.",
-    "example": "The company hired a famous athlete as their global brand ambassador.",
-    "difficulty": 1,
-    "tags": ["pr", "branding"]
-  },
-  {
-    "id": "sls_0018",
-    "term": "Brand Archetype",
-    "definition": "A universally familiar character or situation that transcends time, place, culture, gender, and age, used to define a brand's personality.",
-    "example": "Nike uses the 'Hero' brand archetype to inspire customers.",
-    "difficulty": 3,
-    "tags": ["branding", "psychology"]
-  },
-  {
-    "id": "sls_0019",
-    "term": "Brand Awareness",
-    "definition": "The extent to which consumers are familiar with the distinctive qualities or image of a particular brand of goods or services.",
-    "example": "Our new billboard campaign is designed to increase local brand awareness.",
-    "difficulty": 1,
-    "tags": ["branding", "metrics"]
-  },
-  {
-    "id": "sls_0020",
-    "term": "Brand Equity",
-    "definition": "The commercial value that derives from consumer perception of the brand name of a particular product or service, rather than from the product or service itself.",
-    "example": "Apple has massive brand equity, allowing them to charge a premium for their devices.",
-    "difficulty": 2,
-    "tags": ["branding", "value"]
-  },
-  {
-    "id": "sls_0021",
-    "term": "Brand Loyalty",
-    "definition": "The tendency of consumers to continuously purchase one brand's products over another.",
-    "example": "Loyalty programs are a key tool for building long-term brand loyalty.",
-    "difficulty": 1,
-    "tags": ["branding", "retention"]
-  },
-  {
-    "id": "sls_0022",
-    "term": "Brand Personality",
-    "definition": "A set of human characteristics that are attributed to a brand name.",
-    "example": "Red Bull's brand personality is energetic, daring, and adventurous.",
-    "difficulty": 2,
-    "tags": ["branding", "psychology"]
-  },
-  {
-    "id": "sls_0023",
+    "id": "sales_0004",
     "term": "Buyer Persona",
-    "definition": "A semi-fictional representation of your ideal customer based on market research and real data.",
-    "example": "We created a buyer persona named 'Manager Mike' to help focus our B2B messaging.",
-    "difficulty": 2,
-    "tags": ["strategy", "inbound"]
+    "definition": "A semi-fictional representation of your ideal customer based on market research and real data, focusing on their goals, challenges, and motivations.",
+    "example": "We created a 'Marketing Mary' buyer persona to help our sales team better understand the daily challenges of our target audience.",
+    "metadata": {
+      "difficulty": 1,
+      "tags": [
+        "strategy",
+        "marketing",
+        "prospecting"
+      ]
+    }
   },
   {
-    "id": "sls_0024",
-    "term": "Call to Action (CTA)",
-    "definition": "A prompt on a website that tells the user to take some specified action.",
-    "example": "The 'Sign Up Free' button is the primary CTA on our landing page.",
-    "difficulty": 1,
-    "tags": ["digital", "web"]
+    "id": "sales_0005",
+    "term": "Pipeline Velocity",
+    "definition": "The speed at which qualified leads move through your sales pipeline and generate revenue.",
+    "example": "To increase our pipeline velocity, we need to shorten the sales cycle or improve our win rate.",
+    "metadata": {
+      "difficulty": 3,
+      "tags": [
+        "metrics",
+        "sales management",
+        "finance"
+      ]
+    }
   },
   {
-    "id": "sls_0025",
-    "term": "Cannibalization",
-    "definition": "A reduction in sales volume, sales revenue, or market share of one product as a result of the introduction of a new product by the same producer.",
-    "example": "Launching a cheaper version of the software risked cannibalization of our premium product sales.",
-    "difficulty": 3,
-    "tags": ["strategy", "risk"]
+    "id": "sales_0006",
+    "term": "Sales Cadence",
+    "definition": "A scheduled sequence of interactions a salesperson uses to engage with a prospect, such as emails, phone calls, and social media touchpoints.",
+    "example": "Our SDRs follow a 10-step sales cadence over two weeks for all new outbound leads to ensure consistent follow-up.",
+    "metadata": {
+      "difficulty": 2,
+      "tags": [
+        "sales process",
+        "prospecting",
+        "technique"
+      ]
+    }
   },
   {
-    "id": "sls_0026",
-    "term": "Canonical Tag",
-    "definition": "An HTML element that helps webmasters prevent duplicate content issues by specifying the 'preferred' version of a web page.",
-    "example": "We added a canonical tag to the product page to tell Google which URL to index.",
-    "difficulty": 3,
-    "tags": ["seo", "tech"]
+    "id": "sales_0007",
+    "term": "Annual Recurring Revenue",
+    "acronym": "ARR",
+    "definition": "The predictable revenue a company can expect to receive from its customers over a one-year period, common in subscription-based businesses.",
+    "example": "With the new enterprise clients we signed, our ARR is projected to hit $5 million by the end of the fiscal year.",
+    "metadata": {
+      "difficulty": 2,
+      "tags": [
+        "finance",
+        "metrics",
+        "SaaS"
+      ]
+    }
   },
   {
-    "id": "sls_0027",
-    "term": "Choice Paralysis",
-    "definition": "Overthinking a decision to the point that a choice never gets made, often due to too many options.",
-    "example": "Reducing the number of subscription plans helped eliminate choice paralysis for new users.",
-    "difficulty": 2,
-    "tags": ["psychology", "ux"]
+    "id": "sales_0008",
+    "term": "Monthly Recurring Revenue",
+    "acronym": "MRR",
+    "definition": "The predictable revenue a company can expect to receive from its customers on a monthly basis.",
+    "example": "Our MRR grew by 5% last month, which is a great indicator of our steady growth.",
+    "metadata": {
+      "difficulty": 2,
+      "tags": [
+        "finance",
+        "metrics",
+        "SaaS"
+      ]
+    }
   },
   {
-    "id": "sls_0028",
+    "id": "sales_0009",
+    "term": "Customer Acquisition Cost",
+    "acronym": "CAC",
+    "definition": "The total cost of sales and marketing efforts needed to acquire a single new customer.",
+    "example": "We need to lower our CAC; spending $500 to acquire a customer who only pays $50 a month isn't sustainable.",
+    "metadata": {
+      "difficulty": 2,
+      "tags": [
+        "finance",
+        "metrics",
+        "marketing"
+      ]
+    }
+  },
+  {
+    "id": "sales_0010",
+    "term": "Customer Lifetime Value",
+    "acronym": "CLV",
+    "definition": "The total revenue a business can reasonably expect from a single customer account throughout their entire relationship.",
+    "example": "By focusing on retention, we aim to increase our Customer Lifetime Value to be at least 3x our Customer Acquisition Cost.",
+    "metadata": {
+      "difficulty": 2,
+      "tags": [
+        "finance",
+        "metrics",
+        "customer success"
+      ]
+    }
+  },
+  {
+    "id": "sales_0011",
+    "term": "Quota Attainment",
+    "definition": "The percentage of a salesperson's assigned sales goal (quota) that they have successfully achieved over a specific period.",
+    "example": "John's quota attainment was 115% last quarter, making him the top performer on the team.",
+    "metadata": {
+      "difficulty": 1,
+      "tags": [
+        "performance",
+        "sales management",
+        "metrics"
+      ]
+    }
+  },
+  {
+    "id": "sales_0012",
+    "term": "Win Rate",
+    "definition": "The percentage of sales opportunities that result in a closed-won deal.",
+    "example": "Our team's win rate improved from 20% to 25% after we implemented the new sales training.",
+    "metadata": {
+      "difficulty": 1,
+      "tags": [
+        "metrics",
+        "performance",
+        "sales management"
+      ]
+    }
+  },
+  {
+    "id": "sales_0013",
+    "term": "Average Deal Size",
+    "definition": "The average revenue generated from each closed-won deal over a specific period.",
+    "example": "We're focusing on enterprise clients to increase our average deal size from $10k to $25k.",
+    "metadata": {
+      "difficulty": 1,
+      "tags": [
+        "metrics",
+        "finance",
+        "sales management"
+      ]
+    }
+  },
+  {
+    "id": "sales_0014",
     "term": "Churn Rate",
-    "definition": "The percentage of subscribers who discontinue their subscriptions within a given time period.",
-    "example": "We need to lower our churn rate to improve long-term revenue.",
-    "difficulty": 2,
-    "tags": ["metrics", "retention"]
+    "definition": "The percentage of customers or subscribers who cancel or do not renew their subscription during a given time period.",
+    "example": "Our high churn rate indicates a problem with customer satisfaction, so we need to investigate the cause.",
+    "metadata": {
+      "difficulty": 2,
+      "tags": [
+        "metrics",
+        "customer success",
+        "SaaS"
+      ]
+    }
   },
   {
-    "id": "sls_0029",
-    "term": "Clickbait",
-    "definition": "Content whose main purpose is to attract attention and encourage visitors to click on a link to a particular web page.",
-    "example": "The headline was pure clickbait and didn't deliver on its promise.",
-    "difficulty": 1,
-    "tags": ["content", "ethics"]
+    "id": "sales_0015",
+    "term": "Net Revenue Retention",
+    "acronym": "NRR",
+    "definition": "A metric that measures the percentage of recurring revenue retained from existing customers, including expansions, downgrades, and churn.",
+    "example": "With strong upsells and low churn, we achieved a 110% NRR, meaning we grew even without acquiring new customers.",
+    "metadata": {
+      "difficulty": 3,
+      "tags": [
+        "metrics",
+        "finance",
+        "customer success",
+        "SaaS"
+      ]
+    }
   },
   {
-    "id": "sls_0030",
-    "term": "Click-Through Rate (CTR)",
-    "definition": "The ratio of users who click on a specific link to the number of total users who view a page, email, or advertisement.",
-    "example": "A low CTR on the ad suggests the image or copy isn't engaging enough.",
-    "difficulty": 2,
-    "tags": ["metrics", "digital"]
+    "id": "sales_0016",
+    "term": "Sales Cycle Length",
+    "definition": "The average time it takes to close a deal, from the first point of contact with a prospect to the final signature.",
+    "example": "Our sales cycle length for enterprise deals is about 90 days, which is typical for our industry.",
+    "metadata": {
+      "difficulty": 1,
+      "tags": [
+        "metrics",
+        "sales process",
+        "sales management"
+      ]
+    }
   },
   {
-    "id": "sls_0031",
-    "term": "Cognitive Dissonance",
-    "definition": "The state of having inconsistent thoughts, beliefs, or attitudes, especially as relating to behavioral decisions and attitude change.",
-    "example": "After buying an expensive car, the customer felt cognitive dissonance and sought reassurance from reviews.",
-    "difficulty": 3,
-    "tags": ["psychology", "theory"]
+    "id": "sales_0017",
+    "term": "Lead Velocity Rate",
+    "acronym": "LVR",
+    "definition": "The growth rate of qualified leads month over month, which is a key predictor of future revenue.",
+    "example": "Our LVR is at 15%, which suggests we will likely hit our revenue targets next quarter if we maintain this momentum.",
+    "metadata": {
+      "difficulty": 3,
+      "tags": [
+        "metrics",
+        "lead generation",
+        "forecasting"
+      ]
+    }
   },
   {
-    "id": "sls_0032",
-    "term": "Cohort Analysis",
-    "definition": "A behavioral analytics tool that breaks the data in a data set down into related groups for analysis.",
-    "example": "Cohort analysis revealed that users who signed up during the holiday sale had lower retention.",
-    "difficulty": 3,
-    "tags": ["analytics", "data"]
+    "id": "sales_0018",
+    "term": "Challenger Sale",
+    "definition": "A sales methodology where the salesperson teaches the prospect, tailors the sales message, and takes control of the conversation.",
+    "example": "Instead of just asking about their needs, I used the Challenger Sale model to show them a risk in their industry they hadn't considered.",
+    "metadata": {
+      "difficulty": 3,
+      "tags": [
+        "methodology",
+        "sales process",
+        "strategy"
+      ]
+    }
   },
   {
-    "id": "sls_0033",
-    "term": "Cold Calling",
-    "definition": "The solicitation of business from potential customers who have had no prior contact with the salesperson conducting the call.",
-    "example": "Cold calling is challenging but remains a staple of B2B sales strategies.",
-    "difficulty": 2,
-    "tags": ["sales", "outbound"]
+    "id": "sales_0019",
+    "term": "MEDDIC",
+    "acronym": "MEDDIC",
+    "definition": "A sales qualification framework that stands for Metrics, Economic Buyer, Decision Criteria, Decision Process, Identify Pain, and Champion.",
+    "example": "Before forecasting this deal, let's run through the MEDDIC checklist to see if we have all the key information.",
+    "metadata": {
+      "difficulty": 3,
+      "tags": [
+        "methodology",
+        "framework",
+        "qualification"
+      ]
+    }
   },
   {
-    "id": "sls_0034",
-    "term": "Competitive Advantage",
-    "definition": "A condition or circumstance that puts a company in a favorable or superior business position.",
-    "example": "Our proprietary technology gives us a distinct competitive advantage.",
-    "difficulty": 2,
-    "tags": ["strategy", "business"]
+    "id": "sales_0020",
+    "term": "BANT Framework",
+    "acronym": "BANT",
+    "definition": "A sales qualification framework used to determine if a prospect is a good fit based on their Budget, Authority, Need, and Timeline.",
+    "example": "The lead seems promising, but we need to use the BANT framework to confirm they have the budget and authority to make a purchase.",
+    "metadata": {
+      "difficulty": 2,
+      "tags": [
+        "methodology",
+        "framework",
+        "qualification"
+      ]
+    }
   },
   {
-    "id": "sls_0035",
-    "term": "Confirmation Bias",
-    "definition": "The tendency to search for, interpret, favor, and recall information in a way that confirms or supports one's prior beliefs or values.",
-    "example": "Marketing copy often appeals to confirmation bias to make the customer feel understood.",
-    "difficulty": 3,
-    "tags": ["psychology", "theory"]
+    "id": "sales_0021",
+    "term": "SPIN Selling",
+    "acronym": "SPIN",
+    "definition": "A sales technique that involves asking questions about the prospect's Situation, Problem, Implication, and Need-payoff to guide them to your solution.",
+    "example": "During the discovery call, I used SPIN selling to help the customer realize the significant financial implications of their current problem.",
+    "metadata": {
+      "difficulty": 3,
+      "tags": [
+        "methodology",
+        "technique",
+        "sales process"
+      ]
+    }
   },
   {
-    "id": "sls_0036",
-    "term": "Content Management System (CMS)",
-    "definition": "Software that helps users create, manage, and modify content on a website without the need for specialized technical knowledge.",
-    "example": "WordPress is the most popular CMS used by marketing teams.",
-    "difficulty": 2,
-    "tags": ["tech", "web"]
+    "id": "sales_0022",
+    "term": "Solution Selling",
+    "definition": "A sales methodology where the salesperson diagnoses a prospect's needs and then recommends the right products or services to solve those problems.",
+    "example": "We don't just sell software; we practice solution selling to provide a complete answer to our clients' workflow challenges.",
+    "metadata": {
+      "difficulty": 2,
+      "tags": [
+        "methodology",
+        "sales process",
+        "strategy"
+      ]
+    }
   },
   {
-    "id": "sls_0037",
-    "term": "Content Marketing",
-    "definition": "A strategic marketing approach focused on creating and distributing valuable, relevant, and consistent content.",
-    "example": "Our blog is the hub of our content marketing efforts.",
-    "difficulty": 1,
-    "tags": ["content", "strategy"]
+    "id": "sales_0023",
+    "term": "Value Proposition",
+    "definition": "A clear statement that explains the benefits your product offers, how it solves customers' problems, and what distinguishes you from the competition.",
+    "example": "Our value proposition is that we can reduce a company's data processing time by 50%, saving them both time and money.",
+    "metadata": {
+      "difficulty": 1,
+      "tags": [
+        "marketing",
+        "strategy",
+        "communication"
+      ]
+    }
   },
   {
-    "id": "sls_0038",
-    "term": "Conversion Rate Optimization (CRO)",
-    "definition": "The systematic process of increasing the percentage of website visitors who take a desired action.",
-    "example": "We improved our CRO by simplifying the checkout form.",
-    "difficulty": 2,
-    "tags": ["digital", "analytics"]
+    "id": "sales_0024",
+    "term": "Objection Handling",
+    "definition": "The process of responding to a prospect's concerns or reasons for not buying in a way that alleviates their worries and moves the sale forward.",
+    "example": "The new sales playbook includes a section on objection handling for common concerns about pricing and implementation.",
+    "metadata": {
+      "difficulty": 1,
+      "tags": [
+        "technique",
+        "communication",
+        "sales process"
+      ]
+    }
   },
   {
-    "id": "sls_0039",
-    "term": "Copywriting",
-    "definition": "The act of writing text for the purpose of advertising or other forms of marketing.",
-    "example": "Great copywriting focuses on benefits rather than just features.",
-    "difficulty": 2,
-    "tags": ["content", "creative"]
+    "id": "sales_0025",
+    "term": "Discovery Call",
+    "definition": "An initial conversation between a salesperson and a prospect with the goal of understanding the prospect's needs, challenges, and goals.",
+    "example": "I have a discovery call scheduled with the VP of Marketing tomorrow to see if our solution is a good fit for their team.",
+    "metadata": {
+      "difficulty": 1,
+      "tags": [
+        "sales process",
+        "prospecting",
+        "communication"
+      ]
+    }
   },
   {
-    "id": "sls_0040",
-    "term": "Corporate Social Responsibility (CSR)",
-    "definition": "A self-regulating business model that helps a company be socially accountable to itself, its stakeholders, and the public.",
-    "example": "Our CSR program supports local educational initiatives.",
-    "difficulty": 2,
-    "tags": ["branding", "ethics"]
+    "id": "sales_0026",
+    "term": "Proof of Concept",
+    "acronym": "POC",
+    "definition": "A small-scale trial or pilot program designed to demonstrate the feasibility and business value of a product or service to a prospective customer.",
+    "example": "The client was impressed with the demo, and now they've agreed to a 30-day proof of concept to test our software with their data.",
+    "metadata": {
+      "difficulty": 2,
+      "tags": [
+        "sales process",
+        "technical sales",
+        "evaluation"
+      ]
+    }
   },
   {
-    "id": "sls_0041",
-    "term": "Cost Per Acquisition (CPA)",
-    "definition": "The aggregate cost to acquire one paying customer on a campaign or channel level.",
-    "example": "We stopped the campaign because the CPA was higher than the product price.",
-    "difficulty": 2,
-    "tags": ["metrics", "finance"]
+    "id": "sales_0027",
+    "term": "Compelling Event",
+    "definition": "A specific deadline or business pressure that forces a prospect to make a purchasing decision by a certain date.",
+    "example": "Their upcoming product launch is a compelling event that should encourage them to sign the contract this month.",
+    "metadata": {
+      "difficulty": 3,
+      "tags": [
+        "strategy",
+        "qualification",
+        "negotiation"
+      ]
+    }
   },
   {
-    "id": "sls_0042",
-    "term": "Cost Per Lead (CPL)",
-    "definition": "The amount it costs your marketing organization to acquire a lead.",
-    "example": "LinkedIn ads have a higher CPL, but the lead quality is generally better.",
-    "difficulty": 2,
-    "tags": ["metrics", "finance"]
+    "id": "sales_0028",
+    "term": "Economic Buyer",
+    "definition": "The individual within a prospect's organization who has the ultimate authority to approve a purchase and release the funds.",
+    "example": "While my contact is the project manager, I need to get a meeting with the CFO, who is the economic buyer for this deal.",
+    "metadata": {
+      "difficulty": 2,
+      "tags": [
+        "qualification",
+        "sales process",
+        "stakeholders"
+      ]
+    }
   },
   {
-    "id": "sls_0043",
-    "term": "Cost Per Mille (CPM)",
-    "definition": "Cost per thousand impressions; a pricing model used in advertising.",
-    "example": "Brand awareness campaigns often use CPM billing to maximize reach.",
-    "difficulty": 2,
-    "tags": ["metrics", "ads"]
+    "id": "sales_0029",
+    "term": "Champion Development",
+    "definition": "The process of identifying and building a strong relationship with an internal advocate (a \"champion\") at a prospect's company who will sell on your behalf.",
+    "example": "Effective champion development is key to winning large enterprise deals; we need someone on the inside pushing for us.",
+    "metadata": {
+      "difficulty": 3,
+      "tags": [
+        "strategy",
+        "relationship building",
+        "enterprise sales"
+      ]
+    }
   },
   {
-    "id": "sls_0044",
+    "id": "sales_0030",
+    "term": "Land and Expand",
+    "definition": "A sales strategy where a company first wins a small deal with a new customer (land) and then grows that account over time (expand).",
+    "example": "Our land and expand strategy is working well; we started with a single department and now the entire company uses our product.",
+    "metadata": {
+      "difficulty": 2,
+      "tags": [
+        "strategy",
+        "account management",
+        "growth"
+      ]
+    }
+  },
+  {
+    "id": "sales_0031",
     "term": "Cross-selling",
-    "definition": "The action or practice of selling an additional product or service to an existing customer.",
-    "example": "Suggesting a phone case when someone buys a smartphone is cross-selling.",
-    "difficulty": 2,
-    "tags": ["sales", "strategy"]
+    "definition": "The practice of selling an additional, different product or service to an existing customer.",
+    "example": "After they bought our CRM, I successfully cross-sold them our marketing automation platform as well.",
+    "metadata": {
+      "difficulty": 1,
+      "tags": [
+        "technique",
+        "account management",
+        "growth"
+      ]
+    }
   },
   {
-    "id": "sls_0045",
-    "term": "Customer Acquisition Cost (CAC)",
-    "definition": "The cost of winning a customer to purchase a product/service.",
-    "example": "Startups must carefully monitor the ratio between CAC and LTV.",
-    "difficulty": 2,
-    "tags": ["metrics", "finance"]
+    "id": "sales_0032",
+    "term": "Upselling",
+    "definition": "The practice of encouraging customers to purchase a more expensive version of a product, an upgrade, or an add-on to generate more revenue.",
+    "example": "The customer was about to buy the basic plan, but I managed to upsell them to the premium plan by highlighting the advanced features.",
+    "metadata": {
+      "difficulty": 1,
+      "tags": [
+        "technique",
+        "account management",
+        "growth"
+      ]
+    }
   },
   {
-    "id": "sls_0046",
-    "term": "Customer Centricity",
-    "definition": "An approach to doing business that focuses on providing a positive customer experience both at the point of sale and after the sale.",
-    "example": "Amazon's success is largely attributed to its extreme customer centricity.",
-    "difficulty": 2,
-    "tags": ["strategy", "cx"]
+    "id": "sales_0033",
+    "term": "Revenue Operations",
+    "acronym": "RevOps",
+    "definition": "A business function that aligns sales, marketing, and customer service operations to drive revenue growth and improve efficiency.",
+    "example": "Our RevOps team is responsible for managing the CRM, analyzing sales data, and optimizing the entire go-to-market process.",
+    "metadata": {
+      "difficulty": 3,
+      "tags": [
+        "operations",
+        "management",
+        "strategy"
+      ]
+    }
   },
   {
-    "id": "sls_0047",
-    "term": "Customer Journey Map",
-    "definition": "A visual representation of every experience your customers have with you.",
-    "example": "The customer journey map helped us identify a pain point during the onboarding process.",
-    "difficulty": 2,
-    "tags": ["cx", "strategy"]
+    "id": "sales_0034",
+    "term": "Sales Enablement",
+    "definition": "The iterative process of providing a sales team with the tools, content, training, and resources they need to sell more effectively.",
+    "example": "The new sales enablement platform gives our reps easy access to all the latest case studies and product information.",
+    "metadata": {
+      "difficulty": 2,
+      "tags": [
+        "operations",
+        "training",
+        "management"
+      ]
+    }
   },
   {
-    "id": "sls_0048",
-    "term": "Customer Lifetime Value (CLV / LTV)",
-    "definition": "The total worth to a business of a customer over the whole period of their relationship.",
-    "example": "Increasing customer retention is the most effective way to boost CLV.",
-    "difficulty": 2,
-    "tags": ["metrics", "finance"]
+    "id": "sales_0035",
+    "term": "Go-to-Market (GTM) Strategy",
+    "acronym": "GTM",
+    "definition": "An action plan that outlines how a company will reach target customers and achieve a competitive advantage for a new product or service.",
+    "example": "Our GTM strategy for the new product involves a mix of direct sales and channel partnerships.",
+    "metadata": {
+      "difficulty": 2,
+      "tags": [
+        "strategy",
+        "marketing",
+        "management"
+      ]
+    }
   },
   {
-    "id": "sls_0049",
-    "term": "Customer Segmentation",
-    "definition": "The process of dividing customers into groups based on common characteristics.",
-    "example": "Customer segmentation allows us to send personalized emails to different groups.",
-    "difficulty": 2,
-    "tags": ["analytics", "strategy"]
+    "id": "sales_0036",
+    "term": "Territory Planning",
+    "definition": "The process of dividing potential customers into segments or \"territories\" and assigning them to specific salespeople.",
+    "example": "At our annual sales kickoff, we'll review the new territory planning to ensure we have balanced coverage across all regions.",
+    "metadata": {
+      "difficulty": 2,
+      "tags": [
+        "management",
+        "strategy",
+        "operations"
+      ]
+    }
   },
   {
-    "id": "sls_0050",
-    "term": "Dark Pattern",
-    "definition": "A user interface that has been carefully crafted to trick users into doing things.",
-    "example": "Making the 'unsubscribe' link nearly invisible is an unethical dark pattern.",
-    "difficulty": 2,
-    "tags": ["ethics", "ux"]
+    "id": "sales_0037",
+    "term": "Sales Development Representative",
+    "acronym": "SDR",
+    "definition": "An inside sales role focused on generating new leads and qualifying them before handing them off to an Account Executive.",
+    "example": "Our SDR team is responsible for all outbound prospecting and setting up initial discovery calls.",
+    "metadata": {
+      "difficulty": 1,
+      "tags": [
+        "role",
+        "sales process",
+        "lead generation"
+      ]
+    }
   },
   {
-    "id": "sls_0051",
-    "term": "Dark Social",
-    "definition": "Social sharing that occurs via private channels like email or messaging apps, which is hard to track.",
-    "example": "Much of our 'direct traffic' is actually dark social sharing on WhatsApp.",
-    "difficulty": 3,
-    "tags": ["social", "analytics"]
+    "id": "sales_0038",
+    "term": "Account Executive",
+    "acronym": "AE",
+    "definition": "A sales role responsible for managing the full sales cycle for qualified leads, from initial meeting to closing the deal.",
+    "example": "Once the SDR qualifies a lead, it gets passed to an AE who will conduct the product demo and negotiate the contract.",
+    "metadata": {
+      "difficulty": 1,
+      "tags": [
+        "role",
+        "sales process",
+        "closing"
+      ]
+    }
   },
   {
-    "id": "sls_0052",
-    "term": "Decoy Effect",
-    "definition": "The phenomenon whereby consumers will tend to have a specific change in preference between two options when also presented with a third option that is asymmetrically dominated.",
-    "example": "The medium popcorn size is often a decoy to make the large size look like a better deal.",
-    "difficulty": 3,
-    "tags": ["psychology", "pricing"]
+    "id": "sales_0039",
+    "term": "Forecasting Accuracy",
+    "definition": "A measure of how close a salesperson's or team's prediction of future sales revenue is to the actual sales revenue achieved.",
+    "example": "Sales leaders are judged on their forecasting accuracy, as the business relies on those predictions for planning.",
+    "metadata": {
+      "difficulty": 2,
+      "tags": [
+        "metrics",
+        "sales management",
+        "finance"
+      ]
+    }
   },
   {
-    "id": "sls_0053",
-    "term": "Direct Mail",
-    "definition": "A marketing effort that uses a mail service to deliver a promotional printed piece to your target audience.",
-    "example": "Real estate agents still use direct mail effectively in local markets.",
-    "difficulty": 1,
-    "tags": ["traditional", "marketing"]
+    "id": "sales_0040",
+    "term": "Commission Structure",
+    "definition": "The plan that outlines how salespeople are compensated, typically including a base salary plus a variable commission based on performance.",
+    "example": "We're redesigning our commission structure to include an accelerator for reps who exceed their quarterly quota.",
+    "metadata": {
+      "difficulty": 1,
+      "tags": [
+        "compensation",
+        "management",
+        "HR"
+      ]
+    }
   },
   {
-    "id": "sls_0054",
-    "term": "Domain Authority (DA)",
-    "definition": "A search engine ranking score that predicts how likely a website is to rank on search engine result pages.",
-    "example": "We are trying to increase our Domain Authority by getting backlinks from universities.",
-    "difficulty": 3,
-    "tags": ["seo", "metrics"]
+    "id": "sales_0041",
+    "term": "Statement of Work",
+    "acronym": "SOW",
+    "definition": "A legal document that captures and defines all the specific services, deliverables, timelines, and costs for a project with a client.",
+    "example": "Before we begin the implementation, both parties need to sign the Statement of Work to agree on the project scope.",
+    "metadata": {
+      "difficulty": 2,
+      "tags": [
+        "legal",
+        "contract",
+        "project management"
+      ]
+    }
   },
   {
-    "id": "sls_0055",
-    "term": "Drip Campaign",
-    "definition": "A series of automated emails sent to people who take a specific action.",
-    "example": "New subscribers receive a welcome drip campaign over the course of two weeks.",
-    "difficulty": 2,
-    "tags": ["email", "automation"]
+    "id": "sales_0042",
+    "term": "Master Service Agreement",
+    "acronym": "MSA",
+    "definition": "A contract that establishes the general terms and conditions governing all future transactions or agreements between two parties.",
+    "example": "Once the MSA is in place, we can execute new projects with this client using a much simpler Statement of Work.",
+    "metadata": {
+      "difficulty": 3,
+      "tags": [
+        "legal",
+        "contract",
+        "negotiation"
+      ]
+    }
   },
   {
-    "id": "sls_0056",
-    "term": "Earned Media",
-    "definition": "Publicity gained through promotional efforts other than paid media advertising.",
-    "example": "A positive review in a major newspaper is valuable earned media.",
-    "difficulty": 2,
-    "tags": ["pr", "media"]
+    "id": "sales_0043",
+    "term": "Request for Proposal",
+    "acronym": "RFP",
+    "definition": "A formal business document that announces a project, describes it, and solicits bids from qualified vendors to complete it.",
+    "example": "The government agency issued an RFP for a new IT infrastructure system, and our team is working on a detailed response.",
+    "metadata": {
+      "difficulty": 2,
+      "tags": [
+        "sales process",
+        "procurement",
+        "document"
+      ]
+    }
   },
   {
-    "id": "sls_0057",
-    "term": "Editorial Calendar",
-    "definition": "A visual workflow that helps a team of content creators schedule their work on a daily, weekly, or monthly basis.",
-    "example": "We use Trello as our editorial calendar to track blog posts.",
-    "difficulty": 2,
-    "tags": ["content", "planning"]
+    "id": "sales_0044",
+    "term": "Social Selling",
+    "definition": "The practice of using social media platforms like LinkedIn to find, connect with, understand, and nurture sales prospects.",
+    "example": "Our top AEs are great at social selling; they consistently share valuable industry content to build credibility with potential buyers.",
+    "metadata": {
+      "difficulty": 1,
+      "tags": [
+        "technique",
+        "prospecting",
+        "social media"
+      ]
+    }
   },
   {
-    "id": "sls_0058",
-    "term": "Engagement Rate",
-    "definition": "A metric that measures the level of engagement that a piece of created content receives from an audience.",
-    "example": "Micro-influencers often have a higher engagement rate than celebrities.",
-    "difficulty": 2,
-    "tags": ["metrics", "social"]
+    "id": "sales_0045",
+    "term": "Channel Sales",
+    "definition": "A sales strategy where a company sells its products or services through third-party partners, such as resellers, distributors, or affiliates.",
+    "example": "Instead of hiring a large direct sales force, we're using a channel sales model to reach a broader international market.",
+    "metadata": {
+      "difficulty": 2,
+      "tags": [
+        "strategy",
+        "partnerships",
+        "GTM"
+      ]
+    }
   },
   {
-    "id": "sls_0059",
-    "term": "Evergreen Content",
-    "definition": "Content that is always relevant and stays fresh for readers over a long period of time.",
-    "example": "A guide on 'How to tie a tie' is perfect evergreen content.",
-    "difficulty": 1,
-    "tags": ["content", "strategy"]
-  },
-  {
-    "id": "sls_0060",
-    "term": "Experiential Marketing",
-    "definition": "A marketing strategy that engages consumers using branded experiences.",
-    "example": "The pop-up store offered an immersive VR experience as part of its experiential marketing.",
-    "difficulty": 2,
-    "tags": ["strategy", "event"]
-  },
-  {
-    "id": "sls_0061",
-    "term": "Focus Group",
-    "definition": "A diverse group of people assembled to participate in a guided discussion about a particular product before it is launched.",
-    "example": "The focus group feedback led us to change the product packaging.",
-    "difficulty": 2,
-    "tags": ["research", "product"]
-  },
-  {
-    "id": "sls_0062",
-    "term": "FOMO (Fear Of Missing Out)",
-    "definition": "Anxiety that an exciting or interesting event may currently be happening elsewhere, often aroused by posts seen on social media.",
-    "example": "Flash sales leverage FOMO to encourage impulse buying.",
-    "difficulty": 1,
-    "tags": ["psychology", "social"]
-  },
-  {
-    "id": "sls_0063",
-    "term": "Franchise",
-    "definition": "A type of license that a party (franchisee) acquires to allow them to have access to a business's (franchisor) proprietary knowledge, processes, and trademarks.",
-    "example": "Opening a franchise is a lower-risk way to start a business.",
-    "difficulty": 2,
-    "tags": ["business", "model"]
-  },
-  {
-    "id": "sls_0064",
-    "term": "Freemium",
-    "definition": "A pricing strategy by which a product or service is provided free of charge, but money (premium) is charged for additional features.",
-    "example": "Spotify uses a freemium model to convert free listeners into paid subscribers.",
-    "difficulty": 2,
-    "tags": ["pricing", "business"]
-  },
-  {
-    "id": "sls_0065",
-    "term": "Frequency",
-    "definition": "The average number of times a person sees your ad.",
-    "example": "We capped the frequency at 3 per week to avoid annoying the audience.",
-    "difficulty": 2,
-    "tags": ["metrics", "ads"]
-  },
-  {
-    "id": "sls_0066",
-    "term": "Friction",
-    "definition": "Anything that prevents users from accomplishing a goal or getting things done.",
-    "example": "Requiring a phone number during checkout adds unnecessary friction.",
-    "difficulty": 2,
-    "tags": ["ux", "psychology"]
-  },
-  {
-    "id": "sls_0067",
-    "term": "Funnel Drop-off",
-    "definition": "The point in the sales funnel where a potential customer leaves without converting.",
-    "example": "We noticed a huge funnel drop-off at the shipping information page.",
-    "difficulty": 2,
-    "tags": ["analytics", "funnel"]
-  },
-  {
-    "id": "sls_0068",
-    "term": "Gamification",
-    "definition": "The application of game-design elements and game principles in non-game contexts.",
-    "example": "The fitness app uses gamification like badges and leaderboards to keep users engaged.",
-    "difficulty": 2,
-    "tags": ["psychology", "engagement"]
-  },
-  {
-    "id": "sls_0069",
-    "term": "Gatekeeper",
-    "definition": "A person who controls access to something or someone.",
-    "example": "In B2B sales, the executive assistant often acts as the gatekeeper.",
-    "difficulty": 2,
-    "tags": ["sales", "b2b"]
-  },
-  {
-    "id": "sls_0070",
-    "term": "Gated Content",
-    "definition": "Online materials, such as white papers, articles, and videos, that require users to fill out a form before they can access them.",
-    "example": "We put the industry report behind a form as gated content to generate leads.",
-    "difficulty": 2,
-    "tags": ["content", "lead-gen"]
-  },
-  {
-    "id": "sls_0071",
-    "term": "Geofencing",
-    "definition": "The use of GPS or RFID technology to create a virtual geographic boundary, enabling software to trigger a response when a mobile device enters or leaves a particular area.",
-    "example": "The store used geofencing to send a discount code to anyone walking within 100 meters.",
-    "difficulty": 3,
-    "tags": ["tech", "mobile"]
-  },
-  {
-    "id": "sls_0072",
-    "term": "Go-to-Market Strategy (GTM)",
-    "definition": "An action plan that specifies how a company will reach target customers and achieve competitive advantage.",
-    "example": "Our GTM strategy for the new product involves heavy influencer marketing.",
-    "difficulty": 3,
-    "tags": ["strategy", "business"]
-  },
-  {
-    "id": "sls_0073",
-    "term": "Growth Hacking",
-    "definition": "Strategies focused solely on growth, usually used by early-stage startups.",
-    "example": "Dropbox's referral program is a classic example of growth hacking.",
-    "difficulty": 2,
-    "tags": ["startup", "strategy"]
-  },
-  {
-    "id": "sls_0074",
-    "term": "Guerrilla Marketing",
-    "definition": "An advertisement strategy in which a company uses surprise and/or unconventional interactions in order to promote a product or service.",
-    "example": "The flash mob in the central station was a great piece of guerrilla marketing.",
-    "difficulty": 2,
-    "tags": ["strategy", "creative"]
-  },
-  {
-    "id": "sls_0075",
-    "term": "Halo Effect",
-    "definition": "The tendency for positive impressions of a person, company, brand, or product in one area to positively influence one's opinion or feelings in other areas.",
-    "example": "The success of the iPod created a halo effect that boosted Mac computer sales.",
-    "difficulty": 3,
-    "tags": ["psychology", "branding"]
-  },
-  {
-    "id": "sls_0076",
-    "term": "Hashtag",
-    "definition": "A word or phrase preceded by a hash sign (#), used on social media to identify messages on a specific topic.",
-    "example": "Create a unique hashtag for your event to track social media conversations.",
-    "difficulty": 1,
-    "tags": ["social", "tech"]
-  },
-  {
-    "id": "sls_0077",
-    "term": "Heatmap",
-    "definition": "A data visualization tool that shows how users interact with a webpage using color-coded systems.",
-    "example": "The heatmap revealed that nobody was clicking the sidebar links.",
-    "difficulty": 2,
-    "tags": ["analytics", "ux"]
-  },
-  {
-    "id": "sls_0078",
-    "term": "Horizontal Market",
-    "definition": "A market in which a product or service meets the needs of a wide range of buyers across different sectors.",
-    "example": "Office furniture is sold in a horizontal market.",
-    "difficulty": 3,
-    "tags": ["strategy", "market"]
-  },
-  {
-    "id": "sls_0079",
-    "term": "Impressions",
-    "definition": "The number of times an advertisement or content is displayed, no matter if it was clicked or not.",
-    "example": "Our campaign generated one million impressions but very few clicks.",
-    "difficulty": 1,
-    "tags": ["metrics", "ads"]
-  },
-  {
-    "id": "sls_0080",
-    "term": "Impulse Buying",
-    "definition": "The buying of goods without planning to do so in advance, as a result of a sudden urge or impulse.",
-    "example": "Candy bars at the checkout are placed there to trigger impulse buying.",
-    "difficulty": 1,
-    "tags": ["behavior", "retail"]
-  },
-  {
-    "id": "sls_0081",
-    "term": "Inbound Marketing",
-    "definition": "A business methodology that attracts customers by creating valuable content and experiences tailored to them.",
-    "example": "HubSpot is the pioneer of inbound marketing.",
-    "difficulty": 2,
-    "tags": ["strategy", "methodology"]
-  },
-  {
-    "id": "sls_0082",
-    "term": "Influencer Marketing",
-    "definition": "A form of social media marketing involving endorsements and product placement from people who have a purported expert level of knowledge or social influence.",
-    "example": "We partnered with gaming influencers to promote the new console.",
-    "difficulty": 1,
-    "tags": ["social", "strategy"]
-  },
-  {
-    "id": "sls_0083",
-    "term": "Infographic",
-    "definition": "A visual representation of information or data.",
-    "example": "We created an infographic to explain the complex survey results simply.",
-    "difficulty": 1,
-    "tags": ["content", "design"]
-  },
-  {
-    "id": "sls_0084",
-    "term": "Key Performance Indicator (KPI)",
-    "definition": "A measurable value that demonstrates how effectively a company is achieving key business objectives.",
-    "example": "Website traffic is a primary KPI for the content team.",
-    "difficulty": 1,
-    "tags": ["metrics", "business"]
-  },
-  {
-    "id": "sls_0085",
-    "term": "Landing Page",
-    "definition": "A standalone web page created specifically for a marketing or advertising campaign.",
-    "example": "The ad directs users to a specific landing page, not the homepage.",
-    "difficulty": 1,
-    "tags": ["digital", "web"]
-  },
-  {
-    "id": "sls_0086",
-    "term": "Lead Generation",
-    "definition": "The initiation of consumer interest or inquiry into products or services of a business.",
-    "example": "Offering a free webinar is an effective lead generation tactic.",
-    "difficulty": 1,
-    "tags": ["sales", "strategy"]
-  },
-  {
-    "id": "sls_0087",
-    "term": "Lead Magnet",
-    "definition": "A free item or service given away for the purpose of gathering contact details.",
-    "example": "The downloadable checklist served as a lead magnet to grow our email list.",
-    "difficulty": 2,
-    "tags": ["strategy", "inbound"]
-  },
-  {
-    "id": "sls_0088",
+    "id": "sales_0046",
     "term": "Lead Nurturing",
-    "definition": "The process of developing relationships with buyers at every stage of the sales funnel and through every step of the buyer's journey.",
-    "example": "We use automated email sequences for lead nurturing until they are ready to buy.",
-    "difficulty": 2,
-    "tags": ["inbound", "sales"]
+    "definition": "The process of building relationships with potential customers at every stage of the sales funnel, even if they are not yet ready to buy.",
+    "example": "We use an automated email campaign for lead nurturing, sending helpful content to prospects until they are ready for a sales conversation.",
+    "metadata": {
+      "difficulty": 2,
+      "tags": [
+        "marketing",
+        "sales process",
+        "lead generation"
+      ]
+    }
   },
   {
-    "id": "sls_0089",
-    "term": "Lead Scoring",
-    "definition": "A methodology used to rank prospects against a scale that represents the perceived value of each lead.",
-    "example": "Leads who visit the pricing page get a higher lead scoring points.",
-    "difficulty": 3,
-    "tags": ["automation", "sales"]
+    "id": "sales_0047",
+    "term": "Sales Playbook",
+    "definition": "A document that outlines a company's sales process, best practices, scripts, and other key resources to help salespeople succeed.",
+    "example": "Every new hire on the sales team has to study the sales playbook during their first week of onboarding.",
+    "metadata": {
+      "difficulty": 1,
+      "tags": [
+        "training",
+        "operations",
+        "sales process"
+      ]
+    }
   },
   {
-    "id": "sls_0090",
-    "term": "Long-tail Keyword",
-    "definition": "A highly specific search phrase that contains three or more words.",
-    "example": "Long-tail keywords have less competition and higher conversion rates.",
-    "difficulty": 2,
-    "tags": ["seo", "digital"]
+    "id": "sales_0048",
+    "term": "Activity-Based Selling",
+    "definition": "A sales management approach that focuses on tracking and managing the actions of salespeople that are expected to lead to sales results.",
+    "example": "Our manager uses activity-based selling and wants each SDR to make at least 50 calls per day.",
+    "metadata": {
+      "difficulty": 2,
+      "tags": [
+        "management",
+        "technique",
+        "metrics"
+      ]
+    }
   },
   {
-    "id": "sls_0091",
-    "term": "Lookalike Audience",
-    "definition": "A targeting option that lets advertisers reach new people who are likely to be interested in their business because they're similar to existing customers.",
-    "example": "We created a lookalike audience on Facebook based on our email subscribers list.",
-    "difficulty": 3,
-    "tags": ["digital", "social"]
+    "id": "sales_0049",
+    "term": "Top-of-Funnel",
+    "acronym": "TOFU",
+    "definition": "The first stage of the buying process, where potential customers are identifying a problem and looking for information.",
+    "example": "Our blog posts and e-books are designed for a top-of-funnel audience to generate awareness and attract new leads.",
+    "metadata": {
+      "difficulty": 2,
+      "tags": [
+        "marketing",
+        "sales process",
+        "lead generation"
+      ]
+    }
   },
   {
-    "id": "sls_0092",
+    "id": "sales_0050",
+    "term": "Competitive Displacement",
+    "definition": "A sales strategy focused on persuading a prospect to switch from a competitor's product or service to yours.",
+    "example": "Our competitive displacement campaign highlights our superior features to win over customers from the market leader.",
+    "metadata": {
+      "difficulty": 3,
+      "tags": [
+        "strategy",
+        "competition",
+        "enterprise sales"
+      ]
+    }
+  },
+  {
+    "id": "sales_0051",
+    "term": "Sales Qualified Lead",
+    "acronym": "SQL",
+    "definition": "A potential customer that the sales team has vetted and confirmed is ready for a direct sales conversation.",
+    "example": "After our discovery call, I'm marking this prospect as an SQL and assigning it to an Account Executive to close.",
+    "metadata": {
+      "difficulty": 2,
+      "tags": [
+        "sales process",
+        "lead generation"
+      ]
+    }
+  },
+  {
+    "id": "sales_0052",
+    "term": "Marketing Qualified Lead",
+    "acronym": "MQL",
+    "definition": "A potential customer who has shown interest based on marketing efforts but is not yet ready for a sales call.",
+    "example": "We generated over 200 MQLs from the webinar, and now the SDR team will work to qualify them further.",
+    "metadata": {
+      "difficulty": 2,
+      "tags": [
+        "marketing",
+        "lead generation"
+      ]
+    }
+  },
+  {
+    "id": "sales_0053",
+    "term": "Ideal Customer Profile",
+    "acronym": "ICP",
+    "definition": "A detailed description of a fictional company that would get the most value from your product or service.",
+    "example": "Our marketing campaigns are targeted at companies that fit our Ideal Customer Profile, which are mid-sized tech firms.",
+    "metadata": {
+      "difficulty": 2,
+      "tags": [
+        "strategy",
+        "marketing"
+      ]
+    }
+  },
+  {
+    "id": "sales_0054",
+    "term": "Annual Recurring Revenue",
+    "acronym": "ARR",
+    "definition": "The predictable revenue a company can expect to receive from its subscribers on a yearly basis.",
+    "example": "Our primary goal for the next fiscal year is to increase our ARR to over $5 million.",
+    "metadata": {
+      "difficulty": 3,
+      "tags": [
+        "finance",
+        "metrics",
+        "SaaS"
+      ]
+    }
+  },
+  {
+    "id": "sales_0055",
+    "term": "Monthly Recurring Revenue",
+    "acronym": "MRR",
+    "definition": "The predictable revenue a company can expect to receive from its subscribers every month.",
+    "example": "Even though we lost a few small accounts, our MRR still grew by 5% last month due to new deals.",
+    "metadata": {
+      "difficulty": 2,
+      "tags": [
+        "finance",
+        "metrics",
+        "SaaS"
+      ]
+    }
+  },
+  {
+    "id": "sales_0056",
+    "term": "Customer Acquisition Cost",
+    "acronym": "CAC",
+    "definition": "The total cost a company spends, including marketing and sales expenses, to gain a new customer.",
+    "example": "We need to lower our Customer Acquisition Cost by optimizing our advertising spend.",
+    "metadata": {
+      "difficulty": 2,
+      "tags": [
+        "finance",
+        "metrics",
+        "marketing"
+      ]
+    }
+  },
+  {
+    "id": "sales_0057",
+    "term": "Customer Lifetime Value",
+    "acronym": "CLV",
+    "definition": "The total revenue a business can reasonably expect from a single customer account throughout their entire relationship.",
+    "example": "A high CLV justifies spending more on customer service to ensure clients remain happy and subscribed.",
+    "metadata": {
+      "difficulty": 3,
+      "tags": [
+        "finance",
+        "metrics",
+        "strategy"
+      ]
+    }
+  },
+  {
+    "id": "sales_0058",
+    "term": "Net Revenue Retention",
+    "acronym": "NRR",
+    "definition": "A metric measuring revenue from existing customers, accounting for upgrades, downgrades, and cancellations.",
+    "example": "With an NRR of 115%, we are successfully growing revenue from our current customer base through upsells.",
+    "metadata": {
+      "difficulty": 3,
+      "tags": [
+        "finance",
+        "metrics",
+        "customer success"
+      ]
+    }
+  },
+  {
+    "id": "sales_0059",
+    "term": "Lead Velocity Rate",
+    "acronym": "LVR",
+    "definition": "The growth rate of qualified leads your business generates, measured month over month.",
+    "example": "Our Lead Velocity Rate is increasing, which is a strong indicator of future sales growth.",
+    "metadata": {
+      "difficulty": 3,
+      "tags": [
+        "metrics",
+        "lead generation",
+        "forecasting"
+      ]
+    }
+  },
+  {
+    "id": "sales_0060",
+    "term": "Proof of Concept",
+    "acronym": "POC",
+    "definition": "A small-scale project or trial to demonstrate that a product is feasible and has practical potential for a client.",
+    "example": "The client agreed to a paid Proof of Concept to test our software before signing a full contract.",
+    "metadata": {
+      "difficulty": 2,
+      "tags": [
+        "sales process",
+        "project management"
+      ]
+    }
+  },
+  {
+    "id": "sales_0061",
+    "term": "Revenue Operations",
+    "acronym": "RevOps",
+    "definition": "The business function that aligns sales, marketing, and service operations to drive predictable revenue growth.",
+    "example": "Our RevOps team is responsible for managing the CRM and ensuring our sales data is accurate.",
+    "metadata": {
+      "difficulty": 3,
+      "tags": [
+        "operations",
+        "strategy",
+        "management"
+      ]
+    }
+  },
+  {
+    "id": "sales_0062",
+    "term": "Sales Development Representative",
+    "acronym": "SDR",
+    "definition": "An inside sales role focused on generating and qualifying new leads for the sales pipeline.",
+    "example": "The SDR will make the initial contact with a lead before passing it to an Account Executive for a demo.",
+    "metadata": {
+      "difficulty": 1,
+      "tags": [
+        "roles",
+        "sales process"
+      ]
+    }
+  },
+  {
+    "id": "sales_0063",
+    "term": "Account Executive",
+    "acronym": "AE",
+    "definition": "A sales role responsible for managing and closing sales deals with qualified leads.",
+    "example": "Once the lead is qualified, the Account Executive takes over to give a demo and negotiate the contract.",
+    "metadata": {
+      "difficulty": 1,
+      "tags": [
+        "roles",
+        "sales process"
+      ]
+    }
+  },
+  {
+    "id": "sales_0064",
+    "term": "Statement of Work",
+    "acronym": "SOW",
+    "definition": "A legal document that outlines the specific tasks, deliverables, timelines, and costs for a project.",
+    "example": "Please review the attached Statement of Work and let us know if you have any questions before we sign.",
+    "metadata": {
+      "difficulty": 2,
+      "tags": [
+        "legal",
+        "documents",
+        "project management"
+      ]
+    }
+  },
+  {
+    "id": "sales_0065",
+    "term": "Master Service Agreement",
+    "acronym": "MSA",
+    "definition": "A foundational contract between two parties establishing the general terms for all future transactions.",
+    "example": "Since we already have an MSA in place, we only need a simple Statement of Work for this new project.",
+    "metadata": {
+      "difficulty": 3,
+      "tags": [
+        "legal",
+        "contracts",
+        "documents"
+      ]
+    }
+  },
+  {
+    "id": "sales_0066",
+    "term": "Request for Proposal",
+    "acronym": "RFP",
+    "definition": "A formal document that a company issues to solicit bids from potential vendors for a specific project.",
+    "example": "Our team is working to submit our response to the client's Request for Proposal before the deadline.",
+    "metadata": {
+      "difficulty": 2,
+      "tags": [
+        "sales process",
+        "documents",
+        "procurement"
+      ]
+    }
+  },
+  {
+    "id": "sales_0067",
+    "term": "Top-of-Funnel",
+    "acronym": "TOFU",
+    "definition": "The initial stage of the buying process, where potential customers are just beginning to identify a problem.",
+    "example": "Our blog posts and social media content are designed for a Top-of-Funnel audience to build brand awareness.",
+    "metadata": {
+      "difficulty": 2,
+      "tags": [
+        "marketing",
+        "sales process",
+        "strategy"
+      ]
+    }
+  },
+  {
+    "id": "sales_0068",
+    "term": "Sales Qualified Lead",
+    "acronym": "SQL",
+    "definition": "A prospective customer that has been researched and vetted by the sales team and is deemed ready for the next stage in the sales process.",
+    "example": "After a successful discovery call, we've officially converted this MQL into an SQL and added it to our pipeline.",
+    "metadata": {
+      "difficulty": 1,
+      "tags": [
+        "lead generation",
+        "sales funnel",
+        "process"
+      ]
+    }
+  },
+  {
+    "id": "sales_0069",
+    "term": "Marketing Qualified Lead",
+    "acronym": "MQL",
+    "definition": "A lead who has shown interest in a company's offerings based on marketing efforts and is more likely to become a customer than other leads.",
+    "example": "Someone who downloads our whitepaper is considered an MQL and gets passed to the SDR team for follow-up.",
+    "metadata": {
+      "difficulty": 1,
+      "tags": [
+        "lead generation",
+        "sales funnel",
+        "marketing"
+      ]
+    }
+  },
+  {
+    "id": "sales_0070",
+    "term": "Ideal Customer Profile",
+    "acronym": "ICP",
+    "definition": "A detailed description of a fictional company that derives the most value from your product or service and represents your best possible customer.",
+    "example": "We're focusing our outbound efforts on companies that fit our ICP, specifically SaaS businesses with 50-200 employees.",
+    "metadata": {
+      "difficulty": 2,
+      "tags": [
+        "strategy",
+        "prospecting",
+        "marketing"
+      ]
+    }
+  },
+  {
+    "id": "sales_0071",
+    "term": "Annual Recurring Revenue",
+    "acronym": "ARR",
+    "definition": "The predictable, recurring revenue a company expects from subscriptions or contracts over a one-year period.",
+    "example": "Our company's goal is to reach $10 million in ARR by the end of the fiscal year.",
+    "metadata": {
+      "difficulty": 2,
+      "tags": [
+        "finance",
+        "metrics",
+        "SaaS"
+      ]
+    }
+  },
+  {
+    "id": "sales_0072",
+    "term": "Monthly Recurring Revenue",
+    "acronym": "MRR",
+    "definition": "The predictable, recurring revenue a company expects to receive on a monthly basis from subscriptions.",
+    "example": "With the 10 new customers we signed, our MRR increased by $5,000 this month.",
+    "metadata": {
+      "difficulty": 1,
+      "tags": [
+        "finance",
+        "metrics",
+        "SaaS"
+      ]
+    }
+  },
+  {
+    "id": "sales_0073",
+    "term": "Customer Acquisition Cost",
+    "acronym": "CAC",
+    "definition": "The total cost of sales and marketing efforts needed to acquire a new customer.",
+    "example": "We need to lower our CAC; we're currently spending $500 to acquire each new customer, which is too high.",
+    "metadata": {
+      "difficulty": 2,
+      "tags": [
+        "finance",
+        "metrics",
+        "marketing"
+      ]
+    }
+  },
+  {
+    "id": "sales_0074",
+    "term": "Customer Lifetime Value",
+    "acronym": "CLV",
+    "definition": "A projection of the total revenue a company can expect to earn from a single customer throughout their entire relationship.",
+    "example": "Our most loyal clients have a high CLV, which justifies our investment in the customer success team.",
+    "metadata": {
+      "difficulty": 2,
+      "tags": [
+        "finance",
+        "metrics",
+        "strategy"
+      ]
+    }
+  },
+  {
+    "id": "sales_0075",
+    "term": "Net Revenue Retention",
+    "acronym": "NRR",
+    "definition": "A percentage that measures how much recurring revenue from existing customers is retained over a specific period, including upgrades, downgrades, and churn.",
+    "example": "An NRR of 110% means we're successfully upselling our current customers and growing revenue even without new business.",
+    "metadata": {
+      "difficulty": 3,
+      "tags": [
+        "finance",
+        "metrics",
+        "SaaS",
+        "customer success"
+      ]
+    }
+  },
+  {
+    "id": "sales_0076",
+    "term": "Lead Velocity Rate",
+    "acronym": "LVR",
+    "definition": "A metric that measures the month-over-month growth of qualified leads, indicating the health of the sales pipeline.",
+    "example": "Our LVR is up 15% this quarter, which is a strong predictor of future revenue growth.",
+    "metadata": {
+      "difficulty": 3,
+      "tags": [
+        "metrics",
+        "lead generation",
+        "forecasting"
+      ]
+    }
+  },
+  {
+    "id": "sales_0077",
+    "term": "Proof of Concept",
+    "acronym": "POC",
+    "definition": "A small-scale trial or demonstration to show that a product or idea is feasible and can deliver real-world value to a prospective customer.",
+    "example": "The potential client was impressed with the demo, but they want a 30-day POC before signing the full contract.",
+    "metadata": {
+      "difficulty": 2,
+      "tags": [
+        "process",
+        "sales cycle",
+        "tech"
+      ]
+    }
+  },
+  {
+    "id": "sales_0078",
+    "term": "Revenue Operations",
+    "acronym": "RevOps",
+    "definition": "The strategic alignment of sales, marketing, and customer service operations to drive revenue growth and increase efficiency across the entire customer lifecycle.",
+    "example": "Our RevOps team is responsible for managing the CRM, analyzing sales data, and optimizing our go-to-market process.",
+    "metadata": {
+      "difficulty": 2,
+      "tags": [
+        "management",
+        "operations",
+        "strategy"
+      ]
+    }
+  },
+  {
+    "id": "sales_0079",
+    "term": "Sales Development Representative",
+    "acronym": "SDR",
+    "definition": "A type of inside sales rep who focuses on outbound prospecting and qualifying leads to create opportunities for Account Executives.",
+    "example": "The SDR team is responsible for cold calling and emailing new prospects to book meetings for the AEs.",
+    "metadata": {
+      "difficulty": 1,
+      "tags": [
+        "roles",
+        "lead generation",
+        "prospecting"
+      ]
+    }
+  },
+  {
+    "id": "sales_0080",
+    "term": "Account Executive",
+    "acronym": "AE",
+    "definition": "A sales role responsible for managing and closing deals with new and existing customers.",
+    "example": "Once the SDR qualifies a lead, they hand it off to an Account Executive to conduct the demo and close the sale.",
+    "metadata": {
+      "difficulty": 1,
+      "tags": [
+        "roles",
+        "closing",
+        "sales cycle"
+      ]
+    }
+  },
+  {
+    "id": "sales_0081",
+    "term": "Statement of Work",
+    "acronym": "SOW",
+    "definition": "A legal document that outlines the specific tasks, deliverables, timelines, and costs for a project or service being provided.",
+    "example": "Before we begin the implementation, both parties need to sign the Statement of Work to agree on the project scope.",
+    "metadata": {
+      "difficulty": 2,
+      "tags": [
+        "legal",
+        "documentation",
+        "process"
+      ]
+    }
+  },
+  {
+    "id": "sales_0082",
+    "term": "Master Service Agreement",
+    "acronym": "MSA",
+    "definition": "A foundational contract between two parties that establishes the general terms and conditions for all future transactions or projects.",
+    "example": "We have an MSA in place with the client, so for this new project, we only need to draft a simple Statement of Work.",
+    "metadata": {
+      "difficulty": 3,
+      "tags": [
+        "legal",
+        "documentation",
+        "contracts"
+      ]
+    }
+  },
+  {
+    "id": "sales_0083",
+    "term": "Request for Proposal",
+    "acronym": "RFP",
+    "definition": "A formal document that a company issues to potential vendors, asking them to submit a business proposal to provide a specific product or service.",
+    "example": "The government agency sent out an RFP, and we have two weeks to prepare our bid and submit it.",
+    "metadata": {
+      "difficulty": 2,
+      "tags": [
+        "process",
+        "documentation",
+        "enterprise sales"
+      ]
+    }
+  },
+  {
+    "id": "sales_0084",
+    "term": "Top-of-Funnel",
+    "acronym": "TOFU",
+    "definition": "The initial stage of the buying process, where potential customers are just beginning to identify a problem and look for information.",
+    "example": "Our TOFU strategy focuses on creating blog posts and social media content to attract a wide audience.",
+    "metadata": {
+      "difficulty": 1,
+      "tags": [
+        "sales funnel",
+        "marketing",
+        "lead generation"
+      ]
+    }
+  },
+  {
+    "id": "sales_0085",
+    "term": "Account Penetration",
+    "definition": "A strategy to increase sales within an existing customer's organization by selling more products or expanding into different departments.",
+    "example": "Our account penetration is low with this client; we're only working with their marketing team, but we should be talking to their sales department too.",
+    "metadata": {
+      "difficulty": 2,
+      "tags": [
+        "strategy",
+        "account management",
+        "upselling"
+      ]
+    }
+  },
+  {
+    "id": "sales_0086",
+    "term": "Accelerator Clause",
+    "definition": "A contract term that increases a salesperson's commission rate once they have exceeded their sales quota.",
+    "example": "My commission plan has an accelerator clause, so I'll earn 15% on every deal I close after I hit my annual target.",
+    "metadata": {
+      "difficulty": 3,
+      "tags": [
+        "compensation",
+        "contracts",
+        "finance"
+      ]
+    }
+  },
+  {
+    "id": "sales_0087",
+    "term": "Adoption Rate",
+    "definition": "The percentage of users who become regular, active users of a product or feature after an initial trial or purchase.",
+    "example": "The adoption rate for our new feature is over 80%, which shows that customers find it very valuable.",
+    "metadata": {
+      "difficulty": 2,
+      "tags": [
+        "metrics",
+        "customer success",
+        "SaaS"
+      ]
+    }
+  },
+  {
+    "id": "sales_0088",
+    "term": "Advocacy Program",
+    "definition": "A marketing initiative that encourages passionate customers to promote a brand or product through testimonials, referrals, and social media.",
+    "example": "We're launching an advocacy program to reward our best customers for referring new business to us.",
+    "metadata": {
+      "difficulty": 2,
+      "tags": [
+        "marketing",
+        "customer success",
+        "strategy"
+      ]
+    }
+  },
+  {
+    "id": "sales_0089",
+    "term": "Annual Contract Value",
+    "acronym": "ACV",
+    "definition": "The average annual revenue generated from a single customer contract, not including one-time fees.",
+    "example": "Our goal this year is to increase our average ACV by targeting larger, enterprise-level clients.",
+    "metadata": {
+      "difficulty": 2,
+      "tags": [
+        "finance",
+        "metrics",
+        "SaaS"
+      ]
+    }
+  },
+  {
+    "id": "sales_0090",
+    "term": "Assumptive Close",
+    "definition": "A closing technique where the salesperson intentionally assumes the prospect has already decided to buy.",
+    "example": "Using an assumptive close, the salesperson asked, 'So, which day next week works best for our implementation call?'",
+    "metadata": {
+      "difficulty": 2,
+      "tags": [
+        "technique",
+        "closing",
+        "psychology"
+      ]
+    }
+  },
+  {
+    "id": "sales_0091",
+    "term": "Attach Rate",
+    "definition": "A metric that measures the number of secondary products or add-ons sold in relation to a primary product.",
+    "example": "The attach rate for our premium support package is nearly 60%, significantly boosting the value of each sale.",
+    "metadata": {
+      "difficulty": 3,
+      "tags": [
+        "metrics",
+        "cross-selling",
+        "finance"
+      ]
+    }
+  },
+  {
+    "id": "sales_0092",
+    "term": "Attainment Distribution",
+    "definition": "A report or chart showing the performance of a sales team, illustrating how many reps are meeting, exceeding, or missing their sales quotas.",
+    "example": "The attainment distribution chart shows that 70% of our sales team hit their quota last quarter, which is a great result.",
+    "metadata": {
+      "difficulty": 3,
+      "tags": [
+        "management",
+        "metrics",
+        "reporting"
+      ]
+    }
+  },
+  {
+    "id": "sales_0093",
+    "term": "Authority Principle",
+    "definition": "A psychological principle stating that people are more likely to trust and follow the advice of a credible expert or authority figure.",
+    "example": "By featuring testimonials from industry leaders on our website, we use the authority principle to build trust with new prospects.",
+    "metadata": {
+      "difficulty": 3,
+      "tags": [
+        "psychology",
+        "technique",
+        "negotiation"
+      ]
+    }
+  },
+  {
+    "id": "sales_0094",
+    "term": "Best Alternative to a Negotiated Agreement",
+    "acronym": "BATNA",
+    "definition": "The most advantageous course of action a party can take if negotiations with a client fail and an agreement cannot be reached.",
+    "example": "Before the negotiation, we determined our BATNA is to walk away and focus on the other large deal in our pipeline.",
+    "metadata": {
+      "difficulty": 3,
+      "tags": [
+        "negotiation",
+        "strategy",
+        "legal"
+      ]
+    }
+  },
+  {
+    "id": "sales_0095",
+    "term": "Best Case Forecast",
+    "definition": "A sales forecast that represents the total potential revenue if every single deal in the pipeline, including long shots, closes successfully.",
+    "example": "My best case forecast for this quarter is $500,000, but my more realistic commit forecast is closer to $300,000.",
+    "metadata": {
+      "difficulty": 2,
+      "tags": [
+        "forecasting",
+        "reporting",
+        "pipeline management"
+      ]
+    }
+  },
+  {
+    "id": "sales_0096",
+    "term": "Billings",
+    "definition": "The total amount of money invoiced to customers within a specific period, which may differ from revenue due to accounting principles.",
+    "example": "Our billings were high this quarter because we signed several multi-year deals and invoiced for the entire first year upfront.",
+    "metadata": {
+      "difficulty": 3,
+      "tags": [
+        "finance",
+        "accounting",
+        "metrics"
+      ]
+    }
+  },
+  {
+    "id": "sales_0097",
+    "term": "Bluebird Deal",
+    "definition": "An unexpected sale that comes in with little to no effort from the sales team, often from a past customer or inbound request.",
+    "example": "We got a bluebird deal today; a former client's new company called and asked for a quote for 100 licenses.",
+    "metadata": {
+      "difficulty": 2,
+      "tags": [
+        "idiom",
+        "deal types",
+        "jargon"
+      ]
+    }
+  },
+  {
+    "id": "sales_0098",
+    "term": "Bookings",
+    "definition": "The total value of all contracts signed with customers during a specific period, representing a commitment to future revenue.",
+    "example": "The sales team had a record quarter, with over $2 million in bookings from new enterprise clients.",
+    "metadata": {
+      "difficulty": 2,
+      "tags": [
+        "finance",
+        "metrics",
+        "reporting"
+      ]
+    }
+  },
+  {
+    "id": "sales_0099",
+    "term": "Buyer's Remorse",
+    "definition": "A feeling of regret, anxiety, or doubt that a customer experiences after making a purchase decision.",
+    "example": "Our onboarding process is designed to show value immediately and help prevent buyer's remorse.",
+    "metadata": {
+      "difficulty": 1,
+      "tags": [
+        "psychology",
+        "customer success",
+        "post-sale"
+      ]
+    }
+  },
+  {
+    "id": "sales_0100",
+    "term": "Buying Committee",
+    "definition": "A group of individuals within a company who are collectively responsible for making a final purchase decision, often including users, technical experts, and executives.",
+    "example": "We need to get approval from the entire buying committee, which includes the heads of IT, finance, and marketing.",
+    "metadata": {
+      "difficulty": 2,
+      "tags": [
+        "enterprise sales",
+        "stakeholders",
+        "process"
+      ]
+    }
+  },
+  {
+    "id": "sales_0101",
+    "term": "Channel Conflict",
+    "definition": "A situation where a company's direct sales team competes against its own distribution partners (like resellers) for the same customer.",
+    "example": "We created clear rules of engagement to avoid channel conflict between our internal sales reps and our partners.",
+    "metadata": {
+      "difficulty": 3,
+      "tags": [
+        "channel sales",
+        "strategy",
+        "management"
+      ]
+    }
+  },
+  {
+    "id": "sales_0102",
+    "term": "Clawback Provision",
+    "definition": "A contractual clause that allows a company to take back commission money paid to a salesperson if the customer cancels their contract early or fails to pay.",
+    "example": "Our compensation plan includes a clawback provision for the first six months of any new contract.",
+    "metadata": {
+      "difficulty": 3,
+      "tags": [
+        "legal",
+        "contracts",
+        "compensation"
+      ]
+    }
+  },
+  {
+    "id": "sales_0103",
+    "term": "Co-selling",
+    "definition": "A partnership where two companies collaborate to sell their complementary products or services to the same customer.",
+    "example": "We are co-selling with our cloud provider to offer a joint solution that meets all the customer's needs.",
+    "metadata": {
+      "difficulty": 2,
+      "tags": [
+        "channel sales",
+        "partnerships",
+        "strategy"
+      ]
+    }
+  },
+  {
+    "id": "sales_0104",
+    "term": "Cognitive Dissonance",
+    "definition": "The mental discomfort experienced by a person who holds two or more contradictory beliefs, ideas, or values, often felt by a buyer after a purchase.",
+    "example": "A good salesperson helps resolve the customer's cognitive dissonance by reassuring them they made the right choice.",
+    "metadata": {
+      "difficulty": 3,
+      "tags": [
+        "psychology",
+        "customer success",
+        "post-sale"
+      ]
+    }
+  },
+  {
+    "id": "sales_0105",
+    "term": "Cohort Analysis",
+    "definition": "A behavioral analytics tool that breaks down data into groups of people with common characteristics over time, such as customers who signed up in the same month.",
+    "example": "Cohort analysis shows that customers who joined in May have a much higher retention rate than those from June.",
+    "metadata": {
+      "difficulty": 3,
+      "tags": [
+        "analytics",
+        "metrics",
+        "data"
+      ]
+    }
+  },
+  {
+    "id": "sales_0106",
+    "term": "Command of the Message",
+    "definition": "A sales messaging framework that ensures salespeople can clearly articulate the value of their solution in the context of the customer's specific problems.",
+    "example": "After the training, our team has much better command of the message and can confidently explain our competitive advantages.",
+    "metadata": {
+      "difficulty": 3,
+      "tags": [
+        "methodology",
+        "training",
+        "strategy"
+      ]
+    }
+  },
+  {
+    "id": "sales_0107",
+    "term": "Commission Draw",
+    "definition": "An advance payment against future expected commissions, often given to new salespeople to provide them with a stable income as they build their pipeline.",
+    "example": "The company offers a non-recoverable commission draw for the first three months to help new hires get started.",
+    "metadata": {
+      "difficulty": 2,
+      "tags": [
+        "compensation",
+        "finance",
+        "management"
+      ]
+    }
+  },
+  {
+    "id": "sales_0108",
+    "term": "Commit Forecast",
+    "definition": "A sales forecast representing the deals that a salesperson is highly confident (e.g., 90% or more) will close within the current period.",
+    "example": "I have ten deals in my pipeline, but my commit forecast only includes the three that are in the final contract stage.",
+    "metadata": {
+      "difficulty": 2,
+      "tags": [
+        "forecasting",
+        "reporting",
+        "pipeline management"
+      ]
+    }
+  },
+  {
+    "id": "sales_0109",
+    "term": "Conceptual Selling",
+    "definition": "A sales methodology where the salesperson uncovers the customer's underlying business needs or 'concept' and connects their solution to achieving that goal.",
+    "example": "Instead of just selling features, conceptual selling teaches us to sell the 'concept' of improved efficiency to the client.",
+    "metadata": {
+      "difficulty": 3,
+      "tags": [
+        "methodology",
+        "strategy",
+        "technique"
+      ]
+    }
+  },
+  {
+    "id": "sales_0110",
+    "term": "Configure Price Quote",
+    "acronym": "CPQ",
+    "definition": "Software that helps salespeople quickly and accurately generate quotes for complex and configurable products.",
+    "example": "Our new CPQ tool automatically calculates discounts and ensures all our proposals are accurate and professional.",
+    "metadata": {
+      "difficulty": 2,
+      "tags": [
+        "software",
+        "process",
+        "operations"
+      ]
+    }
+  },
+  {
+    "id": "sales_0111",
+    "term": "Contraction MRR",
+    "definition": "The amount of monthly recurring revenue lost from existing customers who have downgraded to a lower-priced plan.",
+    "example": "We had $5,000 in expansion MRR but $2,000 in contraction MRR, resulting in a net gain of $3,000 from our customer base.",
+    "metadata": {
+      "difficulty": 3,
+      "tags": [
+        "finance",
+        "metrics",
+        "SaaS",
+        "customer success"
+      ]
+    }
+  },
+  {
+    "id": "sales_0112",
+    "term": "Customer Health Score",
+    "definition": "A metric used to predict a customer's loyalty and potential for churn, calculated from factors like product usage, support tickets, and survey responses.",
+    "example": "This account has a low customer health score, so we need the customer success manager to reach out immediately.",
+    "metadata": {
+      "difficulty": 2,
+      "tags": [
+        "metrics",
+        "customer success",
+        "analytics"
+      ]
+    }
+  },
+  {
+    "id": "sales_0113",
+    "term": "Data Enrichment",
+    "definition": "The process of merging third-party data with an existing database of customer or lead information to make it more complete and accurate.",
+    "example": "We use a data enrichment tool to add company size and industry information to all our new leads in the CRM.",
+    "metadata": {
+      "difficulty": 2,
+      "tags": [
+        "data",
+        "operations",
+        "lead generation"
+      ]
+    }
+  },
+  {
+    "id": "sales_0114",
+    "term": "Deal Desk",
+    "definition": "A cross-functional team (often including sales, finance, and legal) that helps structure and approve complex or non-standard deals.",
+    "example": "Because the client is requesting custom pricing, we need to submit this deal to the deal desk for approval.",
+    "metadata": {
+      "difficulty": 2,
+      "tags": [
+        "operations",
+        "process",
+        "enterprise sales"
+      ]
+    }
+  },
+  {
+    "id": "sales_0115",
+    "term": "Deal Inspection",
+    "definition": "A formal meeting where a sales manager and a salesperson review the status of a specific deal in the pipeline to strategize and ensure it is progressing.",
+    "example": "In our weekly deal inspection, we reviewed the stalled enterprise account and came up with a new plan to engage the CFO.",
+    "metadata": {
+      "difficulty": 2,
+      "tags": [
+        "management",
+        "pipeline management",
+        "process"
+      ]
+    }
+  },
+  {
+    "id": "sales_0116",
+    "term": "Deal Registration",
+    "definition": "A process where a channel partner (like a reseller) informs a vendor about a lead they are working on to gain exclusivity and avoid conflict.",
+    "example": "Our partner submitted a deal registration for the ABC Corp account, so now our direct sales team cannot pursue them.",
+    "metadata": {
+      "difficulty": 3,
+      "tags": [
+        "channel sales",
+        "partnerships",
+        "process"
+      ]
+    }
+  },
+  {
+    "id": "sales_0117",
+    "term": "Deal Slippage",
+    "definition": "When a deal that was forecasted to close in the current period (like this month or quarter) gets pushed to a future period.",
+    "example": "We had some deal slippage last quarter because two big contracts were delayed and will now close in Q3.",
+    "metadata": {
+      "difficulty": 2,
+      "tags": [
+        "forecasting",
+        "pipeline management",
+        "jargon"
+      ]
+    }
+  },
+  {
+    "id": "sales_0118",
+    "term": "Decelerator Clause",
+    "definition": "A contractual provision in a sales commission plan that reduces the commission rate for sales reps who fail to meet a certain performance threshold.",
+    "example": "Our new compensation plan includes a decelerator clause; if you hit less than 50% of your quota, your commission rate drops from 10% to 7%.",
+    "metadata": {
+      "difficulty": 3,
+      "tags": [
+        "compensation",
+        "legal",
+        "contracts"
+      ]
+    }
+  },
+  {
+    "id": "sales_0119",
+    "term": "Decision Fatigue",
+    "definition": "The psychological concept that a person's ability to make good decisions deteriorates after a long session of decision-making.",
+    "example": "After reviewing ten different software options, the client was experiencing decision fatigue and couldn't commit to a purchase.",
+    "metadata": {
+      "difficulty": 2,
+      "tags": [
+        "psychology",
+        "negotiation",
+        "strategy"
+      ]
+    }
+  },
+  {
+    "id": "sales_0120",
+    "term": "Downgrade",
+    "definition": "When a customer chooses to switch to a less expensive version of a product or service, resulting in a reduction of their contract value.",
+    "example": "We saw a few customers downgrade their plans to the basic tier during the economic downturn to save costs.",
+    "metadata": {
+      "difficulty": 1,
+      "tags": [
+        "customer success",
+        "revenue",
+        "account management"
+      ]
+    }
+  },
+  {
+    "id": "sales_0121",
+    "term": "Executive Business Review",
+    "acronym": "EBR",
+    "definition": "A strategic meeting between a vendor and a client's executive team to review the value delivered, discuss goals, and align on future strategy.",
+    "example": "For the upcoming EBR, we need to prepare a presentation that clearly shows the ROI our client has achieved with our platform.",
+    "metadata": {
+      "difficulty": 2,
+      "tags": [
+        "account management",
+        "strategy",
+        "customer success"
+      ]
+    }
+  },
+  {
+    "id": "sales_0122",
+    "term": "Executive Sponsorship",
+    "definition": "The active support and commitment from a senior executive within a client's organization for a specific project or purchase.",
+    "example": "We won't close this million-dollar deal without strong executive sponsorship from their CFO.",
+    "metadata": {
+      "difficulty": 2,
+      "tags": [
+        "strategy",
+        "enterprise sales",
+        "management"
+      ]
+    }
+  },
+  {
+    "id": "sales_0123",
+    "term": "Expansion Revenue",
+    "definition": "Revenue generated from existing customers beyond their initial purchase, such as through upsells, cross-sells, or add-ons.",
+    "example": "Our customer success team is focused on driving expansion revenue by identifying opportunities to sell more services to our current client base.",
+    "metadata": {
+      "difficulty": 2,
+      "tags": [
+        "finance",
+        "revenue",
+        "SaaS",
+        "customer success"
+      ]
+    }
+  },
+  {
+    "id": "sales_0124",
+    "term": "GAP Selling",
+    "definition": "A sales methodology focused on identifying the 'gap' between a prospect's current state and their desired future state, then positioning the product as the solution.",
+    "example": "By using GAP Selling, the rep helped the client realize their current process was costing them $50,000 a month, creating a strong business case for our solution.",
+    "metadata": {
+      "difficulty": 3,
+      "tags": [
+        "methodology",
+        "strategy",
+        "consultative selling"
+      ]
+    }
+  },
+  {
+    "id": "sales_0125",
+    "term": "Give-to-Get Negotiation",
+    "definition": "A negotiation tactic where you offer a concession to the other party in exchange for receiving a concession of equal or greater value from them.",
+    "example": "During the give-to-get negotiation, I offered them a 5% discount in exchange for a two-year contract instead of one.",
+    "metadata": {
+      "difficulty": 2,
+      "tags": [
+        "negotiation",
+        "strategy",
+        "tactics"
+      ]
+    }
+  },
+  {
+    "id": "sales_0126",
+    "term": "Gross Revenue Retention",
+    "acronym": "GRR",
+    "definition": "A metric that measures the percentage of recurring revenue retained from existing customers over a specific period, excluding any expansion revenue.",
+    "example": "Our GRR is 95%, which means we only lost 5% of our revenue from existing customers due to churn or downgrades last year.",
+    "metadata": {
+      "difficulty": 3,
+      "tags": [
+        "finance",
+        "metrics",
+        "SaaS",
+        "customer success"
+      ]
+    }
+  },
+  {
+    "id": "sales_0127",
+    "term": "Indemnification Clause",
+    "definition": "A contract provision where one party agrees to compensate the other for any harm, loss, or liability arising from the contract.",
+    "example": "Our legal team always insists on a strong indemnification clause to protect us from potential lawsuits.",
+    "metadata": {
+      "difficulty": 3,
+      "tags": [
+        "legal",
+        "contracts",
+        "negotiation"
+      ]
+    }
+  },
+  {
+    "id": "sales_0128",
+    "term": "Key Account Management",
+    "acronym": "KAM",
+    "definition": "The process of building and maintaining long-term relationships with a company's most valuable customers to maximize mutual value.",
+    "example": "Our Key Account Management strategy involves assigning a dedicated manager to each of our top 10 clients.",
+    "metadata": {
+      "difficulty": 2,
+      "tags": [
+        "account management",
+        "strategy",
+        "enterprise sales"
+      ]
+    }
+  },
+  {
+    "id": "sales_0129",
+    "term": "Lead Routing",
+    "definition": "The automated process of assigning incoming leads to the appropriate sales representatives based on predefined criteria like territory, company size, or industry.",
+    "example": "Our CRM's lead routing rules automatically send all leads from the healthcare industry to Sarah's team.",
+    "metadata": {
+      "difficulty": 2,
+      "tags": [
+        "sales operations",
+        "CRM",
+        "automation"
+      ]
+    }
+  },
+  {
+    "id": "sales_0130",
+    "term": "Lead Scoring Model",
+    "definition": "A system used to rank leads by assigning points for various attributes and behaviors to determine their sales-readiness.",
+    "example": "According to our lead scoring model, anyone who requests a demo and works at a Fortune 500 company is considered a 'hot' lead.",
+    "metadata": {
+      "difficulty": 2,
+      "tags": [
+        "marketing",
+        "sales operations",
+        "CRM",
+        "analytics"
+      ]
+    }
+  },
+  {
+    "id": "sales_0131",
+    "term": "Lead-to-Opportunity Conversion Rate",
+    "definition": "A metric that measures the percentage of leads that are qualified by the sales team and converted into active sales opportunities.",
+    "example": "Our lead-to-opportunity conversion rate increased to 15% this quarter, indicating better lead quality from marketing.",
+    "metadata": {
+      "difficulty": 2,
+      "tags": [
+        "metrics",
+        "analytics",
+        "sales operations"
+      ]
+    }
+  },
+  {
+    "id": "sales_0132",
+    "term": "Limitation of Liability",
+    "acronym": "LoL",
+    "definition": "A contractual clause that caps the amount of damages one party can recover from the other in the event of a breach of contract.",
+    "example": "The contract's limitation of liability clause states that their maximum claim cannot exceed the total fees paid in the last 12 months.",
+    "metadata": {
+      "difficulty": 3,
+      "tags": [
+        "legal",
+        "contracts",
+        "negotiation"
+      ]
+    }
+  },
+  {
+    "id": "sales_0133",
+    "term": "Logo Churn",
+    "definition": "A metric that measures the rate at which customers cancel their subscriptions or stop doing business with a company, counted by the number of customer accounts.",
+    "example": "Even though our revenue is stable, our logo churn is high, which means we are losing small customers and replacing them with larger ones.",
+    "metadata": {
+      "difficulty": 2,
+      "tags": [
+        "metrics",
+        "SaaS",
+        "customer success"
+      ]
+    }
+  },
+  {
+    "id": "sales_0134",
     "term": "Loss Aversion",
-    "definition": "The tendency to prefer avoiding losses to acquiring equivalent gains.",
-    "example": "Marketing messages like 'Don't lose your spot' trigger loss aversion.",
-    "difficulty": 3,
-    "tags": ["psychology", "behavior"]
+    "definition": "A psychological principle stating that people feel the pain of a loss more strongly than the pleasure of an equivalent gain.",
+    "example": "The salesperson leveraged loss aversion by highlighting the competitive disadvantages the company would face if they didn't adopt the new technology.",
+    "metadata": {
+      "difficulty": 3,
+      "tags": [
+        "psychology",
+        "negotiation",
+        "strategy"
+      ]
+    }
   },
   {
-    "id": "sls_0093",
-    "term": "Loss Leader",
-    "definition": "A product sold at a loss to attract customers.",
-    "example": "The grocery store sells milk as a loss leader to get shoppers in the door.",
-    "difficulty": 2,
-    "tags": ["retail", "pricing"]
+    "id": "sales_0135",
+    "term": "Magic Number",
+    "definition": "A SaaS metric used to measure sales and marketing efficiency by calculating how much new recurring revenue is generated for every dollar spent.",
+    "example": "A magic number above 0.75 indicates that our sales and marketing investments are generating revenue efficiently.",
+    "metadata": {
+      "difficulty": 3,
+      "tags": [
+        "finance",
+        "metrics",
+        "SaaS",
+        "analytics"
+      ]
+    }
   },
   {
-    "id": "sls_0094",
-    "term": "Market Segmentation",
-    "definition": "The process of dividing a target market into smaller, more defined categories.",
-    "example": "Market segmentation helps us tailor our messaging to different age groups.",
-    "difficulty": 1,
-    "tags": ["strategy", "market"]
+    "id": "sales_0136",
+    "term": "Market Development Funds",
+    "acronym": "MDF",
+    "definition": "Money provided by a manufacturer to its channel partners, like distributors or resellers, to help them with marketing and sales activities.",
+    "example": "We allocated our market development funds to our top reseller to help them run a local advertising campaign.",
+    "metadata": {
+      "difficulty": 2,
+      "tags": [
+        "channel sales",
+        "marketing",
+        "finance",
+        "partnerships"
+      ]
+    }
   },
   {
-    "id": "sls_0095",
-    "term": "Market Share",
-    "definition": "The percent of total sales in an industry generated by a particular company.",
-    "example": "Our goal is to capture 15% market share by the end of the year.",
-    "difficulty": 2,
-    "tags": ["metrics", "business"]
+    "id": "sales_0137",
+    "term": "Multi-threading",
+    "definition": "The sales practice of establishing relationships with multiple stakeholders within a prospect's organization to reduce risk and improve the chances of closing a deal.",
+    "example": "The deal is risky because we're single-threaded; we need to start multi-threading and build a relationship with the Head of Engineering.",
+    "metadata": {
+      "difficulty": 2,
+      "tags": [
+        "strategy",
+        "enterprise sales",
+        "tactics"
+      ]
+    }
   },
   {
-    "id": "sls_0096",
-    "term": "Marketing Automation",
-    "definition": "Software platforms and technologies designed for marketing departments and organizations to more effectively market on multiple channels online.",
-    "example": "Marketing automation tools help us send birthday emails to thousands of customers.",
-    "difficulty": 2,
-    "tags": ["tech", "tools"]
+    "id": "sales_0138",
+    "term": "Mutual Action Plan",
+    "acronym": "MAP",
+    "definition": "A collaborative document shared between a salesperson and a prospect that outlines the steps and timeline required for both parties to complete a purchase.",
+    "example": "We created a mutual action plan with the client to ensure we stay on track for a contract signature by the end of the month.",
+    "metadata": {
+      "difficulty": 2,
+      "tags": [
+        "strategy",
+        "process",
+        "enterprise sales"
+      ]
+    }
   },
   {
-    "id": "sls_0097",
-    "term": "Marketing Mix (4Ps)",
-    "definition": "A foundation model for businesses, historically centered around Product, Price, Place, and Promotion.",
-    "example": "We revisited our marketing mix to better compete in the digital age.",
-    "difficulty": 1,
-    "tags": ["strategy", "theory"]
+    "id": "sales_0139",
+    "term": "NEAT Selling",
+    "definition": "A sales qualification framework that focuses on understanding the prospect's core Needs, Economic impact, Access to authority, and Timeline.",
+    "example": "Using the NEAT Selling framework helped me understand the true economic impact of the problem, which strengthened my business case.",
+    "metadata": {
+      "difficulty": 3,
+      "tags": [
+        "methodology",
+        "strategy",
+        "qualification"
+      ]
+    }
   },
   {
-    "id": "sls_0098",
-    "term": "Meme Marketing",
-    "definition": "Using internet memes to market a product or service.",
-    "example": "Wendy's Twitter account is a famous example of meme marketing.",
-    "difficulty": 1,
-    "tags": ["social", "content"]
+    "id": "sales_0140",
+    "term": "On-Target Earnings",
+    "acronym": "OTE",
+    "definition": "The total potential compensation a salesperson can earn if they achieve 100% of their sales quota, consisting of base salary plus variable commission.",
+    "example": "The account executive position has an OTE of $150,000, with a 50/50 split between base salary and commission.",
+    "metadata": {
+      "difficulty": 2,
+      "tags": [
+        "compensation",
+        "finance",
+        "recruiting"
+      ]
+    }
   },
   {
-    "id": "sls_0099",
-    "term": "Merchandising",
-    "definition": "The activity of promoting the sale of goods, especially by their presentation in retail outlets.",
-    "example": "Good merchandising can increase sales by making products visually appealing.",
-    "difficulty": 2,
-    "tags": ["retail", "sales"]
+    "id": "sales_0141",
+    "term": "Onboarding Process",
+    "definition": "The structured process of helping new customers get acquainted with a product or service to ensure their long-term success.",
+    "example": "A smooth customer onboarding process is crucial for reducing churn and increasing user adoption.",
+    "metadata": {
+      "difficulty": 1,
+      "tags": [
+        "customer success",
+        "process",
+        "management"
+      ]
+    }
   },
   {
-    "id": "sls_0100",
-    "term": "Meta Description",
-    "definition": "A snippet of up to about 155 characters – a tag in HTML – which summarizes a page's content.",
-    "example": "A compelling meta description can improve the click-through rate from Google.",
-    "difficulty": 2,
-    "tags": ["seo", "tech"]
+    "id": "sales_0142",
+    "term": "Opportunity-to-Win Conversion Rate",
+    "definition": "A sales metric that calculates the percentage of qualified opportunities that result in a closed-won deal, also known as the win rate.",
+    "example": "Our team's opportunity-to-win conversion rate is 25%, meaning we win one out of every four deals in our pipeline.",
+    "metadata": {
+      "difficulty": 2,
+      "tags": [
+        "metrics",
+        "analytics",
+        "sales operations"
+      ]
+    }
   },
   {
-    "id": "sls_0101",
-    "term": "Micro-moment",
-    "definition": "An intent-rich moment when a person turns to a device to act on a need – to know, go, do, or buy.",
-    "example": "Searching for 'pizza near me' is a classic micro-moment.",
-    "difficulty": 3,
-    "tags": ["mobile", "behavior"]
+    "id": "sales_0143",
+    "term": "Order Form",
+    "definition": "A document that a customer fills out to officially place an order for products or services, specifying quantities, prices, and terms.",
+    "example": "Once the client signs the order form, the deal is officially closed and we can begin the implementation.",
+    "metadata": {
+      "difficulty": 1,
+      "tags": [
+        "documents",
+        "process",
+        "legal"
+      ]
+    }
   },
   {
-    "id": "sls_0102",
-    "term": "Monthly Recurring Revenue (MRR)",
-    "definition": "Income that a business can reliably anticipate every 30 days.",
-    "example": "SaaS companies focus on MRR as a key health metric.",
-    "difficulty": 2,
-    "tags": ["metrics", "finance"]
+    "id": "sales_0144",
+    "term": "Partner Relationship Management",
+    "acronym": "PRM",
+    "definition": "The strategy and software used to streamline and manage business processes between a company and its channel partners.",
+    "example": "We use a PRM system to provide our resellers with marketing materials and track their lead generation efforts.",
+    "metadata": {
+      "difficulty": 3,
+      "tags": [
+        "channel sales",
+        "partnerships",
+        "software",
+        "strategy"
+      ]
+    }
   },
   {
-    "id": "sls_0103",
-    "term": "Mystery Shopper",
-    "definition": "A person employed to visit a shop or restaurant incognito in order to assess the quality of the goods or services.",
-    "example": "The mystery shopper gave the store a low score on cleanliness.",
-    "difficulty": 2,
-    "tags": ["research", "retail"]
+    "id": "sales_0145",
+    "term": "Pay Mix",
+    "definition": "The ratio of a salesperson's fixed base salary to their variable, performance-based commission.",
+    "example": "A 60/40 pay mix means that 60% of the salesperson's on-target earnings comes from their base salary and 40% from commission.",
+    "metadata": {
+      "difficulty": 2,
+      "tags": [
+        "compensation",
+        "finance",
+        "management"
+      ]
+    }
   },
   {
-    "id": "sls_0104",
-    "term": "Native Advertising",
-    "definition": "Paid advertising where the ad matches the form, feel, and function of the media format in which it appears.",
-    "example": "Sponsored articles in a news feed are a common form of native advertising.",
-    "difficulty": 2,
-    "tags": ["ads", "content"]
+    "id": "sales_0146",
+    "term": "Payback Period",
+    "definition": "The length of time it takes for a customer to generate enough revenue to cover the cost of acquiring them.",
+    "example": "With our current pricing, the customer payback period is about 18 months, which is a bit long for our industry.",
+    "metadata": {
+      "difficulty": 3,
+      "tags": [
+        "finance",
+        "metrics",
+        "SaaS",
+        "analytics"
+      ]
+    }
   },
   {
-    "id": "sls_0105",
-    "term": "Net Promoter Score (NPS)",
-    "definition": "A metric used to measure customer loyalty and satisfaction, asking how likely they are to recommend the brand.",
-    "example": "An NPS score above 50 is considered excellent.",
-    "difficulty": 2,
-    "tags": ["metrics", "cx"]
+    "id": "sales_0147",
+    "term": "Pipeline Coverage Ratio",
+    "definition": "A metric that compares the total value of all open opportunities in a sales pipeline to the salesperson's quota for a given period.",
+    "example": "Our manager wants every rep to maintain a pipeline coverage ratio of at least 3x, meaning they have three dollars in the pipeline for every dollar of quota.",
+    "metadata": {
+      "difficulty": 2,
+      "tags": [
+        "metrics",
+        "pipeline management",
+        "forecasting"
+      ]
+    }
   },
   {
-    "id": "sls_0106",
-    "term": "Neuromarketing",
-    "definition": "The application of neuroscience to marketing.",
-    "example": "Neuromarketing research showed that red packaging triggers excitement.",
-    "difficulty": 3,
-    "tags": ["science", "research"]
+    "id": "sales_0148",
+    "term": "Pipeline Generation",
+    "definition": "The process of creating new, qualified sales opportunities to fill the sales pipeline through prospecting and marketing.",
+    "example": "Our main focus for this quarter is pipeline generation, so the sales team will be making a lot of cold calls.",
+    "metadata": {
+      "difficulty": 1,
+      "tags": [
+        "prospecting",
+        "marketing",
+        "pipeline management"
+      ]
+    }
   },
   {
-    "id": "sls_0107",
-    "term": "Newsjacking",
-    "definition": "The practice of aligning a brand with a current event or news story in an attempt to generate media attention.",
-    "example": "Oreo's tweet during the Super Bowl blackout is a textbook example of newsjacking.",
-    "difficulty": 3,
-    "tags": ["pr", "content"]
+    "id": "sales_0149",
+    "term": "Pipeline Hygiene",
+    "definition": "The practice of regularly reviewing and updating a sales pipeline to ensure all data is accurate and provides a realistic sales forecast.",
+    "example": "The sales manager emphasized the importance of good pipeline hygiene, asking everyone to remove stalled deals and update close dates.",
+    "metadata": {
+      "difficulty": 2,
+      "tags": [
+        "pipeline management",
+        "sales operations",
+        "forecasting"
+      ]
+    }
   },
   {
-    "id": "sls_0108",
-    "term": "Niche Market",
-    "definition": "A small, specialized market for a particular product or service.",
-    "example": "Selling left-handed guitars is a profitable niche market.",
-    "difficulty": 1,
-    "tags": ["strategy", "market"]
+    "id": "sales_0150",
+    "term": "Proof of Value",
+    "acronym": "POV",
+    "definition": "A demonstration where a prospect uses a product to see and measure its business value before making a purchase.",
+    "example": "We agreed to a 30-day proof of value, where the client will track cost savings to justify the purchase.",
+    "metadata": {
+      "difficulty": 2,
+      "tags": [
+        "process",
+        "strategy",
+        "enterprise sales"
+      ]
+    }
   },
   {
-    "id": "sls_0109",
-    "term": "Organic Reach",
-    "definition": "The number of people who see your content without paid distribution.",
-    "example": "Facebook's algorithm changes have drastically reduced organic reach for pages.",
-    "difficulty": 2,
-    "tags": ["social", "metrics"]
+    "id": "sales_0151",
+    "term": "Quarterly Business Review",
+    "acronym": "QBR",
+    "definition": "A recurring meeting between a vendor and a customer to review performance, discuss achievements, and align on goals for the next quarter.",
+    "example": "In our QBR with the client, we demonstrated how our software helped them increase productivity by 15% last quarter.",
+    "metadata": {
+      "difficulty": 2,
+      "tags": [
+        "account management",
+        "customer success",
+        "strategy"
+      ]
+    }
   },
   {
-    "id": "sls_0110",
-    "term": "Outbound Marketing",
-    "definition": "A traditional method of marketing seeking to push messaging out to potential customers.",
-    "example": "Billboards and TV commercials are forms of outbound marketing.",
-    "difficulty": 2,
-    "tags": ["strategy", "methodology"]
+    "id": "sales_0152",
+    "term": "Quota Capacity",
+    "definition": "The total sales quota that a sales team could theoretically achieve if all sales reps were fully ramped and performing at 100% of their quotas.",
+    "example": "When hiring new reps, we need to consider our quota capacity to ensure our company-level revenue targets are achievable.",
+    "metadata": {
+      "difficulty": 3,
+      "tags": [
+        "management",
+        "forecasting",
+        "sales operations"
+      ]
+    }
   },
   {
-    "id": "sls_0111",
-    "term": "Paid Media",
-    "definition": "Marketing that you pay for.",
-    "example": "Google Ads and Facebook Ads are channels for paid media.",
-    "difficulty": 1,
-    "tags": ["ads", "media"]
+    "id": "sales_0153",
+    "term": "Reciprocity Principle",
+    "definition": "A social psychology principle where people feel obligated to give back after they have received something first.",
+    "example": "By providing a free industry report, the salesperson was using the reciprocity principle to encourage the prospect to agree to a meeting.",
+    "metadata": {
+      "difficulty": 2,
+      "tags": [
+        "psychology",
+        "negotiation",
+        "prospecting"
+      ]
+    }
   },
   {
-    "id": "sls_0112",
-    "term": "Pain Point",
-    "definition": "A specific problem that prospective customers of your business are experiencing.",
-    "example": "Our marketing copy addresses the customer's main pain point: lack of time.",
-    "difficulty": 1,
-    "tags": ["sales", "product"]
+    "id": "sales_0154",
+    "term": "Redlining",
+    "definition": "In a sales context, the process of editing and marking up a contract or legal document to show proposed changes during negotiations.",
+    "example": "The client's legal team is redlining the agreement now; we should get their proposed changes back by tomorrow.",
+    "metadata": {
+      "difficulty": 2,
+      "tags": [
+        "legal",
+        "contracts",
+        "negotiation"
+      ]
+    }
   },
   {
-    "id": "sls_0113",
-    "term": "Pay-Per-Click (PPC)",
-    "definition": "An advertising model where advertisers pay a fee each time their ad is clicked.",
-    "example": "PPC can generate immediate traffic, unlike SEO which takes time.",
-    "difficulty": 2,
-    "tags": ["digital", "ads"]
+    "id": "sales_0155",
+    "term": "Referral Partner Agreement",
+    "definition": "A formal contract that outlines the terms under which a partner will refer potential customers to a company in exchange for a commission.",
+    "example": "We signed a referral partner agreement with a consulting firm that works with our ideal customers.",
+    "metadata": {
+      "difficulty": 2,
+      "tags": [
+        "legal",
+        "contracts",
+        "partnerships",
+        "channel sales"
+      ]
+    }
   },
   {
-    "id": "sls_0114",
-    "term": "Planogram",
-    "definition": "A diagram that indicates the placement of retail products on shelves in order to maximize sales.",
-    "example": "The store manager followed the planogram to reset the shampoo aisle.",
-    "difficulty": 3,
-    "tags": ["retail", "ops"]
+    "id": "sales_0156",
+    "term": "Renewal Rate",
+    "definition": "The percentage of customers who renew their subscriptions or contracts at the end of a term.",
+    "example": "Our high renewal rate of 92% shows that our customers are satisfied and find continuous value in our service.",
+    "metadata": {
+      "difficulty": 1,
+      "tags": [
+        "metrics",
+        "SaaS",
+        "customer success",
+        "account management"
+      ]
+    }
   },
   {
-    "id": "sls_0115",
-    "term": "Point of Sale (POS)",
-    "definition": "The time and place where a retail transaction is completed.",
-    "example": "We placed small, low-cost items at the point of sale to encourage impulse buys.",
-    "difficulty": 1,
-    "tags": ["retail", "sales"]
+    "id": "sales_0157",
+    "term": "Revenue Intelligence",
+    "acronym": "RI",
+    "definition": "Software that uses artificial intelligence to capture and analyze customer interaction data to provide sales teams with insights and forecasts.",
+    "example": "Our new revenue intelligence platform records all sales calls and automatically identifies key topics and action items.",
+    "metadata": {
+      "difficulty": 3,
+      "tags": [
+        "software",
+        "AI",
+        "analytics",
+        "sales operations"
+      ]
+    }
   },
   {
-    "id": "sls_0116",
-    "term": "Positioning",
-    "definition": "The place a brand occupies in the minds of the customers and how it is distinguished from the products of the competitors.",
-    "example": "Volvo's positioning has always been centered around safety.",
-    "difficulty": 2,
-    "tags": ["branding", "strategy"]
+    "id": "sales_0158",
+    "term": "Right of First Refusal",
+    "acronym": "ROFR",
+    "definition": "A contractual right that gives a party the opportunity to enter into a business transaction with another party before anyone else can.",
+    "example": "Our partnership agreement includes a right of first refusal, so they must offer us the new distribution deal before they approach our competitors.",
+    "metadata": {
+      "difficulty": 3,
+      "tags": [
+        "legal",
+        "contracts",
+        "negotiation",
+        "partnerships"
+      ]
+    }
   },
   {
-    "id": "sls_0117",
-    "term": "Price Sensitivity",
-    "definition": "The degree to which the price of a product affects consumers' purchasing behaviors.",
-    "example": "Students generally have high price sensitivity.",
-    "difficulty": 2,
-    "tags": ["economics", "pricing"]
+    "id": "sales_0159",
+    "term": "Rules of Engagement",
+    "acronym": "ROE",
+    "definition": "A formal set of guidelines that define how different sales teams or channels should interact with prospects to avoid conflicts.",
+    "example": "The rules of engagement clearly state that the enterprise team cannot pursue any leads with fewer than 500 employees.",
+    "metadata": {
+      "difficulty": 2,
+      "tags": [
+        "management",
+        "sales operations",
+        "process"
+      ]
+    }
   },
   {
-    "id": "sls_0118",
-    "term": "Priming",
-    "definition": "A phenomenon whereby exposure to one stimulus influences a response to a subsequent stimulus, without conscious guidance or intention.",
-    "example": "Playing French music in a wine store is a way of priming customers to buy French wine.",
-    "difficulty": 3,
-    "tags": ["psychology", "neuro"]
+    "id": "sales_0160",
+    "term": "Sales Acceleration Technology",
+    "definition": "Software and tools designed to speed up the sales process by automating administrative tasks and improving communication.",
+    "example": "Our sales acceleration technology includes an auto-dialer, which helps our reps contact more leads each day.",
+    "metadata": {
+      "difficulty": 2,
+      "tags": [
+        "software",
+        "technology",
+        "sales operations"
+      ]
+    }
   },
   {
-    "id": "sls_0119",
-    "term": "Private Label",
-    "definition": "A product that is manufactured by one company but sold under another company's brand.",
-    "example": "Amazon Basics is a massive private label brand.",
-    "difficulty": 2,
-    "tags": ["product", "retail"]
+    "id": "sales_0161",
+    "term": "Sales Efficiency Ratio",
+    "definition": "A metric that measures how efficiently a company is generating new revenue from its investment in sales and marketing.",
+    "example": "Investors closely watch our sales efficiency ratio to see if our growth is sustainable and profitable.",
+    "metadata": {
+      "difficulty": 3,
+      "tags": [
+        "finance",
+        "metrics",
+        "SaaS",
+        "analytics"
+      ]
+    }
   },
   {
-    "id": "sls_0120",
-    "term": "Product Life Cycle",
-    "definition": "The cycle through which every product goes from introduction to withdrawal or eventual demise.",
-    "example": "DVD players are currently in the decline stage of the product life cycle.",
-    "difficulty": 2,
-    "tags": ["theory", "product"]
+    "id": "sales_0162",
+    "term": "Sales Floor",
+    "definition": "The physical area in an office where the sales team works, often characterized by a high-energy and collaborative environment.",
+    "example": "You can always hear the bell ringing on the sales floor whenever someone closes a big deal.",
+    "metadata": {
+      "difficulty": 1,
+      "tags": [
+        "culture",
+        "office",
+        "idiom"
+      ]
+    }
   },
   {
-    "id": "sls_0121",
-    "term": "Product-Market Fit",
-    "definition": "Being in a good market with a product that can satisfy that market.",
-    "example": "Startups should prioritize finding product-market fit before scaling.",
-    "difficulty": 2,
-    "tags": ["strategy", "product"]
+    "id": "sales_0163",
+    "term": "Sales Gamification",
+    "definition": "The application of game-like elements, such as leaderboards and competitions, to sales activities to motivate reps and drive performance.",
+    "example": "Our sales gamification platform shows a live leaderboard of who has made the most calls, which sparks friendly competition.",
+    "metadata": {
+      "difficulty": 2,
+      "tags": [
+        "management",
+        "motivation",
+        "technology",
+        "culture"
+      ]
+    }
   },
   {
-    "id": "sls_0122",
-    "term": "Psychographics",
-    "definition": "The study and classification of people according to their attitudes, aspirations, and other psychological criteria.",
-    "example": "Our marketing targets the psychographics of 'adventure seekers' rather than just age or gender.",
-    "difficulty": 2,
-    "tags": ["research", "segmentation"]
+    "id": "sales_0164",
+    "term": "Sales Performance Incentive Fund",
+    "acronym": "SPIF",
+    "definition": "A short-term incentive program designed to motivate sales reps to achieve a particular goal, often rewarded with cash or prizes.",
+    "example": "This month, there's a $500 SPIF for the first person to sell our new product bundle.",
+    "metadata": {
+      "difficulty": 2,
+      "tags": [
+        "compensation",
+        "motivation",
+        "management"
+      ]
+    }
   },
   {
-    "id": "sls_0123",
-    "term": "Public Relations (PR)",
-    "definition": "The practice of managing the spread of information between an individual or an organization and the public.",
-    "example": "The PR team worked hard to mitigate the fallout from the scandal.",
-    "difficulty": 1,
-    "tags": ["pr", "comms"]
+    "id": "sales_0165",
+    "term": "Sales Performance Management",
+    "acronym": "SPM",
+    "definition": "The process and tools used to monitor, manage, and improve the performance of a sales organization, covering compensation, territory planning, and coaching.",
+    "example": "We are implementing a new Sales Performance Management system to get better visibility into our team's results.",
+    "metadata": {
+      "difficulty": 3,
+      "tags": [
+        "management",
+        "sales operations",
+        "software",
+        "analytics"
+      ]
+    }
   },
   {
-    "id": "sls_0124",
-    "term": "Rebranding",
-    "definition": "The process of changing the corporate image of an organization.",
-    "example": "The company announced a rebranding to modernize its look.",
-    "difficulty": 1,
-    "tags": ["branding", "strategy"]
+    "id": "sales_0166",
+    "term": "Sandler Selling System",
+    "definition": "A sales methodology that emphasizes building mutual trust and having the salesperson act as a consultant who qualifies the prospect.",
+    "example": "By following the Sandler Selling System, he disqualified the prospect early, saving himself weeks of wasted effort on a deal that would never close.",
+    "metadata": {
+      "difficulty": 3,
+      "tags": [
+        "methodology",
+        "strategy",
+        "consultative selling"
+      ]
+    }
   },
   {
-    "id": "sls_0125",
-    "term": "Reciprocity",
-    "definition": "A social norm of responding to a positive action with another positive action.",
-    "example": "Offering a free ebook creates a sense of reciprocity, making users more likely to subscribe.",
-    "difficulty": 3,
-    "tags": ["psychology", "persuasion"]
+    "id": "sales_0167",
+    "term": "Scarcity Principle",
+    "definition": "A psychological principle where people place a higher value on things that are scarce or limited in availability.",
+    "example": "The salesperson used the scarcity principle by mentioning that the '20% discount is only available for the first ten customers'.",
+    "metadata": {
+      "difficulty": 2,
+      "tags": [
+        "psychology",
+        "negotiation",
+        "tactics",
+        "marketing"
+      ]
+    }
   },
   {
-    "id": "sls_0126",
-    "term": "Referral Traffic",
-    "definition": "Google's method of reporting visits that came to your site from sources outside of its search engine.",
-    "example": "Being featured on a popular news site drove a lot of referral traffic.",
-    "difficulty": 2,
-    "tags": ["analytics", "web"]
+    "id": "sales_0168",
+    "term": "Seat-Based Licensing",
+    "definition": "A software licensing model where the price is determined by the number of individual users, or 'seats'.",
+    "example": "Our new CRM software uses a seat-based licensing model, so it costs $50 per user per month.",
+    "metadata": {
+      "difficulty": 2,
+      "tags": [
+        "pricing",
+        "SaaS",
+        "contracts"
+      ]
+    }
   },
   {
-    "id": "sls_0127",
-    "term": "Relationship Marketing",
-    "definition": "A strategy designed to foster customer loyalty, interaction, and long-term engagement.",
-    "example": "Sending birthday cards to clients is a simple form of relationship marketing.",
-    "difficulty": 2,
-    "tags": ["strategy", "retention"]
+    "id": "sales_0169",
+    "term": "Service Level Agreement",
+    "acronym": "SLA",
+    "definition": "A contract that defines the level of service a provider promises to a customer, including metrics, responsibilities, and remedies for breaches.",
+    "example": "Before signing, our legal team reviewed the Service Level Agreement to ensure it guaranteed 99.9% uptime.",
+    "metadata": {
+      "difficulty": 2,
+      "tags": [
+        "contracts",
+        "legal",
+        "customer success"
+      ]
+    }
   },
   {
-    "id": "sls_0128",
-    "term": "Remarketing",
-    "definition": "Targeting users who have previously visited your website with ads to encourage them to return.",
-    "example": "I kept seeing ads for the shoes I looked at yesterday because of remarketing.",
-    "difficulty": 2,
-    "tags": ["digital", "ads"]
-  },
-  {
-    "id": "sls_0129",
-    "term": "Responsive Design",
-    "definition": "An approach to web design that makes web pages render well on a variety of devices and window or screen sizes.",
-    "example": "With mobile usage rising, responsive design is no longer optional.",
-    "difficulty": 2,
-    "tags": ["tech", "web"]
-  },
-  {
-    "id": "sls_0130",
-    "term": "Retention Rate",
-    "definition": "The percentage of customers who continue paying for a product over a given timeframe.",
-    "example": "A high retention rate means customers are happy and loyal.",
-    "difficulty": 2,
-    "tags": ["metrics", "retention"]
-  },
-  {
-    "id": "sls_0131",
-    "term": "Retargeting",
-    "definition": "A form of online advertising that can help you keep your brand in front of bounced traffic after they leave your website.",
-    "example": "Retargeting is very effective for e-commerce sites to recover abandoned carts.",
-    "difficulty": 2,
-    "tags": ["ads", "tech"]
-  },
-  {
-    "id": "sls_0132",
-    "term": "Return on Ad Spend (ROAS)",
-    "definition": "A marketing metric that measures the efficacy of a digital advertising campaign.",
-    "example": "For every $1 spent on ads, we made $4, giving us a ROAS of 400%.",
-    "difficulty": 3,
-    "tags": ["metrics", "ads"]
-  },
-  {
-    "id": "sls_0133",
-    "term": "Return on Investment (ROI)",
-    "definition": "A performance measure used to evaluate the efficiency of an investment.",
-    "example": "The ROI of our email marketing campaign was incredibly high.",
-    "difficulty": 1,
-    "tags": ["metrics", "finance"]
-  },
-  {
-    "id": "sls_0134",
-    "term": "Sales Funnel",
-    "definition": "A consumer-focused marketing model that illustrates the theoretical customer journey towards the purchase of a good or service.",
-    "example": "We need to fix the leak at the bottom of our sales funnel.",
-    "difficulty": 1,
-    "tags": ["sales", "model"]
-  },
-  {
-    "id": "sls_0135",
-    "term": "Scarcity",
-    "definition": "The principle that people attach more value to things that are few in quantity.",
-    "example": "Limited edition products use scarcity to drive demand.",
-    "difficulty": 2,
-    "tags": ["psychology", "persuasion"]
-  },
-  {
-    "id": "sls_0136",
-    "term": "Search Engine Marketing (SEM)",
-    "definition": "A form of Internet marketing that involves the promotion of websites by increasing their visibility in search engine results pages primarily through paid advertising.",
-    "example": "We increased our SEM budget to appear at the top of Google for holiday keywords.",
-    "difficulty": 2,
-    "tags": ["digital", "ads"]
-  },
-  {
-    "id": "sls_0137",
-    "term": "Search Engine Optimization (SEO)",
-    "definition": "The process of improving a website's visibility on search engines to drive organic traffic.",
-    "example": "Good SEO requires both quality content and technical website optimization.",
-    "difficulty": 1,
-    "tags": ["digital", "seo"]
-  },
-  {
-    "id": "sls_0138",
-    "term": "Sentiment Analysis",
-    "definition": "The process of computationally identifying and categorizing opinions expressed in a piece of text.",
-    "example": "Sentiment analysis of tweets showed that the new ad campaign was poorly received.",
-    "difficulty": 3,
-    "tags": ["analytics", "tech"]
-  },
-  {
-    "id": "sls_0139",
-    "term": "SERP (Search Engine Results Page)",
-    "definition": "The page displayed by a search engine in response to a query by a searcher.",
-    "example": "Ranking on page 2 of the SERP is effectively invisible.",
-    "difficulty": 2,
-    "tags": ["seo", "digital"]
-  },
-  {
-    "id": "sls_0140",
-    "term": "Share of Voice (SOV)",
-    "definition": "A measure of the market your brand owns compared to your competitors.",
-    "example": "Our SOV increased after we launched the viral video campaign.",
-    "difficulty": 3,
-    "tags": ["metrics", "branding"]
-  },
-  {
-    "id": "sls_0141",
-    "term": "Social Listening",
-    "definition": "The process of monitoring digital conversations to understand what customers are saying about a brand and industry online.",
-    "example": "Social listening tools alerted us to a complaint before it went viral.",
-    "difficulty": 2,
-    "tags": ["social", "research"]
-  },
-  {
-    "id": "sls_0142",
+    "id": "sales_0170",
     "term": "Social Proof",
-    "definition": "A psychological phenomenon where people assume the actions of others in an attempt to reflect correct behavior.",
-    "example": "Displaying '5-star reviews' is a powerful form of social proof.",
-    "difficulty": 2,
-    "tags": ["psychology", "content"]
+    "definition": "A psychological phenomenon where people assume the actions of others reflect correct behavior, often used in sales through testimonials or case studies.",
+    "example": "We use customer testimonials and case studies on our website as social proof to build trust with new leads.",
+    "metadata": {
+      "difficulty": 2,
+      "tags": [
+        "psychology",
+        "marketing",
+        "persuasion"
+      ]
+    }
   },
   {
-    "id": "sls_0143",
-    "term": "Storytelling",
-    "definition": "Using a narrative to communicate a message.",
-    "example": "The brand used storytelling to connect emotionally with its audience.",
-    "difficulty": 1,
-    "tags": ["content", "branding"]
+    "id": "sales_0171",
+    "term": "Stalled Opportunity",
+    "definition": "A potential deal that has stopped progressing through the sales pipeline for an extended period.",
+    "example": "That deal with Acme Corp is now a stalled opportunity; I haven't heard from the decision-maker in over a month.",
+    "metadata": {
+      "difficulty": 1,
+      "tags": [
+        "pipeline management",
+        "sales process"
+      ]
+    }
   },
   {
-    "id": "sls_0144",
-    "term": "Supply Chain",
-    "definition": "The network of all the individuals, organizations, resources, activities, and technology involved in the creation and sale of a product.",
-    "example": "Marketing must coordinate with the supply chain to ensure products are in stock for the promotion.",
-    "difficulty": 2,
-    "tags": ["operations", "business"]
+    "id": "sales_0172",
+    "term": "Status Quo Bias",
+    "definition": "The psychological tendency for people to prefer that things stay the same, which can be a major obstacle in sales.",
+    "example": "The biggest challenge is overcoming the customer's status quo bias; they're comfortable with their current, less efficient system.",
+    "metadata": {
+      "difficulty": 3,
+      "tags": [
+        "psychology",
+        "objection handling"
+      ]
+    }
   },
   {
-    "id": "sls_0145",
-    "term": "SWOT Analysis",
-    "definition": "A strategic planning technique used to help identify Strengths, Weaknesses, Opportunities, and Threats.",
-    "example": "We performed a SWOT analysis to decide whether to launch the new product.",
-    "difficulty": 1,
-    "tags": ["strategy", "analysis"]
+    "id": "sales_0173",
+    "term": "Target Account Selling",
+    "acronym": "TAS",
+    "definition": "A sales methodology focused on identifying and pursuing a small number of high-value, strategic accounts.",
+    "example": "Instead of casting a wide net, our enterprise team is using Target Account Selling to focus on the top 10 companies in the financial sector.",
+    "metadata": {
+      "difficulty": 2,
+      "tags": [
+        "strategy",
+        "methodology",
+        "enterprise sales"
+      ]
+    }
   },
   {
-    "id": "sls_0146",
-    "term": "Target Audience",
-    "definition": "The specific group of consumers most likely to want your product or service.",
-    "example": "Our target audience is women aged 25-34 who are interested in fitness.",
-    "difficulty": 1,
-    "tags": ["strategy", "market"]
+    "id": "sales_0174",
+    "term": "Technical Win",
+    "definition": "The point in a sales process where the prospect's technical team agrees that your product is the best solution for their needs, even before a final purchasing decision is made.",
+    "example": "We achieved a technical win after the demo when their engineering lead confirmed our software met all their requirements.",
+    "metadata": {
+      "difficulty": 2,
+      "tags": [
+        "sales process",
+        "tech sales",
+        "B2B"
+      ]
+    }
   },
   {
-    "id": "sls_0147",
-    "term": "Thought Leader",
-    "definition": "An individual or firm that is recognized as an authority in a specialized field and whose expertise is sought and often rewarded.",
-    "example": "Publishing insightful white papers helped the CEO become a thought leader in the industry.",
-    "difficulty": 2,
-    "tags": ["pr", "branding"]
+    "id": "sales_0175",
+    "term": "Termination for Convenience",
+    "definition": "A contract clause that allows one or both parties to end the agreement for any reason, without needing to prove a breach of contract.",
+    "example": "The contract includes a termination for convenience clause, allowing us to end the partnership with 30 days' notice if our needs change.",
+    "metadata": {
+      "difficulty": 3,
+      "tags": [
+        "contracts",
+        "legal",
+        "negotiation"
+      ]
+    }
   },
   {
-    "id": "sls_0148",
-    "term": "Tone of Voice",
-    "definition": "How the character of your business comes through in your words, both written and spoken.",
-    "example": "The brand's tone of voice is consistently witty and irreverent across all channels.",
-    "difficulty": 2,
-    "tags": ["branding", "content"]
+    "id": "sales_0176",
+    "term": "Total Contract Value",
+    "acronym": "TCV",
+    "definition": "The total revenue a contract is expected to generate over its entire term, including one-time charges and recurring fees.",
+    "example": "The three-year deal has a Total Contract Value of $1.2 million, which includes the initial implementation fees.",
+    "metadata": {
+      "difficulty": 2,
+      "tags": [
+        "finance",
+        "metrics",
+        "SaaS"
+      ]
+    }
   },
   {
-    "id": "sls_0149",
-    "term": "Touchpoint",
-    "definition": "Any point of contact between a buyer and a seller.",
-    "example": "Every customer service email is a critical brand touchpoint.",
-    "difficulty": 2,
-    "tags": ["cx", "branding"]
+    "id": "sales_0177",
+    "term": "Trial Close",
+    "definition": "A sales technique used to gauge a prospect's readiness to buy before making a final ask for the sale.",
+    "example": "After explaining the benefits, the salesperson used a trial close by asking, 'Does this sound like a solution that would work for your team?'",
+    "metadata": {
+      "difficulty": 1,
+      "tags": [
+        "technique",
+        "negotiation",
+        "sales process"
+      ]
+    }
   },
   {
-    "id": "sls_0150",
-    "term": "Unique Selling Proposition (USP)",
-    "definition": "The factor or consideration presented by a seller as the reason that one product or service is different from and better than that of the competition.",
-    "example": "Our USP is that we are the only eco-friendly option on the market.",
-    "difficulty": 1,
-    "tags": ["branding", "strategy"]
+    "id": "sales_0178",
+    "term": "Usage-Based Pricing",
+    "definition": "A pricing model where customers are charged based on how much they use a product or service.",
+    "example": "Our cloud storage service has usage-based pricing, so you only pay for the data you actually store each month.",
+    "metadata": {
+      "difficulty": 2,
+      "tags": [
+        "pricing",
+        "SaaS",
+        "strategy"
+      ]
+    }
+  },
+  {
+    "id": "sales_0179",
+    "term": "Value Gap",
+    "definition": "The difference between the value a customer expects to receive from a product and the value they actually perceive.",
+    "example": "We need to address the value gap; customers aren't experiencing the cost savings we promised in our marketing.",
+    "metadata": {
+      "difficulty": 2,
+      "tags": [
+        "customer success",
+        "strategy",
+        "value"
+      ]
+    }
+  },
+  {
+    "id": "sales_0180",
+    "term": "Value Selling Framework",
+    "definition": "A sales methodology that focuses on understanding a customer's business problems and demonstrating the tangible economic value of your solution.",
+    "example": "By using a value selling framework, we shifted the conversation from price to the long-term ROI our solution provides.",
+    "metadata": {
+      "difficulty": 3,
+      "tags": [
+        "methodology",
+        "strategy",
+        "value"
+      ]
+    }
+  },
+  {
+    "id": "sales_0181",
+    "term": "Value-Added Reseller",
+    "acronym": "VAR",
+    "definition": "A company that adds features or services to an existing product and then resells it as an integrated solution.",
+    "example": "We partner with a value-added reseller who bundles our software with their hardware and installation services.",
+    "metadata": {
+      "difficulty": 2,
+      "tags": [
+        "channels",
+        "partnerships",
+        "B2B"
+      ]
+    }
+  },
+  {
+    "id": "sales_0182",
+    "term": "Voice of the Customer",
+    "acronym": "VoC",
+    "definition": "A market research process that captures customers' expectations, preferences, and feedback to improve products and services.",
+    "example": "Our Voice of the Customer program uses surveys and interviews to directly inform our product development roadmap.",
+    "metadata": {
+      "difficulty": 2,
+      "tags": [
+        "market research",
+        "customer feedback",
+        "strategy"
+      ]
+    }
+  },
+  {
+    "id": "sales_0183",
+    "term": "Walk-away Point",
+    "definition": "The absolute lowest price or least favorable terms a seller is willing to accept in a negotiation, beyond which they will end the discussion.",
+    "example": "My walk-away point in this negotiation is a 15% discount; anything more than that and the deal isn't profitable.",
+    "metadata": {
+      "difficulty": 1,
+      "tags": [
+        "negotiation",
+        "strategy"
+      ]
+    }
+  },
+  {
+    "id": "sales_0184",
+    "term": "Wallet Share",
+    "definition": "The percentage of a customer's total spending within a specific category that is captured by one company.",
+    "example": "We have low wallet share with this client; they buy most of their supplies from our competitor, so there's a big opportunity to grow the account.",
+    "metadata": {
+      "difficulty": 2,
+      "tags": [
+        "metrics",
+        "account management",
+        "strategy"
+      ]
+    }
+  },
+  {
+    "id": "sales_0185",
+    "term": "Sales Qualified Lead",
+    "acronym": "SQL",
+    "definition": "A prospective customer that the sales team has researched and vetted, determining they are a good fit and ready for a direct sales follow-up.",
+    "example": "The marketing team sent us 20 MQLs, but after our review, only five became SQLs for the AEs to actively pursue.",
+    "metadata": {
+      "difficulty": 2,
+      "tags": [
+        "sales process",
+        "lead generation"
+      ]
+    }
+  },
+  {
+    "id": "sales_0186",
+    "term": "Marketing Qualified Lead",
+    "acronym": "MQL",
+    "definition": "A potential customer who has shown interest by engaging with marketing content, such as downloading an ebook or signing up for a webinar.",
+    "example": "We generated over 100 MQLs from our latest ad campaign; now we need to nurture them until they become SQLs.",
+    "metadata": {
+      "difficulty": 2,
+      "tags": [
+        "marketing",
+        "sales process",
+        "lead generation"
+      ]
+    }
+  },
+  {
+    "id": "sales_0187",
+    "term": "Ideal Customer Profile",
+    "acronym": "ICP",
+    "definition": "A detailed description of a fictional company that would get significant value from your product and represents your perfect customer.",
+    "example": "Our sales team focuses its efforts on companies that fit our ICP, as they are more likely to close and have a higher lifetime value.",
+    "metadata": {
+      "difficulty": 2,
+      "tags": [
+        "strategy",
+        "sales process",
+        "marketing"
+      ]
+    }
+  },
+  {
+    "id": "sales_0188",
+    "term": "Annual Recurring Revenue",
+    "acronym": "ARR",
+    "definition": "A key metric for subscription-based businesses that shows the total value of subscription revenue you can expect to receive from customers in a year.",
+    "example": "With the new enterprise contracts we just signed, our ARR is projected to exceed $5 million by the end of the fiscal year.",
+    "metadata": {
+      "difficulty": 3,
+      "tags": [
+        "finance",
+        "metrics",
+        "SaaS"
+      ]
+    }
+  },
+  {
+    "id": "sales_0189",
+    "term": "Monthly Recurring Revenue",
+    "acronym": "MRR",
+    "definition": "The predictable total revenue a company expects to receive from all its active subscriptions on a monthly basis.",
+    "example": "Our MRR grew by 10% this quarter, thanks to our new pricing plan and a decrease in customer churn.",
+    "metadata": {
+      "difficulty": 2,
+      "tags": [
+        "finance",
+        "metrics",
+        "SaaS"
+      ]
+    }
+  },
+  {
+    "id": "sales_0190",
+    "term": "Customer Acquisition Cost",
+    "acronym": "CAC",
+    "definition": "The total cost of sales and marketing efforts required to acquire one new customer.",
+    "example": "We need to lower our CAC; we're currently spending $300 to acquire each new customer, which isn't sustainable.",
+    "metadata": {
+      "difficulty": 2,
+      "tags": [
+        "finance",
+        "metrics",
+        "marketing"
+      ]
+    }
+  },
+  {
+    "id": "sales_0191",
+    "term": "Customer Lifetime Value",
+    "acronym": "CLV",
+    "definition": "The total revenue a business can reasonably expect from a single customer account throughout the entire business relationship.",
+    "example": "Our goal is to have a CLV that is at least three times our CAC to ensure our business model is profitable.",
+    "metadata": {
+      "difficulty": 3,
+      "tags": [
+        "finance",
+        "metrics",
+        "strategy"
+      ]
+    }
+  },
+  {
+    "id": "sales_0192",
+    "term": "Net Revenue Retention",
+    "acronym": "NRR",
+    "definition": "A metric that measures the percentage of recurring revenue retained from existing customers, including upgrades, downgrades, and cancellations.",
+    "example": "Our NRR is 110%, which means our existing customers are not only staying but also spending more money with us through expansions.",
+    "metadata": {
+      "difficulty": 3,
+      "tags": [
+        "finance",
+        "metrics",
+        "SaaS",
+        "customer success"
+      ]
+    }
+  },
+  {
+    "id": "sales_0193",
+    "term": "Lead Velocity Rate",
+    "acronym": "LVR",
+    "definition": "The growth rate of qualified leads your business generates month over month, used as a key predictor of future revenue.",
+    "example": "Our LVR is a strong 15%, indicating that our sales pipeline is growing healthily and we can expect strong sales next quarter.",
+    "metadata": {
+      "difficulty": 3,
+      "tags": [
+        "metrics",
+        "sales process",
+        "forecasting"
+      ]
+    }
+  },
+  {
+    "id": "sales_0194",
+    "term": "Proof of Concept",
+    "acronym": "POC",
+    "definition": "A small-scale trial project used to demonstrate the feasibility and value of a product to a potential customer before they commit to a full purchase.",
+    "example": "The client wants to run a 30-day POC with their engineering team before signing the annual contract.",
+    "metadata": {
+      "difficulty": 2,
+      "tags": [
+        "sales process",
+        "technology",
+        "project management"
+      ]
+    }
+  },
+  {
+    "id": "sales_0195",
+    "term": "Revenue Operations",
+    "acronym": "RevOps",
+    "definition": "The strategic alignment of sales, marketing, and customer service operations to drive revenue growth and improve efficiency.",
+    "example": "Since implementing a RevOps strategy, our sales and marketing teams are finally working together from a single source of data.",
+    "metadata": {
+      "difficulty": 3,
+      "tags": [
+        "strategy",
+        "operations",
+        "management"
+      ]
+    }
+  },
+  {
+    "id": "sales_0196",
+    "term": "Sales Development Representative",
+    "acronym": "SDR",
+    "definition": "An inside sales role focused on outbound prospecting and qualifying new leads for more senior salespeople.",
+    "example": "Our team of SDRs is responsible for cold calling and emailing potential clients to set up initial meetings.",
+    "metadata": {
+      "difficulty": 1,
+      "tags": [
+        "roles",
+        "sales process"
+      ]
+    }
+  },
+  {
+    "id": "sales_0197",
+    "term": "Account Executive",
+    "acronym": "AE",
+    "definition": "A salesperson responsible for managing the full sales cycle, from demonstrating the product to negotiating and closing deals.",
+    "example": "Once the SDR qualifies a lead, they pass it over to an AE to conduct the demo and manage the deal to completion.",
+    "metadata": {
+      "difficulty": 1,
+      "tags": [
+        "roles",
+        "sales process"
+      ]
+    }
+  },
+  {
+    "id": "sales_0198",
+    "term": "Statement of Work",
+    "acronym": "SOW",
+    "definition": "A formal document that outlines the specific activities, deliverables, timelines, and costs for a project or service engagement.",
+    "example": "Before we begin the project, both parties need to review and sign the SOW to agree on the scope and expectations.",
+    "metadata": {
+      "difficulty": 2,
+      "tags": [
+        "legal",
+        "contracts",
+        "project management"
+      ]
+    }
+  },
+  {
+    "id": "sales_0199",
+    "term": "Master Service Agreement",
+    "acronym": "MSA",
+    "definition": "A foundational contract between two parties that establishes the general terms for all future business, with specifics detailed in separate Statements of Work.",
+    "example": "We have an MSA in place with the vendor, so for each new project we only need to draft a short SOW.",
+    "metadata": {
+      "difficulty": 3,
+      "tags": [
+        "legal",
+        "contracts"
+      ]
+    }
+  },
+  {
+    "id": "sales_0200",
+    "term": "Request for Proposal",
+    "acronym": "RFP",
+    "definition": "A formal business document that announces a project and solicits bids from qualified vendors to complete it.",
+    "example": "The government agency issued an RFP for a new software system, and our sales team is working hard to submit a competitive bid.",
+    "metadata": {
+      "difficulty": 2,
+      "tags": [
+        "sales process",
+        "procurement",
+        "contracts"
+      ]
+    }
+  },
+  {
+    "id": "sales_0201",
+    "term": "Top-of-Funnel",
+    "acronym": "TOFU",
+    "definition": "The initial stage of the sales and marketing process, focused on generating broad awareness and attracting a large audience of potential leads.",
+    "example": "Our TOFU strategy includes writing blog posts and running social media ads to attract people who are just starting to research a problem.",
+    "metadata": {
+      "difficulty": 2,
+      "tags": [
+        "marketing",
+        "sales process",
+        "strategy"
+      ]
+    }
   }
 ]

@@ -1,26 +1,18 @@
 import { describe, it, expect, vi, beforeEach } from 'vitest';
 
-// Mock the @huggingface/transformers module
-vi.mock('@huggingface/transformers', () => {
-  const mockPipeline = vi.fn(async (task) => {
-    // Return mock instances immediately without delay
-    if (task === 'text-generation') {
-      return 'mock-pipeline-instance';
-    } else if (task === 'translation') {
-      return 'mock-translation-instance';
-    }
-    return undefined;
-  });
-  return {
-    pipeline: mockPipeline,
-    env: {
-      allowLocalModels: false
-    }
-  };
-});
+// Mock the pipeline function locally for this test
+vi.mock('@huggingface/transformers', () => ({
+  pipeline: vi.fn(),
+  env: {
+    allowLocalModels: false
+  }
+}));
 
 import { TextGenerationPipelineFactory, TranslationPipelineFactory } from './ai-pipelines';
 import { pipeline } from '@huggingface/transformers';
+
+// Get reference to the mocked pipeline function
+const mockPipeline = pipeline as any;
 
 // Mock navigator.gpu for WebGPU availability check
 Object.defineProperty(global.navigator, 'gpu', {
@@ -43,8 +35,7 @@ describe('TextGenerationPipelineFactory', () => {
   });
 
   it('should return the same instance on multiple calls', async () => {
-    const mockPipeline = vi.mocked(pipeline);
-    (mockPipeline as any).mockResolvedValue('mock-pipeline-instance');
+    mockPipeline.mockResolvedValue('mock-pipeline-instance');
 
     const instance1 = await TextGenerationPipelineFactory.getInstance();
     const instance2 = await TextGenerationPipelineFactory.getInstance();
@@ -55,8 +46,7 @@ describe('TextGenerationPipelineFactory', () => {
   });
 
   it('should return existing instance without creating new pipeline', async () => {
-    const mockPipeline = vi.mocked(pipeline);
-    (mockPipeline as any).mockResolvedValue('mock-pipeline-instance');
+    mockPipeline.mockResolvedValue('mock-pipeline-instance');
 
     // First call creates the instance
     await TextGenerationPipelineFactory.getInstance();
@@ -71,8 +61,7 @@ describe('TextGenerationPipelineFactory', () => {
   });
 
   it('should call pipeline with correct parameters', async () => {
-    const mockPipeline = vi.mocked(pipeline);
-    (mockPipeline as any).mockResolvedValue('mock-pipeline-instance');
+    mockPipeline.mockResolvedValue('mock-pipeline-instance');
     const mockProgressCallback = vi.fn();
 
     await TextGenerationPipelineFactory.getInstance(mockProgressCallback);
@@ -94,7 +83,7 @@ describe('TextGenerationPipelineFactory', () => {
       writable: true
     });
 
-    const mockPipeline = vi.mocked(pipeline);
+    mockPipeline.mockResolvedValue('mock-pipeline-instance');
     const mockProgressCallback = vi.fn();
 
     await TextGenerationPipelineFactory.getInstance(mockProgressCallback);
@@ -126,8 +115,7 @@ describe('TranslationPipelineFactory', () => {
   });
 
   it('should return the same instance on multiple calls', async () => {
-    const mockPipeline = vi.mocked(pipeline);
-    (mockPipeline as any).mockResolvedValue('mock-translation-instance');
+    mockPipeline.mockResolvedValue('mock-translation-instance');
 
     const instance1 = await TranslationPipelineFactory.getInstance();
     const instance2 = await TranslationPipelineFactory.getInstance();
@@ -138,8 +126,7 @@ describe('TranslationPipelineFactory', () => {
   });
 
   it('should return existing instance without creating new pipeline', async () => {
-    const mockPipeline = vi.mocked(pipeline);
-    (mockPipeline as any).mockResolvedValue('mock-translation-instance');
+    mockPipeline.mockResolvedValue('mock-translation-instance');
 
     // First call creates the instance
     await TranslationPipelineFactory.getInstance();
@@ -154,8 +141,7 @@ describe('TranslationPipelineFactory', () => {
   });
 
   it('should call pipeline with correct parameters', async () => {
-    const mockPipeline = vi.mocked(pipeline);
-    (mockPipeline as any).mockResolvedValue('mock-translation-instance');
+    mockPipeline.mockResolvedValue('mock-translation-instance');
     const mockProgressCallback = vi.fn();
 
     await TranslationPipelineFactory.getInstance(mockProgressCallback);

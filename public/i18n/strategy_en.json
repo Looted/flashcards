@@ -1,1951 +1,3203 @@
 [
   {
-    "id": "strat_0001",
-    "term": "Division",
-    "definition": "A distinct part of a company that operates as a separate business unit, often with its own profit and loss responsibility.",
-    "example": "The pharmaceutical Division generated the highest revenue this quarter.",
-    "metadata": {
-      "difficulty": 2,
-      "tags": [
-        "structure",
-        "organization"
-      ]
-    }
-  },
-  {
-    "id": "strat_0002",
-    "term": "Omission",
-    "definition": "The failure to include or mention something in financial statements or reports, which can lead to compliance issues.",
-    "example": "The auditor noted a material Omission regarding the pending lawsuit liabilities.",
-    "metadata": {
-      "difficulty": 3,
-      "tags": [
-        "compliance",
-        "reporting"
-      ]
-    }
-  },
-  {
-    "id": "strat_0003",
-    "term": "Provision",
-    "definition": "An amount set aside in an organization's accounts for a known liability of uncertain timing or amount.",
-    "example": "The company made a specific Provision for bad debts in anticipation of the recession.",
-    "metadata": {
-      "difficulty": 3,
-      "tags": [
-        "finance",
-        "accounting"
-      ]
-    }
-  },
-  {
-    "id": "strat_0004",
-    "term": "Visioning",
-    "definition": "The strategic process of developing a clear mental picture of the future direction and goals of an organization.",
-    "example": "The board spent the retreat Visioning what the company should look like in ten years.",
-    "metadata": {
-      "difficulty": 2,
-      "tags": [
-        "leadership",
-        "planning"
-      ]
-    }
-  },
-  {
-    "id": "strat_0005",
-    "term": "Governance",
-    "definition": "The system of rules, practices, and processes by which a firm is directed and controlled.",
-    "example": "Good corporate governance ensures transparency and accountability to shareholders.",
-    "metadata": {
-      "difficulty": 3,
-      "tags": [
-        "leadership",
-        "compliance"
-      ]
-    }
-  },
-  {
-    "id": "strat_0006",
-    "term": "Bonus plan",
-    "definition": "A compensation scheme that rewards employees for achieving specific performance targets.",
-    "example": "The new Bonus plan is tied to customer satisfaction scores rather than just sales volume.",
+    "id": "strategy_0001",
+    "term": "Competitive Advantage",
+    "definition": "A condition or circumstance that puts a company in a favorable or superior business position compared to its rivals.",
+    "example": "Apple's strong brand loyalty and integrated ecosystem give it a significant competitive advantage in the consumer electronics market.",
     "metadata": {
       "difficulty": 1,
       "tags": [
-        "hr",
-        "incentives"
+        "strategy",
+        "management",
+        "marketing"
       ]
     }
   },
   {
-    "id": "strat_0007",
-    "term": "Commission",
-    "definition": "A variable payment made to employees based on the value of sales they have closed.",
-    "example": "Agents earn a 5% Commission on every real estate transaction.",
-    "metadata": {
-      "difficulty": 1,
-      "tags": [
-        "sales",
-        "compensation"
-      ]
-    }
-  },
-  {
-    "id": "strat_0008",
-    "term": "Action plan",
-    "definition": "A detailed sequence of steps that must be taken to achieve a specific strategy or goal.",
-    "example": "We need to convert this strategy into a concrete Action plan with deadlines.",
-    "metadata": {
-      "difficulty": 1,
-      "tags": [
-        "planning",
-        "execution"
-      ]
-    }
-  },
-  {
-    "id": "strat_0009",
-    "term": "Direct costs",
-    "definition": "Expenses that can be directly traced to the production of specific goods or services.",
-    "example": "Raw materials and labor are the primary Direct costs for this product line.",
+    "id": "strategy_0002",
+    "term": "Blue Ocean Strategy",
+    "definition": "The pursuit of differentiation and low cost to open up a new, uncontested market space and create new demand, thereby making competition irrelevant.",
+    "example": "Instead of competing with other circuses, Cirque du Soleil created a new market by blending circus arts and street entertainment, a classic example of a blue ocean strategy.",
     "metadata": {
       "difficulty": 2,
       "tags": [
-        "finance",
-        "accounting"
-      ]
-    }
-  },
-  {
-    "id": "strat_0010",
-    "term": "Disposal plan",
-    "definition": "A strategic arrangement for selling off or removing assets that are no longer needed.",
-    "example": "The Disposal plan for the old factory equipment will be executed next month.",
-    "metadata": {
-      "difficulty": 2,
-      "tags": [
-        "operations",
-        "assets"
-      ]
-    }
-  },
-  {
-    "id": "strat_0011",
-    "term": "Target assets",
-    "definition": "Specific resources or properties that a company intends to acquire during a merger or acquisition.",
-    "example": "Due diligence revealed hidden liabilities in the Target assets.",
-    "metadata": {
-      "difficulty": 2,
-      "tags": [
-        "mergers",
-        "acquisition"
-      ]
-    }
-  },
-  {
-    "id": "strat_0012",
-    "term": "Marginal plant",
-    "definition": "A production facility that operates at the edge of profitability, often the first to close during downturns.",
-    "example": "We decided to shut down the Marginal plant because maintenance costs exceeded revenue.",
-    "metadata": {
-      "difficulty": 3,
-      "tags": [
-        "operations",
-        "production"
-      ]
-    }
-  },
-  {
-    "id": "strat_0013",
-    "term": "Emergency plan",
-    "definition": "A course of action designed to mitigate the damage of potential negative events.",
-    "example": "The Emergency plan was activated immediately after the cyberattack.",
-    "metadata": {
-      "difficulty": 1,
-      "tags": [
-        "risk management",
-        "safety"
-      ]
-    }
-  },
-  {
-    "id": "strat_0014",
-    "term": "Audit strategy",
-    "definition": "The overall approach outlining the scope, timing, and direction of an inspection process.",
-    "example": "Our Audit strategy focuses on high-risk areas like cash handling and procurement.",
-    "metadata": {
-      "difficulty": 2,
-      "tags": [
-        "audit",
-        "planning"
-      ]
-    }
-  },
-  {
-    "id": "strat_0015",
-    "term": "Admission fees",
-    "definition": "Costs associated with gaining entry to a specific market, organization, or trade group.",
-    "example": "High Admission fees prevent smaller competitors from joining the industry consortium.",
-    "metadata": {
-      "difficulty": 1,
-      "tags": [
-        "market",
-        "barriers"
-      ]
-    }
-  },
-  {
-    "id": "strat_0016",
-    "term": "Indirect costs",
-    "definition": "Expenses that are not directly accountable to a cost object, often called overheads.",
-    "example": "Rent and utilities are classified as Indirect costs because they support the whole office.",
-    "metadata": {
-      "difficulty": 2,
-      "tags": [
-        "accounting",
-        "finance"
-      ]
-    }
-  },
-  {
-    "id": "strat_0017",
-    "term": "Direct business",
-    "definition": "Transactions conducted immediately between the provider and the customer without intermediaries.",
-    "example": "Moving to a Direct business model increased our margins by cutting out the distributors.",
-    "metadata": {
-      "difficulty": 2,
-      "tags": [
-        "sales",
-        "model"
-      ]
-    }
-  },
-  {
-    "id": "strat_0018",
-    "term": "Mitigation",
-    "definition": "The action of reducing the severity, seriousness, or painfulness of something.",
-    "example": "Risk mitigation strategies include diversification and insurance.",
-    "metadata": {
-      "difficulty": 2,
-      "tags": [
-        "risk management",
-        "strategy"
-      ]
-    }
-  },
-  {
-    "id": "strat_0019",
-    "term": "Expenditure",
-    "definition": "The act of spending funds or an amount of money spent, often capitalized for long-term benefits.",
-    "example": "The capital expenditure for the new manufacturing plant was significant.",
-    "metadata": {
-      "difficulty": 2,
-      "tags": [
-        "finance",
-        "accounting"
-      ]
-    }
-  },
-  {
-    "id": "strat_0020",
-    "term": "Audit",
-    "definition": "An official inspection of an individual's or organization's accounts, typically by an independent body.",
-    "example": "The annual Audit found no irregularities in the bookkeeping.",
-    "metadata": {
-      "difficulty": 1,
-      "tags": [
-        "compliance",
-        "basics"
-      ]
-    }
-  },
-  {
-    "id": "strat_0021",
-    "term": "Asset",
-    "definition": "A resource with economic value that an individual or corporation owns with the expectation of future benefit.",
-    "example": "Brand reputation is our most valuable intangible Asset.",
-    "metadata": {
-      "difficulty": 1,
-      "tags": [
-        "finance",
-        "basics"
-      ]
-    }
-  },
-  {
-    "id": "strat_0022",
-    "term": "Profit",
-    "definition": "A financial gain, especially the difference between the amount earned and the amount spent.",
-    "example": "The company turned a healthy Profit despite the economic downturn.",
-    "metadata": {
-      "difficulty": 1,
-      "tags": [
-        "finance",
-        "basics"
-      ]
-    }
-  },
-  {
-    "id": "strat_0023",
-    "term": "Assets",
-    "definition": "The entire property of a person, association, corporation, or estate applicable or subject to the payment of debts.",
-    "example": "The court ordered the freezing of all corporate Assets.",
-    "metadata": {
-      "difficulty": 1,
-      "tags": [
-        "legal",
-        "finance"
-      ]
-    }
-  },
-  {
-    "id": "strat_0024",
-    "term": "Projection",
-    "definition": "An estimate or forecast of a future situation or trend based on present trends.",
-    "example": "The sales Projection for Q4 looks optimistic based on current pipeline data.",
-    "metadata": {
-      "difficulty": 2,
-      "tags": [
-        "analysis",
-        "planning"
-      ]
-    }
-  },
-  {
-    "id": "strat_0025",
-    "term": "Revenue",
-    "definition": "The total income produced by a given source.",
-    "example": "Advertising is the primary source of Revenue for the social media giant.",
-    "metadata": {
-      "difficulty": 1,
-      "tags": [
-        "finance",
-        "metrics"
-      ]
-    }
-  },
-  {
-    "id": "strat_0026",
-    "term": "EOL cost",
-    "definition": "End-of-Life cost; expenses associated with retiring a product or asset.",
-    "example": "We must factor in the recycling and disposal fees as part of the EOL cost.",
-    "metadata": {
-      "difficulty": 3,
-      "tags": [
-        "product management",
-        "lifecycle"
-      ]
-    }
-  },
-  {
-    "id": "strat_0027",
-    "term": "IT audit",
-    "definition": "An examination of the management controls within an Information technology infrastructure.",
-    "example": "The IT audit revealed several vulnerabilities in our firewall configuration.",
-    "metadata": {
-      "difficulty": 2,
-      "tags": [
-        "technology",
-        "compliance"
-      ]
-    }
-  },
-  {
-    "id": "strat_0028",
-    "term": "Venture",
-    "definition": "A risky or daring journey or undertaking, especially one involving new commercial risks.",
-    "example": "The joint venture between the two tech giants aims to develop quantum processors.",
-    "metadata": {
-      "difficulty": 2,
-      "tags": [
-        "business",
-        "strategy"
-      ]
-    }
-  },
-  {
-    "id": "strat_0029",
-    "term": "Tax audit",
-    "definition": "An examination of a tax return by the IRS or other tax authority to verify that income and deductions are accurate.",
-    "example": "Keep all your receipts in case of a Tax audit.",
-    "metadata": {
-      "difficulty": 1,
-      "tags": [
-        "legal",
-        "finance"
-      ]
-    }
-  },
-  {
-    "id": "strat_0030",
-    "term": "Net profit",
-    "definition": "The actual profit after working expenses not included in the calculation of gross profit have been paid.",
-    "example": "After paying taxes and salaries, our Net profit was lower than expected.",
-    "metadata": {
-      "difficulty": 2,
-      "tags": [
-        "finance",
-        "accounting"
-      ]
-    }
-  },
-  {
-    "id": "strat_0031",
-    "term": "Audit file",
-    "definition": "The folder or storage location containing the documentation for a specific audit engagement.",
-    "example": "The junior accountant was responsible for organizing the Audit file.",
-    "metadata": {
-      "difficulty": 2,
-      "tags": [
-        "admin",
-        "audit"
-      ]
-    }
-  },
-  {
-    "id": "strat_0032",
-    "term": "Audit body",
-    "definition": "An organization or committee officially appointed to conduct inspections.",
-    "example": "The European Audit body is reviewing the usage of the grant money.",
-    "metadata": {
-      "difficulty": 2,
-      "tags": [
-        "governance",
-        "institutions"
-      ]
-    }
-  },
-  {
-    "id": "strat_0033",
-    "term": "Compliance",
-    "definition": "The action or fact of complying with a wish or command, especially legal regulations.",
-    "example": "Regulatory Compliance is a major cost center for banking institutions.",
-    "metadata": {
-      "difficulty": 2,
-      "tags": [
-        "legal",
-        "governance"
-      ]
-    }
-  },
-  {
-    "id": "strat_0034",
-    "term": "Audit firm",
-    "definition": "A professional services company that provides audit and assurance services.",
-    "example": "We hired a \"Big Four\" Audit firm to handle our IPO preparations.",
-    "metadata": {
-      "difficulty": 1,
-      "tags": [
-        "business services",
-        "finance"
-      ]
-    }
-  },
-  {
-    "id": "strat_0035",
-    "term": "Price risk",
-    "definition": "The risk of a decline in the value of a security or a portfolio.",
-    "example": "Commodity traders use hedging to manage Price risk.",
-    "metadata": {
-      "difficulty": 2,
-      "tags": [
-        "risk management",
-        "markets"
-      ]
-    }
-  },
-  {
-    "id": "strat_0036",
-    "term": "Net assets",
-    "definition": "The total assets of a company minus its total liabilities.",
-    "example": "The book value of the company is essentially its Net assets.",
-    "metadata": {
-      "difficulty": 2,
-      "tags": [
-        "accounting",
-        "valuation"
-      ]
-    }
-  },
-  {
-    "id": "strat_0037",
-    "term": "Fiscal aid",
-    "definition": "Financial assistance provided by the government or other institutions.",
-    "example": "The struggling sector requested Fiscal aid to survive the crisis.",
-    "metadata": {
-      "difficulty": 3,
-      "tags": [
-        "economics",
-        "policy"
-      ]
-    }
-  },
-  {
-    "id": "strat_0038",
-    "term": "Loan asset",
-    "definition": "A loan considered as an asset to the lender (the bank) because it generates interest income.",
-    "example": "The bank sold a portion of its Loan asset portfolio to raise liquidity.",
-    "metadata": {
-      "difficulty": 3,
-      "tags": [
-        "banking",
-        "finance"
-      ]
-    }
-  },
-  {
-    "id": "strat_0039",
-    "term": "Audit risk",
-    "definition": "The risk that an auditor expresses an inappropriate audit opinion when the financial statements are materially misstated.",
-    "example": "To minimize Audit risk, we increased the sample size of our testing.",
-    "metadata": {
-      "difficulty": 3,
-      "tags": [
-        "audit",
-        "theory"
-      ]
-    }
-  },
-  {
-    "id": "strat_0040",
-    "term": "Asset deal",
-    "definition": "A type of acquisition where the buyer purchases individual assets of a company rather than its shares.",
-    "example": "In an Asset deal, the buyer can choose exactly which liabilities to assume.",
-    "metadata": {
-      "difficulty": 3,
-      "tags": [
-        "m&a",
-        "law"
-      ]
-    }
-  },
-  {
-    "id": "strat_0041",
-    "term": "Marketable",
-    "definition": "Able to be sold or marketed.",
-    "example": "We need to make this prototype into a Marketable product by Q3.",
-    "metadata": {
-      "difficulty": 1,
-      "tags": [
-        "sales",
-        "product"
-      ]
-    }
-  },
-  {
-    "id": "strat_0042",
-    "term": "Asset pool",
-    "definition": "A group of assets that are combined for the purpose of creating a financial security.",
-    "example": "The mortgage-backed security was derived from a large Asset pool of residential loans.",
-    "metadata": {
-      "difficulty": 3,
-      "tags": [
-        "finance",
-        "investing"
-      ]
-    }
-  },
-  {
-    "id": "strat_0043",
-    "term": "Sunk costs",
-    "definition": "Costs that have already been incurred and cannot be recovered.",
-    "example": "We should ignore Sunk costs when deciding whether to continue the project.",
-    "metadata": {
-      "difficulty": 2,
-      "tags": [
-        "economics",
-        "decision making"
-      ]
-    }
-  },
-  {
-    "id": "strat_0044",
-    "term": "Marketplace",
-    "definition": "An arena of competitive or commercial dealings; the world of trade.",
-    "example": "In today's global Marketplace, digital presence is mandatory.",
-    "metadata": {
-      "difficulty": 1,
-      "tags": [
-        "general",
-        "commerce"
-      ]
-    }
-  },
-  {
-    "id": "strat_0045",
-    "term": "Audit field",
-    "definition": "The specific area or scope within an organization that is subject to inspection.",
-    "example": "The Audit field for this year includes overseas subsidiaries.",
-    "metadata": {
-      "difficulty": 2,
-      "tags": [
-        "audit",
-        "scope"
-      ]
-    }
-  },
-  {
-    "id": "strat_0046",
-    "term": "Toxic asset",
-    "definition": "An asset that becomes illiquid when its secondary market disappears.",
-    "example": "The bank's balance sheet was weighed down by Toxic asset holdings from the housing crash.",
-    "metadata": {
-      "difficulty": 3,
-      "tags": [
-        "banking",
-        "crisis"
-      ]
-    }
-  },
-  {
-    "id": "strat_0047",
-    "term": "Joint audit",
-    "definition": "An audit performed by two or more auditing firms.",
-    "example": "A Joint audit is often required for massive multinational corporations.",
-    "metadata": {
-      "difficulty": 2,
-      "tags": [
-        "audit",
-        "collaboration"
-      ]
-    }
-  },
-  {
-    "id": "strat_0048",
-    "term": "Fixed asset",
-    "definition": "Assets purchased for long-term use (e.g., land, buildings, equipment).",
-    "example": "A Fixed asset is not likely to be converted quickly into cash.",
-    "metadata": {
-      "difficulty": 2,
-      "tags": [
-        "accounting",
-        "assets"
-      ]
-    }
-  },
-  {
-    "id": "strat_0049",
-    "term": "Fixed costs",
-    "definition": "Business costs, such as rent, that remain constant regardless of the quantity of goods or services produced.",
-    "example": "Startups should keep their Fixed costs low to extend their runway.",
-    "metadata": {
-      "difficulty": 2,
-      "tags": [
-        "finance",
-        "operations"
-      ]
-    }
-  },
-  {
-    "id": "strat_0050",
-    "term": "Audit trail",
-    "definition": "A step-by-step record by which accounting, trade details, or other financial data can be traced to their source.",
-    "example": "The blockchain provides an immutable Audit trail for every transaction.",
-    "metadata": {
-      "difficulty": 2,
-      "tags": [
-        "compliance",
-        "data"
-      ]
-    }
-  },
-  {
-    "id": "strat_0051",
-    "term": "Lead market",
-    "definition": "A market where a specific innovation is first widely adopted.",
-    "example": "Scandinavia is often considered a Lead market for electric vehicles.",
-    "metadata": {
-      "difficulty": 3,
-      "tags": [
+        "strategy",
         "innovation",
         "marketing"
       ]
     }
   },
   {
-    "id": "strat_0052",
-    "term": "Input costs",
-    "definition": "The costs related to the resources used to produce a good or service.",
-    "example": "Rising energy prices have significantly increased our Input costs.",
+    "id": "strategy_0003",
+    "term": "Red Ocean Strategy",
+    "definition": "Competing in existing market spaces by trying to outperform rivals to grab a greater share of existing demand.",
+    "example": "The smartphone market is a red ocean, with major players constantly fighting over market share through incremental improvements and price wars.",
     "metadata": {
       "difficulty": 2,
       "tags": [
-        "production",
-        "economics"
+        "strategy",
+        "competition",
+        "marketing"
       ]
     }
   },
   {
-    "id": "strat_0053",
-    "term": "Credit risk",
-    "definition": "The risk of default on a debt that may arise from a borrower failing to make required payments.",
-    "example": "Banks analyze your history to assess the Credit risk before issuing a loan.",
+    "id": "strategy_0004",
+    "term": "SWOT Analysis",
+    "acronym": "SWOT",
+    "definition": "A strategic planning framework used to identify and analyze an organization's Strengths, Weaknesses, Opportunities, and Threats.",
+    "example": "Before launching the new product, the team conducted a SWOT analysis to understand its internal capabilities and the external market landscape.",
+    "metadata": {
+      "difficulty": 1,
+      "tags": [
+        "strategy",
+        "analysis",
+        "framework",
+        "management"
+      ]
+    }
+  },
+  {
+    "id": "strategy_0005",
+    "term": "PESTLE Analysis",
+    "acronym": "PESTLE",
+    "definition": "A framework used to analyze the key external macro-environmental factors (Political, Economic, Social, Technological, Legal, and Environmental) that may impact an organization.",
+    "example": "Our PESTLE analysis for expanding into Europe highlighted potential regulatory challenges and shifting consumer preferences.",
     "metadata": {
       "difficulty": 2,
       "tags": [
-        "banking",
-        "risk"
+        "strategy",
+        "analysis",
+        "framework",
+        "risk management"
       ]
     }
   },
   {
-    "id": "strat_0054",
-    "term": "Deemed cost",
-    "definition": "An amount used as a surrogate for cost or depreciated cost at a given date.",
-    "example": "We used the fair value of the land as its Deemed cost upon transition to IFRS.",
-    "metadata": {
-      "difficulty": 3,
-      "tags": [
-        "accounting",
-        "standards"
-      ]
-    }
-  },
-  {
-    "id": "strat_0055",
-    "term": "Cost method",
-    "definition": "A method of accounting for an investment where it is recorded at price paid.",
-    "example": "Under the Cost method, dividends are recorded as income.",
-    "metadata": {
-      "difficulty": 3,
-      "tags": [
-        "accounting",
-        "investing"
-      ]
-    }
-  },
-  {
-    "id": "strat_0056",
-    "term": "Factor cost",
-    "definition": "The cost of the factors of production (land, labor, capital) used to produce goods.",
-    "example": "Economists analyze Factor cost to understand inflation drivers.",
-    "metadata": {
-      "difficulty": 3,
-      "tags": [
-        "economics",
-        "production"
-      ]
-    }
-  },
-  {
-    "id": "strat_0057",
-    "term": "Audit scope",
-    "definition": "The depth and range of an audit, including what is and isn't covered.",
-    "example": "The Audit scope was limited to the domestic operations only.",
+    "id": "strategy_0006",
+    "term": "Porter's Five Forces",
+    "definition": "A model that identifies and analyzes five competitive forces that shape every industry and helps determine an industry's weaknesses and strengths.",
+    "example": "Using Porter's Five Forces, we determined that the high threat of new entrants makes this a very challenging market to enter.",
     "metadata": {
       "difficulty": 2,
       "tags": [
-        "audit",
+        "strategy",
+        "analysis",
+        "framework",
+        "competition"
+      ]
+    }
+  },
+  {
+    "id": "strategy_0007",
+    "term": "Value Chain Analysis",
+    "definition": "A process where a firm identifies its primary and support activities that add value to its final product, analyzing them to reduce costs or increase differentiation.",
+    "example": "Through value chain analysis, we found inefficiencies in our logistics network that, once fixed, could significantly improve our profit margins.",
+    "metadata": {
+      "difficulty": 3,
+      "tags": [
+        "strategy",
+        "analysis",
+        "operations",
+        "management"
+      ]
+    }
+  },
+  {
+    "id": "strategy_0008",
+    "term": "Core Competencies",
+    "definition": "The unique strengths and capabilities of a company that are difficult for competitors to imitate and provide a basis for its competitive advantage.",
+    "example": "Honda's core competencies in engine design and manufacturing allow them to excel in producing cars, motorcycles, and even power generators.",
+    "metadata": {
+      "difficulty": 2,
+      "tags": [
+        "strategy",
+        "management",
+        "innovation"
+      ]
+    }
+  },
+  {
+    "id": "strategy_0009",
+    "term": "BCG Growth-Share Matrix",
+    "acronym": "BCG Matrix",
+    "definition": "A portfolio planning model that helps companies analyze their product lines or business units based on market growth rate and relative market share.",
+    "example": "According to our BCG Matrix, our legacy software is a 'Cash Cow,' generating steady revenue that we can invest in our 'Star' product, the new mobile app.",
+    "metadata": {
+      "difficulty": 2,
+      "tags": [
+        "strategy",
+        "analysis",
+        "framework",
+        "portfolio management"
+      ]
+    }
+  },
+  {
+    "id": "strategy_0010",
+    "term": "Ansoff Matrix",
+    "definition": "A strategic planning tool that provides a framework for growth by presenting four options: market penetration, market development, product development, and diversification.",
+    "example": "The board is using the Ansoff Matrix to decide whether we should pursue growth by selling existing products in new regions or by developing new products for our current customers.",
+    "metadata": {
+      "difficulty": 2,
+      "tags": [
+        "strategy",
+        "growth",
+        "framework",
+        "marketing"
+      ]
+    }
+  },
+  {
+    "id": "strategy_0011",
+    "term": "Go-to-Market Strategy",
+    "acronym": "GTM",
+    "definition": "An action plan that specifies how a company will reach target customers and achieve a competitive advantage for a new product or service.",
+    "example": "Our go-to-market strategy for the new software includes a direct sales team for enterprise clients and a content marketing campaign for small businesses.",
+    "metadata": {
+      "difficulty": 1,
+      "tags": [
+        "strategy",
+        "marketing",
+        "sales",
         "planning"
       ]
     }
   },
   {
-    "id": "strat_0058",
-    "term": "Stakeholder",
-    "definition": "A party that has an interest in a company and can either affect or be affected by the business.",
-    "example": "We need to manage Stakeholder expectations regarding the project timeline.",
+    "id": "strategy_0012",
+    "term": "Market Penetration",
+    "definition": "A growth strategy focused on increasing sales of existing products to an existing market segment to gain a higher market share.",
+    "example": "We're aiming for market penetration through aggressive pricing and a loyalty program to capture more of our competitor's customer base.",
+    "metadata": {
+      "difficulty": 2,
+      "tags": [
+        "strategy",
+        "growth",
+        "marketing"
+      ]
+    }
+  },
+  {
+    "id": "strategy_0013",
+    "term": "Market Development",
+    "definition": "A growth strategy that involves selling a company's existing products to new markets or customer segments.",
+    "example": "Our market development strategy involves expanding our online store to serve customers in Southeast Asia for the first time.",
+    "metadata": {
+      "difficulty": 2,
+      "tags": [
+        "strategy",
+        "growth",
+        "marketing",
+        "sales"
+      ]
+    }
+  },
+  {
+    "id": "strategy_0014",
+    "term": "Product Development",
+    "definition": "A growth strategy that focuses on introducing new products into existing markets to better serve current customers.",
+    "example": "As part of our product development strategy, we are launching a premium version of our software with advanced features requested by our power users.",
+    "metadata": {
+      "difficulty": 2,
+      "tags": [
+        "strategy",
+        "growth",
+        "product management",
+        "innovation"
+      ]
+    }
+  },
+  {
+    "id": "strategy_0015",
+    "term": "Diversification Strategy",
+    "definition": "A growth strategy that involves a company entering a new market or industry with a new product.",
+    "example": "Google's move into self-driving cars is a classic diversification strategy, leveraging their tech expertise in a completely new industry.",
+    "metadata": {
+      "difficulty": 2,
+      "tags": [
+        "strategy",
+        "growth",
+        "risk management"
+      ]
+    }
+  },
+  {
+    "id": "strategy_0016",
+    "term": "Strategic Alliance",
+    "definition": "An agreement between two or more independent organizations to pursue a set of agreed upon objectives while remaining separate entities.",
+    "example": "Starbucks formed a strategic alliance with Spotify to offer a unique in-store music experience, enhancing the customer environment for both brands.",
+    "metadata": {
+      "difficulty": 2,
+      "tags": [
+        "strategy",
+        "partnership",
+        "management"
+      ]
+    }
+  },
+  {
+    "id": "strategy_0017",
+    "term": "Joint Venture",
+    "acronym": "JV",
+    "definition": "A business arrangement where two or more parties agree to pool their resources to accomplish a specific task, creating a new, separate business entity.",
+    "example": "Sony and Ericsson formed a joint venture, Sony Ericsson, to combine Sony's consumer electronics expertise with Ericsson's telecommunications knowledge.",
+    "metadata": {
+      "difficulty": 2,
+      "tags": [
+        "strategy",
+        "partnership",
+        "finance",
+        "legal"
+      ]
+    }
+  },
+  {
+    "id": "strategy_0018",
+    "term": "Mergers & Acquisitions",
+    "acronym": "M&A",
+    "definition": "The consolidation of companies or assets through financial transactions, where one company buys or merges with another.",
+    "example": "Our M&A team is currently evaluating several smaller tech startups as potential acquisition targets to accelerate our R&D.",
+    "metadata": {
+      "difficulty": 2,
+      "tags": [
+        "strategy",
+        "finance",
+        "corporate development",
+        "legal"
+      ]
+    }
+  },
+  {
+    "id": "strategy_0019",
+    "term": "Divestiture",
+    "definition": "The action of a company selling off subsidiary business interests or investments to focus on its core operations.",
+    "example": "The company announced the divestiture of its consumer goods division to raise capital and concentrate on its more profitable enterprise software business.",
+    "metadata": {
+      "difficulty": 3,
+      "tags": [
+        "strategy",
+        "finance",
+        "corporate development"
+      ]
+    }
+  },
+  {
+    "id": "strategy_0020",
+    "term": "Vertical Integration",
+    "definition": "A strategy where a company owns or controls its suppliers, distributors, or retail locations to control its value or supply chain.",
+    "example": "By acquiring the farm that supplies its key ingredients, the food company pursued vertical integration to ensure quality and control costs.",
+    "metadata": {
+      "difficulty": 2,
+      "tags": [
+        "strategy",
+        "operations",
+        "supply chain"
+      ]
+    }
+  },
+  {
+    "id": "strategy_0021",
+    "term": "Horizontal Integration",
+    "definition": "A strategy where a company acquires, merges with, or takes over another company in the same industry and at the same stage of production.",
+    "example": "Disney's acquisition of Pixar is an example of horizontal integration, as it combined two major players in the animation film industry.",
+    "metadata": {
+      "difficulty": 2,
+      "tags": [
+        "strategy",
+        "M&A",
+        "corporate development"
+      ]
+    }
+  },
+  {
+    "id": "strategy_0022",
+    "term": "Cost Leadership",
+    "definition": "A strategy used by businesses to create a low cost of operation within their niche to gain a competitive advantage.",
+    "example": "Walmart's entire business model is built on a cost leadership strategy, focusing on operational efficiency to offer the lowest prices.",
     "metadata": {
       "difficulty": 1,
       "tags": [
+        "strategy",
+        "operations",
+        "finance"
+      ]
+    }
+  },
+  {
+    "id": "strategy_0023",
+    "term": "Differentiation Strategy",
+    "definition": "A strategy where a company develops products or services with unique attributes that are valued by customers, who are then willing to pay a premium price.",
+    "example": "Lush Cosmetics uses a differentiation strategy by focusing on fresh, handmade products with ethical sourcing, which appeals to a specific customer base.",
+    "metadata": {
+      "difficulty": 1,
+      "tags": [
+        "strategy",
+        "marketing",
+        "branding",
+        "product management"
+      ]
+    }
+  },
+  {
+    "id": "strategy_0024",
+    "term": "Focus Strategy",
+    "definition": "A strategy where a company concentrates its resources on serving a narrow market niche more effectively or efficiently than broader competitors.",
+    "example": "Rolex employs a focus strategy by targeting the high-end luxury watch segment rather than competing in the broader watch market.",
+    "metadata": {
+      "difficulty": 2,
+      "tags": [
+        "strategy",
+        "marketing",
+        "niche"
+      ]
+    }
+  },
+  {
+    "id": "strategy_0025",
+    "term": "Balanced Scorecard",
+    "acronym": "BSC",
+    "definition": "A strategic performance management tool that translates a company's vision into a coherent set of performance measures across financial, customer, internal, and innovation perspectives.",
+    "example": "We're implementing a balanced scorecard to track not just financial results, but also customer satisfaction, internal processes, and employee development.",
+    "metadata": {
+      "difficulty": 3,
+      "tags": [
+        "strategy",
+        "management",
+        "performance",
+        "framework"
+      ]
+    }
+  },
+  {
+    "id": "strategy_0026",
+    "term": "Key Performance Indicator",
+    "acronym": "KPI",
+    "definition": "A measurable value that demonstrates how effectively a company is achieving key business objectives.",
+    "example": "Our main KPI for this quarter is to increase customer retention by 5%.",
+    "metadata": {
+      "difficulty": 1,
+      "tags": [
+        "management",
+        "performance",
+        "analytics",
+        "metrics"
+      ]
+    }
+  },
+  {
+    "id": "strategy_0027",
+    "term": "Objectives and Key Results",
+    "acronym": "OKRs",
+    "definition": "A goal-setting framework that helps organizations define ambitious objectives and track their outcomes through specific, measurable key results.",
+    "example": "Our objective is 'Launch the new feature successfully,' and one key result is to 'Achieve 10,000 active users within the first month.'",
+    "metadata": {
+      "difficulty": 2,
+      "tags": [
+        "management",
+        "performance",
+        "goal setting",
+        "framework"
+      ]
+    }
+  },
+  {
+    "id": "strategy_0028",
+    "term": "Scenario Planning",
+    "definition": "A strategic planning method that organizations use to make flexible long-term plans by imagining and analyzing a variety of possible future scenarios.",
+    "example": "Our team is using scenario planning to prepare for potential disruptions in the supply chain, considering best-case, worst-case, and most-likely outcomes.",
+    "metadata": {
+      "difficulty": 3,
+      "tags": [
+        "strategy",
+        "planning",
+        "risk management"
+      ]
+    }
+  },
+  {
+    "id": "strategy_0029",
+    "term": "Hoshin Kanri",
+    "definition": "A strategic planning methodology for ensuring that a company's goals are communicated and implemented throughout the entire organization.",
+    "example": "Through Hoshin Kanri, our leadership's vision for sustainability is being translated into specific actions and targets for every department.",
+    "metadata": {
+      "difficulty": 3,
+      "tags": [
+        "strategy",
+        "management",
+        "operations",
+        "methodology"
+      ]
+    }
+  },
+  {
+    "id": "strategy_0030",
+    "term": "Strategic Intent",
+    "definition": "A compelling statement about where an organization is going and what it wants to achieve, outlining its ambitious long-term goals.",
+    "example": "In the 1960s, NASA's strategic intent was clear and powerful: to put a man on the moon before the end of the decade.",
+    "metadata": {
+      "difficulty": 3,
+      "tags": [
+        "strategy",
+        "management",
+        "leadership",
+        "vision"
+      ]
+    }
+  },
+  {
+    "id": "strategy_0031",
+    "term": "Disruptive Innovation",
+    "definition": "An innovation that creates a new market and value network, eventually displacing established market-leading firms, products, and alliances.",
+    "example": "Netflix's streaming service was a disruptive innovation that completely changed the home entertainment industry, making video rental stores obsolete.",
+    "metadata": {
+      "difficulty": 2,
+      "tags": [
+        "strategy",
+        "innovation",
+        "technology"
+      ]
+    }
+  },
+  {
+    "id": "strategy_0032",
+    "term": "Sustaining Innovation",
+    "definition": "An innovation that improves existing products or services, typically along the performance dimensions that mainstream customers have historically valued.",
+    "example": "The annual release of a new iPhone with a better camera and faster processor is a classic example of sustaining innovation.",
+    "metadata": {
+      "difficulty": 2,
+      "tags": [
+        "strategy",
+        "innovation",
+        "product management"
+      ]
+    }
+  },
+  {
+    "id": "strategy_0033",
+    "term": "First-Mover Advantage",
+    "definition": "The competitive advantage gained by the initial significant occupant of a market segment.",
+    "example": "Amazon gained a huge first-mover advantage in e-commerce, which made it difficult for later competitors to catch up.",
+    "metadata": {
+      "difficulty": 2,
+      "tags": [
+        "strategy",
+        "competition",
+        "marketing"
+      ]
+    }
+  },
+  {
+    "id": "strategy_0034",
+    "term": "Economic Moat",
+    "definition": "A distinct and sustainable competitive advantage that allows a company to protect its market share and profitability from competitors.",
+    "example": "Coca-Cola's strong brand recognition and global distribution network create a wide economic moat that is very difficult for rivals to overcome.",
+    "metadata": {
+      "difficulty": 3,
+      "tags": [
+        "strategy",
+        "finance",
+        "investment",
+        "competition"
+      ]
+    }
+  },
+  {
+    "id": "strategy_0035",
+    "term": "Network Effects",
+    "definition": "A phenomenon whereby a product or service gains additional value as more people use it.",
+    "example": "Social media platforms like Facebook are powerful because of network effects; their value increases as more of your friends and colleagues join.",
+    "metadata": {
+      "difficulty": 2,
+      "tags": [
+        "strategy",
+        "technology",
+        "economics",
+        "platform"
+      ]
+    }
+  },
+  {
+    "id": "strategy_0036",
+    "term": "Platform Strategy",
+    "definition": "A business model that creates value by facilitating exchanges between two or more interdependent groups, usually consumers and producers.",
+    "example": "Uber's platform strategy connects drivers with riders, creating value for both groups without owning the cars themselves.",
+    "metadata": {
+      "difficulty": 2,
+      "tags": [
+        "strategy",
+        "business model",
+        "technology",
+        "platform"
+      ]
+    }
+  },
+  {
+    "id": "strategy_0037",
+    "term": "Ecosystem Strategy",
+    "definition": "A strategy involving a network of interconnected services, products, and companies that work together to create a seamless customer experience and lock in users.",
+    "example": "Apple's ecosystem strategy, with its tight integration of hardware, software, and services, keeps customers loyal to the brand.",
+    "metadata": {
+      "difficulty": 3,
+      "tags": [
+        "strategy",
+        "technology",
+        "platform",
+        "business model"
+      ]
+    }
+  },
+  {
+    "id": "strategy_0038",
+    "term": "Organic Growth",
+    "definition": "The growth rate a company achieves by increasing output and enhancing sales internally, without resorting to mergers or acquisitions.",
+    "example": "The company is focusing on organic growth this year by optimizing its marketing funnels and expanding its existing product lines.",
+    "metadata": {
+      "difficulty": 2,
+      "tags": [
+        "strategy",
+        "growth",
+        "finance",
+        "management"
+      ]
+    }
+  },
+  {
+    "id": "strategy_0039",
+    "term": "Inorganic Growth",
+    "definition": "Growth in a company's operations and revenue that comes from mergers, acquisitions, or joint ventures rather than from its own business activities.",
+    "example": "To quickly enter the European market, the firm decided to pursue inorganic growth by acquiring a local competitor.",
+    "metadata": {
+      "difficulty": 2,
+      "tags": [
+        "strategy",
+        "growth",
+        "finance",
+        "M&A"
+      ]
+    }
+  },
+  {
+    "id": "strategy_0040",
+    "term": "Resource-Based View",
+    "acronym": "RBV",
+    "definition": "A managerial framework used to determine the strategic resources a firm can exploit to achieve a sustainable competitive advantage.",
+    "example": "Using the resource-based view, we identified our proprietary algorithm as a key resource that is valuable, rare, and difficult to imitate.",
+    "metadata": {
+      "difficulty": 3,
+      "tags": [
+        "strategy",
+        "theory",
+        "framework",
+        "management"
+      ]
+    }
+  },
+  {
+    "id": "strategy_0041",
+    "term": "VRIO Framework",
+    "acronym": "VRIO",
+    "definition": "A strategic analysis tool to help identify resources and capabilities that can be a source of sustained competitive advantage, based on if they are Valuable, Rare, Inimitable, and Organized.",
+    "example": "We applied the VRIO framework to our patent portfolio and confirmed it provides a long-term competitive advantage.",
+    "metadata": {
+      "difficulty": 3,
+      "tags": [
+        "strategy",
+        "analysis",
+        "framework",
+        "theory"
+      ]
+    }
+  },
+  {
+    "id": "strategy_0042",
+    "term": "Dynamic Capabilities",
+    "definition": "A firm's ability to integrate, build, and reconfigure internal and external competences to address rapidly changing environments.",
+    "example": "In the fast-paced tech industry, a company's dynamic capabilities—its ability to adapt and innovate quickly—are more important than its current assets.",
+    "metadata": {
+      "difficulty": 3,
+      "tags": [
+        "strategy",
+        "management",
+        "innovation",
+        "agility"
+      ]
+    }
+  },
+  {
+    "id": "strategy_0043",
+    "term": "Strategic Agility",
+    "definition": "The ability of an organization to sense and respond to market opportunities and threats with speed and flexibility.",
+    "example": "Our strategic agility allowed us to quickly shift our production focus to meet the sudden surge in demand for home office equipment.",
+    "metadata": {
+      "difficulty": 2,
+      "tags": [
+        "strategy",
+        "management",
+        "agility",
+        "operations"
+      ]
+    }
+  },
+  {
+    "id": "strategy_0044",
+    "term": "Ambidextrous Organization",
+    "definition": "An organization that is able to both explore new opportunities (innovate) and exploit its existing capabilities (operate efficiently) at the same time.",
+    "example": "Google aims to be an ambidextrous organization by running its profitable search business while also investing heavily in experimental 'moonshot' projects.",
+    "metadata": {
+      "difficulty": 3,
+      "tags": [
+        "strategy",
+        "management",
+        "innovation",
+        "organization"
+      ]
+    }
+  },
+  {
+    "id": "strategy_0045",
+    "term": "Lean Startup Methodology",
+    "definition": "A method for developing businesses and products that aims to shorten development cycles by adopting a combination of experimentation, iterative releases, and validated learning.",
+    "example": "By following the lean startup methodology, we launched a simple version of the app to test our core assumptions with real users first.",
+    "metadata": {
+      "difficulty": 2,
+      "tags": [
+        "strategy",
+        "innovation",
+        "product management",
+        "methodology",
+        "startup"
+      ]
+    }
+  },
+  {
+    "id": "strategy_0046",
+    "term": "Minimum Viable Product",
+    "acronym": "MVP",
+    "definition": "A version of a new product that allows a team to collect the maximum amount of validated learning about customers with the least amount of effort.",
+    "example": "Our first MVP is just a landing page with a sign-up form to gauge interest before we write a single line of code.",
+    "metadata": {
+      "difficulty": 1,
+      "tags": [
+        "product management",
+        "startup",
+        "innovation",
+        "methodology"
+      ]
+    }
+  },
+  {
+    "id": "strategy_0047",
+    "term": "Strategic Pivot",
+    "definition": "A fundamental change in a company's business strategy, often in response to market feedback, to test a new core hypothesis.",
+    "example": "After realizing our initial target market wasn't responding, we made a strategic pivot to focus on enterprise clients instead of individual consumers.",
+    "metadata": {
+      "difficulty": 2,
+      "tags": [
+        "strategy",
+        "startup",
+        "management",
+        "agility"
+      ]
+    }
+  },
+  {
+    "id": "strategy_0048",
+    "term": "Value Proposition",
+    "definition": "A statement that clearly identifies the benefits a company's products or services will deliver to its customers and what makes it unique from competitors.",
+    "example": "Slack's value proposition is that it reduces internal email and brings all team communication into one place, making work more productive.",
+    "metadata": {
+      "difficulty": 1,
+      "tags": [
+        "marketing",
+        "strategy",
+        "product management",
+        "sales"
+      ]
+    }
+  },
+  {
+    "id": "strategy_0049",
+    "term": "Business Model Canvas",
+    "acronym": "BMC",
+    "definition": "A strategic management template for developing new or documenting existing business models on a single visual chart.",
+    "example": "We used the Business Model Canvas in our workshop to quickly map out the key components of our new subscription service.",
+    "metadata": {
+      "difficulty": 2,
+      "tags": [
+        "strategy",
+        "framework",
+        "planning",
+        "startup"
+      ]
+    }
+  },
+  {
+    "id": "strategy_0050",
+    "term": "Customer Lifetime Value",
+    "acronym": "CLV",
+    "definition": "A metric that predicts the total net profit a company can expect to make from a single customer over the entire duration of their relationship.",
+    "example": "By increasing our customer lifetime value, we can justify spending more on acquisition, since each new customer will generate more long-term revenue.",
+    "metadata": {
+      "difficulty": 2,
+      "tags": [
+        "marketing",
+        "finance",
+        "analytics",
+        "metrics"
+      ]
+    }
+  },
+  {
+    "id": "strategy_0051",
+    "term": "Mergers & Acquisitions",
+    "acronym": "M&A",
+    "definition": "The consolidation of companies or assets through various financial transactions, including mergers, acquisitions, and takeovers.",
+    "example": "Our M&A team is evaluating the potential acquisition of a smaller competitor to increase our market share.",
+    "metadata": {
+      "difficulty": 2,
+      "tags": [
+        "finance",
+        "corporate development",
+        "growth strategy"
+      ]
+    }
+  },
+  {
+    "id": "strategy_0052",
+    "term": "Key Performance Indicator",
+    "acronym": "KPI",
+    "definition": "A measurable value that demonstrates how effectively a company is achieving key business objectives.",
+    "example": "One of our main KPIs for the marketing department this quarter is to increase website traffic by 15%.",
+    "metadata": {
+      "difficulty": 1,
+      "tags": [
+        "management",
+        "performance",
+        "metrics"
+      ]
+    }
+  },
+  {
+    "id": "strategy_0053",
+    "term": "Objectives and Key Results",
+    "acronym": "OKRs",
+    "definition": "A goal-setting framework that helps companies define ambitious objectives and track their progress through measurable key results.",
+    "example": "For this cycle, our Objective is to 'Launch the New App Successfully,' and a Key Result is to 'Achieve 10,000 downloads in the first month'.",
+    "metadata": {
+      "difficulty": 2,
+      "tags": [
+        "management",
+        "goal setting",
+        "framework"
+      ]
+    }
+  },
+  {
+    "id": "strategy_0054",
+    "term": "Resource-Based View",
+    "acronym": "RBV",
+    "definition": "A strategic framework suggesting that a firm's competitive advantage is derived from its unique and valuable internal resources and capabilities.",
+    "example": "Applying the Resource-Based View, we identified our proprietary algorithm as a core asset that competitors cannot easily replicate.",
+    "metadata": {
+      "difficulty": 3,
+      "tags": [
+        "management",
+        "framework",
+        "competitive advantage"
+      ]
+    }
+  },
+  {
+    "id": "strategy_0055",
+    "term": "Minimum Viable Product",
+    "acronym": "MVP",
+    "definition": "A version of a new product with just enough features to be usable by early customers who can then provide feedback for future product development.",
+    "example": "Instead of building the full-featured software, we're launching an MVP to test our core assumptions with real users first.",
+    "metadata": {
+      "difficulty": 2,
+      "tags": [
+        "product management",
+        "startups",
+        "agile"
+      ]
+    }
+  },
+  {
+    "id": "strategy_0056",
+    "term": "Customer Lifetime Value",
+    "acronym": "CLV",
+    "definition": "A prediction of the net profit attributed to the entire future relationship with a customer.",
+    "example": "By increasing customer retention by just 5%, we can significantly boost the average Customer Lifetime Value.",
+    "metadata": {
+      "difficulty": 2,
+      "tags": [
+        "marketing",
+        "finance",
+        "metrics"
+      ]
+    }
+  },
+  {
+    "id": "strategy_0057",
+    "term": "Strategic Group Analysis",
+    "definition": "A framework that clusters rival firms within an industry into groups based on similar strategies and business models.",
+    "example": "Our Strategic Group Analysis shows we compete most directly with other luxury brands, not with mass-market retailers.",
+    "metadata": {
+      "difficulty": 3,
+      "tags": [
+        "competitive analysis",
+        "framework",
+        "management"
+      ]
+    }
+  },
+  {
+    "id": "strategy_0058",
+    "term": "Game Theory",
+    "definition": "The study of mathematical models of strategic interaction among rational decision-makers, often used to predict competitor actions.",
+    "example": "We used Game Theory to model how our competitors might react to our new pricing strategy.",
+    "metadata": {
+      "difficulty": 3,
+      "tags": [
+        "economics",
+        "decision making",
+        "concept"
+      ]
+    }
+  },
+  {
+    "id": "strategy_0059",
+    "term": "Coopetition",
+    "definition": "A strategy where competing companies cooperate on certain activities to achieve mutual benefits while still competing in other areas.",
+    "example": "Apple and Samsung engage in coopetition; they are fierce rivals in the smartphone market, but Samsung is also a key supplier for Apple's components.",
+    "metadata": {
+      "difficulty": 2,
+      "tags": [
+        "collaboration",
+        "management",
+        "concept"
+      ]
+    }
+  },
+  {
+    "id": "strategy_0060",
+    "term": "Synergy",
+    "definition": "The concept that the combined value of two merged companies will be greater than the sum of their separate, individual parts.",
+    "example": "The primary goal of the merger is to create synergy by combining our sales force with their innovative product line.",
+    "metadata": {
+      "difficulty": 2,
+      "tags": [
+        "M&A",
+        "management",
+        "concept"
+      ]
+    }
+  },
+  {
+    "id": "strategy_0061",
+    "term": "Capital Allocation",
+    "definition": "The process of distributing a firm's financial resources among various projects or investments to increase efficiency and maximize profits.",
+    "example": "The board's main responsibility is the effective capital allocation between reinvesting in the business and returning cash to shareholders.",
+    "metadata": {
+      "difficulty": 2,
+      "tags": [
+        "finance",
+        "investment",
+        "management"
+      ]
+    }
+  },
+  {
+    "id": "strategy_0062",
+    "term": "Shareholder Value",
+    "definition": "The value delivered to a company's owners, typically measured by the combination of stock price appreciation and dividends paid.",
+    "example": "Every strategic decision we make is ultimately judged on its ability to increase long-term shareholder value.",
+    "metadata": {
+      "difficulty": 2,
+      "tags": [
+        "finance",
+        "corporate governance",
+        "investment"
+      ]
+    }
+  },
+  {
+    "id": "strategy_0063",
+    "term": "Economic Value Added",
+    "acronym": "EVA",
+    "definition": "A measure of a company's financial performance based on the residual wealth calculated by deducting its cost of capital from its operating profit.",
+    "example": "Our focus on improving Economic Value Added has forced us to shut down underperforming divisions that weren't earning their cost of capital.",
+    "metadata": {
+      "difficulty": 3,
+      "tags": [
+        "finance",
+        "performance",
+        "metrics"
+      ]
+    }
+  },
+  {
+    "id": "strategy_0064",
+    "term": "Return on Invested Capital",
+    "acronym": "ROIC",
+    "definition": "A profitability ratio that measures how well a company is using its capital to generate returns.",
+    "example": "A high Return on Invested Capital indicates that our management is very effective at allocating capital to profitable investments.",
+    "metadata": {
+      "difficulty": 3,
+      "tags": [
+        "finance",
+        "performance",
+        "metrics"
+      ]
+    }
+  },
+  {
+    "id": "strategy_0065",
+    "term": "Strategic Drift",
+    "definition": "A gradual deterioration of a company's competitive position because its strategy fails to adapt to changes in the external environment.",
+    "example": "Kodak experienced strategic drift by clinging to its film business while the market shifted to digital photography.",
+    "metadata": {
+      "difficulty": 3,
+      "tags": [
+        "management",
+        "risk",
+        "concept"
+      ]
+    }
+  },
+  {
+    "id": "strategy_0066",
+    "term": "Turnaround Strategy",
+    "definition": "A set of actions taken to reverse a company's poor performance and return it to profitability.",
+    "example": "The new CEO was hired specifically to implement a turnaround strategy, which includes cost-cutting and selling off non-core assets.",
+    "metadata": {
+      "difficulty": 2,
+      "tags": [
+        "management",
+        "restructuring",
+        "corporate strategy"
+      ]
+    }
+  },
+  {
+    "id": "strategy_0067",
+    "term": "Retrenchment Strategy",
+    "definition": "A corporate-level strategy that involves reducing the size or diversity of an organization's operations to cut costs and improve performance.",
+    "example": "Facing declining sales, the company adopted a retrenchment strategy by closing its international offices to focus on the domestic market.",
+    "metadata": {
+      "difficulty": 2,
+      "tags": [
+        "management",
+        "restructuring",
+        "corporate strategy"
+      ]
+    }
+  },
+  {
+    "id": "strategy_0068",
+    "term": "Corporate Portfolio Management",
+    "definition": "The process of managing a corporation's collection of business units and product lines as a single portfolio of investments.",
+    "example": "Through effective corporate portfolio management, we decided to invest more in our high-growth cloud division and divest from our legacy hardware business.",
+    "metadata": {
+      "difficulty": 3,
+      "tags": [
+        "management",
+        "corporate strategy",
+        "finance"
+      ]
+    }
+  },
+  {
+    "id": "strategy_0069",
+    "term": "GE-McKinsey Nine-Box Matrix",
+    "definition": "A strategic tool that helps corporations evaluate their business units based on industry attractiveness and competitive strength.",
+    "example": "We used the GE-McKinsey Nine-Box Matrix to decide which business units to invest in, hold, or divest.",
+    "metadata": {
+      "difficulty": 3,
+      "tags": [
+        "framework",
+        "management",
+        "portfolio analysis"
+      ]
+    }
+  },
+  {
+    "id": "strategy_0070",
+    "term": "Core Rigidity",
+    "definition": "A situation where a company's core competencies, once a source of strength, become a weakness that prevents adaptation to new market conditions.",
+    "example": "The company's reliance on its old manufacturing process became a core rigidity, making it unable to compete with more agile startups.",
+    "metadata": {
+      "difficulty": 3,
+      "tags": [
+        "management",
+        "risk",
+        "concept"
+      ]
+    }
+  },
+  {
+    "id": "strategy_0071",
+    "term": "Strategic Inflection Point",
+    "definition": "A critical moment when a fundamental change in the business environment requires a company to make a major shift in strategy to survive and thrive.",
+    "example": "The rise of the internet was a strategic inflection point for traditional retail, forcing them to adopt e-commerce or risk becoming obsolete.",
+    "metadata": {
+      "difficulty": 3,
+      "tags": [
+        "management",
+        "concept",
+        "change management"
+      ]
+    }
+  },
+  {
+    "id": "strategy_0072",
+    "term": "Value Migration",
+    "definition": "The flow of economic value from outdated business models to new ones that better satisfy customer priorities.",
+    "example": "We are witnessing a value migration in the media industry, as advertising dollars move from print newspapers to online platforms.",
+    "metadata": {
+      "difficulty": 3,
+      "tags": [
+        "management",
+        "concept",
+        "market dynamics"
+      ]
+    }
+  },
+  {
+    "id": "strategy_0073",
+    "term": "Flywheel Effect",
+    "definition": "A concept describing how small, consistent efforts in the right direction build momentum over time, leading to significant, self-reinforcing growth.",
+    "example": "Amazon's focus on customer experience creates more traffic, which attracts more sellers, creating a powerful flywheel effect.",
+    "metadata": {
+      "difficulty": 2,
+      "tags": [
+        "growth strategy",
+        "management",
+        "concept"
+      ]
+    }
+  },
+  {
+    "id": "strategy_0074",
+    "term": "Asymmetric Competition",
+    "definition": "A form of competition where firms with different business models, resources, or goals compete for the same customers.",
+    "example": "A traditional taxi company faces asymmetric competition from ride-sharing apps like Uber, which have a completely different cost structure.",
+    "metadata": {
+      "difficulty": 3,
+      "tags": [
+        "competitive analysis",
+        "management",
+        "concept"
+      ]
+    }
+  },
+  {
+    "id": "strategy_0075",
+    "term": "Barriers to Entry",
+    "definition": "Obstacles that make it difficult for new companies to enter a given market, such as high capital requirements or strong brand loyalty.",
+    "example": "The high cost of building a semiconductor factory is a significant barrier to entry in the microchip industry.",
+    "metadata": {
+      "difficulty": 2,
+      "tags": [
+        "economics",
+        "competitive analysis",
+        "market structure"
+      ]
+    }
+  },
+  {
+    "id": "strategy_0076",
+    "term": "Barriers to Exit",
+    "definition": "Obstacles that prevent a company from leaving an industry, such as specialized assets that are hard to sell or government regulations.",
+    "example": "Despite losing money, the airline couldn't easily leave the market due to significant barriers to exit, including long-term aircraft leases.",
+    "metadata": {
+      "difficulty": 2,
+      "tags": [
+        "economics",
+        "competitive analysis",
+        "market structure"
+      ]
+    }
+  },
+  {
+    "id": "strategy_0077",
+    "term": "Switching Costs",
+    "definition": "The costs that a consumer incurs as a result of changing brands, suppliers, or products.",
+    "example": "Our new software is designed to have low switching costs to make it easy for customers to migrate from our competitor's platform.",
+    "metadata": {
+      "difficulty": 2,
+      "tags": [
+        "marketing",
+        "economics",
+        "customer retention"
+      ]
+    }
+  },
+  {
+    "id": "strategy_0078",
+    "term": "Economies of Scale",
+    "definition": "The cost advantages that enterprises obtain due to their scale of operation, with cost per unit of output decreasing with increasing scale.",
+    "example": "As a large manufacturer, we benefit from economies of scale, allowing us to produce goods at a lower cost than smaller competitors.",
+    "metadata": {
+      "difficulty": 2,
+      "tags": [
+        "economics",
+        "operations",
+        "cost advantage"
+      ]
+    }
+  },
+  {
+    "id": "strategy_0079",
+    "term": "Economies of Scope",
+    "definition": "Cost advantages that result from producing a variety of products using the same operations or resources rather than specializing in a single product.",
+    "example": "A company that produces both shampoo and conditioner can achieve economies of scope by sharing marketing and distribution channels.",
+    "metadata": {
+      "difficulty": 3,
+      "tags": [
+        "economics",
+        "operations",
+        "cost advantage"
+      ]
+    }
+  },
+  {
+    "id": "strategy_0080",
+    "term": "Experience Curve",
+    "definition": "The concept that the cost of producing one unit declines by a predictable percentage each time a company's cumulative production volume doubles.",
+    "example": "According to the experience curve, our production costs should decrease by 20% after we've manufactured our first million units.",
+    "metadata": {
+      "difficulty": 3,
+      "tags": [
+        "operations",
+        "cost advantage",
+        "concept"
+      ]
+    }
+  },
+  {
+    "id": "strategy_0081",
+    "term": "Deliberate Strategy",
+    "definition": "An intended course of action that a company plans to pursue to achieve its goals.",
+    "example": "Our deliberate strategy was to enter the European market within three years, and we followed our plan precisely.",
+    "metadata": {
+      "difficulty": 2,
+      "tags": [
+        "management",
+        "planning",
+        "concept"
+      ]
+    }
+  },
+  {
+    "id": "strategy_0082",
+    "term": "Emergent Strategy",
+    "definition": "An unplanned strategy that arises from autonomous actions by individuals or from unexpected opportunities and challenges.",
+    "example": "While we planned to sell our software to large corporations, an emergent strategy developed as small businesses started adopting it organically.",
+    "metadata": {
+      "difficulty": 2,
+      "tags": [
+        "management",
+        "adaptation",
+        "concept"
+      ]
+    }
+  },
+  {
+    "id": "strategy_0083",
+    "term": "Strategic Foresight",
+    "definition": "The practice of systematically exploring and shaping the future by analyzing major trends and uncertainties.",
+    "example": "Our strategic foresight team is tasked with identifying long-term technological trends that could disrupt our industry.",
+    "metadata": {
+      "difficulty": 3,
+      "tags": [
+        "management",
+        "planning",
+        "futurism"
+      ]
+    }
+  },
+  {
+    "id": "strategy_0084",
+    "term": "War Gaming",
+    "definition": "A simulation exercise where teams representing different players, like competitors, role-play responses to various strategic moves.",
+    "example": "We conducted a war gaming session to anticipate how our rivals would react to our new product launch.",
+    "metadata": {
+      "difficulty": 3,
+      "tags": [
+        "competitive analysis",
+        "planning",
+        "simulation"
+      ]
+    }
+  },
+  {
+    "id": "strategy_0085",
+    "term": "Competitive Intelligence",
+    "acronym": "CI",
+    "definition": "The ethical gathering, analyzing, and distributing of information about competitors, customers, and the market environment.",
+    "example": "Our competitive intelligence report revealed that our main rival is planning to launch a new service next quarter.",
+    "metadata": {
+      "difficulty": 2,
+      "tags": [
+        "market research",
+        "competitive analysis",
+        "data"
+      ]
+    }
+  },
+  {
+    "id": "strategy_0086",
+    "term": "Strategy Map",
+    "definition": "A diagram that shows how a company plans to achieve its objectives, linking them in a cause-and-effect chain across different perspectives.",
+    "example": "The strategy map clearly illustrates how improving employee skills will lead to better customer service and, ultimately, higher revenue.",
+    "metadata": {
+      "difficulty": 3,
+      "tags": [
+        "management",
+        "planning",
+        "framework",
+        "visualization"
+      ]
+    }
+  },
+  {
+    "id": "strategy_0087",
+    "term": "Execution Premium",
+    "definition": "The value that a company creates when it successfully links and executes its strategy through its operational management systems.",
+    "example": "Many companies have great ideas, but only those that can translate them into action achieve an execution premium.",
+    "metadata": {
+      "difficulty": 3,
+      "tags": [
+        "management",
+        "performance",
+        "concept"
+      ]
+    }
+  },
+  {
+    "id": "strategy_0088",
+    "term": "Strategic Coherence",
+    "definition": "The degree to which a company's capabilities, products, and market positions are mutually reinforcing and aligned with a clear strategic goal.",
+    "example": "Apple's product ecosystem demonstrates strong strategic coherence, as its hardware, software, and services all work together seamlessly.",
+    "metadata": {
+      "difficulty": 3,
+      "tags": [
+        "management",
+        "alignment",
+        "concept"
+      ]
+    }
+  },
+  {
+    "id": "strategy_0089",
+    "term": "Resource Orchestration",
+    "definition": "The managerial skill of effectively structuring, bundling, and leveraging a company's resources to create competitive advantage.",
+    "example": "The new CEO's talent for resource orchestration allowed the company to achieve more with its existing assets.",
+    "metadata": {
+      "difficulty": 3,
+      "tags": [
+        "management",
+        "leadership",
+        "operations"
+      ]
+    }
+  },
+  {
+    "id": "strategy_0090",
+    "term": "Capability Building",
+    "definition": "The process of developing a company's ability to perform specific tasks or activities that are critical for its strategic success.",
+    "example": "We are investing heavily in capability building for our data analytics team to better understand customer behavior.",
+    "metadata": {
+      "difficulty": 2,
+      "tags": [
+        "management",
+        "human resources",
+        "organizational development"
+      ]
+    }
+  },
+  {
+    "id": "strategy_0091",
+    "term": "Strategic Sourcing",
+    "definition": "A procurement process that continuously improves a company's purchasing activities to align them with long-term business goals.",
+    "example": "Through strategic sourcing, we consolidated our suppliers and negotiated better long-term contracts, saving the company millions.",
+    "metadata": {
+      "difficulty": 2,
+      "tags": [
+        "operations",
+        "procurement",
+        "supply chain"
+      ]
+    }
+  },
+  {
+    "id": "strategy_0092",
+    "term": "Offshoring Strategy",
+    "definition": "The strategy of relocating a business process or function from one country to another, typically to take advantage of lower costs.",
+    "example": "Our offshoring strategy involved moving our customer support call center to a country with lower labor costs.",
+    "metadata": {
+      "difficulty": 1,
+      "tags": [
+        "operations",
+        "globalization",
+        "cost management"
+      ]
+    }
+  },
+  {
+    "id": "strategy_0093",
+    "term": "Outsourcing Strategy",
+    "definition": "The business practice of hiring a third-party company to perform services or create goods that were traditionally performed in-house.",
+    "example": "We have an outsourcing strategy for our IT support, allowing us to focus on our core business of manufacturing.",
+    "metadata": {
+      "difficulty": 1,
+      "tags": [
+        "operations",
+        "procurement",
+        "cost management"
+      ]
+    }
+  },
+  {
+    "id": "strategy_0094",
+    "term": "Business Process Reengineering",
+    "acronym": "BPR",
+    "definition": "The radical redesign of core business processes to achieve dramatic improvements in productivity, cycle times, and quality.",
+    "example": "We initiated a Business Process Reengineering project to completely overhaul our inefficient order fulfillment system.",
+    "metadata": {
+      "difficulty": 3,
+      "tags": [
+        "operations",
+        "management",
+        "change management"
+      ]
+    }
+  },
+  {
+    "id": "strategy_0095",
+    "term": "Digital Transformation Strategy",
+    "definition": "A plan to leverage digital technologies to fundamentally change how a business operates and delivers value to its customers.",
+    "example": "Our digital transformation strategy includes moving our infrastructure to the cloud and implementing a new CRM system.",
+    "metadata": {
+      "difficulty": 2,
+      "tags": [
+        "technology",
+        "management",
+        "innovation"
+      ]
+    }
+  },
+  {
+    "id": "strategy_0096",
+    "term": "Open Innovation",
+    "definition": "A strategy that involves using external ideas and collaboration as well as internal ones to advance technology and innovation.",
+    "example": "Through our open innovation program, we collaborate with universities and startups to develop new technologies.",
+    "metadata": {
+      "difficulty": 2,
+      "tags": [
+        "innovation",
+        "R&D",
+        "collaboration"
+      ]
+    }
+  },
+  {
+    "id": "strategy_0097",
+    "term": "Adjacency Expansion",
+    "definition": "A growth strategy where a company moves into a new business segment or market that is closely related to its current one.",
+    "example": "The coffee company's move into selling branded brewing equipment is a classic example of an adjacency expansion.",
+    "metadata": {
+      "difficulty": 2,
+      "tags": [
+        "growth strategy",
+        "marketing",
+        "corporate development"
+      ]
+    }
+  },
+  {
+    "id": "strategy_0098",
+    "term": "White Space Strategy",
+    "definition": "A strategy that targets untapped market opportunities where a company's unique competencies could create a new product or service.",
+    "example": "Our team is developing a white space strategy to identify customer needs that are not being met by anyone in the current market.",
+    "metadata": {
+      "difficulty": 3,
+      "tags": [
+        "growth strategy",
+        "innovation",
+        "marketing"
+      ]
+    }
+  },
+  {
+    "id": "strategy_0099",
+    "term": "PIMS Analysis",
+    "acronym": "PIMS",
+    "definition": "A data-driven analysis (Profit Impact of Market Strategy) using a large database to identify the key strategic factors that drive profitability.",
+    "example": "The PIMS analysis suggested a strong correlation between market share and return on investment for businesses in our industry.",
+    "metadata": {
+      "difficulty": 3,
+      "tags": [
+        "data analysis",
+        "framework",
+        "marketing"
+      ]
+    }
+  },
+  {
+    "id": "strategy_0100",
+    "term": "Challenger Brand Strategy",
+    "definition": "A marketing strategy adopted by a brand that is not the market leader, aiming to disrupt the status quo and gain market share through bold tactics.",
+    "example": "As the second-largest player, we adopted a challenger brand strategy focused on highlighting our product's key differentiator in an aggressive advertising campaign.",
+    "metadata": {
+      "difficulty": 2,
+      "tags": [
+        "marketing",
+        "branding",
+        "competitive strategy"
+      ]
+    }
+  },
+  {
+    "id": "strategy_0101",
+    "term": "Incumbent's Dilemma",
+    "definition": "The challenge established companies face when a new, disruptive innovation threatens their existing successful business model.",
+    "example": "Kodak faced the incumbent's dilemma; they hesitated to embrace digital photography because it would destroy their profitable film business.",
+    "metadata": {
+      "difficulty": 3,
+      "tags": [
+        "strategy",
+        "innovation",
+        "management"
+      ]
+    }
+  },
+  {
+    "id": "strategy_0102",
+    "term": "Innovator's Dilemma",
+    "definition": "The principle that successful companies can fail by listening to their customers and investing in existing technologies, causing them to miss disruptive innovations.",
+    "example": "Blockbuster's failure to adapt to streaming is a classic case of the innovator's dilemma; they focused on their physical stores while Netflix changed the market.",
+    "metadata": {
+      "difficulty": 2,
+      "tags": [
+        "strategy",
+        "innovation",
+        "management"
+      ]
+    }
+  },
+  {
+    "id": "strategy_0103",
+    "term": "Crossing the Chasm",
+    "definition": "A marketing concept describing the challenge of transitioning a new technology product from early adopters to the much larger mainstream market.",
+    "example": "Our AI software is popular with tech enthusiasts, but the real test will be crossing the chasm to attract more conservative corporate clients.",
+    "metadata": {
+      "difficulty": 2,
+      "tags": [
+        "marketing",
+        "strategy",
+        "innovation",
+        "technology"
+      ]
+    }
+  },
+  {
+    "id": "strategy_0104",
+    "term": "Value Net Model",
+    "definition": "A framework for analyzing the key players in a business environment—customers, suppliers, competitors, and complementors—to understand and create value.",
+    "example": "Using the value net model, we realized partnering with app developers (complementors) would make our hardware much more attractive.",
+    "metadata": {
+      "difficulty": 3,
+      "tags": [
+        "strategy",
+        "management",
+        "analysis"
+      ]
+    }
+  },
+  {
+    "id": "strategy_0105",
+    "term": "Strategic Buckets",
+    "definition": "A resource allocation method where investments are categorized into different 'buckets', such as core business, new growth, and speculative projects.",
+    "example": "For next year's budget, we are using strategic buckets to ensure we fund not only our current operations but also our long-term innovation labs.",
+    "metadata": {
+      "difficulty": 2,
+      "tags": [
+        "strategy",
+        "finance",
+        "resource allocation"
+      ]
+    }
+  },
+  {
+    "id": "strategy_0106",
+    "term": "Real Options Analysis",
+    "acronym": "ROA",
+    "definition": "A method of evaluating projects that applies financial option theory, allowing for management flexibility to expand, delay, or abandon the project in the future.",
+    "example": "We used real options analysis to justify a smaller pilot project, which gives us the option to expand later if it's successful.",
+    "metadata": {
+      "difficulty": 3,
+      "tags": [
+        "finance",
+        "strategy",
+        "valuation",
+        "analysis"
+      ]
+    }
+  },
+  {
+    "id": "strategy_0107",
+    "term": "Hurdle Rate",
+    "definition": "The minimum rate of return that a company requires from an investment or project before it will be approved.",
+    "example": "The proposed project's expected return is 9%, which is below our company's 12% hurdle rate, so we will not proceed.",
+    "metadata": {
+      "difficulty": 2,
+      "tags": [
+        "finance",
+        "investment",
+        "strategy"
+      ]
+    }
+  },
+  {
+    "id": "strategy_0108",
+    "term": "Profit Pool Analysis",
+    "definition": "A strategic tool used to identify where the most significant profits are made across all parts of an industry's value chain.",
+    "example": "Our profit pool analysis showed that while car manufacturing has low margins, financing and after-sales service are highly profitable.",
+    "metadata": {
+      "difficulty": 3,
+      "tags": [
+        "strategy",
+        "finance",
+        "analysis"
+      ]
+    }
+  },
+  {
+    "id": "strategy_0109",
+    "term": "Concentric Diversification",
+    "definition": "A growth strategy where a company adds new products or services that are closely related to its existing business.",
+    "example": "When the shoe company started selling socks and shoe polish, it was a clear case of concentric diversification.",
+    "metadata": {
+      "difficulty": 2,
+      "tags": [
+        "strategy",
+        "growth",
+        "M&A"
+      ]
+    }
+  },
+  {
+    "id": "strategy_0110",
+    "term": "Conglomerate Diversification",
+    "definition": "A growth strategy where a company expands into businesses that are completely unrelated to its current operations.",
+    "example": "When the electronics company bought a hotel chain, it was a move towards conglomerate diversification to reduce its reliance on a single industry.",
+    "metadata": {
+      "difficulty": 2,
+      "tags": [
+        "strategy",
+        "growth",
+        "M&A"
+      ]
+    }
+  },
+  {
+    "id": "strategy_0111",
+    "term": "Forward Integration",
+    "definition": "A strategy where a company gains control over its distributors or retailers, moving closer to the end consumer.",
+    "example": "The clothing manufacturer pursued forward integration by opening its own flagship retail stores in major cities.",
+    "metadata": {
+      "difficulty": 2,
+      "tags": [
+        "strategy",
+        "supply chain",
+        "operations"
+      ]
+    }
+  },
+  {
+    "id": "strategy_0112",
+    "term": "Backward Integration",
+    "definition": "A strategy where a company gains control over its suppliers to ensure a reliable source of raw materials or components.",
+    "example": "To control quality and costs, the coffee chain used backward integration by purchasing its own coffee farms.",
+    "metadata": {
+      "difficulty": 2,
+      "tags": [
+        "strategy",
+        "supply chain",
+        "operations"
+      ]
+    }
+  },
+  {
+    "id": "strategy_0113",
+    "term": "Spin-off",
+    "definition": "The creation of a new, independent company from a division of a parent company, with shares of the new entity distributed to the parent's shareholders.",
+    "example": "The conglomerate decided to spin-off its healthcare division to allow it to focus on its core technology business.",
+    "metadata": {
+      "difficulty": 2,
+      "tags": [
+        "corporate finance",
+        "strategy",
+        "restructuring"
+      ]
+    }
+  },
+  {
+    "id": "strategy_0114",
+    "term": "Carve-out",
+    "definition": "A corporate action where a parent company sells a minority stake of a subsidiary to the public through an IPO, while retaining control.",
+    "example": "Through a carve-out, the company raised capital by selling 15% of its fast-growing fintech subsidiary to new investors.",
+    "metadata": {
+      "difficulty": 3,
+      "tags": [
+        "corporate finance",
+        "strategy",
+        "restructuring"
+      ]
+    }
+  },
+  {
+    "id": "strategy_0115",
+    "term": "Leveraged Buyout",
+    "acronym": "LBO",
+    "definition": "The acquisition of a company using a significant amount of borrowed money (debt), with the assets of the acquired company often used as collateral.",
+    "example": "The private equity firm used a leveraged buyout to acquire the struggling retail chain, planning to restructure and sell it later.",
+    "metadata": {
+      "difficulty": 3,
+      "tags": [
+        "finance",
+        "M&A",
+        "private equity"
+      ]
+    }
+  },
+  {
+    "id": "strategy_0116",
+    "term": "Stakeholder Theory",
+    "definition": "A business ethics and management theory suggesting that a company should create value for all stakeholders, including employees, customers, and society, not just shareholders.",
+    "example": "Guided by stakeholder theory, our company considers environmental impact and employee well-being in all major decisions.",
+    "metadata": {
+      "difficulty": 2,
+      "tags": [
+        "management",
+        "ethics",
+        "strategy",
+        "CSR"
+      ]
+    }
+  },
+  {
+    "id": "strategy_0117",
+    "term": "Agency Theory",
+    "definition": "An economic theory that explains the relationship and conflicts of interest between principals (like shareholders) and their agents (like company executives).",
+    "example": "Stock options for executives are one way to address the core problem of agency theory by aligning their interests with those of shareholders.",
+    "metadata": {
+      "difficulty": 3,
+      "tags": [
+        "management",
+        "finance",
+        "corporate governance",
+        "economics"
+      ]
+    }
+  },
+  {
+    "id": "strategy_0118",
+    "term": "Corporate Governance",
+    "definition": "The system of rules, practices, and processes by which a company is directed and controlled.",
+    "example": "Strong corporate governance, including an independent board of directors, is crucial for building trust with investors.",
+    "metadata": {
+      "difficulty": 2,
+      "tags": [
+        "management",
+        "law",
+        "ethics",
+        "corporate finance"
+      ]
+    }
+  },
+  {
+    "id": "strategy_0119",
+    "term": "Strategic Leadership",
+    "definition": "A leader's ability to anticipate future trends, think strategically, and empower others to create change that aligns with the company's vision.",
+    "example": "The CEO's strategic leadership was essential in pivoting the company from hardware sales to a subscription-based software model.",
+    "metadata": {
+      "difficulty": 2,
+      "tags": [
+        "leadership",
         "management",
         "strategy"
       ]
     }
   },
   {
-    "id": "strat_0059",
-    "term": "ICT project",
-    "definition": "A project involving Information and Communication Technology.",
-    "example": "The government launched a massive ICT project to digitize health records.",
+    "id": "strategy_0120",
+    "term": "Path Dependence",
+    "definition": "The concept that past decisions and events create a 'path' that constrains future choices, even if better alternatives become available.",
+    "example": "Our company's reliance on legacy software is a clear case of path dependence; switching now would be too costly and disruptive.",
     "metadata": {
-      "difficulty": 2,
+      "difficulty": 3,
       "tags": [
-        "technology",
+        "strategy",
+        "economics",
+        "innovation"
+      ]
+    }
+  },
+  {
+    "id": "strategy_0121",
+    "term": "Absorptive Capacity",
+    "definition": "A firm's ability to recognize the value of new external information, assimilate it, and apply it to achieve business goals.",
+    "example": "A company with high absorptive capacity can quickly learn from market trends and integrate new technologies into its products.",
+    "metadata": {
+      "difficulty": 3,
+      "tags": [
+        "innovation",
+        "strategy",
+        "management",
+        "knowledge management"
+      ]
+    }
+  },
+  {
+    "id": "strategy_0122",
+    "term": "Competency Trap",
+    "definition": "A situation where a company becomes so skilled at its current way of doing things that it fails to adapt to new, superior methods.",
+    "example": "The famous camera company fell into a competency trap; they were experts at making film but ignored the rise of digital photography.",
+    "metadata": {
+      "difficulty": 3,
+      "tags": [
+        "strategy",
+        "innovation",
         "management"
       ]
     }
   },
   {
-    "id": "strat_0060",
-    "term": "Market power",
-    "definition": "The ability of a firm to profitably raise the market price of a good or service over marginal cost.",
-    "example": "The monopoly has excessive Market power and can dictate prices.",
+    "id": "strategy_0123",
+    "term": "Red Queen Effect",
+    "definition": "A business situation where a company must continuously innovate and improve just to maintain its relative position against competitors.",
+    "example": "In the smartphone industry, companies face the Red Queen effect, forced to release new models every year simply to keep up.",
     "metadata": {
-      "difficulty": 2,
+      "difficulty": 3,
       "tags": [
-        "economics",
-        "competition"
+        "strategy",
+        "competition",
+        "innovation"
       ]
     }
   },
   {
-    "id": "strat_0061",
-    "term": "Market entry",
-    "definition": "The movement of a company into a new market.",
-    "example": "Barriers to Market entry include high capital requirements and patents.",
+    "id": "strategy_0124",
+    "term": "Icarus Paradox",
+    "definition": "The concept that a company's greatest strengths and past successes can lead to its downfall by causing overconfidence and a failure to adapt.",
+    "example": "The company's devotion to its flagship product, a prime example of the Icarus paradox, blinded it to a fundamental shift in consumer behavior.",
+    "metadata": {
+      "difficulty": 3,
+      "tags": [
+        "strategy",
+        "management",
+        "idiom"
+      ]
+    }
+  },
+  {
+    "id": "strategy_0125",
+    "term": "Dominant Logic",
+    "definition": "The shared set of beliefs and assumptions within a management team about how to succeed in their business, which can hinder adaptation.",
+    "example": "The company's dominant logic was built around physical retail, making it very difficult for them to embrace an e-commerce-first strategy.",
+    "metadata": {
+      "difficulty": 3,
+      "tags": [
+        "strategy",
+        "management",
+        "corporate culture"
+      ]
+    }
+  },
+  {
+    "id": "strategy_0126",
+    "term": "Strategic Dissonance",
+    "definition": "A gap between a company's stated strategy and its actual day-to-day actions and resource allocation.",
+    "example": "There was a clear strategic dissonance: the company claimed to prioritize innovation, but it consistently underfunded its R&D department.",
+    "metadata": {
+      "difficulty": 3,
+      "tags": [
+        "strategy",
+        "management"
+      ]
+    }
+  },
+  {
+    "id": "strategy_0127",
+    "term": "Corporate Entrepreneurship",
+    "definition": "The process of fostering innovation and creating new businesses, products, or processes within an established organization, also known as intrapreneurship.",
+    "example": "Our 'Innovation Lab' is a corporate entrepreneurship initiative that gives employees time and resources to develop new business ideas.",
+    "metadata": {
+      "difficulty": 2,
+      "tags": [
+        "innovation",
+        "management",
+        "strategy",
+        "HR"
+      ]
+    }
+  },
+  {
+    "id": "strategy_0128",
+    "term": "Strategic Renewal",
+    "definition": "The process of a company fundamentally adapting its strategy, structure, and capabilities in response to a changing environment.",
+    "example": "After years of declining sales, the board initiated a process of strategic renewal, starting with the hiring of a new CEO.",
     "metadata": {
       "difficulty": 2,
       "tags": [
         "strategy",
-        "growth"
+        "management",
+        "change management"
       ]
     }
   },
   {
-    "id": "strat_0062",
-    "term": "Risk sharing",
-    "definition": "A strategy where risk is distributed among several participants.",
-    "example": "Insurance is a classic form of Risk sharing.",
+    "id": "strategy_0129",
+    "term": "Servitization",
+    "definition": "The shift by manufacturing companies from selling products to selling integrated systems of products and services.",
+    "example": "Through servitization, the jet engine maker now sells 'power by the hour' instead of just engines, taking responsibility for all maintenance and service.",
     "metadata": {
       "difficulty": 2,
       "tags": [
-        "insurance",
-        "risk"
-      ]
-    }
-  },
-  {
-    "id": "strat_0063",
-    "term": "Equity share",
-    "definition": "A share that gives the holder a right to vote and receive dividends.",
-    "example": "Investing in an Equity share offers higher potential returns than bonds.",
-    "metadata": {
-      "difficulty": 2,
-      "tags": [
-        "investing",
-        "finance"
-      ]
-    }
-  },
-  {
-    "id": "strat_0064",
-    "term": "Service cost",
-    "definition": "The cost associated with providing a service to a customer.",
-    "example": "Automation helped reduce the Service cost per ticket.",
-    "metadata": {
-      "difficulty": 2,
-      "tags": [
-        "operations",
-        "finance"
-      ]
-    }
-  },
-  {
-    "id": "strat_0065",
-    "term": "Current cost",
-    "definition": "The cost that would be required to replace an asset in the current period.",
-    "example": "Accounting based on Current cost reflects inflation better than historical data.",
-    "metadata": {
-      "difficulty": 2,
-      "tags": [
-        "accounting",
-        "valuation"
-      ]
-    }
-  },
-  {
-    "id": "strat_0066",
-    "term": "Equity issue",
-    "definition": "The act of offering shares of the company to the public or investors.",
-    "example": "The company planned a new Equity issue to fund its expansion.",
-    "metadata": {
-      "difficulty": 2,
-      "tags": [
-        "finance",
-        "corporate"
-      ]
-    }
-  },
-  {
-    "id": "strat_0067",
-    "term": "Implied cost",
-    "definition": "An opportunity cost that is not a direct monetary expense.",
-    "example": "The Implied cost of leaving the position vacant is the lost productivity.",
-    "metadata": {
-      "difficulty": 3,
-      "tags": [
-        "economics",
-        "hr"
-      ]
-    }
-  },
-  {
-    "id": "strat_0068",
-    "term": "Control risk",
-    "definition": "The risk that a material misstatement will not be prevented or detected by the entity's internal controls.",
-    "example": "Weak password policies increase the Control risk for the IT system.",
-    "metadata": {
-      "difficulty": 3,
-      "tags": [
-        "audit",
-        "risk"
-      ]
-    }
-  },
-  {
-    "id": "strat_0069",
-    "term": "System audit",
-    "definition": "An audit of the systems and procedures used to record transactions.",
-    "example": "A System audit verified that the backup procedures were functioning correctly.",
-    "metadata": {
-      "difficulty": 2,
-      "tags": [
-        "it",
-        "audit"
-      ]
-    }
-  },
-  {
-    "id": "strat_0070",
-    "term": "Risk profile",
-    "definition": "An evaluation of an individual or organization's willingness and ability to take risks.",
-    "example": "A conservative investor typically has a low Risk profile.",
-    "metadata": {
-      "difficulty": 2,
-      "tags": [
-        "investing",
-        "psychology"
-      ]
-    }
-  },
-  {
-    "id": "strat_0071",
-    "term": "Total assets",
-    "definition": "The sum of all current and non-current assets owned by an organization.",
-    "example": "The company's Total assets exceeded one billion dollars last year.",
-    "metadata": {
-      "difficulty": 1,
-      "tags": [
-        "accounting",
-        "finance"
-      ]
-    }
-  },
-  {
-    "id": "strat_0072",
-    "term": "Risk finance",
-    "definition": "The management of the financial impact of risk, often through insurance or retention.",
-    "example": "Captive insurance is a sophisticated form of Risk finance.",
-    "metadata": {
-      "difficulty": 3,
-      "tags": [
-        "finance",
-        "risk"
-      ]
-    }
-  },
-  {
-    "id": "strat_0073",
-    "term": "Audit report",
-    "definition": "A document prepared by an auditor stating whether the financial statements are accurate.",
-    "example": "The shareholders were relieved to see a clean Audit report.",
-    "metadata": {
-      "difficulty": 2,
-      "tags": [
-        "compliance",
-        "documents"
-      ]
-    }
-  },
-  {
-    "id": "strat_0074",
-    "term": "Equity index",
-    "definition": "A statistical measure of the changes in a portfolio of stocks representing a portion of the overall market.",
-    "example": "The S&P 500 is a well-known Equity index.",
-    "metadata": {
-      "difficulty": 2,
-      "tags": [
-        "markets",
-        "investing"
-      ]
-    }
-  },
-  {
-    "id": "strat_0075",
-    "term": "Hedged asset",
-    "definition": "An asset that has been protected against risk through an offsetting investment.",
-    "example": "Even though the market crashed, the value of the Hedged asset remained stable.",
-    "metadata": {
-      "difficulty": 3,
-      "tags": [
-        "investing",
-        "risk"
-      ]
-    }
-  },
-  {
-    "id": "strat_0076",
-    "term": "Leased asset",
-    "definition": "Property or equipment that is used by a lessee in exchange for payments to the lessor.",
-    "example": "The airline does not own its planes; each is a Leased asset.",
-    "metadata": {
-      "difficulty": 2,
-      "tags": [
-        "finance",
+        "strategy",
+        "business model",
+        "innovation",
         "operations"
       ]
     }
   },
   {
-    "id": "strat_0077",
-    "term": "Market share",
-    "definition": "The portion of a market controlled by a particular company or product.",
-    "example": "Aggressive pricing helped them capture a significant Market share.",
+    "id": "strategy_0130",
+    "term": "Reverse Innovation",
+    "definition": "The process of developing products first for emerging markets and then adapting them for sale in developed markets.",
+    "example": "The portable, low-cost ultrasound machine was a reverse innovation; designed for rural India, it later found a market in American ambulances.",
     "metadata": {
-      "difficulty": 1,
+      "difficulty": 2,
+      "tags": [
+        "innovation",
+        "strategy",
+        "global business"
+      ]
+    }
+  },
+  {
+    "id": "strategy_0131",
+    "term": "Frugal Innovation",
+    "definition": "The process of designing simple, low-cost, and effective products, often for consumers with limited resources.",
+    "example": "The company's frugal innovation approach led to a water filter that was affordable for millions yet still met high safety standards.",
+    "metadata": {
+      "difficulty": 2,
+      "tags": [
+        "innovation",
+        "strategy",
+        "product development"
+      ]
+    }
+  },
+  {
+    "id": "strategy_0132",
+    "term": "Modular Architecture",
+    "definition": "A design approach where a system is divided into smaller, independent parts (modules) that can be easily replaced or exchanged.",
+    "example": "The automaker uses a modular architecture, allowing it to build sedans, SUVs, and trucks on the same basic platform to save costs.",
+    "metadata": {
+      "difficulty": 2,
+      "tags": [
+        "product development",
+        "operations",
+        "technology",
+        "strategy"
+      ]
+    }
+  },
+  {
+    "id": "strategy_0133",
+    "term": "Category Creation",
+    "definition": "A business strategy focused on creating and dominating an entirely new market category rather than competing in an existing one.",
+    "example": "When Salesforce launched, its strategy was category creation, defining the new space of cloud-based CRM for businesses.",
+    "metadata": {
+      "difficulty": 2,
       "tags": [
         "marketing",
-        "competition"
+        "strategy",
+        "innovation"
       ]
     }
   },
   {
-    "id": "strat_0078",
-    "term": "Market price",
-    "definition": "The current price at which an asset or service can be bought or sold.",
-    "example": "The offer was well below the current Market price.",
-    "metadata": {
-      "difficulty": 1,
-      "tags": [
-        "sales",
-        "trading"
-      ]
-    }
-  },
-  {
-    "id": "strat_0079",
-    "term": "Audit extent",
-    "definition": "The amount of audit evidence obtained, typically determined by sample size.",
-    "example": "We increased the Audit extent after finding initial discrepancies.",
-    "metadata": {
-      "difficulty": 3,
-      "tags": [
-        "audit",
-        "methodology"
-      ]
-    }
-  },
-  {
-    "id": "strat_0080",
-    "term": "Interim audit",
-    "definition": "An audit conducted before the end of the accounting period.",
-    "example": "The Interim audit helped identify issues before the year-end close.",
+    "id": "strategy_0134",
+    "term": "De-commoditization",
+    "definition": "The process of making a product or service unique and distinct from competitors, allowing a company to charge a premium.",
+    "example": "Starbucks achieved de-commoditization by turning coffee from a simple product into a branded, premium experience.",
     "metadata": {
       "difficulty": 2,
       "tags": [
-        "audit",
-        "timing"
-      ]
-    }
-  },
-  {
-    "id": "strat_0081",
-    "term": "Equity holder",
-    "definition": "A person or entity that owns shares in a company.",
-    "example": "As an Equity holder, you are entitled to vote on board appointments.",
-    "metadata": {
-      "difficulty": 2,
-      "tags": [
-        "corporate",
-        "governance"
-      ]
-    }
-  },
-  {
-    "id": "strat_0082",
-    "term": "Residual cost",
-    "definition": "The remaining cost of an asset after its useful life is over.",
-    "example": "The Residual cost was negligible since the machine was fully scrapped.",
-    "metadata": {
-      "difficulty": 3,
-      "tags": [
-        "accounting",
-        "depreciation"
-      ]
-    }
-  },
-  {
-    "id": "strat_0083",
-    "term": "Risk analysis",
-    "definition": "The process of identifying and analyzing potential issues that could negatively impact key business initiatives.",
-    "example": "A thorough Risk analysis is required before approving the new plant location.",
-    "metadata": {
-      "difficulty": 2,
-      "tags": [
-        "risk management",
-        "planning"
-      ]
-    }
-  },
-  {
-    "id": "strat_0084",
-    "term": "Business data",
-    "definition": "Information relating to commercial operations, sales, and customer behavior.",
-    "example": "Protecting sensitive Business data is a top priority for IT security.",
-    "metadata": {
-      "difficulty": 1,
-      "tags": [
-        "data",
-        "operations"
-      ]
-    }
-  },
-  {
-    "id": "strat_0085",
-    "term": "Business name",
-    "definition": "The name under which a business operates.",
-    "example": "You need to register your Business name with the local authorities.",
-    "metadata": {
-      "difficulty": 1,
-      "tags": [
-        "legal",
+        "marketing",
+        "strategy",
         "branding"
       ]
     }
   },
   {
-    "id": "strat_0086",
-    "term": "Sales revenue",
-    "definition": "Income received from selling goods or services.",
-    "example": "Q4 Sales revenue exceeded projections by twenty percent.",
-    "metadata": {
-      "difficulty": 1,
-      "tags": [
-        "sales",
-        "finance"
-      ]
-    }
-  },
-  {
-    "id": "strat_0087",
-    "term": "Group auditor",
-    "definition": "The auditor responsible for reporting on the consolidated financial statements of a group.",
-    "example": "The Group auditor coordinates with local auditors in each subsidiary country.",
-    "metadata": {
-      "difficulty": 2,
-      "tags": [
-        "audit",
-        "corporate"
-      ]
-    }
-  },
-  {
-    "id": "strat_0088",
-    "term": "State auditor",
-    "definition": "A public official responsible for auditing government agencies.",
-    "example": "The State auditor released a report criticizing the department's spending.",
-    "metadata": {
-      "difficulty": 2,
-      "tags": [
-        "public sector",
-        "audit"
-      ]
-    }
-  },
-  {
-    "id": "strat_0089",
-    "term": "Audit opinion",
-    "definition": "A certification that accompanies financial statements, based on an audit of the procedures and records.",
-    "example": "An adverse Audit opinion can severely damage a company's stock price.",
-    "metadata": {
-      "difficulty": 2,
-      "tags": [
-        "compliance",
-        "outcomes"
-      ]
-    }
-  },
-  {
-    "id": "strat_0090",
-    "term": "Original cost",
-    "definition": "The total price paid to acquire an asset, including installation and transport.",
-    "example": "The Original cost of the building was much lower than its current market value.",
-    "metadata": {
-      "difficulty": 1,
-      "tags": [
-        "accounting",
-        "valuation"
-      ]
-    }
-  },
-  {
-    "id": "strat_0091",
-    "term": "Profit margin",
-    "definition": "The amount by which revenue from sales exceeds costs in a business.",
-    "example": "Luxury goods typically have a very high Profit margin.",
-    "metadata": {
-      "difficulty": 1,
-      "tags": [
-        "finance",
-        "metrics"
-      ]
-    }
-  },
-  {
-    "id": "strat_0092",
-    "term": "Costs to sell",
-    "definition": "Incremental costs directly attributable to the disposal of an asset.",
-    "example": "We deducted the Costs to sell from the fair value to determine the net realizable value.",
+    "id": "strategy_0135",
+    "term": "Hypercompetition",
+    "definition": "A state of intense and rapid competitive action in which a company's competitive advantages are quickly eroded.",
+    "example": "The ride-sharing market is an environment of hypercompetition, with companies constantly fighting over price, technology, and drivers.",
     "metadata": {
       "difficulty": 3,
-      "tags": [
-        "accounting",
-        "sales"
-      ]
-    }
-  },
-  {
-    "id": "strat_0093",
-    "term": "Current asset",
-    "definition": "Cash and other assets that are expected to be converted to cash within a year.",
-    "example": "Inventory is considered a Current asset.",
-    "metadata": {
-      "difficulty": 2,
-      "tags": [
-        "accounting",
-        "finance"
-      ]
-    }
-  },
-  {
-    "id": "strat_0094",
-    "term": "Sampling risk",
-    "definition": "The possibility that the auditor's conclusion based on a sample may be different from the conclusion if the entire population were subjected to the same audit procedure.",
-    "example": "Using a larger dataset helps reduce Sampling risk.",
-    "metadata": {
-      "difficulty": 3,
-      "tags": [
-        "audit",
-        "statistics"
-      ]
-    }
-  },
-  {
-    "id": "strat_0095",
-    "term": "Value-at-risk",
-    "definition": "A statistic that measures and quantifies the level of financial risk within a firm over a specific time frame.",
-    "example": "Banks use Value-at-risk models to determine how much capital they need to hold.",
-    "metadata": {
-      "difficulty": 3,
-      "tags": [
-        "risk management",
-        "metrics"
-      ]
-    }
-  },
-  {
-    "id": "strat_0096",
-    "term": "Mature market",
-    "definition": "A market where the industry has reached a state of equilibrium and growth is slow.",
-    "example": "It is difficult to find new customers in such a Mature market.",
-    "metadata": {
-      "difficulty": 2,
       "tags": [
         "strategy",
-        "market"
+        "competition",
+        "management"
       ]
     }
   },
   {
-    "id": "strat_0097",
-    "term": "Witness audit",
-    "definition": "An audit where an observer watches another auditor perform their duties to ensure quality.",
-    "example": "The accreditation body performed a Witness audit on our certification process.",
+    "id": "strategy_0136",
+    "term": "Transient Competitive Advantage",
+    "definition": "The idea that long-term advantages are no longer sustainable, so companies must constantly create and exploit a series of short-term advantages.",
+    "example": "Our firm's strategy is based on transient competitive advantage; we rapidly launch new features knowing that we must innovate again once competitors copy us.",
     "metadata": {
       "difficulty": 3,
       "tags": [
-        "quality assurance",
-        "audit"
+        "strategy",
+        "competition",
+        "management"
       ]
     }
   },
   {
-    "id": "strat_0098",
-    "term": "Interest cost",
-    "definition": "The cumulative amount of interest a borrower pays on a loan.",
-    "example": "Refinancing helped lower the annual Interest cost significantly.",
-    "metadata": {
-      "difficulty": 2,
-      "tags": [
-        "finance",
-        "debt"
-      ]
-    }
-  },
-  {
-    "id": "strat_0099",
-    "term": "Equity method",
-    "definition": "An accounting technique used by firms to assess the profits earned by their investments in other companies.",
-    "example": "Since we own 30% of the affiliate, we use the Equity method.",
+    "id": "strategy_0137",
+    "term": "Strategic Group Mapping",
+    "definition": "An analytical tool used to cluster firms within an industry into groups based on their similar strategies and competitive positions.",
+    "example": "We used strategic group mapping to analyze the airline industry, identifying a distinct group of low-cost carriers and another of premium international airlines.",
     "metadata": {
       "difficulty": 3,
       "tags": [
-        "accounting",
-        "investing"
+        "strategy",
+        "analysis",
+        "competition"
       ]
     }
   },
   {
-    "id": "strat_0100",
-    "term": "Risk exposure",
-    "definition": "The measure of potential future loss resulting from a specific activity or event.",
-    "example": "Hedging strategies are designed to limit Risk exposure.",
-    "metadata": {
-      "difficulty": 2,
-      "tags": [
-        "risk management",
-        "strategy"
-      ]
-    }
-  },
-  {
-    "id": "strat_0101",
-    "term": "Audit fatigue",
-    "definition": "The weariness experienced by employees who are subjected to frequent or continuous auditing.",
-    "example": "To prevent Audit fatigue, we combined the safety and quality inspections.",
+    "id": "strategy_0138",
+    "term": "Corporate Parenting Strategy",
+    "definition": "A corporate-level strategy where the head office is viewed as a 'parent' that adds value to its portfolio of business units.",
+    "example": "The conglomerate's corporate parenting strategy involves providing centralized legal and financial expertise to all its subsidiary companies.",
     "metadata": {
       "difficulty": 3,
       "tags": [
-        "hr",
-        "audit"
+        "strategy",
+        "management",
+        "corporate finance"
       ]
     }
   },
   {
-    "id": "strat_0102",
-    "term": "Ex ante audit",
-    "definition": "An audit conducted before a transaction or activity takes place.",
-    "example": "The Ex ante audit ensures that the project budget is realistic before approval.",
-    "metadata": {
-      "difficulty": 3,
-      "tags": [
-        "audit",
-        "planning"
-      ]
-    }
-  },
-  {
-    "id": "strat_0103",
-    "term": "Audit preview",
-    "definition": "A preliminary review of documents before the official audit begins.",
-    "example": "The Audit preview helped us organize the necessary files beforehand.",
+    "id": "strategy_0139",
+    "term": "Center of Excellence",
+    "acronym": "CoE",
+    "definition": "A dedicated team or facility that provides leadership, best practices, research, support, and training for a specific focus area.",
+    "example": "Our company established a Center of Excellence for artificial intelligence to standardize its use across all departments.",
     "metadata": {
       "difficulty": 2,
       "tags": [
-        "audit",
-        "preparation"
-      ]
-    }
-  },
-  {
-    "id": "strat_0104",
-    "term": "Inherent risk",
-    "definition": "The risk posed by an error or omission in a financial statement due to a factor other than a failure of internal control.",
-    "example": "Cash handling has a high Inherent risk of theft.",
-    "metadata": {
-      "difficulty": 3,
-      "tags": [
-        "risk",
-        "audit"
-      ]
-    }
-  },
-  {
-    "id": "strat_0105",
-    "term": "Active market",
-    "definition": "A market in which transactions for the asset or liability take place with sufficient frequency and volume.",
-    "example": "There is no Active market for this type of specialized machinery.",
-    "metadata": {
-      "difficulty": 2,
-      "tags": [
-        "market",
-        "valuation"
-      ]
-    }
-  },
-  {
-    "id": "strat_0106",
-    "term": "Business unit",
-    "definition": "A logical segment of a company representing a specific business function.",
-    "example": "Each Business unit has its own HR representative.",
-    "metadata": {
-      "difficulty": 1,
-      "tags": [
-        "structure",
-        "organization"
-      ]
-    }
-  },
-  {
-    "id": "strat_0107",
-    "term": "Self-auditing",
-    "definition": "The process of reviewing one's own work or department.",
-    "example": "Self-auditing is encouraged, but it cannot replace independent verification.",
-    "metadata": {
-      "difficulty": 2,
-      "tags": [
-        "audit",
-        "quality"
-      ]
-    }
-  },
-  {
-    "id": "strat_0108",
-    "term": "Business rule",
-    "definition": "A rule that defines or constrains some aspect of business and always resolves to either true or false.",
-    "example": "A Business rule prevents the system from processing orders without a valid address.",
-    "metadata": {
-      "difficulty": 2,
-      "tags": [
+        "management",
         "operations",
-        "systems"
-      ]
-    }
-  },
-  {
-    "id": "strat_0109",
-    "term": "Audit enquiry",
-    "definition": "A specific question or request for information made by an auditor.",
-    "example": "We received an Audit enquiry regarding the travel expenses in March.",
-    "metadata": {
-      "difficulty": 2,
-      "tags": [
-        "audit",
-        "communication"
-      ]
-    }
-  },
-  {
-    "id": "strat_0110",
-    "term": "Selected audit",
-    "definition": "An audit performed on a specific subset of data or a specific department.",
-    "example": "The tax authority performed a Selected audit on our payroll records.",
-    "metadata": {
-      "difficulty": 2,
-      "tags": [
-        "audit",
-        "types"
-      ]
-    }
-  },
-  {
-    "id": "strat_0111",
-    "term": "Audit approach",
-    "definition": "The strategy used by an auditor to conduct the audit.",
-    "example": "We adopted a risk-based Audit approach to focus on the most critical areas.",
-    "metadata": {
-      "difficulty": 2,
-      "tags": [
-        "audit",
+        "HR",
         "strategy"
       ]
     }
   },
   {
-    "id": "strat_0112",
-    "term": "Software asset",
-    "definition": "A software license or application that has value to the organization.",
-    "example": "Managing every Software asset is crucial to avoid licensing penalties.",
-    "metadata": {
-      "difficulty": 2,
-      "tags": [
-        "it",
-        "assets"
-      ]
-    }
-  },
-  {
-    "id": "strat_0113",
-    "term": "Green auditing",
-    "definition": "An assessment of an organization's environmental impact.",
-    "example": "Green auditing helps companies improve their sustainability credentials.",
-    "metadata": {
-      "difficulty": 2,
-      "tags": [
-        "environment",
-        "audit"
-      ]
-    }
-  },
-  {
-    "id": "strat_0114",
-    "term": "Internal audit",
-    "definition": "An independent, objective assurance activity designed to add value and improve an organization's operations.",
-    "example": "The Internal audit department reports directly to the Audit Committee.",
-    "metadata": {
-      "difficulty": 2,
-      "tags": [
-        "audit",
-        "governance"
-      ]
-    }
-  },
-  {
-    "id": "strat_0115",
-    "term": "Monetary asset",
-    "definition": "Assets that are fixed in terms of currency, such as cash or accounts receivable.",
-    "example": "Inflation reduces the purchasing power of a Monetary asset.",
-    "metadata": {
-      "difficulty": 2,
-      "tags": [
-        "economics",
-        "finance"
-      ]
-    }
-  },
-  {
-    "id": "strat_0116",
-    "term": "External audit",
-    "definition": "An audit conducted by an independent accountant who is not an employee of the company.",
-    "example": "The External audit is required for all public companies.",
-    "metadata": {
-      "difficulty": 1,
-      "tags": [
-        "audit",
-        "compliance"
-      ]
-    }
-  },
-  {
-    "id": "strat_0117",
-    "term": "Financial risk",
-    "definition": "The danger that a company will not be able to meet its financial obligations.",
-    "example": "High leverage increases the Financial risk during an economic downturn.",
-    "metadata": {
-      "difficulty": 2,
-      "tags": [
-        "finance",
-        "risk"
-      ]
-    }
-  },
-  {
-    "id": "strat_0118",
-    "term": "Business model",
-    "definition": "A plan for the successful operation of a business, identifying sources of revenue, the intended customer base, products, and details of financing.",
-    "example": "The subscription Business model provides predictable recurring revenue.",
-    "metadata": {
-      "difficulty": 1,
-      "tags": [
-        "strategy",
-        "planning"
-      ]
-    }
-  },
-  {
-    "id": "strat_0119",
-    "term": "Audit evidence",
-    "definition": "Information collected by the auditor to support the audit opinion.",
-    "example": "Invoices and bank statements serve as primary Audit evidence.",
-    "metadata": {
-      "difficulty": 2,
-      "tags": [
-        "audit",
-        "documents"
-      ]
-    }
-  },
-  {
-    "id": "strat_0120",
-    "term": "Owners' equity",
-    "definition": "The owner's rights to the assets of the business.",
-    "example": "Retained earnings contributed to the growth of Owners' equity.",
-    "metadata": {
-      "difficulty": 2,
-      "tags": [
-        "accounting",
-        "finance"
-      ]
-    }
-  },
-  {
-    "id": "strat_0121",
-    "term": "Notional costs",
-    "definition": "Costs that do not involve an actual payment of money, such as the use of one's own premises.",
-    "example": "We included rent as a Notional cost to compare profitability accurately.",
-    "metadata": {
-      "difficulty": 3,
-      "tags": [
-        "accounting",
-        "theory"
-      ]
-    }
-  },
-  {
-    "id": "strat_0122",
-    "term": "Audit sampling",
-    "definition": "The application of audit procedures to less than 100% of items in a population.",
-    "example": "Audit sampling allows us to draw conclusions without checking every single receipt.",
-    "metadata": {
-      "difficulty": 2,
-      "tags": [
-        "audit",
-        "methodology"
-      ]
-    }
-  },
-  {
-    "id": "strat_0123",
-    "term": "Perceived risk",
-    "definition": "The subjective judgment that people make about the characteristics and severity of a risk.",
-    "example": "The Perceived risk of flying is often higher than driving, despite statistics.",
-    "metadata": {
-      "difficulty": 2,
-      "tags": [
-        "psychology",
-        "risk"
-      ]
-    }
-  },
-  {
-    "id": "strat_0124",
-    "term": "Variable costs",
-    "definition": "Corporate expenses that change in proportion to production output.",
-    "example": "Packaging and shipping are Variable costs.",
-    "metadata": {
-      "difficulty": 2,
-      "tags": [
-        "finance",
-        "operations"
-      ]
-    }
-  },
-  {
-    "id": "strat_0125",
-    "term": "Insurance risk",
-    "definition": "The possibility of loss that an insurance company agrees to cover.",
-    "example": "The insurer assessed the Insurance risk before issuing the policy.",
-    "metadata": {
-      "difficulty": 2,
-      "tags": [
-        "insurance",
-        "risk"
-      ]
-    }
-  },
-  {
-    "id": "strat_0126",
-    "term": "Forensic audit",
-    "definition": "An examination and evaluation of a firm's or individual's financial information for use as evidence in court.",
-    "example": "A Forensic audit was ordered after allegations of fraud surfaced.",
-    "metadata": {
-      "difficulty": 3,
-      "tags": [
-        "legal",
-        "audit"
-      ]
-    }
-  },
-  {
-    "id": "strat_0127",
-    "term": "Deferred asset",
-    "definition": "An expenditure that is carried forward as an asset to be amortized in future periods.",
-    "example": "The prepaid insurance was recorded as a Deferred asset.",
-    "metadata": {
-      "difficulty": 3,
-      "tags": [
-        "accounting",
-        "finance"
-      ]
-    }
-  },
-  {
-    "id": "strat_0128",
-    "term": "Detection risk",
-    "definition": "The risk that the procedures performed by the auditor will not detect a misstatement.",
-    "example": "Detection risk can be lowered by more rigorous testing.",
-    "metadata": {
-      "difficulty": 3,
-      "tags": [
-        "audit",
-        "theory"
-      ]
-    }
-  },
-  {
-    "id": "strat_0129",
-    "term": "Subsoil assets",
-    "definition": "Proven reserves of mineral deposits located underground.",
-    "example": "The nation's wealth depends heavily on its Subsoil assets like oil and gas.",
-    "metadata": {
-      "difficulty": 3,
-      "tags": [
-        "resources",
-        "economics"
-      ]
-    }
-  },
-  {
-    "id": "strat_0130",
-    "term": "Natural assets",
-    "definition": "Assets of the natural environment like water, air, and living organisms.",
-    "example": "Conservation efforts aim to protect Natural assets for future generations.",
-    "metadata": {
-      "difficulty": 2,
-      "tags": [
-        "environment",
-        "economics"
-      ]
-    }
-  },
-  {
-    "id": "strat_0131",
-    "term": "Profit sharing",
-    "definition": "An incentive plan where employees receive a direct share of the company's profits.",
-    "example": "The Profit sharing check at the end of the year boosted morale.",
-    "metadata": {
-      "difficulty": 2,
-      "tags": [
-        "hr",
-        "incentives"
-      ]
-    }
-  },
-  {
-    "id": "strat_0132",
-    "term": "Amortised cost",
-    "definition": "The initial value of an asset minus accumulated amortization.",
-    "example": "The bond is held at Amortised cost on the balance sheet.",
-    "metadata": {
-      "difficulty": 3,
-      "tags": [
-        "accounting",
-        "valuation"
-      ]
-    }
-  },
-  {
-    "id": "strat_0133",
-    "term": "Taxable profit",
-    "definition": "The portion of profit that is subject to taxation according to tax laws.",
-    "example": "Deductions can significantly reduce the Taxable profit.",
-    "metadata": {
-      "difficulty": 2,
-      "tags": [
-        "tax",
-        "finance"
-      ]
-    }
-  },
-  {
-    "id": "strat_0134",
-    "term": "Product market",
-    "definition": "The marketplace where final goods or services are sold to businesses and the public sector.",
-    "example": "We are launching the new model into a highly competitive Product market.",
+    "id": "strategy_0140",
+    "term": "Market Sensing",
+    "definition": "The process of gathering and acting upon information about market trends, customers, and competitors to guide strategic decisions.",
+    "example": "Effective market sensing allowed our company to anticipate the consumer shift towards plant-based foods.",
     "metadata": {
       "difficulty": 2,
       "tags": [
         "marketing",
-        "sales"
+        "strategy",
+        "analysis"
       ]
     }
   },
   {
-    "id": "strat_0135",
-    "term": "Start-up costs",
-    "definition": "Non-recurring costs associated with setting up a business.",
-    "example": "Legal fees and licensing are typical Start-up costs.",
+    "id": "strategy_0141",
+    "term": "A3 Thinking",
+    "definition": "A structured problem-solving and continuous improvement approach, originating from Toyota, that fits the entire process onto a single A3-sized sheet of paper.",
+    "example": "The manager used the A3 thinking process to clearly communicate the production problem, its root cause, and the proposed solution to the team.",
     "metadata": {
-      "difficulty": 2,
+      "difficulty": 3,
       "tags": [
-        "entrepreneurship",
-        "finance"
+        "management",
+        "operations",
+        "lean",
+        "problem-solving"
       ]
     }
   },
   {
-    "id": "strat_0136",
-    "term": "Liquidity risk",
-    "definition": "The risk that a company or bank may be unable to meet short term financial demands.",
-    "example": "Selling assets quickly at a loss is a symptom of Liquidity risk.",
+    "id": "strategy_0142",
+    "term": "Catchball Process",
+    "definition": "A collaborative planning method where ideas are 'tossed' back and forth between different levels of an organization to build consensus and alignment.",
+    "example": "Through a catchball process, our department's objectives were refined based on valuable feedback from the frontline employees who would execute them.",
     "metadata": {
-      "difficulty": 2,
+      "difficulty": 3,
       "tags": [
-        "finance",
-        "risk"
+        "management",
+        "strategy",
+        "lean",
+        "planning"
       ]
     }
   },
   {
-    "id": "strat_0137",
-    "term": "Risk landscape",
-    "definition": "The complete view of potential risks that an organization faces.",
-    "example": "The Risk landscape has changed dramatically with the rise of cyber threats.",
+    "id": "strategy_0143",
+    "term": "Strategy Cascade",
+    "definition": "The process of translating high-level corporate strategy into actionable goals and objectives for teams and individuals throughout the organization.",
+    "example": "The CEO led a strategy cascade, ensuring every department understood how their work contributed to the company's five-year vision.",
     "metadata": {
       "difficulty": 2,
       "tags": [
-        "risk management",
+        "strategy",
+        "management",
+        "planning"
+      ]
+    }
+  },
+  {
+    "id": "strategy_0144",
+    "term": "Critical Success Factor",
+    "acronym": "CSF",
+    "definition": "The essential areas of activity that must be performed well for a company or project to achieve its goals.",
+    "example": "For our online store, the critical success factors are website uptime, a secure payment system, and fast shipping.",
+    "metadata": {
+      "difficulty": 2,
+      "tags": [
+        "strategy",
+        "management",
+        "planning",
+        "analysis"
+      ]
+    }
+  },
+  {
+    "id": "strategy_0145",
+    "term": "Gap Analysis",
+    "definition": "A method of assessing the difference between a business's actual performance and its desired performance to identify areas for improvement.",
+    "example": "We conducted a gap analysis to understand why our sales figures were not meeting our initial projections.",
+    "metadata": {
+      "difficulty": 2,
+      "tags": [
+        "strategy",
+        "analysis",
+        "management"
+      ]
+    }
+  },
+  {
+    "id": "strategy_0146",
+    "term": "Route-to-Market Strategy",
+    "acronym": "RTM",
+    "definition": "The plan detailing how a company will deliver its products or services to end customers, including all sales and distribution channels.",
+    "example": "For our new product, we are developing a multi-channel route-to-market strategy that includes direct online sales and partnerships with major retailers.",
+    "metadata": {
+      "difficulty": 2,
+      "tags": [
+        "sales",
+        "marketing",
+        "strategy",
+        "supply chain"
+      ]
+    }
+  },
+  {
+    "id": "strategy_0147",
+    "term": "Value Discipline Model",
+    "definition": "A strategic model suggesting that a company must choose to excel in one of three areas—operational excellence, product leadership, or customer intimacy—to succeed.",
+    "example": "According to the value discipline model, it is better to be a market leader in one area than to be average in all three.",
+    "metadata": {
+      "difficulty": 3,
+      "tags": [
+        "strategy",
+        "management",
+        "marketing"
+      ]
+    }
+  },
+  {
+    "id": "strategy_0148",
+    "term": "Customer Intimacy",
+    "definition": "A strategy focused on precisely tailoring products and services to individual customer needs to build long-term loyalty.",
+    "example": "A private wealth management firm succeeds through customer intimacy, offering highly personalized financial advice.",
+    "metadata": {
+      "difficulty": 1,
+      "tags": [
+        "marketing",
+        "sales",
+        "strategy",
+        "customer service"
+      ]
+    }
+  },
+  {
+    "id": "strategy_0149",
+    "term": "Operational Excellence",
+    "definition": "A strategy focused on providing customers with reliable products at competitive prices and with maximum convenience, driven by efficiency.",
+    "example": "Amazon's business is a prime example of operational excellence, with its focus on low prices and incredibly fast delivery.",
+    "metadata": {
+      "difficulty": 1,
+      "tags": [
+        "operations",
+        "management",
         "strategy"
       ]
     }
   },
   {
-    "id": "strat_0138",
-    "term": "Scouting costs",
-    "definition": "Costs incurred while searching for new business opportunities or resources.",
-    "example": "The Scouting costs for the new mining site were substantial.",
+    "id": "strategy_0150",
+    "term": "Product Leadership",
+    "definition": "A strategy focused on continuously developing innovative, state-of-the-art products or services that lead the market.",
+    "example": "Tesla's strategy is centered on product leadership, aiming to produce the most advanced electric vehicles and technology.",
     "metadata": {
-      "difficulty": 3,
+      "difficulty": 1,
       "tags": [
-        "operations",
-        "development"
+        "innovation",
+        "product development",
+        "marketing",
+        "strategy"
       ]
     }
   },
   {
-    "id": "strat_0139",
-    "term": "Segment assets",
-    "definition": "Those operating assets that are employed by a segment in its operating activities.",
-    "example": "We allocate Segment assets based on the division's revenue contribution.",
-    "metadata": {
-      "difficulty": 3,
-      "tags": [
-        "accounting",
-        "reporting"
-      ]
-    }
-  },
-  {
-    "id": "strat_0140",
-    "term": "Captive market",
-    "definition": "A market where consumers have limited choice and must buy from a specific supplier.",
-    "example": "Airports operate as a Captive market for food and beverages.",
+    "id": "strategy_0151",
+    "term": "Intellectual Property Strategy",
+    "acronym": "IP",
+    "definition": "A plan for managing and protecting a company's intangible assets, such as patents, trademarks, and copyrights, to create a competitive advantage.",
+    "example": "Our intellectual property strategy involves patenting our core technology while keeping the manufacturing process a trade secret.",
     "metadata": {
       "difficulty": 2,
       "tags": [
-        "economics",
-        "sales"
+        "legal",
+        "innovation",
+        "management"
       ]
     }
   },
   {
-    "id": "strat_0141",
-    "term": "Cash flow risk",
-    "definition": "The risk of fluctuations in the amount of cash coming in and going out.",
-    "example": "Seasonal businesses often face high Cash flow risk in the off-season.",
+    "id": "strategy_0152",
+    "term": "Lock-in Effect",
+    "definition": "A situation where a customer is dependent on a vendor for products and services, making it costly or difficult to switch to another supplier.",
+    "example": "The high cost of migrating our data creates a strong lock-in effect with our current cloud provider.",
+    "metadata": {
+      "difficulty": 2,
+      "tags": [
+        "marketing",
+        "economics",
+        "customer relations"
+      ]
+    }
+  },
+  {
+    "id": "strategy_0153",
+    "term": "Brand Equity",
+    "definition": "The commercial value a brand has due to positive consumer perception and name recognition, which is separate from the value of its physical assets.",
+    "example": "Decades of consistent quality have built significant brand equity for Coca-Cola, allowing them to charge a premium.",
+    "metadata": {
+      "difficulty": 1,
+      "tags": [
+        "marketing",
+        "finance",
+        "branding"
+      ]
+    }
+  },
+  {
+    "id": "strategy_0154",
+    "term": "Perceptual Mapping",
+    "definition": "A visual technique used to show the mental picture that customers have of a company's products or brands compared to competitors.",
+    "example": "We used perceptual mapping to see that customers view our brand as reliable but not particularly innovative.",
+    "metadata": {
+      "difficulty": 2,
+      "tags": [
+        "marketing",
+        "market research",
+        "analytics"
+      ]
+    }
+  },
+  {
+    "id": "strategy_0155",
+    "term": "Strategic Positioning",
+    "definition": "The process of creating a distinct and valuable position in the market that sets a company and its products apart from the competition.",
+    "example": "Volvo's strategic positioning has always been centered on being the safest car on the market.",
+    "metadata": {
+      "difficulty": 2,
+      "tags": [
+        "management",
+        "marketing",
+        "competitive strategy"
+      ]
+    }
+  },
+  {
+    "id": "strategy_0156",
+    "term": "Conjoint Analysis",
+    "definition": "A market research technique used to determine how people value different attributes that make up an individual product or service.",
+    "example": "Through conjoint analysis, we learned that our customers prioritize battery life over camera quality in a new phone.",
+    "metadata": {
+      "difficulty": 3,
+      "tags": [
+        "market research",
+        "analytics",
+        "product management"
+      ]
+    }
+  },
+  {
+    "id": "strategy_0157",
+    "term": "Competitive Parity",
+    "definition": "A strategic approach where a company aims to match the resources, offerings, or marketing efforts of its key competitors.",
+    "example": "Instead of trying to innovate, they've adopted a strategy of competitive parity, matching every price drop their rivals make.",
+    "metadata": {
+      "difficulty": 2,
+      "tags": [
+        "competitive strategy",
+        "marketing",
+        "management"
+      ]
+    }
+  },
+  {
+    "id": "strategy_0158",
+    "term": "Last-Mover Advantage",
+    "definition": "The benefit a company can gain by entering a market later than competitors, allowing it to learn from their mistakes and improve upon existing products.",
+    "example": "Facebook gained a last-mover advantage over MySpace by offering a cleaner interface and a better user experience.",
+    "metadata": {
+      "difficulty": 3,
+      "tags": [
+        "competitive strategy",
+        "innovation",
+        "market entry"
+      ]
+    }
+  },
+  {
+    "id": "strategy_0159",
+    "term": "Skunk Works",
+    "definition": "A small, autonomous group within an organization given a high degree of freedom to work on advanced or secret projects.",
+    "example": "Our 'Skunk Works' team is operating outside the main R&D department to develop a breakthrough battery technology.",
+    "metadata": {
+      "difficulty": 3,
+      "tags": [
+        "innovation",
+        "R&D",
+        "management",
+        "idiom"
+      ]
+    }
+  },
+  {
+    "id": "strategy_0160",
+    "term": "Technology S-Curve",
+    "definition": "A model that describes the performance of a technology over time and investment, showing a slow start, rapid growth, and then a plateau.",
+    "example": "The technology S-curve for internal combustion engines is flattening, signaling the need to invest in electric vehicle technology.",
+    "metadata": {
+      "difficulty": 3,
+      "tags": [
+        "innovation",
+        "R&D",
+        "technology"
+      ]
+    }
+  },
+  {
+    "id": "strategy_0161",
+    "term": "First-Principles Thinking",
+    "definition": "The practice of breaking down complex problems into their most basic, fundamental elements and then reassembling them from the ground up.",
+    "example": "Elon Musk used first-principles thinking to challenge the high cost of rockets, starting from the raw material prices of metal.",
+    "metadata": {
+      "difficulty": 3,
+      "tags": [
+        "problem-solving",
+        "innovation",
+        "management"
+      ]
+    }
+  },
+  {
+    "id": "strategy_0162",
+    "term": "Strategic Headroom",
+    "definition": "The potential for a company to grow within its current market or business model before needing a major strategic change.",
+    "example": "With only 10% market penetration in Europe, our company still has plenty of strategic headroom for growth.",
+    "metadata": {
+      "difficulty": 3,
+      "tags": [
+        "management",
+        "growth strategy",
+        "market analysis"
+      ]
+    }
+  },
+  {
+    "id": "strategy_0163",
+    "term": "Bricolage Strategy",
+    "definition": "A strategy of creating solutions and opportunities by using whatever resources are immediately available, rather than waiting for ideal resources.",
+    "example": "As a startup with no funding, we relied on a bricolage strategy, using free software and our personal networks to launch the business.",
+    "metadata": {
+      "difficulty": 3,
+      "tags": [
+        "entrepreneurship",
+        "innovation",
+        "resource management"
+      ]
+    }
+  },
+  {
+    "id": "strategy_0164",
+    "term": "Antifragility",
+    "definition": "A property of systems that grow stronger and more capable when exposed to stressors, shocks, and volatility.",
+    "example": "By diversifying our supply chain across multiple countries, we are building antifragility to better withstand future trade disruptions.",
+    "metadata": {
+      "difficulty": 3,
+      "tags": [
+        "risk management",
+        "resilience",
+        "management"
+      ]
+    }
+  },
+  {
+    "id": "strategy_0165",
+    "term": "Black Swan Event Planning",
+    "definition": "The process of preparing for highly improbable, high-impact events that are beyond the realm of normal expectations.",
+    "example": "Our black swan event planning includes a response strategy for a sudden, complete failure of the global financial system.",
+    "metadata": {
+      "difficulty": 3,
+      "tags": [
+        "risk management",
+        "contingency planning",
+        "management"
+      ]
+    }
+  },
+  {
+    "id": "strategy_0166",
+    "term": "Institutional Voids",
+    "definition": "The absence of reliable market-supporting institutions, such as legal systems, regulatory frameworks, or financial intermediaries, often found in emerging economies.",
+    "example": "The company had to create its own logistics network in the region to overcome the institutional voids in local infrastructure.",
+    "metadata": {
+      "difficulty": 3,
+      "tags": [
+        "global strategy",
+        "emerging markets",
+        "economics"
+      ]
+    }
+  },
+  {
+    "id": "strategy_0167",
+    "term": "Value Proposition Canvas",
+    "acronym": "VPC",
+    "definition": "A strategic tool to ensure a product or service is designed around customer needs and values.",
+    "example": "We used the value proposition canvas to align our software's features with the specific pains and gains of our target users.",
+    "metadata": {
+      "difficulty": 2,
+      "tags": [
+        "product management",
+        "marketing",
+        "customer relations"
+      ]
+    }
+  },
+  {
+    "id": "strategy_0168",
+    "term": "Golden Parachute",
+    "definition": "A large payment or other financial compensation guaranteed to a company executive should they be dismissed as a result of a merger or takeover.",
+    "example": "The CEO's contract includes a golden parachute, making a hostile takeover more expensive for any potential acquirer.",
     "metadata": {
       "difficulty": 2,
       "tags": [
         "finance",
-        "risk"
+        "M&A",
+        "corporate governance"
       ]
     }
   },
   {
-    "id": "strat_0142",
-    "term": "Historical cost",
-    "definition": "The original nominal monetary value of an economic item.",
-    "example": "Land is usually recorded at Historical cost, not current market value.",
-    "metadata": {
-      "difficulty": 2,
-      "tags": [
-        "accounting",
-        "valuation"
-      ]
-    }
-  },
-  {
-    "id": "strat_0143",
-    "term": "Pure audit firm",
-    "definition": "A firm that specializes solely in audit services without offering consulting.",
-    "example": "To avoid conflicts of interest, we chose a Pure audit firm.",
+    "id": "strategy_0169",
+    "term": "Poison Pill Defense",
+    "definition": "A tactic used by a company to make its own stock less attractive to a potential acquirer, thereby discouraging a hostile takeover.",
+    "example": "The board activated a poison pill defense, allowing existing shareholders to buy more shares at a discount if a single investor acquires over 15% of the company.",
     "metadata": {
       "difficulty": 3,
       "tags": [
-        "business services",
-        "ethics"
-      ]
-    }
-  },
-  {
-    "id": "strat_0144",
-    "term": "Audit authority",
-    "definition": "An official body empowered to conduct audits.",
-    "example": "The Audit authority demanded access to all email communications.",
-    "metadata": {
-      "difficulty": 2,
-      "tags": [
-        "governance",
+        "finance",
+        "M&A",
+        "corporate governance",
         "legal"
       ]
     }
   },
   {
-    "id": "strat_0145",
-    "term": "Whole life cost",
-    "definition": "The total cost of ownership over the life of an asset.",
-    "example": "Buying cheap equipment often results in a higher Whole life cost due to repairs.",
+    "id": "strategy_0170",
+    "term": "White Knight Defense",
+    "definition": "A strategy where a 'friendly' company acquires a corporation at risk of being taken over by an undesirable 'hostile' acquirer.",
+    "example": "Facing a hostile bid, the board sought a white knight defense and agreed to be acquired by its long-term strategic partner.",
     "metadata": {
       "difficulty": 3,
       "tags": [
-        "procurement",
-        "finance"
+        "finance",
+        "M&A",
+        "corporate governance"
       ]
     }
   },
   {
-    "id": "strat_0146",
-    "term": "Distinct market",
-    "definition": "A separate and identifiable market segment.",
-    "example": "Luxury SUVs have become a Distinct market from standard off-road vehicles.",
+    "id": "strategy_0171",
+    "term": "Greenmail",
+    "definition": "The practice of buying enough shares in a company to threaten a hostile takeover, forcing the target company to buy back the shares at a premium.",
+    "example": "The activist investor was accused of practicing greenmail after selling his shares back to the company for a quick 30% profit.",
+    "metadata": {
+      "difficulty": 3,
+      "tags": [
+        "finance",
+        "M&A",
+        "corporate governance",
+        "legal"
+      ]
+    }
+  },
+  {
+    "id": "strategy_0172",
+    "term": "Defensive Strategy",
+    "definition": "A set of actions a market leader takes to protect its market share, profitability, and brand position from competitors.",
+    "example": "When a new rival entered the market, our defensive strategy was to lower prices and increase our advertising budget.",
     "metadata": {
       "difficulty": 2,
       "tags": [
+        "competitive strategy",
         "marketing",
-        "segmentation"
+        "management"
       ]
     }
   },
   {
-    "id": "strat_0147",
-    "term": "Retained profit",
-    "definition": "The profit kept in the company rather than paid out as dividends.",
-    "example": "We used Retained profit to finance the new laboratory.",
+    "id": "strategy_0173",
+    "term": "Offensive Strategy",
+    "definition": "A proactive approach where a company actively seeks to gain market share, often by targeting a competitor's weaknesses.",
+    "example": "The company launched an offensive strategy with aggressive discounts to steal customers directly from the market leader.",
+    "metadata": {
+      "difficulty": 2,
+      "tags": [
+        "competitive strategy",
+        "marketing",
+        "management"
+      ]
+    }
+  },
+  {
+    "id": "strategy_0174",
+    "term": "Preemptive Strategy",
+    "definition": "An aggressive action taken to discourage or prevent competitors from starting or continuing a particular course of action.",
+    "example": "By securing exclusive contracts with all major suppliers, we executed a preemptive strategy to block new entrants from the market.",
+    "metadata": {
+      "difficulty": 2,
+      "tags": [
+        "competitive strategy",
+        "management"
+      ]
+    }
+  },
+  {
+    "id": "strategy_0175",
+    "term": "Flanking Strategy",
+    "definition": "A competitive strategy that involves attacking a competitor's weak points or targeting underserved market segments they have neglected.",
+    "example": "Instead of competing on price, we used a flanking strategy by offering a premium service for a niche customer base.",
+    "metadata": {
+      "difficulty": 2,
+      "tags": [
+        "competitive strategy",
+        "marketing"
+      ]
+    }
+  },
+  {
+    "id": "strategy_0176",
+    "term": "Encirclement Strategy",
+    "definition": "A competitive strategy that involves surrounding a competitor by launching a variety of products in different segments of their market.",
+    "example": "The tech giant's encirclement strategy included launching budget, mid-range, and premium phones to challenge its rival on all fronts.",
+    "metadata": {
+      "difficulty": 3,
+      "tags": [
+        "competitive strategy",
+        "marketing"
+      ]
+    }
+  },
+  {
+    "id": "strategy_0177",
+    "term": "Bypass Strategy",
+    "definition": "A strategy that avoids direct confrontation with a competitor by diversifying into unrelated products or new geographical markets.",
+    "example": "Facing intense competition in the US, the company adopted a bypass strategy and focused on expanding into untapped Asian markets.",
+    "metadata": {
+      "difficulty": 2,
+      "tags": [
+        "competitive strategy",
+        "market entry",
+        "growth strategy"
+      ]
+    }
+  },
+  {
+    "id": "strategy_0178",
+    "term": "Guerilla Strategy",
+    "definition": "A competitive strategy where a smaller firm uses unconventional and surprise tactics to attack a larger, more established competitor.",
+    "example": "The startup's guerilla strategy involved a viral social media campaign that caught the industry leader completely off guard.",
+    "metadata": {
+      "difficulty": 2,
+      "tags": [
+        "competitive strategy",
+        "marketing",
+        "entrepreneurship"
+      ]
+    }
+  },
+  {
+    "id": "strategy_0179",
+    "term": "Harvesting Strategy",
+    "definition": "A business strategy of reducing investment in a product or business line to maximize short-term cash flow, often used for products in decline.",
+    "example": "We've decided on a harvesting strategy for our legacy software, cutting all R&D and marketing to extract the remaining profits.",
+    "metadata": {
+      "difficulty": 2,
+      "tags": [
+        "product management",
+        "finance",
+        "management"
+      ]
+    }
+  },
+  {
+    "id": "strategy_0180",
+    "term": "Niche Market Strategy",
+    "definition": "A strategy that concentrates all marketing efforts on a small but specific and well-defined segment of the population.",
+    "example": "Our niche market strategy focuses exclusively on providing high-end, vegan hiking boots for professional climbers.",
+    "metadata": {
+      "difficulty": 1,
+      "tags": [
+        "marketing",
+        "competitive strategy",
+        "entrepreneurship"
+      ]
+    }
+  },
+  {
+    "id": "strategy_0181",
+    "term": "Franchising Strategy",
+    "definition": "A growth strategy where a business (franchisor) grants a license to another party (franchisee) to operate a business using its brand and processes.",
+    "example": "McDonald's global expansion was largely achieved through a successful franchising strategy that allowed for rapid growth.",
+    "metadata": {
+      "difficulty": 1,
+      "tags": [
+        "growth strategy",
+        "business model",
+        "legal"
+      ]
+    }
+  },
+  {
+    "id": "strategy_0182",
+    "term": "Licensing Strategy",
+    "definition": "An agreement where a company allows another to use its intellectual property (like a brand name or patent) in exchange for a fee or royalty.",
+    "example": "Disney's licensing strategy allows other companies to produce merchandise featuring its famous characters, creating a huge revenue stream.",
+    "metadata": {
+      "difficulty": 1,
+      "tags": [
+        "growth strategy",
+        "legal",
+        "intellectual property"
+      ]
+    }
+  },
+  {
+    "id": "strategy_0183",
+    "term": "Global Strategy",
+    "definition": "A strategy where a company treats the entire world as one market, standardizing its products and marketing to achieve economies of scale.",
+    "example": "A global strategy works well for products like luxury watches, which have a similar appeal in most countries.",
+    "metadata": {
+      "difficulty": 2,
+      "tags": [
+        "global strategy",
+        "international business",
+        "management"
+      ]
+    }
+  },
+  {
+    "id": "strategy_0184",
+    "term": "Transnational Strategy",
+    "definition": "A strategy that balances the need for global efficiency with the need for local responsiveness in different national markets.",
+    "example": "A car manufacturer might use a transnational strategy, building a standard engine globally but adapting the car's design for local tastes.",
+    "metadata": {
+      "difficulty": 3,
+      "tags": [
+        "global strategy",
+        "international business",
+        "management"
+      ]
+    }
+  },
+  {
+    "id": "strategy_0185",
+    "term": "Multidomestic Strategy",
+    "definition": "A strategy where a company customizes its products and marketing approach for each country or region in which it operates.",
+    "example": "Nestlé's multidomestic strategy involves offering different food products tailored to local tastes in each country.",
+    "metadata": {
+      "difficulty": 2,
+      "tags": [
+        "global strategy",
+        "international business",
+        "marketing"
+      ]
+    }
+  },
+  {
+    "id": "strategy_0186",
+    "term": "International Strategy",
+    "definition": "A strategy where companies take products first created for their domestic market and sell them internationally with only minimal local customization.",
+    "example": "Many luxury brands pursue an international strategy, leveraging their strong domestic brand reputation to sell the same products abroad.",
+    "metadata": {
+      "difficulty": 2,
+      "tags": [
+        "global strategy",
+        "international business",
+        "market entry"
+      ]
+    }
+  },
+  {
+    "id": "strategy_0187",
+    "term": "Born Global Firm",
+    "definition": "A company that, from its inception, seeks to derive significant competitive advantage from the use of resources and sales in multiple countries.",
+    "example": "As a mobile app developer, they were a born global firm, available on app stores worldwide from day one.",
+    "metadata": {
+      "difficulty": 2,
+      "tags": [
+        "entrepreneurship",
+        "global strategy",
+        "international business"
+      ]
+    }
+  },
+  {
+    "id": "strategy_0188",
+    "term": "Strategic Imperative",
+    "definition": "A critical goal or action that a company must achieve to succeed in the long term, often driving major business decisions.",
+    "example": "Expanding into renewable energy has become a strategic imperative for the oil company to ensure its future viability.",
+    "metadata": {
+      "difficulty": 2,
+      "tags": [
+        "management",
+        "planning",
+        "corporate goals"
+      ]
+    }
+  },
+  {
+    "id": "strategy_0189",
+    "term": "Scenario Funnel",
+    "definition": "A framework used in scenario planning that starts with a broad range of uncertainties and progressively narrows them down to a few plausible future scenarios.",
+    "example": "Using a scenario funnel, we analyzed dozens of market trends and focused our planning on the three most likely outcomes for our industry.",
+    "metadata": {
+      "difficulty": 3,
+      "tags": [
+        "risk management",
+        "planning",
+        "forecasting"
+      ]
+    }
+  },
+  {
+    "id": "strategy_0190",
+    "term": "Wind Tunneling",
+    "definition": "A process of stress-testing a business strategy against various potential scenarios or futures to assess its robustness.",
+    "example": "Before committing to the new business model, we put it through a rigorous wind tunneling exercise against possible economic downturns.",
+    "metadata": {
+      "difficulty": 3,
+      "tags": [
+        "risk management",
+        "planning",
+        "decision-making"
+      ]
+    }
+  },
+  {
+    "id": "strategy_0191",
+    "term": "Portfolio-of-Initiatives",
+    "definition": "A strategic approach that views a company's projects as a collection of investments, balancing high-risk, high-reward initiatives with safer bets.",
+    "example": "Our R&D department manages a portfolio-of-initiatives, ranging from incremental product improvements to speculative long-term research.",
+    "metadata": {
+      "difficulty": 3,
+      "tags": [
+        "innovation",
+        "project management",
+        "risk management"
+      ]
+    }
+  },
+  {
+    "id": "strategy_0192",
+    "term": "Unbundling",
+    "definition": "The process of breaking down a product or service into its separate components, which can then be offered to customers individually.",
+    "example": "The unbundling of cable TV allows customers to subscribe only to the channels they actually want to watch.",
+    "metadata": {
+      "difficulty": 2,
+      "tags": [
+        "business model",
+        "innovation",
+        "product management"
+      ]
+    }
+  },
+  {
+    "id": "strategy_0193",
+    "term": "Rebundling",
+    "definition": "The process of combining existing products or services, often from different sources, into a new, integrated package for the customer.",
+    "example": "Streaming companies are now rebundling, offering packages that include music, video, and gaming for a single monthly fee.",
+    "metadata": {
+      "difficulty": 2,
+      "tags": [
+        "business model",
+        "innovation",
+        "product management"
+      ]
+    }
+  },
+  {
+    "id": "strategy_0194",
+    "term": "Disintermediation",
+    "definition": "The removal of intermediaries in a supply chain or transaction, such as a company selling directly to consumers online instead of through retailers.",
+    "example": "The internet caused the disintermediation of travel agents, as many people now book flights directly with airlines.",
+    "metadata": {
+      "difficulty": 2,
+      "tags": [
+        "business model",
+        "e-commerce",
+        "supply chain"
+      ]
+    }
+  },
+  {
+    "id": "strategy_0195",
+    "term": "Reintermediation",
+    "definition": "The introduction of new types of intermediaries into a transaction or supply chain, often using technology to add value.",
+    "example": "Food delivery apps are a form of reintermediation, adding a new digital middleman between restaurants and customers.",
+    "metadata": {
+      "difficulty": 3,
+      "tags": [
+        "business model",
+        "e-commerce",
+        "supply chain"
+      ]
+    }
+  },
+  {
+    "id": "strategy_0196",
+    "term": "Data-Driven Strategy",
+    "definition": "An approach to business that bases decisions on the analysis and interpretation of data rather than on intuition or observation alone.",
+    "example": "Our marketing team uses a data-driven strategy, optimizing ad campaigns based on real-time performance metrics.",
+    "metadata": {
+      "difficulty": 1,
+      "tags": [
+        "analytics",
+        "management",
+        "decision-making"
+      ]
+    }
+  },
+  {
+    "id": "strategy_0197",
+    "term": "Omni-Channel Strategy",
+    "definition": "A strategy that provides a seamless and integrated customer experience across all channels, including in-store, online, and mobile.",
+    "example": "With our omni-channel strategy, a customer can add an item to their online cart from their laptop and complete the purchase later on their phone.",
+    "metadata": {
+      "difficulty": 2,
+      "tags": [
+        "customer experience",
+        "marketing",
+        "retail",
+        "e-commerce"
+      ]
+    }
+  },
+  {
+    "id": "strategy_0198",
+    "term": "Mergers & Acquisitions",
+    "acronym": "M&A",
+    "definition": "The process of combining two companies into one (merger) or one company buying another (acquisition) to achieve strategic and financial goals.",
+    "example": "Our M&A team is evaluating the potential acquisition of a smaller competitor to expand our market share.",
     "metadata": {
       "difficulty": 2,
       "tags": [
         "finance",
-        "corporate"
+        "corporate strategy",
+        "management"
       ]
     }
   },
   {
-    "id": "strat_0148",
-    "term": "Compliance test",
-    "definition": "A test to determine if controls are being applied in a manner that complies with management policies and procedures.",
-    "example": "The Compliance test showed that safety protocols were being ignored.",
-    "metadata": {
-      "difficulty": 2,
-      "tags": [
-        "audit",
-        "testing"
-      ]
-    }
-  },
-  {
-    "id": "strat_0149",
-    "term": "Physical assets",
-    "definition": "Tangible items of value, such as inventory, machinery, and buildings.",
-    "example": "Physical assets require regular maintenance and insurance.",
+    "id": "strategy_0199",
+    "term": "Key Performance Indicator",
+    "acronym": "KPI",
+    "definition": "A measurable value that demonstrates how effectively a company is achieving its key business objectives.",
+    "example": "One of our main KPIs for the marketing department this quarter is to increase website traffic by 20%.",
     "metadata": {
       "difficulty": 1,
       "tags": [
-        "assets",
-        "operations"
+        "management",
+        "performance",
+        "metrics"
       ]
     }
   },
   {
-    "id": "strat_0150",
-    "term": "Cost allocation",
-    "definition": "The process of identifying, aggregating, and assigning costs to cost objects.",
-    "example": "Proper Cost allocation helps us understand which products are actually profitable.",
+    "id": "strategy_0200",
+    "term": "Objectives and Key Results",
+    "acronym": "OKRs",
+    "definition": "A goal-setting framework that helps companies define ambitious goals (Objectives) and track progress through specific, measurable outcomes (Key Results).",
+    "example": "For our Q3 OKRs, the objective is to 'Improve Customer Satisfaction,' and a key result is to 'achieve a Net Promoter Score of 50'.",
     "metadata": {
       "difficulty": 2,
       "tags": [
-        "accounting",
-        "management"
+        "management",
+        "goal setting",
+        "performance"
+      ]
+    }
+  },
+  {
+    "id": "strategy_0201",
+    "term": "Resource-Based View",
+    "acronym": "RBV",
+    "definition": "A strategic framework suggesting a company's competitive advantage is derived from its unique and hard-to-imitate internal resources and capabilities.",
+    "example": "Using the Resource-Based View, we identified our proprietary algorithm as our key strategic asset that competitors cannot easily replicate.",
+    "metadata": {
+      "difficulty": 3,
+      "tags": [
+        "strategic management",
+        "theory",
+        "competitive advantage"
+      ]
+    }
+  },
+  {
+    "id": "strategy_0202",
+    "term": "Minimum Viable Product",
+    "acronym": "MVP",
+    "definition": "A version of a new product with just enough features to be usable by early customers, who can then provide feedback for future product development.",
+    "example": "Instead of building the full application, the startup launched an MVP to test their core idea with real users and gather initial feedback.",
+    "metadata": {
+      "difficulty": 2,
+      "tags": [
+        "product management",
+        "startups",
+        "agile"
+      ]
+    }
+  },
+  {
+    "id": "strategy_0203",
+    "term": "Customer Lifetime Value",
+    "acronym": "CLV",
+    "definition": "A metric that predicts the total net profit a company can expect from a single customer throughout their entire relationship.",
+    "example": "By focusing on customer retention, we aim to increase the average Customer Lifetime Value by 15% this year.",
+    "metadata": {
+      "difficulty": 2,
+      "tags": [
+        "marketing",
+        "finance",
+        "metrics"
+      ]
+    }
+  },
+  {
+    "id": "strategy_0204",
+    "term": "Economic Value Added",
+    "acronym": "EVA",
+    "definition": "A measure of a company's financial performance based on the value created in excess of the required return of the company's investors.",
+    "example": "The board was pleased that the company generated a positive Economic Value Added, indicating we created true value for our shareholders.",
+    "metadata": {
+      "difficulty": 3,
+      "tags": [
+        "finance",
+        "performance",
+        "metrics"
+      ]
+    }
+  },
+  {
+    "id": "strategy_0205",
+    "term": "Return on Invested Capital",
+    "acronym": "ROIC",
+    "definition": "A profitability ratio that measures how well a company is using its capital to generate profits.",
+    "example": "A high Return on Invested Capital suggests that our management is highly effective at allocating capital to profitable investments.",
+    "metadata": {
+      "difficulty": 3,
+      "tags": [
+        "finance",
+        "investment",
+        "metrics"
+      ]
+    }
+  },
+  {
+    "id": "strategy_0206",
+    "term": "Business Process Reengineering",
+    "acronym": "BPR",
+    "definition": "The fundamental rethinking and radical redesign of business processes to achieve dramatic improvements in performance, such as cost, quality, and speed.",
+    "example": "The company initiated a Business Process Reengineering project to overhaul its outdated supply chain management system.",
+    "metadata": {
+      "difficulty": 2,
+      "tags": [
+        "management",
+        "operations",
+        "transformation"
+      ]
+    }
+  },
+  {
+    "id": "strategy_0207",
+    "term": "Leveraged Buyout",
+    "acronym": "LBO",
+    "definition": "The acquisition of another company using a significant amount of borrowed money to meet the cost of acquisition.",
+    "example": "The private equity firm completed a leveraged buyout of the struggling retail chain, hoping to turn it around and sell it for a profit.",
+    "metadata": {
+      "difficulty": 3,
+      "tags": [
+        "finance",
+        "private equity",
+        "M&A"
+      ]
+    }
+  },
+  {
+    "id": "strategy_0208",
+    "term": "Center of Excellence",
+    "acronym": "CoE",
+    "definition": "A team or entity within an organization that provides leadership, best practices, research, and support for a specific focus area.",
+    "example": "Our new Data Analytics Center of Excellence will help all departments make better, data-driven decisions.",
+    "metadata": {
+      "difficulty": 2,
+      "tags": [
+        "management",
+        "organization",
+        "best practices"
+      ]
+    }
+  },
+  {
+    "id": "strategy_0209",
+    "term": "Critical Success Factor",
+    "acronym": "CSF",
+    "definition": "The essential areas of activity that must be performed well for a business or project to achieve its mission or goals.",
+    "example": "For our new product launch, a key Critical Success Factor is securing distribution agreements with major retailers.",
+    "metadata": {
+      "difficulty": 2,
+      "tags": [
+        "management",
+        "planning",
+        "strategy"
+      ]
+    }
+  },
+  {
+    "id": "strategy_0210",
+    "term": "Mergers & Acquisitions",
+    "acronym": "M&A",
+    "definition": "The consolidation of companies or assets through various financial transactions, including one company buying another (acquisition) or two companies blending into a new entity (merger).",
+    "example": "Our firm's M&A department is exploring the potential acquisition of a smaller competitor to increase our market share.",
+    "metadata": {
+      "difficulty": 2,
+      "tags": [
+        "finance",
+        "strategy",
+        "corporate development"
+      ]
+    }
+  },
+  {
+    "id": "strategy_0211",
+    "term": "Key Performance Indicator",
+    "acronym": "KPI",
+    "definition": "A measurable value that demonstrates how effectively a company is achieving its key business objectives.",
+    "example": "For the sales team, the primary KPI this quarter is to increase new client sign-ups by 10%.",
+    "metadata": {
+      "difficulty": 1,
+      "tags": [
+        "management",
+        "metrics",
+        "performance"
+      ]
+    }
+  },
+  {
+    "id": "strategy_0212",
+    "term": "Objectives and Key Results",
+    "acronym": "OKRs",
+    "definition": "A goal-setting framework used by companies to define ambitious goals (Objectives) and track their outcomes with specific, measurable metrics (Key Results).",
+    "example": "Our company set company-wide OKRs to ensure every department is aligned on the strategic priorities for the year.",
+    "metadata": {
+      "difficulty": 2,
+      "tags": [
+        "management",
+        "goal setting",
+        "framework"
+      ]
+    }
+  },
+  {
+    "id": "strategy_0213",
+    "term": "Resource-Based View",
+    "acronym": "RBV",
+    "definition": "A strategic management model that argues a company's sustainable competitive advantage comes from its unique and hard-to-imitate internal resources.",
+    "example": "Using the Resource-Based View, we identified our patented technology as our core strength that competitors cannot easily replicate.",
+    "metadata": {
+      "difficulty": 3,
+      "tags": [
+        "strategy",
+        "framework",
+        "management theory"
+      ]
+    }
+  },
+  {
+    "id": "strategy_0214",
+    "term": "Minimum Viable Product",
+    "acronym": "MVP",
+    "definition": "A version of a new product which allows a team to collect the maximum amount of validated learning about customers with the least effort.",
+    "example": "We launched an MVP of the app with only core features to test the market demand before investing in full-scale development.",
+    "metadata": {
+      "difficulty": 2,
+      "tags": [
+        "product development",
+        "startups",
+        "agile"
+      ]
+    }
+  },
+  {
+    "id": "strategy_0215",
+    "term": "Customer Lifetime Value",
+    "acronym": "CLV",
+    "definition": "A metric that predicts the total net profit a company can expect to earn from a customer throughout their entire relationship.",
+    "example": "By improving customer service, we hope to increase retention and boost the average Customer Lifetime Value.",
+    "metadata": {
+      "difficulty": 2,
+      "tags": [
+        "marketing",
+        "finance",
+        "metrics"
+      ]
+    }
+  },
+  {
+    "id": "strategy_0216",
+    "term": "Economic Value Added",
+    "acronym": "EVA",
+    "definition": "A measure of a company's financial performance based on the residual wealth calculated by deducting its cost of capital from its operating profit.",
+    "example": "The bonus for senior management is tied to the firm's Economic Value Added to ensure they focus on creating true shareholder wealth.",
+    "metadata": {
+      "difficulty": 3,
+      "tags": [
+        "finance",
+        "metrics",
+        "performance"
+      ]
+    }
+  },
+  {
+    "id": "strategy_0217",
+    "term": "Return on Invested Capital",
+    "acronym": "ROIC",
+    "definition": "A financial ratio used to assess a company's efficiency at allocating the capital under its control to profitable investments.",
+    "example": "A company with a consistently high Return on Invested Capital is often a sign of a strong management team and a durable competitive advantage.",
+    "metadata": {
+      "difficulty": 3,
+      "tags": [
+        "finance",
+        "metrics",
+        "investment"
+      ]
+    }
+  },
+  {
+    "id": "strategy_0218",
+    "term": "Business Process Reengineering",
+    "acronym": "BPR",
+    "definition": "The act of rethinking and redesigning the way work is done to better support an organization's mission and reduce costs.",
+    "example": "We initiated a Business Process Reengineering project to digitize our invoicing system, which dramatically reduced payment processing times.",
+    "metadata": {
+      "difficulty": 2,
+      "tags": [
+        "management",
+        "operations",
+        "process improvement"
+      ]
+    }
+  },
+  {
+    "id": "strategy_0219",
+    "term": "Leveraged Buyout",
+    "acronym": "LBO",
+    "definition": "The acquisition of another company using a significant amount of borrowed money (debt) to meet the cost of acquisition.",
+    "example": "The private equity firm executed a Leveraged Buyout, planning to restructure the company and sell it for a profit in a few years.",
+    "metadata": {
+      "difficulty": 3,
+      "tags": [
+        "finance",
+        "corporate finance",
+        "M&A"
+      ]
+    }
+  },
+  {
+    "id": "strategy_0220",
+    "term": "Center of Excellence",
+    "acronym": "CoE",
+    "definition": "A centralized team or facility that provides leadership, best practices, support, and training for a specific focus area within an organization.",
+    "example": "Our new AI Center of Excellence will help different business units implement machine learning in their operations.",
+    "metadata": {
+      "difficulty": 2,
+      "tags": [
+        "management",
+        "organization",
+        "best practices"
+      ]
+    }
+  },
+  {
+    "id": "strategy_0221",
+    "term": "Critical Success Factor",
+    "acronym": "CSF",
+    "definition": "A key area or activity that must be performed at a high level for an organization or project to achieve its strategic goals.",
+    "example": "For our online retail business, fast and reliable shipping is a Critical Success Factor for customer satisfaction.",
+    "metadata": {
+      "difficulty": 2,
+      "tags": [
+        "strategy",
+        "project management",
+        "planning"
       ]
     }
   }

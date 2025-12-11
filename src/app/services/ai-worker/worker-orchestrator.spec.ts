@@ -3,15 +3,21 @@ import { WorkerOrchestrator, WorkerRequest } from './worker-orchestrator';
 import { TextParser } from './text-parser';
 import { PromptBuilder } from './prompt-builder';
 import { TranslationService } from './translation-service';
-import * as AIPipelines from './ai-pipelines';
 
-// Mock the @huggingface/transformers module
-vi.mock('@huggingface/transformers', () => ({
-  pipeline: vi.fn(),
-  env: {
-    allowLocalModels: false
+// Mock the entire ai-pipelines module to return mock factories
+vi.mock('./ai-pipelines', () => ({
+  TextGenerationPipelineFactory: {
+    getInstance: vi.fn(),
+    instance: undefined
+  },
+  TranslationPipelineFactory: {
+    getInstance: vi.fn(),
+    instance: undefined
   }
 }));
+
+// Import after mocking
+import * as AIPipelines from './ai-pipelines';
 
 
 
@@ -31,16 +37,13 @@ describe('WorkerOrchestrator', () => {
 
   describe('handleMessage', () => {
     it('should handle successful message processing', async () => {
-      const { pipeline } = await import('@huggingface/transformers');
-
       const mockGenerator = vi.fn().mockResolvedValue([{
         generated_text: 'Difficulty: beginner\nVocabulary: test\nSentence: Test sentence'
       }]);
 
-      (pipeline as any).mockImplementation((task: string) => {
-        if (task === 'text-generation') return mockGenerator;
-        return undefined;
-      });
+      // Mock the getInstance method directly
+      vi.spyOn(AIPipelines.TextGenerationPipelineFactory, 'getInstance').mockResolvedValue(mockGenerator as any);
+      vi.spyOn(AIPipelines.TranslationPipelineFactory, 'getInstance').mockResolvedValue(vi.fn() as any); // Mock translation pipeline
 
       vi.spyOn(PromptBuilder, 'buildPrompt').mockReturnValue([
         { role: "system", content: "You are an expert English teacher." },
@@ -68,14 +71,8 @@ describe('WorkerOrchestrator', () => {
     });
 
     it('should handle errors during processing', async () => {
-      const { pipeline } = await import('@huggingface/transformers');
-
-      // Mock the pipeline to throw an error during generation
       const mockGenerator = vi.fn().mockRejectedValue(new Error('Pipeline error'));
-      (pipeline as any).mockImplementation((task: string) => {
-        if (task === 'text-generation') return mockGenerator;
-        return undefined;
-      });
+      vi.spyOn(AIPipelines.TextGenerationPipelineFactory, 'getInstance').mockResolvedValue(mockGenerator as any);
 
       // Mock the prompt builder to return valid prompt
       vi.spyOn(PromptBuilder, 'buildPrompt').mockReturnValue([
@@ -96,14 +93,8 @@ describe('WorkerOrchestrator', () => {
     });
 
     it('should handle non-Error exceptions', async () => {
-      const { pipeline } = await import('@huggingface/transformers');
-
-      // Mock the pipeline to throw a non-Error exception during generation
       const mockGenerator = vi.fn().mockRejectedValue('String error');
-      (pipeline as any).mockImplementation((task: string) => {
-        if (task === 'text-generation') return mockGenerator;
-        return undefined;
-      });
+      vi.spyOn(AIPipelines.TextGenerationPipelineFactory, 'getInstance').mockResolvedValue(mockGenerator as any);
 
       // Mock the prompt builder to return valid prompt
       vi.spyOn(PromptBuilder, 'buildPrompt').mockReturnValue([
@@ -124,21 +115,18 @@ describe('WorkerOrchestrator', () => {
     });
 
     it('should send progress messages during generation', async () => {
-      const { pipeline } = await import('@huggingface/transformers');
-
       const mockGenerator = vi.fn().mockResolvedValue([{
         generated_text: 'Difficulty: beginner\nVocabulary: test\nSentence: Test sentence'
       }]);
 
-      (pipeline as any).mockImplementation((task: string, model: string, options: any) => {
-        if (task === 'text-generation') {
-          if (options?.progress_callback) {
-            options.progress_callback({ step: 'generating', progress: 50 });
-          }
-          return mockGenerator;
+      vi.spyOn(AIPipelines.TextGenerationPipelineFactory, 'getInstance').mockImplementation(async (progressCallback: any) => {
+        if (progressCallback) {
+          progressCallback({ step: 'generating', progress: 50 });
         }
-        return undefined;
+        return mockGenerator as any;
       });
+
+      vi.spyOn(AIPipelines.TranslationPipelineFactory, 'getInstance').mockResolvedValue(vi.fn() as any); // Mock translation pipeline
 
       vi.spyOn(PromptBuilder, 'buildPrompt').mockReturnValue([
         { role: "system", content: "You are an expert English teacher." },

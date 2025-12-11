@@ -15,6 +15,7 @@ export class FlashcardComponent {
   store = inject(GameStore);
   languageService = inject(LanguageService);
   isFlipped = signal(false);
+  hasBeenFlipped = signal(false);
 
   // Inputs for when used in CardRenderer
   frontText = input<string>();
@@ -30,7 +31,7 @@ export class FlashcardComponent {
     const field = config.layout.dataMap.primary;
     if (field === 'english') {
       return 'English';
-    } else if (field !== 'contextSentence' && field !== 'translation') {
+    } else if (this.isLanguageField(field)) {
       const langCode = this.mapFieldToLanguageCode(field);
       return this.languageService.getLanguageDisplayName(langCode);
     }
@@ -45,7 +46,7 @@ export class FlashcardComponent {
     const field = config.layout.dataMap.primary;
     if (field === 'english') {
       return card.english;
-    } else if (field !== 'contextSentence' && field !== 'translation') {
+    } else if (field !== 'example' && field !== 'translation') {
       // For native language fields, get the translation
       return card.translations[field] || '';
     }
@@ -59,7 +60,7 @@ export class FlashcardComponent {
     const field = config.layout.dataMap.secondary;
     if (field === 'english') {
       return 'English';
-    } else if (field !== 'contextSentence' && field !== 'translation') {
+    } else if (this.isLanguageField(field)) {
       const langCode = this.mapFieldToLanguageCode(field);
       return this.languageService.getLanguageDisplayName(langCode);
     }
@@ -74,7 +75,7 @@ export class FlashcardComponent {
     const field = config.layout.dataMap.secondary;
     if (field === 'english') {
       return card.english;
-    } else if (field !== 'contextSentence' && field !== 'translation') {
+    } else if (field !== 'example' && field !== 'translation') {
       // For native language fields, get the translation
       return card.translations[field] || '';
     }
@@ -89,21 +90,17 @@ export class FlashcardComponent {
     const config = this.store.currentRoundConfig();
     if (!card || !config) return '';
 
-    // Determine the language based on the back-side field
     const field = config.layout.dataMap.secondary;
-    let langCode = 'en'; // default to English
 
+    // For English, use the direct definition property
     if (field === 'english') {
-      langCode = 'en';
-    } else if (field !== 'contextSentence' && field !== 'translation') {
-      // For native language fields, map to language code
-      langCode = this.mapFieldToLanguageCode(field);
+      return card.definition || '';
+    } else if (field !== 'example' && field !== 'translation') {
+      // For native language fields, get the translated definition if available
+      return card.translations[`definition_${field}`] || card.definition || '';
     }
 
-    // Get definition based on language code
-    // Expected keys: definition_english, definition_polish, definition_spanish, etc.
-    const definitionKey = `definition_${langCode}`;
-    return (card.translations as Record<string, string>)[definitionKey] || '';
+    return card.definition || '';
   });
 
   textSizeClass = computed(() => {
@@ -123,10 +120,19 @@ export class FlashcardComponent {
 
   flip() {
     this.isFlipped.update(v => !v);
+    this.hasBeenFlipped.set(true);
   }
 
   resetFlip() {
     this.isFlipped.set(false);
+    this.hasBeenFlipped.set(false);
+  }
+
+  /**
+   * Checks if a field is a language field
+   */
+  private isLanguageField(field: string): boolean {
+    return ['polish', 'spanish', 'german', 'french'].includes(field);
   }
 
   /**

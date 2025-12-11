@@ -1,0 +1,1202 @@
+[
+  {
+    "id": "technology_0001",
+    "term": "Arquitectura de Microservicios",
+    "acronym": null,
+    "definition": "Una técnica de desarrollo de software que organiza una aplicación como una colección de servicios débilmente acoplados.",
+    "example": "Pasar a una arquitectura de microservicios permitió al equipo actualizar el sistema de pago sin interrumpir la interfaz de usuario.",
+    "reviewed": true
+  },
+  {
+    "id": "technology_0002",
+    "term": "Computación sin Servidor",
+    "acronym": null,
+    "definition": "Un modelo de ejecución de computación en la nube donde el proveedor de la nube ejecuta el servidor y gestiona dinámicamente la asignación de recursos de máquina.",
+    "example": "Al adoptar la computación sin servidor, solo pagamos por el tiempo de cómputo que realmente usamos en lugar de mantener servidores inactivos.",
+    "reviewed": true
+  },
+  {
+    "id": "technology_0003",
+    "term": "Containerización",
+    "acronym": null,
+    "definition": "El proceso de empaquetar el código de software con todos sus componentes necesarios, como bibliotecas y dependencias, para que se ejecute de manera consistente en cualquier infraestructura.",
+    "example": "La containerización ha simplificado nuestro proceso de despliegue, asegurando que la aplicación funcione igual en el portátil de un desarrollador que en producción.",
+    "reviewed": true
+  },
+  {
+    "id": "technology_0004",
+    "term": "Orquestación",
+    "acronym": null,
+    "definition": "La configuración, coordinación y gestión automatizada de sistemas informáticos y software.",
+    "example": "Usamos herramientas de orquestación para gestionar los miles de contenedores que ejecutan nuestra plataforma global de comercio electrónico.",
+    "reviewed": true
+  },
+  {
+    "id": "technology_0005",
+    "term": "Integración Continua",
+    "acronym": "CI",
+    "definition": "La práctica de automatizar la integración de los cambios de código de múltiples colaboradores en un único proyecto de software.",
+    "example": "Implementar la integración continua nos ayuda a detectar errores de forma temprana, ya que el código se prueba en cuanto se integra.",
+    "reviewed": true
+  },
+  {
+    "id": "technology_0006",
+    "term": "Despliegue Continuo",
+    "acronym": "CD",
+    "definition": "Una estrategia en la que los cambios de código de una aplicación se liberan automáticamente en el entorno de producción.",
+    "example": "Con el Despliegue Continuo, podemos lanzar nuevas funcionalidades a nuestros clientes varias veces al día.",
+    "reviewed": true
+  },
+  {
+    "id": "technology_0007",
+    "term": "Infraestructura como Código",
+    "acronym": "IaC",
+    "definition": "El proceso de gestionar y aprovisionar centros de datos informáticos mediante archivos de definición legibles por máquina en lugar de la configuración física de hardware.",
+    "example": "Usar Infraestructura como Código nos permite reconstruir todo nuestro entorno de servidores en minutos si ocurre un desastre.",
+    "reviewed": true
+  },
+  {
+    "id": "technology_0008",
+    "term": "DevSecOps",
+    "acronym": null,
+    "definition": "Una filosofía de integrar prácticas de seguridad dentro del proceso DevOps desde el inicio del ciclo de vida del desarrollo de software.",
+    "example": "Adoptar DevSecOps asegura que las vulnerabilidades de seguridad se aborden durante el desarrollo en lugar de después del lanzamiento del producto.",
+    "reviewed": true
+  },
+  {
+    "id": "technology_0009",
+    "term": "Seguridad de Confianza Cero",
+    "acronym": null,
+    "definition": "Un modelo de seguridad que requiere que todos los usuarios, ya sea dentro o fuera de la red de la organización, sean autenticados y autorizados antes de acceder a los datos.",
+    "example": "En la era del trabajo remoto, implementamos la Seguridad de Confianza Cero para asegurar que no se confíe en ningún dispositivo por defecto.",
+    "reviewed": true
+  },
+  {
+    "id": "technology_0010",
+    "term": "Gestión de Identidad y Acceso",
+    "acronym": "IAM",
+    "definition": "Un marco de políticas y tecnologías para asegurar que los usuarios correctos tengan el acceso apropiado a los recursos tecnológicos.",
+    "example": "El departamento de TI actualizó nuestros protocolos de Gestión de Identidad y Acceso para evitar que antiguos empleados accedan a las bases de datos de la empresa.",
+    "reviewed": true
+  },
+  {
+    "id": "technology_0011",
+    "term": "Pruebas de Penetración",
+    "acronym": null,
+    "definition": "Un ciberataque simulado contra un sistema informático para verificar vulnerabilidades explotables.",
+    "example": "Contratamos a una firma para realizar pruebas de penetración y así asegurar que nuestra aplicación bancaria esté protegida contra hackers.",
+    "reviewed": true
+  },
+  {
+    "id": "technology_0012",
+    "term": "Blockchain",
+    "acronym": null,
+    "definition": "Un sistema para registrar información de una manera que hace difícil o imposible cambiar, hackear o engañar al sistema.",
+    "example": "La empresa de logística utiliza blockchain para crear un registro inalterable del recorrido de la cadena de suministro.",
+    "reviewed": true
+  },
+  {
+    "id": "technology_0013",
+    "term": "Contratos Inteligentes",
+    "acronym": null,
+    "definition": "Contratos autoejecutables en los que los términos del acuerdo entre comprador y vendedor están escritos directamente en líneas de código.",
+    "example": "Mediante contratos inteligentes, los pagos por regalías se envían automáticamente a los artistas en el momento en que se reproduce su música.",
+    "reviewed": true
+  },
+  {
+    "id": "technology_0014",
+    "term": "Token no Fungible",
+    "acronym": "NFT",
+    "definition": "Un identificador digital único que no puede ser copiado, sustituido o subdividido, que se registra en una cadena de bloques (blockchain).",
+    "example": "La marca lanzó una colección exclusiva de tokens no fungibles para aumentar la interacción digital con los clientes más jóvenes.",
+    "reviewed": true
+  },
+  {
+    "id": "technology_0015",
+    "term": "Finanzas Descentralizadas",
+    "acronym": "DeFi",
+    "definition": "Tecnología financiera basada en registros distribuidos seguros similares a los utilizados por las criptomonedas.",
+    "example": "Las aplicaciones de finanzas descentralizadas están permitiendo a los usuarios prestar y pedir dinero prestado sin pasar por un banco tradicional.",
+    "reviewed": true
+  },
+  {
+    "id": "technology_0016",
+    "term": "Aprendizaje Automático",
+    "acronym": null,
+    "definition": "Una rama de la inteligencia artificial y la informática que se enfoca en el uso de datos y algoritmos para imitar la forma en que los humanos aprenden.",
+    "example": "Nuestro motor de recomendaciones utiliza el aprendizaje automático para sugerir productos basados en las compras anteriores de un cliente.",
+    "reviewed": true
+  },
+  {
+    "id": "technology_0017",
+    "term": "Aprendizaje Profundo",
+    "acronym": null,
+    "definition": "Un subconjunto del aprendizaje automático basado en redes neuronales artificiales en el que se utilizan múltiples capas de procesamiento para extraer características de un nivel cada vez más alto de los datos.",
+    "example": "El aprendizaje profundo es la tecnología detrás de los sistemas de reconocimiento de voz en nuestros asistentes virtuales.",
+    "reviewed": true
+  },
+  {
+    "id": "technology_0018",
+    "term": "Procesamiento del Lenguaje Natural",
+    "acronym": "PLN",
+    "definition": "Una rama de la IA que ayuda a las computadoras a comprender, interpretar y manipular el lenguaje humano.",
+    "example": "Utilizamos el procesamiento del lenguaje natural para analizar el sentimiento en miles de opiniones de clientes.",
+    "reviewed": true
+  },
+  {
+    "id": "technology_0019",
+    "term": "Visión por Computadora",
+    "acronym": null,
+    "definition": "Un campo de la inteligencia artificial que permite a las computadoras y sistemas derivar información significativa de imágenes y videos digitales.",
+    "example": "La planta de fabricación utiliza la visión por computadora para detectar automáticamente defectos en los productos en la línea de montaje.",
+    "reviewed": true
+  },
+  {
+    "id": "technology_0020",
+    "term": "Análisis Predictivo",
+    "acronym": null,
+    "definition": "El uso de datos, algoritmos estadísticos y técnicas de aprendizaje automático para identificar la probabilidad de resultados futuros basados en datos históricos.",
+    "example": "Los minoristas utilizan el análisis predictivo para determinar cuánto inventario almacenar antes de la temporada navideña.",
+    "reviewed": true
+  },
+  {
+    "id": "technology_0021",
+    "term": "Lago de Datos",
+    "acronym": null,
+    "definition": "Un repositorio centralizado que permite almacenar todos sus datos estructurados y no estructurados a cualquier escala.",
+    "example": "En lugar de filtrar los datos primero, lo vertemos todo en un lago de datos para que los científicos de datos puedan explorarlo más tarde.",
+    "reviewed": true
+  },
+  {
+    "id": "technology_0022",
+    "term": "Almacenamiento de Datos",
+    "acronym": null,
+    "definition": "El proceso de recopilar y gestionar datos de diversas fuentes para proporcionar información empresarial significativa, generalmente involucrando datos estructurados.",
+    "example": "Nuestra solución de almacenamiento de datos organiza los informes de ventas de todas las regiones en un único formato consultable.",
+    "reviewed": true
+  },
+  {
+    "id": "technology_0023",
+    "term": "Inteligencia de Negocio",
+    "acronym": "BI",
+    "definition": "Estrategias y tecnologías utilizadas por las empresas para el análisis de datos de información comercial.",
+    "example": "El CEO confía en un panel de Inteligencia de Negocio para monitorear los KPI en tiempo real y el crecimiento de los ingresos.",
+    "reviewed": true
+  },
+  {
+    "id": "technology_0024",
+    "term": "Gemelo Digital",
+    "acronym": null,
+    "definition": "Un modelo virtual diseñado para reflejar con precisión un objeto físico, permitiendo la simulación y las pruebas.",
+    "example": "Los ingenieros crearon un gemelo digital del motor a reacción para predecir las necesidades de mantenimiento sin sacar el avión de servicio.",
+    "reviewed": true
+  },
+  {
+    "id": "technology_0025",
+    "term": "Edge Computing",
+    "acronym": null,
+    "definition": "Un marco de computación distribuida que acerca las aplicaciones empresariales a las fuentes de datos, como dispositivos IoT o servidores locales en el borde.",
+    "example": "Los vehículos autónomos dependen del edge computing para procesar datos de la carretera al instante sin esperar una respuesta de un servidor en la nube.",
+    "reviewed": true
+  },
+  {
+    "id": "technology_0026",
+    "term": "Fog Computing",
+    "acronym": null,
+    "definition": "Una infraestructura que conecta la nube y los dispositivos de borde, actuando como un puente para procesar datos más cerca de donde se crean.",
+    "example": "El fog computing ayuda a reducir el ancho de banda necesario para transmitir datos desde los sensores de nuestra fábrica a la nube central.",
+    "reviewed": true
+  },
+  {
+    "id": "technology_0027",
+    "term": "Internet de las Cosas",
+    "acronym": "IoT",
+    "definition": "Una red de objetos físicos equipados con sensores y software con el fin de conectar e intercambiar datos con otros dispositivos a través de internet.",
+    "example": "Nuestra oficina inteligente utiliza sensores IoT para ajustar la iluminación y la temperatura según la ocupación.",
+    "reviewed": true
+  },
+  {
+    "id": "technology_0028",
+    "term": "Conectividad 5G",
+    "acronym": null,
+    "definition": "El estándar tecnológico de quinta generación para redes celulares de banda ancha, que ofrece velocidades más rápidas y menor latencia.",
+    "example": "El despliegue de la conectividad 5G permitirá la transmisión de video de alta definición en dispositivos móviles sin interrupciones.",
+    "reviewed": true
+  },
+  {
+    "id": "technology_0029",
+    "term": "Computación Cuántica",
+    "acronym": null,
+    "definition": "Un tipo de computación que utiliza los principios de la mecánica cuántica para realizar operaciones sobre datos significativamente más rápido que las computadoras tradicionales.",
+    "example": "Las compañías farmacéuticas están investigando la computación cuántica para modelar estructuras moleculares complejas para nuevos medicamentos.",
+    "reviewed": true
+  },
+  {
+    "id": "technology_0030",
+    "term": "Realidad Aumentada",
+    "acronym": "RA",
+    "definition": "Una experiencia interactiva donde los entornos del mundo real se mejoran con información perceptual generada por computadora.",
+    "example": "La aplicación de la tienda de muebles utiliza la Realidad Aumentada para permitirte ver cómo se vería un sofá en tu sala de estar.",
+    "reviewed": true
+  },
+  {
+    "id": "technology_0031",
+    "term": "Realidad Virtual",
+    "acronym": "RV",
+    "definition": "Una experiencia simulada que puede ser similar o completamente diferente al mundo real, que generalmente requiere un casco o visor.",
+    "example": "Utilizamos la Realidad Virtual para capacitar a los empleados en procedimientos de seguridad en entornos peligrosos sin riesgo real.",
+    "reviewed": true
+  },
+  {
+    "id": "technology_0032",
+    "term": "Realidad Mixta",
+    "acronym": "RM",
+    "definition": "La fusión de mundos reales y virtuales para producir nuevos entornos donde los objetos físicos y digitales coexisten e interactúan en tiempo real.",
+    "example": "Los diseñadores usan cascos de Realidad Mixta para manipular modelos holográficos 3D mientras siguen viendo a sus colegas en la sala.",
+    "reviewed": true
+  },
+  {
+    "id": "technology_0033",
+    "term": "Software como Servicio",
+    "acronym": "SaaS",
+    "definition": "Un modelo de licencia y entrega de software en el que el software se licencia por suscripción y se aloja de forma centralizada.",
+    "example": "En lugar de comprar licencias costosas, la startup utiliza herramientas SaaS como Slack y Zoom para colaborar.",
+    "reviewed": true
+  },
+  {
+    "id": "technology_0034",
+    "term": "Plataforma como Servicio",
+    "acronym": "PaaS",
+    "definition": "Un modelo de computación en la nube donde un proveedor externo entrega herramientas de hardware y software a los usuarios a través de internet, específicamente para el desarrollo de aplicaciones.",
+    "example": "Los desarrolladores utilizan soluciones PaaS para crear aplicaciones rápidamente sin preocuparse de mantener los sistemas operativos subyacentes.",
+    "reviewed": true
+  },
+  {
+    "id": "technology_0035",
+    "term": "Infraestructura como Servicio",
+    "acronym": "IaaS",
+    "definition": "Una forma de computación en la nube que proporciona recursos informáticos virtualizados a través de internet.",
+    "example": "Cambiamos a IaaS para alquilar servidores y espacio de almacenamiento bajo demanda en lugar de construir nuestro propio centro de datos.",
+    "reviewed": true
+  },
+  {
+    "id": "technology_0036",
+    "term": "Producto Mínimo Viable",
+    "acronym": "MVP",
+    "definition": "Una versión de un producto con las características suficientes para ser utilizable por los primeros clientes, quienes pueden proporcionar comentarios para el desarrollo futuro del producto.",
+    "example": "Lanzamos un MVP para probar el interés del mercado antes de invertir en el conjunto completo de funcionalidades.",
+    "reviewed": true
+  },
+  {
+    "id": "technology_0037",
+    "term": "Deuda Técnica",
+    "acronym": null,
+    "definition": "El coste implícito del retrabajo futuro causado por elegir una solución fácil ahora en lugar de un mejor enfoque que tomaría más tiempo.",
+    "example": "Apresurar el lanzamiento generó una deuda técnica significativa que el equipo de ingeniería tendrá que solucionar el próximo trimestre.",
+    "reviewed": true
+  },
+  {
+    "id": "technology_0038",
+    "term": "Escalabilidad",
+    "acronym": null,
+    "definition": "La medida de la capacidad de un sistema para aumentar o disminuir su rendimiento y coste en respuesta a los cambios en las demandas de procesamiento de la aplicación y el sistema.",
+    "example": "La startup eligió un proveedor en la nube conocido por su alta escalabilidad para manejar picos repentinos en el tráfico de usuarios.",
+    "reviewed": true
+  },
+  {
+    "id": "technology_0039",
+    "term": "Alta Disponibilidad",
+    "acronym": "HA",
+    "definition": "Una característica de un sistema que tiene como objetivo asegurar un nivel acordado de rendimiento operativo, generalmente el tiempo de actividad, durante un período superior al normal.",
+    "example": "Nuestro sistema bancario requiere alta disponibilidad porque cualquier tiempo de inactividad impide que los clientes accedan a sus fondos.",
+    "reviewed": true
+  },
+  {
+    "id": "technology_0040",
+    "term": "Recuperación ante Desastres",
+    "acronym": null,
+    "definition": "Un conjunto de políticas, herramientas y procedimientos para permitir la recuperación o continuación de la infraestructura y sistemas tecnológicos vitales después de un desastre natural o provocado por el hombre.",
+    "example": "El reciente corte de energía puso a prueba nuestro plan de recuperación ante desastres, y volvimos a estar en línea en una hora.",
+    "reviewed": true
+  },
+  {
+    "id": "technology_0041",
+    "term": "Latencia",
+    "acronym": null,
+    "definition": "El retraso antes de que comience una transferencia de datos después de una instrucción para su transferencia.",
+    "example": "La baja latencia es fundamental para el trading de alta frecuencia, donde los milisegundos pueden significar millones de dólares.",
+    "reviewed": true
+  },
+  {
+    "id": "technology_0042",
+    "term": "Rendimiento",
+    "acronym": null,
+    "definition": "La cantidad de datos movidos con éxito de un lugar a otro en un período de tiempo determinado.",
+    "example": "La actualización de los cables de red aumentó significativamente el rendimiento del sistema, acelerando las transferencias de archivos grandes.",
+    "reviewed": true
+  },
+  {
+    "id": "technology_0043",
+    "term": "Economía de API",
+    "acronym": null,
+    "definition": "Un modelo de negocio en el que las empresas exponen sus activos o servicios digitales a través de Interfaces de Programación de Aplicaciones (API) para generar valor.",
+    "example": "Stripe y Twilio son excelentes ejemplos de la economía de API, pues han creado negocios multimillonarios al permitir que los desarrolladores integren pagos y mensajería con facilidad.",
+    "reviewed": true
+  },
+  {
+    "id": "technology_0044",
+    "term": "Arquitectura Headless",
+    "acronym": null,
+    "definition": "Un concepto donde la capa de presentación frontal (frontend) de un sitio web se separa de la funcionalidad del backend.",
+    "example": "Una arquitectura headless nos permite usar la misma base de datos de contenido para alimentar tanto nuestro sitio web como nuestra aplicación móvil.",
+    "reviewed": true
+  },
+  {
+    "id": "technology_0045",
+    "term": "Dark Data",
+    "acronym": null,
+    "definition": "Activos de información que las organizaciones recopilan, procesan y almacenan durante sus actividades comerciales habituales, pero que generalmente no utilizan para otros fines.",
+    "example": "Estamos utilizando IA para analizar nuestros dark data, como los antiguos registros del servidor, para encontrar patrones de eficiencia ocultos.",
+    "reviewed": true
+  },
+  {
+    "id": "technology_0046",
+    "term": "Automatización Robótica de Procesos",
+    "acronym": "RPA",
+    "definition": "Una tecnología que permite a cualquiera configurar software informático, o un 'robot', para emular las acciones de un humano que interactúa con sistemas digitales para ejecutar un proceso de negocio.",
+    "example": "Implementamos la Automatización Robótica de Procesos para gestionar las tareas de introducción de datos, lo que permitió al personal centrarse en el servicio al cliente.",
+    "reviewed": true
+  },
+  {
+    "id": "technology_0047",
+    "term": "IA Generativa",
+    "acronym": "IA",
+    "definition": "Un tipo de tecnología de inteligencia artificial que puede producir diversos tipos de contenido, incluyendo texto, imágenes, audio y datos sintéticos.",
+    "example": "El equipo de marketing utiliza la IA Generativa para generar ideas para publicaciones de blog y redactar borradores para redes sociales.",
+    "reviewed": true
+  },
+  {
+    "id": "technology_0048",
+    "term": "Transformación Digital",
+    "acronym": null,
+    "definition": "La adopción de tecnología digital por parte de una organización para digitalizar productos, servicios u operaciones no digitales.",
+    "example": "Nuestra estrategia de transformación digital implica pasar de los registros en papel a un sistema de gestión completamente basado en la nube.",
+    "reviewed": true
+  },
+  {
+    "id": "technology_0049",
+    "term": "Diseño de Experiencia de Usuario",
+    "acronym": "UX",
+    "definition": "El proceso de diseñar productos que proporcionen experiencias significativas y relevantes a los usuarios.",
+    "example": "Un buen diseño de experiencia de usuario asegura que los clientes puedan encontrar lo que quieren en nuestro sitio web sin frustrarse.",
+    "reviewed": true
+  },
+  {
+    "id": "technology_0050",
+    "term": "Estrategia Omnicanal",
+    "acronym": null,
+    "definition": "Una estrategia de contenido que integra varios canales para mejorar la experiencia del usuario y fomentar mejores relaciones a través de los diferentes puntos de contacto.",
+    "example": "Una estrategia omnicanal efectiva asegura que un cliente reciba el mismo precio y servicio ya sea que compre a través de la aplicación, el sitio web o en la tienda.",
+    "reviewed": true
+  },
+  {
+    "id": "technology_0051",
+    "term": "Arquitectura orientada a eventos",
+    "acronym": null,
+    "definition": "Un patrón de diseño de software donde los servicios se comunican produciendo y consumiendo eventos, lo que permite que los sistemas estén débilmente acoplados y sean altamente escalables.",
+    "example": "Estamos usando una arquitectura orientada a eventos para que, cuando se realiza un nuevo pedido, nuestros servicios de inventario, envío y notificaciones puedan reaccionar de forma independiente y en tiempo real.",
+    "reviewed": true
+  },
+  {
+    "id": "technology_0052",
+    "term": "Diseño guiado por el dominio",
+    "acronym": "DDD",
+    "definition": "Un enfoque para el desarrollo de software que se centra en modelar el software para que coincida con un dominio de negocio específico y su lógica compleja.",
+    "example": "Al aplicar el diseño guiado por el dominio, nuestro código para el módulo de 'reclamaciones de seguros' ahora refleja con precisión las complejas reglas y procesos que siguen nuestros agentes.",
+    "reviewed": true
+  },
+  {
+    "id": "technology_0053",
+    "term": "Segregación de responsabilidad de comando y consulta",
+    "acronym": "CQRS",
+    "definition": "Un patrón de arquitectura que separa los modelos utilizados para leer datos (consultas) de los modelos utilizados para actualizar datos (comandos).",
+    "example": "Implementamos la segregación de responsabilidad de comando y consulta (CQRS) para optimizar nuestra aplicación; el lado de lectura está construido para paneles de alta velocidad, mientras que el lado de escritura está diseñado para la integridad transaccional.",
+    "reviewed": true
+  },
+  {
+    "id": "technology_0054",
+    "term": "Gateway de API",
+    "acronym": null,
+    "definition": "Una herramienta de gestión que actúa como un punto de entrada único para todas las solicitudes de los clientes, enrutándolas a los microservicios de backend apropiados.",
+    "example": "Nuestra aplicación móvil realiza todas sus solicitudes a un único gateway de API, que se encarga de la seguridad y el balanceo de carga para nuestras docenas de servicios internos.",
+    "reviewed": true
+  },
+  {
+    "id": "technology_0055",
+    "term": "Malla de servicios",
+    "acronym": null,
+    "definition": "Una capa de infraestructura dedicada para gestionar la comunicación entre servicios en una arquitectura de microservicios, encargándose de tareas como la gestión del tráfico, la seguridad y la observabilidad.",
+    "example": "Al implementar una malla de servicios, nuestro equipo de DevOps puede controlar cómo se comunican los microservicios sin cambiar ningún código de la aplicación.",
+    "reviewed": true
+  },
+  {
+    "id": "technology_0056",
+    "term": "Banderas de características",
+    "acronym": null,
+    "definition": "Una técnica que permite a los desarrolladores activar o desactivar ciertas funcionalidades de una aplicación de forma remota sin necesidad de desplegar nuevo código.",
+    "example": "Utilizamos banderas de características para lanzar el nuevo diseño de pago solo al 10 % de los usuarios, lo que nos permitió probarlo antes de un despliegue completo.",
+    "reviewed": true
+  },
+  {
+    "id": "technology_0057",
+    "term": "Desarrollo guiado por pruebas",
+    "acronym": "TDD",
+    "definition": "Un proceso de desarrollo de software donde los desarrolladores escriben pruebas automatizadas para una funcionalidad antes de escribir el código real para implementarla.",
+    "example": "Nuestro equipo practica el desarrollo guiado por pruebas, lo que resulta en una mayor calidad del código y menos errores en el producto final.",
+    "reviewed": true
+  },
+  {
+    "id": "technology_0058",
+    "term": "Desarrollo guiado por comportamiento",
+    "acronym": "BDD",
+    "definition": "Una extensión del TDD que se enfoca en definir el comportamiento de la aplicación en un lenguaje sencillo y legible por humanos antes de que comience el desarrollo.",
+    "example": "Con el desarrollo guiado por comportamiento, nuestros gerentes de producto y desarrolladores colaboran para escribir criterios de aceptación que se convierten en la base de nuestras pruebas automatizadas.",
+    "reviewed": true
+  },
+  {
+    "id": "technology_0059",
+    "term": "Metodología ágil",
+    "acronym": null,
+    "definition": "Un enfoque de gestión de proyectos que prioriza el desarrollo iterativo, la colaboración y la flexibilidad para adaptarse a los requisitos cambiantes.",
+    "example": "Nuestro equipo de marketing adoptó una metodología ágil para gestionar campañas, lo que les permite ajustar su estrategia cada dos semanas basándose en datos de rendimiento.",
+    "reviewed": true
+  },
+  {
+    "id": "technology_0060",
+    "term": "Refactorización",
+    "acronym": null,
+    "definition": "El proceso de reestructurar el código informático existente para mejorar su estructura interna y legibilidad sin cambiar su comportamiento externo.",
+    "example": "El equipo de ingeniería dedicó el último sprint a la refactorización del antiguo módulo de pagos para facilitar su mantenimiento y la adición de nuevas funcionalidades en el futuro.",
+    "reviewed": true
+  },
+  {
+    "id": "technology_0061",
+    "term": "Inyección de dependencias",
+    "acronym": null,
+    "definition": "Un patrón de diseño en el que las dependencias de un componente (los otros objetos que necesita para funcionar) se le proporcionan desde una fuente externa en lugar de ser creadas por el propio componente.",
+    "example": "Usamos la inyección de dependencias para hacer nuestro código más modular y fácil de probar, ya que podemos proporcionar fácilmente servicios simulados durante las pruebas unitarias.",
+    "reviewed": true
+  },
+  {
+    "id": "technology_0062",
+    "term": "Inversión de control",
+    "acronym": "IoC",
+    "definition": "Un principio de diseño amplio en el que un marco de trabajo o contenedor controla el flujo de un programa y llama al código personalizado, en lugar de que el código personalizado controle el marco de trabajo.",
+    "example": "La inyección de dependencias es una forma de inversión de control, donde el marco de trabajo es responsable de crear y proporcionar objetos donde se necesitan.",
+    "reviewed": true
+  },
+  {
+    "id": "technology_0063",
+    "term": "Gobernanza de datos",
+    "acronym": null,
+    "definition": "La gestión general de la disponibilidad, usabilidad, integridad y seguridad de los datos dentro de una organización.",
+    "example": "Nuestro nuevo marco de gobernanza de datos asegura que todos los datos de los clientes se manejen de manera consistente y cumplan con las regulaciones del RGPD en todos los departamentos.",
+    "reviewed": true
+  },
+  {
+    "id": "technology_0064",
+    "term": "Linaje de datos",
+    "acronym": null,
+    "definition": "El proceso de comprender, registrar y visualizar los datos a medida que fluyen desde sus fuentes hasta su consumo.",
+    "example": "Los auditores solicitaron nuestro informe de linaje de datos para rastrear cómo se calcularon las cifras finales de ventas a partir de los registros de transacciones en bruto.",
+    "reviewed": true
+  },
+  {
+    "id": "technology_0065",
+    "term": "Gestión de datos maestros",
+    "acronym": "MDM",
+    "definition": "Una disciplina que se centra en crear una fuente única y autorizada de verdad para los datos críticos del negocio, como la información de clientes, productos y proveedores.",
+    "example": "Al implementar la gestión de datos maestros, eliminamos los registros de clientes duplicados y ahora tenemos una vista única y fiable de cada cliente.",
+    "reviewed": true
+  },
+  {
+    "id": "technology_0066",
+    "term": "Extracción, transformación y carga",
+    "acronym": "ETL",
+    "definition": "Un proceso de integración de datos que recopila datos de diversas fuentes, los convierte a un formato consistente y luego los carga en una base de datos o un almacén de datos.",
+    "example": "Cada noche, nuestro proceso de extracción, transformación y carga (ETL) extrae los datos de ventas de todas las tiendas regionales, estandariza la moneda y los carga en nuestra plataforma central de análisis.",
+    "reviewed": true
+  },
+  {
+    "id": "technology_0067",
+    "term": "Extracción, carga y transformación",
+    "acronym": "ELT",
+    "definition": "Un proceso de integración de datos moderno donde los datos brutos se cargan directamente en un sistema de destino, como un almacén de datos en la nube, y se transforman allí.",
+    "example": "Cambiamos de un enfoque ETL a uno de extracción, carga y transformación (ELT) para aprovechar las potentes capacidades de procesamiento de nuestro almacén de datos en la nube.",
+    "reviewed": true
+  },
+  {
+    "id": "technology_0068",
+    "term": "Virtualización de datos",
+    "acronym": null,
+    "definition": "Una tecnología que integra datos de fuentes dispares en una única vista lógica sin mover físicamente los datos.",
+    "example": "Usando la virtualización de datos, nuestros analistas pueden consultar datos de ventas y marketing juntos como si estuvieran en una sola base de datos, aunque estén almacenados en sistemas separados.",
+    "reviewed": true
+  },
+  {
+    "id": "technology_0069",
+    "term": "Tejido de datos",
+    "acronym": null,
+    "definition": "Una arquitectura que proporciona un entorno de datos unificado, inteligente y seguro a través de múltiples ubicaciones, tanto locales como en la nube.",
+    "example": "Nuestra empresa está construyendo un tejido de datos para dar a los equipos un acceso fluido y gobernado a los datos, sin importar dónde residan en nuestra nube híbrida.",
+    "reviewed": true
+  },
+  {
+    "id": "technology_0070",
+    "term": "Malla de datos",
+    "acronym": null,
+    "definition": "Un enfoque arquitectónico descentralizado que trata los datos como un producto, gestionado por equipos específicos de dominio que son dueños de sus propios flujos de datos y servicios.",
+    "example": "Estamos adoptando un modelo de malla de datos para dar a nuestro equipo de marketing la autonomía para gestionar sus propios datos analíticos, reduciendo los cuellos de botella con el equipo de datos central.",
+    "reviewed": true
+  },
+  {
+    "id": "technology_0071",
+    "term": "Base de datos de grafos",
+    "acronym": null,
+    "definition": "Un tipo de base de datos que utiliza nodos y aristas para almacenar y navegar relaciones entre puntos de datos, ideal para datos complejos y conectados.",
+    "example": "Nuestra plataforma de redes sociales utiliza una base de datos de grafos para mapear eficientemente las conexiones de los usuarios y recomendar nuevos amigos.",
+    "reviewed": true
+  },
+  {
+    "id": "technology_0072",
+    "term": "Base de datos vectorial",
+    "acronym": null,
+    "definition": "Una base de datos diseñada para almacenar y consultar incrustaciones vectoriales de alta dimensión, comúnmente utilizada en aplicaciones de IA como la búsqueda por similitud y los motores de recomendación.",
+    "example": "Para potenciar nuestra función de búsqueda de imágenes, utilizamos una base de datos vectorial para encontrar imágenes que son visualmente similares a la que subió el usuario.",
+    "reviewed": true
+  },
+  {
+    "id": "technology_0073",
+    "term": "Pruebas A/B",
+    "acronym": null,
+    "definition": "Un método para comparar dos versiones de una página web, aplicación o correo electrónico de marketing para determinar cuál funciona mejor.",
+    "example": "Mediante las pruebas A/B, descubrimos que un botón verde de 'Comprar ahora' resultó en una tasa de conversión un 15 % más alta que el azul.",
+    "reviewed": true
+  },
+  {
+    "id": "technology_0074",
+    "term": "Ingeniería de características",
+    "acronym": null,
+    "definition": "El proceso de utilizar el conocimiento del dominio para seleccionar y transformar variables de datos brutos en características que representen mejor el problema subyacente para los modelos de aprendizaje automático.",
+    "example": "En nuestro modelo de riesgo crediticio, la ingeniería de características del equipo de ciencia de datos creó una 'relación deuda-ingresos' que demostró ser un potente predictor de impagos.",
+    "reviewed": true
+  },
+  {
+    "id": "technology_0075",
+    "term": "Detección de anomalías",
+    "acronym": null,
+    "definition": "El proceso de identificar elementos, eventos u observaciones poco comunes que levantan sospechas al diferir significativamente de la mayoría de los datos.",
+    "example": "Nuestro sistema utiliza la detección de anomalías para marcar transacciones inusuales con tarjetas de crédito en tiempo real para prevenir el fraude.",
+    "reviewed": true
+  },
+  {
+    "id": "technology_0076",
+    "term": "Nube híbrida",
+    "acronym": null,
+    "definition": "Un entorno informático que combina una nube privada con uno o más servicios de nube pública, con software propietario que permite la comunicación entre ellos.",
+    "example": "Usamos una estrategia de nube híbrida, manteniendo los datos sensibles de los clientes en nuestros servidores privados mientras usamos la nube pública por su capacidad de cómputo escalable.",
+    "reviewed": true
+  },
+  {
+    "id": "technology_0077",
+    "term": "Estrategia multinube",
+    "acronym": null,
+    "definition": "La práctica de usar servicios en la nube de dos o más proveedores de nube pública diferentes para evitar la dependencia de un solo proveedor y optimizar los costos o las funcionalidades.",
+    "example": "Nuestra estrategia multinube implica usar Amazon Web Services para el cómputo y Google Cloud por sus avanzadas capacidades de aprendizaje automático.",
+    "reviewed": true
+  },
+  {
+    "id": "technology_0078",
+    "term": "Aplicación nativa de la nube",
+    "acronym": null,
+    "definition": "Un programa diseñado específicamente para ejecutarse en un entorno de computación en la nube moderno y dinámico, utilizando a menudo contenedores, microservicios y arquitecturas sin servidor.",
+    "example": "Estamos reconstruyendo nuestro software heredado como una aplicación nativa de la nube para aprovechar al máximo la escalabilidad y resiliencia de la nube.",
+    "reviewed": true
+  },
+  {
+    "id": "technology_0079",
+    "term": "Ingeniería del caos",
+    "acronym": null,
+    "definition": "La práctica de experimentar en un sistema en producción para generar confianza en la capacidad del sistema para soportar condiciones turbulentas.",
+    "example": "Nuestro equipo de ingeniería del caos apaga intencionadamente servidores al azar durante el horario comercial para asegurar que nuestro sitio web permanezca disponible para los clientes.",
+    "reviewed": true
+  },
+  {
+    "id": "technology_0080",
+    "term": "Ingeniería de fiabilidad de sitios",
+    "acronym": "SRE",
+    "definition": "Una disciplina que incorpora aspectos de la ingeniería de software y los aplica a problemas de infraestructura y operaciones para crear sistemas de software escalables y altamente fiables.",
+    "example": "El equipo de ingeniería de fiabilidad de sitios es responsable de automatizar nuestro proceso de despliegue y asegurar que nuestra plataforma cumpla sus objetivos de tiempo de actividad.",
+    "reviewed": true
+  },
+  {
+    "id": "technology_0081",
+    "term": "Objetivo de nivel de servicio",
+    "acronym": "SLO",
+    "definition": "Un objetivo específico y medible para la fiabilidad o el rendimiento de un servicio, que se acuerda internamente dentro de una empresa.",
+    "example": "Nuestro equipo de ingeniería ha establecido un objetivo de nivel de servicio del 99,95 % de disponibilidad para el servicio de inicio de sesión este trimestre.",
+    "reviewed": true
+  },
+  {
+    "id": "technology_0082",
+    "term": "Indicador de nivel de servicio",
+    "acronym": "SLI",
+    "definition": "Una medida cuantitativa de algún aspecto del nivel de servicio que se está proporcionando, como la tasa de errores o la latencia del sistema.",
+    "example": "Monitorizamos el indicador de nivel de servicio para la latencia de las solicitudes de la API para asegurarnos de que cumplimos nuestros objetivos de rendimiento.",
+    "reviewed": true
+  },
+  {
+    "id": "technology_0083",
+    "term": "Acuerdo de nivel de servicio",
+    "acronym": "SLA",
+    "definition": "Un contrato formal entre un proveedor de servicios y un cliente que define el nivel específico de servicio que se espera del proveedor.",
+    "example": "El acuerdo de nivel de servicio de nuestro proveedor de nube garantiza un 99,9 % de tiempo de actividad, y recibimos un crédito si no cumplen esa promesa.",
+    "reviewed": true
+  },
+  {
+    "id": "technology_0084",
+    "term": "Infraestructura inmutable",
+    "acronym": null,
+    "definition": "Un enfoque para gestionar la infraestructura donde los servidores nunca se modifican después de ser desplegados; en su lugar, se reemplazan con instancias nuevas y actualizadas.",
+    "example": "Al usar una infraestructura inmutable, podemos desplegar actualizaciones más rápido y evitar errores de configuración que ocurren con los cambios manuales.",
+    "reviewed": true
+  },
+  {
+    "id": "technology_0085",
+    "term": "Despliegue canary",
+    "acronym": null,
+    "definition": "Una técnica para reducir el riesgo de introducir una nueva versión de software en producción, desplegando el cambio lentamente a un pequeño subconjunto de usuarios.",
+    "example": "Realizamos un despliegue canary, lanzando la nueva funcionalidad a solo el 5 % de nuestros usuarios para monitorear posibles problemas antes de un lanzamiento a gran escala.",
+    "reviewed": true
+  },
+  {
+    "id": "technology_0086",
+    "term": "Despliegue azul-verde",
+    "acronym": null,
+    "definition": "Una estrategia de lanzamiento en la que se mantienen dos entornos de producción idénticos, 'Azul' y 'Verde', para permitir un lanzamiento casi instantáneo y de bajo riesgo.",
+    "example": "Con un despliegue azul-verde, podemos cambiar todo el tráfico de usuarios al nuevo entorno 'Verde' al instante, y si ocurre algún problema, podemos volver inmediatamente al 'Azul'.",
+    "reviewed": true
+  },
+  {
+    "id": "technology_0087",
+    "term": "Autoescalado",
+    "acronym": null,
+    "definition": "Una característica de la computación en la nube que ajusta automáticamente la cantidad de recursos computacionales en una granja de servidores según la carga actual.",
+    "example": "El autoescalado nos ayuda a gestionar los costos al añadir automáticamente más servidores durante nuestra temporada alta de compras navideñas y eliminarlos durante los períodos más tranquilos.",
+    "reviewed": true
+  },
+  {
+    "id": "technology_0088",
+    "term": "Balanceo de carga",
+    "acronym": null,
+    "definition": "El proceso de distribuir el tráfico de red o las cargas de trabajo computacionales entre múltiples servidores para asegurar que ningún servidor individual se sobrecargue.",
+    "example": "El sistema de balanceo de carga dirige las solicitudes de los usuarios al servidor menos ocupado, lo que mantiene nuestro sitio web rápido y receptivo incluso durante los picos de tráfico.",
+    "reviewed": true
+  },
+  {
+    "id": "technology_0089",
+    "term": "Red de distribución de contenidos",
+    "acronym": "CDN",
+    "definition": "Una red de servidores proxy distribuidos geográficamente que almacena en caché el contenido más cerca de los usuarios para mejorar la velocidad de carga del sitio web.",
+    "example": "Usamos una red de distribución de contenidos para servir nuestras imágenes y vídeos, de modo que los clientes en Asia tengan la misma experiencia rápida que los clientes en Europa.",
+    "reviewed": true
+  },
+  {
+    "id": "technology_0090",
+    "term": "Inteligencia de amenazas",
+    "acronym": null,
+    "definition": "Conocimiento basado en evidencia sobre amenazas existentes o emergentes que puede usarse para informar decisiones sobre la seguridad de una organización.",
+    "example": "Nuestra fuente de inteligencia de amenazas nos advirtió sobre una nueva campaña de phishing, por lo que pudimos bloquear proactivamente los dominios maliciosos.",
+    "reviewed": true
+  },
+  {
+    "id": "technology_0091",
+    "term": "Evaluación de vulnerabilidades",
+    "acronym": null,
+    "definition": "El proceso de identificar, cuantificar y priorizar las debilidades de seguridad en un sistema informático, red o aplicación.",
+    "example": "La evaluación de vulnerabilidades trimestral reveló una debilidad crítica en nuestro servidor web, la cual corregimos de inmediato.",
+    "reviewed": true
+  },
+  {
+    "id": "technology_0092",
+    "term": "Gestión de información y eventos de seguridad",
+    "acronym": "SIEM",
+    "definition": "Una solución que recopila y analiza datos de seguridad de diversas fuentes para proporcionar un análisis en tiempo real de las alertas de seguridad.",
+    "example": "Nuestro sistema SIEM correlacionó los registros de tres servidores diferentes para detectar un ciberataque sofisticado en curso.",
+    "reviewed": true
+  },
+  {
+    "id": "technology_0093",
+    "term": "Sistema de detección de intrusiones",
+    "acronym": "IDS",
+    "definition": "Un dispositivo o aplicación de software que monitorea una red en busca de actividad maliciosa o violaciones de políticas y lo informa a una estación de gestión.",
+    "example": "El IDS alertó a nuestro equipo de seguridad sobre intentos de acceso no autorizados en nuestro servidor de base de datos principal.",
+    "reviewed": true
+  },
+  {
+    "id": "technology_0094",
+    "term": "Prevención de pérdida de datos",
+    "acronym": "DLP",
+    "definition": "Una estrategia y un conjunto de herramientas que aseguran que los datos sensibles no se pierdan, se usen incorrectamente o sean accedidos por usuarios no autorizados.",
+    "example": "Implementamos una política de prevención de pérdida de datos que bloquea automáticamente el envío de correos electrónicos que contienen números de tarjetas de crédito de clientes fuera de la empresa.",
+    "reviewed": true
+  },
+  {
+    "id": "technology_0095",
+    "term": "Detección y respuesta en el endpoint",
+    "acronym": "EDR",
+    "definition": "Una solución de ciberseguridad que monitorea y responde continuamente a amenazas avanzadas en dispositivos de punto final (endpoints) como portátiles y servidores.",
+    "example": "Nuestro nuevo software EDR pudo detectar y aislar un ataque de ransomware en el portátil de un empleado antes de que pudiera propagarse por la red.",
+    "reviewed": true
+  },
+  {
+    "id": "technology_0096",
+    "term": "Infraestructura de clave pública",
+    "acronym": "PKI",
+    "definition": "Un conjunto de roles, políticas, hardware y software necesarios para crear, gestionar, distribuir, usar, almacenar y revocar certificados digitales y administrar el cifrado de clave pública.",
+    "example": "La seguridad de nuestro sitio web se basa en una infraestructura de clave pública para emitir los certificados SSL que permiten conexiones HTTPS cifradas.",
+    "reviewed": true
+  },
+  {
+    "id": "technology_0097",
+    "term": "Autenticación multifactor",
+    "acronym": "MFA",
+    "definition": "Un método de seguridad que requiere que los usuarios proporcionen dos o más factores de verificación para obtener acceso a una aplicación o cuenta.",
+    "example": "Para mejorar la seguridad, todos los empleados deben usar ahora la autenticación multifactor, que implica su contraseña y un código de una aplicación móvil.",
+    "reviewed": true
+  },
+  {
+    "id": "technology_0098",
+    "term": "Inicio de sesión único",
+    "acronym": "SSO",
+    "definition": "Un esquema de autenticación que permite a un usuario iniciar sesión con una única ID y contraseña en varios sistemas de software relacionados pero independientes.",
+    "example": "Con el inicio de sesión único, nuestros empleados pueden iniciar sesión en su ordenador una vez y acceder a todas sus aplicaciones de trabajo sin volver a introducir su contraseña.",
+    "reviewed": true
+  },
+  {
+    "id": "technology_0099",
+    "term": "Ciclo de vida de desarrollo de software seguro",
+    "acronym": "SSDLC",
+    "definition": "El proceso de integrar pruebas y prácticas de seguridad en cada fase del ciclo de vida del desarrollo de software, desde el diseño hasta el despliegue.",
+    "example": "Al adoptar un ciclo de vida de desarrollo de software seguro, identificamos y corregimos fallos de seguridad en una fase temprana del proceso, lo que es mucho más barato que solucionarlos después del lanzamiento.",
+    "reviewed": true
+  },
+  {
+    "id": "technology_0100",
+    "term": "Modelado de amenazas",
+    "acronym": null,
+    "definition": "Un proceso estructurado para identificar amenazas y vulnerabilidades potenciales en un sistema, y para priorizar los métodos para mitigarlas.",
+    "example": "Durante la fase de diseño, realizamos una sesión de modelado de amenazas para identificar todas las formas en que nuestra nueva aplicación de banca móvil podría ser atacada.",
+    "reviewed": true
+  },
+  {
+    "id": "technology_0101",
+    "term": "Redes Definidas por Software",
+    "acronym": "SDN",
+    "definition": "Un enfoque para la gestión de redes que utiliza controladores basados en software para dirigir el tráfico de red, haciendo la red más ágil y flexible.",
+    "example": "Al implementar redes definidas por software, podemos gestionar de forma centralizada toda nuestra infraestructura de red y responder en tiempo real a las cambiantes demandas de tráfico.",
+    "reviewed": true
+  },
+  {
+    "id": "technology_0102",
+    "term": "Virtualización de Funciones de Red",
+    "acronym": "NFV",
+    "definition": "La práctica de separar las funciones de red, como cortafuegos o balanceadores de carga, del hardware dedicado para que puedan ejecutarse como software en servidores estándar.",
+    "example": "Con la virtualización de funciones de red, nuestra empresa puede desplegar un nuevo cortafuegos virtual en minutos sin comprar ningún hardware nuevo.",
+    "reviewed": true
+  },
+  {
+    "id": "technology_0103",
+    "term": "Interfaz de Programación de Aplicaciones",
+    "acronym": "API",
+    "definition": "Un conjunto de reglas y protocolos que permite que diferentes aplicaciones de software se comuniquen e intercambien datos entre sí.",
+    "example": "Nuestra aplicación móvil usa una API de terceros para procesar pagos con tarjeta de crédito de forma segura.",
+    "reviewed": true
+  },
+  {
+    "id": "technology_0104",
+    "term": "Transferencia de Estado Representacional",
+    "acronym": "REST",
+    "definition": "Un estilo de arquitectura para diseñar aplicaciones en red, a menudo utilizado para crear servicios web sencillos, escalables y fiables.",
+    "example": "El equipo de desarrollo está construyendo una API REST para permitir que nuestros socios accedan a nuestro catálogo de productos de forma programática.",
+    "reviewed": true
+  },
+  {
+    "id": "technology_0105",
+    "term": "GraphQL",
+    "acronym": null,
+    "definition": "Un lenguaje de consulta para APIs que permite a los clientes solicitar exactamente los datos que necesitan, haciendo las aplicaciones más rápidas y eficientes.",
+    "example": "Al cambiar a GraphQL, nuestra aplicación móvil ahora carga mucho más rápido porque ya no solicita más datos de los necesarios al servidor.",
+    "reviewed": true
+  },
+  {
+    "id": "technology_0106",
+    "term": "WebSockets",
+    "acronym": null,
+    "definition": "Un protocolo de comunicación que proporciona un canal de comunicación bidireccional y persistente entre un cliente y un servidor a través de una única conexión.",
+    "example": "Usamos WebSockets para habilitar la función de chat en tiempo real en nuestra plataforma de atención al cliente.",
+    "reviewed": true
+  },
+  {
+    "id": "technology_0107",
+    "term": "Cola de mensajes",
+    "acronym": null,
+    "definition": "Un sistema que permite a las aplicaciones comunicarse de forma asíncrona mediante el envío de mensajes que se almacenan en una cola hasta que puedan ser procesados.",
+    "example": "Cuando un usuario realiza un pedido, ponemos un mensaje en la cola de mensajes para que sea procesado más tarde por nuestro sistema de inventario, asegurando que el sitio web mantenga su capacidad de respuesta.",
+    "reviewed": true
+  },
+  {
+    "id": "technology_0108",
+    "term": "Cifrado homomórfico",
+    "acronym": null,
+    "definition": "Una forma de cifrado que permite realizar cálculos sobre datos cifrados sin descifrarlos primero, mejorando la seguridad de los datos.",
+    "example": "Nuestra startup del sector salud está explorando el cifrado homomórfico para analizar datos de pacientes en la nube manteniendo una privacidad completa.",
+    "reviewed": true
+  },
+  {
+    "id": "technology_0109",
+    "term": "Aprendizaje federado",
+    "acronym": null,
+    "definition": "Un enfoque de aprendizaje automático que entrena un algoritmo a través de múltiples dispositivos o servidores descentralizados que contienen muestras de datos locales, sin intercambiar los datos en sí.",
+    "example": "A través del aprendizaje federado, podemos mejorar nuestro modelo de IA utilizando datos de varios hospitales sin violar las normativas de privacidad de datos de los pacientes.",
+    "reviewed": true
+  },
+  {
+    "id": "technology_0110",
+    "term": "Inteligencia Artificial Explicable",
+    "acronym": "XAI",
+    "definition": "Un conjunto de métodos y técnicas de IA que permiten a los usuarios humanos comprender y confiar en los resultados generados por los algoritmos de aprendizaje automático.",
+    "example": "Para cumplir con las regulaciones financieras, nuestro modelo de aprobación de préstamos debe incorporar la inteligencia artificial explicable para que podamos justificar cada decisión.",
+    "reviewed": true
+  },
+  {
+    "id": "technology_0111",
+    "term": "Operaciones de Aprendizaje Automático",
+    "acronym": "MLOps",
+    "definition": "Un conjunto de prácticas que tiene como objetivo desplegar y mantener modelos de aprendizaje automático en producción de manera fiable y eficiente.",
+    "example": "Al adoptar las Operaciones de Aprendizaje Automático (MLOps), hemos automatizado el proceso de reentrenamiento y despliegue de nuestro motor de recomendaciones, reduciendo significativamente el esfuerzo manual.",
+    "reviewed": true
+  },
+  {
+    "id": "technology_0112",
+    "term": "Plataforma de desarrollo de bajo código",
+    "acronym": null,
+    "definition": "Una plataforma que permite el desarrollo rápido de aplicaciones con una mínima codificación manual, utilizando interfaces visuales y componentes de arrastrar y soltar.",
+    "example": "Nuestros analistas de negocio usaron una plataforma de desarrollo de bajo código para crear rápidamente una aplicación interna para el seguimiento de los presupuestos del departamento.",
+    "reviewed": true
+  },
+  {
+    "id": "technology_0113",
+    "term": "Plataforma de desarrollo sin código",
+    "acronym": null,
+    "definition": "Una plataforma que permite a programadores y no programadores crear aplicaciones de software a través de interfaces gráficas de usuario y configuración, en lugar de la programación informática tradicional.",
+    "example": "El equipo de marketing construyó una nueva página de destino y un formulario de recopilación de datos por sí mismos utilizando una plataforma de desarrollo sin código.",
+    "reviewed": true
+  },
+  {
+    "id": "technology_0114",
+    "term": "Arquitectura componible",
+    "acronym": null,
+    "definition": "Un enfoque arquitectónico en el que los sistemas se ensamblan a partir de componentes independientes e intercambiables, lo que permite una mayor flexibilidad y un desarrollo más rápido.",
+    "example": "Nuestra nueva plataforma de comercio electrónico utiliza una arquitectura componible, por lo que podemos cambiar fácilmente el proveedor de pagos o el motor de búsqueda sin reconstruir todo.",
+    "reviewed": true
+  },
+  {
+    "id": "technology_0115",
+    "term": "Observabilidad",
+    "acronym": null,
+    "definition": "La capacidad de medir el estado actual de un sistema basándose en los datos que genera, como registros, métricas y trazas, permitiendo una mejor resolución de problemas.",
+    "example": "Al mejorar la observabilidad de nuestro sistema, el equipo de ingeniería ahora puede diagnosticar y solucionar rápidamente los problemas de producción.",
+    "reviewed": true
+  },
+  {
+    "id": "technology_0116",
+    "term": "Tecnología de registro distribuido",
+    "acronym": "DLT",
+    "definition": "Un sistema digital para registrar transacciones en el que las transacciones y sus detalles se registran en múltiples lugares al mismo tiempo.",
+    "example": "Estamos usando la tecnología de registro distribuido para crear un sistema de seguimiento de la cadena de suministro transparente y a prueba de manipulaciones.",
+    "reviewed": true
+  },
+  {
+    "id": "technology_0117",
+    "term": "Generación de datos sintéticos",
+    "acronym": null,
+    "definition": "El proceso de crear datos artificiales, generados algorítmicamente, que pueden usarse para probar sistemas o entrenar modelos de aprendizaje automático.",
+    "example": "Utilizamos la generación de datos sintéticos para crear un gran conjunto de datos para entrenar nuestro modelo de detección de fraude sin usar información real de los clientes.",
+    "reviewed": true
+  },
+  {
+    "id": "technology_0118",
+    "term": "Inteligencia Artificial Responsable",
+    "acronym": null,
+    "definition": "Un enfoque para desarrollar, evaluar y desplegar sistemas de IA de una manera que sea segura, confiable y que se alinee con los valores humanos y los principios éticos.",
+    "example": "Nuestra empresa tiene un comité de Inteligencia Artificial Responsable para asegurar que nuestros algoritmos sean justos, transparentes y auditables.",
+    "reviewed": true
+  },
+  {
+    "id": "technology_0119",
+    "term": "Stack tecnológico",
+    "acronym": null,
+    "definition": "El conjunto de tecnologías, software y lenguajes de programación utilizados para construir y ejecutar una aplicación o proyecto.",
+    "example": "El stack tecnológico de nuestra aplicación web incluye React para el front-end, Python para el back-end y una base de datos PostgreSQL.",
+    "reviewed": true
+  },
+  {
+    "id": "technology_0120",
+    "term": "Modernización de sistemas heredados",
+    "acronym": null,
+    "definition": "El proceso de actualizar o reemplazar sistemas informáticos, lenguajes de programación o software obsoletos con alternativas modernas.",
+    "example": "El proyecto de modernización de sistemas heredados tiene como objetivo migrar a la nube nuestra aplicación de mainframe de 30 años de antigüedad.",
+    "reviewed": true
+  },
+  {
+    "id": "technology_0121",
+    "term": "Dependencia del proveedor",
+    "acronym": null,
+    "definition": "Una situación en la que un cliente depende de un único proveedor para productos y servicios y no puede cambiar fácilmente a otro sin costes sustanciales.",
+    "example": "Al utilizar software de código abierto, buscamos evitar la dependencia del proveedor y mantener el control sobre nuestras elecciones tecnológicas.",
+    "reviewed": true
+  },
+  {
+    "id": "technology_0122",
+    "term": "Costo total de propiedad",
+    "acronym": "TCO",
+    "definition": "Una estimación financiera para ayudar a los compradores a determinar los costos directos e indirectos de un producto o sistema a lo largo de todo su ciclo de vida.",
+    "example": "Al elegir un nuevo proveedor de nube, debemos analizar el costo total de propiedad, no solo la cuota de suscripción mensual.",
+    "reviewed": true
+  },
+  {
+    "id": "technology_0123",
+    "term": "Prueba de concepto",
+    "acronym": "PoC",
+    "definition": "Un proyecto o experimento a pequeña escala para probar si una idea o tecnología particular es factible y tiene potencial de negocio.",
+    "example": "Antes de comprometernos con el proyecto completo, construiremos una prueba de concepto para validar que la nueva tecnología funciona como se espera.",
+    "reviewed": true
+  },
+  {
+    "id": "technology_0124",
+    "term": "Plan de continuidad de negocio",
+    "acronym": null,
+    "definition": "El proceso de crear sistemas de prevención y recuperación para hacer frente a amenazas potenciales, asegurando que las funciones esenciales puedan continuar durante y después de un desastre.",
+    "example": "Nuestro plan de continuidad de negocio se puso a prueba durante el apagón y, gracias a nuestros sistemas de respaldo, no experimentamos ninguna interrupción.",
+    "reviewed": true
+  },
+  {
+    "id": "technology_0125",
+    "term": "Soberanía de los datos",
+    "acronym": null,
+    "definition": "El principio legal que establece que los datos están sujetos a las leyes y regulaciones del país en el que se recopilan o procesan.",
+    "example": "Debido a las leyes de soberanía de los datos, debemos almacenar todos los datos de clientes alemanes en servidores ubicados dentro de Alemania.",
+    "reviewed": true
+  },
+  {
+    "id": "technology_0126",
+    "term": "Residencia de los datos",
+    "acronym": null,
+    "definition": "La ubicación física o geográfica donde una organización elige almacenar sus datos.",
+    "example": "Nuestra empresa tiene una estricta política de residencia de los datos que exige que todos los registros financieros se almacenen en nuestro centro de datos local.",
+    "reviewed": true
+  },
+  {
+    "id": "technology_0127",
+    "term": "Arquitectura monolítica",
+    "acronym": null,
+    "definition": "Un enfoque de diseño de software tradicional en el que una aplicación se construye como una única unidad indivisible.",
+    "example": "El antiguo sitio de comercio electrónico era una arquitectura monolítica, lo que hacía que fuera lento y difícil de actualizar funciones individuales.",
+    "reviewed": true
+  },
+  {
+    "id": "technology_0128",
+    "term": "Arquitectura orientada a servicios",
+    "acronym": "SOA",
+    "definition": "Un estilo de diseño de software en el que los componentes de una aplicación proporcionan servicios a otros componentes a través de una red, promoviendo la reutilización y la interoperabilidad.",
+    "example": "El banco adoptó una arquitectura orientada a servicios para permitir que su aplicación móvil y su sitio web compartieran el mismo servicio de autenticación de clientes.",
+    "reviewed": true
+  },
+  {
+    "id": "technology_0129",
+    "term": "Informática forense",
+    "acronym": null,
+    "definition": "La práctica de recopilar, procesar y analizar datos digitales para investigar ciberdelitos o incidentes de seguridad.",
+    "example": "Nuestro equipo de informática forense está investigando la brecha de datos para determinar su origen e impacto.",
+    "reviewed": true
+  },
+  {
+    "id": "technology_0130",
+    "term": "Migración lift and shift",
+    "acronym": null,
+    "definition": "Una estrategia de migración a la nube que implica mover una aplicación y sus datos asociados a un entorno en la nube sin rediseñar la aplicación.",
+    "example": "Como primer paso, realizaremos una migración lift and shift de nuestros servidores a la nube para reducir rápidamente nuestros costos de hardware.",
+    "reviewed": true
+  },
+  {
+    "id": "technology_0131",
+    "term": "Replatforming",
+    "acronym": null,
+    "definition": "Una estrategia de migración a la nube que implica realizar algunos cambios de modernización en una aplicación para aprovechar mejor las características nativas de la nube.",
+    "example": "En lugar de una simple migración lift and shift, estamos replatformizando nuestra aplicación al mover su base de datos a un servicio gestionado en la nube.",
+    "reviewed": true
+  },
+  {
+    "id": "technology_0132",
+    "term": "FinOps",
+    "acronym": null,
+    "definition": "Una práctica cultural y un marco de trabajo que aporta responsabilidad financiera al modelo de gasto variable de la nube.",
+    "example": "Nuestro equipo de FinOps colabora con los desarrolladores para optimizar el gasto en la nube y eliminar los recursos desperdiciados.",
+    "reviewed": true
+  },
+  {
+    "id": "technology_0133",
+    "term": "GitOps",
+    "acronym": null,
+    "definition": "Un marco para automatizar el aprovisionamiento de infraestructura y el despliegue de aplicaciones utilizando Git como única fuente de verdad.",
+    "example": "Con GitOps, cada cambio en nuestro entorno de producción se despliega automáticamente después de ser aprobado y fusionado en el repositorio de Git.",
+    "reviewed": true
+  },
+  {
+    "id": "technology_0134",
+    "term": "Pruebas de aceptación del usuario",
+    "acronym": "UAT",
+    "definition": "La fase final del proceso de pruebas de software donde los usuarios reales prueban el software para ver si satisface sus necesidades de negocio en un escenario del mundo real.",
+    "example": "No podemos lanzar la nueva función hasta que supere las pruebas de aceptación del usuario con el departamento de ventas.",
+    "reviewed": true
+  },
+  {
+    "id": "technology_0135",
+    "term": "Event Sourcing",
+    "acronym": null,
+    "definition": "Un patrón arquitectónico que almacena cada cambio en el estado de una aplicación como una secuencia de eventos inmutables.",
+    "example": "Usamos Event Sourcing para nuestro sistema de gestión de pedidos, lo que nos da un historial completo y auditable de cada pedido.",
+    "reviewed": true
+  },
+  {
+    "id": "technology_0136",
+    "term": "Teorema CAP",
+    "acronym": null,
+    "definition": "Un principio para los almacenes de datos distribuidos que establece que es imposible proporcionar simultáneamente más de dos de las siguientes tres garantías: Consistencia, Disponibilidad y Tolerancia a particiones.",
+    "example": "Al diseñar nuestra base de datos distribuida, el teorema CAP nos obligó a elegir entre garantizar una alta disponibilidad o una fuerte consistencia durante un fallo de red.",
+    "reviewed": true
+  },
+  {
+    "id": "technology_0137",
+    "term": "Transacciones ACID",
+    "acronym": null,
+    "definition": "Un conjunto de propiedades (Atomicidad, Consistencia, Aislamiento, Durabilidad) que garantizan que las transacciones de la base de datos se procesen de manera fiable.",
+    "example": "Nuestra aplicación bancaria depende de las transacciones ACID para garantizar que las transferencias de dinero se procesen de forma completa y precisa, o no se procesen en absoluto.",
+    "reviewed": true
+  },
+  {
+    "id": "technology_0138",
+    "term": "Fragmentación",
+    "acronym": null,
+    "definition": "El proceso de dividir una base de datos grande en partes más pequeñas, rápidas y manejables llamadas fragmentos (shards).",
+    "example": "Para manejar nuestra base de usuarios en rápido crecimiento, implementamos la fragmentación para distribuir la carga de la base de datos entre múltiples servidores.",
+    "reviewed": true
+  },
+  {
+    "id": "technology_0139",
+    "term": "Replicación",
+    "acronym": null,
+    "definition": "El proceso de crear y mantener múltiples copias de los mismos datos en diferentes servidores para mejorar la fiabilidad y la disponibilidad.",
+    "example": "La replicación de la base de datos asegura que si nuestro servidor primario falla, un servidor de respaldo puede tomar el control inmediatamente sin pérdida de datos.",
+    "reviewed": true
+  },
+  {
+    "id": "technology_0140",
+    "term": "Estrategia de caché",
+    "acronym": null,
+    "definition": "Un plan para almacenar temporalmente datos de acceso frecuente en una capa de alta velocidad (una caché) para reducir la latencia y mejorar el rendimiento de la aplicación.",
+    "example": "Nuestra nueva estrategia de caché para las imágenes de productos ha mejorado significativamente los tiempos de carga de las páginas de nuestro sitio de comercio electrónico.",
+    "reviewed": true
+  },
+  {
+    "id": "technology_0141",
+    "term": "Broker de mensajería",
+    "acronym": null,
+    "definition": "Un software intermediario que traduce mensajes del protocolo de mensajería formal del remitente al protocolo de mensajería formal del receptor.",
+    "example": "Usamos un broker de mensajería como RabbitMQ para permitir una comunicación asíncrona y fiable entre nuestros diferentes microservicios.",
+    "reviewed": true
+  },
+  {
+    "id": "technology_0142",
+    "term": "Limitación de solicitudes",
+    "acronym": null,
+    "definition": "La práctica de controlar la cantidad de tráfico entrante a un servicio limitando cuántas solicitudes puede hacer un usuario en un período de tiempo determinado.",
+    "example": "Nuestra API pública implementa la limitación de solicitudes para evitar que un solo desarrollador sobrecargue el sistema con demasiadas solicitudes.",
+    "reviewed": true
+  },
+  {
+    "id": "technology_0143",
+    "term": "Patrón de interruptor",
+    "acronym": null,
+    "definition": "Un patrón de diseño que evita que una aplicación intente ejecutar repetidamente una operación que es probable que falle, mejorando la estabilidad del sistema.",
+    "example": "Implementamos el patrón de interruptor, por lo que si el servicio de pago está caído, nuestra aplicación dejará de intentar contactarlo y mostrará un mensaje de error en su lugar.",
+    "reviewed": true
+  },
+  {
+    "id": "technology_0144",
+    "term": "Idempotencia",
+    "acronym": null,
+    "definition": "Una propiedad de una operación por la cual puede aplicarse múltiples veces sin cambiar el resultado más allá de la aplicación inicial.",
+    "example": "Nuestra API de procesamiento de pagos está diseñada con idempotencia, asegurando que si un usuario envía accidentalmente un pago dos veces, solo se le cobre una vez.",
+    "reviewed": true
+  },
+  {
+    "id": "technology_0145",
+    "term": "Aplicación con estado",
+    "acronym": null,
+    "definition": "Una aplicación que guarda datos de la sesión de un cliente para ser utilizados en solicitudes posteriores de ese mismo cliente.",
+    "example": "Un carrito de compras en línea es una clásica aplicación con estado porque debe recordar los artículos que un usuario ha añadido a través de múltiples vistas de página.",
+    "reviewed": true
+  },
+  {
+    "id": "technology_0146",
+    "term": "Aplicación sin estado",
+    "acronym": null,
+    "definition": "Una aplicación que no guarda ningún dato de sesión del cliente en el servidor, tratando cada solicitud como una transacción independiente.",
+    "example": "Una API REST bien diseñada es una aplicación sin estado, ya que cada solicitud contiene toda la información que el servidor necesita para procesarla.",
+    "reviewed": true
+  },
+  {
+    "id": "technology_0147",
+    "term": "Aplicación web progresiva",
+    "acronym": "PWA",
+    "definition": "Un tipo de aplicación web que se puede instalar en el dispositivo de un usuario y ofrece características como funcionalidad sin conexión y notificaciones push.",
+    "example": "Lanzamos una aplicación web progresiva para ofrecer a nuestros usuarios una experiencia similar a la de una aplicación nativa directamente desde su navegador.",
+    "reviewed": true
+  },
+  {
+    "id": "technology_0148",
+    "term": "Aplicación de página única",
+    "acronym": "SPA",
+    "definition": "Una aplicación web que carga una sola página HTML y actualiza dinámicamente el contenido a medida que el usuario interactúa con ella, en lugar de cargar páginas nuevas.",
+    "example": "Los clientes modernos de correo web como Gmail son aplicaciones de página única, ofreciendo una experiencia de usuario rápida y receptiva.",
+    "reviewed": true
+  },
+  {
+    "id": "technology_0149",
+    "term": "Renderizado del lado del servidor",
+    "acronym": "SSR",
+    "definition": "El proceso de renderizar páginas web en un servidor antes de enviarlas al navegador, lo que puede mejorar el rendimiento de la carga inicial y la optimización para motores de búsqueda.",
+    "example": "Nuestro blog público utiliza el renderizado del lado del servidor para asegurar que nuestros artículos se carguen rápidamente y sean fácilmente indexados por Google.",
+    "reviewed": true
+  },
+  {
+    "id": "technology_0150",
+    "term": "Cortafuegos de aplicaciones web",
+    "acronym": "WAF",
+    "definition": "Un sistema de seguridad que monitorea y filtra el tráfico HTTP entre una aplicación web e Internet para proteger contra ataques comunes.",
+    "example": "Nuestro departamento de TI instaló un cortafuegos de aplicaciones web para proteger nuestro portal de clientes de ataques de inyección SQL y cross-site scripting.",
+    "reviewed": true
+  }
+]

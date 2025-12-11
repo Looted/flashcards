@@ -77,8 +77,8 @@ export class MenuComponent implements OnInit {
 
   categories = [
     {
-      id: 'tech',
-      name: 'Tech',
+      id: 'technology',
+      name: 'Technology',
       icon: '💻',
       bgClass: 'bg-indigo-50 hover:bg-indigo-100',
       borderClass: 'border-indigo-200',

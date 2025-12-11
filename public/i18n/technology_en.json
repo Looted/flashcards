@@ -1,0 +1,2121 @@
+[
+  {
+    "id": "technology_0001",
+    "term": "Microservices Architecture",
+    "definition": "A software development technique that arranges an application as a collection of loosely coupled services.",
+    "example": "Moving to a microservices architecture allowed the team to update the payment system without disrupting the user interface.",
+    "metadata": {
+      "difficulty": 3,
+      "tags": [
+        "software_development",
+        "infrastructure"
+      ]
+    }
+  },
+  {
+    "id": "technology_0002",
+    "term": "Serverless Computing",
+    "definition": "A cloud-computing execution model where the cloud provider runs the server, and dynamically manages the allocation of machine resources.",
+    "example": "By adopting serverless computing, we only pay for the compute time we actually use rather than maintaining idle servers.",
+    "metadata": {
+      "difficulty": 3,
+      "tags": [
+        "cloud_computing",
+        "cost_management"
+      ]
+    }
+  },
+  {
+    "id": "technology_0003",
+    "term": "Containerization",
+    "definition": "The process of packaging software code with all its necessary components like libraries and dependencies so it runs consistently on any infrastructure.",
+    "example": "Containerization has simplified our deployment process, ensuring the app works the same on a developer's laptop as it does in production.",
+    "metadata": {
+      "difficulty": 2,
+      "tags": [
+        "software_development",
+        "operations"
+      ]
+    }
+  },
+  {
+    "id": "technology_0004",
+    "term": "Orchestration",
+    "definition": "The automated configuration, coordination, and management of computer systems and software.",
+    "example": "We use orchestration tools to manage the thousands of containers running our global e-commerce platform.",
+    "metadata": {
+      "difficulty": 3,
+      "tags": [
+        "operations",
+        "automation"
+      ]
+    }
+  },
+  {
+    "id": "technology_0005",
+    "term": "Continuous Integration",
+    "acronym": "CI",
+    "definition": "The practice of automating the integration of code changes from multiple contributors into a single software project.",
+    "example": "Implementing Continuous Integration helps us detect bugs early by testing code as soon as it is committed.",
+    "metadata": {
+      "difficulty": 2,
+      "tags": [
+        "software_development",
+        "workflow"
+      ]
+    }
+  },
+  {
+    "id": "technology_0006",
+    "term": "Continuous Deployment",
+    "acronym": "CD",
+    "definition": "A strategy where code changes to an application are released automatically into the production environment.",
+    "example": "With Continuous Deployment, we can push new features to our customers several times a day.",
+    "metadata": {
+      "difficulty": 2,
+      "tags": [
+        "software_development",
+        "workflow"
+      ]
+    }
+  },
+  {
+    "id": "technology_0007",
+    "term": "Infrastructure as Code",
+    "acronym": "IaC",
+    "definition": "The process of managing and provisioning computer data centers through machine-readable definition files rather than physical hardware configuration.",
+    "example": "Using Infrastructure as Code allows us to rebuild our entire server environment in minutes if a disaster occurs.",
+    "metadata": {
+      "difficulty": 3,
+      "tags": [
+        "devops",
+        "cloud_computing"
+      ]
+    }
+  },
+  {
+    "id": "technology_0008",
+    "term": "DevSecOps",
+    "definition": "A philosophy of integrating security practices within the DevOps process from the very beginning of the software development lifecycle.",
+    "example": "Adopting DevSecOps ensures that security vulnerabilities are addressed during development rather than after the product launches.",
+    "metadata": {
+      "difficulty": 2,
+      "tags": [
+        "security",
+        "culture"
+      ]
+    }
+  },
+  {
+    "id": "technology_0009",
+    "term": "Zero Trust Security",
+    "definition": "A security model that requires all users, whether in or outside the organization's network, to be authenticated and authorized before accessing data.",
+    "example": "In the age of remote work, we implemented Zero Trust Security to ensure no device is trusted by default.",
+    "metadata": {
+      "difficulty": 2,
+      "tags": [
+        "cybersecurity",
+        "policy"
+      ]
+    }
+  },
+  {
+    "id": "technology_0010",
+    "term": "Identity and Access Management",
+    "acronym": "IAM",
+    "definition": "A framework of policies and technologies for ensuring that the right users have the appropriate access to technology resources.",
+    "example": "The IT department updated our IAM protocols to prevent former employees from accessing company databases.",
+    "metadata": {
+      "difficulty": 2,
+      "tags": [
+        "cybersecurity",
+        "administration"
+      ]
+    }
+  },
+  {
+    "id": "technology_0011",
+    "term": "Penetration Testing",
+    "definition": "A simulated cyberattack against your computer system to check for exploitable vulnerabilities.",
+    "example": "We hired a firm for penetration testing to ensure our banking app is secure against hackers.",
+    "metadata": {
+      "difficulty": 2,
+      "tags": [
+        "cybersecurity",
+        "compliance"
+      ]
+    }
+  },
+  {
+    "id": "technology_0012",
+    "term": "Blockchain",
+    "definition": "A system of recording information in a way that makes it difficult or impossible to change, hack, or cheat the system.",
+    "example": "The logistics company uses blockchain to create an unalterable record of the supply chain journey.",
+    "metadata": {
+      "difficulty": 2,
+      "tags": [
+        "fintech",
+        "database"
+      ]
+    }
+  },
+  {
+    "id": "technology_0013",
+    "term": "Smart Contracts",
+    "definition": "Self-executing contracts with the terms of the agreement between buyer and seller being directly written into lines of code.",
+    "example": "Using smart contracts, the royalty payments are automatically sent to artists the moment their music is streamed.",
+    "metadata": {
+      "difficulty": 3,
+      "tags": [
+        "fintech",
+        "legal_tech"
+      ]
+    }
+  },
+  {
+    "id": "technology_0014",
+    "term": "Non-Fungible Token",
+    "acronym": "NFT",
+    "definition": "A unique digital identifier that cannot be copied, substituted, or subdivided, that is recorded in a blockchain.",
+    "example": "The brand launched an exclusive NFT collection to increase digital engagement with younger customers.",
+    "metadata": {
+      "difficulty": 2,
+      "tags": [
+        "digital_assets",
+        "marketing"
+      ]
+    }
+  },
+  {
+    "id": "technology_0015",
+    "term": "Decentralized Finance",
+    "acronym": "DeFi",
+    "definition": "Financial technology based on secure distributed ledgers similar to those used by cryptocurrencies.",
+    "example": "DeFi applications are allowing users to lend and borrow money without going through a traditional bank.",
+    "metadata": {
+      "difficulty": 3,
+      "tags": [
+        "fintech",
+        "finance"
+      ]
+    }
+  },
+  {
+    "id": "technology_0016",
+    "term": "Machine Learning",
+    "acronym": "ML",
+    "definition": "A branch of artificial intelligence and computer science which focuses on the use of data and algorithms to imitate the way that humans learn.",
+    "example": "Our recommendation engine uses machine learning to suggest products based on a customer's past purchases.",
+    "metadata": {
+      "difficulty": 2,
+      "tags": [
+        "artificial_intelligence",
+        "data_science"
+      ]
+    }
+  },
+  {
+    "id": "technology_0017",
+    "term": "Deep Learning",
+    "acronym": "DL",
+    "definition": "A subset of machine learning based on artificial neural networks in which multiple layers of processing are used to extract progressively higher-level features from data.",
+    "example": "Deep learning is the technology behind the voice recognition systems in our virtual assistants.",
+    "metadata": {
+      "difficulty": 3,
+      "tags": [
+        "artificial_intelligence",
+        "data_science"
+      ]
+    }
+  },
+  {
+    "id": "technology_0018",
+    "term": "Natural Language Processing",
+    "acronym": "NLP",
+    "definition": "A branch of AI that helps computers understand, interpret, and manipulate human language.",
+    "example": "We use Natural Language Processing to analyze thousands of customer reviews for sentiment analysis.",
+    "metadata": {
+      "difficulty": 3,
+      "tags": [
+        "artificial_intelligence",
+        "linguistics"
+      ]
+    }
+  },
+  {
+    "id": "technology_0019",
+    "term": "Computer Vision",
+    "definition": "A field of artificial intelligence that enables computers and systems to derive meaningful information from digital images and videos.",
+    "example": "The manufacturing plant uses computer vision to automatically detect defects in products on the assembly line.",
+    "metadata": {
+      "difficulty": 3,
+      "tags": [
+        "artificial_intelligence",
+        "automation"
+      ]
+    }
+  },
+  {
+    "id": "technology_0020",
+    "term": "Predictive Analytics",
+    "definition": "The use of data, statistical algorithms, and machine learning techniques to identify the likelihood of future outcomes based on historical data.",
+    "example": "Retailers use predictive analytics to determine how much inventory to stock before the holiday season.",
+    "metadata": {
+      "difficulty": 2,
+      "tags": [
+        "data_analysis",
+        "strategy"
+      ]
+    }
+  },
+  {
+    "id": "technology_0021",
+    "term": "Data Lake",
+    "definition": "A centralized repository that allows you to store all your structured and unstructured data at any scale.",
+    "example": "Instead of filtering data first, we dump everything into a data lake so data scientists can explore it later.",
+    "metadata": {
+      "difficulty": 2,
+      "tags": [
+        "data_management",
+        "infrastructure"
+      ]
+    }
+  },
+  {
+    "id": "technology_0022",
+    "term": "Data Warehousing",
+    "definition": "The process of collecting and managing data from varied sources to provide meaningful business insights, usually involving structured data.",
+    "example": "Our data warehousing solution organizes sales reports from all regions into a single, queryable format.",
+    "metadata": {
+      "difficulty": 2,
+      "tags": [
+        "data_management",
+        "analytics"
+      ]
+    }
+  },
+  {
+    "id": "technology_0023",
+    "term": "Business Intelligence",
+    "acronym": "BI",
+    "definition": "Strategies and technologies used by enterprises for the data analysis of business information.",
+    "example": "The CEO relies on a Business Intelligence dashboard to monitor real-time KPIs and revenue growth.",
+    "metadata": {
+      "difficulty": 1,
+      "tags": [
+        "analytics",
+        "management"
+      ]
+    }
+  },
+  {
+    "id": "technology_0024",
+    "term": "Digital Twin",
+    "definition": "A virtual model designed to accurately reflect a physical object, allowing for simulation and testing.",
+    "example": "Engineers created a digital twin of the jet engine to predict maintenance needs without taking the plane out of service.",
+    "metadata": {
+      "difficulty": 3,
+      "tags": [
+        "simulation",
+        "engineering"
+      ]
+    }
+  },
+  {
+    "id": "technology_0025",
+    "term": "Edge Computing",
+    "definition": "A distributed computing framework that brings enterprise applications closer to data sources such as IoT devices or local edge servers.",
+    "example": "Autonomous vehicles rely on edge computing to process road data instantly without waiting for a cloud server response.",
+    "metadata": {
+      "difficulty": 3,
+      "tags": [
+        "hardware",
+        "networking"
+      ]
+    }
+  },
+  {
+    "id": "technology_0026",
+    "term": "Fog Computing",
+    "definition": "An infrastructure that connects the cloud and edge devices, acting as a bridge to process data closer to where it is created.",
+    "example": "Fog computing helps reduce the bandwidth needed to transmit data from our factory sensors to the central cloud.",
+    "metadata": {
+      "difficulty": 3,
+      "tags": [
+        "networking",
+        "infrastructure"
+      ]
+    }
+  },
+  {
+    "id": "technology_0027",
+    "term": "Internet of Things",
+    "acronym": "IoT",
+    "definition": "A network of physical objects embedded with sensors and software for the purpose of connecting and exchanging data with other devices over the internet.",
+    "example": "Our smart office uses IoT sensors to adjust lighting and temperature based on occupancy.",
+    "metadata": {
+      "difficulty": 1,
+      "tags": [
+        "hardware",
+        "connectivity"
+      ]
+    }
+  },
+  {
+    "id": "technology_0028",
+    "term": "5G Connectivity",
+    "acronym": "5G",
+    "definition": "The fifth generation technology standard for broadband cellular networks, offering faster speeds and lower latency.",
+    "example": "The rollout of 5G connectivity will enable high-definition video streaming on mobile devices without buffering.",
+    "metadata": {
+      "difficulty": 1,
+      "tags": [
+        "telecommunications",
+        "networking"
+      ]
+    }
+  },
+  {
+    "id": "technology_0029",
+    "term": "Quantum Computing",
+    "definition": "A type of computing that uses the principles of quantum mechanics to perform operations on data significantly faster than traditional computers.",
+    "example": "Pharmaceutical companies are looking into quantum computing to model complex molecular structures for new drugs.",
+    "metadata": {
+      "difficulty": 3,
+      "tags": [
+        "research",
+        "future_tech"
+      ]
+    }
+  },
+  {
+    "id": "technology_0030",
+    "term": "Augmented Reality",
+    "acronym": "AR",
+    "definition": "An interactive experience where real-world environments are enhanced by computer-generated perceptual information.",
+    "example": "The furniture store's app uses Augmented Reality to let you see how a couch would look in your living room.",
+    "metadata": {
+      "difficulty": 2,
+      "tags": [
+        "consumer_tech",
+        "ux"
+      ]
+    }
+  },
+  {
+    "id": "technology_0031",
+    "term": "Virtual Reality",
+    "acronym": "VR",
+    "definition": "A simulated experience that can be similar to or completely different from the real world, usually requiring a headset.",
+    "example": "We use Virtual Reality to train employees on safety procedures in hazardous environments without actual risk.",
+    "metadata": {
+      "difficulty": 2,
+      "tags": [
+        "training",
+        "simulation"
+      ]
+    }
+  },
+  {
+    "id": "technology_0032",
+    "term": "Mixed Reality",
+    "acronym": "MR",
+    "definition": "The merging of real and virtual worlds to produce new environments where physical and digital objects coexist and interact in real time.",
+    "example": "Designers use Mixed Reality headsets to manipulate 3D holographic models while still seeing their colleagues in the room.",
+    "metadata": {
+      "difficulty": 3,
+      "tags": [
+        "design",
+        "visualization"
+      ]
+    }
+  },
+  {
+    "id": "technology_0033",
+    "term": "Software as a Service",
+    "acronym": "SaaS",
+    "definition": "A software licensing and delivery model in which software is licensed on a subscription basis and is centrally hosted.",
+    "example": "Instead of buying expensive licenses, the startup uses SaaS tools like Slack and Zoom for collaboration.",
+    "metadata": {
+      "difficulty": 1,
+      "tags": [
+        "business_model",
+        "cloud"
+      ]
+    }
+  },
+  {
+    "id": "technology_0034",
+    "term": "Platform as a Service",
+    "acronym": "PaaS",
+    "definition": "A cloud computing model where a third-party provider delivers hardware and software tools to users over the internet specifically for application development.",
+    "example": "Developers use PaaS solutions to build apps quickly without worrying about maintaining the underlying operating systems.",
+    "metadata": {
+      "difficulty": 2,
+      "tags": [
+        "development",
+        "cloud"
+      ]
+    }
+  },
+  {
+    "id": "technology_0035",
+    "term": "Infrastructure as a Service",
+    "acronym": "IaaS",
+    "definition": "A form of cloud computing that provides virtualized computing resources over the internet.",
+    "example": "We switched to IaaS to rent servers and storage space on demand rather than building our own data center.",
+    "metadata": {
+      "difficulty": 2,
+      "tags": [
+        "infrastructure",
+        "cloud"
+      ]
+    }
+  },
+  {
+    "id": "technology_0036",
+    "term": "Minimum Viable Product",
+    "acronym": "MVP",
+    "definition": "A version of a product with just enough features to be usable by early customers who can then provide feedback for future product development.",
+    "example": "We launched an MVP to test the market appetite before investing in the full suite of features.",
+    "metadata": {
+      "difficulty": 1,
+      "tags": [
+        "product_management",
+        "startup"
+      ]
+    }
+  },
+  {
+    "id": "technology_0037",
+    "term": "Technical Debt",
+    "definition": "The implied cost of additional rework caused by choosing an easy solution now instead of using a better approach that would take longer.",
+    "example": "Rushing the launch created significant technical debt that the engineering team will have to fix next quarter.",
+    "metadata": {
+      "difficulty": 2,
+      "tags": [
+        "software_development",
+        "project_management"
+      ]
+    }
+  },
+  {
+    "id": "technology_0038",
+    "term": "Scalability",
+    "definition": "The measure of a system's ability to increase or decrease in performance and cost in response to changes in application and system processing demands.",
+    "example": "The startup chose a cloud provider known for high scalability to handle sudden spikes in user traffic.",
+    "metadata": {
+      "difficulty": 1,
+      "tags": [
+        "infrastructure",
+        "growth"
+      ]
+    }
+  },
+  {
+    "id": "technology_0039",
+    "term": "High Availability",
+    "acronym": "HA",
+    "definition": "A characteristic of a system that aims to ensure an agreed level of operational performance, usually uptime, for a higher than normal period.",
+    "example": "Our banking system requires high availability because any downtime prevents customers from accessing their funds.",
+    "metadata": {
+      "difficulty": 2,
+      "tags": [
+        "operations",
+        "reliability"
+      ]
+    }
+  },
+  {
+    "id": "technology_0040",
+    "term": "Disaster Recovery",
+    "acronym": "DR",
+    "definition": "A set of policies, tools, and procedures to enable the recovery or continuation of vital technology infrastructure and systems following a natural or human-induced disaster.",
+    "example": "The recent power outage tested our disaster recovery plan, and we were back online within one hour.",
+    "metadata": {
+      "difficulty": 2,
+      "tags": [
+        "security",
+        "risk_management"
+      ]
+    }
+  },
+  {
+    "id": "technology_0041",
+    "term": "Latency",
+    "definition": "The delay before a transfer of data begins following an instruction for its transfer.",
+    "example": "Low latency is critical for high-frequency trading where milliseconds can mean millions of dollars.",
+    "metadata": {
+      "difficulty": 2,
+      "tags": [
+        "networking",
+        "performance"
+      ]
+    }
+  },
+  {
+    "id": "technology_0042",
+    "term": "Throughput",
+    "definition": "The amount of data moved successfully from one place to another in a given time period.",
+    "example": "Upgrading the network cables significantly increased the system's throughput, speeding up large file transfers.",
+    "metadata": {
+      "difficulty": 2,
+      "tags": [
+        "networking",
+        "performance"
+      ]
+    }
+  },
+  {
+    "id": "technology_0043",
+    "term": "API Economy",
+    "definition": "A business model where companies expose their digital assets or services through Application Programming Interfaces (APIs) to generate value.",
+    "example": "Stripe and Twilio are prime examples of the API economy, building billion-dollar businesses by letting developers integrate payment and messaging easily.",
+    "metadata": {
+      "difficulty": 2,
+      "tags": [
+        "business_model",
+        "integration"
+      ]
+    }
+  },
+  {
+    "id": "technology_0044",
+    "term": "Headless Architecture",
+    "definition": "A concept where the frontend presentation layer of a website is separated from the backend functionality.",
+    "example": "A headless architecture allows us to use the same content database to feed both our website and our mobile app.",
+    "metadata": {
+      "difficulty": 3,
+      "tags": [
+        "web_development",
+        "content_management"
+      ]
+    }
+  },
+  {
+    "id": "technology_0045",
+    "term": "Dark Data",
+    "definition": "Information assets organizations collect, process, and store during regular business activities, but generally fail to use for other purposes.",
+    "example": "We are using AI to analyze our dark data, such as old server logs, to find hidden efficiency patterns.",
+    "metadata": {
+      "difficulty": 2,
+      "tags": [
+        "data_analysis",
+        "efficiency"
+      ]
+    }
+  },
+  {
+    "id": "technology_0046",
+    "term": "Robotic Process Automation",
+    "acronym": "RPA",
+    "definition": "A technology that allows anyone to configure computer software, or a 'robot', to emulate the actions of a human interacting with digital systems to execute a business process.",
+    "example": "We implemented RPA to handle data entry tasks, freeing up staff to focus on customer service.",
+    "metadata": {
+      "difficulty": 2,
+      "tags": [
+        "automation",
+        "efficiency"
+      ]
+    }
+  },
+  {
+    "id": "technology_0047",
+    "term": "Generative AI",
+    "acronym": "GenAI",
+    "definition": "A type of artificial intelligence technology that can produce various types of content, including text, imagery, audio, and synthetic data.",
+    "example": "The marketing team uses Generative AI to brainstorm blog post ideas and draft social media captions.",
+    "metadata": {
+      "difficulty": 2,
+      "tags": [
+        "artificial_intelligence",
+        "content_creation"
+      ]
+    }
+  },
+  {
+    "id": "technology_0048",
+    "term": "Digital Transformation",
+    "definition": "The adoption of digital technology by an organization to digitize non-digital products, services, or operations.",
+    "example": "Our digital transformation strategy involves moving from paper records to a fully cloud-based management system.",
+    "metadata": {
+      "difficulty": 1,
+      "tags": [
+        "strategy",
+        "change_management"
+      ]
+    }
+  },
+  {
+    "id": "technology_0049",
+    "term": "User Experience Design",
+    "acronym": "UX",
+    "definition": "The process of designing products that provide meaningful and relevant experiences to users.",
+    "example": "Good User Experience Design ensures that customers can find what they want on our website without getting frustrated.",
+    "metadata": {
+      "difficulty": 1,
+      "tags": [
+        "design",
+        "product"
+      ]
+    }
+  },
+  {
+    "id": "technology_0050",
+    "term": "Omnichannel Strategy",
+    "definition": "A cross-channel content strategy that improves the user experience and drives better relationships across their points of contact.",
+    "example": "An effective omnichannel strategy ensures a customer gets the same price and service whether they buy via the app, the website, or in-store.",
+    "metadata": {
+      "difficulty": 2,
+      "tags": [
+        "marketing",
+        "customer_service"
+      ]
+    }
+  },
+  {
+    "id": "technology_0051",
+    "term": "Event-Driven Architecture",
+    "acronym": "EDA",
+    "definition": "A software design pattern where services communicate by producing and consuming events, allowing systems to be loosely coupled and highly scalable.",
+    "example": "We're using an event-driven architecture so that when a new order is placed, our inventory, shipping, and notification services can all react independently and in real-time.",
+    "metadata": {
+      "difficulty": 3,
+      "tags": [
+        "architecture",
+        "software development",
+        "system design"
+      ]
+    }
+  },
+  {
+    "id": "technology_0052",
+    "term": "Domain-Driven Design",
+    "acronym": "DDD",
+    "definition": "An approach to software development that focuses on modeling the software to match a specific business domain and its complex logic.",
+    "example": "By applying domain-driven design, our code for the 'insurance claims' module now accurately reflects the complex rules and processes our agents follow.",
+    "metadata": {
+      "difficulty": 3,
+      "tags": [
+        "architecture",
+        "software development",
+        "system design"
+      ]
+    }
+  },
+  {
+    "id": "technology_0053",
+    "term": "Command Query Responsibility Segregation",
+    "acronym": "CQRS",
+    "definition": "An architectural pattern that separates the models used for reading data (queries) from the models used for updating data (commands).",
+    "example": "We implemented CQRS to optimize our application; the reading side is built for high-speed dashboards, while the writing side is designed for transactional integrity.",
+    "metadata": {
+      "difficulty": 3,
+      "tags": [
+        "architecture",
+        "software development",
+        "system design"
+      ]
+    }
+  },
+  {
+    "id": "technology_0054",
+    "term": "API Gateway",
+    "definition": "A management tool that acts as a single entry point for all client requests, routing them to the appropriate backend microservices.",
+    "example": "Our mobile app makes all its requests to a single API gateway, which handles security and load balancing for our dozens of internal services.",
+    "metadata": {
+      "difficulty": 2,
+      "tags": [
+        "architecture",
+        "cloud computing",
+        "networking",
+        "software development"
+      ]
+    }
+  },
+  {
+    "id": "technology_0055",
+    "term": "Service Mesh",
+    "definition": "A dedicated infrastructure layer for managing service-to-service communication in a microservices architecture, handling tasks like traffic management, security, and observability.",
+    "example": "By implementing a service mesh, our DevOps team can control how microservices communicate without changing any application code.",
+    "metadata": {
+      "difficulty": 3,
+      "tags": [
+        "architecture",
+        "cloud computing",
+        "networking",
+        "operations"
+      ]
+    }
+  },
+  {
+    "id": "technology_0056",
+    "term": "Feature Flagging",
+    "definition": "A technique that allows developers to turn certain features of an application on or off remotely without deploying new code.",
+    "example": "We used feature flagging to release the new checkout design to only 10% of users, allowing us to test it before a full rollout.",
+    "metadata": {
+      "difficulty": 2,
+      "tags": [
+        "software development",
+        "product management",
+        "operations"
+      ]
+    }
+  },
+  {
+    "id": "technology_0057",
+    "term": "Test-Driven Development",
+    "acronym": "TDD",
+    "definition": "A software development process where developers write automated tests for a feature before they write the actual code to implement it.",
+    "example": "Our team practices test-driven development, which results in higher code quality and fewer bugs in the final product.",
+    "metadata": {
+      "difficulty": 2,
+      "tags": [
+        "software development",
+        "quality assurance"
+      ]
+    }
+  },
+  {
+    "id": "technology_0058",
+    "term": "Behavior-Driven Development",
+    "acronym": "BDD",
+    "definition": "An extension of TDD that focuses on defining application behavior in plain, human-readable language before development begins.",
+    "example": "With behavior-driven development, our product managers and developers collaborate to write acceptance criteria that become the basis for our automated tests.",
+    "metadata": {
+      "difficulty": 2,
+      "tags": [
+        "software development",
+        "quality assurance",
+        "project management"
+      ]
+    }
+  },
+  {
+    "id": "technology_0059",
+    "term": "Agile Methodology",
+    "definition": "A project management approach that prioritizes iterative development, collaboration, and flexibility to adapt to changing requirements.",
+    "example": "Our marketing team adopted an agile methodology to manage campaigns, allowing them to adjust their strategy every two weeks based on performance data.",
+    "metadata": {
+      "difficulty": 1,
+      "tags": [
+        "project management",
+        "software development",
+        "management"
+      ]
+    }
+  },
+  {
+    "id": "technology_0060",
+    "term": "Refactoring",
+    "definition": "The process of restructuring existing computer code to improve its internal structure and readability without changing its external behavior.",
+    "example": "The engineering team spent the last sprint refactoring the old payment module to make it easier to maintain and add new features in the future.",
+    "metadata": {
+      "difficulty": 2,
+      "tags": [
+        "software development",
+        "code quality"
+      ]
+    }
+  },
+  {
+    "id": "technology_0061",
+    "term": "Dependency Injection",
+    "acronym": "DI",
+    "definition": "A design pattern in which a component's dependencies (the other objects it needs to work) are provided to it from an external source rather than created by the component itself.",
+    "example": "We use dependency injection to make our code more modular and easier to test, as we can easily supply mock services during unit tests.",
+    "metadata": {
+      "difficulty": 3,
+      "tags": [
+        "software development",
+        "architecture"
+      ]
+    }
+  },
+  {
+    "id": "technology_0062",
+    "term": "Inversion of Control",
+    "acronym": "IoC",
+    "definition": "A broad design principle where a framework or container controls the flow of a program and calls custom code, rather than the custom code controlling the framework.",
+    "example": "Dependency injection is a form of inversion of control, where the framework is responsible for creating and providing objects where they are needed.",
+    "metadata": {
+      "difficulty": 3,
+      "tags": [
+        "software development",
+        "architecture"
+      ]
+    }
+  },
+  {
+    "id": "technology_0063",
+    "term": "Data Governance",
+    "definition": "The overall management of the availability, usability, integrity, and security of data within an organization.",
+    "example": "Our new data governance framework ensures that all customer data is handled consistently and complies with GDPR regulations across all departments.",
+    "metadata": {
+      "difficulty": 2,
+      "tags": [
+        "data management",
+        "compliance",
+        "strategy",
+        "security"
+      ]
+    }
+  },
+  {
+    "id": "technology_0064",
+    "term": "Data Lineage",
+    "definition": "The process of understanding, recording, and visualizing data as it flows from its sources to its consumption.",
+    "example": "The auditors asked for our data lineage report to trace how the final sales numbers were calculated from the raw transaction logs.",
+    "metadata": {
+      "difficulty": 3,
+      "tags": [
+        "data management",
+        "compliance",
+        "analytics"
+      ]
+    }
+  },
+  {
+    "id": "technology_0065",
+    "term": "Master Data Management",
+    "acronym": "MDM",
+    "definition": "A discipline that focuses on creating a single, authoritative source of truth for critical business data, such as customer, product, and supplier information.",
+    "example": "By implementing master data management, we eliminated duplicate customer records and now have a single, trusted view of each client.",
+    "metadata": {
+      "difficulty": 3,
+      "tags": [
+        "data management",
+        "strategy",
+        "operations"
+      ]
+    }
+  },
+  {
+    "id": "technology_0066",
+    "term": "Extract Transform Load",
+    "acronym": "ETL",
+    "definition": "A data integration process that collects data from various sources, converts it into a consistent format, and then loads it into a database or data warehouse.",
+    "example": "Every night, our ETL process pulls sales data from all regional stores, standardizes the currency, and loads it into our central analytics platform.",
+    "metadata": {
+      "difficulty": 2,
+      "tags": [
+        "data management",
+        "data engineering",
+        "analytics"
+      ]
+    }
+  },
+  {
+    "id": "technology_0067",
+    "term": "Extract Load Transform",
+    "acronym": "ELT",
+    "definition": "A modern data integration process where raw data is loaded directly into a target system, like a cloud data warehouse, and transformed there.",
+    "example": "We switched from ETL to an ELT approach to take advantage of the powerful processing capabilities of our cloud data warehouse.",
+    "metadata": {
+      "difficulty": 2,
+      "tags": [
+        "data management",
+        "data engineering",
+        "cloud computing"
+      ]
+    }
+  },
+  {
+    "id": "technology_0068",
+    "term": "Data Virtualization",
+    "definition": "A technology that integrates data from disparate sources into a single logical view without physically moving the data.",
+    "example": "Using data virtualization, our analysts can query sales and marketing data together as if it were in one database, even though it's stored in separate systems.",
+    "metadata": {
+      "difficulty": 3,
+      "tags": [
+        "data management",
+        "data engineering",
+        "architecture"
+      ]
+    }
+  },
+  {
+    "id": "technology_0069",
+    "term": "Data Fabric",
+    "definition": "An architecture that provides a unified, intelligent, and secure data environment across multiple on-premises and cloud locations.",
+    "example": "Our company is building a data fabric to give teams seamless and governed access to data, no matter where it resides in our hybrid cloud.",
+    "metadata": {
+      "difficulty": 3,
+      "tags": [
+        "data management",
+        "architecture",
+        "cloud computing"
+      ]
+    }
+  },
+  {
+    "id": "technology_0070",
+    "term": "Data Mesh",
+    "definition": "A decentralized architectural approach that treats data as a product, managed by domain-specific teams who own their data pipelines and services.",
+    "example": "We are adopting a data mesh model to empower our marketing team to own and manage their own analytics data, reducing bottlenecks with the central data team.",
+    "metadata": {
+      "difficulty": 3,
+      "tags": [
+        "data management",
+        "architecture",
+        "strategy"
+      ]
+    }
+  },
+  {
+    "id": "technology_0071",
+    "term": "Graph Database",
+    "definition": "A type of database that uses nodes and edges to store and navigate relationships between data points, ideal for complex, connected data.",
+    "example": "Our social media platform uses a graph database to efficiently map user connections and recommend new friends.",
+    "metadata": {
+      "difficulty": 3,
+      "tags": [
+        "data management",
+        "database",
+        "software development"
+      ]
+    }
+  },
+  {
+    "id": "technology_0072",
+    "term": "Vector Database",
+    "definition": "A database designed to store and query high-dimensional vector embeddings, commonly used in AI applications like similarity search and recommendation engines.",
+    "example": "To power our image search feature, we use a vector database to find pictures that are visually similar to the one uploaded by the user.",
+    "metadata": {
+      "difficulty": 3,
+      "tags": [
+        "data management",
+        "database",
+        "AI",
+        "machine learning"
+      ]
+    }
+  },
+  {
+    "id": "technology_0073",
+    "term": "A/B Testing",
+    "definition": "A method of comparing two versions of a webpage, app, or marketing email to determine which one performs better.",
+    "example": "Through A/B testing, we discovered that a green 'Buy Now' button resulted in a 15% higher conversion rate than the blue one.",
+    "metadata": {
+      "difficulty": 1,
+      "tags": [
+        "marketing",
+        "product management",
+        "analytics",
+        "UX"
+      ]
+    }
+  },
+  {
+    "id": "technology_0074",
+    "term": "Feature Engineering",
+    "definition": "The process of using domain knowledge to select and transform raw data variables into features that better represent the underlying problem for machine learning models.",
+    "example": "In our credit risk model, the data science team's feature engineering created a 'debt-to-income ratio' which proved to be a powerful predictor of defaults.",
+    "metadata": {
+      "difficulty": 3,
+      "tags": [
+        "data science",
+        "AI",
+        "machine learning",
+        "analytics"
+      ]
+    }
+  },
+  {
+    "id": "technology_0075",
+    "term": "Anomaly Detection",
+    "definition": "The process of identifying rare items, events, or observations which raise suspicions by differing significantly from the majority of the data.",
+    "example": "Our system uses anomaly detection to flag unusual credit card transactions in real-time to prevent fraud.",
+    "metadata": {
+      "difficulty": 2,
+      "tags": [
+        "data science",
+        "AI",
+        "security",
+        "analytics"
+      ]
+    }
+  },
+  {
+    "id": "technology_0076",
+    "term": "Hybrid Cloud",
+    "definition": "A computing environment that combines a private cloud with one or more public cloud services, with proprietary software enabling communication between them.",
+    "example": "We use a hybrid cloud strategy, keeping sensitive customer data on our private servers while using the public cloud for its scalable computing power.",
+    "metadata": {
+      "difficulty": 2,
+      "tags": [
+        "cloud computing",
+        "IT",
+        "infrastructure",
+        "strategy"
+      ]
+    }
+  },
+  {
+    "id": "technology_0077",
+    "term": "Multi-Cloud Strategy",
+    "definition": "The practice of using cloud services from two or more different public cloud providers to avoid vendor lock-in and optimize for cost or features.",
+    "example": "Our multi-cloud strategy involves using Amazon Web Services for computing and Google Cloud for its advanced machine learning capabilities.",
+    "metadata": {
+      "difficulty": 2,
+      "tags": [
+        "cloud computing",
+        "IT",
+        "infrastructure",
+        "strategy"
+      ]
+    }
+  },
+  {
+    "id": "technology_0078",
+    "term": "Cloud Native Application",
+    "definition": "A program designed specifically to run in a modern, dynamic cloud computing environment, often using containers, microservices, and serverless architectures.",
+    "example": "We're rebuilding our legacy software as a cloud native application to take full advantage of the scalability and resilience of the cloud.",
+    "metadata": {
+      "difficulty": 2,
+      "tags": [
+        "cloud computing",
+        "software development",
+        "architecture"
+      ]
+    }
+  },
+  {
+    "id": "technology_0079",
+    "term": "Chaos Engineering",
+    "definition": "The practice of experimenting on a system in production in order to build confidence in the system's capability to withstand turbulent conditions.",
+    "example": "Our chaos engineering team intentionally shuts down random servers during business hours to ensure our website remains available for customers.",
+    "metadata": {
+      "difficulty": 3,
+      "tags": [
+        "operations",
+        "cloud computing",
+        "SRE",
+        "testing"
+      ]
+    }
+  },
+  {
+    "id": "technology_0080",
+    "term": "Site Reliability Engineering",
+    "acronym": "SRE",
+    "definition": "A discipline that incorporates aspects of software engineering and applies them to infrastructure and operations problems to create scalable and highly reliable software systems.",
+    "example": "The site reliability engineering team is responsible for automating our deployment process and ensuring our platform meets its uptime targets.",
+    "metadata": {
+      "difficulty": 2,
+      "tags": [
+        "operations",
+        "cloud computing",
+        "DevOps"
+      ]
+    }
+  },
+  {
+    "id": "technology_0081",
+    "term": "Service Level Objective",
+    "acronym": "SLO",
+    "definition": "A specific, measurable target for the reliability or performance of a service, which is agreed upon internally within a company.",
+    "example": "Our engineering team has set a service level objective of 99.95% availability for the login service this quarter.",
+    "metadata": {
+      "difficulty": 2,
+      "tags": [
+        "operations",
+        "SRE",
+        "management"
+      ]
+    }
+  },
+  {
+    "id": "technology_0082",
+    "term": "Service Level Indicator",
+    "acronym": "SLI",
+    "definition": "A quantitative measure of some aspect of the level of service that is being provided, such as error rate or system latency.",
+    "example": "We monitor the service level indicator for API request latency to ensure we are meeting our performance goals.",
+    "metadata": {
+      "difficulty": 2,
+      "tags": [
+        "operations",
+        "SRE",
+        "analytics"
+      ]
+    }
+  },
+  {
+    "id": "technology_0083",
+    "term": "Service Level Agreement",
+    "acronym": "SLA",
+    "definition": "A formal contract between a service provider and a customer that defines the specific level of service expected from the provider.",
+    "example": "Our cloud provider's service level agreement guarantees 99.9% uptime, and we receive a credit if they fail to meet that promise.",
+    "metadata": {
+      "difficulty": 2,
+      "tags": [
+        "operations",
+        "legal",
+        "management",
+        "IT"
+      ]
+    }
+  },
+  {
+    "id": "technology_0084",
+    "term": "Immutable Infrastructure",
+    "definition": "An approach to managing infrastructure where servers are never modified after they are deployed; instead, they are replaced with new, updated instances.",
+    "example": "By using immutable infrastructure, we can deploy updates faster and avoid configuration errors that happen with manual changes.",
+    "metadata": {
+      "difficulty": 3,
+      "tags": [
+        "operations",
+        "cloud computing",
+        "DevOps"
+      ]
+    }
+  },
+  {
+    "id": "technology_0085",
+    "term": "Canary Deployment",
+    "definition": "A technique to reduce the risk of introducing a new software version in production by slowly rolling out the change to a small subset of users.",
+    "example": "We performed a canary deployment, releasing the new feature to just 5% of our users to monitor for issues before a full-scale release.",
+    "metadata": {
+      "difficulty": 2,
+      "tags": [
+        "operations",
+        "DevOps",
+        "software development"
+      ]
+    }
+  },
+  {
+    "id": "technology_0086",
+    "term": "Blue-Green Deployment",
+    "definition": "A release strategy where two identical production environments, 'Blue' and 'Green', are maintained to allow for a near-instantaneous and low-risk release.",
+    "example": "With blue-green deployment, we can switch all user traffic to the new 'Green' environment instantly, and if any problems occur, we can immediately switch back to 'Blue'.",
+    "metadata": {
+      "difficulty": 2,
+      "tags": [
+        "operations",
+        "DevOps",
+        "software development"
+      ]
+    }
+  },
+  {
+    "id": "technology_0087",
+    "term": "Autoscaling",
+    "definition": "A cloud computing feature that automatically adjusts the amount of computational resources in a server farm based on the current load.",
+    "example": "Autoscaling helps us manage costs by automatically adding more servers during our peak holiday shopping season and removing them during slower periods.",
+    "metadata": {
+      "difficulty": 1,
+      "tags": [
+        "cloud computing",
+        "operations",
+        "infrastructure"
+      ]
+    }
+  },
+  {
+    "id": "technology_0088",
+    "term": "Load Balancing",
+    "definition": "The process of distributing network traffic or computational workloads across multiple servers to ensure no single server becomes overwhelmed.",
+    "example": "The load balancing system directs user requests to the least busy server, which keeps our website fast and responsive even during traffic spikes.",
+    "metadata": {
+      "difficulty": 1,
+      "tags": [
+        "networking",
+        "cloud computing",
+        "infrastructure",
+        "operations"
+      ]
+    }
+  },
+  {
+    "id": "technology_0089",
+    "term": "Content Delivery Network",
+    "acronym": "CDN",
+    "definition": "A geographically distributed network of proxy servers that caches content closer to users to improve website loading speed.",
+    "example": "We use a content delivery network to serve our images and videos, so customers in Asia have the same fast experience as customers in Europe.",
+    "metadata": {
+      "difficulty": 1,
+      "tags": [
+        "networking",
+        "web development",
+        "infrastructure"
+      ]
+    }
+  },
+  {
+    "id": "technology_0090",
+    "term": "Threat Intelligence",
+    "definition": "Evidence-based knowledge about existing or emerging threats that can be used to inform decisions regarding an organization's security.",
+    "example": "Our threat intelligence feed warned us about a new phishing campaign, so we were able to proactively block the malicious domains.",
+    "metadata": {
+      "difficulty": 2,
+      "tags": [
+        "cybersecurity",
+        "security",
+        "IT"
+      ]
+    }
+  },
+  {
+    "id": "technology_0091",
+    "term": "Vulnerability Assessment",
+    "definition": "The process of identifying, quantifying, and prioritizing the security weaknesses in a computer system, network, or application.",
+    "example": "The quarterly vulnerability assessment revealed a critical weakness in our web server, which we patched immediately.",
+    "metadata": {
+      "difficulty": 2,
+      "tags": [
+        "cybersecurity",
+        "security",
+        "IT"
+      ]
+    }
+  },
+  {
+    "id": "technology_0092",
+    "term": "Security Information and Event Management",
+    "acronym": "SIEM",
+    "definition": "A solution that collects and analyzes security data from various sources to provide real-time analysis of security alerts.",
+    "example": "Our SIEM system correlated log entries from three different servers to detect a sophisticated cyberattack in progress.",
+    "metadata": {
+      "difficulty": 3,
+      "tags": [
+        "cybersecurity",
+        "security",
+        "operations"
+      ]
+    }
+  },
+  {
+    "id": "technology_0093",
+    "term": "Intrusion Detection System",
+    "acronym": "IDS",
+    "definition": "A device or software application that monitors a network for malicious activity or policy violations and reports it to a management station.",
+    "example": "The intrusion detection system alerted our security team to unauthorized access attempts on our main database server.",
+    "metadata": {
+      "difficulty": 2,
+      "tags": [
+        "cybersecurity",
+        "security",
+        "networking"
+      ]
+    }
+  },
+  {
+    "id": "technology_0094",
+    "term": "Data Loss Prevention",
+    "acronym": "DLP",
+    "definition": "A strategy and set of tools that ensure sensitive data is not lost, misused, or accessed by unauthorized users.",
+    "example": "We implemented a data loss prevention policy that automatically blocks emails containing customer credit card numbers from being sent outside the company.",
+    "metadata": {
+      "difficulty": 2,
+      "tags": [
+        "cybersecurity",
+        "security",
+        "compliance"
+      ]
+    }
+  },
+  {
+    "id": "technology_0095",
+    "term": "Endpoint Detection and Response",
+    "acronym": "EDR",
+    "definition": "A cybersecurity solution that continuously monitors and responds to advanced threats on endpoint devices like laptops and servers.",
+    "example": "Our new EDR software was able to detect and isolate a ransomware attack on an employee's laptop before it could spread across the network.",
+    "metadata": {
+      "difficulty": 3,
+      "tags": [
+        "cybersecurity",
+        "security",
+        "IT"
+      ]
+    }
+  },
+  {
+    "id": "technology_0096",
+    "term": "Public Key Infrastructure",
+    "acronym": "PKI",
+    "definition": "A set of roles, policies, hardware, and software needed to create, manage, distribute, use, store, and revoke digital certificates and manage public-key encryption.",
+    "example": "Our website's security relies on public key infrastructure to issue the SSL certificates that enable encrypted HTTPS connections.",
+    "metadata": {
+      "difficulty": 3,
+      "tags": [
+        "cybersecurity",
+        "security",
+        "networking"
+      ]
+    }
+  },
+  {
+    "id": "technology_0097",
+    "term": "Multi-Factor Authentication",
+    "acronym": "MFA",
+    "definition": "A security method that requires users to provide two or more verification factors to gain access to an application or account.",
+    "example": "To improve security, all employees must now use multi-factor authentication, which involves their password and a code from a mobile app.",
+    "metadata": {
+      "difficulty": 1,
+      "tags": [
+        "cybersecurity",
+        "security",
+        "IT"
+      ]
+    }
+  },
+  {
+    "id": "technology_0098",
+    "term": "Single Sign-On",
+    "acronym": "SSO",
+    "definition": "An authentication scheme that allows a user to log in with a single ID and password to any of several related, yet independent, software systems.",
+    "example": "With single sign-on, our employees can log into their computer once and get access to all their work applications without re-entering their password.",
+    "metadata": {
+      "difficulty": 1,
+      "tags": [
+        "cybersecurity",
+        "security",
+        "IT"
+      ]
+    }
+  },
+  {
+    "id": "technology_0099",
+    "term": "Secure Software Development Lifecycle",
+    "acronym": "SSDLC",
+    "definition": "The process of integrating security testing and practices into every phase of the software development lifecycle, from design to deployment.",
+    "example": "By adopting a secure software development lifecycle, we identify and fix security flaws early in the process, which is much cheaper than fixing them after release.",
+    "metadata": {
+      "difficulty": 2,
+      "tags": [
+        "cybersecurity",
+        "software development",
+        "project management"
+      ]
+    }
+  },
+  {
+    "id": "technology_0100",
+    "term": "Threat Modeling",
+    "definition": "A structured process to identify potential threats and vulnerabilities in a system, and to prioritize methods for mitigating them.",
+    "example": "During the design phase, we conducted a threat modeling session to identify all the ways our new mobile banking app could be attacked.",
+    "metadata": {
+      "difficulty": 2,
+      "tags": [
+        "cybersecurity",
+        "security",
+        "software development"
+      ]
+    }
+  },
+  {
+    "id": "technology_0101",
+    "term": "Software-Defined Networking",
+    "acronym": "SDN",
+    "definition": "An approach to network management that uses software-based controllers to manage network traffic, making the network more agile and flexible.",
+    "example": "By implementing Software-Defined Networking, we can centrally manage our entire network infrastructure and respond to changing traffic demands in real-time.",
+    "metadata": {
+      "difficulty": 3,
+      "tags": [
+        "networking",
+        "cloud computing",
+        "infrastructure"
+      ]
+    }
+  },
+  {
+    "id": "technology_0102",
+    "term": "Network Function Virtualization",
+    "acronym": "NFV",
+    "definition": "The practice of separating network functions, like firewalls or load balancers, from dedicated hardware so they can run in software on standard servers.",
+    "example": "With Network Function Virtualization, our company can deploy a new virtual firewall in minutes without purchasing any new hardware.",
+    "metadata": {
+      "difficulty": 3,
+      "tags": [
+        "networking",
+        "cloud computing",
+        "virtualization"
+      ]
+    }
+  },
+  {
+    "id": "technology_0103",
+    "term": "Application Programming Interface",
+    "acronym": "API",
+    "definition": "A set of rules and protocols that allows different software applications to communicate and share data with each other.",
+    "example": "Our mobile app uses a third-party API to process credit card payments securely.",
+    "metadata": {
+      "difficulty": 2,
+      "tags": [
+        "software development",
+        "integration",
+        "web development"
+      ]
+    }
+  },
+  {
+    "id": "technology_0104",
+    "term": "Representational State Transfer",
+    "acronym": "REST",
+    "definition": "An architectural style for designing networked applications, often used for creating simple, scalable, and reliable web services.",
+    "example": "The development team is building a REST API to allow our partners to access our product catalog programmatically.",
+    "metadata": {
+      "difficulty": 3,
+      "tags": [
+        "software development",
+        "web services",
+        "architecture"
+      ]
+    }
+  },
+  {
+    "id": "technology_0105",
+    "term": "GraphQL",
+    "definition": "A query language for APIs that allows clients to request exactly the data they need, making applications faster and more efficient.",
+    "example": "By switching to GraphQL, our mobile app now loads much faster because it no longer over-fetches data from the server.",
+    "metadata": {
+      "difficulty": 3,
+      "tags": [
+        "software development",
+        "API",
+        "data management"
+      ]
+    }
+  },
+  {
+    "id": "technology_0106",
+    "term": "WebSockets",
+    "definition": "A communication protocol that provides a persistent, two-way communication channel between a client and a server over a single connection.",
+    "example": "We use WebSockets to power the real-time chat feature in our customer support platform.",
+    "metadata": {
+      "difficulty": 3,
+      "tags": [
+        "web development",
+        "networking",
+        "real-time"
+      ]
+    }
+  },
+  {
+    "id": "technology_0107",
+    "term": "Message Queue",
+    "definition": "A system that allows applications to communicate asynchronously by sending messages that are stored in a queue until they can be processed.",
+    "example": "When a user places an order, we put a message in the message queue to be processed by our inventory system later, ensuring the website remains responsive.",
+    "metadata": {
+      "difficulty": 3,
+      "tags": [
+        "software architecture",
+        "distributed systems"
+      ]
+    }
+  },
+  {
+    "id": "technology_0108",
+    "term": "Homomorphic Encryption",
+    "definition": "A form of encryption that allows computations to be performed on encrypted data without decrypting it first, enhancing data security.",
+    "example": "Our healthcare startup is exploring homomorphic encryption to analyze patient data in the cloud while maintaining complete privacy.",
+    "metadata": {
+      "difficulty": 3,
+      "tags": [
+        "cybersecurity",
+        "data science",
+        "cryptography"
+      ]
+    }
+  },
+  {
+    "id": "technology_0109",
+    "term": "Federated Learning",
+    "acronym": "FL",
+    "definition": "A machine learning approach that trains an algorithm across multiple decentralized devices or servers holding local data samples, without exchanging the data itself.",
+    "example": "Through federated learning, we can improve our AI model using data from various hospitals without violating patient data privacy regulations.",
+    "metadata": {
+      "difficulty": 3,
+      "tags": [
+        "AI",
+        "machine learning",
+        "data privacy"
+      ]
+    }
+  },
+  {
+    "id": "technology_0110",
+    "term": "Explainable Artificial Intelligence",
+    "acronym": "XAI",
+    "definition": "A set of AI methods and techniques that allow human users to understand and trust the results and output created by machine learning algorithms.",
+    "example": "To comply with financial regulations, our loan approval model must incorporate explainable artificial intelligence so we can justify every decision.",
+    "metadata": {
+      "difficulty": 3,
+      "tags": [
+        "AI",
+        "machine learning",
+        "ethics",
+        "compliance"
+      ]
+    }
+  },
+  {
+    "id": "technology_0111",
+    "term": "Machine Learning Operations",
+    "acronym": "MLOps",
+    "definition": "A set of practices that aims to deploy and maintain machine learning models in production reliably and efficiently.",
+    "example": "By adopting MLOps, we've automated the process of retraining and deploying our recommendation engine, significantly reducing manual effort.",
+    "metadata": {
+      "difficulty": 3,
+      "tags": [
+        "AI",
+        "machine learning",
+        "DevOps"
+      ]
+    }
+  },
+  {
+    "id": "technology_0112",
+    "term": "Low-Code Development Platform",
+    "acronym": "LCDP",
+    "definition": "A platform that enables rapid application development with minimal hand-coding, using visual interfaces and drag-and-drop components.",
+    "example": "Our business analysts used a low-code development platform to quickly build an internal app for tracking department budgets.",
+    "metadata": {
+      "difficulty": 2,
+      "tags": [
+        "software development",
+        "business process",
+        "productivity"
+      ]
+    }
+  },
+  {
+    "id": "technology_0113",
+    "term": "No-Code Development Platform",
+    "acronym": "NCDP",
+    "definition": "A platform that allows non-programmers and programmers to create application software through graphical user interfaces and configuration instead of traditional computer programming.",
+    "example": "The marketing team built a new landing page and a data collection form themselves using a no-code development platform.",
+    "metadata": {
+      "difficulty": 2,
+      "tags": [
+        "software development",
+        "business process",
+        "citizen development"
+      ]
+    }
+  },
+  {
+    "id": "technology_0114",
+    "term": "Composable Architecture",
+    "definition": "An architectural approach where systems are assembled from independent, interchangeable components, allowing for greater flexibility and faster development.",
+    "example": "Our new e-commerce platform uses a composable architecture, so we can easily swap out the payment provider or search engine without rebuilding everything.",
+    "metadata": {
+      "difficulty": 3,
+      "tags": [
+        "software architecture",
+        "enterprise systems"
+      ]
+    }
+  },
+  {
+    "id": "technology_0115",
+    "term": "Observability",
+    "definition": "The ability to measure a system's current state based on the data it generates, such as logs, metrics, and traces, allowing for better troubleshooting.",
+    "example": "By improving our system's observability, the engineering team can now quickly diagnose and fix production issues.",
+    "metadata": {
+      "difficulty": 3,
+      "tags": [
+        "operations",
+        "DevOps",
+        "monitoring"
+      ]
+    }
+  },
+  {
+    "id": "technology_0116",
+    "term": "Distributed Ledger Technology",
+    "acronym": "DLT",
+    "definition": "A digital system for recording transactions in which the transactions and their details are recorded in multiple places at the same time.",
+    "example": "We are using distributed ledger technology to create a transparent and tamper-proof supply chain tracking system.",
+    "metadata": {
+      "difficulty": 3,
+      "tags": [
+        "blockchain",
+        "finance",
+        "cybersecurity"
+      ]
+    }
+  },
+  {
+    "id": "technology_0117",
+    "term": "Synthetic Data Generation",
+    "acronym": "SDG",
+    "definition": "The process of creating artificial, algorithmically-generated data that can be used to test systems or train machine learning models.",
+    "example": "We used synthetic data generation to create a large dataset for training our fraud detection model without using real customer information.",
+    "metadata": {
+      "difficulty": 3,
+      "tags": [
+        "AI",
+        "data science",
+        "data privacy"
+      ]
+    }
+  },
+  {
+    "id": "technology_0118",
+    "term": "Responsible AI",
+    "definition": "An approach to developing, assessing, and deploying AI systems in a way that is safe, trustworthy, and aligns with human values and ethical principles.",
+    "example": "Our company has a Responsible AI committee to ensure our algorithms are fair, transparent, and accountable.",
+    "metadata": {
+      "difficulty": 2,
+      "tags": [
+        "AI",
+        "ethics",
+        "compliance",
+        "strategy"
+      ]
+    }
+  },
+  {
+    "id": "technology_0119",
+    "term": "Technology Stack",
+    "definition": "The set of technologies, software, and programming languages used to build and run an application or project.",
+    "example": "Our web app's technology stack includes React for the front-end, Python for the back-end, and a PostgreSQL database.",
+    "metadata": {
+      "difficulty": 1,
+      "tags": [
+        "software development",
+        "project management"
+      ]
+    }
+  },
+  {
+    "id": "technology_0120",
+    "term": "Legacy System Modernization",
+    "definition": "The process of updating or replacing outdated computer systems, programming languages, or software with modern alternatives.",
+    "example": "The legacy system modernization project aims to move our 30-year-old mainframe application to the cloud.",
+    "metadata": {
+      "difficulty": 2,
+      "tags": [
+        "IT management",
+        "enterprise architecture"
+      ]
+    }
+  },
+  {
+    "id": "technology_0121",
+    "term": "Vendor Lock-in",
+    "definition": "A situation where a customer is dependent on a single vendor for products and services and cannot easily switch to another without substantial costs.",
+    "example": "By using open-source software, we aim to avoid vendor lock-in and maintain control over our technology choices.",
+    "metadata": {
+      "difficulty": 2,
+      "tags": [
+        "procurement",
+        "strategy",
+        "IT management"
+      ]
+    }
+  },
+  {
+    "id": "technology_0122",
+    "term": "Total Cost of Ownership",
+    "acronym": "TCO",
+    "definition": "A financial estimate to help buyers determine the direct and indirect costs of a product or system over its entire lifecycle.",
+    "example": "When choosing a new cloud provider, we must analyze the total cost of ownership, not just the monthly subscription fee.",
+    "metadata": {
+      "difficulty": 2,
+      "tags": [
+        "finance",
+        "procurement",
+        "IT management"
+      ]
+    }
+  },
+  {
+    "id": "technology_0123",
+    "term": "Proof of Concept",
+    "acronym": "PoC",
+    "definition": "A small-scale project or experiment to test whether a particular idea or technology is feasible and has business potential.",
+    "example": "Before committing to the full project, we will build a proof of concept to validate that the new technology works as expected.",
+    "metadata": {
+      "difficulty": 2,
+      "tags": [
+        "project management",
+        "innovation",
+        "strategy"
+      ]
+    }
+  },
+  {
+    "id": "technology_0124",
+    "term": "Business Continuity Planning",
+    "acronym": "BCP",
+    "definition": "The process of creating systems of prevention and recovery to deal with potential threats, ensuring that essential functions can continue during and after a disaster.",
+    "example": "Our business continuity planning was tested during the power outage, and thanks to our backup systems, we experienced zero downtime.",
+    "metadata": {
+      "difficulty": 2,
+      "tags": [
+        "risk management",
+        "operations",
+        "strategy"
+      ]
+    }
+  },
+  {
+    "id": "technology_0125",
+    "term": "Data Sovereignty",
+    "definition": "The legal principle that data is subject to the laws and regulations of the country in which it is collected or processed.",
+    "example": "Due to data sovereignty laws, we must store all German customer data on servers located within Germany.",
+    "metadata": {
+      "difficulty": 3,
+      "tags": [
+        "legal",
+        "compliance",
+        "data management"
+      ]
+    }
+  },
+  {
+    "id": "technology_0126",
+    "term": "Data Residency",
+    "definition": "The physical or geographical location where an organization chooses to store its data.",
+    "example": "Our company has a strict data residency policy that requires all financial records to be stored in our on-premise data center.",
+    "metadata": {
+      "difficulty": 2,
+      "tags": [
+        "compliance",
+        "data management",
+        "cloud computing"
+      ]
+    }
+  },
+  {
+    "id": "technology_0127",
+    "term": "Monolithic Architecture",
+    "definition": "A traditional software design approach where an application is built as a single, indivisible unit.",
+    "example": "The old e-commerce site was a monolithic architecture, which made it slow and difficult to update individual features.",
+    "metadata": {
+      "difficulty": 2,
+      "tags": [
+        "software architecture",
+        "software development"
+      ]
+    }
+  },
+  {
+    "id": "technology_0128",
+    "term": "Service-Oriented Architecture",
+    "acronym": "SOA",
+    "definition": "A software design style where application components provide services to other components over a network, promoting reusability and interoperability.",
+    "example": "The bank adopted a service-oriented architecture to allow its mobile app and website to share the same customer authentication service.",
+    "metadata": {
+      "difficulty": 3,
+      "tags": [
+        "software architecture",
+        "enterprise systems"
+      ]
+    }
+  },
+  {
+    "id": "technology_0129",
+    "term": "Digital Forensics",
+    "definition": "The practice of collecting, processing, and analyzing digital data to investigate cybercrime or security incidents.",
+    "example": "Our digital forensics team is investigating the data breach to determine its origin and impact.",
+    "metadata": {
+      "difficulty": 2,
+      "tags": [
+        "cybersecurity",
+        "legal",
+        "investigation"
+      ]
+    }
+  },
+  {
+    "id": "technology_0130",
+    "term": "Lift and Shift Migration",
+    "definition": "A cloud migration strategy that involves moving an application and its associated data to a cloud environment without redesigning the app.",
+    "example": "As a first step, we'll perform a lift and shift migration of our servers to the cloud to quickly reduce our hardware costs.",
+    "metadata": {
+      "difficulty": 2,
+      "tags": [
+        "cloud computing",
+        "migration",
+        "infrastructure"
+      ]
+    }
+  },
+  {
+    "id": "technology_0131",
+    "term": "Replatforming",
+    "definition": "A cloud migration strategy that involves making some modernizing changes to an application to better leverage cloud-native features.",
+    "example": "Instead of a simple lift and shift, we are replatforming our application by moving its database to a managed cloud service.",
+    "metadata": {
+      "difficulty": 3,
+      "tags": [
+        "cloud computing",
+        "migration",
+        "architecture"
+      ]
+    }
+  },
+  {
+    "id": "technology_0132",
+    "term": "FinOps",
+    "definition": "A cultural practice and framework that brings financial accountability to the variable spending model of the cloud.",
+    "example": "Our FinOps team collaborates with developers to optimize cloud spending and eliminate wasted resources.",
+    "metadata": {
+      "difficulty": 3,
+      "tags": [
+        "cloud computing",
+        "finance",
+        "operations"
+      ]
+    }
+  },
+  {
+    "id": "technology_0133",
+    "term": "GitOps",
+    "definition": "A framework for automating infrastructure provisioning and application deployment using Git as the single source of truth.",
+    "example": "With GitOps, every change to our production environment is automatically deployed after being approved and merged in the Git repository.",
+    "metadata": {
+      "difficulty": 3,
+      "tags": [
+        "DevOps",
+        "cloud computing",
+        "automation"
+      ]
+    }
+  },
+  {
+    "id": "technology_0134",
+    "term": "User Acceptance Testing",
+    "acronym": "UAT",
+    "definition": "The final phase of the software testing process where actual users test the software to see if it meets their business needs in a real-world scenario.",
+    "example": "We can't launch the new feature until it passes user acceptance testing with the sales department.",
+    "metadata": {
+      "difficulty": 2,
+      "tags": [
+        "software development",
+        "quality assurance",
+        "project management"
+      ]
+    }
+  },
+  {
+    "id": "technology_0135",
+    "term": "Event Sourcing",
+    "definition": "An architectural pattern that stores every change to an application's state as a sequence of immutable events.",
+    "example": "We use event sourcing for our order management system, which gives us a complete and auditable history of every order.",
+    "metadata": {
+      "difficulty": 3,
+      "tags": [
+        "software architecture",
+        "data management"
+      ]
+    }
+  },
+  {
+    "id": "technology_0136",
+    "term": "CAP Theorem",
+    "acronym": "CAP",
+    "definition": "A principle for distributed data stores stating it is impossible to simultaneously provide more than two out of three guarantees: Consistency, Availability, and Partition tolerance.",
+    "example": "When designing our distributed database, the CAP theorem forced us to choose between ensuring high availability or strong consistency during a network failure.",
+    "metadata": {
+      "difficulty": 3,
+      "tags": [
+        "distributed systems",
+        "software architecture",
+        "database"
+      ]
+    }
+  },
+  {
+    "id": "technology_0137",
+    "term": "ACID Transactions",
+    "acronym": "ACID",
+    "definition": "A set of properties (Atomicity, Consistency, Isolation, Durability) that guarantee database transactions are processed reliably.",
+    "example": "Our banking application relies on ACID transactions to ensure that money transfers are processed completely and accurately, or not at all.",
+    "metadata": {
+      "difficulty": 3,
+      "tags": [
+        "database",
+        "data management",
+        "software development"
+      ]
+    }
+  },
+  {
+    "id": "technology_0138",
+    "term": "Sharding",
+    "definition": "The process of splitting a large database into smaller, faster, and more manageable parts called shards.",
+    "example": "To handle our rapidly growing user base, we implemented sharding to distribute the database load across multiple servers.",
+    "metadata": {
+      "difficulty": 3,
+      "tags": [
+        "database",
+        "scalability",
+        "architecture"
+      ]
+    }
+  },
+  {
+    "id": "technology_0139",
+    "term": "Replication",
+    "definition": "The process of creating and maintaining multiple copies of the same data on different servers to improve reliability and availability.",
+    "example": "Database replication ensures that if our primary server fails, a backup server can take over immediately with no data loss.",
+    "metadata": {
+      "difficulty": 2,
+      "tags": [
+        "database",
+        "infrastructure",
+        "high availability"
+      ]
+    }
+  },
+  {
+    "id": "technology_0140",
+    "term": "Caching Strategy",
+    "definition": "A plan for temporarily storing frequently accessed data in a high-speed layer (a cache) to reduce latency and improve application performance.",
+    "example": "Our new caching strategy for product images has significantly improved our e-commerce site's page load times.",
+    "metadata": {
+      "difficulty": 2,
+      "tags": [
+        "web development",
+        "performance",
+        "architecture"
+      ]
+    }
+  },
+  {
+    "id": "technology_0141",
+    "term": "Message Broker",
+    "definition": "An intermediary software that translates messages from the formal messaging protocol of the sender to the formal messaging protocol of the receiver.",
+    "example": "We use a message broker like RabbitMQ to enable reliable, asynchronous communication between our different microservices.",
+    "metadata": {
+      "difficulty": 3,
+      "tags": [
+        "software architecture",
+        "distributed systems"
+      ]
+    }
+  },
+  {
+    "id": "technology_0142",
+    "term": "Rate Limiting",
+    "definition": "The practice of controlling the amount of incoming traffic to a service by limiting how many requests a user can make in a given time frame.",
+    "example": "Our public API implements rate limiting to prevent any single developer from overwhelming the system with too many requests.",
+    "metadata": {
+      "difficulty": 2,
+      "tags": [
+        "networking",
+        "cybersecurity",
+        "API"
+      ]
+    }
+  },
+  {
+    "id": "technology_0143",
+    "term": "Circuit Breaker Pattern",
+    "definition": "A design pattern that prevents an application from repeatedly trying to execute an operation that is likely to fail, improving system stability.",
+    "example": "We implemented the circuit breaker pattern, so if the payment service is down, our app will stop trying to contact it and show an error message instead.",
+    "metadata": {
+      "difficulty": 3,
+      "tags": [
+        "software architecture",
+        "resilience",
+        "distributed systems"
+      ]
+    }
+  },
+  {
+    "id": "technology_0144",
+    "term": "Idempotency",
+    "definition": "A property of an operation where it can be applied multiple times without changing the result beyond the initial application.",
+    "example": "Our payment processing API is designed with idempotency, ensuring that if a user accidentally submits a payment twice, they are only charged once.",
+    "metadata": {
+      "difficulty": 3,
+      "tags": [
+        "software development",
+        "API",
+        "distributed systems"
+      ]
+    }
+  },
+  {
+    "id": "technology_0145",
+    "term": "Stateful Application",
+    "definition": "An application that saves data from a client's session to be used in subsequent requests from that same client.",
+    "example": "An online shopping cart is a classic stateful application because it must remember the items a user has added across multiple page views.",
+    "metadata": {
+      "difficulty": 2,
+      "tags": [
+        "software architecture",
+        "web development"
+      ]
+    }
+  },
+  {
+    "id": "technology_0146",
+    "term": "Stateless Application",
+    "definition": "An application that does not save any client session data on the server, treating every request as an independent transaction.",
+    "example": "A well-designed REST API is a stateless application, as each request contains all the information the server needs to fulfill it.",
+    "metadata": {
+      "difficulty": 2,
+      "tags": [
+        "software architecture",
+        "web development",
+        "scalability"
+      ]
+    }
+  },
+  {
+    "id": "technology_0147",
+    "term": "Progressive Web Application",
+    "acronym": "PWA",
+    "definition": "A type of web application that can be installed on a user's device and offers features like offline functionality and push notifications.",
+    "example": "We launched a progressive web application to provide our users with a native app-like experience directly from their browser.",
+    "metadata": {
+      "difficulty": 2,
+      "tags": [
+        "web development",
+        "mobile",
+        "user experience"
+      ]
+    }
+  },
+  {
+    "id": "technology_0148",
+    "term": "Single Page Application",
+    "acronym": "SPA",
+    "definition": "A web application that loads a single HTML page and dynamically updates content as the user interacts with it, rather than loading new pages.",
+    "example": "Modern web mail clients like Gmail are single page applications, offering a fast and responsive user experience.",
+    "metadata": {
+      "difficulty": 2,
+      "tags": [
+        "web development",
+        "user experience"
+      ]
+    }
+  },
+  {
+    "id": "technology_0149",
+    "term": "Server-Side Rendering",
+    "acronym": "SSR",
+    "definition": "The process of rendering web pages on a server before sending them to the browser, which can improve initial load performance and search engine optimization.",
+    "example": "Our public-facing blog uses server-side rendering to ensure our articles load quickly and are easily indexed by Google.",
+    "metadata": {
+      "difficulty": 3,
+      "tags": [
+        "web development",
+        "performance",
+        "SEO"
+      ]
+    }
+  },
+  {
+    "id": "technology_0150",
+    "term": "Web Application Firewall",
+    "acronym": "WAF",
+    "definition": "A security system that monitors and filters HTTP traffic between a web application and the Internet to protect against common attacks.",
+    "example": "Our IT department installed a web application firewall to protect our customer portal from SQL injection and cross-site scripting attacks.",
+    "metadata": {
+      "difficulty": 2,
+      "tags": [
+        "cybersecurity",
+        "networking",
+        "web development"
+      ]
+    }
+  }
+]

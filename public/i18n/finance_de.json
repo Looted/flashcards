@@ -1,0 +1,802 @@
+[
+  {
+    "id": "finance_0001",
+    "term": "Discounted-Cash-Flow-Verfahren",
+    "acronym": "DCF",
+    "definition": "Eine Bewertungsmethode zur Schätzung des Werts einer Investition auf der Grundlage der erwarteten zukünftigen Cashflows, bereinigt um den Zeitwert des Geldes.",
+    "example": "Der Analyst verwendete ein Discounted-Cash-Flow-Modell, um festzustellen, dass das Zielunternehmen unterbewertet und somit eine attraktive Akquisition war.",
+    "reviewed": true
+  },
+  {
+    "id": "finance_0002",
+    "term": "Kapitalwert",
+    "acronym": "NPV",
+    "definition": "Die Differenz zwischen dem Barwert der Einzahlungen und dem Barwert der Auszahlungen über einen bestimmten Zeitraum. Er wird in der Investitionsrechnung verwendet, um die Rentabilität einer geplanten Investition zu analysieren.",
+    "example": "Das Projekt wurde genehmigt, weil sein Kapitalwert positiv war, was darauf hindeutet, dass es mehr Wert generieren würde, als es kostet.",
+    "reviewed": true
+  },
+  {
+    "id": "finance_0003",
+    "term": "Interner Zinsfuß",
+    "acronym": "IRR",
+    "definition": "Der Abzinsungssatz, bei dem der Kapitalwert (NPV) aller Cashflows aus einem bestimmten Projekt gleich null ist. Er ist eine Kennzahl zur Schätzung der Rentabilität potenzieller Investitionen.",
+    "example": "Wir ziehen nur Projekte mit einem internen Zinsfuß von über 15 % in Betracht, um sicherzustellen, dass sie unsere Rentabilitätsziele erfüllen.",
+    "reviewed": true
+  },
+  {
+    "id": "finance_0004",
+    "term": "Gewichteter durchschnittlicher Kapitalkostensatz",
+    "acronym": "WACC",
+    "definition": "Eine Berechnung der Kapitalkosten eines Unternehmens, bei der jede Kapitalkategorie proportional gewichtet wird. Er stellt den durchschnittlichen Satz dar, den ein Unternehmen zur Finanzierung seiner Vermögenswerte zu zahlen erwartet.",
+    "example": "Zur Bewertung des neuen Fabrikprojekts haben wir den gewichteten durchschnittlichen Kapitalkostensatz (WACC) des Unternehmens als Diskontierungssatz in unserer Kapitalwertanalyse verwendet.",
+    "reviewed": true
+  },
+  {
+    "id": "finance_0005",
+    "term": "Capital-Asset-Pricing-Modell",
+    "acronym": "CAPM",
+    "definition": "Ein Modell, das die Beziehung zwischen systematischem Risiko und erwarteter Rendite für Vermögenswerte, insbesondere Aktien, beschreibt. Es wird häufig zur Preisbildung von riskanten Wertpapieren und zur Ermittlung erwarteter Renditen verwendet.",
+    "example": "Mithilfe des Capital-Asset-Pricing-Modells haben wir die erwartete Rendite der Aktie unter Berücksichtigung ihres Beta-Faktors und der aktuellen Marktrisikoprämie auf 9 % berechnet.",
+    "reviewed": true
+  },
+  {
+    "id": "finance_0006",
+    "term": "Unternehmenswert",
+    "acronym": "EV",
+    "definition": "Eine Kennzahl für den Gesamtwert eines Unternehmens, die oft als umfassendere Alternative zur Marktkapitalisierung verwendet wird. Sie umfasst die Marktkapitalisierung eines Unternehmens zuzüglich Schulden, Minderheitsanteilen und Vorzugsaktien, abzüglich Barmittel.",
+    "example": "Der Übernahmepreis basierte auf dem Unternehmenswert des Zielunternehmens, da dieser ein umfassenderes Bild des Gesamtwerts lieferte als der Aktienkurs allein.",
+    "reviewed": true
+  },
+  {
+    "id": "finance_0007",
+    "term": "Fremdfinanzierte Übernahme",
+    "acronym": "LBO",
+    "definition": "Die Übernahme eines Unternehmens, die überwiegend mit Fremdkapital finanziert wird. Oft dienen die Vermögenswerte des übernommenen Unternehmens als Sicherheit für die Kredite.",
+    "example": "Die Private-Equity-Gesellschaft schloss eine fremdfinanzierte Übernahme der Einzelhandelskette ab, in der Hoffnung, sie zu restrukturieren und mit Gewinn zu verkaufen.",
+    "reviewed": true
+  },
+  {
+    "id": "finance_0008",
+    "term": "Mezzanine-Finanzierung",
+    "acronym": null,
+    "definition": "Eine Mischform aus Fremd- und Eigenkapitalfinanzierung, die dem Kreditgeber das Recht einräumt, im Falle eines Zahlungsausfalls seine Forderung in eine Eigenkapitalbeteiligung am Unternehmen umzuwandeln. Sie ist nachrangig gegenüber reinen Schuldtiteln, aber vorrangig gegenüber reinem Eigenkapital.",
+    "example": "Um ihre Expansion zu finanzieren, ohne die Eigentumsverhältnisse zu stark zu verwässern, sicherte sich das Startup eine Mezzanine-Finanzierung als Alternative zu einem traditionellen Bankkredit.",
+    "reviewed": true
+  },
+  {
+    "id": "finance_0009",
+    "term": "Verbriefung",
+    "acronym": null,
+    "definition": "Der Prozess, bei dem ein illiquider Vermögenswert oder eine Gruppe von Vermögenswerten in ein handelbares Wertpapier umgewandelt wird. Der Emittent bündelt Vermögenswerte wie Hypotheken oder Autokredite und verkauft sie an Investoren.",
+    "example": "Die Bank nutzte die Verbriefung, um Tausende von Einzelhypotheken zu einem einzigen Anlageprodukt zu bündeln und an institutionelle Anleger zu verkaufen.",
+    "reviewed": true
+  },
+  {
+    "id": "finance_0010",
+    "term": "Arbitrage",
+    "acronym": null,
+    "definition": "Der gleichzeitige Kauf und Verkauf eines Vermögenswerts auf verschiedenen Märkten, um von einem geringfügigen Preisunterschied zu profitieren. Dabei werden Preisineffizienzen am Markt ausgenutzt.",
+    "example": "Der Händler führte eine Arbitrage-Strategie aus, indem er die Aktie an einer Börse kaufte und sie sofort zu einem etwas höheren Preis an einer anderen verkaufte.",
+    "reviewed": true
+  },
+  {
+    "id": "finance_0011",
+    "term": "Absicherung",
+    "acronym": null,
+    "definition": "Eine Anlagestrategie, die darauf abzielt, das Risiko nachteiliger Preisbewegungen eines Vermögenswerts zu reduzieren. Sie beinhaltet typischerweise das Eingehen einer Gegenposition in einem verwandten Wertpapier.",
+    "example": "Zur Absicherung kaufte die Fluggesellschaft Treibstoff-Futures, um einen Preis festzuschreiben und sich vor steigenden Ölpreisen zu schützen.",
+    "reviewed": true
+  },
+  {
+    "id": "finance_0012",
+    "term": "Termingeschäft",
+    "acronym": null,
+    "definition": "Ein individueller, privater Vertrag zwischen zwei Parteien über den Kauf oder Verkauf eines Vermögenswerts zu einem festgelegten Preis an einem zukünftigen Datum. Er wird nicht an einer zentralen Börse gehandelt.",
+    "example": "Der Landwirt schloss ein Termingeschäft ab, um 10.000 Scheffel Mais in sechs Monaten zu einem festen Preis zu verkaufen und so seine Einnahmen zu garantieren.",
+    "reviewed": true
+  },
+  {
+    "id": "finance_0013",
+    "term": "Zinsswap",
+    "acronym": null,
+    "definition": "Ein Derivatvertrag, bei dem zwei Parteien Zinszahlungen für einen bestimmten Nennbetrag austauschen, wobei typischerweise ein fester Zinssatz gegen einen variablen Zinssatz getauscht wird.",
+    "example": "Unser Unternehmen hat einen Zinsswap abgeschlossen, um unser Darlehen mit variablem Zinssatz in ein Darlehen mit festem Zinssatz umzuwandeln und so eine größere finanzielle Sicherheit zu erlangen.",
+    "reviewed": true
+  },
+  {
+    "id": "finance_0014",
+    "term": "Kreditausfallswap",
+    "acronym": "CDS",
+    "definition": "Ein Finanzderivat, das es einem Investor ermöglicht, sein Kreditrisiko mit dem eines anderen Investors zu tauschen oder auszugleichen. Es handelt sich im Wesentlichen um eine Versicherungspolice für einen Schuldtitel.",
+    "example": "Der Hedgefonds kaufte einen Kreditausfallswap, um seine Investition in die Anleihen des Unternehmens für den Fall eines Zahlungsausfalls abzusichern.",
+    "reviewed": true
+  },
+  {
+    "id": "finance_0015",
+    "term": "Besicherte Schuldverschreibung",
+    "acronym": "CDO",
+    "definition": "Ein komplexes strukturiertes Finanzprodukt, das durch einen Pool von Krediten und anderen Vermögenswerten besichert ist und an institutionelle Anleger verkauft wird. Sein Risiko ist in verschiedene Tranchen oder Schichten aufgeteilt.",
+    "example": "Während der Finanzkrise verloren viele Anleger Geld mit besicherten Schuldverschreibungen, die durch Subprime-Hypotheken unterlegt waren.",
+    "reviewed": true
+  },
+  {
+    "id": "finance_0016",
+    "term": "Quantitative Lockerung",
+    "acronym": "QE",
+    "definition": "Eine geldpolitische Maßnahme, bei der eine Zentralbank Staatsanleihen oder andere finanzielle Vermögenswerte kauft, um Geld in die Wirtschaft zu pumpen und die Wirtschaftstätigkeit anzukurbeln.",
+    "example": "Die Zentralbank kündigte eine neue Runde der quantitativen Lockerung an, um die Zinssätze zu senken und Investitionen zu fördern.",
+    "reviewed": true
+  },
+  {
+    "id": "finance_0017",
+    "term": "Zinsstrukturkurve",
+    "acronym": null,
+    "definition": "Eine Liniengrafik, die die Renditen von Anleihen mit gleicher Bonität, aber unterschiedlichen Laufzeiten darstellt. Ihre Form kann auf zukünftige wirtschaftliche Bedingungen hinweisen.",
+    "example": "Eine inverse Zinsstrukturkurve, bei der kurzfristige Anleihen höhere Renditen aufweisen als langfristige, wird oft als Vorbote einer Rezession angesehen.",
+    "reviewed": true
+  },
+  {
+    "id": "finance_0018",
+    "term": "Implizite Volatilität",
+    "acronym": null,
+    "definition": "Eine Kennzahl, die die Prognose des Marktes über eine wahrscheinliche Kursbewegung eines Wertpapiers darstellt. Sie ist eine wesentliche Eingabegröße für Optionspreismodelle.",
+    "example": "Die implizite Volatilität der Aktie stieg vor der Bekanntgabe der Quartalsergebnisse sprunghaft an, was darauf hindeutet, dass die Händler eine große Kursschwankung erwarteten.",
+    "reviewed": true
+  },
+  {
+    "id": "finance_0019",
+    "term": "Black-Scholes-Modell",
+    "acronym": null,
+    "definition": "Ein mathematisches Modell zur Bestimmung des fairen Preises oder theoretischen Werts eines Optionskontrakts. Es berücksichtigt Faktoren wie den Aktienkurs, den Ausübungspreis, die Restlaufzeit und die Volatilität.",
+    "example": "Händler verwenden das Black-Scholes-Modell, um den theoretischen Wert von Optionen vor einem Handel zu berechnen.",
+    "reviewed": true
+  },
+  {
+    "id": "finance_0020",
+    "term": "Monte-Carlo-Simulation",
+    "acronym": null,
+    "definition": "Eine computergestützte Technik, die das Risiko in der quantitativen Analyse durch die Generierung Tausender möglicher Ergebnisse berücksichtigt. Sie hilft, die Auswirkungen von Risiko und Unsicherheit zu verstehen.",
+    "example": "Wir haben eine Monte-Carlo-Simulation durchgeführt, um die Rentabilität des Projekts unter verschiedenen Marktszenarien zu prognostizieren.",
+    "reviewed": true
+  },
+  {
+    "id": "finance_0021",
+    "term": "Working-Capital-Management",
+    "acronym": null,
+    "definition": "Die Geschäftsstrategie zur Überwachung und Nutzung des Umlaufvermögens und der kurzfristigen Verbindlichkeiten, um einen möglichst effizienten Betrieb eines Unternehmens zu gewährleisten.",
+    "example": "Ein effektives Working-Capital-Management ist für unser Unternehmen entscheidend, um einen ausreichenden Cashflow für seine kurzfristigen Verpflichtungen aufrechtzuerhalten.",
+    "reviewed": true
+  },
+  {
+    "id": "finance_0022",
+    "term": "Goodwill-Abschreibung",
+    "acronym": null,
+    "definition": "Eine außerplanmäßige Abschreibung, die vorgenommen wird, wenn der beizulegende Zeitwert des Goodwills unter seinen Buchwert in der Bilanz fällt. Der Goodwill ist ein immaterieller Vermögenswert, der bei einer Akquisition entsteht.",
+    "example": "Das Unternehmen verbuchte eine hohe Goodwill-Abschreibung, nachdem die erworbene Tochtergesellschaft die Erwartungen nicht erfüllt hatte.",
+    "reviewed": true
+  },
+  {
+    "id": "finance_0023",
+    "term": "Tilgungsplan",
+    "acronym": null,
+    "definition": "Eine Tabelle, die jede periodische Zahlung eines Darlehens detailliert auflistet und zeigt, wie viel von jeder Zahlung auf Zinsen und wie viel auf den Tilgungsanteil entfällt.",
+    "example": "Bevor sie die Hypothek aufnahm, prüfte sie den Tilgungsplan, um zu verstehen, wie ihre Zahlungen den Kreditsaldo im Laufe der Zeit reduzieren würden.",
+    "reviewed": true
+  },
+  {
+    "id": "finance_0024",
+    "term": "Periodengerechte Rechnungslegung",
+    "acronym": null,
+    "definition": "Eine Buchführungsmethode, bei der Einnahmen oder Ausgaben erfasst werden, wenn eine Transaktion stattfindet, und nicht, wenn die Zahlung erfolgt. Sie liefert ein genaueres Bild der finanziellen Lage eines Unternehmens.",
+    "example": "Unser Unternehmen wendet die periodengerechte Rechnungslegung an, daher haben wir die Einnahmen im Mai erfasst, als die Dienstleistung erbracht wurde, obwohl der Kunde erst im Juni bezahlte.",
+    "reviewed": true
+  },
+  {
+    "id": "finance_0025",
+    "term": "Unverschuldeter Free Cash Flow",
+    "acronym": "UFCF",
+    "definition": "Der Cashflow eines Unternehmens vor Berücksichtigung von Zinszahlungen. Er zeigt, wie viel Barmittel allen Kapitalgebern (sowohl Fremd- als auch Eigenkapitalgebern) zur Verfügung steht.",
+    "example": "Analysten bevorzugen die Verwendung des unverschuldeten Free Cash Flows in DCF-Modellen, da er die Auswirkungen der Kapitalstruktur auf die Bewertung eliminiert.",
+    "reviewed": true
+  },
+  {
+    "id": "finance_0026",
+    "term": "Dividenden-Diskontierungsmodell",
+    "acronym": "DDM",
+    "definition": "Eine Methode zur Bewertung des Aktienkurses eines Unternehmens, die auf der Theorie basiert, dass eine Aktie den Wert der Summe aller zukünftigen Dividendenzahlungen hat, abgezinst auf ihren heutigen Wert.",
+    "example": "Der Investor nutzte das Dividenden-Diskontierungsmodell, um zu argumentieren, dass die Aktie des Versorgungsunternehmens eine gute langfristige Investition sei.",
+    "reviewed": true
+  },
+  {
+    "id": "finance_0027",
+    "term": "Vergleichsunternehmensanalyse",
+    "acronym": "CCA",
+    "definition": "Eine Bewertungsmethode, die Finanzkennzahlen ähnlicher börsennotierter Unternehmen betrachtet und diese zur Ableitung des Werts eines anderen Unternehmens verwendet.",
+    "example": "Um den Wert des Startups zu schätzen, führte der Investmentbanker eine Vergleichsunternehmensanalyse mit börsennotierten Konkurrenten durch.",
+    "reviewed": true
+  },
+  {
+    "id": "finance_0028",
+    "term": "Analyse vergleichbarer Transaktionen",
+    "acronym": null,
+    "definition": "Eine Bewertungsmethode, bei der der Preis, der in vergangenen M&A-Geschäften für ähnliche Unternehmen gezahlt wurde, zur heutigen Bewertung eines Unternehmens herangezogen wird.",
+    "example": "Das M&A-Team führte eine Analyse vergleichbarer Transaktionen durch, um einen fairen Übernahmepreis für das Zielunternehmen zu ermitteln.",
+    "reviewed": true
+  },
+  {
+    "id": "finance_0029",
+    "term": "Optimale Kapitalstruktur",
+    "acronym": null,
+    "definition": "Die spezifische Mischung aus Fremd- und Eigenkapitalfinanzierung, die ein Unternehmen zur Finanzierung seiner Geschäftstätigkeit verwendet, welche seinen Wert maximiert und seine Kapitalkosten minimiert.",
+    "example": "Das Ziel des CFOs ist es, die optimale Kapitalstruktur zu finden, indem er die Vorteile von Fremdkapital mit den Risiken finanzieller Schwierigkeiten abwägt.",
+    "reviewed": true
+  },
+  {
+    "id": "finance_0030",
+    "term": "Nachrangige Verbindlichkeiten",
+    "acronym": null,
+    "definition": "Ein Darlehen oder Wertpapier, das in Bezug auf Ansprüche auf Vermögenswerte oder Erträge hinter anderen Darlehen zurücksteht. Im Falle eines Ausfalls werden vorrangige Gläubiger vor den Inhabern nachrangiger Verbindlichkeiten bedient.",
+    "example": "Das Unternehmen emittierte nachrangige Verbindlichkeiten, die den Anlegern einen höheren Zinssatz boten, um das erhöhte Risiko auszugleichen.",
+    "reviewed": true
+  },
+  {
+    "id": "finance_0031",
+    "term": "Vorrangig besicherte Verbindlichkeiten",
+    "acronym": null,
+    "definition": "Verbindlichkeiten, die durch Sicherheiten unterlegt sind und im Falle einer Insolvenz die höchste Priorität bei der Rückzahlung haben.",
+    "example": "Die Bank stellte dem Unternehmen vorrangig besicherte Verbindlichkeiten zur Verfügung, die durch die Fabrik und deren Ausrüstung gedeckt waren.",
+    "reviewed": true
+  },
+  {
+    "id": "finance_0032",
+    "term": "Liquiditätsrisiko",
+    "acronym": null,
+    "definition": "Das Risiko, dass ein Unternehmen oder eine Einzelperson seinen kurzfristigen finanziellen Verpflichtungen nicht nachkommen kann. Es entsteht aus der Unfähigkeit, einen Vermögenswert schnell und ohne Wertverlust in Bargeld umzuwandeln.",
+    "example": "Um das Liquiditätsrisiko zu mindern, hält das Unternehmen eine gesunde Barreserve und eine Kreditlinie bei seiner Bank vor.",
+    "reviewed": true
+  },
+  {
+    "id": "finance_0033",
+    "term": "Value at Risk",
+    "acronym": "VaR",
+    "definition": "Eine statistische Kennzahl, die das Ausmaß möglicher finanzieller Verluste innerhalb eines Unternehmens oder Portfolios über einen bestimmten Zeitraum bei einem gegebenen Konfidenzniveau quantifiziert.",
+    "example": "Das Risikomanagement-Team berechnete, dass der eintägige Value at Risk des Portfolios bei einem Konfidenzniveau von 95 % eine Million US-Dollar beträgt.",
+    "reviewed": true
+  },
+  {
+    "id": "finance_0034",
+    "term": "Kreditaufschlag",
+    "acronym": null,
+    "definition": "Die Renditedifferenz zwischen zwei Schuldtiteln gleicher Laufzeit, aber unterschiedlicher Bonität. Er ist ein Maß für das wahrgenommene Risiko eines Unternehmens.",
+    "example": "Während des wirtschaftlichen Abschwungs weitete sich der Kreditaufschlag aus, was darauf hindeutet, dass die Anleger eine höhere Vergütung für das Eingehen von Kreditrisiken forderten.",
+    "reviewed": true
+  },
+  {
+    "id": "finance_0035",
+    "term": "Systematisches Risiko",
+    "acronym": null,
+    "definition": "Das Risiko, das dem gesamten Markt oder einem Marktsegment innewohnt, auch als „Marktrisiko“ oder „nicht diversifizierbares Risiko“ bekannt. Es betrifft den Gesamtmarkt, nicht nur eine bestimmte Aktie.",
+    "example": "Systematisches Risiko, wie z. B. Zinsänderungen oder eine Rezession, kann nicht durch Diversifikation eliminiert werden.",
+    "reviewed": true
+  },
+  {
+    "id": "finance_0036",
+    "term": "Unsystematisches Risiko",
+    "acronym": null,
+    "definition": "Das Risiko, das für ein bestimmtes Unternehmen oder eine bestimmte Branche einzigartig ist, auch als „spezifisches Risiko“ oder „diversifizierbares Risiko“ bekannt. Diese Art von Risiko kann durch Diversifikation reduziert werden.",
+    "example": "Das Unternehmen war aufgrund eines neuen Wettbewerbers einem unsystematischen Risiko ausgesetzt, aber Anleger können dies durch ein diversifiziertes Portfolio mindern.",
+    "reviewed": true
+  },
+  {
+    "id": "finance_0037",
+    "term": "Beta-Faktor",
+    "acronym": null,
+    "definition": "Ein Maß für die Volatilität einer Aktie im Verhältnis zum Gesamtmarkt. Ein Beta-Faktor von über 1 zeigt an, dass die Aktie volatiler ist als der Markt, während ein Wert unter 1 auf eine geringere Volatilität hindeutet.",
+    "example": "Die Tech-Aktie hat einen Beta-Faktor von 1,5, was darauf hindeutet, dass sie 50 % volatiler ist als der S&P 500 Index.",
+    "reviewed": true
+  },
+  {
+    "id": "finance_0038",
+    "term": "Jensens Alpha",
+    "acronym": null,
+    "definition": "Ein Maß für die aktive Rendite einer Anlage, das ihre Wertentwicklung im Vergleich zu einem Referenzindex zeigt. Ein positives Alpha bedeutet, dass die Anlage auf risikobereinigter Basis besser abgeschnitten hat als ihr Referenzindex.",
+    "example": "Der Fondsmanager erwirtschaftete ein positives Jensens Alpha von 2 % und bewies damit seine Fähigkeit, Aktien auszuwählen, die die erwartete Marktrendite übertrafen.",
+    "reviewed": true
+  },
+  {
+    "id": "finance_0039",
+    "term": "Sharpe-Ratio",
+    "acronym": null,
+    "definition": "Ein Maß für die risikoadjustierte Rendite, berechnet als die durchschnittliche Überrendite gegenüber dem risikofreien Zinssatz pro Einheit des Gesamtrisikos. Eine höhere Sharpe-Ratio deutet auf eine bessere Performance hin.",
+    "example": "Obwohl beide Fonds ähnliche Renditen erzielten, hatte Fonds A eine deutlich höhere Sharpe-Ratio, was ihn auf risikoadjustierter Basis zur besseren Wahl machte.",
+    "reviewed": true
+  },
+  {
+    "id": "finance_0040",
+    "term": "Sortino-Ratio",
+    "acronym": null,
+    "definition": "Eine Variante der Sharpe-Ratio, die nur die Abwärtsvolatilität oder das schädliche Risiko berücksichtigt. Sie unterscheidet zwischen schädlicher Volatilität und der Gesamtvolatilität.",
+    "example": "Die Sortino-Ratio ist nützlich für Anleger, denen es mehr darum geht, ihr Portfolio vor großen Verlusten zu schützen.",
+    "reviewed": true
+  },
+  {
+    "id": "finance_0041",
+    "term": "Financial Due Diligence",
+    "acronym": null,
+    "definition": "Eine Untersuchung oder Prüfung einer potenziellen Investition zur Bestätigung aller Fakten, wie z.B. die Überprüfung von Finanzunterlagen, vor dem Abschluss einer Vereinbarung.",
+    "example": "Vor der Übernahme des Unternehmens beauftragten wir eine führende Wirtschaftsprüfungsgesellschaft mit der Durchführung einer gründlichen Financial Due Diligence.",
+    "reviewed": true
+  },
+  {
+    "id": "finance_0042",
+    "term": "Pro-forma-Finanzaufstellungen",
+    "acronym": null,
+    "definition": "Finanzberichte, die Annahmen oder hypothetische Bedingungen verwenden, um die zukünftige finanzielle Leistungsfähigkeit eines Unternehmens zu prognostizieren.",
+    "example": "Das Startup präsentierte den Investoren Pro-forma-Finanzaufstellungen, um die prognostizierte Rentabilität des Unternehmens für die nächsten fünf Jahre aufzuzeigen.",
+    "reviewed": true
+  },
+  {
+    "id": "finance_0043",
+    "term": "Versunkene Kosten",
+    "acronym": null,
+    "definition": "Kosten, die bereits angefallen sind und nicht wieder hereingeholt werden können. Versunkene Kosten sollten bei zukünftigen Geschäftsentscheidungen nicht berücksichtigt werden.",
+    "example": "Obwohl wir 1 Million Dollar für das Projekt ausgegeben haben, handelt es sich dabei um versunkene Kosten. Ob wir es fortführen, müssen wir ausschließlich auf Grundlage des zukünftigen Potenzials entscheiden.",
+    "reviewed": true
+  },
+  {
+    "id": "finance_0044",
+    "term": "Opportunitätskosten",
+    "acronym": null,
+    "definition": "Der potenzielle Nutzen, auf den man verzichtet, wenn man sich für eine Alternative gegenüber einer anderen entscheidet. Sie stellen den Wert der nächstbesten Alternative dar.",
+    "example": "Die Opportunitätskosten der Investition in Projekt A sind der Gewinn, den wir stattdessen mit einer Investition in Projekt B hätten erzielen können.",
+    "reviewed": true
+  },
+  {
+    "id": "finance_0045",
+    "term": "Zeitwert des Geldes",
+    "acronym": null,
+    "definition": "Das finanzwirtschaftliche Grundprinzip, dass ein Geldbetrag heute mehr wert ist als derselbe Betrag zu einem zukünftigen Zeitpunkt, aufgrund seines potenziellen Ertragspotenzials.",
+    "example": "Das Konzept des Zeitwerts des Geldes erklärt, warum man lieber heute 1.000 € erhalten möchte als 1.000 € in einem Jahr.",
+    "reviewed": true
+  },
+  {
+    "id": "finance_0046",
+    "term": "Investitionsausgaben",
+    "acronym": "CapEx",
+    "definition": "Mittel, die ein Unternehmen zum Erwerb, zur Modernisierung und zur Instandhaltung von Sachanlagen wie Grundstücken, Gebäuden, Technologie oder Ausrüstung verwendet.",
+    "example": "Das Budget des Unternehmens für das nächste Jahr sieht bedeutende Investitionsausgaben für eine neue Produktionsanlage vor.",
+    "reviewed": true
+  },
+  {
+    "id": "finance_0047",
+    "term": "Rendite auf das investierte Kapital (ROIC)",
+    "acronym": "ROIC",
+    "definition": "Eine Rentabilitätskennzahl, die misst, wie gut ein Unternehmen im Verhältnis zu dem in sein Geschäft investierten Kapital Cashflow generiert.",
+    "example": "Ein Unternehmen mit einem hohen und konstanten ROIC ist oft ein Zeichen für einen starken Wettbewerbsvorteil.",
+    "reviewed": true
+  },
+  {
+    "id": "finance_0048",
+    "term": "Mindestrendite",
+    "acronym": null,
+    "definition": "Die von einem Manager oder Investor geforderte Mindestrendite für ein Projekt oder eine Investition. Sie ermöglicht es Unternehmen, zu entscheiden, ob sie ein bestimmtes Projekt verfolgen.",
+    "example": "Die erwartete Rendite des Projekts liegt bei 12 %, was unter der Mindestrendite unseres Unternehmens von 15 % liegt, daher werden wir es nicht weiterverfolgen.",
+    "reviewed": true
+  },
+  {
+    "id": "finance_0049",
+    "term": "Kursgewinnrendite",
+    "acronym": null,
+    "definition": "Der Kursanstieg einer Anlage oder eines Wertpapiers, ausgedrückt als Prozentsatz des ursprünglichen Kaufpreises. Sie beinhaltet keine Erträge aus Dividenden.",
+    "example": "Wenn Sie eine Aktie für 50 € kaufen und für 60 € verkaufen, beträgt Ihre Kursgewinnrendite 20 %.",
+    "reviewed": true
+  },
+  {
+    "id": "finance_0050",
+    "term": "Endwert",
+    "acronym": null,
+    "definition": "Der geschätzte Wert eines Unternehmens oder Projekts über den expliziten Prognosezeitraum hinaus in einer Discounted-Cash-Flow-Analyse (DCF). Er repräsentiert alle zukünftigen Cashflows nach dem Prognosezeitraum.",
+    "example": "In unserem DCF-Modell macht der Endwert über 60 % der Gesamtbewertung des Unternehmens aus, daher ist er eine entscheidende Annahme.",
+    "reviewed": true
+  },
+  {
+    "id": "finance_0101",
+    "term": "Hochfrequenzhandel",
+    "acronym": "HFT",
+    "definition": "Eine automatisierte Handelsmethode, die leistungsstarke Computer nutzt, um eine große Anzahl von Aufträgen in extrem hoher Geschwindigkeit auszuführen.",
+    "example": "Das HFT-System des Unternehmens führte Tausende von Trades in weniger als einer Sekunde aus, um geringfügige Preisunterschiede am Markt zu nutzen.",
+    "reviewed": true
+  },
+  {
+    "id": "finance_0102",
+    "term": "Schadloshaltungsklausel",
+    "acronym": null,
+    "definition": "Eine Vertragsklausel, in der eine Partei zustimmt, die andere für alle Schäden, Verluste oder Beeinträchtigungen, die sich aus dem Vertrag ergeben, zu entschädigen.",
+    "example": "Unsere Rechtsabteilung bestand auf einer starken Schadloshaltungsklausel im Fusionsvertrag, um uns vor potenziellen Klagen zu schützen.",
+    "reviewed": true
+  },
+  {
+    "id": "finance_0103",
+    "term": "Information Ratio",
+    "acronym": "IR",
+    "definition": "Eine Kennzahl zur Messung der risikoadjustierten Renditen eines Portfolios, die die Fähigkeit eines Managers bewertet, Überschussrenditen im Verhältnis zu einer Benchmark zu erzielen.",
+    "example": "Der neue Fondsmanager hat eine beeindruckende Information Ratio und übertrifft den S&P 500 konstant bei minimalem zusätzlichem Risiko.",
+    "reviewed": true
+  },
+  {
+    "id": "finance_0104",
+    "term": "Lemma von Itô",
+    "acronym": null,
+    "definition": "Ein grundlegender Satz der stochastischen Analysis, der in der quantitativen Finanzanalyse zur Preisbildung von Derivaten und anderen Finanzinstrumenten verwendet wird.",
+    "example": "Um die Black-Scholes-Gleichung zur Optionspreisbewertung herzuleiten, muss man zuerst das Lemma von Itô auf den Preisprozess der Aktie anwenden.",
+    "reviewed": true
+  },
+  {
+    "id": "finance_0105",
+    "term": "Sprungdiffusionsmodell",
+    "acronym": null,
+    "definition": "Ein Finanzmodell, das zusätzlich zu normalen, kleineren Schwankungen auch plötzliche, große Preisbewegungen (Sprünge) berücksichtigt, um das Verhalten von Vermögenspreisen besser darzustellen.",
+    "example": "Im Gegensatz zu Standardmodellen kann das Sprungdiffusionsmodell unerwartete Marktschocks berücksichtigen, was es für die Optionspreisbildung robuster macht.",
+    "reviewed": true
+  },
+  {
+    "id": "finance_0106",
+    "term": "Kommanditist",
+    "acronym": "LP",
+    "definition": "Ein Investor in einer Personengesellschaft, dessen Haftung auf seine Einlage beschränkt ist und der nicht an der täglichen Geschäftsführung teilnimmt.",
+    "example": "Der Pensionsfonds agierte als Kommanditist und investierte 50 Millionen US-Dollar in den neuen Risikokapitalfonds.",
+    "reviewed": true
+  },
+  {
+    "id": "finance_0107",
+    "term": "Liquidationspräferenz",
+    "acronym": null,
+    "definition": "Eine Vertragsklausel, die die Auszahlungsreihenfolge bei einer Unternehmensliquidation festlegt und oft Vorzugsaktionären Vorrang vor Stammaktionären einräumt.",
+    "example": "Die Risikokapitalgeber verhandelten eine zweifache Liquidationspräferenz, was bedeutet, dass sie das Doppelte ihrer Investition zurückerhalten, bevor andere Aktionäre ausgezahlt werden.",
+    "reviewed": true
+  },
+  {
+    "id": "finance_0108",
+    "term": "Beleihungsauslauf",
+    "acronym": "LTV",
+    "definition": "Eine von Kreditgebern verwendete Finanzkennzahl, die das Verhältnis eines Kredits zum Wert des zu erwerbenden Vermögenswerts angibt.",
+    "example": "Die Bank genehmigte nur eine Hypothek mit einem Beleihungsauslauf von 80 %, also benötigten wir 20 % Eigenkapital.",
+    "reviewed": true
+  },
+  {
+    "id": "finance_0109",
+    "term": "Verwaltungsgebühr",
+    "acronym": null,
+    "definition": "Eine periodische Gebühr, die ein Investmentfonds an seinen Anlageberater für die Verwaltung des Fondsvermögens zahlt.",
+    "example": "Der Hedgefonds berechnet eine jährliche Verwaltungsgebühr von 2 % auf das verwaltete Vermögen, zusätzlich zu einer Erfolgsprämie.",
+    "reviewed": true
+  },
+  {
+    "id": "finance_0110",
+    "term": "Mark-to-Market-Bewertung",
+    "acronym": "MTM",
+    "definition": "Eine Rechnungslegungsmethode, bei der der Wert eines Vermögenswerts in der Bilanz an seinen aktuellen Marktwert angepasst wird.",
+    "example": "Aufgrund der Mark-to-Market-Bewertung musste das Handelsunternehmen einen erheblichen Verlust ausweisen, da der Wert seines Derivateportfolios sank.",
+    "reviewed": true
+  },
+  {
+    "id": "finance_0111",
+    "term": "Moderne Portfoliotheorie",
+    "acronym": "MPT",
+    "definition": "Eine Finanztheorie, die zeigt, wie ein Anleger durch Diversifikation ein Portfolio zusammenstellen kann, um die erwartete Rendite für ein gegebenes Risikoniveau zu maximieren.",
+    "example": "Unsere Anlagestrategie basiert auf der Modernen Portfoliotheorie und konzentriert sich auf eine diversifizierte Mischung von Anlageklassen, um optimale Renditen zu erzielen.",
+    "reviewed": true
+  },
+  {
+    "id": "finance_0112",
+    "term": "Hypothekenbesichertes Wertpapier",
+    "acronym": "MBS",
+    "definition": "Eine Art forderungsbesichertes Wertpapier, das durch einen Pool von Hypotheken abgesichert ist.",
+    "example": "Die Investmentbank schuf ein neues hypothekenbesichertes Wertpapier, indem sie Tausende von einzelnen Wohnungsbaudarlehen bündelte.",
+    "reviewed": true
+  },
+  {
+    "id": "finance_0113",
+    "term": "Negative Tilgung",
+    "acronym": null,
+    "definition": "Eine Erhöhung der Restschuld eines Kredits, die dadurch entsteht, dass die geleisteten Zahlungen geringer sind als die fälligen Zinsen.",
+    "example": "Die anfangs niedrigen Raten der Hypothek führten zu einer negativen Tilgung, was den geschuldeten Gesamtbetrag erhöhte.",
+    "reviewed": true
+  },
+  {
+    "id": "finance_0114",
+    "term": "Nicht beherrschende Anteile",
+    "acronym": null,
+    "definition": "Der Eigenkapitalanteil an einem Tochterunternehmen, der nicht dem Mutterunternehmen zuzurechnen ist, auch als Minderheitsanteile bekannt.",
+    "example": "In der Konzernbilanz wies das Unternehmen nicht beherrschende Anteile in Höhe von 15 Millionen US-Dollar aus, die die 20 % des Tochterunternehmens repräsentieren, die ihm nicht gehören.",
+    "reviewed": true
+  },
+  {
+    "id": "finance_0115",
+    "term": "Sondereffekt",
+    "acronym": null,
+    "definition": "Ein Posten in einem Jahresabschluss für ein einmaliges, ungewöhnliches Ereignis, das im normalen Geschäftsverlauf voraussichtlich nicht wieder auftreten wird.",
+    "example": "Der Verkauf unserer Zentrale war ein Sondereffekt, den die Analysten bei der Prognose zukünftiger Erträge außer Acht ließen.",
+    "reviewed": true
+  },
+  {
+    "id": "finance_0116",
+    "term": "Normalisierung",
+    "acronym": null,
+    "definition": "Die Anpassung von Finanzkennzahlen, um die Auswirkungen ungewöhnlicher Ereignisse zu eliminieren und so einen genaueren Vergleich zu ermöglichen.",
+    "example": "Wir nahmen eine Normalisierung des EBITDA des Unternehmens vor, um die Auswirkung eines einmaligen Gewinns aus einem Rechtsstreit herauszurechnen.",
+    "reviewed": true
+  },
+  {
+    "id": "finance_0117",
+    "term": "Nominalbetrag",
+    "acronym": null,
+    "definition": "Der in einem Derivatekontrakt, wie z. B. einem Zinsswap, festgelegte Kapitalbetrag, auf dessen Grundlage Zahlungen berechnet, der aber nicht tatsächlich ausgetauscht wird.",
+    "example": "Die beiden Banken einigten sich auf einen Nominalbetrag von 100 Millionen US-Dollar, um die variablen und festen Zinszahlungen für ihren Swap zu berechnen.",
+    "reviewed": true
+  },
+  {
+    "id": "finance_0118",
+    "term": "Optionsgriechen",
+    "acronym": null,
+    "definition": "Eine Reihe von Risikokennzahlen (Delta, Gamma, Theta, Vega), die angeben, wie empfindlich der Preis einer Option auf Änderungen verschiedener Parameter reagiert.",
+    "example": "Der Händler analysierte die Optionsgriechen, um das Risiko des Portfolios gegenüber Aktienkursbewegungen und Volatilität zu verstehen.",
+    "reviewed": true
+  },
+  {
+    "id": "finance_0119",
+    "term": "PIK-Toggle-Anleihe",
+    "acronym": "PIK",
+    "definition": "Eine Art von Anleihe, die dem Emittenten die Wahl lässt, Zinsen entweder in bar oder durch die Ausgabe weiterer Anleihen zu bezahlen.",
+    "example": "Das Unternehmen nutzte die Funktion der PIK-Toggle-Anleihe, um Barmittel zu schonen, und entschied sich, die Zinsen dieses Quartals durch die Ausgabe weiterer Anleihen zu begleichen.",
+    "reviewed": true
+  },
+  {
+    "id": "finance_0120",
+    "term": "Vorzugskapital",
+    "acronym": null,
+    "definition": "Eine Eigentümerklasse, die einen höheren Anspruch auf Vermögenswerte und Erträge hat als Stammaktien und typischerweise eine feste Dividende zahlt.",
+    "example": "Um Kapital ohne Verwässerung der Stimmrechte aufzunehmen, gab das Unternehmen Vorzugskapital im Wert von 50 Millionen US-Dollar an institutionelle Anleger aus.",
+    "reviewed": true
+  },
+  {
+    "id": "finance_0121",
+    "term": "Kaufpreisallokation",
+    "acronym": "PPA",
+    "definition": "Eine Rechnungslegungsmethode, bei der ein Erwerber den Kaufpreis eines Unternehmens auf die verschiedenen erworbenen Vermögenswerte und Verbindlichkeiten aufteilt.",
+    "example": "Nach der Fusion begann das Buchhaltungsteam mit der Kaufpreisallokation, um den erworbenen Patenten, Immobilien und dem Goodwill Werte zuzuordnen.",
+    "reviewed": true
+  },
+  {
+    "id": "finance_0122",
+    "term": "Aufsichtsrechtliches Kapital",
+    "acronym": null,
+    "definition": "Die Kapitalmenge, die ein Finanzinstitut auf Anforderung seiner Aufsichtsbehörde vorhalten muss, um sicherzustellen, dass es unerwartete Verluste absorbieren kann.",
+    "example": "Die Bank musste zusätzliche Mittel aufnehmen, um die neuen, strengeren Anforderungen an das aufsichtsrechtliche Kapital zu erfüllen.",
+    "reviewed": true
+  },
+  {
+    "id": "finance_0123",
+    "term": "Realisationsprinzip",
+    "acronym": null,
+    "definition": "Ein Rechnungslegungsgrundsatz, der die Bedingungen festlegt, unter denen Erträge in den Finanzberichten eines Unternehmens erfasst werden.",
+    "example": "Gemäß dem Realisationsprinzip dürfen wir Abonnementgebühren nur über die Vertragslaufzeit als Umsatz verbuchen, nicht alles auf einmal.",
+    "reviewed": true
+  },
+  {
+    "id": "finance_0124",
+    "term": "Ringfencing",
+    "acronym": null,
+    "definition": "Die Praxis, einen Teil der Vermögenswerte oder Gewinne eines Unternehmens vom Rest abzutrennen, oft aus regulatorischen Gründen.",
+    "example": "Das neue Gesetz verlangt von Großbanken, ihre Privatkundengeschäfte mittels Ringfencing von ihren riskanteren Investmentbanking-Aktivitäten zu trennen.",
+    "reviewed": true
+  },
+  {
+    "id": "finance_0125",
+    "term": "Zweitrangig besicherte Verbindlichkeit",
+    "acronym": null,
+    "definition": "Eine Art von Verbindlichkeit, die einen nachrangigen Anspruch auf Sicherheiten hat, was bedeutet, dass die zugehörigen Gläubiger erst nach den erstrangigen Gläubigern befriedigt werden.",
+    "example": "Das Unternehmen nahm eine zweitrangig besicherte Verbindlichkeit zu einem höheren Zinssatz auf, um seine Expansion zu finanzieren, da seine Hauptvermögenswerte bereits verpfändet waren.",
+    "reviewed": true
+  },
+  {
+    "id": "finance_0126",
+    "term": "Wertpapiermarktlinie",
+    "acronym": "SML",
+    "definition": "Eine grafische Darstellung des Capital Asset Pricing Model (CAPM), die die erwartete Rendite eines Vermögenswerts als Funktion seines systematischen Risikos (Beta) zeigt.",
+    "example": "Vermögenswerte, die über der Wertpapiermarktlinie liegen, gelten als unterbewertet, da ihre erwartete Rendite für ihr Risikoniveau hoch ist.",
+    "reviewed": true
+  },
+  {
+    "id": "finance_0127",
+    "term": "Titelauswahl",
+    "acronym": null,
+    "definition": "Der Prozess der Auswahl einzelner Wertpapiere innerhalb einer bestimmten Anlageklasse, die in ein Anlageportfolio aufgenommen werden sollen.",
+    "example": "Die Fähigkeit des Fondsmanagers bei der Titelauswahl ermöglichte es dem Portfolio, seine Benchmark zu übertreffen.",
+    "reviewed": true
+  },
+  {
+    "id": "finance_0128",
+    "term": "Segmentberichterstattung",
+    "acronym": null,
+    "definition": "Die Berichterstattung über die operativen Segmente eines Unternehmens im Anhang des Jahresabschlusses, die die Leistung nach Geschäftsbereichen oder Regionen aufzeigt.",
+    "example": "Durch die Segmentberichterstattung konnten Investoren sehen, dass der europäische Geschäftsbereich des Unternehmens weitaus profitabler war als der asiatische.",
+    "reviewed": true
+  },
+  {
+    "id": "finance_0129",
+    "term": "Tilgungsfondsklausel",
+    "acronym": null,
+    "definition": "Eine Bestimmung in einem Anleihevertrag, die den Emittenten verpflichtet, regelmäßig Geld zur Rückzahlung seiner Anleihen beiseitezulegen.",
+    "example": "Die Tilgungsfondsklausel der Unternehmensanleihe gibt den Anlegern die Gewissheit, dass das Unternehmen bei Fälligkeit über die Mittel zur Rückzahlung des Nennbetrags verfügen wird.",
+    "reviewed": true
+  },
+  {
+    "id": "finance_0130",
+    "term": "Zweckgesellschaft",
+    "acronym": "SPV",
+    "definition": "Ein Tochterunternehmen, das mit einem spezifischen, eng gefassten Ziel gegründet wird, oft um finanzielle Risiken zu isolieren.",
+    "example": "Das Unternehmen gründete eine Zweckgesellschaft, um die Hypotheken für seine Verbriefungstransaktion zu halten und so die Muttergesellschaft vor potenziellen Verlusten zu schützen.",
+    "reviewed": true
+  },
+  {
+    "id": "finance_0131",
+    "term": "Spread-Duration",
+    "acronym": null,
+    "definition": "Ein Maß für die Preissensitivität einer Anleihe gegenüber Änderungen ihres Kreditaufschlags (Credit Spread) über einem risikofreien Referenzzinssatz.",
+    "example": "Der Portfoliomanager berechnete die Spread-Duration der Unternehmensanleihen, um abzuschätzen, wie sich ihr Wert bei steigendem Kreditrisiko verändern würde.",
+    "reviewed": true
+  },
+  {
+    "id": "finance_0132",
+    "term": "Staple-Finanzierung",
+    "acronym": null,
+    "definition": "Ein vorab arrangiertes Finanzierungspaket, das die Investmentbank eines Verkäufers potenziellen Bietern für das zu verkaufende Unternehmen anbietet.",
+    "example": "Um die Auktion zu beschleunigen, bot die Bank des Verkäufers allen interessierten Käufern eine Staple-Finanzierung an, um sicherzustellen, dass sie sofortigen Zugang zu Kapital hatten.",
+    "reviewed": true
+  },
+  {
+    "id": "finance_0133",
+    "term": "Gewinnverwendungsrechnung",
+    "acronym": null,
+    "definition": "Ein Finanzbericht, der die Veränderungen der Gewinnrücklagen eines Unternehmens über einen Zeitraum darlegt und die Gewinn- und Verlustrechnung mit der Bilanz verbindet.",
+    "example": "Die Gewinnverwendungsrechnung zeigte, dass das Unternehmen den größten Teil seines Jahresüberschusses wieder in das Geschäft reinvestierte.",
+    "reviewed": true
+  },
+  {
+    "id": "finance_0134",
+    "term": "Statistische Arbitrage",
+    "acronym": "Stat Arb",
+    "definition": "Eine quantitative Handelsstrategie, die statistische Modelle verwendet, um vorübergehende Preisineffizienzen zwischen zueinander in Beziehung stehenden Wertpapieren zu identifizieren und auszunutzen.",
+    "example": "Die statistische Arbitrage-Strategie des Hedgefonds beinhaltet den Kauf einer unterbewerteten Technologieaktie bei gleichzeitigem Leerverkauf einer überbewerteten Aktie im selben Sektor.",
+    "reviewed": true
+  },
+  {
+    "id": "finance_0135",
+    "term": "Stochastische Volatilität",
+    "acronym": null,
+    "definition": "Ein Finanzmodell, bei dem die Volatilität eines Vermögenswerts nicht konstant ist, sondern einem eigenen zufälligen, unvorhersehbaren Prozess folgt.",
+    "example": "Modelle mit stochastischer Volatilität eignen sich besser zur Bewertung langfristiger Optionen, da sie berücksichtigen, dass sich die Volatilität selbst im Laufe der Zeit ändert.",
+    "reviewed": true
+  },
+  {
+    "id": "finance_0136",
+    "term": "Strategische Asset-Allokation",
+    "acronym": null,
+    "definition": "Eine langfristige Portfoliostrategie, bei der Zielallokationen für verschiedene Anlageklassen festgelegt und durch regelmäßiges Rebalancing wiederhergestellt werden.",
+    "example": "Die Philosophie unseres Unternehmens basiert auf der strategischen Asset-Allokation, bei der für Kunden mit moderater Risikotoleranz eine Mischung aus 60 % Aktien und 40 % Anleihen beibehalten wird.",
+    "reviewed": true
+  },
+  {
+    "id": "finance_0137",
+    "term": "Stresstest",
+    "acronym": null,
+    "definition": "Eine Simulationstechnik, die von Finanzinstituten verwendet wird, um zu bewerten, wie sich ihre Portfolios unter extremen wirtschaftlichen Szenarien entwickeln würden.",
+    "example": "Die Zentralbank forderte alle Großbanken auf, sich einem Stresstest zu unterziehen, um festzustellen, ob sie einer schweren Rezession standhalten könnten.",
+    "reviewed": true
+  },
+  {
+    "id": "finance_0138",
+    "term": "Sum-of-the-Parts-Bewertung",
+    "acronym": "SOTP",
+    "definition": "Eine Methode zur Bewertung eines Unternehmens, bei der ermittelt wird, was seine einzelnen Geschäftsbereiche wert wären, wenn sie separat verkauft würden.",
+    "example": "Der Analyst verwendete eine Sum-of-the-Parts-Bewertung und kam zu dem Schluss, dass die Aktie des Unternehmens unterbewertet war, da seine Sparten einzeln mehr wert waren.",
+    "reviewed": true
+  },
+  {
+    "id": "finance_0139",
+    "term": "Swaption",
+    "acronym": null,
+    "definition": "Eine Option, die ihrem Inhaber das Recht, aber nicht die Pflicht einräumt, einen zugrunde liegenden Zinsswap abzuschließen.",
+    "example": "Das Unternehmen kaufte eine Payer-Swaption, um sich gegen einen zukünftigen Anstieg der Zinssätze abzusichern.",
+    "reviewed": true
+  },
+  {
+    "id": "finance_0140",
+    "term": "Synergiewert",
+    "acronym": null,
+    "definition": "Der zusätzliche Wert, der durch die Zusammenführung zweier Unternehmen entsteht und der größer ist als die Summe ihrer Einzelwerte.",
+    "example": "Der Käufer rechtfertigte die hohe Prämie mit dem signifikanten Synergiewert, der durch die Zusammenlegung der operativen Tätigkeiten freigesetzt würde.",
+    "reviewed": true
+  },
+  {
+    "id": "finance_0141",
+    "term": "Mitverkaufsrecht",
+    "acronym": null,
+    "definition": "Eine Vertragsklausel, die es einem Minderheitsaktionär ermöglicht, seine Anteile zum gleichen Preis und zu den gleichen Bedingungen wie ein Mehrheitsaktionär zu verkaufen.",
+    "example": "Das Mitverkaufsrecht des Gründers stellte sicher, dass er, falls der Mehrheitsinvestor seine Beteiligung verkauft, das Unternehmen zu den gleichen Konditionen verlassen konnte.",
+    "reviewed": true
+  },
+  {
+    "id": "finance_0142",
+    "term": "Term Sheet",
+    "acronym": null,
+    "definition": "Eine unverbindliche Vereinbarung, die die grundlegenden Bedingungen und Konditionen darlegt, unter denen eine Investition getätigt wird.",
+    "example": "Die Risikokapitalgesellschaft legte dem Startup ein Term Sheet vor, das den vorgeschlagenen Investitionsbetrag und die Bewertung detailliert aufführte.",
+    "reviewed": true
+  },
+  {
+    "id": "finance_0143",
+    "term": "Zeitwertverfall",
+    "acronym": null,
+    "definition": "Ein Maß für die Rate des Wertverlusts einer Option aufgrund des Zeitablaufs, auch als Theta-Verfall bekannt.",
+    "example": "Als das Verfallsdatum näher rückte, nahm der Wert der Option aufgrund des Zeitwertverfalls rapide ab, obwohl sich der Aktienkurs nicht bewegte.",
+    "reviewed": true
+  },
+  {
+    "id": "finance_0144",
+    "term": "Tracking Error",
+    "acronym": null,
+    "definition": "Ein Maß dafür, wie genau ein Portfolio den Index abbildet, an dem es sich als Benchmark orientiert.",
+    "example": "Der Indexfonds strebt einen sehr niedrigen Tracking Error an, um sicherzustellen, dass seine Wertentwicklung nahezu identisch mit der des S&P 500 ist.",
+    "reviewed": true
+  },
+  {
+    "id": "finance_0145",
+    "term": "Treynor-Ratio",
+    "acronym": null,
+    "definition": "Eine Leistungskennzahl zur Bestimmung, wie viel Überschussrendite für jede Einheit des von einem Portfolio eingegangenen systematischen Risikos erzielt wurde.",
+    "example": "Der Fonds mit der höheren Treynor-Ratio wurde als überlegen eingestuft, da er eine bessere Rendite für das eingegangene Marktrisiko bot.",
+    "reviewed": true
+  },
+  {
+    "id": "finance_0146",
+    "term": "Unitranche-Finanzierung",
+    "acronym": null,
+    "definition": "Eine hybride Darlehensstruktur, die vor- und nachrangige Schulden in einem einzigen Darlehen mit einem Mischzinssatz kombiniert.",
+    "example": "Die Private-Equity-Gesellschaft nutzte eine Unitranche-Finanzierung, um den fremdfinanzierten Unternehmenskauf zu finanzieren und die Kapitalstruktur zu vereinfachen.",
+    "reviewed": true
+  },
+  {
+    "id": "finance_0147",
+    "term": "Vega-Exposure",
+    "acronym": null,
+    "definition": "Das Risiko eines Optionsportfolios im Zusammenhang mit Änderungen der impliziten Volatilität der zugrunde liegenden Vermögenswerte.",
+    "example": "Der Händler hatte eine positive Vega-Exposure, was bedeutet, dass der Wert des Portfolios bei einem Anstieg der Marktvolatilität steigen würde.",
+    "reviewed": true
+  },
+  {
+    "id": "finance_0148",
+    "term": "Endfälligkeitsrendite",
+    "acronym": "YTM",
+    "definition": "Die erwartete Gesamtrendite einer Anleihe, wenn sie bis zu ihrer Fälligkeit gehalten wird.",
+    "example": "Die Anleihe wurde mit einem Abschlag gehandelt, was ihr eine Endfälligkeitsrendite von 5 % einbrachte, die höher war als ihr angegebener Kupon.",
+    "reviewed": true
+  },
+  {
+    "id": "finance_0149",
+    "term": "Yield to Worst",
+    "acronym": "YTW",
+    "definition": "Die niedrigste potenzielle Rendite, die mit einer kündbaren Anleihe erzielt werden kann, ohne dass der Emittent ausfällt.",
+    "example": "Der Investor konzentrierte sich auf die Yield to Worst, um die konservativste mögliche Rendite der kündbaren Anleihe zu verstehen.",
+    "reviewed": true
+  },
+  {
+    "id": "finance_0150",
+    "term": "Nullkuponanleihe",
+    "acronym": null,
+    "definition": "Ein Schuldtitel, der keine Zinsen zahlt, sondern stattdessen mit einem hohen Abschlag gehandelt wird und bei Fälligkeit einen Gewinn abwirft.",
+    "example": "Er kaufte eine 20-jährige Nullkuponanleihe für 400 $, die bei Fälligkeit ihren Nennwert von 1.000 $ erreichen wird.",
+    "reviewed": true
+  }
+]

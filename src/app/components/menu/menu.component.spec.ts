@@ -96,9 +96,9 @@ describe('MenuComponent', () => {
     expect(hrCategory!.bgClass).toBe('bg-purple-50 hover:bg-purple-100');
     expect(hrCategory!.textClass).toBe('text-purple-700');
 
-    const techCategory = component.categories.find(cat => cat.id === 'tech');
+    const techCategory = component.categories.find(cat => cat.id === 'technology');
     expect(techCategory).toBeDefined();
-    expect(techCategory!.name).toBe('Tech');
+    expect(techCategory!.name).toBe('Technology');
     expect(techCategory!.icon).toBe('💻');
     expect(techCategory!.bgClass).toBe('bg-indigo-50 hover:bg-indigo-100');
     expect(techCategory!.textClass).toBe('text-indigo-700');
@@ -469,7 +469,7 @@ describe('MenuComponent', () => {
     describe('getCategoryName', () => {
       it('should return category name for valid category id', () => {
         expect(component.getCategoryName('hr')).toBe('HR');
-        expect(component.getCategoryName('tech')).toBe('Tech');
+        expect(component.getCategoryName('technology')).toBe('Technology');
         expect(component.getCategoryName('finance')).toBe('Finance');
         expect(component.getCategoryName('sales')).toBe('Sales');
         expect(component.getCategoryName('strategy')).toBe('Strategy');
