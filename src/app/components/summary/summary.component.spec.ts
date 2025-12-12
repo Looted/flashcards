@@ -154,16 +154,17 @@ describe('SummaryComponent', () => {
       ];
 
       initialSessionDeckSignal.set(mockCards);
-      skippedPileSignal.set([mockCards[1]]);   // 1 needs learning (Goodbye was skipped)
+      graduatePileSignal.set([mockCards[0]]); // Hello was learned (graduated)
+      skippedPileSignal.set([mockCards[1]]);   // Goodbye was skipped
       statsServiceMock.getAllStats.mockReturnValue(mockStats);
       fixture.detectChanges();
       await fixture.whenStable();
 
       const spans = fixture.nativeElement.querySelectorAll('.flex.justify-between > span:last-child');
-      const masteredSpan = spans[0]; // New Words Learned
+      const wordsLearnedSpan = spans[0]; // Words Learned (in New Words mode)
       const needsSpan = spans[1];   // Needs Practice
 
-      expect(masteredSpan.textContent.trim()).toBe('1'); // Hello is mastered
+      expect(wordsLearnedSpan.textContent.trim()).toBe('1'); // Hello was learned (graduated)
       expect(needsSpan.textContent.trim()).toBe('1');   // Goodbye was skipped
     });
 

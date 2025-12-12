@@ -15,10 +15,22 @@
 
   <!-- Stats Card -->
   <div class="w-full max-w-sm bg-white dark:bg-slate-800 rounded-3xl p-6 shadow-xl shadow-slate-200/50 dark:shadow-slate-900/50 ring-1 ring-slate-900/5 dark:ring-white/10 mb-8">
-     <!-- New Words Learned -->
+     <!-- Words Learned / Reviews Completed (mode-aware) -->
      <div class="flex justify-between items-center border-b border-slate-100 dark:border-slate-700 pb-4 mb-4">
-        <span class="text-sm font-semibold text-slate-500 dark:text-slate-400 uppercase tracking-wide">New Words Learned</span>
-        <span class="text-2xl font-black text-green-600 dark:text-green-400">{{ sessionStats().mastered }}</span>
+        <span class="text-sm font-semibold text-slate-500 dark:text-slate-400 uppercase tracking-wide">
+          @if (sessionStats().isNewWordsMode) {
+            Words Learned
+          } @else {
+            Reviews Completed
+          }
+        </span>
+        <span class="text-2xl font-black text-green-600 dark:text-green-400">
+          @if (sessionStats().isNewWordsMode) {
+            {{ sessionStats().wordsLearned }}
+          } @else {
+            {{ sessionStats().wordsLearned }}
+          }
+        </span>
      </div>
      <!-- Needs Practice -->
      <div class="flex justify-between items-center">

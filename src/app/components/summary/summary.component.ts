@@ -5,6 +5,7 @@ import { GameStore } from '../../game-store';
 import { VocabularyStatsService } from '../../services/vocabulary-stats.service';
 import { GameService } from '../../services/game.service';
 import { FreemiumService } from '../../services/freemium.service';
+import { GameMode } from '../../shared/constants';
 
 @Component({
   selector: 'app-summary',
@@ -18,26 +19,36 @@ export class SummaryComponent {
   router = inject(Router);
   statsService = inject(VocabularyStatsService);
 
-  // Get unique mastered words count from stats (not from graduatePile which can have duplicates)
+  // Get mode-aware session statistics
   sessionStats = computed(() => {
     const initialDeck = this.store.initialSessionDeck();
     const skippedIds = new Set(this.store.skippedPile().map(c => c.id));
+    const config = this.store.sessionConfig();
+    const isNewWordsMode = config?.practiceMode === ('new' as any);
 
-    // Count unique words that were in the session and are now mastered
-    const uniqueWordsInSession = new Set(initialDeck.map(c => `${c.english}|${c.category}`));
-    const allStats = this.statsService.getAllStats();
-    const masteredInSession = allStats.filter(stat =>
-      uniqueWordsInSession.has(`${stat.english}|${stat.category}`) &&
-      stat.masteryLevel >= 4
-    ).length;
+    // Count words that were successfully completed in this session (graduated)
+    const wordsLearnedInSession = this.store.graduatePile().length;
+
+    // For Review mode, also calculate mastered words (reached highest level)
+    let masteredInSession = 0;
+    if (!isNewWordsMode) {
+      const uniqueWordsInSession = new Set(initialDeck.map(c => `${c.english}|${c.category}`));
+      const allStats = this.statsService.getAllStats();
+      masteredInSession = allStats.filter(stat =>
+        uniqueWordsInSession.has(`${stat.english}|${stat.category}`) &&
+        stat.masteryLevel >= 4
+      ).length;
+    }
 
     // Needs learning = words that need practice (non-graduated, non-skipped)
-    const needsLearning = initialDeck.length - masteredInSession - skippedIds.size;
+    const needsLearning = initialDeck.length - wordsLearnedInSession - skippedIds.size;
 
     return {
       totalCards: initialDeck.length,
+      wordsLearned: wordsLearnedInSession,
       mastered: masteredInSession,
-      needsLearning
+      needsLearning,
+      isNewWordsMode: isNewWordsMode || false
     };
   });
 
