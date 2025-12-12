@@ -169,7 +169,7 @@
         "investing"
       ]
     },
-    "isFree": false
+    "isFree": true
   },
   {
     "id": "finance_0012",
@@ -184,7 +184,7 @@
         "risk management"
       ]
     },
-    "isFree": false
+    "isFree": true
   },
   {
     "id": "finance_0013",
@@ -199,7 +199,7 @@
         "corporate finance"
       ]
     },
-    "isFree": false
+    "isFree": true
   },
   {
     "id": "finance_0014",
@@ -262,7 +262,7 @@
         "investing"
       ]
     },
-    "isFree": false
+    "isFree": true
   },
   {
     "id": "finance_0018",
@@ -323,7 +323,7 @@
         "accounting"
       ]
     },
-    "isFree": false
+    "isFree": true
   },
   {
     "id": "finance_0022",
@@ -368,7 +368,7 @@
         "business operations"
       ]
     },
-    "isFree": false
+    "isFree": true
   },
   {
     "id": "finance_0025",
@@ -400,7 +400,7 @@
         "investing"
       ]
     },
-    "isFree": false
+    "isFree": true
   },
   {
     "id": "finance_0027",
@@ -416,7 +416,7 @@
         "M&A"
       ]
     },
-    "isFree": false
+    "isFree": true
   },
   {
     "id": "finance_0028",
@@ -432,7 +432,7 @@
         "M&A"
       ]
     },
-    "isFree": false
+    "isFree": true
   },
   {
     "id": "finance_0029",
@@ -462,7 +462,7 @@
         "debt"
       ]
     },
-    "isFree": false
+    "isFree": true
   },
   {
     "id": "finance_0031",
@@ -477,7 +477,7 @@
         "debt"
       ]
     },
-    "isFree": false
+    "isFree": true
   },
   {
     "id": "finance_0032",
@@ -492,7 +492,7 @@
         "treasury"
       ]
     },
-    "isFree": false
+    "isFree": true
   },
   {
     "id": "finance_0033",
@@ -523,7 +523,7 @@
         "investing"
       ]
     },
-    "isFree": false
+    "isFree": true
   },
   {
     "id": "finance_0035",
@@ -538,7 +538,7 @@
         "risk management"
       ]
     },
-    "isFree": false
+    "isFree": true
   },
   {
     "id": "finance_0036",
@@ -553,7 +553,7 @@
         "risk management"
       ]
     },
-    "isFree": false
+    "isFree": true
   },
   {
     "id": "finance_0037",
@@ -568,7 +568,7 @@
         "risk"
       ]
     },
-    "isFree": false
+    "isFree": true
   },
   {
     "id": "finance_0038",
@@ -628,7 +628,7 @@
         "legal"
       ]
     },
-    "isFree": false
+    "isFree": true
   },
   {
     "id": "finance_0042",
@@ -643,7 +643,7 @@
         "planning"
       ]
     },
-    "isFree": false
+    "isFree": true
   },
   {
     "id": "finance_0043",
@@ -721,7 +721,7 @@
         "investing"
       ]
     },
-    "isFree": false
+    "isFree": true
   },
   {
     "id": "finance_0048",
@@ -736,7 +736,7 @@
         "decision-making"
       ]
     },
-    "isFree": false
+    "isFree": true
   },
   {
     "id": "finance_0049",
@@ -751,7 +751,7 @@
         "metrics"
       ]
     },
-    "isFree": false
+    "isFree": true
   },
   {
     "id": "finance_0050",
@@ -812,7 +812,7 @@
         "technology"
       ]
     },
-    "isFree": false
+    "isFree": true
   },
   {
     "id": "finance_0054",
@@ -905,7 +905,7 @@
         "lending"
       ]
     },
-    "isFree": false
+    "isFree": true
   },
   {
     "id": "finance_0060",
@@ -967,7 +967,7 @@
         "management"
       ]
     },
-    "isFree": false
+    "isFree": true
   },
   {
     "id": "finance_0064",
@@ -997,7 +997,7 @@
         "venture capital"
       ]
     },
-    "isFree": false
+    "isFree": true
   },
   {
     "id": "finance_0066",
@@ -1027,7 +1027,7 @@
         "accounting"
       ]
     },
-    "isFree": false
+    "isFree": true
   },
   {
     "id": "finance_0068",
@@ -1088,7 +1088,7 @@
         "corporate finance"
       ]
     },
-    "isFree": false
+    "isFree": true
   },
   {
     "id": "finance_0072",
@@ -1103,7 +1103,7 @@
         "trading"
       ]
     },
-    "isFree": false
+    "isFree": true
   },
   {
     "id": "finance_0073",
@@ -1179,7 +1179,7 @@
         "debt"
       ]
     },
-    "isFree": false
+    "isFree": true
   },
   {
     "id": "finance_0078",
@@ -1195,7 +1195,7 @@
         "lending"
       ]
     },
-    "isFree": false
+    "isFree": true
   },
   {
     "id": "finance_0079",
@@ -1241,7 +1241,7 @@
         "legal"
       ]
     },
-    "isFree": false
+    "isFree": true
   },
   {
     "id": "finance_0082",
@@ -1334,7 +1334,7 @@
         "idiom"
       ]
     },
-    "isFree": false
+    "isFree": true
   },
   {
     "id": "finance_0088",
@@ -1349,7 +1349,7 @@
         "risk management"
       ]
     },
-    "isFree": false
+    "isFree": true
   },
   {
     "id": "finance_0089",
@@ -1364,7 +1364,7 @@
         "legal"
       ]
     },
-    "isFree": false
+    "isFree": true
   },
   {
     "id": "finance_0090",
@@ -1440,7 +1440,7 @@
         "investment banking"
       ]
     },
-    "isFree": false
+    "isFree": true
   },
   {
     "id": "finance_0095",
@@ -1470,7 +1470,7 @@
         "lending"
       ]
     },
-    "isFree": false
+    "isFree": true
   },
   {
     "id": "finance_0097",
@@ -1485,7 +1485,7 @@
         "investment banking"
       ]
     },
-    "isFree": false
+    "isFree": true
   },
   {
     "id": "finance_0098",
@@ -1516,7 +1516,7 @@
         "venture capital"
       ]
     },
-    "isFree": false
+    "isFree": true
   },
   {
     "id": "finance_0100",
@@ -1666,7 +1666,7 @@
         "lending"
       ]
     },
-    "isFree": false
+    "isFree": true
   },
   {
     "id": "finance_0109",
@@ -1682,7 +1682,7 @@
         "portfolio management"
       ]
     },
-    "isFree": false
+    "isFree": true
   },
   {
     "id": "finance_0110",
@@ -1781,7 +1781,7 @@
         "reporting"
       ]
     },
-    "isFree": false
+    "isFree": true
   },
   {
     "id": "finance_0116",
@@ -1978,7 +1978,7 @@
         "analysis"
       ]
     },
-    "isFree": false
+    "isFree": true
   },
   {
     "id": "finance_0128",
@@ -2073,7 +2073,7 @@
         "reporting"
       ]
     },
-    "isFree": false
+    "isFree": true
   },
   {
     "id": "finance_0134",
@@ -2221,7 +2221,7 @@
         "M&A"
       ]
     },
-    "isFree": false
+    "isFree": true
   },
   {
     "id": "finance_0143",
@@ -2352,6 +2352,6 @@
         "fixed income"
       ]
     },
-    "isFree": false
+    "isFree": true
   }
 ]

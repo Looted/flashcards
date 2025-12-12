@@ -140,7 +140,7 @@
         "portfolio management"
       ]
     },
-    "isFree": false
+    "isFree": true
   },
   {
     "id": "strategy_0010",
@@ -156,7 +156,7 @@
         "marketing"
       ]
     },
-    "isFree": false
+    "isFree": true
   },
   {
     "id": "strategy_0011",
@@ -188,7 +188,7 @@
         "marketing"
       ]
     },
-    "isFree": false
+    "isFree": true
   },
   {
     "id": "strategy_0013",
@@ -204,7 +204,7 @@
         "sales"
       ]
     },
-    "isFree": false
+    "isFree": true
   },
   {
     "id": "strategy_0014",
@@ -220,7 +220,7 @@
         "innovation"
       ]
     },
-    "isFree": false
+    "isFree": true
   },
   {
     "id": "strategy_0015",
@@ -235,7 +235,7 @@
         "risk management"
       ]
     },
-    "isFree": false
+    "isFree": true
   },
   {
     "id": "strategy_0016",
@@ -250,7 +250,7 @@
         "management"
       ]
     },
-    "isFree": false
+    "isFree": true
   },
   {
     "id": "strategy_0017",
@@ -267,7 +267,7 @@
         "legal"
       ]
     },
-    "isFree": false
+    "isFree": true
   },
   {
     "id": "strategy_0018",
@@ -284,7 +284,7 @@
         "legal"
       ]
     },
-    "isFree": false
+    "isFree": true
   },
   {
     "id": "strategy_0019",
@@ -314,7 +314,7 @@
         "supply chain"
       ]
     },
-    "isFree": false
+    "isFree": true
   },
   {
     "id": "strategy_0021",
@@ -329,7 +329,7 @@
         "corporate development"
       ]
     },
-    "isFree": false
+    "isFree": true
   },
   {
     "id": "strategy_0022",
@@ -375,7 +375,7 @@
         "niche"
       ]
     },
-    "isFree": false
+    "isFree": true
   },
   {
     "id": "strategy_0025",
@@ -409,7 +409,7 @@
         "metrics"
       ]
     },
-    "isFree": false
+    "isFree": true
   },
   {
     "id": "strategy_0027",
@@ -426,7 +426,7 @@
         "framework"
       ]
     },
-    "isFree": false
+    "isFree": true
   },
   {
     "id": "strategy_0028",
@@ -473,7 +473,7 @@
         "vision"
       ]
     },
-    "isFree": false
+    "isFree": true
   },
   {
     "id": "strategy_0031",
@@ -488,7 +488,7 @@
         "technology"
       ]
     },
-    "isFree": false
+    "isFree": true
   },
   {
     "id": "strategy_0032",
@@ -503,7 +503,7 @@
         "product management"
       ]
     },
-    "isFree": false
+    "isFree": true
   },
   {
     "id": "strategy_0033",
@@ -518,7 +518,7 @@
         "marketing"
       ]
     },
-    "isFree": false
+    "isFree": true
   },
   {
     "id": "strategy_0034",
@@ -550,7 +550,7 @@
         "platform"
       ]
     },
-    "isFree": false
+    "isFree": true
   },
   {
     "id": "strategy_0036",
@@ -566,7 +566,7 @@
         "platform"
       ]
     },
-    "isFree": false
+    "isFree": true
   },
   {
     "id": "strategy_0037",
@@ -598,7 +598,7 @@
         "management"
       ]
     },
-    "isFree": false
+    "isFree": true
   },
   {
     "id": "strategy_0039",
@@ -614,7 +614,7 @@
         "M&A"
       ]
     },
-    "isFree": false
+    "isFree": true
   },
   {
     "id": "strategy_0040",
@@ -680,7 +680,7 @@
         "operations"
       ]
     },
-    "isFree": false
+    "isFree": true
   },
   {
     "id": "strategy_0044",
@@ -713,7 +713,7 @@
         "startup"
       ]
     },
-    "isFree": false
+    "isFree": true
   },
   {
     "id": "strategy_0046",
@@ -730,7 +730,7 @@
         "methodology"
       ]
     },
-    "isFree": false
+    "isFree": true
   },
   {
     "id": "strategy_0047",
@@ -746,7 +746,7 @@
         "agility"
       ]
     },
-    "isFree": false
+    "isFree": true
   },
   {
     "id": "strategy_0048",
@@ -762,7 +762,7 @@
         "sales"
       ]
     },
-    "isFree": false
+    "isFree": true
   },
   {
     "id": "strategy_0049",
@@ -779,7 +779,7 @@
         "startup"
       ]
     },
-    "isFree": false
+    "isFree": true
   },
   {
     "id": "strategy_0050",
@@ -796,7 +796,7 @@
         "metrics"
       ]
     },
-    "isFree": false
+    "isFree": true
   },
   {
     "id": "strategy_0051",
@@ -812,7 +812,7 @@
         "growth strategy"
       ]
     },
-    "isFree": false
+    "isFree": true
   },
   {
     "id": "strategy_0052",
@@ -828,7 +828,7 @@
         "metrics"
       ]
     },
-    "isFree": false
+    "isFree": true
   },
   {
     "id": "strategy_0053",
@@ -844,7 +844,7 @@
         "framework"
       ]
     },
-    "isFree": false
+    "isFree": true
   },
   {
     "id": "strategy_0054",
@@ -876,7 +876,7 @@
         "agile"
       ]
     },
-    "isFree": false
+    "isFree": true
   },
   {
     "id": "strategy_0056",
@@ -1436,7 +1436,7 @@
         "cost management"
       ]
     },
-    "isFree": false
+    "isFree": true
   },
   {
     "id": "strategy_0093",
@@ -1451,7 +1451,7 @@
         "cost management"
       ]
     },
-    "isFree": false
+    "isFree": true
   },
   {
     "id": "strategy_0094",
@@ -2297,7 +2297,7 @@
         "customer service"
       ]
     },
-    "isFree": false
+    "isFree": true
   },
   {
     "id": "strategy_0149",
@@ -2312,7 +2312,7 @@
         "strategy"
       ]
     },
-    "isFree": false
+    "isFree": true
   },
   {
     "id": "strategy_0150",
@@ -2328,7 +2328,7 @@
         "strategy"
       ]
     },
-    "isFree": false
+    "isFree": true
   },
   {
     "id": "strategy_0151",
@@ -2374,7 +2374,7 @@
         "branding"
       ]
     },
-    "isFree": false
+    "isFree": true
   },
   {
     "id": "strategy_0154",
@@ -2780,7 +2780,7 @@
         "entrepreneurship"
       ]
     },
-    "isFree": false
+    "isFree": true
   },
   {
     "id": "strategy_0181",
@@ -2795,7 +2795,7 @@
         "legal"
       ]
     },
-    "isFree": false
+    "isFree": true
   },
   {
     "id": "strategy_0182",
@@ -2810,7 +2810,7 @@
         "intellectual property"
       ]
     },
-    "isFree": false
+    "isFree": true
   },
   {
     "id": "strategy_0183",
@@ -3020,7 +3020,7 @@
         "decision-making"
       ]
     },
-    "isFree": false
+    "isFree": true
   },
   {
     "id": "strategy_0191",
@@ -3068,7 +3068,7 @@
         "metrics"
       ]
     },
-    "isFree": false
+    "isFree": true
   },
   {
     "id": "strategy_0200",
@@ -3260,7 +3260,7 @@
         "performance"
       ]
     },
-    "isFree": false
+    "isFree": true
   },
   {
     "id": "strategy_0212",

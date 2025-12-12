@@ -122,7 +122,7 @@
         "SaaS"
       ]
     },
-    "isFree": false
+    "isFree": true
   },
   {
     "id": "sales_0009",
@@ -138,7 +138,7 @@
         "marketing"
       ]
     },
-    "isFree": false
+    "isFree": true
   },
   {
     "id": "sales_0010",
@@ -154,7 +154,7 @@
         "customer success"
       ]
     },
-    "isFree": false
+    "isFree": true
   },
   {
     "id": "sales_0011",
@@ -214,7 +214,7 @@
         "SaaS"
       ]
     },
-    "isFree": false
+    "isFree": true
   },
   {
     "id": "sales_0015",
@@ -309,7 +309,7 @@
         "qualification"
       ]
     },
-    "isFree": false
+    "isFree": true
   },
   {
     "id": "sales_0021",
@@ -325,7 +325,7 @@
         "sales process"
       ]
     },
-    "isFree": false
+    "isFree": true
   },
   {
     "id": "sales_0022",
@@ -340,7 +340,7 @@
         "strategy"
       ]
     },
-    "isFree": false
+    "isFree": true
   },
   {
     "id": "sales_0023",
@@ -355,7 +355,7 @@
         "communication"
       ]
     },
-    "isFree": false
+    "isFree": true
   },
   {
     "id": "sales_0024",
@@ -370,7 +370,7 @@
         "sales process"
       ]
     },
-    "isFree": false
+    "isFree": true
   },
   {
     "id": "sales_0025",
@@ -385,7 +385,7 @@
         "communication"
       ]
     },
-    "isFree": false
+    "isFree": true
   },
   {
     "id": "sales_0026",
@@ -401,7 +401,7 @@
         "evaluation"
       ]
     },
-    "isFree": false
+    "isFree": true
   },
   {
     "id": "sales_0027",
@@ -431,7 +431,7 @@
         "stakeholders"
       ]
     },
-    "isFree": false
+    "isFree": true
   },
   {
     "id": "sales_0029",
@@ -461,7 +461,7 @@
         "growth"
       ]
     },
-    "isFree": false
+    "isFree": true
   },
   {
     "id": "sales_0031",
@@ -476,7 +476,7 @@
         "growth"
       ]
     },
-    "isFree": false
+    "isFree": true
   },
   {
     "id": "sales_0032",
@@ -491,7 +491,7 @@
         "growth"
       ]
     },
-    "isFree": false
+    "isFree": true
   },
   {
     "id": "sales_0033",
@@ -522,7 +522,7 @@
         "management"
       ]
     },
-    "isFree": false
+    "isFree": true
   },
   {
     "id": "sales_0035",
@@ -538,7 +538,7 @@
         "management"
       ]
     },
-    "isFree": false
+    "isFree": true
   },
   {
     "id": "sales_0036",
@@ -553,7 +553,7 @@
         "operations"
       ]
     },
-    "isFree": false
+    "isFree": true
   },
   {
     "id": "sales_0037",
@@ -569,7 +569,7 @@
         "lead generation"
       ]
     },
-    "isFree": false
+    "isFree": true
   },
   {
     "id": "sales_0038",
@@ -585,7 +585,7 @@
         "closing"
       ]
     },
-    "isFree": false
+    "isFree": true
   },
   {
     "id": "sales_0039",
@@ -600,7 +600,7 @@
         "finance"
       ]
     },
-    "isFree": false
+    "isFree": true
   },
   {
     "id": "sales_0040",
@@ -615,7 +615,7 @@
         "HR"
       ]
     },
-    "isFree": false
+    "isFree": true
   },
   {
     "id": "sales_0041",
@@ -631,7 +631,7 @@
         "project management"
       ]
     },
-    "isFree": false
+    "isFree": true
   },
   {
     "id": "sales_0042",
@@ -678,7 +678,7 @@
         "social media"
       ]
     },
-    "isFree": false
+    "isFree": true
   },
   {
     "id": "sales_0045",
@@ -723,7 +723,7 @@
         "sales process"
       ]
     },
-    "isFree": false
+    "isFree": true
   },
   {
     "id": "sales_0048",
@@ -956,7 +956,7 @@
         "sales process"
       ]
     },
-    "isFree": false
+    "isFree": true
   },
   {
     "id": "sales_0063",
@@ -971,7 +971,7 @@
         "sales process"
       ]
     },
-    "isFree": false
+    "isFree": true
   },
   {
     "id": "sales_0064",
@@ -1051,7 +1051,7 @@
         "process"
       ]
     },
-    "isFree": false
+    "isFree": true
   },
   {
     "id": "sales_0069",
@@ -1067,7 +1067,7 @@
         "marketing"
       ]
     },
-    "isFree": false
+    "isFree": true
   },
   {
     "id": "sales_0070",
@@ -1115,7 +1115,7 @@
         "SaaS"
       ]
     },
-    "isFree": false
+    "isFree": true
   },
   {
     "id": "sales_0073",
@@ -1228,7 +1228,7 @@
         "prospecting"
       ]
     },
-    "isFree": false
+    "isFree": true
   },
   {
     "id": "sales_0080",
@@ -1244,7 +1244,7 @@
         "sales cycle"
       ]
     },
-    "isFree": false
+    "isFree": true
   },
   {
     "id": "sales_0081",
@@ -1308,7 +1308,7 @@
         "lead generation"
       ]
     },
-    "isFree": false
+    "isFree": true
   },
   {
     "id": "sales_0085",
@@ -1535,7 +1535,7 @@
         "post-sale"
       ]
     },
-    "isFree": false
+    "isFree": true
   },
   {
     "id": "sales_0100",
@@ -1852,7 +1852,7 @@
         "account management"
       ]
     },
-    "isFree": false
+    "isFree": true
   },
   {
     "id": "sales_0121",
@@ -2179,7 +2179,7 @@
         "management"
       ]
     },
-    "isFree": false
+    "isFree": true
   },
   {
     "id": "sales_0142",
@@ -2209,7 +2209,7 @@
         "legal"
       ]
     },
-    "isFree": false
+    "isFree": true
   },
   {
     "id": "sales_0144",
@@ -2287,7 +2287,7 @@
         "pipeline management"
       ]
     },
-    "isFree": false
+    "isFree": true
   },
   {
     "id": "sales_0149",
@@ -2411,7 +2411,7 @@
         "account management"
       ]
     },
-    "isFree": false
+    "isFree": true
   },
   {
     "id": "sales_0157",
@@ -2507,7 +2507,7 @@
         "idiom"
       ]
     },
-    "isFree": false
+    "isFree": true
   },
   {
     "id": "sales_0163",
@@ -2647,7 +2647,7 @@
         "sales process"
       ]
     },
-    "isFree": false
+    "isFree": true
   },
   {
     "id": "sales_0172",
@@ -2738,7 +2738,7 @@
         "sales process"
       ]
     },
-    "isFree": false
+    "isFree": true
   },
   {
     "id": "sales_0178",
@@ -2829,7 +2829,7 @@
         "strategy"
       ]
     },
-    "isFree": false
+    "isFree": true
   },
   {
     "id": "sales_0184",
@@ -3035,7 +3035,7 @@
         "sales process"
       ]
     },
-    "isFree": false
+    "isFree": true
   },
   {
     "id": "sales_0197",
@@ -3050,7 +3050,7 @@
         "sales process"
       ]
     },
-    "isFree": false
+    "isFree": true
   },
   {
     "id": "sales_0198",

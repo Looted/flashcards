@@ -87,9 +87,9 @@ The application implements a comprehensive freemium model with the following tec
 **Content Tagging System:**
 - **Script**: `scripts/apply-freemium-rules.mjs` processes all vocabulary JSON files
 - **Logic**: Tags words as `isFree: true` based on difficulty tiers:
-  - 30 Easy words (difficulty: 1)
-  - 20 Medium words (difficulty: 2)
-  - 10 Hard words (difficulty: 3)
+  - 36 Easy words (difficulty: 1)
+  - 18 Medium words (difficulty: 2)
+  - 6 Hard words (difficulty: 3)
 - **Result**: ~60 free words per category, ~180 total free words across all categories
 
 **Service Layer Implementation:**

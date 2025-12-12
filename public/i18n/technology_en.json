@@ -141,7 +141,7 @@
         "administration"
       ]
     },
-    "isFree": false
+    "isFree": true
   },
   {
     "id": "technology_0011",
@@ -155,7 +155,7 @@
         "compliance"
       ]
     },
-    "isFree": false
+    "isFree": true
   },
   {
     "id": "technology_0012",
@@ -169,7 +169,7 @@
         "database"
       ]
     },
-    "isFree": false
+    "isFree": true
   },
   {
     "id": "technology_0013",
@@ -198,7 +198,7 @@
         "marketing"
       ]
     },
-    "isFree": false
+    "isFree": true
   },
   {
     "id": "technology_0015",
@@ -213,7 +213,7 @@
         "finance"
       ]
     },
-    "isFree": false
+    "isFree": true
   },
   {
     "id": "technology_0016",
@@ -228,7 +228,7 @@
         "data_science"
       ]
     },
-    "isFree": false
+    "isFree": true
   },
   {
     "id": "technology_0017",
@@ -286,7 +286,7 @@
         "strategy"
       ]
     },
-    "isFree": false
+    "isFree": true
   },
   {
     "id": "technology_0021",
@@ -300,7 +300,7 @@
         "infrastructure"
       ]
     },
-    "isFree": false
+    "isFree": true
   },
   {
     "id": "technology_0022",
@@ -314,7 +314,7 @@
         "analytics"
       ]
     },
-    "isFree": false
+    "isFree": true
   },
   {
     "id": "technology_0023",
@@ -430,7 +430,7 @@
         "ux"
       ]
     },
-    "isFree": false
+    "isFree": true
   },
   {
     "id": "technology_0031",
@@ -445,7 +445,7 @@
         "simulation"
       ]
     },
-    "isFree": false
+    "isFree": true
   },
   {
     "id": "technology_0032",
@@ -490,7 +490,7 @@
         "cloud"
       ]
     },
-    "isFree": false
+    "isFree": true
   },
   {
     "id": "technology_0035",
@@ -505,7 +505,7 @@
         "cloud"
       ]
     },
-    "isFree": false
+    "isFree": true
   },
   {
     "id": "technology_0036",
@@ -534,7 +534,7 @@
         "project_management"
       ]
     },
-    "isFree": false
+    "isFree": true
   },
   {
     "id": "technology_0038",
@@ -548,7 +548,7 @@
         "growth"
       ]
     },
-    "isFree": false
+    "isFree": true
   },
   {
     "id": "technology_0039",
@@ -563,7 +563,7 @@
         "reliability"
       ]
     },
-    "isFree": false
+    "isFree": true
   },
   {
     "id": "technology_0040",
@@ -578,7 +578,7 @@
         "risk_management"
       ]
     },
-    "isFree": false
+    "isFree": true
   },
   {
     "id": "technology_0041",
@@ -592,7 +592,7 @@
         "performance"
       ]
     },
-    "isFree": false
+    "isFree": true
   },
   {
     "id": "technology_0042",
@@ -606,7 +606,7 @@
         "performance"
       ]
     },
-    "isFree": false
+    "isFree": true
   },
   {
     "id": "technology_0043",
@@ -620,7 +620,7 @@
         "integration"
       ]
     },
-    "isFree": false
+    "isFree": true
   },
   {
     "id": "technology_0044",
@@ -648,7 +648,7 @@
         "efficiency"
       ]
     },
-    "isFree": false
+    "isFree": true
   },
   {
     "id": "technology_0046",
@@ -663,7 +663,7 @@
         "efficiency"
       ]
     },
-    "isFree": false
+    "isFree": true
   },
   {
     "id": "technology_0047",
@@ -678,7 +678,7 @@
         "content_creation"
       ]
     },
-    "isFree": false
+    "isFree": true
   },
   {
     "id": "technology_0048",
@@ -692,7 +692,7 @@
         "change_management"
       ]
     },
-    "isFree": false
+    "isFree": true
   },
   {
     "id": "technology_0049",
@@ -707,7 +707,7 @@
         "product"
       ]
     },
-    "isFree": false
+    "isFree": true
   },
   {
     "id": "technology_0050",
@@ -721,7 +721,7 @@
         "customer_service"
       ]
     },
-    "isFree": false
+    "isFree": true
   },
   {
     "id": "technology_0051",
@@ -785,7 +785,7 @@
         "software development"
       ]
     },
-    "isFree": false
+    "isFree": true
   },
   {
     "id": "technology_0055",
@@ -816,7 +816,7 @@
         "operations"
       ]
     },
-    "isFree": false
+    "isFree": true
   },
   {
     "id": "technology_0057",
@@ -831,7 +831,7 @@
         "quality assurance"
       ]
     },
-    "isFree": false
+    "isFree": true
   },
   {
     "id": "technology_0058",
@@ -847,7 +847,7 @@
         "project management"
       ]
     },
-    "isFree": false
+    "isFree": true
   },
   {
     "id": "technology_0059",
@@ -862,7 +862,7 @@
         "management"
       ]
     },
-    "isFree": false
+    "isFree": true
   },
   {
     "id": "technology_0060",
@@ -876,7 +876,7 @@
         "code quality"
       ]
     },
-    "isFree": false
+    "isFree": true
   },
   {
     "id": "technology_0061",
@@ -922,7 +922,7 @@
         "security"
       ]
     },
-    "isFree": false
+    "isFree": true
   },
   {
     "id": "technology_0064",
@@ -969,7 +969,7 @@
         "analytics"
       ]
     },
-    "isFree": false
+    "isFree": true
   },
   {
     "id": "technology_0067",
@@ -985,7 +985,7 @@
         "cloud computing"
       ]
     },
-    "isFree": false
+    "isFree": true
   },
   {
     "id": "technology_0068",
@@ -1077,7 +1077,7 @@
         "UX"
       ]
     },
-    "isFree": false
+    "isFree": true
   },
   {
     "id": "technology_0074",
@@ -1109,7 +1109,7 @@
         "analytics"
       ]
     },
-    "isFree": false
+    "isFree": true
   },
   {
     "id": "technology_0076",
@@ -1125,7 +1125,7 @@
         "strategy"
       ]
     },
-    "isFree": false
+    "isFree": true
   },
   {
     "id": "technology_0077",
@@ -1141,7 +1141,7 @@
         "strategy"
       ]
     },
-    "isFree": false
+    "isFree": true
   },
   {
     "id": "technology_0078",
@@ -1297,7 +1297,7 @@
         "infrastructure"
       ]
     },
-    "isFree": false
+    "isFree": true
   },
   {
     "id": "technology_0088",
@@ -1313,7 +1313,7 @@
         "operations"
       ]
     },
-    "isFree": false
+    "isFree": true
   },
   {
     "id": "technology_0089",
@@ -1329,7 +1329,7 @@
         "infrastructure"
       ]
     },
-    "isFree": false
+    "isFree": true
   },
   {
     "id": "technology_0090",
@@ -1455,7 +1455,7 @@
         "IT"
       ]
     },
-    "isFree": false
+    "isFree": true
   },
   {
     "id": "technology_0098",
@@ -1471,7 +1471,7 @@
         "IT"
       ]
     },
-    "isFree": false
+    "isFree": true
   },
   {
     "id": "technology_0099",
@@ -1797,7 +1797,7 @@
         "project management"
       ]
     },
-    "isFree": false
+    "isFree": true
   },
   {
     "id": "technology_0120",

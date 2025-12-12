@@ -76,7 +76,6 @@ export class SummaryComponent {
 
   backToHome() {
     this.store.reset();
-    this.freemiumService.resetAllSessionTracking();
     this.router.navigate(['/']);
   }
 }

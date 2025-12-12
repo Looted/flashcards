@@ -64,38 +64,26 @@ describe('FreemiumService', () => {
   });
 
   describe('Freemium Limits', () => {
-    it('should allow playing if word count is below limit', async () => {
-      storageServiceMock.getItem.mockReturnValue('20'); // 20 words played
-      const canStart = await service.canStartNewGame('technology', 'blitz');
-      expect(canStart).toBe(true);
-    });
-
-    it('should allow playing even if word count reached limit (60) - global limit deprecated', async () => {
-      storageServiceMock.getItem.mockReturnValue('60'); // Limit reached
-      const canStart = await service.canStartNewGame('technology', 'blitz');
-      expect(canStart).toBe(true);
-    });
-
-    it('should allow playing even if word count exceeded limit - global limit deprecated', async () => {
-      storageServiceMock.getItem.mockReturnValue('61'); // Limit exceeded
+    it('should allow playing if category is not exhausted', async () => {
+      // This test verifies that the service allows playing when free words are available
+      // The service is already initialized with mock data in beforeEach
       const canStart = await service.canStartNewGame('technology', 'blitz');
       expect(canStart).toBe(true);
     });
 
     it('should always allow premium users to play', async () => {
       authServiceMock.isPremiumUser.mockReturnValue(true);
-      storageServiceMock.getItem.mockReturnValue('1000'); // Way over limit
       const canStart = await service.canStartNewGame('technology', 'blitz');
       expect(canStart).toBe(true);
     });
 
-    it('should increment word count when recording session', () => {
+    it('should record session words for analytics tracking', () => {
       storageServiceMock.getItem.mockReturnValue('10');
       service.recordSessionWords('technology', 20);
       expect(storageServiceMock.setItem).toHaveBeenCalledWith('freemium_words_count', '30');
     });
 
-    it('should start tracking from 0 if storage is empty', () => {
+    it('should start analytics tracking from 0 if storage is empty', () => {
       storageServiceMock.getItem.mockReturnValue(null);
       service.recordSessionWords('technology', 20);
       expect(storageServiceMock.setItem).toHaveBeenCalledWith('freemium_words_count', '20');

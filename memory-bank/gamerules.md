@@ -48,7 +48,7 @@ Skipped card is automatically marked as mastered (mastery=5).
 BizzWords implements a freemium model that provides limited content access to free users while offering full access to premium subscribers.
 
 ### Content Access Restrictions
-- **Free Users**: Access limited to ~60 words per category (30 Easy, 20 Medium, 10 Hard). Global/Session limits are removed in favor of strict category exhaustion.
+- **Free Users**: Access limited to ~60 words per category (36 Easy, 18 Medium, 6 Hard). Global/Session limits are removed in favor of strict category exhaustion.
 - **Premium Users**: Access all 150+ words per category without restrictions
 - **Content Tagging**: Words are tagged with `isFree: true` based on difficulty tiers during data processing
 

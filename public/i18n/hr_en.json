@@ -181,7 +181,7 @@
         "operations"
       ]
     },
-    "isFree": false
+    "isFree": true
   },
   {
     "id": "hr_0013",
@@ -196,7 +196,7 @@
         "analytics"
       ]
     },
-    "isFree": false
+    "isFree": true
   },
   {
     "id": "hr_0014",
@@ -211,7 +211,7 @@
         "strategy"
       ]
     },
-    "isFree": false
+    "isFree": true
   },
   {
     "id": "hr_0015",
@@ -258,7 +258,7 @@
         "recruitment"
       ]
     },
-    "isFree": false
+    "isFree": true
   },
   {
     "id": "hr_0018",
@@ -273,7 +273,7 @@
         "management"
       ]
     },
-    "isFree": false
+    "isFree": true
   },
   {
     "id": "hr_0019",
@@ -289,7 +289,7 @@
         "talent management"
       ]
     },
-    "isFree": false
+    "isFree": true
   },
   {
     "id": "hr_0020",
@@ -305,7 +305,7 @@
         "employee engagement"
       ]
     },
-    "isFree": false
+    "isFree": true
   },
   {
     "id": "hr_0021",
@@ -339,7 +339,7 @@
         "marketing"
       ]
     },
-    "isFree": false
+    "isFree": true
   },
   {
     "id": "hr_0023",
@@ -370,7 +370,7 @@
         "management"
       ]
     },
-    "isFree": false
+    "isFree": true
   },
   {
     "id": "hr_0025",
@@ -402,7 +402,7 @@
         "employee relations"
       ]
     },
-    "isFree": false
+    "isFree": true
   },
   {
     "id": "hr_0027",
@@ -418,7 +418,7 @@
         "workforce planning"
       ]
     },
-    "isFree": false
+    "isFree": true
   },
   {
     "id": "hr_0028",
@@ -434,7 +434,7 @@
         "management"
       ]
     },
-    "isFree": false
+    "isFree": true
   },
   {
     "id": "hr_0029",
@@ -450,7 +450,7 @@
         "technology"
       ]
     },
-    "isFree": false
+    "isFree": true
   },
   {
     "id": "hr_0030",
@@ -529,7 +529,7 @@
         "strategy"
       ]
     },
-    "isFree": false
+    "isFree": true
   },
   {
     "id": "hr_0035",
@@ -577,7 +577,7 @@
         "strategy"
       ]
     },
-    "isFree": false
+    "isFree": true
   },
   {
     "id": "hr_0038",
@@ -610,7 +610,7 @@
         "employee engagement"
       ]
     },
-    "isFree": false
+    "isFree": true
   },
   {
     "id": "hr_0040",
@@ -657,7 +657,7 @@
         "employee relations"
       ]
     },
-    "isFree": false
+    "isFree": true
   },
   {
     "id": "hr_0043",
@@ -705,7 +705,7 @@
         "employee engagement"
       ]
     },
-    "isFree": false
+    "isFree": true
   },
   {
     "id": "hr_0046",
@@ -721,7 +721,7 @@
         "leadership"
       ]
     },
-    "isFree": false
+    "isFree": true
   },
   {
     "id": "hr_0047",
@@ -736,7 +736,7 @@
         "analytics"
       ]
     },
-    "isFree": false
+    "isFree": true
   },
   {
     "id": "hr_0048",
@@ -753,7 +753,7 @@
         "retention"
       ]
     },
-    "isFree": false
+    "isFree": true
   },
   {
     "id": "hr_0049",
@@ -769,7 +769,7 @@
         "strategy"
       ]
     },
-    "isFree": false
+    "isFree": true
   },
   {
     "id": "hr_0050",
@@ -785,7 +785,7 @@
         "recruitment"
       ]
     },
-    "isFree": false
+    "isFree": true
   },
   {
     "id": "hr_0051",
@@ -801,7 +801,7 @@
         "technology"
       ]
     },
-    "isFree": false
+    "isFree": true
   },
   {
     "id": "hr_0052",
@@ -865,7 +865,7 @@
         "roles"
       ]
     },
-    "isFree": false
+    "isFree": true
   },
   {
     "id": "hr_0056",
@@ -897,7 +897,7 @@
         "data"
       ]
     },
-    "isFree": false
+    "isFree": true
   },
   {
     "id": "hr_0058",
@@ -913,7 +913,7 @@
         "technology"
       ]
     },
-    "isFree": false
+    "isFree": true
   },
   {
     "id": "hr_0059",
@@ -929,7 +929,7 @@
         "performance"
       ]
     },
-    "isFree": false
+    "isFree": true
   },
   {
     "id": "hr_0060",
@@ -945,7 +945,7 @@
         "performance"
       ]
     },
-    "isFree": false
+    "isFree": true
   },
   {
     "id": "hr_0061",
@@ -977,7 +977,7 @@
         "HR tech"
       ]
     },
-    "isFree": false
+    "isFree": true
   },
   {
     "id": "hr_0063",
@@ -1041,7 +1041,7 @@
         "management"
       ]
     },
-    "isFree": false
+    "isFree": true
   },
   {
     "id": "hr_0067",
@@ -1073,7 +1073,7 @@
         "data management"
       ]
     },
-    "isFree": false
+    "isFree": true
   },
   {
     "id": "hr_0069",
@@ -1089,7 +1089,7 @@
         "L&D"
       ]
     },
-    "isFree": false
+    "isFree": true
   },
   {
     "id": "hr_0070",
@@ -1121,7 +1121,7 @@
         "management"
       ]
     },
-    "isFree": false
+    "isFree": true
   },
   {
     "id": "hr_0072",
@@ -1152,7 +1152,7 @@
         "employee relations"
       ]
     },
-    "isFree": false
+    "isFree": true
   },
   {
     "id": "hr_0074",
@@ -1426,7 +1426,7 @@
         "management"
       ]
     },
-    "isFree": false
+    "isFree": true
   },
   {
     "id": "hr_0092",
@@ -1502,7 +1502,7 @@
         "employee relations"
       ]
     },
-    "isFree": false
+    "isFree": true
   },
   {
     "id": "hr_0097",
@@ -1517,7 +1517,7 @@
         "benefits"
       ]
     },
-    "isFree": false
+    "isFree": true
   },
   {
     "id": "hr_0098",
@@ -1549,7 +1549,7 @@
         "HR operations"
       ]
     },
-    "isFree": false
+    "isFree": true
   },
   {
     "id": "hr_0100",
@@ -1827,7 +1827,7 @@
         "culture"
       ]
     },
-    "isFree": false
+    "isFree": true
   },
   {
     "id": "hr_0118",
@@ -2042,7 +2042,7 @@
         "career development"
       ]
     },
-    "isFree": false
+    "isFree": true
   },
   {
     "id": "hr_0132",
@@ -2099,7 +2099,7 @@
         "operations"
       ]
     },
-    "isFree": false
+    "isFree": true
   },
   {
     "id": "hr_0136",
@@ -2114,7 +2114,7 @@
         "operations"
       ]
     },
-    "isFree": false
+    "isFree": true
   },
   {
     "id": "hr_0137",
@@ -2234,7 +2234,7 @@
         "performance management"
       ]
     },
-    "isFree": false
+    "isFree": true
   },
   {
     "id": "hr_0145",
@@ -2309,7 +2309,7 @@
         "compliance"
       ]
     },
-    "isFree": false
+    "isFree": true
   },
   {
     "id": "hr_0150",

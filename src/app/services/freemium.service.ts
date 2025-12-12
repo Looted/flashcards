@@ -19,7 +19,7 @@ export class FreemiumService {
   private readonly freeWordsByCategory = signal<Map<string, {id: string, term: string, difficulty: number}[]>>(new Map());
   private readonly isLoading = signal<boolean>(true);
 
-  // Persistent storage tracking
+  // Persistent storage tracking (kept for analytics)
   private readonly STORAGE_KEY = 'freemium_words_count';
   private readonly MAX_FREE_WORDS = 60; // 3 rounds * 20 words
 
@@ -138,7 +138,7 @@ export class FreemiumService {
     return this.getFreeWordsListForCategory(category, difficulty).length;
   }
 
-  // Persistent tracking methods for unlogged/free users
+  // Persistent tracking methods for analytics (kept for historical tracking)
   private getWordsPlayedCount(): number {
     const count = this.storageService.getItem(this.STORAGE_KEY);
     return count ? parseInt(count, 10) : 0;
@@ -149,34 +149,9 @@ export class FreemiumService {
     this.storageService.setItem(this.STORAGE_KEY, (current + count).toString());
   }
 
-  isFreeLimitReached(): boolean {
-    // Deprecated: Global limit is no longer enforced
-    return false;
-  }
-
-  // Session tracking methods
+  // Analytics tracking - records word usage for free users
   recordSessionWords(category: string, wordCount: number): void {
-    // Keep tracking for potential future use or analytics
     this.incrementWordsPlayed(wordCount);
-  }
-
-  getSessionWordCount(category: string): number {
-    return 0; // Deprecated: using persistent storage now
-  }
-
-  resetSessionWordCount(category: string): void {
-    // Deprecated
-  }
-
-  // Reset all session tracking (called when user returns to menu)
-  resetAllSessionTracking(): void {
-    // Deprecated
-  }
-
-  // Check if session limit is reached for a category
-  async isSessionLimitReached(category: string, gameModeType: 'classic' | 'blitz'): Promise<boolean> {
-    // Deprecated: No session/global limits, only category exhaustion
-    return false;
   }
 
   // Check if user can start a new game (considering both exhaustion and session limits)

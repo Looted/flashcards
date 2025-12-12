@@ -11,39 +11,39 @@ const processFile = (filePath) => {
   words = words.map(w => ({ ...w, isFree: false }));
 
   let freeCount = 0;
-
-  // 2. Step 1 (Hard Teaser): Select 5 first words with difficulty: 3
-  let hardCount = 0;
-  for (const word of words) {
-    if (word.metadata.difficulty === 3 && hardCount < 5) {
-      word.isFree = true;
-      hardCount++;
-      freeCount++;
-    }
-  }
-
-  // 3. Step 2 (Medium Pack): Select 5 first words with difficulty: 2
-  let mediumCount = 0;
-  for (const word of words) {
-    if (word.metadata.difficulty === 2 && mediumCount < 5) {
-      word.isFree = true;
-      mediumCount++;
-      freeCount++;
-    }
-  }
-
-  // 4. Step 3 (Easy Base): Select 5 first words with difficulty: 1
   let easyCount = 0;
+  let mediumCount = 0;
+  let hardCount = 0;
+
+  // 2. Step 1 (Easy Base): Select up to 36 words with difficulty: 1
   for (const word of words) {
-    if (word.metadata.difficulty === 1 && easyCount < 5) {
+    if (word.metadata.difficulty === 1 && easyCount < 36) {
       word.isFree = true;
       easyCount++;
       freeCount++;
     }
   }
 
+  // 3. Step 2 (Medium Pack): Select up to 18 words with difficulty: 2
+  for (const word of words) {
+    if (word.metadata.difficulty === 2 && mediumCount < 18) {
+      word.isFree = true;
+      mediumCount++;
+      freeCount++;
+    }
+  }
+
+  // 4. Step 3 (Hard Teaser): Select up to 6 words with difficulty: 3 (teaser, always truthful)
+  for (const word of words) {
+    if (word.metadata.difficulty === 3 && hardCount < 6) {
+      word.isFree = true;
+      hardCount++;
+      freeCount++;
+    }
+  }
+
   // 5. Validation / Backfill (Waterfall)
-  const TARGET_TOTAL = 15;
+  const TARGET_TOTAL = 60;
 
   if (freeCount < TARGET_TOTAL) {
     console.log(`[Backfill] ${path.basename(filePath)} needs backfill. Current: ${freeCount}`);
@@ -53,24 +53,27 @@ const processFile = (filePath) => {
       if (freeCount >= TARGET_TOTAL) break;
       if (!word.isFree && word.metadata.difficulty === 2) {
         word.isFree = true;
+        mediumCount++;
         freeCount++;
       }
     }
 
-    // Backfill with Easy words (if any left)
-    for (const word of words) {
-      if (freeCount >= TARGET_TOTAL) break;
-      if (!word.isFree && word.metadata.difficulty === 1) {
-        word.isFree = true;
-        freeCount++;
-      }
-    }
-
-      // Backfill with Hard words (last resort)
+    // Backfill with Hard words second
     for (const word of words) {
       if (freeCount >= TARGET_TOTAL) break;
       if (!word.isFree && word.metadata.difficulty === 3) {
         word.isFree = true;
+        hardCount++;
+        freeCount++;
+      }
+    }
+
+    // Backfill with Easy words last
+    for (const word of words) {
+      if (freeCount >= TARGET_TOTAL) break;
+      if (!word.isFree && word.metadata.difficulty === 1) {
+        word.isFree = true;
+        easyCount++;
         freeCount++;
       }
     }

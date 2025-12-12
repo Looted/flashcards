@@ -16,8 +16,8 @@ What works:
 - Test environment compatibility: CPU fallback for AI models in testing environments
 - Difficulty level selection implemented for both static and AI-generated vocabulary
 - LLM prompt now respects selected difficulty level for targeted word generation
-- **Freemium Architecture**: Complete implementation with content restrictions, premium status management, and UI feedback
-  - Content tagged with `isFree` flags based on difficulty tiers (30 Easy, 20 Medium, 10 Hard per category)
+  - **Freemium Architecture**: Complete implementation with content restrictions, premium status management, and UI feedback
+  - Content tagged with `isFree` flags based on difficulty tiers (36 Easy, 18 Medium, 6 Hard per category)
   - UserProfile model extended with `isPremium` field
   - AuthService enhanced with `isPremiumUser()` method
   - StaticVocabularyService filters words based on premium status
