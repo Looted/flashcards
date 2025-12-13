@@ -1,11 +1,13 @@
 import { TestBed } from '@angular/core/testing';
 import { ThemeService } from './theme.service';
 import { PLATFORM_ID } from '@angular/core';
+import { StorageService } from './storage.service';
 import { describe, it, expect, beforeEach, vi } from 'vitest';
 
 describe('ThemeService', () => {
   let service: ThemeService;
   let mockMatchMedia: any;
+  let mockStorageService: any;
 
   beforeEach(() => {
     // Mock matchMedia
@@ -19,20 +21,17 @@ describe('ThemeService', () => {
       value: mockMatchMedia
     });
 
-    // Mock localStorage
-    const mockLocalStorage = {
-      getItem: vi.fn(),
-      setItem: vi.fn()
+    // Mock StorageService
+    mockStorageService = {
+      getItem: vi.fn().mockResolvedValue(null),
+      setItem: vi.fn().mockResolvedValue(undefined)
     };
-    Object.defineProperty(window, 'localStorage', {
-      writable: true,
-      value: mockLocalStorage
-    });
 
     TestBed.configureTestingModule({
       providers: [
         ThemeService,
-        { provide: PLATFORM_ID, useValue: 'browser' }
+        { provide: PLATFORM_ID, useValue: 'browser' },
+        { provide: StorageService, useValue: mockStorageService }
       ]
     });
     service = TestBed.inject(ThemeService);
@@ -46,21 +45,22 @@ describe('ThemeService', () => {
     expect(service.themeMode()).toBe('system');
   });
 
-  it('should set theme mode', () => {
-    service.setThemeMode('dark');
+  it('should set theme mode', async () => {
+    await service.setThemeMode('dark');
     expect(service.themeMode()).toBe('dark');
   });
 
-  it('should cycle themes correctly', () => {
-    service.setThemeMode('light');
+  it('should cycle themes correctly', async () => {
+    await service.setThemeMode('light');
+    expect(service.themeMode()).toBe('light');
 
-    service.cycleTheme();
+    await service.cycleTheme();
     expect(service.themeMode()).toBe('dark');
 
-    service.cycleTheme();
+    await service.cycleTheme();
     expect(service.themeMode()).toBe('system');
 
-    service.cycleTheme();
+    await service.cycleTheme();
     expect(service.themeMode()).toBe('light');
   });
 });

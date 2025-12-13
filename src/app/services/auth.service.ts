@@ -81,12 +81,12 @@ export class AuthService {
 
       // Check if migration is needed
       const userProfile = await this.firestoreService.getUserProfile(user.uid);
-      if (!userProfile?.hasMigratedLocalData && this.migrationService.hasLocalDataToMigrate()) {
+      if (!userProfile?.hasMigratedLocalData && await this.migrationService.hasLocalDataToMigrate()) {
         this._isMigrating.set(true);
         try {
           await this.migrationService.migrateGuestDataToUser(user.uid);
           // Clear local data after successful migration
-          this.migrationService.clearMigratedLocalData();
+          await this.migrationService.clearMigratedLocalData();
           console.log('Migration completed and local data cleared');
         } catch (error) {
           console.error('Migration failed:', error);

@@ -46,7 +46,7 @@ export class MigrationService {
   }
 
   private async migrateVocabularyStats(uid: string): Promise<void> {
-    const vocabularyData = this.storageService.getItem(this.VOCABULARY_STATS_KEY);
+    const vocabularyData = await this.storageService.getItem(this.VOCABULARY_STATS_KEY);
     if (!vocabularyData) {
       console.log('No vocabulary stats to migrate');
       return;
@@ -63,8 +63,8 @@ export class MigrationService {
   }
 
   private async migrateUserSettings(uid: string): Promise<void> {
-    const language = this.storageService.getItem(this.LANGUAGE_KEY);
-    const theme = this.storageService.getItem(this.THEME_KEY);
+    const language = await this.storageService.getItem(this.LANGUAGE_KEY);
+    const theme = await this.storageService.getItem(this.THEME_KEY);
 
     const settings: any = {};
 
@@ -88,10 +88,10 @@ export class MigrationService {
    * Checks if a user has local data that needs migration.
    * Useful for showing migration prompts or warnings.
    */
-  hasLocalDataToMigrate(): boolean {
-    const hasVocabularyStats = !!this.storageService.getItem(this.VOCABULARY_STATS_KEY);
-    const hasLanguage = !!this.storageService.getItem(this.LANGUAGE_KEY);
-    const hasTheme = !!this.storageService.getItem(this.THEME_KEY);
+  async hasLocalDataToMigrate(): Promise<boolean> {
+    const hasVocabularyStats = !!await this.storageService.getItem(this.VOCABULARY_STATS_KEY);
+    const hasLanguage = !!await this.storageService.getItem(this.LANGUAGE_KEY);
+    const hasTheme = !!await this.storageService.getItem(this.THEME_KEY);
 
     return hasVocabularyStats || hasLanguage || hasTheme;
   }
@@ -100,10 +100,10 @@ export class MigrationService {
    * Clears localStorage data after successful migration.
    * Call this after migration is confirmed to be complete.
    */
-  clearMigratedLocalData(): void {
-    this.storageService.removeItem(this.VOCABULARY_STATS_KEY);
-    this.storageService.removeItem(this.LANGUAGE_KEY);
-    this.storageService.removeItem(this.THEME_KEY);
+  async clearMigratedLocalData(): Promise<void> {
+    await this.storageService.removeItem(this.VOCABULARY_STATS_KEY);
+    await this.storageService.removeItem(this.LANGUAGE_KEY);
+    await this.storageService.removeItem(this.THEME_KEY);
     console.log('Migrated localStorage data cleared');
   }
 
@@ -111,12 +111,12 @@ export class MigrationService {
    * Gets a summary of what data will be migrated.
    * Useful for showing to users before migration.
    */
-  getMigrationSummary(): { vocabularyWords: number; hasLanguage: boolean; hasTheme: boolean } {
+  async getMigrationSummary(): Promise<{ vocabularyWords: number; hasLanguage: boolean; hasTheme: boolean }> {
     let vocabularyWords = 0;
     let hasLanguage = false;
     let hasTheme = false;
 
-    const vocabData = this.storageService.getItem(this.VOCABULARY_STATS_KEY);
+    const vocabData = await this.storageService.getItem(this.VOCABULARY_STATS_KEY);
     if (vocabData) {
       try {
         const stats = JSON.parse(vocabData);
@@ -126,8 +126,8 @@ export class MigrationService {
       }
     }
 
-    hasLanguage = !!this.storageService.getItem(this.LANGUAGE_KEY);
-    hasTheme = !!this.storageService.getItem(this.THEME_KEY);
+    hasLanguage = !!await this.storageService.getItem(this.LANGUAGE_KEY);
+    hasTheme = !!await this.storageService.getItem(this.THEME_KEY);
 
     return { vocabularyWords, hasLanguage, hasTheme };
   }

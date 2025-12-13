@@ -1,5 +1,6 @@
 import { Injectable, inject, signal, PLATFORM_ID } from '@angular/core';
 import { isPlatformBrowser } from '@angular/common';
+import { StorageService } from './storage.service';
 
 export type SupportedLanguage = 'pl' | 'es' | 'de' | 'fr';
 
@@ -8,6 +9,7 @@ export type SupportedLanguage = 'pl' | 'es' | 'de' | 'fr';
 })
 export class LanguageService {
   private readonly platformId = inject(PLATFORM_ID);
+  private readonly storageService = inject(StorageService);
   private readonly LANGUAGE_KEY = 'nativeLanguage';
 
   // Current native language signal
@@ -20,18 +22,18 @@ export class LanguageService {
   }
 
   /**
-   * Initialize native language from localStorage or auto-detect.
+   * Initialize native language from storage or auto-detect.
    * This controls which language appears as translations on flashcards.
    * UI remains in English.
    */
-  private initializeLanguage(): void {
-    const saved = localStorage.getItem(this.LANGUAGE_KEY) as SupportedLanguage;
-    if (saved && this.isValidLanguage(saved)) {
-      this.currentLanguage.set(saved);
+  private async initializeLanguage(): Promise<void> {
+    const saved = await this.storageService.getItem(this.LANGUAGE_KEY);
+    if (saved && this.isValidLanguage(saved as SupportedLanguage)) {
+      this.currentLanguage.set(saved as SupportedLanguage);
     } else {
       const detected = this.detectBrowserLanguage();
       this.currentLanguage.set(detected);
-      localStorage.setItem(this.LANGUAGE_KEY, detected);
+      await this.storageService.setItem(this.LANGUAGE_KEY, detected);
     }
   }
 
@@ -52,11 +54,11 @@ export class LanguageService {
    * Set the native language for flashcard translations.
    * @param language The language code ('pl' or 'es')
    */
-  setLanguage(language: SupportedLanguage): void {
+  async setLanguage(language: SupportedLanguage): Promise<void> {
     if (this.isValidLanguage(language)) {
       this.currentLanguage.set(language);
       if (isPlatformBrowser(this.platformId)) {
-        localStorage.setItem(this.LANGUAGE_KEY, language);
+        await this.storageService.setItem(this.LANGUAGE_KEY, language);
       }
     }
   }

@@ -189,10 +189,10 @@ export class MenuComponent implements OnInit {
     });
   }
 
-  ngOnInit() {
+  async ngOnInit() {
     if (isPlatformBrowser(this.platformId)) {
       // Load last session from storage
-      const storedSession = this.storageService.getItem('lastSession');
+      const storedSession = await this.storageService.getItem('lastSession');
       if (storedSession) {
         try {
           const sessionData = JSON.parse(storedSession);

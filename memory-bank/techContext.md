@@ -10,7 +10,7 @@ Technologies used:
 - Cloud storage: Firebase Firestore for user data synchronization and persistence
 - Forms: Reactive forms for complex form handling
 - PWA: Angular PWA package with service workers for offline functionality, web app manifest for installability, custom install button with beforeinstallprompt event handling, SSR-compatible browser detection
-- Data persistence: Hybrid localStorage (guest) + Firestore (authenticated) for tracking word performance, mastery levels, and learning statistics across sessions
+- Data persistence: Hybrid @capacitor/preferences (guest) + Firestore (authenticated) for tracking word performance, mastery levels, and learning statistics across sessions
 - Testing: Playwright for E2E tests with Firebase emulators for isolated testing
 
 Development setup:

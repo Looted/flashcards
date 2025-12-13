@@ -48,9 +48,9 @@ export class VocabularyStatsService {
     });
   }
 
-  private loadStats(): void {
+  private async loadStats(): Promise<void> {
     try {
-      const savedStats = this.storageService.getItem(this.STORAGE_KEY);
+      const savedStats = await this.storageService.getItem(this.STORAGE_KEY);
       if (savedStats) {
         const parsed = JSON.parse(savedStats);
         this.stats.set(new Map(Object.entries(parsed)));
@@ -60,10 +60,10 @@ export class VocabularyStatsService {
     }
   }
 
-  private saveStats(): void {
+  private async saveStats(): Promise<void> {
     try {
       const obj = Object.fromEntries(this.stats());
-      this.storageService.setItem(this.STORAGE_KEY, JSON.stringify(obj));
+      await this.storageService.setItem(this.STORAGE_KEY, JSON.stringify(obj));
 
       // Also save to Firestore if user is authenticated
       if (this.authService.isAuthenticated()) {
@@ -228,9 +228,9 @@ export class VocabularyStatsService {
     };
   }
 
-  clearAllStats(): void {
+  async clearAllStats(): Promise<void> {
     this.stats.set(new Map());
-    this.storageService.removeItem(this.STORAGE_KEY);
+    await this.storageService.removeItem(this.STORAGE_KEY);
   }
 
   private getKey(english: string): string {

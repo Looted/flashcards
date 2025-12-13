@@ -139,19 +139,19 @@ export class FreemiumService {
   }
 
   // Persistent tracking methods for analytics (kept for historical tracking)
-  private getWordsPlayedCount(): number {
-    const count = this.storageService.getItem(this.STORAGE_KEY);
+  private async getWordsPlayedCount(): Promise<number> {
+    const count = await this.storageService.getItem(this.STORAGE_KEY);
     return count ? parseInt(count, 10) : 0;
   }
 
-  private incrementWordsPlayed(count: number): void {
-    const current = this.getWordsPlayedCount();
-    this.storageService.setItem(this.STORAGE_KEY, (current + count).toString());
+  private async incrementWordsPlayed(count: number): Promise<void> {
+    const current = await this.getWordsPlayedCount();
+    await this.storageService.setItem(this.STORAGE_KEY, (current + count).toString());
   }
 
   // Analytics tracking - records word usage for free users
-  recordSessionWords(category: string, wordCount: number): void {
-    this.incrementWordsPlayed(wordCount);
+  async recordSessionWords(category: string, wordCount: number): Promise<void> {
+    await this.incrementWordsPlayed(wordCount);
   }
 
   // Check if user can start a new game (considering both exhaustion and session limits)
